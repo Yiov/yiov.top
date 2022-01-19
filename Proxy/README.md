@@ -24,10 +24,12 @@
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/pic/fofa-1.png)
 
-> 注：如果进来没有这个页面，说明没有搭建，找下一个即可
+
 
 
 这种就是搭建好了的，我们直接复制订阅，使用即可
+
+> 注：如果进来没有这个页面，说明没有搭建，找下一个即可
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/pic/fofa-2.png)
 
@@ -52,10 +54,10 @@
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/pic/zoomeye-1.png)
 
-> 注：如果进来没有这个页面，说明没有搭建，找下一个即可
-
 
 这种就是搭建好了的，我们直接复制订阅，使用即可
+
+> 注：如果进来没有这个页面，说明没有搭建，找下一个即可
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/pic/zoomeye-2.png)
 

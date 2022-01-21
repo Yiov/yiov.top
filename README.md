@@ -8,12 +8,12 @@
 
 * [圈X的使用]
 
-* [BoxJS的搭建]
+* [BoxJS的搭建](https://github.com/Yiov/notes/tree/main/boxjs)
 
-* [白嫖节点的正确姿势](https://ghproxy.com/https://github.com/Yiov/notes/tree/main/Proxy)
+* [白嫖节点的正确姿势](https://github.com/Yiov/notes/tree/main/Proxy)
 
 * [vpn软件的测试]
 
 * [机场的测试]
 
-* [H5ai的搭建]
+* [Halo博客搭建]

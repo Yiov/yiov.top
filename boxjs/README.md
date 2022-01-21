@@ -1,5 +1,8 @@
 ## BoxJs安装
 
+
+更新时间：2022-1-22
+
 BoxJs官网
 
 https://chavyleung.gitbook.io/boxjs/

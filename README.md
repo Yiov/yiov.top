@@ -16,4 +16,6 @@
 
 * [机场的测试]
 
+* [Socks5的搭建](https://github.com/Yiov/notes/tree/main/socks5)
+
 * [Halo博客搭建]

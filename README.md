@@ -6,7 +6,7 @@
 可能写也可能不写，随缘
 
 
-* [圈X的使用]
+* [圈X上手教程](https://github.com/Yiov/notes/tree/main/quantumultX)
 
 * [BoxJS的搭建](https://github.com/Yiov/notes/tree/main/boxjs)
 

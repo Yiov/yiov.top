@@ -23,7 +23,7 @@ https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
 
 主界面如下图都一一注明了，基本操作都是点按/长按/左滑/右滑动
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-1.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-1.png)
 
 
 
@@ -34,9 +34,10 @@ https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
 
 圈X的使用全程需要扶梯子，就顺道演示下如何用机场翻墙
 
-> 主要用于普及订阅知识，仅供机场参考，后续有条件换好点的
+> 主要用于普及订阅知识，机场仅供参考，后续有条件换好点的
 
 免费机场：iKUUU，注册就有50G
+
 官网：https://ikuuu.co/
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/IKUUU.png)
@@ -56,7 +57,7 @@ https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
 官网：https://dove.589669.xyz/web
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-2.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-2.png)
 
 
 
@@ -64,13 +65,13 @@ https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
 
 然后来到我们的圈X，点右下角风车-节点-引用（订阅）
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-3.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-3.png)
 
 
 标签随便，资源路径填我们**刚转换的订阅链接**，右上角保存即可
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-4.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-4.png)
 
 
 回到主界面，就能看到我们添加成功的节点了
@@ -91,7 +92,7 @@ https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
 
 点风车-下拉到底部，配置文件-编辑
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-5.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-5.png)
 
 
 在[general]下面粘贴资源解析器代码，右上角保存
@@ -100,14 +101,14 @@ https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
 
 资源解析器来源：https://github.com/KOP-XIAO/QuantumultX/
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-6.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-6.png)
 
 
 
 
 风车-节点-引用（订阅）-资源解析器的下方，有灰色介绍字体就说明成功了
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-7.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-7.png)
 
 
 只要是导入节点，都要开启开关，否则导入失败
@@ -144,7 +145,7 @@ Quantumult X共支持5种类型的格式：SS，SSR，VMess，HTTP(s)，Trojan
 > 引用（订阅）：支持ss、ssr订阅，以及圈X格式的vmess/https/trojan的订阅
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-8.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-8.png)
 
 
 * [白嫖节点的正确姿势](https://github.com/Yiov/notes/tree/main/Proxy)
@@ -153,7 +154,7 @@ Quantumult X共支持5种类型的格式：SS，SSR，VMess，HTTP(s)，Trojan
 自己找好用的机场或者免费分享节点的tg群都可以，演示一遍，粘贴订阅链接-开启资源解析器-保存
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-9.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-9.png)
 
 
 
@@ -166,7 +167,7 @@ Quantumult X共支持5种类型的格式：SS，SSR，VMess，HTTP(s)，Trojan
 相对复杂的知识，涉及到分流规则和策略组
 
 
-分流规则是为了让访问不同的网页或App，自动走不同的节点；策略组是为了把节点进行归类
+分流规则是为了访问不同的网页或App，自动走不同的节点；策略组是为了把节点进行归类
 
 那么问题来了，这么多策略组，我要如何写又如何归类，反正我第一次看到这里头都大了，一度想放弃，那就和我一样直接看5.4小白配置吧
 
@@ -177,14 +178,14 @@ Quantumult X共支持5种类型的格式：SS，SSR，VMess，HTTP(s)，Trojan
 
 * 一次添加一个规则，对应配置文件中的 [**filter_local**] 模块
 
-> 添加：不常用也不推荐，
+> 添加：不常用也不推荐
 
 * 一次添加多个规则，对应配置文件中的 [**filter_remote**] 模块
 
 > 引用（订阅）：灵活更细分，格式：*.list
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-10.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-10.png)
 
 
 
@@ -199,7 +200,7 @@ https://github.com/DivineEngine/Profiles/tree/master/Quantumult/Filter
 
 获取到list链接，粘贴到引用里即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-11.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-11.png)
 
 
 更多的规则，请自己挨个导入，另外在配置文件中可使用 force-policy 来强制使用策略偏好,如
@@ -234,12 +235,12 @@ https://github.com/DivineEngine/Profiles/tree/master/Quantumult/Filter
 
 风车-分流-引用，添加后主界面的节点变成了策略组的图标
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-12.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-12.png)
 
 
 长按这个策略组-编辑，进入组查看，根据需要添加，访问苹果走哪些节点
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-13.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-13.png)
 
 
 
@@ -249,26 +250,26 @@ https://github.com/DivineEngine/Profiles/tree/master/Quantumult/Filter
 主要是美化作用，喜欢折腾的可以弄，否则无视
 
 图片格式：*.PNG（透明背景）
+
 图片尺寸：108*108像素
 
 本地引用路径：我的iPhone/Quantumultx/Images
+
 远程引用路径：iCloud/Qantumult X/Images，需要在记得去quantumultX其他设置中开启iCloud
 
-名字要求：这里又分两种方式：
-1. 跟策略组同名，比如 Apple.PNG ，youtube.PNG ；
-2. 跟策略组不同名，在对应的策略组后写上图片链接，在[**policy**]模块添加，格式如：
+图片在对应的策略组后写上图片链接，在[**policy**]模块添加，格式如：
 
     static=YouTube,  节点1, 节点2 , 策略组1 , 策略组2 , img-url= https://raw.githubusercontent.com/crossutility/Quantumult-X/master/icon-samples/youtube.PNG
 
 
-制作icon图标的网站
+* 制作icon图标的网站
 
 icons8：https://igoutu.cn/icons/set/youtube
 
 阿里iconfont：https://www.iconfont.cn/
 
 
-收集一些好用的icon库
+* 收集一些好用的icon库
 
 https://github.com/Orz-3/mini
 
@@ -305,13 +306,13 @@ https://github.com/Koolson/Qure
 
 > 这里下载的是圈X的整个配置文件，会直接覆盖原配置
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-14.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-14.png)
 
 这里就替换了自己原先的配置文件了，主界面也清空了！
 
 我们重新把订阅节点添加进来，好使用
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-15.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-15.png)
 
 
 
@@ -320,14 +321,14 @@ https://github.com/Koolson/Qure
 > 如果之前安装过证书的，顺手删掉哈
 
 
-安装完成后，我们导入订阅节点，打开圈X开关，更新配置文件写好的
+安装完成后，我们导入订阅节点，打开圈X开关，全部更新
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-16.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-16.png)
 
 
 我们开启分流规则，就可以愉快的使用了
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-17.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-17.png)
 
 
 
@@ -339,10 +340,10 @@ https://github.com/Koolson/Qure
 
 * 引用：远程重写，对应配置文件中的[**rewrite_remote**]模块，格式*.conf
 
-这可能是最常用的功能了，去广告跑脚本这些
+这是很常用的功能了，去广告跑脚本这些
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-18.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-18.png)
 
 
 
@@ -353,25 +354,25 @@ https://github.com/Koolson/Qure
 
 打开 重写 和 MitM 开关，并生成证书
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-19.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-19.png)
 
 
 
 然后点配置证书-跳转浏览器 允许
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-20.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-20.png)
 
 
 设置-通用-描述文件与设备管理，找到圈X-安装
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-21.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-21.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-22.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-22.png)
 
 
 设置-通用-关于本机-证书信任设置
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-23.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-23.png)
 
 
 到这里，就完成了证书的安装
@@ -391,7 +392,7 @@ https://github.com/Koolson/Qure
 
 风车-配置文件 编辑，我们来这里粘贴
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-24.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-24.png)
 
 
 右上角跳转到 远程分流 [**filter_remote**] 添加，保存
@@ -403,12 +404,12 @@ https://github.com/Koolson/Qure
 
     http://limbopro.xyz/Adblock4limbo.conf, tag=毒奶特供, enabled=true
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-25.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-25.png)
 
 
 这样在重写界面，我们就能看到毒奶的脚本了
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-26.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-26.png)
 
 > 其他规则请参照脚本作者说明
 
@@ -417,10 +418,10 @@ https://github.com/Koolson/Qure
 
 ## 7.工具&分析
 
-来到了最后一项，好累，这个就是我们常见的用来跑js脚本
+这个就是我们常见的用来跑js脚本
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-27.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-27.png)
 
 
 ### 1.单脚本任务
@@ -434,27 +435,27 @@ https://github.com/Koolson/Qure
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-28.PNG)
 
-**注：如果这里已经有hostname了，就只复制主机名，添加在后面，用逗号隔开**
+**注：如果这里已经有hostname=了，就只复制主机名，添加在后面，用逗号隔开**
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-29.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-29.png)
 
 
 脚本里说打开网页获取CK，登录一次账号后再粘贴进入一次，即可获取
 
     https://home.m.jd.com/myJd/newhome.action
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-30.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-30.png)
 
 
 我们来运行看看，脚本往右滑，运行，查看
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-31.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-31.png)
 
 
 
 顺便讲一下界面
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-32.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-32.png)
 
 
 
@@ -467,7 +468,7 @@ https://github.com/Koolson/Qure
 
 > 这里一定要先加系统的，后面才能加其他大佬的
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-33.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-33.png)
 
 
 野比大佬  @NobyDa 我又来了
@@ -475,19 +476,19 @@ https://github.com/Koolson/Qure
     https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-34.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-34.png)
 
 
 这样我们就添加成功了，其他脚本可以按需添加。添加后再任务栏，右滑查看脚本，如何获取数据即可
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-35.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-35.png)
 
 
 
 有些多账号管理的可以用boxjs，最后说一下Cron表达式吧，看图，还不懂就度娘吧
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-36.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-36.png)
 
 
 
@@ -498,7 +499,7 @@ https://github.com/Koolson/Qure
 
 这里没啥好说的了，已经来来回回接触它几次了，看一下吧
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-37.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-37.png)
 
 
 就是圈X的核心配置文件了，关于其他设置里，开不开启开启iCloud，看个人喜好吧
@@ -506,10 +507,10 @@ https://github.com/Koolson/Qure
 > 开启iCloud，脚本都会在iCloud云盘，方便换设备了使用
 
 > 不开启，默认在我的iphone文件夹里，方便保存脚本。  
-本地使用可用Working Copy软件Fetch脚本，前提在我的iphone里建一个文件夹
+本地使用也可用Working Copy软件Fetch脚本，前提在我的iphone里建一个文件夹
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-37.PNG)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/quantumultX/pic/quantumultX-37.png)
 
 
 
@@ -533,6 +534,10 @@ https://github.com/Koolson/Qure
 * [@Orz-3](https://github.com/Orz-3/QuantumultX)「小白配置」
 
 * [@w37fhy](https://github.com/w37fhy/QuantumultX)「懒人配置」
+
+* [@Orz-3](https://github.com/Orz-3/mini)「Orz-3图标」
+
+* [@Koolson](https://github.com/Koolson/Qure)「Koolson图标」
 
 * [@limbopro](https://limbopro.com/)「毒奶」
 

@@ -3,6 +3,8 @@
 
 要问有什么用，用不上也就不会看了
 
+更新时间：2022-1-25
+
 
 ## Socks5官网地址
 
@@ -209,6 +211,11 @@ chkconfig ss5 on
 ```
 
 
+## 免费的在线Socks5
+
+稳定性肯定没有自己搭建好，临时用用
+
+https://www.proxy-list.download/SOCKS5
 
 
 

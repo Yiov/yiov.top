@@ -1,7 +1,7 @@
 ## BoxJs安装
 
 
-更新时间：2022-1-22
+更新时间：2022-1-25
 
 BoxJs官网
 
@@ -97,7 +97,7 @@ http://boxjs.com/
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-6.png)
 
 
-### 3.更该设置
+### 3.更改设置
 
 BoxJs > 应用(底栏) > 内置应用 > 偏好设置
 

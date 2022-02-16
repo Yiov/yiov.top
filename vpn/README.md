@@ -10,12 +10,9 @@
 
     这类app容易受到防火墙(Great Firewall，简称：GFW)封锁，也有可能要请去喝茶
 
-![](https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181204%2F86b842eb7b6648cca02e9254c751041d.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1644145498&t=5d9dfddd717d73b1b129cd0cec967f92)
 
 
-
-
-## 程序app类
+## ● 程序app类
 
 
 
@@ -28,11 +25,13 @@
 
 
 
-本来是个收费的app，但是我就没花过钱，不是拉人，而是手机被登录了别人的账号，掉了又自动换一个，我也蒙圈了，已经用了半年了，速度就很棒
+本来是个收费的app，但是我就没花过钱(不是拉人)，而是手机端点开启快连，就自动匹配了一个账号
+
+    而且掉了又自动换一个，我也蒙圈了，已经用了半年了，速度就很棒
 
 最初得知是在github里下载的，后来才知道有官网
 
-https://github.com/LetsGo666/LetsGo_1
+Github仓库：https://github.com/LetsGo666/LetsGo_1
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/vpn/pic/letsVPN-2.png)
 
@@ -67,7 +66,7 @@ https://github.com/LetsGo666/LetsGo_1
 
 
 
-## 浏览器插件类
+## ● 浏览器插件类
 
 如下载链接失效，请私信我
 

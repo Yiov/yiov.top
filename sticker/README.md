@@ -134,7 +134,7 @@ TG群的表情包贴纸应该是最多的，而且还可以自己制作上传，
 
 现在还只是完成了一个，那我们继续添加其他表情 输入 **/addsticker** ，选择我们刚创建的表情包名，接下来就是重复刚刚的步骤了
 
-> 菜单里有命令行点击就行
+> TG限制每个表情包都要有emoji对应，只能一张张添加
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-14.png)
 

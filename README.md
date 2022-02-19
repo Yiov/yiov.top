@@ -20,5 +20,5 @@
 
 * [Halo博客搭建]
 
-* [TG表情包下载]
+* [TG表情包下载与制作](https://github.com/Yiov/notes/tree/main/sticker)
 

@@ -1,11 +1,11 @@
-## 说明
+## :ocean: 科学上网/翻墙工具
 
 
-三步：软件、白嫖节点、转换订阅链接
+基本上任意一种就够用了，不用去追求最全
 
-## 1.软件及app
 
-### Clash
+## :computer: 电脑 Window
+
 
 * [Clash：PC端下载](https://github.com/Fndroid/clash_for_windows_pkg/releases)
 
@@ -25,29 +25,11 @@
 下载对应版本的app.asar文件，替换resources\app.asar中的文件
 ```
 
-* [ClashX：MAC端下载](https://github.com/yichengchen/clashX/releases)
-
-
-
-
-* [ClashX：安卓端下载](https://github.com/Kr328/ClashForAndroid/releases)
-
-
-
-### V2ray
 
 * [V2rayN：PC端下载](https://github.com/2dust/v2rayN/releases)
 
-* [V2rayN：MAC端下载](https://github.com/yanue/V2rayU/releases)
 
-* [V2rayN：安卓端下载](https://github.com/2dust/v2rayNG/releases)
-
-
-
-### Shadowsocks（简称SS）
-
-
-* [SS：PC端下载](https://github.com/shadowsocks/shadowsocks-windows/releases)
+* [Shadowsocks：PC端下载](https://github.com/shadowsocks/shadowsocks-windows/releases)
 
 ```
 电脑使用方法：
@@ -57,32 +39,108 @@
 2.鼠标右键状态栏-系统代理-PAC模式
 ```
 
-* [SS：MAC端下载](https://github.com/shadowsocks/ShadowsocksX-NG/releases/)
-
-* [SS：安卓端下载](https://github.com/shadowsocks/shadowsocks-android/releases)
-
-
-
-### ShadowsocksR(简称：SSR)
 
 * [SSR：PC端下载](https://github.com/shadowsocksr-rm/shadowsocksr-csharp/releases)
+
+
+
+* [浏览器插件·Hoxx VPN.crx](https://dzp.lanzouy.com/iQYUOxdtllc)
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/proxy/pic/hoxxvpn.png)
+
+
+
+* [浏览器插件·iGG谷歌学术助手.crx](https://dzp.lanzouy.com/igSY9xk2asd)
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/proxy/pic/iGuge.png)
+
+
+
+
+
+
+
+
+## :computer: 电脑 Mac
+
+* [ClashX：MAC端下载](https://github.com/yichengchen/clashX/releases)
+
+
+* [V2rayN：MAC端下载](https://github.com/yanue/V2rayU/releases)
+
+
+* [Shadowsocks：MAC端下载](https://github.com/shadowsocks/ShadowsocksX-NG/releases/)
+
+
+
+
+
+## :iphone: 安卓/Android
+
+
+
+
+* [ClashX：安卓端下载](https://github.com/Kr328/ClashForAndroid/releases)
+
+
+* [V2rayN：安卓端下载](https://github.com/2dust/v2rayNG/releases)
+
+
+* [Shadowsocks：安卓端下载](https://github.com/shadowsocks/shadowsocks-android/releases)
+
 
 * [SSR：安卓端下载](https://github.com/shadowsocksrr/shadowsocksr-android)
 
 
 
 
-### IOS专属
 
-shadowrocket(小火箭)、QuantumultX(圈X)，自己注册外区账号下载
+## :apple: 苹果/iPhone
+
+
+* [Shadowrocket·小火箭]
+
+* [QuantumultX·圈X]
 
 > 都要付费，圈X的日区的便宜
 
 
 
+## ● :cloud: VPN程序
+
+* [快连](https://www.soobn.cc/)
 
 
-## 2.白嫖免费节点
+本来是个收费的app，但是我就没花过钱(不是拉人)，而是手机端点开启快连，就自动匹配了一个账号
+
+    而且掉了又自动换一个，我也蒙圈了，已经用了半年了，速度就很棒
+
+最初得知是在github里下载的，后来才知道有官网
+
+Github仓库：https://github.com/LetsGo666/LetsGo_1
+
+
+
+* [小牛VPN](https://aoxvpn.com/)(说明：需要科学上网打开-_-||)
+
+
+* [极速pro](https://freequick.ml/)
+
+
+* [火箭加速器](https://www.rocket110.com/)
+
+
+
+
+
+
+
+
+
+
+
+
+## :dolphin: 如何白嫖免费节点
 
 通过爬虫去搜已经搭建好的节点，就能实现白嫖
 
@@ -92,16 +150,14 @@ shadowrocket(小火箭)、QuantumultX(圈X)，自己注册外区账号下载
 
 ### 免费分享
 
-微微一硬：https://3.weiwei.in/2020.html
-
-### FOFA搜索引擎（凉了）
-
-~官网：https://fofa.so/~
+* [微微一硬](https://3.weiwei.in/2020.html)
 
 
-### zoomeye 钟馗之眼
+* [FOFA搜索引擎](https://fofa.so/)（凉了）
 
-官网：https://www.zoomeye.org/
+
+* [zoomeye 钟馗之眼](https://www.zoomeye.org/)
+
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/pic/zoomeye.png)
 
@@ -122,7 +178,7 @@ shadowrocket(小火箭)、QuantumultX(圈X)，自己注册外区账号下载
 
 
 
-## 3.订阅节点转换
+## :recycle: 订阅节点转换
 
 有些订阅节点和机场格式，app不支持，我们就可以用链接转换
 
@@ -134,18 +190,19 @@ https://dove.589669.xyz/web
 
 
 
-## 测速网站
 
 
+## :zap: 测速网站
 
-霸气在线测速
-http://speed.june628.ml:7777/
-
-
-
-
-## 特别鸣谢:
-
-* [FOFA](https://fofa.so)「已凉了」
-* [zoomeye](https://www.zoomeye.org/)「钟馗之眼」
 * [霸气在线测速](http://speed.june628.ml:7777/)
+
+
+* [yumengya](http://hkst.666138.xyz)
+
+
+* [发薪日1](http://cs.brink.ga)
+
+
+* [发薪日2](http://sst.brink.ga)
+
+

@@ -218,6 +218,11 @@ chkconfig ss5 on
 https://www.proxy-list.download/SOCKS5
 
 
+## Socks5验证
+
+站大爷
+https://www.zdaye.com/ip/CheckSocks5/
+
 
 ## 特别鸣谢
 

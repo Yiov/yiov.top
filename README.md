@@ -10,9 +10,7 @@
 
 * [BoxJS的搭建](https://github.com/Yiov/notes/tree/main/boxjs)
 
-* [代理软件及白嫖节点](https://github.com/Yiov/notes/tree/main/Proxy)
-
-* [vpn软件](https://github.com/Yiov/notes/tree/main/vpn)
+* [翻墙软件及白嫖节点](https://github.com/Yiov/notes/tree/main/Proxy)
 
 * [机场的测试]
 
@@ -22,3 +20,4 @@
 
 * [TG表情包下载与制作](https://github.com/Yiov/notes/tree/main/sticker)
 
+* [TG好用机器人合辑]

@@ -20,4 +20,4 @@
 
 * [TG表情包下载与制作](https://github.com/Yiov/notes/tree/main/sticker)
 
-* [TG好用机器人合辑](https://hub.fastgit.xyz/Yiov/notes/tree/main/TGBot)
+* [TG好用机器人合辑](https://github.com/Yiov/notes/tree/main/TGBot)

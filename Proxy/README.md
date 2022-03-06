@@ -3,6 +3,12 @@
 
 基本上任意一种就够用了，不用去追求最全
 
+如何翻墙：
+
+1.VPN类软件可以直接代理访问，建议少用那种破解版
+
+2.工具类软件，需要配合节点代理访问
+
 
 ## :computer: 电脑 Window
 
@@ -91,6 +97,8 @@
 
 * [SSR：安卓端下载](https://github.com/shadowsocksrr/shadowsocksr-android)
 
+
+* [AnXray：安卓端下载](https://github.com/XTLS/AnXray/releases)
 
 
 

@@ -98,6 +98,8 @@
 ## :apple: 苹果/iPhone
 
 
+* [GreatVPN·美区ID免费](https://apps.apple.com/us/app/id1603206726)
+
 * [Shadowrocket·小火箭]
 
 * [QuantumultX·圈X]
@@ -183,9 +185,21 @@ Github仓库：https://github.com/LetsGo666/LetsGo_1
 有些订阅节点和机场格式，app不支持，我们就可以用链接转换
 
 
-https://sub.v1.mk/
+* [Shawn](https://dove.589669.xyz/web)
 
-https://dove.589669.xyz/web
+* [fengguo](https://sub.feng666.tk/)
+
+* [acl4ssr](https://acl4ssr-sub.github.io/)
+
+* [碧海](https://sub.bihai.cf/)
+
+* [Saraphine](https://sub.saraphine.cf/)
+
+* [cycxtit](https://subs.cycxtit.ga/)
+
+* [feiyang](https://subs.cycxtit.ga/)
+
+* [鲸歌](https://sub.tsutsu.cc/)
 
 
 

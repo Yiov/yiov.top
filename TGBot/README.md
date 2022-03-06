@@ -10,7 +10,9 @@
 
 * [@MissRose_bot](https://t.me/MissRose_bot)「人机验证」
 
-* [@userinfobot](https://t.me/userinfobot)「获取TG个人ID」
+* [@userinfobot](https://t.me/userinfobot)「获取TG个人ID1」
+
+* [@GetIDs Bot](https://t.me/getidsbot)「获取TG个人ID2」
 
 * [@keyworddel_bot](https://t.me/keyworddel_bot)「删群广告」
 
@@ -20,7 +22,7 @@
 
 * [@AntiChannelSpammersBot](https://t.me/AntiChannelSpammersBot)「反频道马甲」
 
-
+* [@TG_Catbox](https://t.me/CatboxUploaderBot)「上传文件到Catbox.moe」
 
 
 

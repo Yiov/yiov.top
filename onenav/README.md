@@ -88,12 +88,20 @@ OneNav是一款开源免费的书签（导航）管理程序，由xiaoz使用使
 
 
 
-将文件类的config.simple.php，更名为config.php，然后移动到date目录下
+将文件类的 `config.simple.php`，更名为 `config.php`，然后移动到date目录下
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-7.png)
 
 
 鼠标右键编辑打开文件，修改站点信息，画圈的位置都是可以改的，其他不要动
+
+这里推荐使用 `baisuTwo` 的主题
+
+    define('TEMPLATE','default');
+    
+    修改为：
+
+    define('TEMPLATE','baisuTwo');
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-8.png)
 
@@ -126,4 +134,4 @@ http://域名/index.php?c=login
 * [@小z博客](https://www.xiaoz.me/)
 
 
-
+* [@baisuTwo](https://gitee.com/baisucode/baisu-two)

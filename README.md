@@ -16,7 +16,7 @@
 
 * [Socks5的搭建](https://github.com/Yiov/notes/tree/main/socks5)
 
-* [Halo博客搭建]
+* [Onenav的搭建](https://github.com/Yiov/notes/tree/main/onenav)
 
 * [TG表情包下载与制作](https://github.com/Yiov/notes/tree/main/sticker)
 

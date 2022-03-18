@@ -189,25 +189,102 @@ halohub/halo:latest
 
 ## 6.设置SSL
 
-可以用宝塔，也可以用服务器的
+可以用宝塔的，也可以用服务器的，以腾讯服务器为例
 
+> SSL证书可以实现加密传输，也可以消除不安全网站提示
 
-
-
-## 7.访问域名
-
-成功进入安装引导界面，自行填写信息即可
+搜索SSL证书进入，申请免费证书
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-6.png)
 
 
-
-
-后台登录
-
-http://域名/admin
-
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-7.png)
+
+填写域名信息，即可申请成功后，下载Nginx格式
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-8.png)
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-9.png)
+
+
+宝塔网站-域名-SSL-其他证书，这里需要KEY和PEM，我们从下载的安装包里找到对应文件，记事本方式打开复制粘贴进去，保存
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-10.png)
+
+
+
+## 7.修改配置文件
+
+
+宝塔网站-域名-配置文件，把下面这一段加在第一行
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-11.png)
+
+
+> 8090为运行端口
+
+```
+upstream halo {
+    server 127.0.0.1:8090;
+}
+```
+
+
+
+下拉找到location，修改成为下面这样
+
+```
+location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+{
+    proxy_pass http://halo;
+    expires      30d;
+    error_log /dev/null;
+    access_log off;
+}
+```
+
+```
+location ~ .*\.(js|css)?$
+{
+    proxy_pass http://halo;
+    expires      12h;
+    error_log /dev/null;
+    access_log off; 
+}
+```
+
+然后在js|css下方，access_log之上添加这一整段，保存即可
+
+```
+location / {
+    proxy_pass http://halo;
+    proxy_set_header HOST $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+}
+```
+
+参考示例如图
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-12.png)
+
+
+
+
+## 7.访问域名并安装
+
+访问域名成功进入安装引导界面，自行填写信息即可
+
+> 这里的账密是后台登录用的，自己记好
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-13.png)
+
+
+
+后台登录：http://域名/admin
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-14.png)
 
 
 
@@ -218,11 +295,11 @@ http://域名/admin
 
 https://halo.run/themes.html
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-15.png)
 
 启用上传的主题包即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-16.png)
 
 更新方法也是一样
 

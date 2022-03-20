@@ -3,6 +3,8 @@
 
 初识TG，就接触这些，使用方式就不说了
 
+* [@BotFather](https://t.me/BotFather)「消息推送」
+
 * [@GitHubBot](https://t.me/GitHubBot)「github回复」
 
 * [@beanvpnbot](https://t.me/beanvpnbot)「TG代理」

@@ -12,7 +12,7 @@
 
 * [翻墙软件及白嫖节点](https://github.com/Yiov/notes/tree/main/Proxy)
 
-* [机场的测试]
+* [机场的测试](https://github.com/Yiov/notes/tree/main/airports)
 
 * [Socks5的搭建](https://github.com/Yiov/notes/tree/main/socks5)
 

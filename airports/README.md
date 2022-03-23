@@ -5,9 +5,6 @@
 https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts/classifier
 
 
-合辑网站
-https://www.mjjloc.com/
-
 * 延迟测试软件：小火箭( - 表示未测未知)
 
 * 视频测试软件：youtube
@@ -21,6 +18,7 @@ https://www.mjjloc.com/
 
 | 机场 | 网址 | 起步套餐及限制 | 特色 | 网速 |
 | :-: | :-: | :-: | :-: | :-: |
+| 起点 | https://startmy.cc | 0/年；188G；10个设备 | 注册0元白嫖一年 | 很卡就对了 |
 | IKUUU | https://ikuuu.live/ | 10/月；300G；5个设备 | 注册送50G 每天签到随机送 | 白嫖流量延迟较高 |
 | 桔子云 | https://juziyun66.com/) | 11.9/月；100G；3个设备 | 注册送10G 每天签到随机送 | 没有节点 |
 
@@ -34,6 +32,7 @@ https://www.mjjloc.com/
 | 机场 | 网址 | 起步套餐及限制 | 特色 | 网速 |
 | :-: | :-: | :-: | :-: | :-: |
 | 可乐云 | https://my.kelecloud.xyz/ | 3.88/月；10G；- |  新户2天36G试用流量 | 40ms；1080P无压力 |
+| 不跑路的跑路云 | https://www.bpldply.xyz/ | 3.5/月；40G；1个设备 |  - | - |
 | 白月光 | https://bygcloud.com/ | 5/月；20G；5个设备 | 解锁媒体 | - |
 | 小白云 | https://poigvvv.xyz/ | 5/月；58G；2个设备 |  新户3天3G试用流量 | 87ms；4K无压力 |
 | 重云 | https://panel.cycloud.org/ | 5/月；300G；3个设备 | 1元适用/7元150G；注册需要邀请码：h6cFKlqd；内用免流混淆教程 | - |
@@ -41,11 +40,13 @@ https://www.mjjloc.com/
 | PandaCloud | https://panda-cloud.top/ | 6.6/月；128G；无限制 | 1.88试用6G | - |
 | Ayanami | https://ayanami.cloud/ | 7/月；50G；无限制 | 新户31天1G试用流量 | 试用节点油管均打不开 |
 | 速蛙云 | https://m.sw12.icu/ | 87/年；15G/月；无限制 | 新户充值1元 1天5G | - |
+| CHEAPV2 | https://cv2.pw/ | 8/月；100G；5个设备 | - | - |
 | 一枝红杏 | https://yizhihongxing.network/ | 99/年；100G/月；5个设备 | 流媒体解锁 | - |
 | INSNOW | https://insnow.co/ | 9.99/月；128G；无限制 | 新户1天2G试用流量 | 40ms；4K无压力 |
 | 阿伟云 | http://awsl.shop | 10/月；128G；无限制 | 解锁迪士尼，tiktok等流媒体；有1元试用5G套餐 | - |
 | Fast Fish | https://fast-fish.online/ | 10/月；128G；3个设备 | - | - |
 | 好家伙 | http://haojiahuo2.live/ | 10/月；110G；2个设备 | 流媒体解锁 | - |
+| prprCloud | https://console.prprcloud.moe/ | 10/月；50G；1个设备 | 流媒体解锁 | - |
 |   |
 | GLaDOS | https://glados.rocks/ | 11/月；200G；3个设备 | 新户3天5G试用流量 | 38ms；2K稳定 |
 | Bitz Net | https://ca.bitznet.app/ | 38.99/季；80G/月；无限制 | 新户3天3G试用流量 | 42ms；2K无压力 |
@@ -59,6 +60,7 @@ https://www.mjjloc.com/
 | 班机 | https://gatern.com/ | 20/月；120G；无限制 | 流媒体解锁 | - |
 | Texon | https://texon.io/ | 60/季；50G/；- | 流媒体解锁 | - |
 |   |
+| 管人痴 云 | https://xn--gmq396grzd.com/ | 24.99/月；204.8G；无限制 | 新户注册送1G，每天签到随机 | - |
 | 兄弟永远的神 | https://xdmyyds.com/ | 25/月；200G；4个设备 | 支持奈非、迪士尼等流媒体 | - |
 | EXFULX | https://flexlinex.com/ | 25/月；150G；5个设备 | - | - |
 | Nerwo-Nerworks | https://dashboard.eleven.observer/ | 27/月；90G；3个设备 | 较少节点解锁流媒体 | - |
@@ -83,7 +85,6 @@ https://www.mjjloc.com/
 | 闪电 | https://sdyun.cc/ | 5/月；120G；2个设备 | 新户注册送10G | 47ms；4K无压力 |
 | 几鸡 | https://b.luxury/ | 5/月；300G；2个设备 | - | - |
 | 澜云 | https://ep.0318.cyou/ | 7/月；80G；无限制 | 新户注册送8G | - |
-| prprCloud | https://console.prprcloud.moe/ | 10/月；50G；1个设备 | 流媒体解锁 | - |
 | 泡芙云 | https://www.paofu.cloud/ | 10/月；50G；2个设备 | 新户1元10G体验3天；签到随机 | - |
 |  |
 | 极客云 | https://jike138.com/ | 11.9/月；100G；3个设备 | 每天签到随机 | - |

@@ -41,31 +41,43 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | 不跑路的跑路云 | https://www.bpldply.xyz/ | 3.5/月；40G；1个设备 |  - | - |
 | Coudlink | https://cloudlink123.com/ | 3.99/月；1024G；- |  新户30天16G试用流量 | 各种超时 |
 | 白月光 | https://bygcloud.com/ | 5/月；20G；5个设备 | 解锁媒体 | - |
+| 速凛云 | https://mfyun.org/ | 5/月；50G；3个设备 | 峰值30Mbps | - |
 | 小白云 | https://poigvvv.xyz/ | 5/月；58G；2个设备 |  新户3天3G试用流量 | 87ms；4K无压力 |
 | 重云 | https://panel.cycloud.org/ | 5/月；300G；3个设备 | 1元适用/7元150G；注册需要邀请码：h6cFKlqd；内用免流混淆教程 | - |
 | 大讯云 | https://daxun.club/ | 5/月；50G；2个设备 | 新户3G试用流量 | 30ms；4K无压力 |
 |   |
+| 懂的都懂 | https://dddd.cool/ | 5.8；100G；无限制 |  可以按量买 | - |
 | EEVPN | https://www.eevpn.xyz | 5.99/月；100G；无限制 |  用量少的可以买9.9/年 15G套餐 | - |
 | 蘑菇云 | https://1mgy.com/ | 6/月；50G；无限制 | 1元试用1G | - |
+| 飞云 | https://fyun.ml/ | 6/月；60G；3个设备 | 峰值30Mbps | - |
+| 开摆云 | https://shop.ling-car.com/ | 6.49；100G；- | 峰值300Mbps | - |
 | PandaCloud | https://panda-cloud.top/ | 6.6/月；128G；无限制 | 1.88试用6G | - |
 | Ayanami | https://ayanami.cloud/ | 7/月；50G；无限制 | 新户31天1G试用流量 | 试用节点油管均打不开 |
 | 速蛙云 | https://m.sw12.icu/ | 87/年；15G/月；无限制 | 新户充值1元 1天5G | - |
 | CHEAPV2 | https://cv2.pw/ | 8/月；100G；5个设备 | - | - |
 | 一枝红杏 | https://yizhihongxing.network/ | 99/年；100G/月；5个设备 | 流媒体解锁 | - |
 | Alink | https://alink123.com/ | 8.99/月；128G；无限制 | 新户7天32G试用流量 | 124ms；4K稳定 |
+| 叉燒雲 | https://chashao.shop/ | 8.99/月；100G；无限制 | 新户5天5G试用流量 | 试用282ms；延迟略高 |
 | INSNOW | https://insnow.co/ | 9.99/月；128G；无限制 | 新户1天2G试用流量 | 40ms；4K无压力 |
+| 辣条 | https://latiao.club/ | 9.99/月；90G；- | - | - |
+| 土拨鼠 | https://tuboshu.live/ | 9.99/月；95G；3个设备 | - | - |
+| 彗星 | https://huixing.online/ | 9.99/月；100G；3个设备 | 峰值200Mbps | - |
 | 阿伟云 | http://awsl.shop | 10/月；128G；无限制 | 解锁迪士尼，tiktok等流媒体；有1元试用5G套餐 | - |
 | Fast Fish | https://fast-fish.online/ | 10/月；128G；3个设备 | - | - |
 | 好家伙 | http://haojiahuo2.live/ | 10/月；110G；2个设备 | 流媒体解锁 | - |
 | prprCloud | https://console.prprcloud.moe/ | 10/月；50G；1个设备 | 流媒体解锁 | - |
+| 魔戒 | https://www.mojie.me/ | 10；130G；无限制 | 一次性流量不限时间 | - |
 |   |
 | 火云 | https://88huoyun.com/ | 10.99/月；100G；无限制 | 可以买49.99永久流量包300G | - |
 | GLaDOS | https://glados.rocks/ | 11/月；200G；3个设备 | 新户3天5G试用流量 | 38ms；2K稳定 |
-| 桔子云 | https://juziyun66.com/) | 11.9/月；100G；3个设备 | 55Mbps | - |
+| 桔子云 | https://juziyun66.com/ | 11.9/月；100G；3个设备 | 55Mbps | - |
+| 放心云 | https://speed17.com/ | 11.9/月；100G；3个设备 | 全解锁Netflix|HBO|HULU等流媒体 | - |
 | 奈云 | https://naiun.cc/ | 12/月；120G；5个设备 | 新户3天5G试用流量 | 37ms；2K无压力 |
+| XFLASH | https://xflash.cc/ | 12/月；128G；无限制 | 流媒体解锁 | - |
 | Bitz Net | https://ca.bitznet.app/ | 38.99/季；80G/月；无限制 | 新户3天3G试用流量 | 42ms；2K无压力 |
 | 猪云 | https://zhucloud.xyz/ | 15/月；128G；无限制 | 解锁Netflix、Disney+、HBO Max、Hulu、Abema TV、动画疯 | - |
 | SP-SS | https://spss6.top/ | 15/月；100G；3个设备 | 解锁流媒体 | - |
+| MALIO | https://www.sufeiyun.win/ | 15/月；150G；2个设备 | 1元试用5G流量 | - |
 |   |
 | Project Si | https://portal.siseed.io/ | 50/季；50G/月；- | 解锁原生流媒体 | - |
 | Realnode | https://user.realnode.pro/ | 29.9$/年；50G/月；3个设备 | 解锁Netflix等 | - |

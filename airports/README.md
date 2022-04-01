@@ -22,6 +22,7 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | :-: | :-: | :-: | :-: | :-: |
 | 起点 | https://startmy.cc | 0/年；188G；10个设备 | 注册0元白嫖一年V2 | V2三个节点都可以，V1不行 120ms；720P无压力 |
 | IKUUU | https://ikuuu.live/ | 10/月；300G；5个设备 | 注册送50G 每天签到随机送 | 白嫖节点300ms；延迟稍高 |
+| 海马科技 | https://hmkj3.com/ | 3/月；101G；- | 注册送30G | 白嫖节点400ms；延迟高 |
 
 
 
@@ -75,6 +76,7 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | 奈云 | https://naiun.cc/ | 12/月；120G；5个设备 | 新户3天5G试用流量 | 37ms；2K无压力 |
 | XFLASH | https://xflash.cc/ | 12/月；128G；无限制 | 流媒体解锁 | - |
 | Bitz Net | https://ca.bitznet.app/ | 38.99/季；80G/月；无限制 | 新户3天3G试用流量 | 42ms；2K无压力 |
+| 极简 | https://www.wiougong.fun/ | 14.9/月；100G；3个设备 | 新户1天100M试用流量，签到随机送 | 4K无压力 |
 | 猪云 | https://zhucloud.xyz/ | 15/月；128G；无限制 | 解锁Netflix、Disney+、HBO Max、Hulu、Abema TV、动画疯 | - |
 | SP-SS | https://spss6.top/ | 15/月；100G；3个设备 | 解锁流媒体 | - |
 | MALIO | https://www.sufeiyun.win/ | 15/月；150G；2个设备 | 1元试用5G流量 | - |
@@ -84,6 +86,7 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | Flyint飞数 | https://www.flyint.cc/ | 18/月；150G；无限制 | 新户1天1G试用流量 | 39ms；4K无压力 |
 | 萌喵加速 | https://portal.meomiao.xyz/ | 220/年；60G/月；3个设备 | 解锁Netflix、Hulu、HBO | - |
 | 班机 | https://gatern.com/ | 20/月；120G；无限制 | 流媒体解锁 | - |
+| 牛牛 | https://xniuniu888.site/ | 20/月；300G；3个设备 | 流媒体解锁 | 4K无压力 |
 | Texon | https://texon.io/ | 60/季；50G/；- | 流媒体解锁 | - |
 |   |
 | 管人痴 云 | https://xn--gmq396grzd.com/ | 24.99/月；204.8G；无限制 | 新户注册送1G，每天签到随机 | - |

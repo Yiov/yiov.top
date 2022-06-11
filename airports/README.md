@@ -22,7 +22,8 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | I |
 | IKUUU | https://ikuuu.live/ | 10/月 | 300G | 5个设备 | 注册送50G 每天签到随机送；白嫖节点300ms；延迟稍高 | ★★★ |
-
+| P |
+| 泡泡Dog | https://www.paopao.dog/ | 9.88/月 | 138G | 无限制 | 注册送1年11G；可按量购买 | ★★★ |
 
 
 
@@ -67,9 +68,10 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | GLaDOS | https://glados.rocks/ | 11/月 | 200G | 3个设备 | 新户3天5G试用流量，38ms；2K稳定 | ★★★★ |
 | 果粒橙 | https://guolicheng.buzz/ | 3/月 | 1000G | 无限制 | 新户1天1G试用流量，305ms；延迟稍高  | ★★★ |
 | 管人痴 云 | https://xn--gmq396grzd.com/ | 24.99/月 | 204.8G | 无限制 | 新户注册送1G，每天签到随机 | ★★  |
+| GTA | https://ssssv2.xyz/ | 7/月 | 200G | 3个设备 | 流媒体解锁 | ★★  |
 | H |
 | 彗星 | https://huixing.online/ | 9.99/月 | 100G | 3个设备 | 峰值200Mbps | ★★★ |
-| 火云 | https://88huoyun.com/ | 10.99/月 | 100G | 无限制 | 可以买49.99永久流量包300G | ★★★ |
+| 火云/<br>闪速云 | https://88huoyun.com/ | 10.99/月 | 100G | 无限制 | 可以买49.99永久流量包300G | ★★★ |
 | 话啦啦 | http://v2ssy.xyz/ | 18/月 | 350G | 无限制 | 1元体验1G；55元100G，39ms；4K无压力 | ★★★ |
 | 好家伙 | http://haojiahuo2.live/ | 10/月 | 110G | 2个设备 | 流媒体解锁 | ★★ |
 | 海马科技 | https://hmkj3.com/ | 3/月 | 101G | - | 注册送30G，白嫖节点400ms；延迟高 | ★★ |
@@ -77,6 +79,7 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | INSNOW | https://insnow.co/ | 9.99/月 | 128G | 无限制 | 新户1天2G试用流量；40ms；4K无压力 | ★★★ |
 | J |
 | 极简 | https://www.wiougong.fun/ | 14.9/月 | 100G | 3个设备 | 新户1天100M试用流量，签到随机送，4K无压力 | ★★★ |
+| 加速猫 | https://jsmao.cloud/ | 15/月 | 1024G | 3个设备 | 新户30天100G试用流量，720P稳定；白嫖码：jsnzk | ★★★ |
 | 桔子云 | https://juziyun66.com/ | 11.9/月 | 100G | 3个设备 | 55Mbps | ★★ |
 | J20 Cloud | https://j20cloud.info/ | 3/月 | 60G | 2个设备 | - | ★★ |
 | JAFI | https://www.jafiyun.site/ | 25/35天 | 280G | 4个设备 | 注册送1天512M，4K稳定播放 | ★★ |
@@ -99,7 +102,7 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | 萌新云 | https://www.mxyssr.com/ | 15/月 | 200G | 限制 | 新户注册送100M，签到随机 | ★★ |
 | 觅云<br>(科学打开) | https://www.miyun.fun/ | 25/月 | 100G | 2个设备 | - | ★★ |
 | N |
-| 奈云 | https://naiun.cc/ | 12/月 | 120G | 5个设备 | 新户3天5G试用流量，37ms；2K无压力 | ★★★★ |
+| 奈云 | https://naiun.cc/ | 12/月 | 120G | 5个设备 | 新户3天5G试用流量，37ms；2K无压力；白嫖码：QLDK324 | ★★★★★ |
 | 牛牛 | https://xniuniu888.site/ | 20/月 | 300G | 3个设备 | 流媒体解锁，4K无压力 | ★★★★ |
 | Nerwo-Nerworks | https://dashboard.eleven.observer/ | 27/月 | 90G | 3个设备 | 较少节点解锁流媒体 | ★★ |
 | P |
@@ -113,6 +116,7 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | Realnode | https://user.realnode.pro/ | 29.9$/年 | 50G/月 | 3个设备 | 解锁Netflix等 | ★★ |
 | S |
 | 闪电<br>(科学打开) | https://sdyun.cc/ | 5/月 | 120G | 2个设备 | 新户注册送10G，47ms；4K无压力 | ★★★ |
+| 速云 | https://yooo.me/ | 13/月 | 300G | 2个设备 | 新户注册送10G，320ms；4K稳定 | ★★★ |
 | STC-SERVER | https://xbnfie4u6yjh3wye4zmr.stcserver-cloud.com/ | 385/年 | 500G/月 | 3个设备 | 首购返10；可按量买 | ★★ |
 | 速凛云 | https://mfyun.org/ | 5/月 | 50G | 3个设备 | 峰值30Mbps | ★★ |
 | SP-SS | https://spss6.top/ | 15/月 | 100G | 3个设备 | 解锁流媒体 | ★★ |
@@ -135,6 +139,7 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | XIXI<br>(科学打开) | https://xixi.ph/ | 12.5/月 | 100G | 2个设备 | 每日签到随机 | ★★ |
 | Y |
 | 一枝红杏 | https://yizhihongxing.network/ | 99/年 | 100G/月 | 5个设备 | 流媒体解锁 | ★★★ |
+| 勇敢猫猫 | https://698436.xyz/ | 3/月 | 18G/月 | 无限制 | 新户1天18G试用流量；720P稳定 | ★★★ |
 | 优云666 | https://youyun222.net/ | 11.9/月 | 100G | 3个设备 | 注册送10G，每天签到随机 | ★★ |
 | 云翼网络<br>(科学打开) | https://yypro.net/ | 22.8/月 | 88G | 4个设备 | - | ★★ |
 | Z |

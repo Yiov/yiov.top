@@ -3,7 +3,7 @@
 注意：国内服务器可能需要备案！可以考虑国外服务器
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo.png)
 
 
 
@@ -45,7 +45,7 @@
     wget https://dl.halo.run/config/application-template.yaml -O ./application.yaml
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-1.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-1.png)
 
 
 编辑配置文件，可以用下面命令，也可以用宝塔进目录/root/.halo修改
@@ -134,7 +134,7 @@ halo:
 
     docker pull halohub/halo:latest
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-2.png)
 
 
 ## 4.创建容器
@@ -159,7 +159,7 @@ halohub/halo:latest
 
 > --restart： 建议设置为 unless-stopped，在 Docker 启动的时候自动启动 Halo 容器
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-3.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-3.png)
 
 
 如果你想域名访问网站，请看完所有步骤！！！
@@ -177,12 +177,12 @@ halohub/halo:latest
 
 宝塔软件商店搜索`Nginx`并安装
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-4.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-4.png)
 
 
 网站-添加站点-输入域名，FTP 和 数据库均不创建数据库，PHP纯静态
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-5.png)
 
 
 
@@ -195,21 +195,21 @@ halohub/halo:latest
 
 搜索SSL证书进入，申请免费证书
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-6.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-6.png)
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-7.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-7.png)
 
 填写域名信息，即可申请成功后，下载Nginx格式
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-8.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-9.png)
 
 
 宝塔网站-域名-SSL-其他证书，这里需要KEY和PEM，我们从下载的安装包里找到对应文件，记事本方式打开复制粘贴进去，保存
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-10.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-10.png)
 
 
 
@@ -218,7 +218,7 @@ halohub/halo:latest
 
 宝塔网站-域名-配置文件，把下面这一段加在第一行
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-11.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-11.png)
 
 
 > 8090为运行端口
@@ -267,7 +267,7 @@ location / {
 
 参考示例如图
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-12.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-12.png)
 
 
 
@@ -278,13 +278,13 @@ location / {
 
 > 这里的账密是后台登录用的，自己记好
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-13.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-13.png)
 
 
 
 后台登录：http://域名/admin
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-14.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-14.png)
 
 
 
@@ -295,11 +295,11 @@ location / {
 
 https://halo.run/themes.html
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-15.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-15.png)
 
 启用上传的主题包即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/images/halo-16.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-16.png)
 
 更新方法也是一样
 

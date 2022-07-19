@@ -39,7 +39,7 @@
 
 * [安装宝塔面板]
 
-* [wordpress的搭建]
+* [wordpress的搭建](https://github.com/Yiov/notes/tree/main/wordpress)
 
 * [WebStack导航的搭建]
 

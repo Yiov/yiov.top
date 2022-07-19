@@ -8,7 +8,7 @@ BoxJs官网
 https://chavyleung.gitbook.io/boxjs/
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs.png)
 
 
 > 我这里只有圈X，就只演示圈X了，其他的按照它的步骤即可
@@ -16,7 +16,7 @@ https://chavyleung.gitbook.io/boxjs/
 
 圈X的安装有3个方式，我们按推荐的来
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-1.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-1.png)
 
 
 
@@ -30,9 +30,9 @@ https://chavyleung.gitbook.io/boxjs/
 
 风车 > 工具&分析> HTTP Backend > 添加
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-2.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-3.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-3.png)
 
 
 ### 2.填写信息
@@ -52,7 +52,7 @@ https://chavyleung.gitbook.io/boxjs/
 
 我们就用稳定版即可，填完信息保存并打开HTTP Backend开关，最后更新一下
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-4.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-4.png)
 
 
 ### 3.访问地址
@@ -75,9 +75,9 @@ http://boxjs.com/
 
 风车 > 重写 > 引用
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-2.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-5.png)
 
 
 
@@ -94,7 +94,7 @@ http://boxjs.com/
 
 我们就用稳定版即可，填完信息保存，最后更新一下
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-6.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-6.png)
 
 
 ### 3.更改设置
@@ -106,7 +106,7 @@ BoxJs > 应用(底栏) > 内置应用 > 偏好设置
     http://127.0.0.1:9999
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-7.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-7.png)
 
 
 
@@ -115,9 +115,9 @@ BoxJs > 应用(底栏) > 内置应用 > 偏好设置
 
 网页进入BoxJs-底部分享-添加到主屏幕即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-8.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/pic/boxjs-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/boxjs/boxjs-9.png)
 
 
 

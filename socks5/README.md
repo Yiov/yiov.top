@@ -15,7 +15,7 @@ http://ss5.sourceforge.net/
 http://sourceforge.net/projects/ss5/files/
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5.png)
 
 
 
@@ -25,7 +25,7 @@ http://sourceforge.net/projects/ss5/files/
     yum -y install gcc make automake pam-devel openldap-devel openssl-devel cyrus-sasl-devel
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-1.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-1.png)
 
 
 
@@ -34,7 +34,7 @@ http://sourceforge.net/projects/ss5/files/
 
     wget http://downloads.sourceforge.net/project/ss5/ss5/3.8.9-8/ss5-3.8.9-8.tar.gz
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-2.png)
 
 
 
@@ -51,7 +51,7 @@ http://sourceforge.net/projects/ss5/files/
 
 > tar注解：-x解压指令；-z解压/压缩gzip；-v过程显示文件；-f 使用文档名
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-3.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-3.png)
 
 
 
@@ -64,7 +64,7 @@ http://sourceforge.net/projects/ss5/files/
     ./configure && make
     make install
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-4.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-4.png)
 
 
 > 前面步骤不对，这里就会报错
@@ -81,7 +81,7 @@ http://sourceforge.net/projects/ss5/files/
 
     vim /etc/opt/ss5/ss5.conf
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-5.png)
 
 
 ### 5.1不设置密码
@@ -90,7 +90,7 @@ http://sourceforge.net/projects/ss5/files/
 
     auth 0.0.0.0/0 - -
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-6.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-6.png)
 
 
 在line 203用`DEL键`删掉注释#号
@@ -98,7 +98,7 @@ http://sourceforge.net/projects/ss5/files/
     permit - 0.0.0.0/0 - 0.0.0.0/0 - - - - -
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-7.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-7.png)
 
 
 > 修改好后，`ESC键`，然后`:wq`+`回车键`保存并退出
@@ -121,7 +121,7 @@ http://sourceforge.net/projects/ss5/files/
 
     vim /etc/opt/ss5/ss5.passwd
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-8.png)
 
 
 用户名和密码中间用空格隔开,一行一个账密
@@ -136,7 +136,7 @@ http://sourceforge.net/projects/ss5/files/
 
     vim /etc/sysconfig/ss5
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-9.png)
 
 
 
@@ -155,7 +155,7 @@ http://sourceforge.net/projects/ss5/files/
     firewall-cmd --zone=public --add-port=1080/tcp --permanent
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-10.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-10.png)
 
 
 
@@ -165,7 +165,7 @@ http://sourceforge.net/projects/ss5/files/
 
     chmod a+x /etc/init.d/ss5
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/pic/ss5-11.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/socks5/ss5-11.png)
 
 
 不开权限启动会报错

@@ -4,10 +4,10 @@
 
 刚开始看到这类网站，就比较喜欢，一为又要收费，后来发现github开源了，就开始折腾。从来没有建过站，只能一步步摸索
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav.png)
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/baisu.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/baisu.png)
 
 
 
@@ -42,7 +42,7 @@ OneNav是一款开源免费的书签（导航）管理程序，由xiaoz使用使
 
 > 我用的VM虚拟机演示，如果也想本地调试的，在C:\Windows\System32\drivers\etc\hosts文件，鼠标右键打开，将你的内网IP添加到里面，例：192.168.2.10 alibaba.com(虚拟机里域名随便打)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-1.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-1.png)
 
 
 
@@ -50,9 +50,9 @@ OneNav是一款开源免费的书签（导航）管理程序，由xiaoz使用使
 
 > 数据库的名称和密码是自动生成的，自己记一下就行
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-2.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-3.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-3.png)
 
 
 
@@ -61,7 +61,7 @@ OneNav是一款开源免费的书签（导航）管理程序，由xiaoz使用使
 我们访问域名，就会提示站点创建完成
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-4.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-4.png)
 
 
 
@@ -79,19 +79,19 @@ OneNav是一款开源免费的书签（导航）管理程序，由xiaoz使用使
     https://ghproxy.com/https://github.com/helloxz/onenav/archive/refs/tags/0.9.16.zip
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-5.png)
 
 
 下载完成后，解压，然后再删除这个压缩包，进文件夹把里面所有文件剪切到域名目录下
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-6.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-6.png)
 
 
 
 将文件类的 `config.simple.php`，更名为 `config.php`，然后移动到date目录下
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-7.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-7.png)
 
 
 鼠标右键编辑打开文件，修改站点信息，画圈的位置都是可以改的，其他不要动
@@ -104,16 +104,16 @@ OneNav是一款开源免费的书签（导航）管理程序，由xiaoz使用使
 
     define('TEMPLATE','baisuTwo');
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-8.png)
 
 
 刷新我们的网站，即可登录后台，域名访问也有了页面
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-9.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-10.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-10.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/images/onesav-11.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/onenav/onesav-11.png)
 
 
 

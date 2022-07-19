@@ -52,13 +52,13 @@
 
 * [浏览器插件·Hoxx VPN.crx](https://dzp.lanzouy.com/iQYUOxdtllc)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/proxy/pic/hoxxvpn.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/proxy/hoxxvpn.png)
 
 
 
 * [浏览器插件·iGG谷歌学术助手.crx](https://dzp.lanzouy.com/igSY9xk2asd)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/proxy/pic/iGuge.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/proxy/iGuge.png)
 
 
 
@@ -118,31 +118,12 @@
 
 ## ● :cloud: VPN程序
 
-* [快连](https://www.soobn.cc/)
 
-
-本来是个收费的app，但是我就没花过钱(不是拉人)，而是手机端点开启快连，就自动匹配了一个账号
-
-    而且掉了又自动换一个，我也蒙圈了，已经用了半年了，速度就很棒
-
-最初得知是在github里下载的，后来才知道有官网
-
-Github仓库：https://github.com/LetsGo666/LetsGo_1
-
-
-
-* [小牛VPN](https://aoxvpn.com/)(说明：需要科学上网打开-_-||)
-
+* [白鲸加速器](https://www.bjchuhai.com/)
 
 * [极速pro](https://freequick.ml/)
 
-
-* [火箭加速器](https://www.rocket110.com/)
-
-
-
-
-
+* [小牛VPN](https://aoxvpn.com/)(说明：需要科学上网打开-_-||)
 
 
 
@@ -158,31 +139,33 @@ Github仓库：https://github.com/LetsGo666/LetsGo_1
 
 >  还有些TG群会分享免费的，也是可以的
 
+
+
 ### 免费分享
 
 * [微微一硬](https://3.weiwei.in/2020.html)
 
 
-* [FOFA搜索引擎](https://fofa.so/)（凉了）
+* ~[FOFA搜索引擎](https://fofa.so/)（凉了）~
 
 
 * [zoomeye 钟馗之眼](https://www.zoomeye.org/)
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/pic/zoomeye.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/zoomeye.png)
 
 搜索title:"Free Proxies"，点黑色小箭头进去
 
     title:"Free Proxies"
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/pic/zoomeye-1.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/zoomeye-1.png)
 
 
 这种就是搭建好了的，我们直接复制订阅，使用即可
 
 > 注：如果进来没有这个页面，说明没有搭建，找下一个即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/pic/zoomeye-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Proxy/zoomeye-2.png)
 
 
 
@@ -216,15 +199,6 @@ Github仓库：https://github.com/LetsGo666/LetsGo_1
 
 ## :zap: 测速网站
 
-* [霸气在线测速](http://speed.june628.ml:7777/)
-
-
-* [yumengya](http://hkst.666138.xyz)
-
-
-* [发薪日1](http://cs.brink.ga)
-
-
-* [发薪日2](http://sst.brink.ga)
+* [挂的比较快·暂无]
 
 

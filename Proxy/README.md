@@ -50,7 +50,7 @@
 
 
 
-* [浏览器插件·Hoxx VPN.crx](https://dzp.lanzouy.com/iQYUOxdtllc)
+* [浏览器插件·Hoxx VPN.crx](https://dzp.lanzouy.com/ih2uz052glwh)
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/proxy/hoxxvpn.png)
 

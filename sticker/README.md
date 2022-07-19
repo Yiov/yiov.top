@@ -17,34 +17,34 @@ TG群的表情包贴纸应该是最多的，而且还可以自己制作上传，
 然后 点**开始**，再点击 **/newpack**，提示上限200张
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-1.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-1.png)
 
 
 再点输入框旁的贴纸，再点齿轮
 
 > 如果只想下某一个，直接发送表情包即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-2.png)
 
 
 我这里以 冰墩墩和铁憨憨 为例
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-3.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-3.png)
 
 
 拷贝链接，然后把链接发到对话框里
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-4.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-4.png)
 
 
 
 左下角**菜单**，再点**/finish**,等待打包完成即可，自行下载解压，怎么用就不用教了吧
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-5.png)
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-6.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-6.png)
 
 
 > 查看贴纸
@@ -65,17 +65,17 @@ TG群的表情包贴纸应该是最多的，而且还可以自己制作上传，
 
 > 如果只想下某一个，直接发送表情包即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-7.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-7.png)
 
 
 拷贝表情包的链接，然后把链接发到对话框里
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-8.png)
 
 
 等打包完成即可，默认3个尺寸：128px、256px、512px。建议用512px，图片大点好看一些
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-9.png)
 
 
 
@@ -103,14 +103,14 @@ TG群的表情包贴纸应该是最多的，而且还可以自己制作上传，
 
 我们先看了解一下界面
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-10.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-10.png)
 
 
 点击 **/newpack**，它让我们给表情包取一个名字，可以是中文，后期不可更改
 
 > 这里提示我们尺寸要512px的，或者更小，已经弄好的不用看了
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-11.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-11.png)
 
 
 
@@ -118,7 +118,7 @@ TG群的表情包贴纸应该是最多的，而且还可以自己制作上传，
 
 > 注意：限制一张图对应一个emoji，所以不能批量传，当你输入一个emoji可以触发这个表情包
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-12.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-12.png)
 
 
 
@@ -127,7 +127,7 @@ TG群的表情包贴纸应该是最多的，而且还可以自己制作上传，
 
 > 点击链接添加贴纸，才可以添加使用，也可以把链接发给朋友使用
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-13.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-13.png)
 
 
 
@@ -136,14 +136,14 @@ TG群的表情包贴纸应该是最多的，而且还可以自己制作上传，
 
 > TG限制每个表情包都要有emoji对应，只能一张张添加
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-14.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-14.png)
 
 
 然后点击 **/done** 即可，这样我们就添加好了，陆续完成其他的即可
 
 > 表情不一定非要百分百和emoji对上，懒的话可以全部统一用一个emoji
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-15.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-15.png)
 
 
 
@@ -154,7 +154,7 @@ TG群的表情包贴纸应该是最多的，而且还可以自己制作上传，
 
     Yes, I am totally sure.
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/pic/sticker-16.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/sticker/sticker-16.png)
 
 
 

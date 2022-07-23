@@ -109,7 +109,7 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-8.png)
 
 
-端口根据你需求开放，不要全开，不安全
+端口根据你需求开放，不要全开，不安全，比如需要开放5700端口，添加规则，端口填5700即可
 
 > 来源默认都是`0.0.0.0/0`
 
@@ -146,7 +146,7 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-14.png)
 
 
-直接点快速添加解析，记录值填入我们服务器的公网IP即可。自动生成的`@`和`www`记录，无论是通过域名访问还是www就都可以访问了
+直接点`快速添加解析`，记录值填入我们服务器的`公网IP`即可。自动生成的`@`和`www`记录，无论是通过域名访问还是www就都可以访问了
 
 > 我这里添加了2个二级域名，即`hi`和`dh`，就是在域名前的前缀，如hi.yangpaifeng.com，需要几个自己添加就行了，免费的
 
@@ -181,6 +181,8 @@
 
 通过后就可以下载了，根据自己的需求下载相应的证书，因为我用的宝塔，我下载的Nginx
 
+> 还没安装宝塔的不用慌，后面会说到
+
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-20.png)
 
@@ -201,7 +203,7 @@
 
 ### 5.备案（可选）
 
-> 有些只是脚本调试，不建站的，可不用买，网站搭建好了再备案
+> 有些只是脚本调试，不建站的，可不用，网站搭建好了再备案
 
 控制台-云产品-网站备案，这个就没技巧而言了，按步骤实名即可
 
@@ -215,12 +217,6 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-24.png)
 
 
-
-
-## 千里之行，始于足下
-
-
-从来不鼓励知难而退，复杂也只是简单的集合体
 
 
 

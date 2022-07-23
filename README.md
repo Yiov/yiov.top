@@ -31,9 +31,7 @@
 <br />
 
 
-* [服务器的购买及使用]
-
-* [如何添加二级域名]
+* [服务器的购买及网站初成](https://github.com/Yiov/notes/tree/main/ECS)
 
 * [安装Xshell软件]
 
@@ -48,5 +46,7 @@
 * [Halo博客的搭建](https://hub.fastgit.xyz/Yiov/notes/tree/main/Halo)
 
 * [Onenav的搭建](https://github.com/Yiov/notes/tree/main/onenav)
+
+* [Alist网盘的搭建]
 
 </details>

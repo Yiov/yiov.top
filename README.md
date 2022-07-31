@@ -22,6 +22,10 @@
 
 * [TG好用机器人合辑](https://github.com/Yiov/notes/tree/main/TGBot)
 
+* [油猴安装及使用教程](https://github.com/Yiov/notes/tree/main/tampermonkey)
+
+* [微软Azure·云希语音使用教程](https://github.com/Yiov/notes/tree/main/Azure)
+
 </details>
 
 
@@ -32,6 +36,8 @@
 
 
 * [服务器的购买及网站初成](https://github.com/Yiov/notes/tree/main/ECS)
+
+* [虚拟机安装Linux系统]
 
 * [安装Xshell软件]
 

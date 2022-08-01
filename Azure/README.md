@@ -4,59 +4,66 @@
 
 我们来看看怎么使用
 
+直达：https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#features
+
+
+</br>
+</br>
 
 ## Azure
 
 微软Azure官网：https://www.azure.cn/
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-01.png)
 
 
 产品-AI-语音服务
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-02.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-3.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-03.png)
 
 
 进入页面后下拉，中间位置，找到**为应用提供语音**下的`详细了解文本转语音`
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-4.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-04.png)
 
 
 进入新页面后，下拉到底部就能看见了
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-05.png)
 
 
 我们音色选择云希，左边对话框打上你的台词，播放即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-6.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-06.png)
 
 
-直达：https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#features
-
+</br>
+</br>
+</br>
 
 
 ## 使用工具
 
 那么问题来了，只能听啊，不能下载
 
+</br>
 
 ### 1.QQ的屏幕录制（笨方法）
 
 适合懒人和台词量小的，默认的快捷键是`ctrl+alt+s`
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-7.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-07.png)
 
 
 随便拉个框了开始，再点播放录制完整语音，但是保存的是mp4需要我们单独提取一下音频即可使用
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-08.png)
 
 
-
+</br>
 
 
 
@@ -69,7 +76,7 @@
 完成安装后，我们还需要在[Greasy Fork](https://greasyfork.org/zh-CN)搜索安装`Azure`插件，据说这3个都好用，我们就选第一个安装吧
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-09.png)
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-10.png)
 
@@ -89,6 +96,8 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-13.png)
 
 
+</br>
+
 
 ### 3.吾爱微软语音合成助手.exe（推荐）
 
@@ -105,6 +114,7 @@ https://0436.lanzouf.com/b00vszz4j
 密码:52pj
 ```
 
+</br>
 
 
 ### 4.Edge-TTS-record工具

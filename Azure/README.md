@@ -63,15 +63,13 @@
 
 ### 2.油猴插件（推荐）
 
-不知道怎么安装的看[油猴安装及使用教程](https://github.com/Yiov/notes/tree/main/tampermonkey)
+* 未安装的看[油猴安装及使用教程](https://github.com/Yiov/notes/tree/main/tampermonkey)
 
 
-完成安装后，我们还需要在[Greasy Fork](https://greasyfork.org/zh-CN)搜索安装`Azure`插件
+完成安装后，我们还需要在[Greasy Fork](https://greasyfork.org/zh-CN)搜索安装`Azure`插件，据说这3个都好用，我们就选第一个安装吧
 
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-9.png)
-
-据说这3个都好用，我们就选第一个安装吧
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Azure/Azure-10.png)
 
@@ -92,7 +90,7 @@
 
 
 
-### 3.吾爱微软云因合成助手.exe（推荐）
+### 3.吾爱微软语音合成助手.exe（推荐）
 
 目前我使用的是1.3版本，生成字幕就很强
 
@@ -131,3 +129,7 @@ https://0436.lanzouf.com/b00vszz4j
 * [收藏猫](https://chrome.pictureknow.com/)
 
 * [Greasy Fork](https://greasyfork.org/zh-CN)
+
+* [微软语音合成助手](https://www.52pojie.cn/thread-1638928-1-1.html)
+
+* [Edge-TTS-record工具](https://github.com/LuckyHookin/edge-TTS-record/)

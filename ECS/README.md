@@ -28,7 +28,9 @@
 
 [Vultr](https://www.vultr.com/)
 
-
+</br>
+</br>
+</br>
 
 ## 演示步骤
 
@@ -42,7 +44,7 @@
 但是活动现在已结束了
 
 
-先进腾讯云官网：https://cloud.tencent.com/
+腾讯云官网：https://cloud.tencent.com/
 
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/tencent.png)
@@ -50,14 +52,14 @@
 
 服务器在产品里，`云服务器`或者`轻量服务器`，个人用轻量的比较便宜
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-1.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-01.png)
 
 
 轻量服务器这里进，有活动会便宜不少，新人的力度更大
 
 > 100-200左右一年，就不用挑了
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-02.png)
 
 
 
@@ -65,7 +67,7 @@
 
 > 懒人可以选集成好的镜像
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-3.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-03.png)
 
 
 
@@ -73,7 +75,8 @@
 
 
 
-
+</br>
+</br>
 
 ### 2.查看及使用服务器
 
@@ -82,17 +85,17 @@
 
 > 提示实名，就自己实名，不用演示吧
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-4.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-04.png)
 
 
 云产品-轻量应用服务器
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-05.png)
 
 
 这个就是你的服务器公网IP，别随意暴露给别人哦，以免被打
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-6.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-06.png)
 
 
 这里我们点更多-管理，简单说下服务器
@@ -101,23 +104,24 @@
 
 > 重置密码，不是腾讯的登录密码，是服务器的root密码
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-7.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-07.png)
 
 
 这就是服务器的管理页面了，平时用的最多的就是防火墙，用来开放端口
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-08.png)
 
 
 端口根据你需求开放，不要全开，不安全，比如需要开放5700端口，添加规则，端口填5700即可
 
 > 来源默认都是`0.0.0.0/0`
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-09.png)
 
 
 
-
+</br>
+</br>
 
 ### 3.域名（可选）
 
@@ -155,6 +159,8 @@
 
 
 
+</br>
+</br>
 
 ### 4.SSL证书（可选）
 
@@ -199,7 +205,8 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/ECS/ecs-22.png)
 
 
-
+</br>
+</br>
 
 ### 5.备案（可选）
 

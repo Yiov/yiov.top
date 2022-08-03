@@ -8,6 +8,8 @@
 
 
 
+</br>
+</br>
 
 ## 简介
 
@@ -22,6 +24,8 @@
 文档：https://docs.halo.run/
 
 
+</br>
+</br>
 
 ## 1.准备工作
 
@@ -32,7 +36,8 @@
 本文用docker安装，非docker安装需要安装java环境，[请参考此文](https://bbs.halo.run/d/312-halo/9)
 
 
-
+</br>
+</br>
 
 ## 2.创建目录并下载配置文件
 
@@ -45,7 +50,7 @@
     wget https://dl.halo.run/config/application-template.yaml -O ./application.yaml
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-1.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-01.png)
 
 
 编辑配置文件，可以用下面命令，也可以用宝塔进目录/root/.halo修改
@@ -54,6 +59,7 @@
 
     vim application.yaml
 
+</br>
 
 ### 2.1 配置：端口
 
@@ -62,6 +68,7 @@
     server:
       port: 8090
 
+</br>
 
 ### 2.2 配置：H2数据库
 
@@ -89,7 +96,7 @@ spring:
 
 > `h2` 的配置使用默认，如果需要手动修改请参考官方配置
 
-
+</br>
 
 ### 2.3 可选配置：Gzip压缩
 
@@ -101,6 +108,7 @@ spring:
     enabled: false
 ```
 
+</br>
 
 ### 2.4 可选配置：压缩
 
@@ -112,6 +120,7 @@ halo:
   admin-path: admin
 ```
 
+</br>
 
 ### 2.5 可选配置：缓存
 
@@ -126,7 +135,8 @@ halo:
   cache: memory
 ```
 
-
+</br>
+</br>
 
 
 ## 3.拉取 Halo 镜像
@@ -134,8 +144,11 @@ halo:
 
     docker pull halohub/halo:latest
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-2.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-02.png)
 
+
+</br>
+</br>
 
 ## 4.创建容器
 
@@ -159,7 +172,7 @@ halohub/halo:latest
 
 > --restart： 建议设置为 unless-stopped，在 Docker 启动的时候自动启动 Halo 容器
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-3.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-03.png)
 
 
 如果你想域名访问网站，请看完所有步骤！！！
@@ -171,21 +184,24 @@ halohub/halo:latest
     firewall-cmd --zone=public --add-port=8090/tcp --permanent
 
 
+</br>
+</br>
 
 
 ## 5.安装Nginx
 
 宝塔软件商店搜索`Nginx`并安装
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-4.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-04.png)
 
 
 网站-添加站点-输入域名，FTP 和 数据库均不创建数据库，PHP纯静态
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-05.png)
 
 
-
+</br>
+</br>
 
 ## 6.设置SSL
 
@@ -195,16 +211,16 @@ halohub/halo:latest
 
 搜索SSL证书进入，申请免费证书
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-6.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-06.png)
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-7.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-07.png)
 
 填写域名信息，即可申请成功后，下载Nginx格式
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-08.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-09.png)
 
 
 宝塔网站-域名-SSL-其他证书，这里需要KEY和PEM，我们从下载的安装包里找到对应文件，记事本方式打开复制粘贴进去，保存
@@ -212,6 +228,8 @@ halohub/halo:latest
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-10.png)
 
 
+</br>
+</br>
 
 ## 7.修改配置文件
 
@@ -270,6 +288,8 @@ location / {
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-12.png)
 
 
+</br>
+</br>
 
 
 ## 7.访问域名并安装
@@ -286,7 +306,8 @@ location / {
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Halo/halo-14.png)
 
-
+</br>
+</br>
 
 ## 8.更换主题
 
@@ -304,7 +325,8 @@ https://halo.run/themes.html
 更新方法也是一样
 
 
-
+</br>
+</br>
 
 
 ## 特别鸣谢

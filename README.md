@@ -45,7 +45,7 @@
 
 * [wordpress的搭建](https://github.com/Yiov/notes/tree/main/wordpress)
 
-* [WebStack导航的搭建]
+* [Webstack导航详细安装教程](https://github.com/Yiov/notes/tree/main/WebStack)
 
 * [Socks5的搭建](https://github.com/Yiov/notes/tree/main/socks5)
 

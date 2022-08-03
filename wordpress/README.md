@@ -4,8 +4,6 @@
 更新时间：2022-7-18
 
 
-初衷：本想做个导航网站玩玩，遇到了各种头大问题，建议跟我一样的小白，还是按照我的步骤弄完后，再学着建其他类型的网站，就容易上手了
-
 
 
 wordpress官网
@@ -21,54 +19,47 @@ https://cn.wordpress.org/
 ## 准备工作
 
 
-服务器1台、域名1个、网站模板、SSH远程终端、足够的耐心
+服务器1台、域名1个、SSH远程终端、足够的耐心
 
 
 > 老鸟直接看步骤，小白挨个了解清楚
 
+</br>
 
-1.服务器选择
+### 1.服务器
 
-挑便宜的买就好，我自己用的是[腾讯的轻量云服务器轻量无忧计划](https://cloud.tencent.com/act/lighthouse?fromSource=gwzcw.1293314.1293314.1293314)，旨在便宜，终身续费同价，阿里云的也可以，练手不需要太高配置
+挑便宜的买就好，不会买的参考教程[服务器购买及网站初成](https://github.com/Yiov/notes/tree/main/ECS)
 
 
 
-2.域名
+</br>
+
+### 2.域名
 
 越便宜越好，com后缀的贵，除非你看中喜欢的了就买com
 
-因为我已经有域名了，就不花钱买了，直接申请个[二级域名](https://www.baidu.com)即可
+因为我已经有域名了，就不花钱买了，直接申请个[二级域名](https://github.com/Yiov/notes/tree/main/ECS#3域名可选)即可
 
+</br>
 
-
-3.网站模板
-
-这里我使用的是[@Viggoz](https://github.com/WebStackPage/)大佬的`Webstack`导航模板
-
-仓库：https://github.com/WebStackPage/WebStackPage.github.io
-
-好看的都收费，虽然模板已经停更了，不过这个已经很棒了
-
-
-
-4.SSH远程终端
+### 3.SSH远程终端
 
 比较热门的就是国产的[FinalShell](http://www.hostbuf.com/)，而我这里使用的是[Xshell 7](https://www.netsarang.com/zh/all-downloads/)，轻巧不占内存就够了
 
 > 免费小技巧：进入页面后，下拉找到 家庭/学校免费，点击进入，填写邮箱，姓名随便，邮箱接收就可下载免费使用了
 
+</br>
 
-
-5.足够的耐心
+### 4.足够的耐心
 
 即便你因为觉得太繁琐暂时放弃了，但也请坚持做完，成功后你会豁然开朗
 
-
-
+</br>
+</br>
 
 ## 步骤
 
-
+</br>
 
 ### 1.下载Wordpress
 
@@ -83,7 +74,7 @@ https://cn.wordpress.org/
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-2.png)
 
 
-
+</br>
 
 ### 2.安装Xshell软件（已装的略）
 
@@ -91,7 +82,7 @@ https://cn.wordpress.org/
 
 待我单独写一篇吧，不然篇幅过长
 
-
+</br>
 
 ## 3.安装宝塔面板（已装的略）
 
@@ -100,7 +91,7 @@ https://cn.wordpress.org/
 待我单独写一篇吧，不然篇幅过长
 
 
-
+</br>
 
 ### 4.添加站点
 
@@ -123,7 +114,7 @@ https://cn.wordpress.org/
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-5.png)
 
 
-
+</br>
 
 ### 5.上传wordpress
 
@@ -150,6 +141,7 @@ https://cn.wordpress.org/
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-11.png)
 
 
+</br>
 
 ### 6.安装wordpress
 
@@ -190,29 +182,11 @@ https://cn.wordpress.org/
 
 
 
-### 7.搭建WebStack
-
-根据@Viggoz大佬的推荐，使用方法2搭建WebStack，需要用到[@owen0o0](https://github.com/owen0o0/)的版本
-
-项目地址：https://github.com/owen0o0/WebStack
-
-> 
-WordPress 4.4+
-WordPress 伪静态
-PHP 5.7+ 7.0+
-
-
-
-
-
 
 
 
 
 ## 特别鸣谢
 
-* [@Viggoz](https://github.com/WebStackPage/)
 
 * [@wordpress中国](https://cn.wordpress.org/)
-
-* [@owen0o0](https://github.com/owen0o0/WebStack)

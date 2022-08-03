@@ -7,7 +7,7 @@
 
 
 <details>
-<summary>软件使用</summary>
+<summary>翻墙相关</summary>
 <br />
 
 * [圈X上手教程](https://github.com/Yiov/notes/tree/main/quantumultX)
@@ -17,6 +17,15 @@
 * [翻墙软件及白嫖节点](https://github.com/Yiov/notes/tree/main/Proxy)
 
 * [机场大全收罗](https://github.com/Yiov/notes/tree/main/airports)
+
+
+</details>
+
+
+<details>
+<summary>日常使用</summary>
+<br />
+
 
 * [TG表情包下载与制作](https://github.com/Yiov/notes/tree/main/sticker)
 
@@ -29,9 +38,8 @@
 </details>
 
 
-
 <details>
-<summary>网站相关</summary>
+<summary>网站搭建</summary>
 <br />
 
 

@@ -11,7 +11,7 @@ wordpress官网
 https://cn.wordpress.org/
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-1.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-01.png)
 
 
 
@@ -71,8 +71,7 @@ https://cn.wordpress.org/
 
 > 下载完成后是一个压缩包
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-2.png)
-
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-02.png)
 
 </br>
 
@@ -98,20 +97,20 @@ https://cn.wordpress.org/
 
 进入宝塔面板后，点 网站-添加站点
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-3.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-03.png)
 
 
 域名填入你买的域名，FTP不创建，数据库MySQL，密码可以自己改的好记一点，提交
 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-4.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-04.png)
 
 
 这样站点就创建完成了
 
 > 要记一下，等会要用
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-5.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-05.png)
 
 
 </br>
@@ -120,21 +119,21 @@ https://cn.wordpress.org/
 
 文件-/www/wwwroot/dh.***.com，把里面的文件都删掉
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-6.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-06.png)
 
 
 上传下载好的wordpress压缩包，完成后右键解压
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-7.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-07.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-8.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-08.png)
 
 
 但是这样我们站点只有个文件夹，而不是整个wordpress的文件，我们进文件夹，把里面文件全部剪切出来
 
 > 事后记得删除空文件夹和压缩包哦
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-9.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-09.png)
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-10.png)
 

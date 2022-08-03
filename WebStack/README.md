@@ -38,6 +38,12 @@ webstack官网：https://webstack.cc/
 项目地址：https://github.com/owen0o0/WebStack
 
 
+把项目下载下来，或者直接用宝塔远程下
+
+```
+https://github.com/owen0o0/WebStack/archive/refs/tags/1.1620.zip
+```
+
 主页效果预览：http://webstack.iotheme.cn/
 
 > 与Viggoz的有一丢丢小区别，无碍
@@ -149,7 +155,7 @@ RewriteRule . /index.php [L]
 
 这里子级的图标不用选，因为不显示 ，**添加新网址目录**，回到网页刷新看看
 
-> 有二级菜单存在的情况，主页面不显示一级菜单名
+> 有二级菜单存在的情况，主页面有二级菜单就不显示一级菜单
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-13.png)
 
@@ -219,7 +225,7 @@ http://www.fontawesome.com.cn/icons-ui/
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-21.png)
 
-填入网站的网址，滑上去点 **发布** 即可
+填入网站的网址，描述，滑上去点 **发布** 即可
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-22.png)
 
@@ -231,9 +237,10 @@ http://www.fontawesome.com.cn/icons-ui/
 
 主题设置-常规设置-图标源
 
-> 设置好了，以后就不用管了
+> 这次设置好了，下次就不用管了
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-24.png)
+
 
 这里我们直接用[一为的api](https://api.iowen.cn/doc/favicon.html)，或者自己按他的源码搭建，图标源api后缀填`.png`，**保存**
 
@@ -241,11 +248,13 @@ http://www.fontawesome.com.cn/icons-ui/
 https://api.iowen.cn/favicon/
 ```
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-28.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-25.png)
+
 
 回到网页刷新看看，可以按步骤依次添加其他
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-26.png)
+
 
 
 
@@ -261,9 +270,11 @@ https://api.iowen.cn/favicon/
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-27.png)
 
 
+
 我们随便点一个网站进去
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-28.png)
+
 
 这个就是详情页
 
@@ -271,7 +282,7 @@ https://api.iowen.cn/favicon/
 
 
 
-如果不喜欢下方的相关导航，修改文件`wp-content/themes/WebStack-1.1620/single-sites.php`，删掉第111-146行，这样下面就干净了
+如果不喜欢下方的`相关导航`，修改文件`wp-content/themes/WebStack-1.1620/single-sites.php`，删掉第111-146行，这样下面就干净了
 
 :loudspeaker: 修改文件前，请先备份！
 
@@ -370,7 +381,8 @@ Copyright © <?php echo date('Y') ?>  <?php if(io_get_option('icp')) echo '<a hr
 
 `app-ico.png` 添加的网站fa图标，开启了api自动获取这个就不用管，原图尺寸180px*180px
 
-
+</br>
+</br>
 
 ## 特别鸣谢
 

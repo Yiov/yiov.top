@@ -63,4 +63,6 @@
 
 * [Alist网盘的搭建]
 
+* [Favicon图标api搭建]
+
 </details>

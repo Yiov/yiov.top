@@ -366,7 +366,7 @@ Copyright © <?php echo date('Y') ?>  <?php if(io_get_option('icp')) echo '<a hr
 </br>
 
 
-## 图标LOGO设置
+### 图标LOGO设置
 
 
 主题-图标设置，根据尺寸要求来就好了，制作完成上传到image文件夹并在设置中修改
@@ -380,6 +380,54 @@ Copyright © <?php echo date('Y') ?>  <?php if(io_get_option('icp')) echo '<a hr
 `favicon.png` 本网站的fa图标，原图尺寸64px*64px
 
 `app-ico.png` 添加的网站fa图标，开启了api自动获取这个就不用管，原图尺寸180px*180px
+
+</br>
+</br>
+
+
+### 部署SLL证书不是绿锁
+
+
+一般360浏览器会显示，正常部署了证书后，就是绿锁，如果出现灰锁，并提示如下
+
+```diff
+您与***.com之间的连接采用新型加密套件进行了加密。
++ 此外，此页中包含其他不安全的资源。他人能在这些资源传输过程中进行查看，攻击者也可以修改这些资源，从而改变此页的外观。
+该连接使用TLS 1.2。
+该连接使用AES_ 128 _GCM和
+ECDHE_ RSA进行加密和身份验证。
+
+```
+
+我们按F12审查元素-安全可以查看到原因，就是因为有的图片用的是http，而不是https
+
+```diff
+此页面不安全。
+资源 - 混合内容
++ 此页面包含 HTTP 资源。
+Reload the page to record requests for HTTP resources.
+```
+
+F12审查元素-控制台下方就看得到，黄色的就是问题所在，自己上传了图片或者LOGO引用的链接
+
+```diff
+某些消息已移动到“问题”面板。
+
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure image '<URL>'. This content should also be served over HTTPS.
+(index):557 Mixed Content: The page at 'https://***.com/' was loaded over HTTPS, but requested an insecure image 
++ 'http://***.com/wp-content/uploads/2022/08/zqyy.png'. 
+This content should also be served over HTTPS.
+```
+
+我们根据报错的，在WP后台逐个修改网址的fa图标和logo地址，即http后加一个s
+
+```diff
+即在http后加一个s
+http://***.com/wp-content/uploads/2022/08/zqyy.png
+修改成
++ https://***.com/wp-content/uploads/2022/08/zqyy.png
+```
+
 
 </br>
 </br>

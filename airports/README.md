@@ -102,7 +102,7 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | 萌新云 | https://www.mxyssr.com/ | 15/月 | 200G | 限制 | 新户注册送100M，签到随机 | ★★ |
 | 觅云<br>(科学打开) | https://www.miyun.fun/ | 25/月 | 100G | 2个设备 | - | ★★ |
 | N |
-| 奈云 | https://naiun.cc/ | 12/月 | 120G | 5个设备 | 新户3天5G试用流量，37ms；2K无压力；白嫖码：QLDK324 | ★★★★★ |
+| 奈云 | https://naiun.cc/ | 12/月 | 120G | 5个设备 | 新户3天5G试用流量，37ms；2K无压力 | ★★★★★ |
 | 牛牛 | https://xniuniu888.site/ | 20/月 | 300G | 3个设备 | 流媒体解锁，4K无压力 | ★★★★ |
 | Nerwo-Nerworks | https://dashboard.eleven.observer/ | 27/月 | 90G | 3个设备 | 较少节点解锁流媒体 | ★★ |
 | P |
@@ -144,6 +144,7 @@ https://github.com/RobAI-Lab/sspanel-mining/tree/main/src/database/sspanel_hosts
 | 云翼网络<br>(科学打开) | https://yypro.net/ | 22.8/月 | 88G | 4个设备 | - | ★★ |
 | Z |
 | 猪云 | https://zhucloud.xyz/ | 15/月 | 128G | 无限制 | 解锁Netflix、Disney+、HBO Max、Hulu、Abema TV、动画疯 | ★★★ |
+| 纵横加速 | https://www.rerongtuliao.com/ | 19/月 | 240G | 3个设备 | Netflix流媒体解锁 | ★★ |
 
 
 

@@ -45,7 +45,7 @@
 
 * [服务器的购买及网站初成](https://github.com/Yiov/notes/tree/main/ECS)
 
-* [虚拟机安装Linux系统]
+* [虚拟机安装Linux系统](https://github.com/Yiov/notes/tree/main/VMware)
 
 * [安装Xshell软件]
 
@@ -57,7 +57,7 @@
 
 * [Socks5的搭建](https://github.com/Yiov/notes/tree/main/socks5)
 
-* [Halo博客的搭建](https://hub.fastgit.xyz/Yiov/notes/tree/main/Halo)
+* [Halo博客的搭建](https://github.com/Yiov/notes/tree/main/Halo)
 
 * [Onenav的搭建](https://github.com/Yiov/notes/tree/main/onenav)
 

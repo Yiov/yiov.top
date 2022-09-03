@@ -39,11 +39,13 @@
 
 * [Markdown的简单用法]
 
-* [企业微信配置京东通知]
+* [企业微信推送教程](https://github.com/Yiov/notes/tree/main/wecom)
 
 * [Github注册到上传]
 
 * [小米运动刷步教程]
+
+* [Chrome等浏览器crx插件导出]
 
 </details>
 

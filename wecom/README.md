@@ -2,7 +2,7 @@
 
 </br>
 
-更新时间：2022-9-2
+更新时间：2022-9-3
 
 有2种方式，我来分别讲下
 
@@ -337,3 +337,9 @@ export QYWX_AM=""
 ```
 export QYWX_AM="QYWX_AM＝企业ID,应⽤Secret,账号(@all),应⽤ID,图⽚ID(选填)"
 ```
+
+
+
+### 特别鸣谢
+
+* [企业微信](https://work.weixin.qq.com/)

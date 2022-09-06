@@ -167,7 +167,7 @@
 
 </br>
 
-### 5.1 青龙推送
+### 5.1 青龙推送（企业版）
 
 </br>
 
@@ -215,7 +215,7 @@ export QYWX_AM="企业ID,应⽤Secret,账号(@all),应⽤ID,图⽚ID(选填)"
 
 
 
-### 5.2 家校推送
+### 5.2 家校推送（教育版）
 
 
 应用下填写 `应用主页`，必填！不然后面用不了，网址就随意
@@ -278,6 +278,87 @@ export QYWX_AM="企业ID,应⽤Secret,账号(@all),应⽤ID,图⽚ID(选填)"
 </br>
 </br>
 
+
+## 6.推送插件
+
+</br>
+
+这里以 [线报酷](https://v1.xianbao.fun/) 的为例，有能力的自己看 [企业微信文档](https://work.weixin.qq.com/api/doc/90000/90135/91609 ) 接口写
+
+> 弊端就是需要电脑一直挂着，可以考虑挂在服务器上
+
+
+[注册账号](https://v1.xianbao.fun/register.html)，邀请码:000000
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-15.png)
+
+
+注册号后，进入[线报酷后台](https://v1.xianbao.fun/Ucenter)，购买会员
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-16.png)
+
+
+站长非常良心，给了1元试用5天，觉得好用可以开永久，付完款后，就成了体验会员
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-17.png)
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-18.png)
+
+
+网站设置-信息推送设置-微信家校推送-打开推送开关，填入企业ID、应用ID和秘钥
+
+> 我这里是家校推送演示，其他推送自己按需打开填写
+
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-19.png)
+
+
+实时线报设置-打开请求开关，间隔30秒
+
+> 站长建议也是10-30秒，不要太短
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-20.png)
+
+
+列表筛选-实时线报分类筛选，自己不喜欢的分类，屏蔽即可
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-21.png)
+
+
+最后打开企业微信-我的应用-之前创建的应用下拉，企业可信IP-配置-确定
+
+> 这里就用自己的本机IP，百度IP
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-22.png)
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-23.png)
+
+
+最后还需要安装好，油猴及拓展插件
+
+> 不会安装的看教程：[☛油猴安装及使用](https://github.com/Yiov/notes/tree/main/tampermonkey)
+
+```
+https://v1.xianbao.fun/zb_users/theme/xianbao_theme/script/kuozhan.user.js?1.0
+```
+
+安装好插件，这里就有个开启监控的按键，点击
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-24.png)
+
+提示 `监控推送中` 就可以等推送了
+
+> 没有推送的话就刷新下页面
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wecom/edu-25.png)
+
+
+
+
+
 ### 特别鸣谢
 
 * [企业微信](https://work.weixin.qq.com/)
+
+* [线报酷](https://v1.xianbao.fun/)
+

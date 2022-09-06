@@ -1,10 +1,51 @@
 ## 油猴的安装及使用教程
 
-Tampermonkey简称油猴，是一款免费的浏览器扩展脚本管理器，有了它我们可以安装各种脚本
+</br>
+
+Tampermonkey简称篡改猴，而一直被称为油猴的实际是另一款，本身都是一款免费的浏览器扩展脚本管理器，有了它我们可以安装各种脚本
+
+</br>
+</br>
+
+
+## 了解油猴家族
 
 </br>
 
-## 1.安装
+### 1. 脚本管理器
+
+* [Greasemonkey](https://www.greasespot.net/)「油猴」
+
+* [Tampermonkey^常用^](https://www.tampermonkey.net/)「篡改猴」
+
+* [Violentmonkey](https://violentmonkey.github.io/)「暴力猴」
+
+* [ScriptCat](https://docs.scriptcat.org/)「脚本猫」
+
+
+### 2.脚本插件市场
+
+</br>
+
+* [Greasy Fork](https://greasyfork.org/zh-CN)
+
+* [收藏猫](https://chrome.pictureknow.com/)
+
+* [谷歌商店](https://chrome.google.com/webstore/category/extensions)
+
+* [插件小屋](https://www.chajianxw.com/)
+
+* [CXYHUB](https://www.cxyhub.com/)
+
+* [扩展派](https://www.crxfun.com/)
+
+
+</br>
+</br>
+
+
+
+## 安装
 
 油猴官网：https://www.tampermonkey.net/
 
@@ -37,7 +78,7 @@ Tampermonkey简称油猴，是一款免费的浏览器扩展脚本管理器，�
 </br>
 
 
-## 2.使用
+## 使用
 
 
 

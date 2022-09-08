@@ -8,7 +8,7 @@
 
 
 <details>
-<summary>科学上网</summary>
+<summary>科学上网 [展开]</summary>
 
 * [圈X上手教程](https://github.com/Yiov/notes/tree/main/quantumultX)
 
@@ -27,9 +27,11 @@
 
 
 <details>
-<summary>日常使用</summary>
+<summary>日常使用 [展开]</summary>
 
 * [油猴安装及使用教程](https://github.com/Yiov/notes/tree/main/tampermonkey)
+
+* [Chrome等浏览器crx插件导出](https://github.com/Yiov/notes/tree/main/crx)
 
 * [微软Azure·云希语音使用教程](https://github.com/Yiov/notes/tree/main/Azure)
 
@@ -43,9 +45,9 @@
 
 * [Github注册到上传]
 
-* [小米运动刷步教程]
+* [Github静态托管]
 
-* [Chrome等浏览器crx插件导出]
+* [小米运动刷步教程]
 
 </details>
 
@@ -57,13 +59,15 @@
 
 
 <details>
-<summary>手机相关</summary>
+<summary>手机相关 [展开]</summary>
 
 * [iPhone短信添加头像]
 
 * [带口罩解锁iPhone面容ID]
 
 * [注册国外苹果Apple-ID步骤]
+
+* [IOS免签]
 
 * [手机抓包工具安装及使用]
 
@@ -78,7 +82,7 @@
 
 
 <details>
-<summary>Telegram相关</summary>
+<summary>Telegram相关 [展开]</summary>
 
 * [Telegram注册及注销]
 
@@ -97,7 +101,7 @@
 
 
 <details>
-<summary>网站搭建</summary>
+<summary>网站搭建 [展开]</summary>
 
 * [服务器的购买及网站初成](https://github.com/Yiov/notes/tree/main/ECS)
 
@@ -130,5 +134,7 @@
 * [docker如何上传本地镜像]
 
 * [浅谈内网穿透]
+
+* [centos系统切换图形界面](https://github.com/Yiov/notes/tree/main/Centos)
 
 </details>

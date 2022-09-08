@@ -135,9 +135,20 @@ systemctl get-default
 ```
 
 
-graphical.target 代表开机时启动图形化界面
+开机时启动图形化界面
 
-multi-user.target 代表开机时启动dos界面
+```
+systemctl set-default graphical.target 
+```
+
+
+开机时启动dos界面
+
+```
+systemctl set-default multi-user.target
+```
+
+
 
 
 </br>

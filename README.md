@@ -49,6 +49,8 @@
 
 * [小米运动刷步教程]
 
+* [Tosesk远程电脑](https://github.com/Yiov/notes/tree/main/todesk)
+
 </details>
 
 
@@ -66,6 +68,8 @@
 * [带口罩解锁iPhone面容ID]
 
 * [注册国外苹果Apple-ID步骤]
+
+* [苹果手机安装油猴插件]
 
 * [IOS免签]
 

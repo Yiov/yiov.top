@@ -46,8 +46,9 @@ PC端安装Tosesk
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-05.png)
 
+</br>
 
-左下角关机即可
+怎么关机就不用说了吧
 
 </br>
 </br>
@@ -57,14 +58,17 @@ PC端安装Tosesk
 
 </br>
 
-个人建议：如无必要，不建议折腾，选个只能插座就可以了
+个人建议：如无必要，不建议折腾，选个智能插座就可以了
 
 
 </br>
 
-注意：下列演示，需要的条件非常多，todesk远程唤醒还需要有同一WIFI的设备
+注意：下列演示，需要的条件非常多，todesk远程唤醒还需要有同一局域网的设备(电脑或手机)
 
-原理：A手机(外地) → 远程B手机(要安卓，同一wifi的家里) → 远程开机电脑(同一wifi的家里)；A手机 → 远程家里的电脑
+原理：A手机(外地) → 远程B安卓机(同一wifi) → 远程开机电脑(同一wifi)；A手机 → 远程电脑
+
+> 苹果无法远程控制，被控制手机必须安卓
+
 
 </br>
 
@@ -138,8 +142,7 @@ PC端安装Tosesk
 
 **3.2 设置主板BIOS**
 
-每个人的电脑主板不一致，我以我的 微星msi主板演示，其他主板自行查找
-
+需要在主板 BIOS 里面设置 WOL 唤醒功能的开关
 
 ```
 不同主板 BIOS 里关于 WOL 网络唤醒的选项一般是类似这些字眼:
@@ -151,6 +154,7 @@ Power on by Onboard LAN
 等等，将其设为 Enabled 即可
 ```
 
+我以我的 微星msi主板演示，只是演示！其他根据自己的主板来！
 
 重启按`DEL`键进入BIOS，SETTINGS-Advanced
 
@@ -173,14 +177,14 @@ Power on by Onboard LAN
 
 </br>
 
-我是斐讯路由器，浏览器`192.168.2.1`进入路由器，其他路由是`192.168.1.1`
+我是斐讯路由器，浏览器`192.168.2.1`进入路由器，其他路由大部分是`192.168.1.1`
 
 
 功能设置-DCHP服务-绑定，这样即便重启了地址也不会变
 
 > 其他路由器自己找下，只要把MAC地址和IP绑定即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-15.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-16.png)
 
 
 </br>

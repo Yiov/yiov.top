@@ -10,6 +10,8 @@
 
 * 手机远程开机
 
+* 额外：Linux安装Tosesk并远程
+
 
 
 ## 手机远程关机
@@ -208,6 +210,125 @@ Power on by Onboard LAN
 
 </br>
 </br>
+
+
+
+## 额外：Linux安装Tosesk并远程
+
+
+</br>
+
+由于系统原因，需要有图形界面的系统才可安装，我这里以Centos为例
+
+
+[不会切换图形界面的☛点我教程：centos系统切换图形界面](https://github.com/Yiov/notes/tree/main/Centos)
+
+
+我们进入Centos后，打开todesk官网下载Linux版本
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-19.png)
+
+
+我这里用的是Centos，下载Centos7即可
+
+> 其他版本按自己的系统下载
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-20.png)
+
+
+下载后我们把下载的文件，放到`主目录`才可以正确安装！否则会提示找不到文件！
+
+> 找不到的看我图示，就是和公共、视频、图片等同一级目录
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-21.png)
+
+
+然后我们看 [官方文档](https://www.todesk.com/linux.html) ，输入安装命令
+
+
+注意：请把这里安装包名改对，不然也安装不了
+
+> 自己下的包名是什么，这里就填什么，少一个字都不行!
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-22.png)
+
+
+在桌面-鼠标右键-打开终端，输入命令，等待安装完成
+
+```
+sudo rpm -Uvh todesk-v4.3.1.0-c7-x86_64.rpm
+```
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-23.png)
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-24.png)
+
+
+
+然后启动todesk，安装好登录账号就可以用了
+
+```
+todesk
+```
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-25.png)
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/todesk/todesk-26.png)
+
+
+</br>
+</br>
+
+
+### 常见问题
+
+</br>
+
+1.能正常使用
+
+```
+sudo systemctl stop todeskd.service
+sudo mv /opt/todesk/config/config.ini /opt/todesk/config/config.ini.bak
+sudo systemctl start todeskd.service
+```
+
+</br>
+
+2.错误日志
+
+查看服务日志：（例如:xxxx_xx_xx.log为2022_08_03.log）
+
+```
+tail -f /var/log/todesk/service_xxxx_xx_xx.log
+```
+
+查看客户端日志：（例如:xxxx_xx_xx.log为2022_08_03.log）
+
+```
+tail -f ~/.local/share/todesk/Logs/client_xxxx_xx_xx.log
+```
+
+</br>
+
+
+3.删除服务设置配置
+
+```
+sudo rm /opt/todesk/config/config.ini
+```
+
+</br>
+
+4.卸载:
+
+```
+rpm -e todesk
+```
+
+
+</br>
+</br>
+
+
 
 ## 特别鸣谢
 

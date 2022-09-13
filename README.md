@@ -69,7 +69,7 @@
 
 * [注册国外苹果Apple-ID步骤]
 
-* [苹果手机安装油猴插件]
+* [用stay2给苹果Safari安装油猴插件](https://github.com/Yiov/notes/tree/main/stay2)
 
 * [IOS免签]
 

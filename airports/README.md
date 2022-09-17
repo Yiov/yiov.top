@@ -39,10 +39,15 @@
 | Ayanami | https://ayanami.cloud/ | 12/月/100G</br>无限制 | 新户注册送1G流量</br>油管打不开 | 无 | ★★ |
 | Anrun Network | https://subscribe.arapi.top/ | 8/月/100G | 新户注册5G流量</br>各种超时 | [有](https://t.me/Anrun_online) | ★★ |
 | 安大毒 | https://356930.xyz  | 4.99/月/100G | 不限时10.99元160G | [有](https://t.me/addjc) | ★★ |
+| AmyTelecom | https://www.amysecure.com/ | 146.4/半年/</br>50G/月 | - | [有](https://t.me/amytelecom_Official) | ★★ |
+| ARK | https://ark.to/ | 150/季/</br>200G/月 | - | [有](https://t.me/arktochannel) | ★★ |
+| AgentNEO | https://agneo.co/ | 18/月/20G | - | [有](https://t.me/AgentNEO_HQ) | ★★ |
+| ABCloud | https://abc-net.us/ | 36/季/</br>100G/月 | - | [有](https://t.me/ABCloud_V2) | ★★ |
 | **B** |
 | BK网络加速器 | https://bkwljsq.shop/ | 5/月/100G</br>无限制 | 新户注册1天10G流量 | [有](https://t.me/bkwljsq) | ★★★ |
 | Bitz Net | https://ca.bitznetapp.com | 44.99/季/80G/月</br>无限制 | 新户注册3天3G流量 | 无 | ★★★ |
 | 贝雪云 | https://besnow.org/ | 9.9/月/100G</br>3个设备 | 新户注册3天9G | [有](https://t.me/Besnow_Cloud) |  ★★★ |
+| 宝贝云 | https://bbyvpn.com/ | 15/月/1024G | 新户注册2G | [有](https://t.me/v2ssmy87) | ★★★ |
 | 百变小樱 | https://bbxy.shop/ | 5/月/30G | 新户注册1天10G | [有](https://t.me/BBSakura) | ★★ |
 | BosLife | https://boslife.io/ | 479/年/200G/月</br>5个设备 | Trojan格式</br>不支持SS/SSR | [有](https://t.me/boslifenews) | ★★ |
 | 白月光 | https://bygcloud.com/ | 22/月/140G | 不限时220元500G | 无 | ★★ |
@@ -52,14 +57,18 @@
 | Blinkload | https://blinkload.zone/ | HK$119.9/月/50G</br>3个设备 | - | [有](https://t.me/thessrchannel) | ★★ |
 | **C** |
 | 叉燒雲 | https://chashao.shop/ | 8.99/月/100G</br>无限制 | 新户注册5天5G流量</br>延迟略高 | [有](https://t.me/chashaoyun) | ★★★ |
+| CloudRocket | https://cr12345678.com/ | $11.99/季/</br>50G/月 | 新户注册2天1G | [推特](https://twitter.com/cr1234567_com) | ★★★ |
 | Coudlink | https://cloudlink123.com/ | 10.99/月/100G</br>无限制 | 新户注册30天16G流量</br>试用超时 | [有](https://t.me/+VED7bQSEsgdmMTM1) | ★★ |
 | CHEAPV2 | https://cv2.pw/ | 8/月/100G</br>5个设备 | 不解锁流媒体 | [备用](https://cheapv2.net/) | ★★ |
 | CreamData | https://www.creamdata.net/ | 29/月/100G | 1元试用3天5G | [有](https://t.me/CreamData) | ★★ |
 | 超级跑车 | http://cjpc.cc | 9.9/月/100G</br>6个设备 | 不限时8.8元30G | [有](https://t.me/chaojipaoche) | ★★ |
 | Catnet | https://dash.catnet.uk/ | 25/月/80G</br>3个设备 | - | [有](https://t.me/Catnet_CN) | ★★ |
+| CreamData | https://creamdata.net/ | 29/月/100G | 1元使用3天5G | [有](https://t.me/CreamData) | ★★ |
+| CNIX</br>薯条 | https://xn--mesh0sv88c.com/ | 14.99/月/16G | - | [有](https://t.me/+vYfvuHFgnPEyZGU1) | ★★ |
 | **D** |
 | 懂的都懂 | https://dddd.cool/ | 3/30G | 新户注册5G流量</br>不限时6.8元100G | [有](https://t.me/ddddcool) | ★★★ |
 | 大讯云 | https://daxun.club/ | 5/月/60G</br>2个设备 | 新户注册2G流量 | [有](https://t.me/daxunyunnwes) | ★★★ |
+| Dual Net | https://www.dualnetapp.com/ | 179.99/年/</br>25G/月 | 新户注册5G | [BOT](https://t.me/DualNetwork_Bot) | ★★★ |
 | douluoyun | https://www.douluoyun.xyz/ | 15/35天/150G</br>3个设备 |  新户注册2G流量 | [有](https://t.me/douluoyun) | ★★ |
 | 钉子哥 |https://dingzi.dingzige.ga/ | 6.6/月/1024G</br>不限制 | 商店0购230G</br>超时 | [有](https://t.me/ding_88) | ★★ |
 | Dler Cloud | https://dlercloud.com/ | 288/年/</br>200G/月 | - | 无 | ★★ |
@@ -70,11 +79,14 @@
 | EEVPN | https://www.eevpn.xyz | 5.99/月/100G</br>无限制 |  9.9/年/15G套餐 | [有](https://t.me/s/eevpn_noc) | ★★ |
 | EXFULX | https://flexlinex.com/ | 25/月/50G</br>5个设备 | - | 无 | ★★ |
 | EdNovas云 | https://ednovas.me/ | 19/月/100G | - | [有](https://t.me/ednovasyun) | ★★ |
+| ENET | https://www.easy2022.com/ | 22/月50G</br>不限设备 | - | [有](https://t.me/enet_public) | ★★ |
 | **F** |
 | Fast Fish</br>快鱼 | https://kuaiyu.xyz | 12/月/128G</br>5个设备 | - | [有](https://t.me/fastfish2) | ★★ |
 | Flyint飞数 | https://www.flyint.cc/ | 17/月/150G</br>3个设备 | 新户注册1G流量 | [有](https://t.me/Flyint) | ★★ |
 | 放心云 | https://fxyjs.fun/ | 31.9/月/300G</br>3个设备 | 新户注册送5G流量</br>不限时17元50G | [有](https://t.me/speed17push) | ★★ |
 | 飞云 | https://fyun.cf | 10/月/100G</br>不限制 | 新户注册送5G流量 | [有](https://t.me/feiyunc) | ★★ |
+| 饭饭云 | https://ffkjwl.com/ | 20/月/100G</br>6个设备 | 新户注册1G | [有](https://t.me/fanfanyun234) | ★★ |
+| FishPort | https://www.fishport.cyou | 13.5/季/</br>64G/月 | 不限时3元12G | [有](https://t.me/sfishport) | ★★ |
 | 风驰云 | https://fengchi.buzz/ | 5.5/月/18G | - | [有](https://t.me/fengchii_buzz) | ★★ |
 | 飞鸟云 | https://fnyun.xyz/ | 8/月/100G</br>无限制 | - | [有](https://t.me/fnyun) | ★★ |
 | Fast Connect</br>快速互联 | https://fastconnect.ml/ | 4.99/月/2880G</br>5个设备 | 商店0购30天100G</br>白嫖机场 | [有](https://t.me/fastconnectgroup) | ★★ |
@@ -93,6 +105,8 @@
 | GTA | https://www.ssssv2.xyz/ | 12/月/140G</br>3个设备| 无速率限制 | [有](https://t.me/YYDSV2) | ★★ |
 | GodYax | https://s.godyax.work/ | - | 需要邀请码 | [有](https://t.me/+zwV-WcSnUsFiZjlh) |  ★★ |
 | 狗子快跑 | https://freedog.buzz/ | 免费0购100G | 新户0购30G</br>各种超时 | [有](https://t.me/dog_run) | ★★ |
+| Godetia | https://ssltd.xyz/ | 35/月/85G</br>6个设备 | - | [有](https://t.me/godetiachannel) | ★★ |
+| 公元云 | https://www.v2gyy.com/ | 28/月/380G | 新户注册3天5G</br>各种超时 | [有](https://t.me/v2gyy) | ★★ |
 | **H** |
 | Helium Network | https://console.henet.uk/ | 1/月/100G | 新户注册30天100G</br>不限时10元200G| [有](https://t.me/helium_official) | ★★★★★ |
 | 海马科技 | https://hmkj3.com/ | 10/月/100G | 新户注册送30G</br>不限时5元30G | [有](https://t.me/hmkj3) | ★★★ |
@@ -102,6 +116,10 @@
 | 好家伙 | http://haojiahuo2.live/ | 10/月/110G</br>2个设备 | - | [有](https://t.me/haojiahuo2live) | ★★ |
 | 滑稽云 | https://www.huajicloud.cc/ | 6.9/月/100G | - | 无 | ★★ |
 | HG | https://jddsb.cf | 商店0购1T | 各种延时 | [有](https://t.me/bpyyds01) | ★★ |
+| 忽悠云 | https://panel.mihuyo.cloud/ | 7/月50G | 注册需邀请码 | [有](https://t.me/mifjun_news_9) | ★★ |
+| 海豚湾 | https://hitun.io/ | 49/月500G</br>8个设备 | - | [有](https://t.me/HitunCloud) | ★★ |
+| HorizonBirth | https://horizonbirth.com/ | 14.99/月75G | - | [有](https://t.me/HorizonBirth) | ★★ |
+| HutaoCloud | https://hutao.cloud/ | 7/月/50G | - | [有](https://t.me/joinchat/IsZvZdFDboAzZmEx) | ★★ |
 | **I** |
 | IKUUU | https://ikuuu.live/ | 10/月/300G</br>5个设备 | 注册送50G</br>白嫖机场 | [备用](https://ikuuu.ltd) | ★★★ |
 | InfiniPort | https://infiniport.xyz | 6/月/64G | 新户注册16G</br>不限时26元256G | [有](https://t.me/InfiniPort) | ★★★ |
@@ -111,9 +129,12 @@
 | **J** |
 | Jetstream VPN | https://jetstream.vip/ | 5.5$/月/50G | 新户注册3天50G</br>速度一般 | 无 | ★★★ |
 | 加速猫 | https://jsmvpn.xyz/ | 15/月/1024G</br>3个设备 | 新户5天30G试用流量 | [有](https://t.me/jsmvpn) | ★★★ |
+| Jscloud</br>极速云 | http://v2.jsyml.cn/ | 8.8/月256G | 新户注册送1G | [有](https://t.me/gjtqmll) | ★★★ |
+| 金坷垃 | https://jinkela.lol/ | 11.5/月/146G | 新户注册2G | [有](https://t.me/jinkelav2ray) | ★★★ |
 | 极简 | https://www.wogg.cool/ | 14.9/月/100G</br>个设备 | 新户注册100M流量 | [群主](https://t.me/wiougong) | ★★ |
 | 桔子云 | https://juzi66.com/ | 13.9/月/100G</br>3个设备 | 新户注册10G流量 | 无 | ★★ |
-| J20 Cloud | https://j20cloud.me/ | 3/月/60G</br>2个设备 | - | [有](https://t.me/J20_Cloud8) |★★ |
+| J20 Cloud | https://j20cloud.me/ | 3/月/60G</br>2个设备 | - | [有](https://t.me/J20_Cloud8) | ★★ |
+| JAYCLOUD | https://www.jay-cloud.com/ | 10/月42G</br>2个设备 | 新户注册1G流量 | [有](https://t.me/jaycloud_group) | ★★ |
 | JAFI | https://www.jafiyun.site/ | 25/月/250G</br>4个设备 | 新户注册512M流量 | [有](https://t.me/JAFICloud) | ★★ |
 | 巨浪云<br>(科学打开) | https://julang.site/ | 5/月/50G</br>5个设备 | - | [有](https://t.me/joinchat/ZBPWk5wyFg8zMDIx) | ★★ |
 | 几鸡<br>(科学打开) | https://b.luxury/ | 10/月/300G</br>2个IP | 注册不限时10G</br>白嫖机场 | [有](https://t.me/ngcssnews) | ★★ |
@@ -121,8 +142,8 @@
 | 极客云<br>(科学打开) | https://jike138.com/ | 13.9/月/100G</br>3个设备 | - | [有](https://t.me/joinchat/AAAAAEsiMxmLLyRVDepQCA) | ★★ |
 | Just My Socks<br>(科学打开) | https://justmysocks.net/ | 5.88$/月/500G</br>5个设备 | - | 无 |★★ |
 | JCBB<br>机场巴巴 | https://www.ckcloud.xyz/ | 7/月/90G | 新户注册送1G流量</br>不限时6元30G | [有](https://t.me/+JkX2az3O9lYyM2M1) | ★★ |
-| Jscloud</br>极速云 | http://v2.jsyml.cn/ | 8.8/月256G | 新户注册送1G | [有](https://t.me/gjtqmll) | ★★★ |
 | 96Line | https://96line.com/ | 16/月/168G</br>5个设备 | - | [有](https://t.me/joinchat/kdyeCIynvPw0MDUx) | ★★ |
+| 91飞机场 | https://91fjc.net/ | 12.8/月100G | - | [有](https://t.me/Airport91_Channel) | ★★ |
 | **K** |
 | 快游戏 | https://bit.ly/3Rbihs5 | 5.88/月/500G</br>3个设备 | 不限时8.8元200G | [有](https://t.me/quick_tg) | ★★★ |
 | 卡卡云 | https://www.kakacloud.xyz/ | 15/月/150G</br>3个设备 | 新户注册3天2G</br>邀请注册可获10G | [有](https://t.me/kakayunye) | ★★★ |
@@ -131,15 +152,20 @@
 | KeKo Cloud | https://keko.moe | 17/月150G | 商店0购40G</br>超时 | [有](https://t.me/kekomoe) | ★★ |
 | Kuli云 | https://ooloo.info/ | - | 注册要邀请码 | [有](https://t.me/KuliQi) | ★★ |
 | Kuromis</br>库洛米 | https://www.kuromis.com/ | 40/月/50G</br>3个设备 | - | [有](https://t.me/kuromis_xiaoxi) | ★★ |
+| KyCloud | https://my.cloudnx.cc/ | 30/月/100G</br>不限设备 | 购买后方可注册 | [有](https://t.me/KyCloud) | ★★ |
+| 可莉 | https://kle.jp/ | 19.9/月/80G | - | [有](https://t.me/klee_channel) | ★★ |
 | **L** |
 | 理塘丁真 | https://hcnmb.com/| 8/月/2T | 新户注册10G流量<br>邀请码：4YZc4A5g | [有](https://t.me/dingzhenjc) | ★★★ |
 | 澜云<br>(科学打开) | https://ep.0318.cyou/ | 14/月/180G</br>无限制 | 新户注册8G流量 | [有](https://t.me/+E0j9mtmDfTpjOTQ1) | ★★★ |
 | 灵魂云 | https://www.linghunyun.com/ | 12.9/月/100G | 新户注册送1G流量 | [有](https://t.me/linghunyun) | ★★ |
 | 辣条 | https://latiao.club/ | 9.99/月/90G | - | 无 | ★★ |
+| Liying | https://liyingcloud.org/ | - | 需邀请码注册 | [有](https://t.me/liyingyun) | ★★ |
 | **M** |
+| 茗 | https://v2.linmi.site/ | 1/月300G | 新户注册7天50G</br>商店0购不限时50G | - | ★★★★★ |
+| MeatBallEmoji | https://leftright.space/ | 商店0购1月30G | 白嫖机场 | [有](https://t.me/meatballemoji) | ★★★★★ |
 | 魔戒 | https://www.mojie.me/ | 不限时12元130G | 不限时机场 | [有](https://t.me/Lord_Rings) | ★★★ |
 | 猫猫云 | https://maomaoy.fun/ | 10/月/200G</br>无限制 | 新户注册送5G<br>邀请码：maomao | [有](https://t.me/maomaoyunfun) | ★★★ |
-| MAYING</br>魅影 | https://maying.co/ | 180/季/400G/月 | 新户注册送3G</br>[申请邀请码](https://t.me/mayingbot) | [有](https://t.me/myjstw) | ★★★ |
+| MAYING</br>魅影极速 | https://maying.co/ | 180/季/400G/月 | 新户注册送3G</br>[申请邀请码](https://t.me/mayingbot) | [有](https://t.me/myjstw) | ★★★ |
 | 猫熊 | https://xn--2vxr8a.xyz/ | 6/月/35G</br>2个设备 | 新户0购3天5G | [有](https://t.me/maoxiong) | ★★★ |
 | MilkCat | https://milkcat.net | 32.97/季/</br>100G/月 | 新户注册2G流量 | [有](https://t.me/milkcat_log) | ★★ |
 | 咪萌| https://love.mimon.cc/ | 9/月/100G | 不限时18元100G | [有](https://t.me/mimoncc) | ★★ |
@@ -151,6 +177,10 @@
 | MireyaCola | https://mireya233.com/ | 16/月/200G | - | [有](https://t.me/mireyacola) | ★★ |
 | Mcatcloud | https://skr.bar/ | 13/月/250G</br>3个设备 | 新户注册送50G</br>各种超时 | [有](https://t.me/McatCloud) | ★★ |
 | MOFAST | https://mofast.top/ | 0.15/G | - | 无 | ★★ |
+| Miaona! | https://miaona.co/ | 18/月100G | - | [有](https://t.me/+TFjwB3Vf1Muky3Pp) | ★★ |
+| MDSSCLOUD | https://mdss.cloud/ | 25/月100G</br>5个设备 | - | [有](https://t.me/mdss_announce) | ★★ |
+| MoccaCloud | https://moccacloud.net/ | £6/月/500G | 购买后才可注册 | [有](https://t.me/moccacloud) | ★★ |
+| MarsLink | https://www.marslink.org/ | 14.5/月/260G | 不限时19.9元120G | [有](https://t.me/MarsLink1) | ★★ |
 | **N** |
 | 奈云 | https://naiun.cc/ | 23月/388G</br>5个设备 | 新户3天5G试用流量 | [有](https://t.me/v2naiun) | ★★★★ |
 | Nexitally</br>奶昔 | https://nexitally.com/ | 71/月/200G</br>2个设备 | - | 无 | ★★ |
@@ -170,6 +200,7 @@
 | 跑路云 | https://paoluz.link/ | 29.9/90天/240G | - | [有](https://t.me/paoluztz) | ★★★ |
 | prprCloud | https://prprcloud.moe/ | 10/月/50G | - | [有](https://t.me/prprclouds) | ★★ |
 | PDJC | https://www.pdjc.cc/ | 19/月/1000G</br>5个设备 | 新户注册30天1000G</br>各种超时 | 无 | ★★ |
+| POTATO CLOUD</br>土豆云 | https://potato.igken.com/ | 28.2/月/188G | - | [有](https://t.me/potatos_cloud) | ★★ |
 | **Q** |
 | 雀巢 | https://www.cloudorg.uk/ | 0/半年/300G | 商店0购半年300G</br>延迟感人 | 无 | ★★ |
 | **R** |
@@ -200,6 +231,7 @@
 | STTLink | https://sttlink.com/ | 19.9/月/300G</br>4个设备 | - | [有](https://t.me/stt_channel) | ★★ |
 | ssLinks | https://ss.mba | 36/月/260G | - | [有](https://t.me/sslinks66) | ★★ |
 | Scrssr加速 | https://www.scrssr.com/ | 10/月/200G</br>3个设备 | 邀请码:0Yas | [有](https://t.me/scrssrM) | ★★ |
+| 闪电猫 | https://speedcat.8f9v.com/ | 19/月/100G</br>不限设备 | - | [有](https://t.me/speedcatc) | ★★ |
 | **T** |
 | Teacat | https://teacat.cloud/ | 12/月/100G</br>无限制 | 新户1天1G流量 | [有](https://t.me/Teacatcloud) | ★★★ |
 | terry | https://whk.life/ | 6/月/500G| 不限时7元500G | [有](https://t.me/akunshabi) | ★★★ |
@@ -208,6 +240,8 @@
 | 腾龙加速器 | https://tenglong.co/ | 10/月/200G</br>3个设备 | 不限时20元100G | [有](https://t.me/tenglongnotice) |  ★★ |
 | Tooray | https://delta.li.sb/ | 24/月/100G</br>3个设备 | 新户注册5G流量</br>限速600kb | [有](https://t.me/v2raydetz) | ★★ |
 | 天河国际机场 | https://l9js.com | 20/月/60G</br>2个设备 | 不限时6.88元10G | 无 | ★★ |
+| Texon | https://texon.io/ | 60/季/</br>50G/月 | 限量补货 | [有](https://t.me/texon_channel) | ★★ |
+| 桃花源 | https://ssthy.com/ | 15/月/64G</br>4个设备 | - | [有](https://t.me/+mCT2l8xG1UpmN2Vl) | ★★ |
 | **V** |
 | VilaVPN<br>(科学打开) | https://vilavpn.com/ | 2.16$/月/20G | - | 无 | ★★ |
 | V2云加速 | https://www.v2board.co/ | 15/月/200G | 新户注册3天10G</br>全超时 | [有](https://t.me/v2yjs) | ★★ |
@@ -216,7 +250,9 @@
 | VifastVPN | https://vifast.net/ | 越南机场 | - | 无 | ★★ |
 | **W** |
 | Wolify | https://wolify.tk/ | 3.99/月/256G</br>不限设备 | 新户注册5G | [有](https://t.me/wolify_group) | ★★★ |
+| 我不是梯神 | https://wbsts.net/ | 不限时6元130G | 不限时机场 | [有](https://t.me/+r3nULUewoDkzNzZh) | ★★★ |
 | 网抑云 | https://wyy.netyi.cloud | 30/月/200G | - | [有](https://t.me/netyicloud) |  ★★ |
+| WestData</br>西部数据 | https://fuqing.cz/ | 20/月200G | - | [有](https://t.me/westdatacloud) | ★★ |
 | **X** |
 | XMRth | https://xmrth.vip/ | 5/月/1500G直连</br>3个设备 |  新户10天30G试用流量 | [有](https://t.me/xmrth) | ★★★★★ |
 | 虚数加速器 | https://v2.yyang.cloud | 3/月/40G | 新户注册5G | 不限时1元15.99G | ★★★ |
@@ -228,6 +264,7 @@
 | 寻梦SS | https://xmss.vip/ | 8.8/月/1024G</br>直连 | 商店0购102400G</br>超时节点 | [有](https://t.me/xunmengss) | ★★ |
 | XIXIcats<br>嘻嘻猫 | https://xixi.ph/ | 12.5/月/100G</br>2个设备 | - | [有](https://t.me/xixicats) | ★★ |
 | 星云Nebula | https://xingxingcloud.cyou/ | 20/月/200G</br>2个设备 | 新户注册送1G</br>超时无可用 | 无 | ★★ |
+| 小洋人免流 | https://bit.ly/3RSk7yY | 5/月300G</br>5个设备 | 新户注册5天50G</br>各种超时 | [有](https://t.me/+X35cLaM-Bm9lOWJl) | ★★ |
 | 星海 | https://hgdbk.tech/ | 1/月/50G | - | 无 | ★★ |
 | **Y** |
 | 一元机场 | https://xn--4gq62f52gdss.com/ | 4/月/4000G</br>无限制 | 11/年/500G | [有](https://t.me/yyjc_channel) | ★★★ |
@@ -238,12 +275,15 @@
 | 优云666 | https://youyun222.net/ | 15.9/月/100G</br>3个设备 | 新户注册送10G | [有](https://t.me/youyun666) | ★★ |
 | 云翼网络<br>(科学打开) | https://yypro.pro/ | 22.8/月/108G</br>4个设备 | 试用1天5G流量 | [备用]( https://yywl.org) | ★★ |
 | XTunnel | https://xtspeeder.com/ | 20/月/300G</br>1个设备 | 商店0购3G</br>拉人50G 邀请码:oGh9 | [有](https://t.me/xtunnel) | ★★ |
+| 月神云 | https://moontoday.uk/ | 15/月100G</br>5个设备 | - | [有](https://t.me/moontoday_uk) | ★★ |
+| 翼游 | https://www.yiyouss.com/ | 30/月/200G | 9元试用7天50G | [有](https://t.me/joinchat/AAAAAFiKJiaK6QzqRZdIZA) | ★★ |
 | **Z** |
 | 猪云 | https://zhucloud.xyz/ | 5/月/15G</br>无限制 | 不限时15元128G | [有](https://t.me/zhucloudyun) | ★★★ |
 | 众筹加速器 | https://zcjd.top/ | 11/月/100G | 新户注册7天5G | [有](https://t.me/jiediangg) | ★★★ |
 | 猪猪VPN | https://zhuzhu12.xyz/ | 1/月/10G | 新户注册1G流量 | [有](https://t.me/zhuzhuair) | ★★★ |
 | 纵横加速 | https://www.rerongtuliao.com/ | 19/月/240G</br>3个设备 | 新户注册2G流量 | [有](https://t.me/HELLO_OKVPN) | ★★ |
 | 纸盒の机库 | https://www.zhihedejiku.com/ | 15/月/200G</br>不限设备 | 新户注册1小时5G | [有](https://t.me/zhihe_channel) |  ★★ |
+| 芝麻加速 | https://izm.rocks/ | 10/月/189G | 新户注册1G | [备用](https://zmyun.github.io) | ★★ |
 
 
 

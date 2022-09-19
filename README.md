@@ -14,7 +14,7 @@
 
 * [BoxJS的搭建](https://github.com/Yiov/notes/tree/main/boxjs)
 
-* [翻墙软件及白嫖节点](https://github.com/Yiov/notes/tree/main/Proxy)
+* [翻墙软件及白嫖节点](https://github.com/Yiov/notes/tree/main/proxy)
 
 * [机场channel大全一览表](https://github.com/Yiov/notes/tree/main/airports)
 

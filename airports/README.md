@@ -2,7 +2,7 @@
 
 </br>
 
-更新时间：2022-9-14
+更新时间：2022-9-19
 
 </br>
 </br>
@@ -23,7 +23,7 @@
 </br>
 
 
-:star2: 免费节点网站：https://getafreenode.com/
+:star2: 免费白嫖节点网站：https://getafreenode.com/
 
 </br>
 </br>
@@ -93,6 +93,7 @@
 | 风驰云 | https://fengchi.buzz/ | 5.5/月/18G | - | [有](https://t.me/fengchii_buzz) | ★★ |
 | 飞鸟云 | https://fnyun.xyz/ | 8/月/100G</br>无限制 | - | [有](https://t.me/fnyun) | ★★ |
 | Fast Connect</br>快速互联 | https://fastconnect.ml/ | 4.99/月/2880G</br>5个设备 | 商店0购30天100G</br>白嫖机场 | [有](https://t.me/fastconnectgroup) | ★★ |
+| 飞猫 | https://fmmmz.com | 5/月/100G</br>2个设备 | 新户注册7天100G</br>各种超时 | [有](https://t.me/feimiao2) | ★★ |
 | Foo&Friends. | https://fnf.one/ | - | 已关闭注册 | [有](https://t.me/fooandfriends) | ★★ |
 | FuzzyPN | https://api.fuzzypn.me/ | 越南机场 | - | [有](https://t.me/FuzzyTeam) | ★★ |
 | 风之谷 | https://fengzg.net/ | 15/月/100G | - | [有](https://t.me/+eiuzgEsHvpgxODRl) | ★★ |
@@ -100,6 +101,7 @@
 | FlowerCloud</br>花云| https://huacloud.dev/ | 39/月/150G | 购买后方可注册 | [有](https://t.me/flower_cloud) | ★★ |
 | **G** |
 | GLaDOS | https://glados.rocks/ | 11/月/200G</br>3个设备 | 新户3天5G试用流量</br>长时间不用会送码 | 无 | ★★★★ |
+| 归远小飞机 | https://gy13946.xyz/ | 6/月/64G | 新户注册10G | [有](https://t.me/+wO5gIsJIlFYxNmI1) | ★★★ |
 | 果粒橙 | https://guolicheng.cc/ | 5/月/1T直连</br>无限制 | 新户注册1G流量</br>直连当天超100G会被封 | [有](https://t.me/Goguolichengo) | ★★ |
 | Gatern | https://shuttle.gt-in.com/ | 24/月/120G</br>无限制 | - | [备用](https://gatern.github.io) | ★★ |
 | GaCloud 全球加速 | https://www.gacloudltd.org/ | 39/月/100G</br>3个设备 | 新户送75折券 | 无 | ★★ |
@@ -256,6 +258,7 @@
 | V2Tun</br>云减速 | https://cp.v2tun.us | 42/季/100G | 无注册 | [有](https://t.me/V2Tun) | ★★ |
 | VifastVPN | https://vifast.net/ | 越南机场 | - | 无 | ★★ |
 | **W** |
+| WindyCloud | https://litewindy.top/ | 3/月/200G | 新户注册1天400G | [有](https://t.me/Windycloud_Official) | ★★★ |
 | Wolify | https://wolify.tk/ | 3.99/月/256G</br>不限设备 | 新户注册5G | [有](https://t.me/wolify_group) | ★★★ |
 | 我不是梯神 | https://wbsts.net/ | 不限时6元130G | 不限时机场 | [有](https://t.me/+r3nULUewoDkzNzZh) | ★★★ |
 | 网抑云 | https://wyy.netyi.cloud | 30/月/200G | - | [有](https://t.me/netyicloud) |  ★★ |

@@ -71,7 +71,7 @@
 
 * [用stay2给苹果Safari安装油猴插件](https://github.com/Yiov/notes/tree/main/stay2)
 
-* [IOS免签]
+* [Sideloadly 免越狱自签IPA文件](https://github.com/Yiov/notes/tree/main/Sideloadly)
 
 * [手机抓包工具安装及使用]
 

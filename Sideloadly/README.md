@@ -40,6 +40,8 @@
 
 * 需手机连接电脑操作
 
+* 限制：一个Apple ID只能签名3个应用
+
 </br>
 </br>
 
@@ -54,9 +56,10 @@
 
 点击 Download ， 这里根据自己电脑系统下载
 
-> 我的电脑-右键属性-系统类型显示的有 32 或者 64 位
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Sideloadly/Sideloadly-01.png)
+
+我的电脑-右键属性-系统类型显示的有 32 或者 64 位
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Sideloadly/Sideloadly-02.png)
 
@@ -86,7 +89,7 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Sideloadly/Sideloadly-05.png)
 
 
-手机连接数据线插入电脑，我们输入苹果ID账号后，点 `start` 开始，会要输入苹果ID密码，有耍手机验证的还要验证码
+手机连接数据线插入电脑，我们输入苹果ID账号后，点 `start` 开始，会要输入苹果ID密码，有开验证的还要输入验证码
 
 > 注：提示 Login failed 就是登录失败，反复试，我试了20好几次才成功
 
@@ -117,6 +120,43 @@
 > 注：7天后需要重新签哦
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Sideloadly/Sideloadly-10.png)
+
+
+最后的最后，了解一下高级选项的功能
+
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Sideloadly/Sideloadly-11.png)
+
+
+</br>
+</br>
+
+## 常见问题
+
+</br>
+
+
+### 1.设备信息没显示
+
+手机未信任电脑，重新拔插手机信任；是在搞不定用爱思助手连接好了，再打开此软件
+
+</br>
+
+### 2.苹果账号是手机号
+
+在账号前加86，手机为13300008888，则账号为：`8613300008888`
+
+</br>
+
+### 2.输入密码闪退
+
+可以尝试打开 `Advanced options` 高级选项 - 身份验证 改为远程 `Remote`
+
+</br>
+
+### 3.未收到手机验证码
+
+手机- Apple ID - 密码与安全性 - 获取验证码
 
 
 

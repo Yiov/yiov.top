@@ -82,7 +82,7 @@ https://github.com/opa334/TrollStore/releases
 
 
 
-打开这个紫色的 `TrollInstaller`，安装成功后先去信任证书
+打开紫色的 `TrollInstaller`前，需要先去信任证书
 
 > 老生常谈了，设置-通用-设备管理-信任，然后重新打开app
 

@@ -43,7 +43,8 @@
 | 13系列/SE 3</br>A15 | ✘ | ✘ | ✘ | ✔ | ✔ | ✘ | ✘ |
 
 
-注：标注 `特` 的是需要特殊方法 SSH Ramdisk
+注：标注 `越狱` 的是需要越狱后安装；SSH Ramdisk请参照视频：https://youtu.be/B0MueVvJSK4
+
 
 </br>
 </br>

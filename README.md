@@ -61,7 +61,7 @@
 
 
 <details>
-<summary>手机相关 [展开]</summary>
+<summary>iPhone / Android [展开]</summary>
 
 * [iPhone短信添加头像]
 

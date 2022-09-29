@@ -73,9 +73,14 @@
 
 * [Sideloadly 免越狱自签IPA文件](https://github.com/Yiov/notes/tree/main/Sideloadly)
 
+* [TrollStore永久自签安装使用](https://github.com/Yiov/notes/tree/main/TrollStore)
+
 * [手机抓包工具安装及使用]
 
 * [小米线刷降级破MIUI限制]
+
+
+
 
 </details>
 

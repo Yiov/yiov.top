@@ -75,6 +75,8 @@
 
 * [TrollStore永久自签安装使用](https://github.com/Yiov/notes/tree/main/TrollStore)
 
+* [iPhone越狱教程_unc0ver_Checkra1n](https://github.com/Yiov/notes/tree/main/jail​break)
+
 * [手机抓包工具安装及使用]
 
 * [小米线刷降级破MIUI限制]

@@ -207,7 +207,7 @@
 
 越狱完成后，Checkra1n 会提示 `All Done` 
 
-> 如果越狱失败请再尝试几次
+> 如果越狱失败，请再尝试一次
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/jail​break/jail​break-22.png)
 
@@ -265,7 +265,7 @@
 https://d-image.i4.cn/i4web/image/news/2020-07-16/fileTypeImages_1594880598242082789.zip
 ```
 
-下载完成后打开运行
+下载工具下载到桌面，打开运行
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/jail​break/jail​break-28.png)
 
@@ -357,5 +357,5 @@ https://d-image.i4.cn/i4web/image/news/2020-07-16/fileTypeImages_159488059824208
 
 * [iCleaner Pro](https://ib-soft.net/cydia)「删除插件」
 
-[Filza File Manager](http://tigisoftware.com/cydia/)
+* [Filza File Manager](http://tigisoftware.com/cydia/)
 

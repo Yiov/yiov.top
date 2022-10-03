@@ -132,7 +132,7 @@
 
 ### 2. 注册机场
 
-大部分机场新人注册都有送流量，请参照 [机场channel大全一览表](https://github.com/Yiov/notes/tree/main/airports)
+大部分机场新人注册都有送流量，请参照 [机场channel大全一览表](https://github.com/Yiov/notes/tree/main/channel)
 
 </br>
 

@@ -257,7 +257,7 @@ https://github.com/opa334/TrollStore/releases
 
 * 玩机一派网盘：https://pan.iggxx.com
 
-
+* IPA分享盘：https://pan.cjq6525.xyz/
 
 </br>
 </br>

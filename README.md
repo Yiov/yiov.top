@@ -16,7 +16,7 @@
 
 * [翻墙软件及白嫖节点](https://github.com/Yiov/notes/tree/main/proxy)
 
-* [机场channel大全一览表](https://github.com/Yiov/notes/tree/main/airports)
+* [机场channel大全一览表](https://github.com/Yiov/notes/tree/main/channel)
 
 </details>
 

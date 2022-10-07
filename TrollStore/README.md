@@ -48,9 +48,9 @@
 
 注：标注 `越狱` 的是需要越狱后安装；
 
-`✔` 表示可以使用trollstore
+✔ 表示可以使用trollstore
 
-`:star2:` 表示可以使用trollstore2
+✔ :star2: 表示可以使用trollstore2
 
 `SSH Ramdisk` 请参照视频：https://youtu.be/B0MueVvJSK4
 

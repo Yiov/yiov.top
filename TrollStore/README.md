@@ -2,6 +2,9 @@
 
 </br>
 
+更新时间：2022-10-7
+
+
 众所周知，IOS想安装IPA应用包，就需要证书签名，而TrollStore完美解决了要证书的这个问题，卖证书的瑟瑟发抖
 
 
@@ -37,13 +40,19 @@
 | 6s/6sP/SE</br>A9 | 越狱 | 越狱 | 越狱 | SSH</br>Ramdisk | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
 | 7/7P</br>A10 | 越狱 | 越狱 | 越狱 | ✔ | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
 | 8/8P/X</br>A11  | 越狱 | 越狱 | 越狱 | ✔ | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
-| XR/XS系列</br>A12 | 越狱 | 越狱 | ✘ | ✔ | ✘ | ✘ | ✘ |
-| 11系列/SE 2</br>A13 | 越狱 | 越狱 | ✘ | ✔ | ✘ | ✘ | ✘ |
-| 12系列</br>A14 | 越狱 | ✘ | ✘ | ✔ | ✔ | ✘ | ✘ |
-| 13系列/SE 3</br>A15 | ✘ | ✘ | ✘ | ✔ | ✔ | ✘ | ✘ |
+| XR/XS系列</br>A12 | 越狱 | 越狱 | ✔</br>:star2: | ✔ | ✘ | ✔</br>:star2: | ✔</br>:star2: |
+| 11系列/SE 2</br>A13 | 越狱 | 越狱 | ✔</br>:star2: | ✔ | ✘ | ✔</br>:star2: | ✔</br>:star2: |
+| 12系列</br>A14 | 越狱 | ✔</br>:star2: | ✔</br>:star2: | ✔ | ✔ | ✔</br>:star2: | ✔</br>:star2: |
+| 13系列/SE 3</br>A15 | ✘ | ✘ | ✘ | ✔ | ✔ | ✔</br>:star2: | ✔</br>:star2: |
 
 
-注：标注 `越狱` 的是需要越狱后安装；SSH Ramdisk请参照视频：https://youtu.be/B0MueVvJSK4
+注：标注 `越狱` 的是需要越狱后安装；
+
+`✔` 表示可以使用trollstore
+
+`:star2:` 表示可以使用trollstore2
+
+`SSH Ramdisk` 请参照视频：https://youtu.be/B0MueVvJSK4
 
 
 </br>
@@ -51,6 +60,25 @@
 
 
 ## 1.安装
+
+</br>
+
+由于2022/10/6 [@Linus Henze](https://twitter.com/LinusHenze) 在OBTS会议上公开了 `fugu15` 的全新越狱方式，[@opa334](https://twitter.com/opa334dev) 也通过此方法用开发者工具做了新的trollstore2，，与之前的 `trollstore` 安装稍有不同，我分开演示
+
+
+* 1.Trollstore的安装
+
+* 2.Trollstore 2 的安装
+
+* 3.越狱安装Trollstore
+
+
+</br>
+
+
+## 1.Trollstore的安装
+
+适用于A7-A15，IOS系统 15.0~15.1
 
 </br>
 
@@ -63,15 +91,6 @@ https://github.com/opa334/TrollStore/releases
 未越狱的下 `TrollInstaller.ipa` 文件，已越狱可以不用下，一会直接添加源
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-01.png)
-
-
-</br>
-
-### 1.1 免越狱安装
-
-</br>
-
-> 请确保符合上面免越狱安装的条件，否则失败
 
 
 首次安装 TrollStore 需要签名才行，我用 `Sideloadly` 自签
@@ -96,12 +115,48 @@ https://github.com/opa334/TrollStore/releases
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-04.png)
 
 
-
-
 </br>
 
 
-### 1.2 越狱安装
+## 2. Trollstore 2 的安装
+
+</br>
+
+打开苹果应用商店，搜：`Developer`  下载安装后打开
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-16.png)
+
+打开app，允许 `无限局域网与蜂窝网络` 
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-17.png)
+
+确保设置里也是开启了数据和Wlan，我们直接卸载
+
+> 因为我们只需要把这个权限打开即可
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-18.png)
+
+然后下载我们已经编译好的 `Trollstore 2` ,会发现安装的还是Developer
+
+> 如果我们直接安装Developer，部分人没有下载过，没有网络权限就无法安装巨魔，所以只能先下原版打开权限，卸载后再下修改的版本
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-19.png)
+
+
+再次打开，发现界面是不一样的，点安装 `Install Trollstore`,手机会软重启一下，桌面就有 `Trollstore` 了
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-20.png)
+
+
+
+
+
+
+</br>
+</br>
+
+
+## 3.越狱安装
 
 </br>
 
@@ -147,7 +202,7 @@ https://github.com/opa334/TrollStore/releases
 
 
 
-## 2.Trollstore的使用
+## 4.Trollstore的使用
 
 </br>
 
@@ -185,7 +240,7 @@ https://github.com/opa334/TrollStore/releases
 
 </br>
 
-## 4.常见问题
+## 5.常见问题
 
 </br>
 
@@ -258,6 +313,9 @@ https://github.com/opa334/TrollStore/releases
 * 玩机一派网盘：https://pan.iggxx.com
 
 * IPA分享盘：https://pan.cjq6525.xyz/
+
+* 空了个孔：https://pan.kongtan.net/
+
 
 </br>
 </br>

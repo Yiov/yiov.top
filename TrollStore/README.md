@@ -36,10 +36,8 @@
 
 | 手机</br>/</br>系统| 14.0-</br>14.5.1 | 14.6-</br>14.8 | 14.8.1 | 15.0-</br>15.1 | 15.1.1 | 15.2-</br>15.4 | 15.5</br>Beta1-4 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| 6/6P</br>A8 | 越狱 | 越狱 | 越狱 | SSH</br>Ramdisk | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
-| 6s/6sP/SE</br>A9 | 越狱 | 越狱 | 越狱 | SSH</br>Ramdisk | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
-| 7/7P</br>A10 | 越狱 | 越狱 | 越狱 | ✔ | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
-| 8/8P/X</br>A11  | 越狱 | 越狱 | 越狱 | ✔ | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
+| 6/6P/6s/6sP/SE</br>A8/A9 | 越狱 | 越狱 | 越狱 | SSH</br>Ramdisk | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
+| 7/7P/8/8P</br>A10/A11 | 越狱 | 越狱 | 越狱 | ✔ | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
 | XR/XS系列</br>A12 | 越狱 | 越狱 | ✔</br>:star2: | ✔ | ✘ | ✔</br>:star2: | ✔</br>:star2: |
 | 11系列/SE 2</br>A13 | 越狱 | 越狱 | ✔</br>:star2: | ✔ | ✘ | ✔</br>:star2: | ✔</br>:star2: |
 | 12系列</br>A14 | 越狱 | ✔</br>:star2: | ✔</br>:star2: | ✔ | ✔ | ✔</br>:star2: | ✔</br>:star2: |
@@ -66,9 +64,9 @@
 由于2022/10/6 [@Linus Henze](https://twitter.com/LinusHenze) 在OBTS会议上公开了 `fugu15` 的全新越狱方式，[@opa334](https://twitter.com/opa334dev) 也通过此方法用开发者工具做了新的trollstore2，，与之前的 `trollstore` 安装稍有不同，我分开演示
 
 
-* 1.Trollstore的安装
+* 1.Trollstore的安装 ✔
 
-* 2.Trollstore 2 的安装
+* 2.Trollstore 2 的安装 ✔ :star2:
 
 * 3.越狱安装Trollstore
 
@@ -76,7 +74,7 @@
 </br>
 
 
-## 1.Trollstore的安装
+### 1.Trollstore的安装 ✔
 
 适用于A7-A15，IOS系统 15.0~15.1
 
@@ -118,7 +116,7 @@ https://github.com/opa334/TrollStore/releases
 </br>
 
 
-## 2. Trollstore 2 的安装
+### 2. Trollstore 2 的安装 ✔ :star2:
 
 </br>
 
@@ -156,7 +154,7 @@ https://github.com/opa334/TrollStore/releases
 </br>
 
 
-## 3.越狱安装
+### 3.越狱安装
 
 </br>
 
@@ -202,7 +200,7 @@ https://github.com/opa334/TrollStore/releases
 
 
 
-## 4.Trollstore的使用
+## 2.Trollstore的使用
 
 </br>
 
@@ -240,11 +238,14 @@ https://github.com/opa334/TrollStore/releases
 
 </br>
 
-## 5.常见问题
+
+
+
+## 3.常见问题
 
 </br>
 
-### 4.1 安装失败，不显示图标
+### 3.1 安装失败，不显示图标
 
 </br>
 
@@ -255,13 +256,13 @@ https://github.com/opa334/TrollStore/releases
 
 
 
-### 4.2 如何避免TrollStore掉签
+### 3.2 如何避免TrollStore掉签
 
 </br>
 
 可以利用 `TrollStore` 重新安装 `TrollHelper`，以免打开不开了重新装
 
-* 未越狱：打开`Helper Install As Standalone APP`，选择你要注入自带应用，选择HOME家庭或者其他，只要你重启，打开家庭App就能激活
+* 未越狱：打开`Helper Install As Standalone APP`，选择你要注入自带应用，选择Tips提醒或者其他，只要你重启，打开提醒App就能激活
 
 * 已越狱：不存在掉签
 
@@ -271,7 +272,7 @@ https://github.com/opa334/TrollStore/releases
 
 
 
-### 4.3 如何单独删除已安装应用
+### 3.3 如何单独删除已安装应用
 
 打开 `TrollStore` 应用，在Apps页面中，选中你要删除应用，左滑，点击删除
 
@@ -281,7 +282,7 @@ https://github.com/opa334/TrollStore/releases
 
 
 
-### 4.4 卸载TrollStore
+### 3.4 卸载TrollStore
 
 </br>
 
@@ -293,7 +294,7 @@ https://github.com/opa334/TrollStore/releases
 </br>
 
 
-## 源列分享表
+## 4.源列分享表
 
 </br>
 </br>

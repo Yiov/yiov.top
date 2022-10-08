@@ -74,7 +74,7 @@
 </br>
 
 
-### 1.Trollstore的安装 ✔
+### 1.1 Trollstore的安装 ✔
 
 适用于A7-A15，IOS系统 15.0~15.1
 
@@ -114,9 +114,11 @@ https://github.com/opa334/TrollStore/releases
 
 
 </br>
+</br>
 
 
-### 2. Trollstore 2 的安装 ✔ :star2:
+
+### 1.2 Trollstore 2 的安装 ✔ :star2:
 
 </br>
 
@@ -124,24 +126,32 @@ https://github.com/opa334/TrollStore/releases
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-16.png)
 
-打开app，允许 `无限局域网与蜂窝网络` 
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-17.png)
-
-确保设置里也是开启了数据和Wlan，我们直接卸载
+打开app，允许 `无限局域网与蜂窝网络` ，确保设置里也是开启了数据和Wlan，然后我们直接卸载
 
 > 因为我们只需要把这个权限打开即可
 
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-17.png)
+
+
+
+下载我们已经编译好的 `Trollstore 2` IPA包
+
+备用下载：https://dzp.lanzouy.com/ivbXN0dczhkd
+
+> 出现弹窗安装才行，没反应就刷新了再点安装
+
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-18.png)
 
-然后下载我们已经编译好的 `Trollstore 2` ,会发现安装的还是Developer
 
-> 如果我们直接安装Developer，部分人没有下载过，没有网络权限就无法安装巨魔，所以只能先下原版打开权限，卸载后再下修改的版本
+会发现安装的还是Developer，再次打开发现界面是不一样的，点安装 `Install Trollstore`
+
+> 如果我们直接安装Developer，没有下载过的会导致没有网络权限，就无法安装巨魔，所以只能先下原版打开权限，卸载后再下修改的版本
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-19.png)
 
 
-再次打开，发现界面是不一样的，点安装 `Install Trollstore`,手机会软重启一下，桌面就有 `Trollstore` 了
+手机会自动软重启一下，桌面就有 `Trollstore` 了
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-20.png)
 
@@ -154,7 +164,7 @@ https://github.com/opa334/TrollStore/releases
 </br>
 
 
-### 3.越狱安装
+### 1.3 越狱安装
 
 </br>
 
@@ -231,6 +241,8 @@ https://github.com/opa334/TrollStore/releases
 
 现在签名安装的应用就不用担心证书过期的问题了
 
+> 注意：重启可能会导致安装的APP失效，请参照 `常见问题3.2` 安装永久助手
+
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-15.png)
 
 
@@ -294,10 +306,80 @@ https://github.com/opa334/TrollStore/releases
 </br>
 
 
-## 4.源列分享表
+## 4.Throllstore必备软件
 
 </br>
+
+
+
+* [Filza](https://www.tigisoftware.com/default/?p=439) 「文件管理器」
+
+
+```
+Filza破解教程
+
+1.设置 - 无限局域网 - 使用无线局域网与蜂窝网络的APP - Filza - 关闭网络
+
+2.Filza - 齿轮 设置 - 激活状态 <体验> - 复制设备序列号<与关于本机-序列号一致>
+
+3.Filza - 设置 - 备份 - 在上层文件夹中显示
+
+4.点击 `settings.fzs` 右侧的 `i` - 分享 - 属性表编辑器
+
+5.展开Root - 点击 `item 1` 右侧的 `i` - 点击 `Add item...`
+
+6.电脑下载Loader1.0 - 打开Loader.exe关闭 再次打开即可使用 - `Device SN`填序列号 - 点`Generate`提示破解成功即可，复制计算出的破解码
+
+7.名称栏改为`SerialNumber` - 计算的破解码粘贴到`值`这里 - 返回 - 存储 - 完成
+
+8.点击 `settings.fzs`，出现警告 去定要恢复素有Filza设置吗 - 继续 - 自动退出
+
+9.重新打开Filza - 设置 - 激活状态 <完整版> 破解完成
+```
+
+
 </br>
+
+
+
+* [AppStore++](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) 「有广告 自由升降级app版本」
+
+</br>
+
+
+* [DowngradeApp](https://initnil.com/DowngradeApp.txt) 「无广告 随意升降级app版本」
+
+</br>
+
+
+* [TrollNonce](https://github.com/opa334/TrollNonce/releases) 「固定G值」
+
+
+</br>
+
+
+* [red-dot](https://github.com/s8ngyu/red-dot/releases) 「自定义角标颜色」
+
+```
+生效：点击 Badge colour - 选择颜色 - 返回 Apply - TrollStore `Respring` 注销
+
+恢复：点击 Revert Chanages - TrollStore `Respring` 注销
+```
+
+</br>
+
+
+
+* [TSSSaver](https://tsssaver.1conan.com/v2/) 「SHSH2备份工具」
+
+
+</br>
+
+* [轻松签](https://esign.yyyue.xyz/) 「签名+修改bundleID」
+
+
+</br>
+
 
 * 饼干网盘：https://pan.iosvip.cc
 

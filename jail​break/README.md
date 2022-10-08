@@ -2,6 +2,8 @@
 
 </br>
 
+更新时间：2022-10-8
+
 一般主流的越狱工具：[unc0ver](https://unc0ver.dev/) 和 [checkra1n](https://checkra.in/) ，还有相对少些的 [Taurine](https://taurine.app/) 、 [Chimera](https://chimera.coolstar.org/) 、 [odyssey](https://theodyssey.dev/) 、 [Electra](https://coolstar.org/electra/)
 
 如果刚上手不太懂得使用，直接 [爱思助手](https://www.i4.cn/) 简单且好用
@@ -286,6 +288,111 @@ https://d-image.i4.cn/i4web/image/news/2020-07-16/fileTypeImages_159488059824208
 
 </br>
 </br>
+
+
+## 5.越狱必备工具
+
+</br>
+
+
+
+* PreferenceLoader 插件工具
+
+作者：Sam Bingner
+
+必装依赖，自带的bigboss源，商店搜即可
+
+</br>
+
+
+* AppList 已安装应用清单
+
+作者：Ryan Petrich
+
+必装依赖，自带的bigboss源，商店搜即可
+
+</br>
+
+
+
+* Apple File Conduit "2" 通过USB从设备读写文件
+
+作者：saurik, Cannathea
+
+必装依赖，自带的bigboss源，商店搜即可
+</br>
+
+
+
+
+* Filza File Manager 文件管理器
+
+作者：TIGI Software
+
+源：
+```
+http://tigisoftware.com/cydia/
+```
+</br>
+
+
+
+
+
+* RocketBootstrap app运行时加载插件
+
+作者：Ryan Petrich
+
+必装依赖，源：
+```
+https://rpetri.ch/repo/
+```
+
+</br>
+
+
+
+
+* AppSync Unified 安装IPA包
+
+作者：Karen/あけみ, Linus Yang
+
+源：
+```
+https://cydia.akemi.ai/
+```
+</br>
+
+
+
+
+* AppStore++ 随意升降级APP版本
+
+作者：CokePokes
+
+源：
+```
+https://cokepokes.github.io
+```
+</br>
+
+
+
+* Apps Manager 应用管理器
+
+作者：TIGI Software
+
+源：
+```
+https://tigisoftware.com/cydia/
+```
+</br>
+
+
+
+
+</br>
+
 
 
 

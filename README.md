@@ -140,7 +140,7 @@
 
 * [Onenav的搭建](https://github.com/Yiov/notes/tree/main/onenav)
 
-* [Alist网盘的搭建]
+* [Alist搭建自己的专属网盘](https://github.com/Yiov/notes/tree/main/Alist)
 
 * [Favicon图标api搭建]
 

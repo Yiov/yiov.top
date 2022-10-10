@@ -2,7 +2,7 @@
 
 </br>
 
-更新时间：2022-10-7
+更新时间：2022-10-10
 
 
 众所周知，IOS想安装IPA应用包，就需要证书签名，而TrollStore完美解决了要证书的这个问题，卖证书的瑟瑟发抖
@@ -64,9 +64,9 @@
 由于2022/10/6 [@Linus Henze](https://twitter.com/LinusHenze) 在OBTS会议上公开了 `fugu15` 的全新越狱方式，[@opa334](https://twitter.com/opa334dev) 也通过此方法用开发者工具做了新的trollstore2，，与之前的 `trollstore` 安装稍有不同，我分开演示
 
 
-* 1.Trollstore的安装 ✔
+* 1.Trollstore的安装 :heart:
 
-* 2.Trollstore 2 的安装 ✔ :star2:
+* 2.Trollstore 2 的安装 :green_heart:
 
 * 3.越狱安装Trollstore
 
@@ -74,7 +74,7 @@
 </br>
 
 
-### 1.1 Trollstore的安装 ✔
+### 1.1 Trollstore的安装 :heart:
 
 适用于A7-A15，IOS系统 15.0~15.1
 
@@ -118,11 +118,15 @@ https://github.com/opa334/TrollStore/releases
 
 
 
-### 1.2 Trollstore 2 的安装 ✔ :star2:
+### 1.2 Trollstore 2 的安装 :green_heart:
 
 </br>
 
-打开苹果应用商店，搜：`Developer`  下载安装后打开
+需要苹果国外ID登录应用商店，搜：`GTA Car Tracker`  下载安装后打开
+
+> 如果没有国外ID，可以用`DeveloperInstaller.ipa`尝试
+
+
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-16.png)
 
@@ -137,23 +141,18 @@ https://github.com/opa334/TrollStore/releases
 
 下载我们已经编译好的 `Trollstore 2` IPA包
 
-备用下载：https://dzp.lanzouy.com/ivbXN0dczhkd
+备用下载：https://dzp.lanzouy.com/ijuNZ0djmubg
 
 > 出现弹窗安装才行，没反应就刷新了再点安装
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-18.png)
 
 
-会发现安装的还是Developer，再次打开发现界面是不一样的，点安装 `Install Trollstore`
+会发现安装的还是GTA Car Tracker，再次打开发现界面是不一样的，点安装 `Install Trollstore`
 
-> 如果我们直接安装Developer，没有下载过的会导致没有网络权限，就无法安装巨魔，所以只能先下原版打开权限，卸载后再下修改的版本
+> 如果我们直接安装GTA Car Tracker，没有下载过的会导致没有网络权限，就无法安装巨魔，所以只能先下原版打开权限，卸载后再下修改的版本
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-19.png)
-
-
-手机会自动软重启一下，桌面就有 `Trollstore` 了
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-20.png)
 
 
 

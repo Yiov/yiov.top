@@ -34,21 +34,21 @@
 
 </br>
 
-| 手机</br>/</br>系统| 14.0-</br>14.5.1 | 14.6-</br>14.8 | 14.8.1 | 15.0-</br>15.1 | 15.1.1 | 15.2-</br>15.4 | 15.5</br>Beta1-4 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| 6/6P/6s/6sP/SE</br>A8/A9 | 越狱 | 越狱 | 越狱 | SSH</br>Ramdisk | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
-| 7/7P/8/8P</br>A10/A11 | 越狱 | 越狱 | 越狱 | ✔ | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
-| XR/XS系列</br>A12 | 越狱 | 越狱 | ✔</br>:star2: | ✔ | ✘ | ✔</br>:star2: | ✔</br>:star2: |
-| 11系列/SE 2</br>A13 | 越狱 | 越狱 | ✔</br>:star2: | ✔ | ✘ | ✔</br>:star2: | ✔</br>:star2: |
-| 12系列</br>A14 | 越狱 | ✔</br>:star2: | ✔</br>:star2: | ✔ | ✔ | ✔</br>:star2: | ✔</br>:star2: |
-| 13系列/SE 3</br>A15 | ✘ | ✘ | ✘ | ✔ | ✔ | ✔</br>:star2: | ✔</br>:star2: |
+| 手机</br>/</br>系统| 14.0-</br>14.8.1 | 15.0-</br>15.1 | 15.1.1 | 15.2-</br>15.4.1 | 15.5</br>Beta1-4 |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 6/6P/6s/6sP/SE</br>A8/A9 | 越狱 | SSH</br>Ramdisk | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
+| 7/7P/8/8P/X</br>A10/A11 | 越狱 | :heart:</br>`1代` | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
+| XR/XS系列/11系列/SE 2代</br>A12/A13 | :green_heart:</br>`2代` | :green_heart:</br>`2代` | ✘ | :green_heart:</br>`2代` | :green_heart:</br>`2代` |
+| 12系列</br>A14 | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` |
+| 13系列/SE 3</br>A15 | ✘ | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` |
+
 
 
 注：标注 `越狱` 的是需要越狱后安装；
 
-✔ 表示可以使用trollstore
+:heart: 1代：表示可以使用 trollstore
 
-✔ :star2: 表示可以使用trollstore2
+:green_heart: 2代：表示可以使用 trollstore2
 
 `SSH Ramdisk` 请参照视频：https://youtu.be/B0MueVvJSK4
 

@@ -75,6 +75,8 @@
 
 * [TrollStore永久自签安装使用](https://github.com/Yiov/notes/tree/main/TrollStore)
 
+* [轻松签+的永久签安装使用](https://github.com/Yiov/notes/tree/main/esign)
+
 * [iPhone越狱教程_unc0ver_Checkra1n](https://github.com/Yiov/notes/tree/main/jail​break)
 
 * [牛蛙助手免越狱_虚拟定位/自签IPA](https://github.com/Yiov/notes/tree/main/bullfrog)

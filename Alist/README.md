@@ -3,7 +3,7 @@
 
 </br>
 
-更新时间：2022-10-9
+更新时间：2022-10-10
 
 一直想搭建，总算抽出空来，搭建完成就可以通过网页，在任何电脑上访问并下载，而不需要打开任何网盘，方便至极
 
@@ -52,7 +52,7 @@ Alist原本是一个网盘文件列表程序，但自从可利用WebDAV把网盘
 
 本次仅演示docker安装，其他安装请参考文档
 
-> 如果想安装在指定域名目录，可以使用一键脚本，安装的时候指定目录
+> 如果想安装在指定域名目录，可以使用Curl一键脚本，安装的时候指定目录
 
 </br>
 
@@ -70,7 +70,7 @@ Alist原本是一个网盘文件列表程序，但自从可利用WebDAV把网盘
 </br>
 
 
-## 1.安装
+## 1.安装Alist
 
 </br>
 
@@ -81,7 +81,7 @@ Alist原本是一个网盘文件列表程序，但自从可利用WebDAV把网盘
 
 用Xshell登录服务器，粘贴，回车
 
-> 第一个 `5244` 端口可以自定义，第二个5244不要动，怕出错的默认
+> 第一个 `5244` 监听端口可以自己改，第二个5244不要动，怕出错的默认
 
 ```
 docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 --name="alist" xhofe/alist:latest
@@ -358,7 +358,9 @@ https://pc.woozooo.com/
 
 
 
-## 6.如何删除/卸载
+## 6.如何更新
+
+
 
 如果不想用了，Xshell登录，可查看一下容器，暂停容器
 
@@ -366,17 +368,10 @@ https://pc.woozooo.com/
 
 ```
 docker ps -a #查看容器
-```
 
-暂停alist容器
-``
-docker stop alist
-``
+docker stop alist #暂停alist容器
 
-
-删除alist容器
-```
-docker rm -f alist
+docker rm -f alist #删除alist容器
 ```
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Alist/Alist-35.png)
@@ -386,23 +381,50 @@ docker rm -f alist
 
 查看镜像
 ```
-docker images
-```
+docker images #查看镜像
 
-删除镜像 imagesID
+docker rmi 镜像ID #删除镜像
+
 ```
-docker rmi 镜像ID
-```
-docker rmi 763f83921754
 
 或者
 ```
-docker rm -f xhofe/alist:latest
+docker rm -f xhofe/alist:latest #删除镜像
 ```
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Alist/Alist-36.png)
 
 
+重新起容器即可，由于系统文件都还在，所有内容无需重新设置
+
+
+如果想彻底删除，就需要删除安装目录了
+
+
+
+
+</br>
+</br>
+
+
+## 常见问题
+
+</br>
+
+
+### 1.添加目录时报错 Failed create storage in database: UNIQUE constraint failed: x_storages.mount_path
+
+文件夹重名了，即便网盘不同，挂载到Alist也不能重名
+
+</br>
+
+### 2.如何去掉底部的 由 AList 驱动
+
+请尊重开发者的劳动，谢谢。如果你真的想删除它，你可以使用自定义 CSS 来隐藏它
+
+
+</br>
+</br>
 
 ## 特别鸣谢
 

@@ -84,10 +84,10 @@
 * [Shadowsocks：安卓端下载](https://github.com/shadowsocks/shadowsocks-android/releases)
 
 
-* [SSR：安卓端下载](https://github.com/shadowsocksrr/shadowsocksr-android)
+* [SSR：安卓端下载](https://github.com/shadowsocksrr/shadowsocksr-android/releases)
 
 
-* [AnXray：安卓端下载](https://github.com/XTLS/AnXray/releases)
+
 
 
 </br>

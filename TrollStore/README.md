@@ -2,7 +2,7 @@
 
 </br>
 
-更新时间：2022-10-10
+更新时间：2022-10-12
 
 
 众所周知，IOS想安装IPA应用包，就需要证书签名，而TrollStore完美解决了要证书的这个问题，卖证书的瑟瑟发抖
@@ -36,21 +36,23 @@
 
 | 手机</br>/</br>系统| 14.0-</br>14.8.1 | 15.0-</br>15.1 | 15.1.1 | 15.2-</br>15.4.1 | 15.5</br>Beta1-4 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 6/6P/6s/6sP/SE</br>A8/A9 | 越狱 | SSH</br>Ramdisk | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
-| 7/7P/8/8P/X</br>A10/A11 | 越狱 | :heart:</br>`1代` | ✘ | SSH</br>Ramdisk | SSH</br>Ramdisk |
-| XR/XS系列/11系列/SE 2代</br>A12/A13 | :green_heart:</br>`2代` | :green_heart:</br>`2代` | ✘ | :green_heart:</br>`2代` | :green_heart:</br>`2代` |
-| 12系列</br>A14 | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` |
-| 13系列/SE 3</br>A15 | ✘ | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` | :green_heart:</br>`2代` |
+| 6/6P/6s/6sP/SE</br>A8/A9 | 越狱 | :green_heart:</br>`troll` | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
+| 7/7P/8/8P/X</br>A10/A11 | 越狱 | :green_heart:</br>`troll` | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
+| XR/XS系列/11系列/SE 2代</br>A12/A13 | :green_heart:</br>`troll64e` | :green_heart:</br>`troll` | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
+| 12系列</br>A14 | :green_heart:</br>`troll64e` | :green_heart:</br>`troll` | :green_heart:</br>`troll` | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
+| 13系列/SE 3</br>A15 | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
 
 
 
-注：标注 `越狱` 的是需要越狱后安装；
+注：
 
-:heart: 1代：表示可以使用 trollstore
+* `越狱` 的是需要越狱后安装；
 
-:green_heart: 2代：表示可以使用 trollstore2
+* :green_heart: troll：表示使用: https://api.jailbreaks.app/troll
 
-`SSH Ramdisk` 请参照视频：https://youtu.be/B0MueVvJSK4
+* :green_heart: troll64e：表示使用：https://api.jailbreaks.app/troll64e
+
+
 
 
 </br>
@@ -61,98 +63,51 @@
 
 </br>
 
-由于2022/10/6 [@Linus Henze](https://twitter.com/LinusHenze) 在OBTS会议上公开了 `fugu15` 的全新越狱方式，[@opa334](https://twitter.com/opa334dev) 也通过此方法用开发者工具做了新的trollstore2，，与之前的 `trollstore` 安装稍有不同，我分开演示
+由于2022/10/6 [@Linus Henze](https://twitter.com/LinusHenze) 在OBTS会议上公开了 `fugu15` 的全新越狱方式，[@opa334](https://twitter.com/opa334dev) 也通过他的帮助发布了全新的工具
 
 
-* 1.Trollstore的安装 :heart:
-
-* 2.Trollstore 2 的安装 :green_heart:
-
-* 3.越狱安装Trollstore
+请根据系统选择相应的安装方式
 
 
-</br>
 
-
-### 1.1 Trollstore的安装 :heart:
-
-适用于A7-A15，IOS系统 15.0~15.1
+### 1.1 Trollstore的安装
 
 </br>
 
-
-先下载TrollStore的安装包：
-
-https://github.com/opa334/TrollStore/releases
-
-
-未越狱的下 `TrollInstaller.ipa` 文件，已越狱可以不用下，一会直接添加源
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-01.png)
-
-
-首次安装 TrollStore 需要签名才行，我用 `Sideloadly` 自签
-
-> 不知道如何使用的点我 [☛ Sideloadly使用教程](https://github.com/opa334/TrollStore/)
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-02.png)
-
-
-
-打开紫色的 `TrollInstaller`前，需要先去信任证书
-
-> 老生常谈了，设置-通用-设备管理-信任，然后重新打开app
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-03.png)
-
-
-再点击 Install 安装，完成后关闭弹窗，桌面就有应用了
-
-> 如出现闪退/白苹果重启，再试一次，不行就是系统不支持
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-04.png)
-
-
-</br>
-</br>
-
-
-
-### 1.2 Trollstore 2 的安装 :green_heart:
-
-</br>
 
 需要苹果国外ID登录应用商店，搜：`GTA Car Tracker`  下载安装后打开
 
 > 如果没有国外ID，可以用`DeveloperInstaller.ipa`尝试
 
 
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-16.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-01.png)
 
 
 打开app，允许 `无限局域网与蜂窝网络` ，确保设置里也是开启了数据和Wlan，然后我们直接卸载
 
 > 因为我们只需要把这个权限打开即可
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-17.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-02.png)
 
 
 
 下载我们已经编译好的 `Trollstore 2` IPA包
 
-备用下载：https://dzp.lanzouy.com/ijuNZ0djmubg
+* :green_heart: troll：表示使用: https://api.jailbreaks.app/troll
+
+* :green_heart: troll64e：表示使用：https://api.jailbreaks.app/troll64e
+
 
 > 出现弹窗安装才行，没反应就刷新了再点安装
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-18.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-03.png)
 
 
 会发现安装的还是GTA Car Tracker，再次打开发现界面是不一样的，点安装 `Install Trollstore`
 
 > 如果我们直接安装GTA Car Tracker，没有下载过的会导致没有网络权限，就无法安装巨魔，所以只能先下原版打开权限，卸载后再下修改的版本
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-19.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-04.png)
 
 
 

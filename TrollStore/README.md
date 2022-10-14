@@ -34,7 +34,7 @@
 
 </br>
 
-| 手机</br>/</br>系统| 14.0-</br>14.8.1 | 15.0-</br>15.1 | 15.1.1 | 15.2-</br>15.4.1 | 15.5</br>Beta1-4 |
+| 手机</br>/</br>系统| 14.0-</br>14.8.1 | 15.0-</br>15.1 | 15.1.1 | 15.2-</br>15.4.1 | 15.5-15.6</br>Beta1-4/5 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 6/6P/6s/6sP/SE</br>A8/A9 | 越狱 | :green_heart:</br>`troll` | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
 | 7/7P/8/8P/X</br>A10/A11 | 越狱 | :green_heart:</br>`troll` | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
@@ -66,7 +66,7 @@
 由于2022/10/6 [@Linus Henze](https://twitter.com/LinusHenze) 在OBTS会议上公开了 `fugu15` 的全新越狱方式，[@opa334](https://twitter.com/opa334dev) 也通过他的帮助发布了全新的工具
 
 
-请根据系统选择相应的安装方式
+
 
 
 
@@ -74,38 +74,20 @@
 
 </br>
 
-
-需要苹果国外ID登录应用商店，搜：`GTA Car Tracker`  下载安装后打开
-
-> 如果没有国外ID，可以用`DeveloperInstaller.ipa`尝试
-
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-01.png)
-
-
-打开app，允许 `无限局域网与蜂窝网络` ，确保设置里也是开启了数据和Wlan，然后我们直接卸载
-
-> 因为我们只需要把这个权限打开即可
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-02.png)
-
-
-
-下载我们已经编译好的 `Trollstore 2` IPA包
+请根据系统选择相应的安装方式
 
 * :green_heart: troll：表示使用: https://api.jailbreaks.app/troll
 
 * :green_heart: troll64e：表示使用：https://api.jailbreaks.app/troll64e
 
 
-> 出现弹窗安装才行，没反应就刷新了再点安装
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-03.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-01.png)
 
 
-会发现安装的还是GTA Car Tracker，再次打开发现界面是不一样的，点安装 `Install Trollstore`
 
-> 如果我们直接安装GTA Car Tracker，没有下载过的会导致没有网络权限，就无法安装巨魔，所以只能先下原版打开权限，卸载后再下修改的版本
+
+安装的是 `GTA Car Tracker` ，打开点安装 `Install Trollstore`，自动注销后，回到桌面就发现装完成了
+
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-04.png)
 

@@ -67,7 +67,7 @@
 
 * [带口罩解锁iPhone面容ID]
 
-* [注册国外苹果Apple-ID步骤]
+* [注册国外苹果Apple_ID步骤](https://github.com/Yiov/notes/tree/main/Apple_ID)
 
 * [用stay2给苹果Safari安装油猴插件](https://github.com/Yiov/notes/tree/main/stay2)
 

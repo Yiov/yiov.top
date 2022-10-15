@@ -51,6 +51,8 @@
 
 * [Tosesk远程电脑](https://github.com/Yiov/notes/tree/main/todesk)
 
+* [待产包清单及入院指南参考](https://github.com/Yiov/notes/tree/main/hospital_bag)
+
 </details>
 
 

@@ -2,7 +2,7 @@
 
 </br>
 
-更新时间：2022-10-10
+更新时间：2022-10-24
 
 
 随着fugu15漏洞演示，TrollStore也出了新的永久签，轻松签也紧跟步伐推送了轻松签+
@@ -68,7 +68,7 @@
 
 打开轻松签+，允许 `无限局域网与蜂窝网络` ，就可以使用了
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-04.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-05.png)
 
 
 </br>
@@ -77,13 +77,53 @@
 
 ## 2.使用
 
-教程编写中，请稍后...
+</br>
 
-### 2.1 注入
+先下载要安装的IPA，也可以和我一样用`IPA下载器` 再导入到轻松签+
 
-### 2.2 移除
+> 我以微信为例
 
-### 2.3 修改Bundle ID
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-06.png)
+
+打开轻松签+ - 文件 - 点击刚下载的ipa文件 - 导入应用库 - 点击应用界面未签名的ipa应用 - 签名
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-07.png)
+
+简单看一下界面，都是字面意思
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-08.png)
+
+
+多开就要改一下名字和Bundle ID
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-09.png)
+
+
+点更改图标和注入插件的，就点更多设置
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-10.png)
+
+我们这里有一个14合一的安装包，我们看一下，也是常用的插件
+
+> 如果下载的是未注入插件的包，可以`添加第三方库`，或者不用任何插件
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-11.png)
+
+都弄好了，就可以签名了
+
+> 建议开启：移除应用跳转，不然分享会跳转到小号
+>
+> 建议开启：文件访问，方便传图
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-12.png)
+
+
+签好名后，直接安装即可
+
+> 不满意可以重新签名安装，Bundle ID一致可以直接覆盖
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/esign/esign-13.png)
+
 
 
 ## 特别鸣谢

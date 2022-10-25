@@ -50,6 +50,7 @@
 | 4G MKVN | https://4g.mkvn.net/ | 越南盾</br>白嫖注册 | 新户注册1月20G | [zalo](https://zalo.me/g/ykwjdd618) |
 | cloudfast | https://cloudfast.cc/ | 7/月/80G</br>不限设备 | 新户注册12年5G | [TG](https://t.me/cloudfastcc) |
 | 在家学习 | https://tro.gay/ | 10/月/无限流量 | 商店1分10G | [TG](https://t.me/+PtangegWhJBiYmVh) |
+| 猴子加速器 | https://houziji.xyz/ | 20/月/130G | 新户注册1天5G</br>商店无限0购1年5G | [TG](https://t.me/houziwangluo) |
 | **5-7天**</br>★★★★ |
 | XMRth | https://xmrth.vip/ | 5/月/1500G直连</br>3个设备 |  新户10天30G试用流量 | [TG](https://t.me/xmrth) |
 | 西瓜VPN | https://xg1110.com/ | 5/月/100G</br>2个设备 | 新户注册7天200G | [TG](https://t.me/+EGImDWOpwW0wZGQ5) |
@@ -196,6 +197,7 @@
 | 橘猫Net | https://jumaonet.com/ | 10/年/</br>100G/月 | 1元试用7天10G | [TG](https://t.me/JMNet_group) |
 | 低价机场 | https://xn--6nq0hk9tdjr.com/ | 1/月500G| - | [TG](https://t.me/+4sC_xezLo1lkY2Zl) |
 | 性价比机场 | https://xingjiabijichang.com/ | 1/月/100G | 不限时10元200G | [TG](https://t.me/xingjiabijichang) |
+| 渣渣云 | https://board.zhazha.store | 1/月/99G | 新户注册1天3G | [TG](https://t.me/zhazhacloud) |
 | 星海 | https://hgdbk.tech/ | 1/月/50G | - | 无 |
 | BIG | https://big234.com/ | 不限时1元6G | - | [TG](https://t.me/freeipml) |
 | 两元店 | http://xn--5hqx9equq.com | 2/月/1024G | - | [TG](https://t.me/xn5hqx9equq) |

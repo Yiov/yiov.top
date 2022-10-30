@@ -48,6 +48,7 @@
 | MeatBallEmoji | https://leftright.space/ | 商店0购1月30G | 白嫖机场 | [TG](https://t.me/meatballemoji) |
 | 海马科技 | https://hmkj3.com/ | 10/月/100G | 新户注册1月30G</br>不限时5元30G | [TG](https://t.me/hmkj3) |
 | 4G MKVN | https://4g.mkvn.net/ | 越南盾</br>白嫖注册 | 新户注册1月20G | [zalo](https://zalo.me/g/ykwjdd618) |
+| 腾讯云</br>Tencent | https://www.tencent.cfd/ | 3/月/88G | 商店无限0购1月10G</br>不限时8元200G | [TG](https://t.me/tencent_cfd) |
 | cloudfast | https://cloudfast.cc/ | 7/月/80G</br>不限设备 | 新户注册12年5G | [TG](https://t.me/cloudfastcc) |
 | 在家学习 | https://tro.gay/ | 10/月/无限流量 | 商店1分10G | [TG](https://t.me/+PtangegWhJBiYmVh) |
 | 猴子加速器 | https://houziji.xyz/ | 20/月/130G | 新户注册1天5G</br>商店无限0购1年5G | [TG](https://t.me/houziwangluo) |
@@ -94,6 +95,7 @@
 | 猫猫云 | https://maomaoy.fun/ | 10/月/200G</br>无限制 | 新户注册送5G<br>邀请码：maomao | [TG](https://t.me/maomaoyunfun) |
 | 飞云 | https://fyun.cf | 10/月/100G</br>不限制 | 新户注册送5G流量 | [TG](https://t.me/feiyunc) |
 | 暮城国际机场 | https://tcity8.top | 10/月/80G | 新户注册1天5G</br>速度一般 | [TG](https://t.me/+7CkywyablQQ4MTZl) |
+| 狼塔 | https://www.wolftower.net | 12/月/100G</br>2个设备 | 新户注册1天5G | [TG](https://t.me/wftower) |
 | Dual Net | https://www.dualnetapp.com/ | 179.99/年/</br>25G/月 | 新户注册5G | [BOT](https://t.me/DualNetwork_Bot) |
 | 清凉云 | https://qlyun.xyz/ | 15/月/250G | 新户注册1天5G</br>不限时5元10G| [TG](https://t.me/qlyun_channel) |
 | xrelay | https://isseys.net/ | 15/月/108G</br>4个设备 | 新户注册1天5G | [TG](https://t.me/xrelaygg) |
@@ -148,7 +150,9 @@
 | 小火箭 | https://cdn.huojian999.xyz/ | 25/月/无限流量</br>1个设备 | 新户注册送100M流量 | [备用](https://xhjyyds.xyz/) |
 | JAFI | https://www.jafiyun.site/ | 25/月/250G</br>4个设备 | 新户注册512M流量 | [TG](https://t.me/JAFICloud) |
 | SimpleTunnel | https://simpletunnel.lol/ | 25/月/100G | 新户注册送512流量 | [TG](https://t.me/simpletunnelofficial) |
+| VV Network | https://v6.cx | 30/月/100G</br>3个设备 | 新户注册1G | [TG](https://t.me/vvnetwork) |
 | **延迟高**</br>★ |
+| 五毛机场 | https://xn--dlqs4sc0nope.com/ | 15/年/500G | 新户注册1天10G</br>延时高 | [TG](https://t.me/wumaojichangYYDS) |
 | 狗买推荐 | https://goumaituijian.xyz/ | 3/月/100G | 新户注册10G</br>延迟感人 | [TG](https://t.me/goumaituijian) |
 | AirFree | https://airfree.cloud/ | 20/月/200G | 新户注册8G</br>各种超时 | [TG](https://t.me/airfree_cloud_channel) |
 | 寻梦SS | https://xmss.vip/ | 8.8/月/1024G</br>直连 | 商店0购102400G</br>超时节点 | [TG](https://t.me/xunmengss) |
@@ -200,6 +204,7 @@
 | 渣渣云 | https://board.zhazha.store | 1/月/99G | 新户注册1天3G | [TG](https://t.me/zhazhacloud) |
 | 星海 | https://hgdbk.tech/ | 1/月/50G | - | 无 |
 | BIG | https://big234.com/ | 不限时1元6G | - | [TG](https://t.me/freeipml) |
+| 二角五机场 | https://xn--4kqqa1166b.xyz | 16.6/年/800G | 不限时23元500G | [TG](https://t.me/twojiaowu) |
 | 两元店 | http://xn--5hqx9equq.com | 2/月/1024G | - | [TG](https://t.me/xn5hqx9equq) |
 | NETRON</br>逸雲 | https://yiyun.cyou/ | 2/月/30G</br>不限设备 | - | [TG](https://t.me/yiyun_channel) |
 | J20 Cloud | https://j20cloud.me/ | 3/月/60G</br>2个设备 | - | [TG](https://t.me/J20_Cloud8) |
@@ -209,6 +214,7 @@
 | SakuraCat | https://sakuracat.link | 3.8/月/10G</br>3个设备 | 不限时8.8元20G | [TG](https://t.me/SakuraCatChannel) |
 | Alink | https://alink123.com/ | 3.99/月/128G</br>无限制 | - | [TG](https://t.me/publicss345) |
 | 一元机场 | https://xn--4gq62f52gdss.com/ | 4/月/4000G</br>无限制 | 11/年/500G | [TG](https://t.me/yyjc_channel) |
+| 辉夜Proxy | https://www.hyproxy.xyz | 4.9/月/2000G | 不限时8.9元200G | [TG] |
 | 大机场 | https://xn--mesr8b36x.net/ | 4.99/月/1024G | - | [TG](https://t.me/BigAirport_Channel) |
 | 安大毒 | https://356930.xyz  | 4.99/月/100G | 不限时10.99元160G | [TG](https://t.me/addjc) |
 | 小白云 | https://heipog.xyz/ | 5/月/58G</br>2个设备 | 注册3天后可</br>1分买688G体验 | [TG](https://t.me/+1TPH7Fqzxl4wNTVl) |
@@ -249,6 +255,7 @@
 | 超级跑车 | http://cjpc.cc | 9.9/月/100G</br>6个设备 | 不限时8.8元30G | [TG](https://t.me/chaojipaoche) |
 | 阿伟云 | http://awcloud.xyz | 9.99/月/100G</br>无限制 | TG1元试用5G套餐 | [TG](https://t.me/awslyydsa) |
 | 辣条 | https://latiao.club/ | 9.99/月/90G | - | 无 |
+| ETON | http://www.eton.club | 9.99/月/50G | 不限时19.99元300G | [TG](https://t.me/etonclubchannel) |
 | OLINKS | https://olinks.me | 10/月/512G | - | [TG](https://t.me/olinksme) |
 | 几鸡 | https://b.luxury/ | 10/月/300G</br>2个IP | 注册不限时10G</br>购买后方可使用 | [TG](https://t.me/ngcssnews) |
 | CoffeeCloud | https://coffeecloud.top | 10/月/200G</br>不限设备 | - | [TG](https://t.me/coffeecloud233) |
@@ -263,6 +270,7 @@
 | MoMo VPN | https://www.momovpn.shop | 10/月/100G | - | [TG](https://t.me/+C4RTODqeMaI2YTE1) |
 | 泡芙云 | https://www.paofu.cloud/ | 10/月/50G</br>2个设备 | 新户1元10G体验3天 | [TG](https://t.me/joinchat/TpDwLqsIeDdNcl35) |
 | prprCloud | https://prprcloud.moe/ | 10/月/50G | - | [TG](https://t.me/prprclouds) |
+| 迷幻深林 | https://www.mhsl.cc | 10/月/50G | - | [TG](https://t.me/mhslcloud) |
 | **10-15元**</br>★★★★ |
 | AIRCANDY</br>空气糖果 | http://tangguo.de | 10.99/月/110G | - | [TG](https://t.me/aircandy_support) |
 | 白茶云 | https://befweb.net/ | 11/月/800G</br>不限设备 | 不限时2元10G | [TG](https://t.me/baichacloud) |

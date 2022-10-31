@@ -36,7 +36,9 @@
 | 机场 | 官网 | 基础套餐 | 说明 | TG群 |
 | :-: | :-: | :-: | :-: | :-: |
 | **30天**</br>★★★★★ |
+| PFVPN | https://purefast.net/ | 29/月/无限流量</br>2个设备 | 每天签到无限流量</br>不可中断 | [TG](https://t.me/PFvpn) |
 | IKUUU | https://ikuuu.live/ | 10/月/300G</br>5个设备 | 注册送不限时50G</br>速度一般 | [备用](https://ikuuu.ltd) |
+| 快鸟 | https://kuainiao.top/ | 2/月/100G | 账号发客服0元50G</br>速度一般 | [TG](https://t.me/kuainiaoyun) |
 | 晴转多云 | https://by.xbygood.xyz/ | 暂无套餐 | 新户注册30天976T</br>仅2个节点 | [TG](https://t.me/xbygood) |
 | Helium Network | https://console.henet.uk/ | 1/月/100G | 新户注册30天100G</br>不限时10元200G | [TG](https://t.me/helium_official) |
 | 八方云 | https://user.bafang.vip | 10/月/100G | 商店优惠码0购1月100G | [TG](https://t.me/bafangyunchat) |
@@ -84,6 +86,7 @@
 | RE | https://www.reoen.top/ | 15/月/100G</br>3个设备 | 新户注册1天10G流量 | [TG](https://t.me/RE_RNcf6) |
 | 速鹰666 | https://suying222.net/ | 15.9/月/100G</br>3个设备 | 新户注册10G流量 | [备用](https://suying2022.xyz) |
 | 优云666 | https://youyun222.net/ | 15.9/月/100G</br>3个设备 | 新户注册送10G | [TG](https://t.me/youyun666) |
+| 豚鼠云 | https://tunshu.app/ | 9.9/月/100G | 新户注册2小时10G | [TG](https://t.me/tunshuapp) |
 | 澜云 | https://ep.0318.cyou/ | 14/月/180G</br>无限制 | 新户注册8G流量 | [TG](https://t.me/+E0j9mtmDfTpjOTQ1) |
 | nanoPort | https://v3.nanoport.xyz/ | 2/月/1999G</br>无工单 | 新户注册5G流量 | [TG](https://t.me/nekoport) |
 | 懂的都懂 | https://dddd.cool/ | 3/30G | 新户注册5G</br>不限时6.8元100G | [TG](https://t.me/ddddcool) |
@@ -145,7 +148,6 @@
 | 萌新云 | https://www.mxyssr.com/ | 19/月/200G</br>3个设备 | 新户注册100M | [TG](https://t.me/mxvpn) |
 | 星云Nebula | https://xingxingcloud.cyou/ | 20/月/200G</br>2个设备 | 新户注册送1G</br>超时无可用 | 无 |
 | 饭饭云 | https://ffkjwl.com/ | 20/月/100G</br>6个设备 | 新户注册1G | [TG](https://t.me/fanfanyun234) |
-| PFVPN | https://purefast.net/ | 29/月/无限流量</br>2个设备 | 新户注册1天1G | [TG](https://t.me/PFvpn) |
 | PolessVPN | https://polessx.com | 39/月/100G | 新户注册1天1G | [TG](https://t.me/poless_group) |
 | 小火箭 | https://cdn.huojian999.xyz/ | 25/月/无限流量</br>1个设备 | 新户注册送100M流量 | [备用](https://xhjyyds.xyz/) |
 | JAFI | https://www.jafiyun.site/ | 25/月/250G</br>4个设备 | 新户注册512M流量 | [TG](https://t.me/JAFICloud) |
@@ -217,6 +219,7 @@
 | 辉夜Proxy | https://www.hyproxy.xyz | 4.9/月/2000G | 不限时8.9元200G | [TG] |
 | 大机场 | https://xn--mesr8b36x.net/ | 4.99/月/1024G | - | [TG](https://t.me/BigAirport_Channel) |
 | 安大毒 | https://356930.xyz  | 4.99/月/100G | 不限时10.99元160G | [TG](https://t.me/addjc) |
+| SEXOO | https://sexoo.cloud | 5/月/300G | 不限时18元666G | [TG](https://t.me/SEXOO_Notice) |
 | 小白云 | https://heipog.xyz/ | 5/月/58G</br>2个设备 | 注册3天后可</br>1分买688G体验 | [TG](https://t.me/+1TPH7Fqzxl4wNTVl) |
 | 涩龙云</br>Selom | https://slcloud.top | 5/月/50G | 不限时35元500G | [TG](https://t.me/selomcloud) |
 | 巨浪云 | https://julang.site/ | 5/月/50G</br>5个设备 | - | [TG](https://t.me/joinchat/ZBPWk5wyFg8zMDIx) |
@@ -318,6 +321,8 @@
 | XTunnel | https://xtspeeder.com/ | 20/月/300G</br>1个设备 | 商店0购3G</br>邀请码:oGh9 | [TG](https://t.me/xtunnel) |
 | WestData</br>西部数据 | https://fuqing.cz/ | 20/月200G | - | [TG](https://t.me/westdatacloud) |
 | FASTLINK | https://fastlink.ws/ | 20/月/100G</br>不限设备 | - | [TG](https://t.me/vpnfastlink) |
+| Cyanmori</br>青森Cloud | https://www.cyanmori.com | 20/月/100G | - | [TG](https://t.me/cyanmori) |
+| FRANXX加速 | https://www.franxx.xyz/ | 20/月/100G</br>3个设备 | - | [TG](https://t.me/franxxlive) |
 | 天河国际机场 | https://l9js.com | 20/月/60G</br>2个设备 | 不限时6.88元10G | 无 |
 | Texon | https://texon.io/ | 60/季/</br>50G/月 | 限量补货 | [TG](https://t.me/texon_channel) |
 | **20-30元**</br>★★ |

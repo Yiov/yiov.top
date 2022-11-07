@@ -2,7 +2,7 @@
 
 </br>
 
-更新时间：2022-10-12
+更新时间：2022-11-7
 
 
 众所周知，IOS想安装IPA应用包，就需要证书签名，而TrollStore完美解决了要证书的这个问题，卖证书的瑟瑟发抖
@@ -252,7 +252,7 @@
 
 
 ```
-Filza破解教程
+Filza破解教程(Loader1.0.zip / Filza1.2.rar)
 
 1.设置 - 无限局域网 - 使用无线局域网与蜂窝网络的APP - Filza - 关闭网络
 
@@ -265,6 +265,8 @@ Filza破解教程
 5.展开Root - 点击 `item 1` 右侧的 `i` - 点击 `Add item...`
 
 6.电脑下载Loader1.0 - 打开Loader.exe关闭 再次打开即可使用 - `Device SN`填序列号 - 点`Generate`提示破解成功即可，复制计算出的破解码
+
+也可在线计算激活码：http://106.55.39.169/?SN=
 
 7.名称栏改为`SerialNumber` - 计算的破解码粘贴到`值`这里 - 返回 - 存储 - 完成
 
@@ -283,7 +285,7 @@ Filza破解教程
 </br>
 
 
-* [DowngradeApp](https://initnil.com/DowngradeApp.txt) 「无广告 随意升降级app版本」
+* [DowngradeApp](https://share.initnil.com/With_TorllStore/DowngradeApp) 「无广告 随意升降级app版本」
 
 </br>
 
@@ -312,28 +314,6 @@ Filza破解教程
 </br>
 
 * [轻松签](https://esign.yyyue.xyz/) 「签名+修改bundleID」
-
-
-</br>
-
-
-* 饼干网盘：https://pan.iosvip.cc
-
-* 奇心网盘：https://pan.qxnav.com
-
-* 知网云盘：https://pan.xyyh.xyz
-
-* 蜜蜂网盘：https://pan.ios98.com
-
-* dump网盘：https://pan.dumpapp.com
-
-* APP库网盘：https://pan.wxqqurl.cn
-
-* 玩机一派网盘：https://pan.iggxx.com
-
-* IPA分享盘：https://pan.cjq6525.xyz/
-
-* 空了个孔：https://pan.kongtan.net/
 
 
 </br>

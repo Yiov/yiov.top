@@ -318,10 +318,9 @@ TG群：https://t.me/lanmaoios
 
 | 工具名 | 作者 | 下载地址  | 说明 |
 | :-: | :-: | :-: | :-: |
-| AltStore | - | [点我☛下载](https://altstore.io/) | [使用教程](https://mp.weixin.qq.com/s/ft8UldSSbSNaVvVIIybXaQ) |
 | Apps Manager | TIGI Software | [点我☛下载](https://www.tigisoftware.com/default/?p=435) | App 管理器，可用于备份还原 |
 | AppStore++ | CokePokes | [点我☛下载](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) | App随意升降级、[越狱源](https://cokepokes.github.io/) |
-| BlizzardBoard | - | [点我☛下载](https://github.com/BenjaminHornbeck6/BlizzardBoard) | 主题美化 但书签形式 |
+| BlizzardBoard | BenjaminHornbeck6 | [点我☛下载](https://github.com/BenjaminHornbeck6/BlizzardBoard) | 主题美化 但书签形式 |
 | cydownload | borishonman | [PC☛下载](https://github.com/borishonman/cydownload) | deb插件下载器 |
 | CyDown | hackyouriphone | [手机☛添加源](https://julio.hackyouriphone.org/) | 越狱机下载deb插件 |
 | CocoaTop | - | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | 进程查看工具 |

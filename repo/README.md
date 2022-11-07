@@ -273,9 +273,9 @@ TG群：https://t.me/lanmaoios
 | Sileo | https://repo.getsileo.app/ | [Sileo 官方源](https://getsileo.app/) |
 | TIGI Software | https://tigisoftware.com/cydia/ | Filza文件管理器 |
 | Zebra | https://getzbra.com/repo/ | [斑马官方源](https://getzbra.com/) |
-|  | 
+| | 
 | App库  | http://ak.wxqqurl.cn/appstore | [IPA盘](https://pan.wxqqurl.cn)、[公众号：App库](https://mp.weixin.qq.com/s/aDLiPqL5tSxbTOa5M2IqGw)
- |
+| |
 | 艾锋源  | http://apt.ss03.c | 公众号：艾锋降级 |
 | 电话助手  | http://apt.htv123.com | [购买授权码](https://buy.htv123.com/) |
 | 国外p老破解 | https://rejail.ru/ | @pulandres |
@@ -327,12 +327,9 @@ TG群：https://t.me/lanmaoios
 | CocoaTop | - | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | 进程查看工具 |
 | DebToIPA | sourcelocation | [点我☛下载](https://github.com/sourcelocation/DebToIPA/releases) | deb文件转IPA |
 | DowngradeApp | Netskao | [点我☛下载](https://share.initnil.com/With_TorllStore/DowngradeApp) | 无广告 App随意升降级 |
-| Filza | TIGI Software | [点我☛下载](https://www.tigisoftware.com/default/?p=439) | 文件管理器、[电脑破解步骤](https://www.feng.com/post/13616773)、[在线计算激活码](http://106.55.39.169/?SN=
-) |
-| futurerestore | futurerestore | [PC☛下载](https://github.com/futurerestore/futurerestore/releases) | [升级/降级/平刷到指定版本](https://mp.weixin.qq.com/s/_faR7J2tvxUunr1ZijdIig
-)</br>前提：需要有SHSH备份 |
-| FutureRestore GUI | CoocooFroggy | [PC☛下载](https://github.com/CoocooFroggy/FutureRestore-GUI/releases) | 刷机的图形界面选择工具、[使用教程](https://mp.weixin.qq.com/s/_faR7J2tvxUunr1ZijdIig
-) |
+| Filza | TIGI Software | [点我☛下载](https://www.tigisoftware.com/default/?p=439) | 文件管理器、[电脑破解步骤](https://www.feng.com/post/13616773)、[在线计算激活码](http://106.55.39.169/?SN=) |
+| futurerestore | futurerestore | [PC☛下载](https://github.com/futurerestore/futurerestore/releases) | [升级/降级/平刷到指定版本](https://mp.weixin.qq.com/s/_faR7J2tvxUunr1ZijdIig)</br>前提：需要有SHSH备份 |
+| FutureRestore GUI | CoocooFroggy | [PC☛下载](https://github.com/CoocooFroggy/FutureRestore-GUI/releases) | 刷机的图形界面选择工具、[使用教程](https://mp.weixin.qq.com/s/_faR7J2tvxUunr1ZijdIig) |
 | H5GG | H5GG | [点我☛下载](https://github.com/H5GG/H5GG) | 游戏修改器工具，仅限IOS 15.0-15.1.1 |
 | iM 修改器 | - | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | 数据修改器 |
 | IpaDownloadTool | SmileZXLee | [点我☛下载](https://github.com/SmileZXLee/IpaDownloadTool/releases) | IPA下载器 |

@@ -75,9 +75,11 @@
 
 * [Sideloadly 免越狱自签IPA文件](https://github.com/Yiov/notes/tree/main/Sideloadly)
 
-* [TrollStore永久自签安装使用](https://github.com/Yiov/notes/tree/main/TrollStore)
+* [TrollStore永久自签安装使用教程](https://github.com/Yiov/notes/tree/main/TrollStore)
 
 * [轻松签+的永久签安装使用](https://github.com/Yiov/notes/tree/main/esign)
+
+* [各种源/插件/IPA包整理大合辑](https://github.com/Yiov/notes/tree/main/repo)
 
 * [iPhone越狱教程_unc0ver_Checkra1n](https://github.com/Yiov/notes/tree/main/jail​break)
 

@@ -4,7 +4,7 @@
 
 更新时间：2022-9-24
 
-常见的自签工具还有 [爱思助手](https://www.i4.cn/)、[牛蛙助手](https://www.ios222.com/) 等，基本上操作都差不多，且都需要电脑，我仅演示下 `Sideloadly` 如何自签
+常见的自签工具还有 [爱思助手](https://www.i4.cn/)、[牛蛙助手](https://www.ios222.com/) 、[AltStore](https://altstore.io/) 等，基本上操作都差不多，且都需要电脑，我仅演示下 `Sideloadly` 如何自签
 
 
 如果你是越狱的机器，可以无视本文！
@@ -81,8 +81,6 @@
 </br>
 
 我在 [@An南拥夏栀](https://www.nyxz166.cn/) 下了个`ipa下载器`的软件包，用来签名安装演示，其他安装同理
-
-> 备用下载地址：https://dzp.lanzouy.com/i3XFG03ftwch
 
 把ipa包拖入，然后看一下界面
 
@@ -195,5 +193,7 @@
 * [爱思助手](https://www.i4.cn/)
 
 * [牛蛙助手](https://www.ios222.com/)
+
+* [AltStore](https://altstore.io/)
 
 * [An南拥夏栀](https://www.nyxz166.cn/)

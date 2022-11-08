@@ -3,7 +3,7 @@
 
 </br>
 
-更新时间：2022-11-7
+更新时间：2022-11-8
 
 仅供参考，不要催我更
 
@@ -320,20 +320,17 @@ TG群：https://t.me/lanmaoios
 | :-: | :-: | :-: | :-: |
 | Apps Manager | TIGI Software | [点我☛下载](https://www.tigisoftware.com/default/?p=435) | App 管理器，可用于备份还原 |
 | AppStore++ | CokePokes | [点我☛下载](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) | App随意升降级、[越狱源](https://cokepokes.github.io/) |
+| BatteryInfo | xybp888 | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/BatteryInfo_1.0.7.ipa) | 电池助手，查看电池健康状态等 |
 | BlizzardBoard | BenjaminHornbeck6 | [点我☛下载](https://github.com/BenjaminHornbeck6/BlizzardBoard) | 主题美化 但书签形式 |
-| cydownload | borishonman | [PC☛下载](https://github.com/borishonman/cydownload) | deb插件下载器 |
-| CyDown | hackyouriphone | [手机☛添加源](https://julio.hackyouriphone.org/) | 越狱机下载deb插件 |
-| CocoaTop | - | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | 进程查看工具 |
+| CocoaTop | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/CocoaTop.ipa) | 进程查看工具 |
 | DebToIPA | sourcelocation | [点我☛下载](https://github.com/sourcelocation/DebToIPA/releases) | deb文件转IPA |
 | DowngradeApp | Netskao | [点我☛下载](https://share.initnil.com/With_TorllStore/DowngradeApp) | 无广告 App随意升降级 |
 | Filza | TIGI Software | [点我☛下载](https://www.tigisoftware.com/default/?p=439) | 文件管理器、[电脑破解步骤](https://www.feng.com/post/13616773)、[在线计算激活码](http://106.55.39.169/?SN=) |
-| futurerestore | futurerestore | [PC☛下载](https://github.com/futurerestore/futurerestore/releases) | [升级/降级/平刷到指定版本](https://mp.weixin.qq.com/s/_faR7J2tvxUunr1ZijdIig)</br>前提：需要有SHSH备份 |
-| FutureRestore GUI | CoocooFroggy | [PC☛下载](https://github.com/CoocooFroggy/FutureRestore-GUI/releases) | 刷机的图形界面选择工具、[使用教程](https://mp.weixin.qq.com/s/_faR7J2tvxUunr1ZijdIig) |
 | H5GG | H5GG | [点我☛下载](https://github.com/H5GG/H5GG) | 游戏修改器工具，仅限IOS 15.0-15.1.1 |
-| iM 修改器 | - | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | 数据修改器 |
-| IpaDownloadTool | SmileZXLee | [点我☛下载](https://github.com/SmileZXLee/IpaDownloadTool/releases) | IPA下载器 |
+| iM 修改器 | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/iMemScanTS.ipa) | 数据修改器 |
+| IpaDownloadTool | SmileZXLee | [点我☛下载](https://github.com/SmileZXLee/IpaDownloadTool/) | IPA下载器 |
 | Jaility | haxi0 | [点我☛下载](https://github.com/haxi0/Jaility/releases) | 开启/解除监督状态/角标/锁屏密码空白 |
-| Legizmo | lunotecth11 | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | 低版系统配对高版本watchOS 系统 |
+| Legizmo | lunotecth11 | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/Legizmo_Kincaid-Jailed_v4.0.ipa) | 低版系统配对高版本watchOS 系统 |
 | Mugunghwa</br>木槿花 | s8ngyu | [点我☛下载](https://github.com/s8ngyu/Mugunghwa/releases) | 真主题/角标/全面屏手势 |
 | MobileTSS | lucaIz-ldx | [点我☛下载](https://github.com/lucaIz-ldx/MobileTSS/releases) | 保存/下载 SHSH2 |
 | NiceBattery | NiceiOS | [点我☛下载](https://www.niceios.com/download.php) | 电池助手,查看电池详细数据的工具 |
@@ -347,16 +344,16 @@ TG群：https://t.me/lanmaoios
 | red-dot | s8ngyu | [点我☛下载](https://github.com/s8ngyu/red-dot/releases) | 自定义角标颜色 |
 | Sileo | Sileo | [点我☛下载](https://github.com/Sileo/Sileo/releases) | 软件包管理器；未越狱仅可查看 |
 | Saily | SailyTeam | [点我☛下载](https://github.com/SailyTeam/Saily/releases) | 软件包管理器 |
-| Set Wallpaper | Skitty | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | 自定义浅色/深色模式的墙纸 |
-| Supervise | - | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | 开启/解除监督状态 |
+| Supervise | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/Supervise-1.0.ipa) | 开启/解除监督状态 |
 | TrollTools | sourcelocation | [点我☛下载](https://github.com/sourcelocation/TrollTools/releases) | 主题美化 仅系统APP为书签 |
 | TrollNonce | opa334 | [点我☛下载](https://github.com/opa334/TrollNonce/releases) | 固定G值 |
-| TSSSaver | - | [点我☛下载] | SHSH2备份工具、[在线SHSH备份](https://tsssaver.1conan.com/v2/) |
+| TSSSaver | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/TSSSaver-1.0.ipa) | SHSH2备份工具、[在线SHSH备份](https://tsssaver.1conan.com/v2/) |
 | u0Launcher | opa334| [点我☛下载](https://github.com/opa334/u0Launcher/releases) | 修复了unc0ver越狱过程的错误 |
 | uYou+ | qnblackcat | [点我☛下载](https://github.com/qnblackcat/uYouPlus/releases) | 去除广告/下载视频/音频 |
-| WiFiList | - | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | WiFi 密码查看器 |
-| WiFiScanner | - | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | WiFi 扫描工具 |
-| Zebra | - | [点我☛下载](https://pan.baidu.com/s/1f7qiHzFutQ3zN1-SQkFXSg?pwd=791g) | 软件包管理器；未越狱仅可查看 |
+| WallpaperSetter | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/WallpaperSetter.ipa) | 自定义浅色/深色模式的墙纸 |
+| WiFiList | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/WiFiList.ipa) | WiFi 密码查看器 |
+| WiFiScanner | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/WiFiScanner_v1.0.ipa) | WiFi 扫描工具 |
+| Zebra | zbrateam | [点我☛下载](https://github.com/zbrateam/Zebra/releases) | 软件包管理器；未越狱仅可查看 |
 | 轻松签+ | esign | [点我☛下载](https://esign.yyyue.xyz/) | 签名+修改bundleID |
 
 
@@ -371,42 +368,55 @@ TG群：https://t.me/lanmaoios
 
 </br>
 
-| 分享者 | 地址 |
-| :-: | :-: |
-| IPA |
-| An南拥夏栀 | https://share.nyxz166.com |
-| APP库 | https://pan.wxqqurl.cn/ak/ |
-| 初一</br>NBTD | https://pan.nbtd.vip |
-| dump网盘 | https://pan.dumpapp.com |
-| 蜂窝助手 | https://app.fwzs.top/ |
-| 哥哥云盘 | https://share.initnil.com |
-| 黑科技云盘 | https://p.aoo.pub |
-| 老六网盘 | https://pan.z-haocloud.com/ |
-| 蜜蜂网盘 | https://pan.ios98.com |
-| pingfan</br>平凡 | https://pan.iosi.vip/ |
-| 苹果技术宅 | https://pan.pgjsz.com/ |
-| 奇心网盘 | https://pan.qxnav.com/ |
-| 玩机一派 | https://pan.iggxx.com |
-| 无名 | https://iosapp6.top |
-| 小萝卜 | https://yun.lbbb.cc |
-| 小泽资源盘 | https://pan.ioscapp.cn |
-| 野心云盘 | https://pan.ambier.net/ |
-| 知网云盘 | https://pan.xyyh.xyz |
-| 影视/动漫 |
-| 9T(Adult) | https://drive.9t.ee |
-| 触光云盘 | https://pan.ichuguang.com |
-| 好汉吧 | https://8023.haohanba.cn |
-| 姬路白雪 | https://pan.jlbx.xyz |
-| 菊花盘 | https://pan.142856.xyz |
-| 米奇妙妙屋 | https://anime.mqmmw.ga |
-| 晴园的宝藏库 | https://alist.52qy.repl.co/ |
-| 小兵组网盘影视 | https://6vv.app |
-| 星梦 | https://pan.bashroot.top |
-| 嘻哈网盘 | https://alist.acreson.cn/ |
-| 一只鱼 | https://alist.youte.ml |
-| 电脑 |
-| 聚宝坊 | https://yun.jbf.cn |
-| 清风 | https://pan.woriqq.com/ |
-| 小屋子 | https://pan.indude.cn/ |
+### 4.1 IPA
+
+An南拥夏栀：https://share.nyxz166.com
+APP库：https://pan.wxqqurl.cn/ak/
+初一NBTD：https://pan.nbtd.vip
+dump网盘：https://pan.dumpapp.com
+哥哥云盘：https://share.initnil.com
+
+黑科技云盘：https://p.aoo.pub
+老六网盘：https://pan.z-haocloud.com/
+蜜蜂网盘：https://pan.ios98.com
+pingfan平凡：https://pan.iosi.vip/
+苹果技术宅：https://pan.pgjsz.com/
+
+奇心网盘：https://pan.qxnav.com/
+玩机一派：https://pan.iggxx.com
+无名：https://iosapp6.top
+小萝卜：https://yun.lbbb.cc
+小泽资源盘：https://pan.ioscapp.cn
+
+野心云盘：https://pan.ambier.net/
+知网云盘：https://pan.xyyh.xyz
+
+</br>
+
+### 4.2 影视/动漫
+
+9T(Adult)：https://drive.9t.ee
+触光云盘：https://pan.ichuguang.com
+好汉吧：https://8023.haohanba.cn
+姬路白雪：https://pan.jlbx.xyz
+菊花盘：https://pan.142856.xyz
+
+米奇妙妙屋：https://anime.mqmmw.ga
+晴园的宝藏库：https://alist.52qy.repl.co/
+小兵组网盘影视：https://6vv.app
+星梦：https://pan.bashroot.top
+嘻哈网盘：https://alist.acreson.cn/
+
+一只鱼：https://alist.youte.ml
+
+</br>
+
+### 4.3 电脑
+
+</br>
+
+聚宝坊：https://yun.jbf.cn
+清风：https://pan.woriqq.com/
+小屋子：https://pan.indude.cn/
 
 

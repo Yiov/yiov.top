@@ -79,6 +79,8 @@
 
 * [轻松签+的永久签安装使用](https://github.com/Yiov/notes/tree/main/esign)
 
+* [Filza文件管理器破解完整版](https://github.com/Yiov/notes/tree/main/Filza)
+
 * [各种源/插件/IPA包整理大合辑](https://github.com/Yiov/notes/tree/main/repo)
 
 * [iPhone越狱教程_unc0ver_Checkra1n](https://github.com/Yiov/notes/tree/main/jail​break)

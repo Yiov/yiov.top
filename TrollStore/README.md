@@ -2,7 +2,7 @@
 
 </br>
 
-更新时间：2022-11-7
+更新时间：2022-11-9
 
 
 众所周知，IOS想安装IPA应用包，就需要证书签名，而TrollStore完美解决了要证书的这个问题，卖证书的瑟瑟发抖
@@ -30,27 +30,29 @@
 
 根据 [opa334的文档](https://github.com/opa334/TrollStore/) 表格查看是否符合，或者参照我的手机型号说明，不符合就默哀
 
-> 系统版本降级应该是降不了
+> 系统已关闭验证，无法降级，除非很早前有SHSH备份
 
 </br>
 
-| 手机</br>/</br>系统| 14.0-</br>14.8.1 | 15.0-</br>15.1 | 15.1.1 | 15.2-</br>15.4.1 | 15.5-15.6</br>Beta1-4/5 |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| 6/6P/6s/6sP/SE</br>A8/A9 | 越狱 | :green_heart:</br>`troll` | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
-| 7/7P/8/8P/X</br>A10/A11 | 越狱 | :green_heart:</br>`troll` | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
-| XR/XS系列/11系列/SE 2代</br>A12/A13 | :green_heart:</br>`troll64e` | :green_heart:</br>`troll` | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
-| 12系列</br>A14 | :green_heart:</br>`troll64e` | :green_heart:</br>`troll` | :green_heart:</br>`troll` | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
-| 13系列/SE 3</br>A15 | ✘ | :green_heart:</br>`troll` | :green_heart:</br>`troll` | :green_heart:</br>`troll` | :green_heart:</br>`troll` |
+| 手机</br>/</br>系统| iPhone 6-8/SE/X</br>A8-A11 | iPhone 11-13/XR/XS/SE 2-3</br>A12-A15 |
+| :-: | :-: | :-: |
+| 14.0-</br>14.8.1 | checkra1n越狱 | :heart:</br>`troll arm64e` |
+| 15.0-</br>15.4.1 | :green_heart:</br>`troll IOS 15+` | :green_heart:</br>`troll IOS 15+` |
+| 15.5</br>beta1-4 | :green_heart:</br>`troll IOS 15+` | :green_heart:</br>`troll IOS 15+` |
+| 15.5 RC/</br>15.5 | ✘ | ✘ |
+| 15.6</br>beta1-5 | SSH Ramdisk | :heart:</br>`troll arm64e` |
 
 
 
 注：
 
-* `越狱` 的是需要越狱后安装；
+* `checkra1n越狱` 的是需要越狱后安装；
 
-* :green_heart: troll：表示使用: https://api.jailbreaks.app/troll
+* `SSH Ramdisk` 使用教程：https://youtu.be/B0MueVvJSK4
 
-* :green_heart: troll64e：表示使用：https://api.jailbreaks.app/troll64e
+* :green_heart: troll IOS 15+：安装使用: https://api.jailbreaks.app/troll
+
+* :heart: troll64e：安装使用：https://api.jailbreaks.app/troll64e
 
 
 
@@ -76,9 +78,9 @@
 
 请根据系统选择相应的安装方式
 
-* :green_heart: troll：表示使用: https://api.jailbreaks.app/troll
+* :green_heart: troll IOS 15+：安装使用: https://api.jailbreaks.app/troll
 
-* :green_heart: troll64e：表示使用：https://api.jailbreaks.app/troll64e
+* :heart: troll64e：安装使用：https://api.jailbreaks.app/troll64e
 
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/TrollStore/TrollStore-01.png)
@@ -100,7 +102,7 @@
 </br>
 
 
-### 1.3 越狱安装
+### 1.2 越狱安装
 
 </br>
 
@@ -188,12 +190,45 @@
 
 
 
-
-## 3.常见问题
+## 3.Throllstore必备软件
 
 </br>
 
-### 3.1 安装失败，不显示图标
+除了以下软件外，[各种源/插件/IPA包整理大合辑](https://github.com/Yiov/notes/tree/main/repo#2各类ipa工具)
+
+</br>
+
+* [Filza](https://www.tigisoftware.com/default/?p=439) 「文件管理器」「[Filza破解教程](-)」
+
+
+* [AppStore++](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) 「有广告 自由升降级app版本」
+
+
+* [DowngradeApp](https://share.initnil.com/With_TorllStore/DowngradeApp) 「无广告 随意升降级app版本」
+
+
+* [red-dot](https://github.com/s8ngyu/red-dot/releases) 「自定义角标颜色」
+
+```
+生效：点击 Badge colour - 选择颜色 - 返回 Apply - TrollStore `Respring` 注销
+
+恢复：点击 Revert Chanages - TrollStore `Respring` 注销
+```
+
+
+</br>
+</br>
+
+
+
+
+
+
+## 4.常见问题
+
+</br>
+
+### 4.1 安装失败，不显示图标
 
 </br>
 
@@ -204,7 +239,7 @@
 
 
 
-### 3.2 如何避免TrollStore掉签
+### 4.2 如何避免TrollStore掉签
 
 </br>
 
@@ -220,7 +255,7 @@
 
 
 
-### 3.3 如何单独删除已安装应用
+### 4.3 如何单独删除已安装应用
 
 打开 `TrollStore` 应用，在Apps页面中，选中你要删除应用，左滑，点击删除
 
@@ -230,7 +265,7 @@
 
 
 
-### 3.4 卸载TrollStore
+### 4.4 卸载TrollStore
 
 </br>
 
@@ -242,82 +277,6 @@
 </br>
 
 
-## 4.Throllstore必备软件
-
-</br>
-
-
-
-* [Filza](https://www.tigisoftware.com/default/?p=439) 「文件管理器」
-
-
-```
-Filza破解教程(Loader1.0.zip / Filza1.2.rar)
-
-1.设置 - 无限局域网 - 使用无线局域网与蜂窝网络的APP - Filza - 关闭网络
-
-2.Filza - 齿轮 设置 - 激活状态 <体验> - 复制设备序列号<与关于本机-序列号一致>
-
-3.Filza - 设置 - 备份 - 在上层文件夹中显示
-
-4.点击 `settings.fzs` 右侧的 `i` - 分享 - 属性表编辑器
-
-5.展开Root - 点击 `item 1` 右侧的 `i` - 点击 `Add item...`
-
-6.电脑下载Loader1.0 - 打开Loader.exe关闭 再次打开即可使用 - `Device SN`填序列号 - 点`Generate`提示破解成功即可，复制计算出的破解码
-
-也可在线计算激活码：http://106.55.39.169/?SN=
-
-7.名称栏改为`SerialNumber` - 计算的破解码粘贴到`值`这里 - 返回 - 存储 - 完成
-
-8.点击 `settings.fzs`，出现警告 去定要恢复素有Filza设置吗 - 继续 - 自动退出
-
-9.重新打开Filza - 设置 - 激活状态 <完整版> 破解完成
-```
-
-
-</br>
-
-
-
-* [AppStore++](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) 「有广告 自由升降级app版本」
-
-</br>
-
-
-* [DowngradeApp](https://share.initnil.com/With_TorllStore/DowngradeApp) 「无广告 随意升降级app版本」
-
-</br>
-
-
-* [TrollNonce](https://github.com/opa334/TrollNonce/releases) 「固定G值」
-
-
-</br>
-
-
-* [red-dot](https://github.com/s8ngyu/red-dot/releases) 「自定义角标颜色」
-
-```
-生效：点击 Badge colour - 选择颜色 - 返回 Apply - TrollStore `Respring` 注销
-
-恢复：点击 Revert Chanages - TrollStore `Respring` 注销
-```
-
-</br>
-
-
-
-* [TSSSaver](https://tsssaver.1conan.com/v2/) 「SHSH2备份工具」
-
-
-</br>
-
-* [轻松签](https://esign.yyyue.xyz/) 「签名+修改bundleID」
-
-
-</br>
-</br>
 
 
 

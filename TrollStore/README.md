@@ -198,7 +198,7 @@
 
 </br>
 
-* [Filza](https://www.tigisoftware.com/default/?p=439) 「文件管理器」「[Filza破解教程](-)」
+* [Filza](https://www.tigisoftware.com/default/?p=439) 「文件管理器」「[Filza破解教程](https://github.com/Yiov/notes/tree/main/Filza)」
 
 
 * [AppStore++](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) 「有广告 自由升降级app版本」

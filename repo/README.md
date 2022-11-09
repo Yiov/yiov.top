@@ -325,7 +325,7 @@ TG群：https://t.me/lanmaoios
 | CocoaTop | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/CocoaTop.ipa) | 进程查看工具 |
 | DebToIPA | sourcelocation | [点我☛下载](https://github.com/sourcelocation/DebToIPA/releases) | deb文件转IPA |
 | DowngradeApp | Netskao | [点我☛下载](https://share.initnil.com/With_TorllStore/DowngradeApp) | 无广告 App随意升降级 |
-| Filza | TIGI Software | [点我☛下载](https://www.tigisoftware.com/default/?p=439) | 文件管理器、[电脑破解步骤](https://www.feng.com/post/13616773)、[在线计算激活码](http://106.55.39.169/?SN=) |
+| Filza | TIGI Software | [点我☛下载](https://www.tigisoftware.com/default/?p=439) | 文件管理器、[破解教程](https://github.com/Yiov/notes/tree/main/Filza) |
 | H5GG | H5GG | [点我☛下载](https://github.com/H5GG/H5GG) | 游戏修改器工具，仅限IOS 15.0-15.1.1 |
 | iM 修改器 | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/iMemScanTS.ipa) | 数据修改器 |
 | IpaDownloadTool | SmileZXLee | [点我☛下载](https://github.com/SmileZXLee/IpaDownloadTool/) | IPA下载器 |

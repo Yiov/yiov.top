@@ -111,11 +111,11 @@ Safari浏览器打开官网，请求桌面网站
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-07.png)
 
-下载的文件在icloud的下载文件夹中，长按-分享-save to Fliza
+下载的文件在icloud的下载文件夹中，长按-分享-save to Filza
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-08.png)
 
-存储，再次打开Fliza会自动弹到目录
+存储，再次打开Filza会自动弹到目录
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-09.png)
 
@@ -151,7 +151,7 @@ Safari浏览器打开官网，请求桌面网站
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-13.png)
 
-砸完，前往Fliza查看，一个完整的脱壳IPA就诞生了
+砸完，前往Filza查看，一个完整的脱壳IPA就诞生了
 
 我们先长按文件，点复制把路径复制出来
 
@@ -199,7 +199,7 @@ Safari浏览器打开官网，请求桌面网站
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-17.png)
 
 
-下载完成点击插件 - Show in Fliza - 点击插件
+下载完成点击插件 - Show in Filza - 点击插件
 
 >Cydown下载插件的路径：/var/mobile/Documents/Cydown
 
@@ -242,12 +242,16 @@ Safari浏览器打开官网，请求桌面网站
 
 格式：injectipa IPA路径 插件路径
 
+>IPA路径路径：/var/mobile/Documents/DumpDecrypter/抖音_23.1.0.ipa
+>
+>插件路径：/var/mobile/Documents/CyDown/netskao.***/Awemepure.dylib
+>
 > 例：injectipa /var/mobile/Documents/DumpDecrypter/抖音_23.1.0.ipa /var/mobile/Documents/CyDown/netskao.***/Awemepure.dylib
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-21.png)
 
 
-等它注入打包完就可以了，会自动跳到Fliza目录
+等它注入打包完就可以了，会自动跳到Filza目录
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-22.png)
 
@@ -295,7 +299,7 @@ Safari浏览器打开官网，请求桌面网站
 
 开启文件访问-立即签名，安装就不赘述了
 
->巨魔用户直接永久安装，越狱用户用Fliza安装，未越狱的用证书安装
+>巨魔用户直接永久安装，越狱用户用Filza安装，未越狱的用证书安装
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-27.png)
 
@@ -338,7 +342,7 @@ Safari浏览器打开官网，请求桌面网站
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-30.png)
 
 
-进入文件夹-点击文件夹-查看文件，跳转到Fliza文件目录，其中 `Frameworks` 就是插件目录
+进入文件夹-点击文件夹-查看文件，跳转到Filza文件目录，其中 `Frameworks` 就是插件目录
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dump/dump-31.png)
 

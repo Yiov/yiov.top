@@ -23,7 +23,7 @@
 我们也可以直接用 [Netskao砸好的微信及QQ](https://github.com/Netskao/iOS-DumpDecrypted-IPAs)
 
 
-https://www.coolapk.com/feed/40829699?shareKey=NTIzNzIyY2IyOWMzNjM2Y2FmYTk~&shareUid=23155616&shareFrom=com.coolapk.market_12.5.0
+
 
 
 </br>

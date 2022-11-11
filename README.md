@@ -85,6 +85,8 @@
 
 * [iPhone越狱教程_unc0ver_Checkra1n](https://github.com/Yiov/notes/tree/main/jail​break)
 
+* [IOS应用砸壳及插件注入教程]((https://github.com/Yiov/notes/tree/main/dump)
+
 * [牛蛙助手免越狱_虚拟定位/自签IPA](https://github.com/Yiov/notes/tree/main/bullfrog)
 
 * [手机抓包工具安装及使用]

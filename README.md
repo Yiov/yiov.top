@@ -41,7 +41,7 @@
 
 * [VSCode安装步骤]
 
-* [Markdown的简单用法]
+* [Markdown的简单用法](https://github.com/Yiov/notes/tree/main/markdown)
 
 * [企业微信推送教程](https://github.com/Yiov/notes/tree/main/wecom)
 

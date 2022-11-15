@@ -123,7 +123,7 @@ PE启动盘有很多，除了微PE还有：[老毛桃](https://www.laomaotao.net
 
 由于下载的是原版纯净系统，是未激活的，我打包好了激活工具 和 驱动安装程序
 
-[点我☛可直接下载](-)
+[点我☛可直接下载](https://raw.githubusercontent.com/Yiov/notes/main/wepe/%E8%A3%85%E6%9C%BA%E5%B7%A5%E5%85%B7.zip)
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-12.png)
 
@@ -259,7 +259,7 @@ Dism++官网：https://github.com/Chuyu-Team/Dism-Multi-language/releases
 
 > 如果电脑有 NVME 的固态盘，还是固执的要装win7，那需要打2个补丁
 
-不然识别不了盘符，[点我☛可直接下载](-)
+不然识别不了盘符，[点我☛可直接下载](https://raw.githubusercontent.com/Yiov/notes/main/wepe/%E8%A3%85%E6%9C%BA%E5%B7%A5%E5%85%B7.zip)
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-22.png)
 
@@ -332,6 +332,7 @@ Dism++官网：https://github.com/Chuyu-Team/Dism-Multi-language/releases
 > 都是国产的，就很棒
 >
 > 易数科技的DiskGenius：https://www.diskgenius.cn/
+>
 > 傲梅科技的分区助手：https://www.disktool.cn/
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-25.png)
@@ -401,7 +402,7 @@ CGI还原系统：选择系统盘，再选择U盘里的ISO镜像，执行即可
 
 </br>
 
-重装工具就包含4种：Dism++、CGI备份还原、Winntsetup、直装，我只说后两者，前两者也简单，前面也提到过了
+重装方式就包含4种：Dism++、CGI备份还原、Winntsetup、直装，我只说后两者，前两者也简单，前面也提到过了
 
 
 新硬盘安装的，请先看 `4.4 硬盘分区`
@@ -451,8 +452,11 @@ window安装器打开了，下一步
 这里按需选择系统版本，下一步
 
 > 企业版：功能最全，价格最贵；装机比较常见；主要受众 大企业
+> 
 > 教育版：功能次之，价格较贵；主要受众 学校等教育机构
+> 
 > 专业版：功能多，价格高；装机比较常见；主要受众 中小企业
+> 
 > 家庭版：功能少，价格低；主要受众 普通家庭
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-39.png)
@@ -516,8 +520,9 @@ Winntsetup安装无系统的限制，XP系统选左侧，win7及以上选右侧
 
 安装位置选我们装载的驱动盘符，其他都默认，安装即可
 
+</br>
 
-**注意XP系统，没有USB3.0和NVME驱动，请先看 `步骤4.2 dism++注入驱动` 再重启！！！**
+**注意：XP系统没有USB3.0/win7没有NVME驱动，请装完系统先别重启！！先看 `步骤4.2 dism++注入驱动` 再重启！！！**
 
 > 老机器和没有固态盘的不用装，已经重启了就没办法再次注入了，只能重装
 
@@ -552,8 +557,11 @@ Winntsetup安装无系统的限制，XP系统选左侧，win7及以上选右侧
 选择挂载驱动器里的 `source` 目录下的的 `install.wim` 文件，选择安装版本，开始安装
 
 > 企业版：功能最全，价格最贵；装机比较常见；主要受众 大企业
+> 
 > 教育版：功能次之，价格较贵；主要受众 学校等教育机构
+> 
 > 专业版：功能多，价格高；装机比较常见；主要受众 中小企业
+> 
 > 家庭版：功能少，价格低；主要受众 普通家庭
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-52.png)
@@ -584,7 +592,7 @@ Winntsetup安装无系统的限制，XP系统选左侧，win7及以上选右侧
 
 驱动和激活工具我都打包好了，直接下就行或者自行去官网下载
 
-[点我☛可直接下载](-)
+[点我☛可直接下载](https://raw.githubusercontent.com/Yiov/notes/main/wepe/%E8%A3%85%E6%9C%BA%E5%B7%A5%E5%85%B7.zip)
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-55.png)
 
@@ -594,7 +602,7 @@ Winntsetup安装无系统的限制，XP系统选左侧，win7及以上选右侧
 
 驱动大师：https://dm.weishi.360.cn/home.html
 
-> 建议是提前下到U盘里，等系统安装完成，就直接安装
+> 轻巧版需有网络在线安装；网卡版无需网络离线安装
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-56.png)
 
@@ -617,6 +625,22 @@ Winntsetup安装无系统的限制，XP系统选左侧，win7及以上选右侧
 
 
 
+## 常见问题
+
+</br>
+
+### 1.U盘如何恢复
+
+先下载rufus软件打开 - 引导类型选择 下选择 `FreeDOS` - 点击开始，直到完成
+
+```
+https://d-image.i4.cn/i4web/image/news/2020-07-16/fileTypeImages_1594880598242082789.zip
+```
+
+
+</br>
+</br>
+
 
 ## 特别鸣谢
 
@@ -626,7 +650,7 @@ Winntsetup安装无系统的限制，XP系统选左侧，win7及以上选右侧
 
 * [Itellyou官网](https://next.itellyou.cn)「原MSDN」
 
-* [DiskGenius](https://www.diskgenius.cn/「易数科技」
+* [DiskGenius](https://www.diskgenius.cn/)「易数科技」
 
 * [分区助手](https://www.disktool.cn/)「傲梅科技」
 

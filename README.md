@@ -35,6 +35,8 @@
 
 * [微软Azure·云希语音使用教程](https://github.com/Yiov/notes/tree/main/Azure)
 
+* [微PE制作PE启动盘重装电脑系统](https://github.com/Yiov/notes/tree/main/wepe)
+
 * [电视如何安装apk应用]
 
 * [VSCode安装步骤]

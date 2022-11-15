@@ -37,9 +37,7 @@
 
 * [微PE制作PE启动盘重装电脑系统](https://github.com/Yiov/notes/tree/main/wepe)
 
-* [电视如何安装apk应用]
-
-* [VSCode安装步骤]
+* [VSCode安装步骤](https://github.com/Yiov/notes/tree/main/VSCode)
 
 * [Markdown的简单用法](https://github.com/Yiov/notes/tree/main/markdown)
 
@@ -50,6 +48,8 @@
 * [Github静态托管]
 
 * [小米运动刷步教程]
+
+* [电视如何安装apk应用]
 
 * [Tosesk远程电脑](https://github.com/Yiov/notes/tree/main/todesk)
 

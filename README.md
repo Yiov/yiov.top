@@ -43,7 +43,7 @@
 
 * [企业微信推送教程](https://github.com/Yiov/notes/tree/main/wecom)
 
-* [Github注册到上传]
+* [Github注册到上传](https://github.com/Yiov/notes/tree/main/github)
 
 * [Github静态托管]
 

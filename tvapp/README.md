@@ -33,7 +33,7 @@ IOS无解，只能用电脑-雷电模拟器安装
 </br>
 
 
-### 途径2：当贝市场
+### 途径2：当贝市场 [推荐]
 
 </br>
 
@@ -51,14 +51,12 @@ IOS无解，只能用电脑-雷电模拟器安装
 
 每个品牌的安装方式参考☛：https://www.znds.com/jc/
 
-> 有的电视，自带商店搜索可直接装
->
-> 有的不行，要下载到U盘，插入电视安装
+> 有的电视，自带商店可直装；有的要下载到U盘，插入电视安装
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/tvapp/tvapp-03.png)
 
 
-我家电视是海信，但是用的是创维A810，就找盒子的型号
+我家电视是海信，但是盒子用的是创维A810，就找盒子的型号
 
 > 界面没找到，我直接搜竟然有，就离谱
 
@@ -90,11 +88,7 @@ IOS无解，只能用电脑-雷电模拟器安装
 模拟器比手机好的地方，在于能够用键盘控制，特别是切换频道
 
 
-**注：使用此种方法，会挤退1次PC登录，不能同时在线，之后就不会了**
-
-
-
-推荐使用 雷电模拟器：https://www.ldmnq.com/
+雷电模拟器官网：https://www.ldmnq.com/
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/tvapp/tvapp-07.png)
 

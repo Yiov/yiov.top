@@ -45,11 +45,9 @@
 
 * [Github注册到上传](https://github.com/Yiov/notes/tree/main/github)
 
-* [Github静态托管]
+* [小米运动刷步教程](https://github.com/Yiov/notes/tree/main/xmsb)
 
-* [小米运动刷步教程]
-
-* [电视如何安装apk应用]
+* [TV电视如何安装apk应用](https://github.com/Yiov/notes/tree/main/tvapp)
 
 * [Tosesk远程电脑](https://github.com/Yiov/notes/tree/main/todesk)
 
@@ -161,5 +159,7 @@
 * [浅谈内网穿透]
 
 * [centos系统切换图形界面](https://github.com/Yiov/notes/tree/main/Centos)
+
+* [Github静态托管]
 
 </details>

@@ -46,7 +46,7 @@ Github官网：https://github.com/
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/github/github-04.png)
 
 
-注册好了，还需要填一些信息，跟我一样的小白，就选 Just me 和 Student
+注册好了，还需要填一些信息，跟我一样的小白，就选 `Just me` 和 `Student`
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/github/github-05.png)
 
@@ -114,7 +114,7 @@ Github官网：https://github.com/
 ```
 
 
-github Desktop官方：https://desktop.github.com/
+Github Desktop官方：https://desktop.github.com/
 
 > 下载不了的不要用迅雷，用浏览器自带的
 
@@ -171,7 +171,7 @@ desktop打开后，要求我们设置用户名和邮箱
 
 
 
-这里的 Local path路径，选择除C盘以外的盘符，然后点Clone克隆
+这里的 `Local path` 路径，选择除C盘以外的盘符和文件夹，然后点 `Clone` 克隆
 
 > 如果这里没显示，点击刷新即可，然后选择我们创建好的仓库
 
@@ -223,7 +223,7 @@ Github Desktop界面变动，勾选文件 - 填写描述 - `Commit to main`上�
 
 > 添加其他文件也是一样的步骤
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/github/github-23.png3
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/github/github-23.png)
 
 
 
@@ -241,9 +241,11 @@ Github Desktop界面变动，勾选文件 - 填写描述 - `Commit to main`上�
 
 ### 1.推送报错erro
 
-</br>
 
+
+```
 fatal: unable to access 'https://github.com/XXX/copydog.git/' schannel: failed to receive handshake，SSL/TLS connection failed
+```
 
 被墙了，别慌，继续点pull Origin吧，等一会能连接了会自动上传了
 
@@ -252,7 +254,6 @@ fatal: unable to access 'https://github.com/XXX/copydog.git/' schannel: failed t
 
 ### 2.创建分支
 
-</br>
 
 默认main，想创建新的分支的，在Github Desktop顶部-Branch-NewBranch
 
@@ -264,7 +265,6 @@ fatal: unable to access 'https://github.com/XXX/copydog.git/' schannel: failed t
 
 ### 3.删除仓库
 
-</br>
 
 Github网页进入想删的仓库-设置，拉倒最底部，Delete this repository删除仓库
 
@@ -273,7 +273,6 @@ Github网页进入想删的仓库-设置，拉倒最底部，Delete this reposit
 
 ### 4.把别人项目添加到自己的仓库
 
-</br>
 
 在别人的项目主页，右上角-Fork复刻
 
@@ -282,7 +281,6 @@ Github网页进入想删的仓库-设置，拉倒最底部，Delete this reposit
 
 ### 5.误删文件找回/版本回退
 
-</br>
 
 Github Desktop修改区，有个History历史记录里找即可
 
@@ -291,6 +289,5 @@ Github Desktop修改区，有个History历史记录里找即可
 
 ### 6.网页也被更改，同步到本地仓库
 
-</br>
 
 一键Fetch即可，Fetch Origin点一下会变成Pull Origin，在次点击即可同步

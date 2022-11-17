@@ -51,6 +51,8 @@
 
 * [Tosesk远程电脑](https://github.com/Yiov/notes/tree/main/todesk)
 
+* [QQ邮箱接收其他邮箱信息](https://github.com/Yiov/notes/tree/main/qqmail)
+
 * [待产包清单及入院指南参考](https://github.com/Yiov/notes/tree/main/hospital_bag)
 
 </details>

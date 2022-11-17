@@ -15,7 +15,7 @@
   * Stream（免费）
 
 * 安卓
-  * Packet Capture（已量）
+  * Packet Capture（已凉）
   * HttpCanary（俗称小黄鸟/小蓝鸟）
 
 
@@ -27,11 +27,13 @@
 </br>
 
 
-## 安装
+## 1.安装
 
 </br>
 
-### 1.Stream（免费，限IOS）
+
+<details>
+<summary>1.1 Stream(免费，限IOS) [展开]</summary>
 
 </br>
 
@@ -66,7 +68,7 @@ APP Store下载：https://apps.apple.com/cn/app/stream/id1312141691
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/capture/capture-04.png)
 
 
-安装好就是 **已验证√ **了
+安装好就是 `已验证√` 了
 
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/capture/capture-05.png)
@@ -84,12 +86,14 @@ APP Store下载：https://apps.apple.com/cn/app/stream/id1312141691
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/capture/capture-07.png)
 
 
+</details>
+
 </br>
-</br>
 
 
-### 2.HttpCanary（免费，限安卓已root）
 
+<details>
+<summary>1.2.HttpCanary(免费，限安卓已root) [展开]</summary>
 
 </br>
 
@@ -229,11 +233,14 @@ APP Store下载：https://apps.apple.com/cn/app/stream/id1312141691
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/capture/capture-25.png)
 
 
+</details>
+
+</br>
+</br>
 
 
 
-
-### 使用
+### 2.使用
 
 </br>
 

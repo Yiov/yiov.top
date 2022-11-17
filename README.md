@@ -69,7 +69,7 @@
 
 * [iPhone短信添加头像](https://github.com/Yiov/notes/tree/main/smscard)
 
-* [带口罩解锁iPhone面容ID]
+* [带口罩解锁iPhone面容ID](https://github.com/Yiov/notes/tree/main/faceID)
 
 * [注册国外苹果Apple_ID步骤](https://github.com/Yiov/notes/tree/main/Apple_ID)
 

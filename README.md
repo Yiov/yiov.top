@@ -67,7 +67,7 @@
 <details>
 <summary>iPhone / Android [展开]</summary>
 
-* [iPhone短信添加头像]](https://github.com/Yiov/notes/tree/main/smscard)
+* [iPhone短信添加头像](https://github.com/Yiov/notes/tree/main/smscard)
 
 * [带口罩解锁iPhone面容ID]
 

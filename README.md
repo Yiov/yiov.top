@@ -93,7 +93,7 @@
 
 * [手机抓包工具安装及使用](https://github.com/Yiov/notes/tree/main/capture)
 
-* [小米线刷降级破MIUI限制]
+* [小米线刷降级破MIUI限制](https://github.com/Yiov/notes/tree/main/miui)
 
 
 

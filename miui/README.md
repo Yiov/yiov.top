@@ -65,15 +65,17 @@
 > 开发版要去小米论坛申请内测资格并通过，然后去[官网申请BL锁](http://www.miui.com/unlock/index.html)
 
 
-途径1官方论坛:https://web.vip.miui.com/page/info/mio/mio/detail?postId=37093637
+官方论坛：https://web.vip.miui.com/page/info/mio/mio/detail?postId=37093637
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-02.png)
 
+</br>
 
 途径2(停更)：https://github.com/mooseIre/update_miui_ota
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-03.png)
 
+</br>
 
 途径3：https://xiaomirom.com/
 
@@ -98,11 +100,8 @@
 
 新版：https://cdn.alsgp0.fds.api.mi-img.com/micomm/MiFlash2020-3-14-0.rar
 
-带下载包的miflash pro：https://web.vip.miui.com/page/info/mio/mio/detail?postId=4861282&app_version=dev.20051)
+带下载包的miflash pro：https://dzp.lanzouy.com/ij7Wk0g7755g
 ```
-
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-06.png)
 
 
 </br>
@@ -118,27 +117,22 @@
 手机关机，再 **长按音量下键+电源键** ，进入线刷 `FASTBOT` 兔子模式，数据线连接电脑
 
 
-
-
 解压后，打开小米刷机工具文件夹，运行 **XiaoMiFlash.exe**
+
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-06.png)
+
+
+
+
+停在这个界面就行
+
+> 第一次下载的点一下Driver安装一下驱动，已经装过的无视
+
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-07.png)
 
-
-
-
-停在这个界面就行，第一次下载的点一下Driver安装一下驱动，已经装过的无视
-
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-08.png)
-
-
-
-
-打开ROM包文件夹，首先要确定你刷机后要不要上BL锁
-
-> BL锁：想折腾手机root的就解锁，不玩机的无所谓
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-09.png)
 
 
 以下一一对应
@@ -149,36 +143,45 @@
 > 
 > 全部删除并LOCK —— flash_all_lock.bat
 
-错选成上锁了，官方去下载解锁工具：http://www.miui.com/unlock/index.html
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-08.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-10.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-11.png)
+
+打开ROM包文件夹，首先要确定你刷机后要不要上BL锁
+
+> 错选成上锁了，官方去下载解锁工具：http://www.miui.com/unlock/index.html
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-09.png)
 
 
 现在是最最重要的步骤
 
-找到相应的bat命令更改，鼠标右键—用记事本打开-编辑—查找 `Flash sparsecrclist error`
+找到相应的bat命令更改，鼠标右键—用记事本打开
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-12.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-10.png)
 
+
+编辑—查找 `Flash sparsecrclist error`
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-11.png)
 
 
 把这一段**整句全删掉**，不留空格，**保存并退出**
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-13.png)
-
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-12.png)
 
 
 
 打开刷机工具，选择你ROM包的文件夹
 
 > 这里注意你的ROM包文件夹的位置，一定要对
+>
+> 不知道路径的，进你的ROM包文件夹里，复制顶部的路径，粘贴过去就行
 
 
-不知道路径的，进你的ROM包文件夹里，复制顶部的路径，粘贴过去就行
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-13.png)
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/miui/miui-14.png)
+
 
 
 然后点击 — **加载设备** —— **刷机** 即可，会有绿色进度条

@@ -168,7 +168,7 @@ ls
 
 
 
-下载[JuiceSSH](https://juicessh.com/):https://dzp.lanzouy.com/iMsuF0gb2dha
+下载 [@JuiceSSH](https://juicessh.com/)：https://dzp.lanzouy.com/iMsuF0gb2dha
 
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Xshell/Xshell-16.png)

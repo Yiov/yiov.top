@@ -134,7 +134,7 @@
 
 * [Xshell软件的安装及使用](https://github.com/Yiov/notes/tree/main/Xshell)
 
-* [宝塔面板的安装教程]
+* [安装宝塔面板和使用](https://github.com/Yiov/notes/tree/main/BT)
 
 * [node.js的安装教程]
 

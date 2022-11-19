@@ -132,7 +132,7 @@
 
 * [虚拟机安装Linux系统](https://github.com/Yiov/notes/tree/main/VMware)
 
-* [Xshell软件的安装及使用]
+* [Xshell软件的安装及使用](https://github.com/Yiov/notes/tree/main/Xshell)
 
 * [宝塔面板的安装教程]
 

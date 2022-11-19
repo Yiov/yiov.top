@@ -109,7 +109,7 @@
 <details>
 <summary>Telegram相关 [展开]</summary>
 
-* [Telegram注册及注销]
+* [Telegram注册及注销](https://github.com/Yiov/notes/tree/main/telegram)
 
 * [TG表情包下载与制作](https://github.com/Yiov/notes/tree/main/sticker)
 

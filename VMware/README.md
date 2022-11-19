@@ -453,7 +453,7 @@ https://softdown01.rbread04.cn/huajunsafe/VMware-workstation-full-16.0.0-1689429
 
 ### 1.虚拟机打不开 报错
 
->报错：出现您的主机不满足在启用 Hyper-V 或 Device/Credential Guard 的情况下运行 VMware Workstation 的最低要求
+> 报错：出现您的主机不满足在启用 Hyper-V 或 Device/Credential Guard 的情况下运行 VMware Workstation 的最低要求
 
 
 解决：尝试过各种方法，不行，直接更新了微软系统，竟然可以了！
@@ -461,9 +461,15 @@ https://softdown01.rbread04.cn/huajunsafe/VMware-workstation-full-16.0.0-1689429
 可能产生的原因：安装了docker desktop，导致和Hyper-V冲突。别看网上说关掉Hyper-V，这样桥接就没有网络了
 
 
+</br>
 
+### 2.虚拟机如何进PE系统
 
+选择其他安装方式中的第3个：`生成可启动的ISO` 自己选一个盘符文件夹生成
 
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/VMware/VMware-44.png)
 
+虚拟机CD/DVD选择生成的ISO镜像文件，启动即可
 
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/VMware/VMware-45.png)
 

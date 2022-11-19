@@ -9,7 +9,11 @@
 
 如何翻墙：
 
-* VPN类软件：[白鲸加速器](https://www.bjchuhai.com/)「简单好用」
+* VPN类软件
+
+  * [白鲸加速器](https://www.bjchuhai.com/)「简单好用」
+
+  * [快联](https://github.com/LetsGo666/LetsGo_2)「IOS配合 `Apps Manager` 抹除数据无限刷」
 
 * 工具类软件：需要配合节点代理访问「如下」
 
@@ -101,9 +105,9 @@
 
 * [Shadowrocket·小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118)「美区ID付费」
 
-* [QuantumultX·圈X](https://apps.apple.com/us/app/quantumult-x/id1443988620)「美区ID付费」
+* [QuantumultX·圈X](https://apps.apple.com/us/app/quantumult-x/id1443988620)「美区ID付费 日区便宜」
 
-> 圈X的日区的便宜
+
 
 
 </br>

@@ -138,7 +138,7 @@
 
 * [node.js的安装教程](https://github.com/Yiov/notes/tree/main/nodejs)
 
-* [docker的安装教程]
+* [docker的安装教程](https://github.com/Yiov/notes/tree/main/docker)
 
 * [青龙面板的安装及使用]
 
@@ -156,7 +156,7 @@
 
 * [Favicon图标api搭建]
 
-* [docker如何上传本地镜像]
+* [dockerhub如何上传本地镜像]
 
 * [浅谈内网穿透]
 

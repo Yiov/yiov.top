@@ -64,9 +64,9 @@ cd / #进入根目录
 
 </br>
 
-版本我用的最新的V14.17.4，其他版本查找：https://nodejs.org/dist/
+版本我用的最新的V14.17.4，可按照官网最新的版本改好命令，保持一致
 
-> 自己什么版本，就改下面的数字，保持一致，其他不要动
+> 其他版本查找：https://nodejs.org/dist/
 
 
 ```
@@ -89,7 +89,7 @@ mv node-v14.17.4-linux-x64 node-v14.17.4 #改名
 cd /node-v14.17.4/bin && ls #进入目录并列出
 ```
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-04.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-05.png)
 
 
 </br>
@@ -108,7 +108,7 @@ ln -s /node-v14.17.4/bin/node /usr/local/bin/node
 ln -s /node-v14.17.4/bin/npm /usr/local/bin/npm
 ```
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-05.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-06.png)
 
 
 
@@ -127,7 +127,7 @@ node -v #查看版本号
 npm -v #查看包管理工具
 ```
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-06.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-07.png)
 
 
 </br>
@@ -146,7 +146,7 @@ cd /
 ls
 ```
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-07.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-08.png)
 
 
 删除node安装包，复制下列命令
@@ -167,7 +167,7 @@ cd /
 ls
 ```
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-07.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-09.png)
 
 
 

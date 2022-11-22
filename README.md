@@ -140,7 +140,7 @@
 
 * [docker的安装教程](https://github.com/Yiov/notes/tree/main/docker)
 
-* [青龙面板的安装及使用]
+* [青龙面板的安装及使用](https://github.com/Yiov/notes/tree/main/qinglong)
 
 * [wordpress的搭建](https://github.com/Yiov/notes/tree/main/wordpress)
 

@@ -349,7 +349,9 @@
 填好后保存，返回点刷新，卡退了的重新打开软件
 
 > 应用名称：随便写
+> 
 > 内网主机：填内网IP，就是我们访问青龙或者宝塔的IP
+> 
 > 内网端口：青龙填5700；宝塔填8888
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/NAT/NAT-17.png)

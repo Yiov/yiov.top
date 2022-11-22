@@ -123,7 +123,7 @@ docker images
 
 
 
-dockerhub无法直接上传别人的镜像，我们pull的镜像后，通过 `打标签` 的形式换成自己的账户仓库名，再上传就可以了
+dockerhub无法直接上传别人的镜像，我们pull镜像后，通过 `打标签` 的形式换成自己的账户仓库名，再上传就可以了
 
 ```
 docker tag 镜像ID 账户名/仓库名:标签名
@@ -160,7 +160,7 @@ docker images
 
 现在我们来上传镜像
 
-> 如果想查看数据的用命令 `docker inspect 账户名/仓库名:版本号`
+> 如果上传前想查看数据 `docker inspect 账户名/仓库名:版本号`
 
 
 ```
@@ -206,7 +206,7 @@ docker push yiov/nvjdc:1.0
 docker logout
 ```
 
-Removing login就是已经移除登录状态了
+`Removing login` 就是已经移除登录状态了
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/dockerhub/dockerhub-13.png)
 
@@ -259,4 +259,6 @@ docker rmi -f 账户名/仓库名:标签名tag
 ## 特别鸣谢
 
 * [青龙镜像](https://hub.docker.com/r/whyour/qinglong)
+
+* [Nvjdc]
 

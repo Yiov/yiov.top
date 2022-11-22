@@ -158,7 +158,7 @@
 
 * [dockerhub如何上传本地镜像](https://github.com/Yiov/notes/tree/main/dockerhub)
 
-* [浅谈内网穿透]
+* [浅谈内网穿透](https://github.com/Yiov/notes/tree/main/NAT)
 
 * [centos系统切换图形界面](https://github.com/Yiov/notes/tree/main/Centos)
 

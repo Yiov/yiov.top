@@ -87,7 +87,7 @@ sudo systemctl enable docker
 > 仓库：https://github.com/docker/compose
 
 ```
-sudo curl -L "https://ghproxy.com/https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 ```
 
 
@@ -126,6 +126,8 @@ docker kill 容器ID #关闭容器
 docker restart 容器名称 #重启容器
 
 exit #退出容器
+
+docker images #查看镜像
 
 docker rmi 镜像ID #删除镜像
 

@@ -57,42 +57,59 @@ https://cn.wordpress.org/
 </br>
 </br>
 
-## 步骤
+
+
+## 1.下载Wordpress
+
 
 </br>
-
-### 1.下载Wordpress
-
-
 
 进入[wordpress中国](https://cn.wordpress.org/) 官网
 
 点击右上角获取-下载并安装-下载
 
-> 下载完成后是一个压缩包
+> 下载就可以了，不要解压！一会用
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wordpress/wordpress-02.png)
 
 </br>
+</br>
 
-### 2.安装Xshell软件（已装的略）
 
-[Xshell 7安装步骤](https://www.baidu.com)
 
-待我单独写一篇吧，不然篇幅过长
+
+
+## 2.安装Xshell软件（已装的略）
 
 </br>
+
+[Xshell 7安装步骤](https://github.com/Yiov/notes/tree/main/Xshell)
+
+
+</br>
+</br>
+
+
+
+
 
 ## 3.安装宝塔面板（已装的略）
 
-[宝塔安装步骤](https://www.baidu.com)
+</br>
 
-待我单独写一篇吧，不然篇幅过长
+[宝塔安装步骤](https://github.com/Yiov/notes/tree/main/BT)
 
 
 </br>
+</br>
 
-### 4.添加站点
+
+
+
+
+## 4.添加站点
+
+</br>
 
 
 进入宝塔面板后，点 网站-添加站点
@@ -114,8 +131,15 @@ https://cn.wordpress.org/
 
 
 </br>
+</br>
 
-### 5.上传wordpress
+
+
+
+
+## 5.上传wordpress
+
+</br>
 
 文件-/www/wwwroot/dh.***.com，把里面的文件都删掉
 
@@ -141,9 +165,14 @@ https://cn.wordpress.org/
 
 
 </br>
+</br>
 
-### 6.安装wordpress
 
+
+
+## 6.安装wordpress
+
+</br>
 
 访问你的域名即可，我的是`dh.***.com`，你们按自己的域名来
 
@@ -177,9 +206,8 @@ https://cn.wordpress.org/
 
 
 
-
-
-
+</br>
+</br>
 
 
 

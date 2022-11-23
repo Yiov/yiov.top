@@ -1,23 +1,24 @@
 ## Webstack导航详细安装教程
 
+</br>
 
 更新时间：2022-8-2
 
+</br>
 
 ## 前言
 
+</br>
+
 正常情况下个人是不能做导航的，可以考虑国外服务器，毕竟免备案，不过价格就高点
 
+</br>
 
-这里我使用的是[@Viggoz](https://github.com/WebStackPage/)大佬的`Webstack`导航模板
+这里我使用的是[@Viggoz](https://github.com/WebStackPage/)大佬的`Webstack`导航：https://webstack.cc/
+
+> 好看的都收费，虽然模板已经停更了，不过这个已经很棒了
 
 仓库：https://github.com/WebStackPage/WebStackPage.github.io
-
-
-好看的都收费，虽然模板已经停更了，不过这个已经很棒了
-
-
-webstack官网：https://webstack.cc/
 
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/WebStack/westack-01.png)
@@ -28,21 +29,20 @@ webstack官网：https://webstack.cc/
 
 ## 准备工作
 
+</br>
 
-* [没有搭建WordPress的点我看教程☚](https://github.com/Yiov/notes/tree/main/wordpress)
-
-
-根据 **@Viggoz** 大佬的推荐，使用WordPress搭建
+* [搭建WordPress教程 已搭建的无视☚](https://github.com/Yiov/notes/tree/main/wordpress)
 
 
-项目地址：https://github.com/owen0o0/WebStack
-
+根据文档说明，WordPress搭建项目文件：https://github.com/owen0o0/WebStack
 
 把项目下载下来，或者直接用宝塔远程下
 
 ```
 https://github.com/owen0o0/WebStack/archive/refs/tags/1.1620.zip
 ```
+
+</br>
 
 主页效果预览：http://webstack.iotheme.cn/
 
@@ -55,7 +55,7 @@ https://github.com/owen0o0/WebStack/archive/refs/tags/1.1620.zip
 </br>
 </br>
 
-## 上传主题
+## 1.上传主题
 
 
 登录wordpress的后台，外观-主题-上传主题-选择文件-安装，直到完成，然后**启用**
@@ -81,7 +81,7 @@ https://github.com/owen0o0/WebStack/archive/refs/tags/1.1620.zip
 </br>
 
 
-## 设置伪静态
+## 2.设置伪静态
 
 
 按自己服务器环境二选一，我就用Nginx，保存
@@ -112,11 +112,11 @@ RewriteRule . /index.php [L]
 
 </br>
 </br>
-</br>
 
 
 
-## 美化网页内容
+
+## 3.美化网页内容
 
 
 我们访问域名，看到的主页无比干净，我们挨个添加
@@ -127,7 +127,7 @@ RewriteRule . /index.php [L]
 </br>
 </br>
 
-### 一级菜单
+### 3.1 一级菜单
 
 网址-网址分类-名称自己取，父级无
 
@@ -147,7 +147,7 @@ RewriteRule . /index.php [L]
 
 
 
-### 二级菜单
+### 3.2 二级菜单
 
 网址-网址分类-名称自己取，父级选已创建好的目录
 
@@ -162,7 +162,7 @@ RewriteRule . /index.php [L]
 </br>
 
 
-### 侧栏底部菜单（可选）
+### 3.3 侧栏底部菜单（可选）
 
 
 非必须，看自己喜好吧
@@ -213,7 +213,7 @@ http://www.fontawesome.com.cn/icons-ui/
 
 
 
-### 添加网页
+### 3.4 添加网页
 
 网址-所有网址-添加网址
 
@@ -261,7 +261,7 @@ https://api.iowen.cn/favicon/
 </br>
 
 
-### 添加详情页
+### 3.5 添加详情页
 
 主题设置-常规设置-详情页开关(开启)，已开的无视
 
@@ -295,13 +295,13 @@ https://api.iowen.cn/favicon/
 
 
 
-## 其他设置
+## 4.其他设置
 
 大部分都是有开关的，自己看下即可，我就说几个难点的
 
 :loudspeaker: 修改文件前，请先备份！
 
-### 删除天气
+### 4.1 删除天气
 
 
 
@@ -328,7 +328,7 @@ https://api.iowen.cn/favicon/
 </br>
 
 
-### 删除Fork me on GitHub
+### 4.2 删除Fork me on GitHub
 
 修改文件`wp-content/themes/WebStack-1.1620/templates/header-banner.php`，删除第31行即可
 
@@ -336,7 +336,7 @@ https://api.iowen.cn/favicon/
 </br>
 
 
-### 关掉搜索框
+### 4.3 关掉搜索框
 
 主题设置-常规设置-搜索（关闭）
 
@@ -348,7 +348,7 @@ https://api.iowen.cn/favicon/
 </br>
 
 
-### 底部信息栏
+### 4.4 底部信息栏
 
 修改文件`wp-content/themes/WebStack-1.1620/footer.php`，修改第22或者23行即可
 
@@ -359,14 +359,14 @@ Copyright © <?php echo date('Y') ?>  <?php if(io_get_option('icp')) echo '<a hr
 
 </br>
 
-### 公告
+### 4.5 公告
 
 主题-常规设置-显示公告（开启/关闭），这里的公告在wp后台的公告里添加
 
 </br>
 
 
-### 图标LOGO设置
+### 4.6 图标LOGO设置
 
 
 主题-图标设置，根据尺寸要求来就好了，制作完成上传到image文件夹并在设置中修改
@@ -385,7 +385,7 @@ Copyright © <?php echo date('Y') ?>  <?php if(io_get_option('icp')) echo '<a hr
 </br>
 
 
-### 部署SLL证书不是绿锁
+### 4.7 部署SLL证书不是绿锁
 
 
 一般360浏览器会显示，正常部署了证书后，就是绿锁，如果出现灰锁，并提示如下

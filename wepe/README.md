@@ -60,7 +60,7 @@ PE启动盘有很多，除了微PE还有：[老毛桃](https://www.laomaotao.net
 >
 > U盘格式是exFAT，对于非要装XP系统就改成FAT32，XP系统才能识别，否则不要改！现在还有人装XP??? 
 >
-> exFAT是为了解决FAT32不支持4G以上文件退出，常见的NTFS系统又日志，不停的读写比较伤U盘
+> exFAT是为了解决FAT32不支持4G以上文件推出，常见的NTFS系统有日志，不停的读写比较伤U盘
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-04.png)
 
@@ -105,7 +105,7 @@ PE启动盘有很多，除了微PE还有：[老毛桃](https://www.laomaotao.net
 
 > business_editions版，俗称VL版，包含：Education(教育版); Enterprise(企业版); Professional(专业版)
 >
-> consumer_editions版，俗称零售版， 版本包含：Home(家庭版); Education(教育版); Professional(专业版)
+> consumer_editions版，俗称零售版，版本包含：Home(家庭版); Education(教育版); Professional(专业版)
 >
 > 版本无使用区别，都可以，区别在包含的版本里
 
@@ -121,7 +121,7 @@ PE启动盘有很多，除了微PE还有：[老毛桃](https://www.laomaotao.net
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-11.png)
 
 
-由于下载的是原版纯净系统，是未激活的，我打包好了激活工具 和 驱动安装程序
+由于下载的是原版纯净系统，是未激活的，我打包好了 `激活工具` 和 `驱动安装程序`
 
 [点我☛可直接下载](https://raw.githubusercontent.com/Yiov/notes/main/wepe/%E8%A3%85%E6%9C%BA%E5%B7%A5%E5%85%B7.zip)
 
@@ -140,7 +140,7 @@ PE启动盘有很多，除了微PE还有：[老毛桃](https://www.laomaotao.net
 
 </br>
 
-一说到BIOS设置，不要慌，开机的时候其实已经告诉你了，以我的电脑为例
+一说到BIOS设置就头疼，不要慌，开机的时候其实已经告诉你了，以我的电脑为例
 
 </br>
 
@@ -160,7 +160,7 @@ PE启动盘有很多，除了微PE还有：[老毛桃](https://www.laomaotao.net
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/wepe/wepe-14.png)
 
 
-模式不一样，进入的界面也不一样，后面我再细说
+Legacy和UEFI模式不一样，进入的界面也不一样，后面我再细说
 
 > 菜单中不知道选哪个就默认，和操作系统无关，都可以用
 

@@ -474,3 +474,22 @@ https://softdown01.rbread04.cn/huajunsafe/VMware-workstation-full-16.0.0-1689429
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/VMware/VMware-45.png)
 
+</br>
+
+### 3.搭建网站本地调试，域名怎么弄
+
+按照下面路径修改host文件，填加IP+域名即可
+
+```
+C:\Windows\System32\drivers\etc
+```
+
+`hosts` 鼠标右键-记事本方式打开- 拉倒底部 输入`虚拟机的IP+空格+任意域名`，保存关掉
+
+```
+192.168.1.154 alibaba.com
+```
+
+在宝塔中添加次网址即可
+
+

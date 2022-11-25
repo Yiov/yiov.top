@@ -416,6 +416,7 @@ FakeLocationX：虚拟定位
 | AppStore++ | CokePokes | [点我☛下载](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) | App随意升降级、[越狱源](https://cokepokes.github.io/) |
 | BatteryInfo | xybp888 | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/BatteryInfo_1.0.7.ipa) | 电池助手，查看电池健康状态等 |
 | BlizzardBoard | BenjaminHornbeck6 | [点我☛下载](https://github.com/BenjaminHornbeck6/BlizzardBoard) | 主题美化 但书签形式 |
+| CallAssist</br>电话助手 | xybp888 | [点我☛下载](https://www.htv123.com/down/CallAssist_TrollStore.ipa) | T9拨号 来电归属 |
 | CocoaTop | - | [点我☛下载](https://pan.yingyayi.com/d/%E8%8B%B9%E6%9E%9CIOS/%E6%B0%B8%E4%B9%85%E7%AD%BEipa/CocoaTop.ipa) | 进程查看工具 |
 | DebToIPA | sourcelocation | [点我☛下载](https://github.com/sourcelocation/DebToIPA/releases) | deb文件转IPA |
 | DowngradeApp | Netskao | [点我☛下载](https://share.initnil.com/With_TorllStore/DowngradeApp) | 无广告 App随意升降级 |

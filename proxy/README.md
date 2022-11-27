@@ -13,6 +13,8 @@
 
   * [白鲸加速器](https://www.bjchuhai.com/)「简单好用」
 
+  * [小三VPN](https://github.com/sharmajv/vpn)「仿Clash」
+
   * [快联](https://github.com/LetsGo666/LetsGo_2)「IOS配合 `Apps Manager` 抹除数据无限刷」
 
 * 工具类软件：需要配合节点代理访问「如下」

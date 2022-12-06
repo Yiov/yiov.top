@@ -2,12 +2,12 @@
 
 </br>
 
-更新时间：2022/11/29
+更新时间：2022/12/6
 
-参考教程：https://www.coolapk.com/feed/34962956?shareKey=MTYxMWU0N2MzY2FlNjM4NWMzOGU
+参考酷安教程：https://www.coolapk.com/feed/34962956?shareKey=MTYxMWU0N2MzY2FlNjM4NWMzOGU
 
 
-本教程仅演示官方主题下载，未上架的第三方主题直接装会还原默认，需要安装放退回模块，相对麻烦点，本人不是那么爱折腾，过度美化的尽头就是腻
+本教程仅演示官方主题下载，未上架的第三方主题直接装会还原默认，需要安装防退回模块，相对麻烦点，本人不是那么爱折腾，过度美化的尽头就是腻
 
 </br>
 </br>
@@ -41,7 +41,7 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-01.png)
 
 
-下拉打开 `USB调试`等和`停用adb授权超时` 如图
+下拉打开 `USB调试等` 和 `停用adb授权超时` 如图
 
 > 不打开会产生各种问题
 
@@ -56,7 +56,9 @@
 </br>
 
 
-下载安装 `Shizuku` 和 `安装狮`
+* 下载安装 shizuku：https://www.coolapk.com/apk/moe.shizuku.privileged.api
+
+* 下载安装 安装狮：https://www.coolapk.com/apk/com.modosa.apkinstaller
 
 > 主要是通过他们来安装主题商店因为无法直接安装
 
@@ -77,6 +79,8 @@
 
 
 进入无线调试- `使用配对码配对设备` 
+
+> 记住配对码，要用的
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-07.png)
 
@@ -134,7 +138,7 @@
 
 进入商店-主题-点击下载好的主题-混搭，勾选想要的应用即可
 
-> 国际版的混搭只能这里改，不然应用不上
+> 国际版的混搭在这里改，混搭模块里改会出现应用不上的情况
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-16.png)
 
@@ -178,8 +182,10 @@
 如果你有大量的时间，和十分喜爱此主题，就用这个笨方法
 
 
-MT管理器进入主题目录，content是主题参数，preview是主题图
+MT管理器进入主题目录
 
+> content是主题参数，preview是主题图
+>
 > 找不到目录，MT右上角打开 `隐藏文件` 开关
 
 ```
@@ -188,8 +194,6 @@ MT管理器进入主题目录，content是主题参数，preview是主题图
 
 把 `content` 和 `preview` 两个文件夹都复制放到 `Download` 里(方便查看和导入)，我这里是新建了文件夹12-5单独放，按时间顺序筛选出即可
 
-> content是主题参数，preview是主题图
->
 > 不确定是哪个的，看一下preview主题图里的图片，并记住精确的小时和分钟
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-20.png)

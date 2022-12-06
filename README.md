@@ -95,7 +95,7 @@
 
 * [小米线刷降级破MIUI限制](https://github.com/Yiov/notes/tree/main/miui)
 
-
+* [小米下载国外版商店主题并提取](https://github.com/Yiov/notes/tree/main/mi_theme)
 
 
 </details>

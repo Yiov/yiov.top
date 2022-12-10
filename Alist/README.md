@@ -3,11 +3,11 @@
 
 </br>
 
-更新时间：2022-10-10
+更新时间：2022-12-10
 
 一直想搭建，总算抽出空来，搭建完成就可以通过网页，在任何电脑上访问并下载，而不需要打开任何网盘，方便至极
 
-本次版本为V3.1.0
+本次版本为V3.6.0
 
 
 </br>
@@ -34,6 +34,8 @@ Alist原本是一个网盘文件列表程序，但自从可利用WebDAV把网盘
 * 文档教程1：https://alist.nn.ci/zh/guide/
 
 * 文档教程2：https://alist-doc.nn.ci/docs/intro/
+
+* 美化：https://space.bilibili.com/36411485/channel/collectiondetail?sid=686340
 
 
 
@@ -361,10 +363,9 @@ https://pc.woozooo.com/
 ## 6.如何更新
 
 
+需要删除容器和镜像，重新拉取，Xshell登录，删除容器
 
-如果不想用了，Xshell登录，可查看一下容器，暂停容器
-
-> 容器运行中，无法删除，先暂停
+> 容器运行中，先停止后才可删除
 
 ```
 docker ps -a #查看容器
@@ -378,17 +379,12 @@ docker rm -f alist #删除alist容器
 
 
 
-
-查看镜像
 ```
 docker images #查看镜像
 
 docker rmi 镜像ID #删除镜像
 
-```
-
 或者
-```
 docker rm -f xhofe/alist:latest #删除镜像
 ```
 
@@ -397,11 +393,11 @@ docker rm -f xhofe/alist:latest #删除镜像
 
 重新起容器即可，由于系统文件都还在，所有内容无需重新设置
 
+> 如果想彻底删除，就需要删除安装目录了
 
-如果想彻底删除，就需要删除安装目录了
-
-
-
+```
+docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 --name="alist" xhofe/alist:latest
+```
 
 </br>
 </br>
@@ -422,6 +418,11 @@ docker rm -f xhofe/alist:latest #删除镜像
 
 请尊重开发者的劳动，谢谢。如果你真的想删除它，你可以使用自定义 CSS 来隐藏它
 
+</br>
+
+### 3.搜索功能不能用
+
+确保你是v3.6.0及以上版本，如果不是请更新；已经是的，在后台-索引-数据库-保存，然后点击构建索引，等数据读取完成刷新即可
 
 </br>
 </br>

@@ -25,6 +25,8 @@
 
 * [小米商店](https://dzp.lanzouy.com/ieYxo0hr29ij)
 
+* [Blurone](https://dzp.lanzouy.com/iE6VV0ir0myh)「dock栏可选」
+
 
 </br>
 </br>
@@ -123,11 +125,26 @@
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-13.png)
 
-搜 `POLOS` 和 `BoSe UI V13`这两个主题，下载后暂时不要应用
+搜 `Nero 16` 、`polos` 、 `BoSe UI V13`这3个主题，下载后暂时不要应用
 
 > 主要是用来演示，下载其他的喜欢也可以的
 > 
-> polos的桌面+BoSe的图标
+> Nero 16d的全局；polos的桌面；BoSe的图标
+
+```
+## 直链下载，失效了就在本仓库文件夹里下
+
+https://f17.market.xiaomi.com/issue/ThemeMarket/02f35cf04c6844f53b61c54caeed128805ab2ba4a/Nero+16.mtz
+
+https://f17.market.xiaomi.com/issue/ThemeMarket/0ad2817b6ff7143d3934d13d48c3bc31e91ffd6b9/Evo+2022.mtz
+
+https://f17.market.xiaomi.com/issue/ThemeMarket/011cfdac419854d4581014d6d7b894fb1a64897ec/POLOS.mtz
+
+https://f17.market.xiaomi.com/issue/ThemeMarket/027fe6a62ba5b4c44990b8348abbefb2fe2f2a838/BoSe+UI+V13.mtz
+
+https://f17.market.xiaomi.com/issue/ThemeMarket/0ec440cd26ed14ae28ca7920258b2d1646fc4eb3c/AP14%E8%B6%85%E7%BA%A7%E6%99%AF%E6%B7%B1.mtz
+
+```
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-14.png)
 
@@ -145,11 +162,21 @@
 最后的半成品，用的也就这些了，其他好的主题都下架了，大家早下载早备份
 
 > 其他小组件的我就没弄了，可以看作者教程
+>
+> Blurone就不讲了比较简单
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-17.png)
 
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-18.png)
+
+
+
+
 </br>
 </br>
+
+
 
 
 ## 4.提取主题(无需求可无视)
@@ -167,11 +194,11 @@
 
 > 如果慢了已经下载完了，删掉重新下
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-18.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-19.png)
 
 打开`下载管理`，未完成的任务进去，里面的下载链接复制出来就可以了，mtz格式可以直接导入
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-19.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-20.png)
 
 </br>
 
@@ -196,7 +223,7 @@ MT管理器进入主题目录
 
 > 不确定是哪个的，看一下preview主题图里的图片，并记住精确的小时和分钟
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-20.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-21.png)
 
 
 请按照下面表格，对应放的目录，放错就导入不进去了
@@ -321,6 +348,15 @@ MT管理器进入主题目录
 
 </br>
 
+```
+## 直链下载，失效了就在本仓库文件夹里下
+
+https://f17.market.xiaomi.com/issue/ThemeMarket/0c153e946168c49ff9eac8a0559fd030b4730e498/%C4%B0os16.mtz
+
+https://f17.market.xiaomi.com/issue/ThemeMarket/01aaf1c199e664bf6a93bdc17fa9beb3e41ec37b6/Pingfang.mtz
+```
+
+
 | preview目录 | 对应 | mtz目录 |
 |:-:|:-:|:-:|
 | preview/theme/某个文件夹/*.png | ☛ | preview/**.png |
@@ -371,16 +407,16 @@ MT管理器进入主题目录
 
 > mtz就是主题包的格式，字体也一样的
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-21.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-22.png)
 
 
 回到我的主题，从SD卡导入，选择 `Download` 刚刚导出的 **.mtz 主题包
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-22.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-23.png)
 
 这样我们的主题就提取完成，并可以使用了
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-23.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/mi_theme/mi_theme-24.png)
 
 
 

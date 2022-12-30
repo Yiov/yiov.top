@@ -113,9 +113,7 @@
 
 * [TG表情包下载与制作](https://github.com/Yiov/notes/tree/main/sticker)
 
-* [TG好用机器人合辑](https://github.com/Yiov/notes/tree/main/TGBot)
-
-* [创建自己的专属TG机器人]
+* [创建自己的tg私聊机器人](https://github.com/Yiov/notes/tree/main/tgbot)
 
 </details>
 

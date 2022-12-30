@@ -2,7 +2,7 @@
 
 </br>
 
-更新时间：2022-10-3
+更新时间：2022-12-23
 
 </br>
 </br>
@@ -20,7 +20,9 @@
 </br>
 </br>
 
-## :star2: 免费白嫖说明
+## :star2: 其他可白嫖的节点
+
+</br>
 
 getafreenode官网：https://getafreenode.com/
 
@@ -34,32 +36,44 @@ getafreenode官网：https://getafreenode.com/
 ```
 
 </br>
+</br>
 
 
-根据反馈，机场多且杂，于是决定将白嫖进行到极致
+## :cloud: 白嫖机场及说明
+
+</br>
+
+由于机场多且杂，为了将白嫖进行到极致，仅保留便宜的
 
 > 不保证机场主会调整，具体以注册后的情况为准
-
-1.保留 `白嫖流量` 5-30天的，超时的剔除
-
-2.保留 `不限时套餐` 机场
-
-3.保留 `基础套餐` 5元以下
-
-
+> 
+> 1.保留 `白嫖流量` 5-30天的，超时的剔除
+> 
+> 2.保留 `不限时套餐` 机场
+> 
+> 3.保留 `基础套餐` 5元以下
 
 
 </br>
 </br>
+
+
+### 大于300G 的机场
+
+</br>
+
+
+* [PFVPN · 每天签到无限流量](https://purefast.net/) 丨 ☛[TG群](https://t.me/PFvpn)
+
+* [晴转多云 · 新户注册30天976T](https://by.xbygood.xyz/) 丨 ☛[TG群](https://t.me/xbygood)
+
+* [白嫖机场 · 商店0购300G一月](https://www.a100.sbs/) 丨 ☛[TG群](https://t.me/bpjc1)
+
 
 ## :cloud: 白嫖机场一览表
 
 | 机场 | 官网 | 说明 | TG群 |
 | :-: | :-: | :-: | :-: |
-| **大于300G** |
-| PFVPN | https://purefast.net/ | 每天签到无限流量</br>不可中断 | [TG](https://t.me/PFvpn) |
-| 晴转多云 | https://by.xbygood.xyz/ | 新户注册30天976T</br>仅2个节点 | [TG](https://t.me/xbygood) |
-| 白嫖机场 | https://www.a100.sbs/ | 商店0购300G一月 | [TG](https://t.me/bpjc1) |
 | **100G** |
 | 雷公马 | https://lgm22.com | 新户注册30天100G | [TG](https://t.me/lgm2016) |
 | Helium Network | https://console.henet.uk/ | 新户注册30天100G</br>不限时10元200G | [TG](https://t.me/helium_official) |

@@ -168,6 +168,9 @@ bt ##宝塔6.x以上通用集成命令
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-12.png)
 
 
+### 问题3：堡塔app扫码连接超时
+
+进入宝塔面板-设置-关闭面板SLL即可
 
 
 

@@ -32,6 +32,12 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-02.png)
 
 ```
+#推荐官网命令，端口随机且需注册使用
+yum install -y wget && wget -O install.sh https://download.bt.cn/install/install_6.0.sh && sh install.sh ed8484bec
+```
+
+```
+#老命令端口8888，无需注册可用，堡塔app不可用
 cd /
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
 ```
@@ -49,7 +55,7 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.
 
 完成后会显示的宝塔后台地址/账号/密码
 
-> 自己复制出来，保存好，要用到的
+> 自己复制出来，保存好，要用到的，新版都是随机端口
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-05.png)
 
@@ -71,7 +77,7 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.
 
 登进宝塔面板后，记得先改密码
 
-> 面板设置-面板用户和密码，改完保存生效
+> 面板设置-面板用户和密码，改完保存生效，端口也可以一起改
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-07.png)
 
@@ -116,17 +122,20 @@ yum update
 
 ### 问题1：如何找回宝塔账号密码
 
+推荐安装官网的命令，好处就来了
 
 ```
-bt default
+bt #新版命令可改一切密码命令包括查看
 ```
-> 仅适用于查找初始密码，改过了不行
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-10.png)
-
 
 </br>
 
+
+```
+bt default #老版命令仅限未改过密码
+```
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-10.png)
 
 
 ```

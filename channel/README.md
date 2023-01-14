@@ -94,11 +94,19 @@ getafreenode官网：https://getafreenode.com/
 
 * [腾讯云Tencent - 商店无限0购1月10G](https://www.tencent.cfd/) | 👉[TG群](https://t.me/tencent_cfd)
 
+* [大牛机场 - 新户注册30天10G](https://daniu.e300daniu.top) | 👉[TG群](https://t.me/niuniujichang)
+
 * [cloudfast - 新户注册12年5G](https://cloudfast.cc/) | 👉[TG群](https://t.me/cloudfastcc)
+
+* [猫猫机场 - 新户注册15天15G](https://onlines7.top) | 👉[TG群](https://t.me/+HA0XjtEUFLJkNzQ9)
 
 * [袋鼠加速 - 新户注册10天10G](https://daishujiasu.com) | 👉[TG群](https://t.me/daishujiasu_notices)
 
+* [Coral Moss - 新户注册7天10G](https://coralmoss.com/) | 👉[TG群](https://t.me/coralmoss)
+
 * [速云 - 新户注册3天10G](https://sayun.xyz/) | 👉[TG群](https://t.me/suyun1435)
+
+
 
 </br>
 

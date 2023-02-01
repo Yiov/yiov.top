@@ -27,20 +27,16 @@
 
 </br>
 
-参考官网的命令也可以的
+参考官网的命令即可，我以`centos 7`为例
+
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-02.png)
 
+
 ```
-#推荐官网命令，端口随机且需注册使用
 yum install -y wget && wget -O install.sh https://download.bt.cn/install/install_6.0.sh && sh install.sh ed8484bec
 ```
 
-```
-#老命令端口8888，无需注册可用，堡塔app不可用
-cd /
-yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
-```
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-03.png)
 
@@ -55,9 +51,17 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.
 
 完成后会显示的宝塔后台地址/账号/密码
 
-> 自己复制出来，保存好，要用到的，新版都是随机端口
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-05.png)
+
+
+由于新版都是 `随机端口` ，要按需放行
+
+服务器-防火墙-添加规则-TCP协议-端口输入你的端口
+
+> 后台地址显示端口是那个，就放行那个
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-06.png)
 
 
 </br>
@@ -68,49 +72,24 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.
 
 </br>
 
-复制我们的后台地址，打开
+复制我们的后台地址(含端口)打开，打不开的就是没有放行
 
 > 比如：https://192.168.0.1:8888
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-06.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-07.png)
 
 
 登进宝塔面板后，记得先改密码
 
 > 面板设置-面板用户和密码，改完保存生效，端口也可以一起改
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-07.png)
-
-
-
-</br>
-</br>
-
-
-## 3.更新系统软件
-
-</br>
-
-
-
-```
-yum update
-```
-
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-08.png)
 
 
 
-提示Is this ok ，输入 **y** ，回车确定，耐心等待完成
-
-> 完成后Complete，自动返回根目录
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-09.png)
-
-
-
 </br>
 </br>
+
 
 
 
@@ -122,30 +101,13 @@ yum update
 
 ### 问题1：如何找回宝塔账号密码
 
-推荐安装官网的命令，好处就来了
+一个 `bt` 命令即可更改所有，按数字查看修改
 
 ```
-bt #新版命令可改一切密码命令包括查看
+bt
 ```
 
-</br>
-
-
-```
-bt default #老版命令仅限未改过密码
-```
-
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-10.png)
-
-
-```
-cd /www/server/panel && python tools.pyc panel BT007 新密码 ##重置密码为BT007
-
-rm -f /www/server/panel/data/*.login ##清除登录限制
-
-bt ##宝塔6.x以上通用集成命令
-```
-
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-09.png)
 
 </br>
 
@@ -159,20 +121,47 @@ bt ##宝塔6.x以上通用集成命令
 >
 > 按Del键，显示的是 `^[[3~`
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-11.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-10.png)
 
 选择服务器-右键属性-终端-键盘,都选择成ASCII ，当然最后一个也可以，ASCII 常用
 
 > 记得断开了，重连才生效
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-12.png)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-11.png)
+
+</br>
 
 
 ### 问题3：堡塔app扫码连接超时
 
 进入宝塔面板-设置-关闭面板SLL即可
 
+</br>
 
 
+
+### 问题4：更新系统及软件
+
+
+如无必要，不要轻易更新
+
+```
+yum update
+```
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-12.png)
+
+
+
+提示Is this ok ，输入 **y** ，回车确定，耐心等待完成
+
+> 完成后Complete，自动返回根目录
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/BT/BT-13.png)
+
+
+
+</br>
+</br>
 
 

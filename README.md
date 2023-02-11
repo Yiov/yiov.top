@@ -152,6 +152,8 @@
 
 * [Alist搭建自己的专属网盘](https://github.com/Yiov/notes/tree/main/Alist)
 
+* [無名の主页搭建教程](https://github.com/Yiov/notes/tree/main/home)
+
 * [Favicon图标api搭建]
 
 * [dockerhub如何上传本地镜像](https://github.com/Yiov/notes/tree/main/dockerhub)

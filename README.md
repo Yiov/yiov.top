@@ -162,6 +162,6 @@
 
 * [centos系统切换图形界面](https://github.com/Yiov/notes/tree/main/Centos)
 
-* [Github静态托管]
+* [使用github静态页面托管建站](https://github.com/Yiov/notes/tree/main/githubpage)
 
 </details>

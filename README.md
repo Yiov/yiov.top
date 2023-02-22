@@ -154,6 +154,8 @@
 
 * [無名の主页搭建教程](https://github.com/Yiov/notes/tree/main/home)
 
+* [搭建专属自己的记仇小本本](https://github.com/Yiov/notes/tree/main/heng)
+
 * [Favicon图标api搭建]
 
 * [dockerhub如何上传本地镜像](https://github.com/Yiov/notes/tree/main/dockerhub)

@@ -199,7 +199,7 @@ node main.js
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/heng/heng-18.png)
 
 
-上传网站的压缩包-解压-将解压的文件剪切到域名文件夹下，就可以了
+打开 [仓库☛点我](https://github.com/n0tssss/heng) 下载上传-解压-将解压的文件剪切到域名文件夹下，就可以了
 
 > 多余的压缩包和空文件夹删掉
 

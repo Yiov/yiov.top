@@ -3,7 +3,7 @@
 
 自用的，别问，别fork
 
-可能写也可能不写，随缘
+目前我想更新的都更新完毕了，工作忙暂不更新，等我搭建了vue文档再弄吧
 
 
 
@@ -156,7 +156,7 @@
 
 * [搭建专属自己的记仇小本本](https://github.com/Yiov/notes/tree/main/heng)
 
-* [Favicon图标api搭建]
+* [Favicon图标api搭建](https://github.com/Yiov/notes/tree/main/Favicon)
 
 * [dockerhub如何上传本地镜像](https://github.com/Yiov/notes/tree/main/dockerhub)
 

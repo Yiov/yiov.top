@@ -1,15 +1,14 @@
 
-## linux系统安装node.js
+## node.js的下载与安装
 
 </br>
 
+更新时间：2023-2-23
 
-
-更新时间：2021-11-17
 
 node.js是JavaScript的运行环境，可用于运行js脚本
 
-
+本次演示 `linux` 和 `window` 安装方式
 
 中文官网：https://nodejs.org/zh-cn/
 
@@ -18,29 +17,21 @@ node.js是JavaScript的运行环境，可用于运行js脚本
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-01.png)
 
 
-
-
-
 </br>
 </br>
 
-
-
-## 安装前说明
+## linux系统安装node
 
 </br>
 
-为了保证稳定性，建议选择长期维护的版本
+选择 `linux x64`下载，为了保证稳定性，建议选择长期维护的版本
 
 > 不用直接点击下载，我们用命令
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-02.png)
 
 
-
-## 1.切换到root账号
-
-</br>
+### 1.切换到root账号
 
 一般都是root，多加一步不影响
 
@@ -53,20 +44,16 @@ cd / #进入根目录
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-03.png)
 
-
-
-</br>
 </br>
 
+### 2.下载Node解压安装
 
-
-## 2.下载Node解压安装
-
-</br>
 
 版本我用的最新的V14.17.4，可按照官网最新的版本改好命令，保持一致
 
 > 其他版本查找：https://nodejs.org/dist/
+>
+> 依次运行命令
 
 
 ```
@@ -93,11 +80,9 @@ cd /node-v14.17.4/bin && ls #进入目录并列出
 
 
 </br>
-</br>
 
 
-
-## 3.建立软连接
+### 3.建立软连接
 
 </br>
 
@@ -131,13 +116,12 @@ npm -v #查看包管理工具
 
 
 </br>
-</br>
 
 
 
-## 4.清理安装包(懒的无所谓)
 
-</br>
+### 4.清理安装包(可选)
+
 
 查看目录列表，标红的`node***.tar.xz`就是刚下的压缩包
 
@@ -170,7 +154,102 @@ ls
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-09.png)
 
 
+</br>
+</br>
 
 
+## window安装nodes.js
+
+</br>
+
+官网下载我们选择window的方式
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-10.png)
+
+
+下载好安装，就不用说了吧
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-11.png)
+
+安装好后，我们运行 `window键+R` 进入 `cmd` 终端
+
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-12.png)
+
+
+查看一下版本号，有就说明成功了
+
+```
+node -v
+npm -v
+```
+![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-13.png)
+
+
+
+</br>
+</br>
+
+
+
+
+## 常见问题
+
+### 1.linux输入版本号没反应
+
+确保你退出了Xshell工具，重新登录了查询
+
+
+### 2.如何卸载
+
+```bash
+#npm卸载
+npm uninstall npm -g
+
+#卸载node
+yum remove nodejs npm -y
+```
+
+
+### 3.如何升级成yarn
+
+```bash
+#安装yarn
+npm install -g yarn
+
+#查看版本号
+yarn -v
+
+#安装依赖
+yarn install
+
+#卸载
+npm uninstall yarn -g
+
+#执行yarn serve报错
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
+
+
+
+### 4.目前还有pnpm又如何
+
+先弄清关系，yarn是npm的升级版，pnpm是npm的替代
+
+速度上自然是新秀pnpm更快
+
+```bash
+# 安装pnpm
+npm install -g pnpm
+
+# 安装依赖包
+pnpm install
+
+# 查看版本号
+pnpm -v
+```
+
+### 5.
+export NODE_OPTIONS=--openssl-legacy-provider
 
 

@@ -6,9 +6,9 @@
 
 Favicon图标就是浏览器标题栏上显示的小图标，也可以是缩小版的LOGO
 
-之前搭建WebStack的时候，完全依赖的[@owen0o0](https://github.com/owen0o0/getFavicon)api来获取Favicon图标
+之前搭建WebStack的时候，完全依赖的 [@owen0o0](https://github.com/owen0o0/getFavicon) 的api来获取Favicon图标
 
-现在就按他的教程，尝试自己部署一个
+现在就按他的教程，尝试自己搭建一个
 
 </br>
 </br>
@@ -30,12 +30,14 @@ Favicon图标就是浏览器标题栏上显示的小图标，也可以是缩小�
 
 ### 2.查看原代码
 
-比如：https://www.iowen.cn/，网页右键-查看源代码(ctrl+u)，这里就很明显能看到 `.ico` 结尾的文件
+比如：https://www.iowen.cn/
+
+网页右键-查看源代码(ctrl+u)，这里就很明显能看到 `.ico` 结尾的文件
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/Favicon/Favicon-02.png)
 
 
-## 3.谷歌获取
+## 3.谷歌链接获取
 
 http://www.google.com/s2/favicons?domain=网站地址
 
@@ -126,20 +128,19 @@ RewriteRule ^favicon/(.*)\.png$ favicon/get.php?url=$1 [L]
 
 ### 1.访问出现404
 
-1.检查你的域名有没有解析
+域名是否需解析 / 链接路径是否和文件名一致 / 链接是否正确
 
-2.检查你的目录是否和网址一致，比如文件夹名 `favicon`
+### 2.有没有更便捷的方式
 
-3.检查链接是否按格式输入的正确
-
-
-### 2.懒的搭建
-
-直接用一为的吧，按格式就行
+如果你懒的搭建，直接用一为的吧，按格式就行
 
 https://api.iowen.cn/doc/favicon.html
 
 
+### 3.自己的网站如何制作favicon.ico图标
 
+图片在线转ico格式
 
+* [在线生成透明ICO图标](http://www.ico51.cn/)
 
+* [比特虫](https://www.bitbug.net/?rsv_upd=1)

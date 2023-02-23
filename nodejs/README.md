@@ -5,14 +5,17 @@
 
 更新时间：2023-2-23
 
+node.js是JavaScript的运行环境
 
-node.js是JavaScript的运行环境，可用于运行js脚本
+本次仅演示 `linux` 和 `window` 安装方式
 
-本次演示 `linux` 和 `window` 安装方式
+> 安装了宝塔的直接在软件商店搜node安装即可
 
-中文官网：https://nodejs.org/zh-cn/
+</br>
 
-> 仓库：https://github.com/nodejs/node
+* [官网](https://nodejs.org/zh-cn/)
+
+* [仓库](https://github.com/nodejs/node)
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-01.png)
 

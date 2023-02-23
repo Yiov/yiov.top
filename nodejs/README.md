@@ -56,10 +56,15 @@ cd / #进入根目录
 > 依次运行命令
 
 
-```
-wget https://nodejs.org/dist/v14.17.4/node-v14.17.4-linux-x64.tar.xz #下载nodejs安装包
-tar xvf node-v14.17.4-linux-x64.tar.xz #解压
-mv node-v14.17.4-linux-x64 node-v14.17.4 #改名
+```bash
+#下载nodejs安装包
+wget https://nodejs.org/dist/v14.17.4/node-v14.17.4-linux-x64.tar.xz
+
+#解压
+tar xvf node-v14.17.4-linux-x64.tar.xz
+
+#改名
+mv node-v14.17.4-linux-x64 node-v14.17.4
 ```
 
 等待完成，停在 改名 那 **回车** 一下就行了
@@ -249,7 +254,6 @@ pnpm install
 pnpm -v
 ```
 
-### 5.
-export NODE_OPTIONS=--openssl-legacy-provider
+
 
 

@@ -13,9 +13,9 @@ node.js是JavaScript的运行环境
 
 </br>
 
-* [官网](https://nodejs.org/zh-cn/)
+* 官网：https://nodejs.org/zh-cn/
 
-* [仓库](https://github.com/nodejs/node)
+* 仓库：https://github.com/nodejs/node
 
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Yiov/notes/main/nodejs/nodejs-01.png)
 

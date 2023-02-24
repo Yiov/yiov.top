@@ -7,7 +7,9 @@
 更新时间：2021-11-17
 
 
-SSH终端挺多的，Xshell、FinalShell、MobaXterm等等都行
+* 电脑端：Xshell、FinalShell、MobaXterm等等都行
+
+* 手机端：[JuiceSSH-安卓](https://www.juicessh.com/changelog) 丨 [Termius-苹果](https://apps.apple.com/cn/app/id549039908)
 
 本文仅演示Xshell安装教程
 

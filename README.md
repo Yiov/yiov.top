@@ -136,6 +136,8 @@
 
 * [node.js的安装教程](https://github.com/Yiov/notes/tree/main/nodejs)
 
+* [linux下安装go环境](https://github.com/Yiov/notes/tree/main/go)
+
 * [docker的安装教程](https://github.com/Yiov/notes/tree/main/docker)
 
 * [青龙面板的安装及使用](https://github.com/Yiov/notes/tree/main/qinglong)

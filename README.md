@@ -46,6 +46,8 @@
 
 * [Github注册到上传](https://github.com/Yiov/notes/tree/main/github)
 
+* [git上传到Github仓库](https://github.com/Yiov/notes/tree/main/git)
+
 * [小米运动刷步教程](https://github.com/Yiov/notes/tree/main/xmsb)
 
 * [TV电视如何安装apk应用](https://github.com/Yiov/notes/tree/main/tvapp)

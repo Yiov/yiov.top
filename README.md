@@ -5,9 +5,9 @@
 
 ## 延续
 
-为了方便查看，于是搭建VuePress文档
+为了方便查看，于是搭建VitePress文档
 
-访问：https://yiov.github.io/
+访问：https://yiov.top/
 
 所有的内容都还在，而且有空也会更新一些
 
@@ -15,4 +15,4 @@
 
 已经有了新的，旧的自然会遗弃，将会在年中旬删除本库
 
-仓库已转移至：https://github.com/Yiov/yiov.github.io
+仓库已转移至：https://github.com/Yiov/yiov.top

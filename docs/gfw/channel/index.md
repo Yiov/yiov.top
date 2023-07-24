@@ -41,7 +41,7 @@
 
 * [妙速云 -新户注册30天100G-均速8.2m/s](https://spcloud.info/) 丨 [TG群](https://t.me/spcloud_group)
 
-* [快狗云 - 白嫖码30天300G - 均速8.8m/s](https://www.kuaigou.life) 丨 [TG群](https://t.me/kuaigouyunchat1)
+
 
 
 

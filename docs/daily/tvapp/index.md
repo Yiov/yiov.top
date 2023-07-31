@@ -212,7 +212,7 @@ https://jihulab.com/ygbh1/box/-/raw/main/月光宝盒
 http://我不是.肥猫.love:63/接口禁止贩卖
 
 饭太硬
-http://饭太硬.ga/tv
+http://饭太硬.top/tv
 
 小雅
 http://drpy.site/js1

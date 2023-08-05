@@ -16,7 +16,7 @@
 
 * [安卓端](#安卓安装)
 
-* [IOS端](#IOS安装)
+* [IOS端](#ios安装)
 
 
 ::: tip 说明
@@ -345,7 +345,7 @@ set-ExecutionPolicy Default
 
 ### 安装Termux
 
-下载 `TUermux` 安装并打开
+下载 `Termux` 安装并打开
 
 官网：[https://termux.com/cn/](https://termux.com/cn/)
 

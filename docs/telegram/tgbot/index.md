@@ -310,6 +310,8 @@ tg机器人目录：[https://botostore.com/bots/telegram/](https://botostore.com
 * [@無名：频到管理机器人](https://t.me/WuMingv2Bot)
 
 
+
+
 ### 其他
 
 * [@APK Downloader：安卓apk文件下载，支持谷歌商店](https://t.me/apkdl_bot)
@@ -323,6 +325,8 @@ tg机器人目录：[https://botostore.com/bots/telegram/](https://botostore.com
 * [@FFQSubinfoBot：机场订阅查询/流量查询](https://t.me/FFQSubinfoBot)
 
 * [@Free books downloader：搜索和下载 Library/Zlibrary的电子书](https://t.me/libsan_bot)
+
+* [@BookDown：电子书下载](https://t.me/bookdownbot)
 
 * [@搜书神器Bot V1.1：全能的智能搜书机器人](https://t.me/sosdbot)
 

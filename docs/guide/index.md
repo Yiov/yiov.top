@@ -22,6 +22,8 @@
 
 * [百度云下载变态加速](../daily/baiduyun/)
 
+* [书签同步至不同浏览器](../daily/bookmark/)
+
 * [微软tts·云希音色配音](../daily/tts/)
 
 * [crx浏览器插件导出](../daily/crx/)

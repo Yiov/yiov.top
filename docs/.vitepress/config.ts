@@ -62,6 +62,7 @@ export default defineConfig({
         items: [
           { text: '待产包清单及入院指南', link: '/daily/bags-just-yet/' },
           { text: '百度云下载变态加速', link: '/daily/baiduyun/' },
+          { text: '书签同步至不同浏览器', link: '/daily/bookmark/' },
           { text: '微软tts·云希音色配音', link: '/daily/tts/' },
           { text: 'crx浏览器插件导出', link: '/daily/crx/' },
           { text: 'git使用及上传代码到仓库', link: '/daily/git/' },

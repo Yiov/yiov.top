@@ -38,7 +38,7 @@ node.js是JavaScript的运行环境
 
 
 
-## linux系统安装
+## Linux
 
 
 选择 `linux x64`下载，为了保证稳定性，建议选择长期维护的版本
@@ -181,7 +181,7 @@ ls
 
 
 
-## Window安装
+## Window
 
 
 ### 安装
@@ -285,55 +285,9 @@ npm -v
 ```
 
 
-## YARN 和 PNPM
-
-我们常用的 `yarn`和 `pnpm` 可以安装一下，顺便测试一下全局模块是否正确
-
-:::: code-group
-::: code-group-item pnpm
-```sh
-#安装pnpm
-npm install -g pnpm
-#查看版本号
-pnpm -v
-```
-:::
-::: code-group-item yarn
-```sh
-#安装yarn
-npm install -g yarn
-#查看版本号
-yarn -v
-```
-:::
-::::
-
-::: tip 说明
-win11上如果报错，是因为power shell的安全策略，不允许执行不安全脚本
-
-`nrm : 无法加载文件 C:\Users\用户\AppData\Roaming\npm\nrm.ps1，因为在此系统上禁止运行脚本`
-
-解决：搜索 `power shell` 或者 `power shell ISE` ，管理员方式打开，输入如下值，然后全选A
-
-:::
 
 
-```sh
-set-ExecutionPolicy RemoteSigned
-```
-
-想要改回来
-
-```sh
-set-ExecutionPolicy Default
-```
-
-
-
-
-
-
-## 安卓安装
+## 安卓
 
 ::: warning 建议
 电脑端已经玩溜了的人使用
@@ -425,7 +379,7 @@ Termux路径：
 
 
 
-## iOS安装
+## iOS
 
 我们要用到 [iSH shell](https://ish.app/) ，它是一款iOS端终端 [Alpine Linux](https://alpinelinux.org/) x86系统，采用 musl libc 和 busybox 构建 ，自带apk管理软件包
 
@@ -530,19 +484,86 @@ apk info
 
 
 
+
+
+
+## YARN 和 PNPM
+
+我们常用的 `yarn`和 `pnpm` 可以安装一下，顺便测试一下全局模块是否正确
+
+`win键` + `R键`，输入 `cmd` 回车，进入命令命令终端
+
+![](../nodejs/nodejs-12.png)
+
+::: code-group
+```sh [pnpm]
+#安装pnpm
+npm install -g pnpm
+#查看版本号
+pnpm -v
+```
+```sh [yarn]
+#安装yarn
+npm install -g yarn
+#查看版本号
+yarn -v
+```
+:::
+
+
+
+
+::: tip 说明
+win11上如果报错，是因为power shell的安全策略，不允许执行不安全脚本
+
+`nrm : 无法加载文件 C:\Users\用户\AppData\Roaming\npm\nrm.ps1，因为在此系统上禁止运行脚本`
+
+解决：搜索 `power shell` 或者 `power shell ISE` ，管理员方式打开，输入如下值，然后全选A
+
+:::
+
+
+```sh
+set-ExecutionPolicy RemoteSigned
+```
+
+想要改回来
+
+```sh
+set-ExecutionPolicy Default
+```
+
+
+
+
+
+
+
+
+
+
 ## 常见问题
 
-#### 1.linux输入版本号没反应
+
+#### 1.Linux输入版本号没反应
 
 关掉重新打开，再次查询
 
 
+
+
 #### 2.如何卸载
 
-
-:::: code-group
-::: code-group-item npm
-```sh
+::: code-group
+```sh [pnpm]
+#卸载
+npm rm -g pnpm
+```
+```sh [yarn]
+#卸载
+npm uninstall yarn -g
+```
+```sh [npm]
 #npm卸载
 npm uninstall npm -g
 
@@ -550,19 +571,9 @@ npm uninstall npm -g
 yum remove nodejs npm -y
 ```
 :::
-::: code-group-item yarn
-```sh
-#卸载
-npm uninstall yarn -g
-```
-:::
-::: code-group-item pnpm
-```sh
-#卸载
-npm rm -g pnpm
-```
-:::
-::::
+
+
+
 
 
 #### 3.三者的关系
@@ -570,26 +581,29 @@ npm rm -g pnpm
 yarn是npm的升级版，pnpm是npm的替代，速度上自然是新秀pnpm更快
 
 
-#### 4.linux如何换源
+
+
+#### 4.Linux如何换源
 
 默认一般都是国外源，所以下载软件包的时候会有点慢，想快的就需要换国内镜像源
 
-* 阿里云源：[https://developer.aliyun.com/mirror/](https://developer.aliyun.com/mirror/)
+```
+* 阿里云源：https://developer.aliyun.com/mirror/
 
-* 华为云源：[https://mirrors.huaweicloud.com/](https://mirrors.huaweicloud.com/)
+* 华为云源：https://mirrors.huaweicloud.com/
 
-* 兰州大学源：[https://mirror.lzu.edu.cn/](https://mirror.lzu.edu.cn/)
+* 兰州大学源：https://mirror.lzu.edu.cn/
 
-* 清华大学源：[https://mirrors.tuna.tsinghua.edu.cn/](https://mirrors.tuna.tsinghua.edu.cn/)
+* 清华大学源：https://mirrors.tuna.tsinghua.edu.cn/
 
-* 上海交大源：[https://mirror.sjtu.edu.cn/](https://mirror.sjtu.edu.cn/)
+* 上海交大源：https://mirror.sjtu.edu.cn/
 
-* 腾讯源：[https://mirrors.cloud.tencent.com/](https://mirrors.cloud.tencent.com/)
+* 腾讯源：https://mirrors.cloud.tencent.com/
 
-* 网易源：[https://mirrors.163.com/](https://mirrors.163.com/)
+* 网易源：https://mirrors.163.com/
 
-* 中科大USTC：[https://mirrors.ustc.edu.cn/](https://mirrors.ustc.edu.cn/)
-
+* 中科大USTC：https://mirrors.ustc.edu.cn/
+```
 
 那么我们的npm就可以换源了
 

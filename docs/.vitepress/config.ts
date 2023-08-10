@@ -81,8 +81,6 @@ export default defineConfig({
           { text: '买房及房产证办理', link: '/daily/house/' },
           { text: '台州麻将玩法', link: '/daily/mahjong/' },
           { text: '1688母婴同源店', link: '/daily/1688/' },
-          { text: '向往的生活菜谱(waiting...)', link: '' },
-          { text: '电脑组装(waiting...)', link: '' },
         ],
       },
       {
@@ -141,6 +139,7 @@ export default defineConfig({
           { text: '闲置iPhone搭建静态网站', link: '/website/ish/' },
           { text: 'Halo博客的搭建', link: '/website/Halo/' },
           { text: '简单的个人主页搭建', link: '/website/home/' },
+          { text: 'Portofolio个人主页搭建', link: '/website/Portofolio/' },
           { text: '搭建专属的记仇小本本', link: '/website/heng/' },
           { text: 'Alist搭建自己的专属网盘', link: '/website/Alist/' },
           { text: 'Centos系统切换图形界面', link: '/website/Centos/' },
@@ -148,8 +147,6 @@ export default defineConfig({
           { text: 'Socks5的搭建', link: '/website/socks5/' },
           { text: 'cloudflare注册使用', link: '/website/cloudflare/' },
           { text: '各类主题/模板/源码汇总 ', link: '/website/source/' },
-          { text: 'wordpress主题汉化(waiting...)', link: '' },
-          { text: 'web开发(waiting...)', link: '' },
         ],
       },
       {

@@ -17,7 +17,7 @@ hero:
       link: /guide/feedback
     - theme: A
       text:  👉 搭建此文档
-      link: https://yiov.github.io/vitepress/
+      link: https://vitepress.yiov.top/
 
 features:
   - icon: 📝

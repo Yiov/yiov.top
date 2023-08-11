@@ -34,6 +34,8 @@
 
 * [Markdown的简单用法](../daily/markdown/)
 
+* [Pake将网页打包成应用程序](../daily/pake/)
+
 * [QQ邮箱接收其他邮箱信息](../daily/qqmail/)
 
 * [油猴安装及使用教程](../daily/tampermonkey/)

@@ -41,6 +41,12 @@ MacDirtyCow漏洞，也就是 `CVE-2022-46689` 漏洞
 
 ## 适用范围
 
+::: tip 新工具
+SimpleKFD15：支持iOS15.0~15.7.6所有设备
+SimpleKFD：iOS16.0~16.5和16.6b1的A12+设备
+
+仓库：https://github.com/Lrdsnow/SimpleKFD
+:::
 
 * 支持 `iOS 14.0 - 15.7.1` 及 `iOS 16.0 - 16.1.2` 系统
 

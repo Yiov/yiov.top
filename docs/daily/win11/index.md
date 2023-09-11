@@ -298,3 +298,33 @@ Administrator：是超级用户
 ![](./win11-21.png)
 
 最后尝试文件夹删除即可
+
+
+
+
+
+
+
+## 公众号主页链接
+
+
+点开任意文章，草稿的也行，在链接中有一个 biz值
+
+
+::: tip 比如
+https://mp.weixin.qq.com/s?__biz=Mzk0MDU3MjA4Ng==&tempkey=MTIzNF9MTzF2TWJYak93VzY0YmRQVi1lc1pack5PMn
+:::
+
+文章的biz值就是：`Mzk0MDU3MjA4Ng==`
+
+
+根据自己的文章修改后面的biz即可
+
+```
+https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=你的biz值
+```
+
+
+
+
+

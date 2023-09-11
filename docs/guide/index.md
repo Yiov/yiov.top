@@ -32,6 +32,8 @@
 
 * [Github的注册使用到上传](../daily/github/)
 
+* [快速提取应用icon图标](../daily/icon/)
+
 * [Markdown的简单用法](../daily/markdown/)
 
 * [Pake将网页打包成应用程序](../daily/pake/)

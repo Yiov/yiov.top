@@ -8,7 +8,7 @@
 
 ​Pake是一个将网页打包成桌面客户端的程序，它支持 Mac / Windows / Linux三个系统
 
-使用的是 [Rust](https://www.rust-lang.org/zh-CN/) 框架的 [Tauri](https://tauri.app/zh-cn/)，相比比 [Electron](https://www.electronjs.org/zh/) 要更轻快体积更小
+使用的是 [Rust](https://www.rust-lang.org/zh-CN/) 框架的 [Tauri](https://tauri.app/zh-cn/)，相比 [Electron](https://www.electronjs.org/zh/) 要更轻快体积更小
 
 
 ![](pake-01.png)

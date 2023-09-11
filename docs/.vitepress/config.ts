@@ -67,6 +67,7 @@ export default defineConfig({
           { text: 'crx浏览器插件导出', link: '/daily/crx/' },
           { text: 'git使用及上传代码到仓库', link: '/daily/git/' },
           { text: 'Github的注册使用到上传', link: '/daily/github/' },
+          { text: '快速提取应用icon图标', link: '/daily/icon/' },
           { text: 'Markdown的简单用法', link: '/daily/markdown/' },
           { text: 'Pake将网页打包成应用程序', link: '/daily/pake/' },
           { text: 'QQ邮箱接收其他邮箱信息', link: '/daily/qqmail/' },

@@ -318,10 +318,10 @@ https://mp.weixin.qq.com/s?__biz=Mzk0MDU3MjA4Ng==&tempkey=MTIzNF9MTzF2TWJYak93Vz
 文章的biz值就是：`Mzk0MDU3MjA4Ng==`
 
 
-根据自己的文章修改后面的biz即可
+根据自己的文章修改后面的biz即可，结尾添加一个`#wechat_redirect`，可用于外链跳转
 
 ```
-https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=你的biz值
+https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=你的biz值#wechat_redirect
 ```
 
 

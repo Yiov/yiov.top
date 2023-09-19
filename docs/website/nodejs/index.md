@@ -487,9 +487,9 @@ apk info
 
 
 
-## YARN 和 PNPM
+## YARN / PNPM / BUN
 
-我们常用的 `yarn`和 `pnpm` 可以安装一下，顺便测试一下全局模块是否正确
+我们常用的 `yarn` 、 `pnpm` 可以安装一下，顺便测试一下全局模块是否正确
 
 `win键` + `R键`，输入 `cmd` 回车，进入命令命令终端
 
@@ -508,8 +508,13 @@ npm install -g yarn
 #查看版本号
 yarn -v
 ```
+```sh [bun]
+#安装bun
+npm install -g bun
+#查看版本号
+bun -v
+```
 :::
-
 
 
 

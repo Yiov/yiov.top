@@ -19,7 +19,7 @@
 
 * [checkra1n](https://checkra.in/) 「`A7-A11 iOS 12.0-15.4.1`」
 
-* [Taurine](https://taurine.app/) 「`A9-A14 iOS 14.0-14.3`」
+* [Taurine](https://taurine.app/) 「`A9-A14 iOS 14.0-14.8.1`」
 
 * [odyssey](https://theodyssey.dev/)「`A9-A13 iOS 13.0-13.7`」
 
@@ -39,6 +39,7 @@
 | A13 | iPhone 11系列 / SE 2 |
 | A14 | iPhone 12系列 |
 | A15 | iPhone 13系列 / 14系列 / SE 3 |
+| A16 | iPhone 14 pro系列 / 15系列 / SE 3 |
 :::
 
 

@@ -16,7 +16,6 @@
 
 * [@Linus Henze](https://twitter.com/LinusHenze) 向苹果官方递交了漏洞 `CVE-2022-26766` / `CVE-2022-26763`
 
-
 * 2022/7/2 大神 [@Zhouwei Zhang](https://twitter.com/Zhouwei) 公开了利用此漏洞绕过签名的方法
 
 * 2022/9/3 大神 [@opa334](https://twitter.com/opa334dev) 利用此漏洞开发了 `TrollStore` ，手机端永久签名工具
@@ -222,7 +221,7 @@
 
 * [IpaDownloadTool：IPA下载器 | @SmileZXLee](https://github.com/SmileZXLee/IpaDownloadTool/)
 
-* [LocSim：虚拟定位破解版 | @Mika](https://dzp.lanzouk.com/ipwm50xx8a8d)
+* [LocSim：虚拟定位破解版 | @Mika](https://dzp.lanzouj.com/ivcbe19vrjib)
 
 * [电话助手：T9拨号 来电归属 | @xybp888](https://www.htv123.com/down/CallAssist_TrollStore.ipa)
 

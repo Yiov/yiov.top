@@ -73,6 +73,7 @@ IOS 15越狱，最初由国人 [@朱心浪](https://twitter.com/xina520) 独立�
 | A13 | iPhone 11系列 / SE 2 |
 | A14 | iPhone 12系列 |
 | A15 | iPhone 13系列 / 14系列 / SE 3 |
+| A16 | iPhone 14 Pro系列 / 15系列|
 :::
 
 
@@ -229,6 +230,8 @@ Ellekit 是 Dopamine 越狱后必须安装的基板
 
 * Snapper 3：区域截图插件，收费！需安装bigboss源的 `CCSupport` 依赖，可配合 Hammer It、Translomatic使用
 
+* SquidGesture：全局手势插件插件
+
 * Translomatic：快捷翻译，可配合Snapper 3使用
 
 * Uptime：控制中心显示开机后运行时间的插件
@@ -248,11 +251,15 @@ Ellekit 是 Dopamine 越狱后必须安装的基板
 
 * Comet：依赖文件，如Dodo
 
+* Jade：收费插件，控制中心
+
 * LastLook：熄屏显示插件
 
 * Orion Runtime (iOS 14 – 16)：依赖文件，如Dodo
 
 * SearchDots：模仿iOS 16系统桌面搜索按钮的插件
+
+* SwipeExtenderX：原生键盘增强，需[P2KDev](https://p2kdev.github.io/repo/)源的 `libcolorpicker` 依赖，由[MiRO92](https://miro92.com/repo/)接手维护
 
 * Velvet 2：多彩通知栏发光美化插件
 
@@ -269,7 +276,7 @@ Ellekit 是 Dopamine 越狱后必须安装的基板
 
 * [deb备份插件.ipa](https://dzp.lanzouy.com/iAtPs0wlfhlc)
 
-
+* [BigShot：长截图；无根越狱下arm64；需在BigBoss安装CCSupport](https://github.com/jontelang/BigShotJbSnapper3Plugin/tree/main/packages)
 
 
 

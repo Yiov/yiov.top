@@ -14,7 +14,7 @@
 ## 前身
 
 ::: tip 说明
-MacDirtyCow漏洞，也就是 `CVE-2022-46689` 漏洞
+MacDirtyCow漏洞，也就是 `CVE-2022-46689` 漏洞，简称MDC
 :::
 
 * [Google Project Zero](https://github.com/googleprojectzero) 的 Ian Beer 提交了这个漏洞，它可以使App能够以内核权限执行任意代码
@@ -30,24 +30,17 @@ MacDirtyCow漏洞，也就是 `CVE-2022-46689` 漏洞
 ## 原理
 
 
-基本上都是通过交换同等大小文件的方式，覆盖文件实现
+通过交换同等大小文件的方式，覆盖文件实现，覆盖的文件体积越大，越占用内存
 
 ::: tip 说明
-覆盖的文件体积越大，越占用内存
+内存占用过多会导致手机变卡、小组件无法使用等情况，只能通过重启后释放内存
 :::
 
-所以，利用此漏洞本身就一定会出现内存占用情况，手机变卡、小组件无法使用等情况，只能通过重启后释放内存
+由于手机本身就存在的漏洞，就一定会有专门为此开发的软件
 
 
 ## 适用范围
 
-::: tip 新工具
-SimpleKFD15：支持iOS15.0~15.7.6所有设备
-
-SimpleKFD：iOS16.0~16.5和16.6b1的A12+设备
-
-仓库：https://github.com/Lrdsnow/SimpleKFD
-:::
 
 * 支持 `iOS 14.0 - 15.7.1` 及 `iOS 16.0 - 16.1.2` 系统
 
@@ -56,6 +49,7 @@ SimpleKFD：iOS16.0~16.5和16.6b1的A12+设备
 * IOS 14系统：不推荐使用
 
 * 巨魔/越狱用户：不推荐使用
+
 
 
 
@@ -121,7 +115,7 @@ Safari浏览器下载的默认在文件-icloud云盘-下载里
 
 ## 修复证书失效
 
-同样的方法我们下载安装 Blacklist：[https://dzp.lanzouy.com/im6L30sv8moj](https://dzp.lanzouy.com/im6L30sv8moj)
+同样的方法我们下载安装 Blacklist：[https://appinstalleriosgh.github.io/Sign/Blacklist.ipa](https://appinstalleriosgh.github.io/Sign/Blacklist.ipa)
 
 
 ::: tip 说明
@@ -146,18 +140,42 @@ Safari浏览器下载的默认在文件-icloud云盘-下载里
 有些工具功能是相同的，请勿同时启用
 :::
 
+
+
 ### 聚合类
 
-* [Cowabunga：超强工具箱 | @leminlimez](https://github.com/leminlimez/Cowabunga/releases) 丨 [详细使用教程](https://mp.weixin.qq.com/s/Kx7EE_VF0ozdPagUq4PPFA
-)
+* [Misaka：KFD漏洞开发多功能插件商店，适用于iOS 15.0-15.7.3 / iOS16.0-16.5 / iOS16.6 Beta1 | 在Dekotas源找到NoVuInTools安装实现电量百分比](https://dzp.lanzouj.com/iQ0EB19vvona)
 
-* [Misaka：多功能插件商店 | 在Dekotas源找到NoVuInTools安装实现电量百分比](https://dzp.lanzouy.com/idngX0t8yvle)
+* [Cowabunga：MDC漏洞开发的超强工具箱，适用于iOS 14.0-15.7.1 / 16.0-16.1.2 | @leminlimez](https://github.com/leminlimez/Cowabunga/releases) 丨 [详细使用教程](https://mp.weixin.qq.com/s/Kx7EE_VF0ozdPagUq4PPFA)
+
+
+* [Cluckabunga：KFD漏洞开发，适用于iOS 16.2-16.5 / 16.6 Beta 1 | @leminlimez](https://github.com/leminlimez/Cluckabunga/releases) 丨 [详细使用教程](https://mp.weixin.qq.com/s/PMtNLWHIBmI2vOVGw_k5vw)
+
+
+* [PureKFD：KFD漏洞开发，适用于A12及以上 iOS 15.0-16.5 / A11及以下 iOS 15.0-15.7.6 丨 @Lrdsnow](https://github.com/Lrdsnow/PureKFD/releases)
+
+* [posi0nKFD：KFD漏洞开发，适用于A12-A16 iOS 16.2-16.5 丨 @GenericCoding](https://github.com/GenericCoding/kfd/releases)
+
+* [SimpleKFD：KFD漏洞开发，适用于iOS 15.0-15.7.6 / A12及以上 iOS 16.0-16.5 / 16.6 Beta1 丨 @Lrdsnow](https://github.com/Lrdsnow/SimpleKFD/releases)
+
+
+::: tip 关于KFD漏洞
+
+@p0up0u 公开 [kfd 内核读写项目](https://github.com/felix-pb/kfd)，利用 `CVE-2023-2353`6 和 `CVE-2023-32434`漏洞
+
+理论支持 A11-A16 iOS 15.0-iOS 16.5 / iOS 16.6 Beta1 系统
+:::
+
 
 
 
 ### 美化类
 
 * [WDBFontOverwrite：系统更换字体工具 | @ginsudev](https://github.com/ginsudev/WDBFontOverwrite/releases)
+
+* [KFDFontOverwrite：KFD漏洞开发，支持iOS 16.2-16.5 / 16.6 Beta1 丨 @htrowii](https://github.com/hrtowii/WDBFontOverwrite)
+
+* [KFDFontOverwrite：KFD漏洞开发，支持iOS 16.2-16.5 / 16.6 Beta1 丨 @Little_34306](https://github.com/34306/iPA/releases)
 
 * [DockHider：Dock 栏透明背景/隐藏主页条 | @leminlimez](https://github.com/leminlimez/DockHider/releases)
 
@@ -185,6 +203,8 @@ Safari浏览器下载的默认在文件-icloud云盘-下载里
 
 
 ### 工具类
+
+* [Blacklist KFD](https://appinstalleriosgh.github.io/Sign/Blacklist%20KFD.ipa)
 
 * [CCEnabler：自定义控制中心](https://dzp.lanzouy.com/iENu60tb36za)
 

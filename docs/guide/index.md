@@ -68,6 +68,8 @@
 
 * 电脑组装
 
+
+
 ## 手机相关
 
 * [手机抓包工具安装及使用](../mobile/capture/)
@@ -78,29 +80,25 @@
 
 * [iPhone短信添加头像](../mobile/smscard/)
 
-* [戴口罩解锁iPhone面容ID](../mobile/faceID/)
-
 * [注册国外苹果Apple_ID步骤](../mobile/Apple_ID/)
 
 * [stay2给Safari安装油猴插件](../mobile/stay2/)
 
-* [Sideloadly免越狱自签](../mobile/Sideloadly/)
+---
 
-* [牛蛙助手免越狱虚拟定位/自签](../mobile/bullfrog/)
+* [iPhone玩机工具](../mobile/iPhone/order/)
 
-* [巨魔助手TrollStore永久免签](../mobile/TrollStore/)
+* [iPhone签名工具](../mobile/iPhone/sign/)
 
-* [轻松签esign+的安装使用](../mobile/esign/)
+* [iPhone越狱](../mobile/iPhone/jail​break/)
 
-* [Filza文件管理器破解步骤](../mobile/Filza/)
+* [MDC](../mobile/iPhone/mdc/)
 
-* [利用MacDirtyCow无限自签](../mobile/MacDirtyCow/)
+* [KFD](../mobile/iPhone/kfd/)
 
-* [苹果iPhone手机越狱教程](../mobile/jail%E2%80%8Bbreak/)
+* [IOS应用砸壳及插件注入](../mobile/iPhone/dump/)
 
-* [IOS应用砸壳及插件注入](../mobile/dump/)
-
-* [IOS 15越狱工具Dopamine](../mobile/Dopamine/)
+* [Filza文件管理器破解](../mobile/iPhone/Filza/)
 
 
 ## Telegram

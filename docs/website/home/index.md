@@ -47,22 +47,15 @@ pnpm和yarn任选一个
 ![](./home-01.png)
 
 
-::: code-group
-```sh [pnpm]
+
+```sh
 # 安装 pnpm
 npm install -g pnpm
 
 # 查版本
 pnpm -v
 ```
-```sh [yarn]
-# 安装 yarn
-npm install -g yarn
 
-# 查版本
-yarn -v
-```
-:::
 
 ![](./home-02.png)
 
@@ -100,14 +93,9 @@ yarn -v
 ![](./home-06.png)
 
 
-::: code-group
-```sh [pnpm]
+```sh
 pnpm install
 ```
-```sh [yarn]
-yarn install
-```
-:::
 
 
 ![](./home-07.png)
@@ -119,14 +107,10 @@ yarn install
 ## 3.开发模式
 
 
-::: code-group
-```sh [pnpm]
+
+```sh
 pnpm dev
 ```
-```sh [yarn]
-yarn dev
-```
-:::
 
 
 ![](./home-08.png)
@@ -601,14 +585,10 @@ src/App.vue
 
 构建，构建后的静态资源会在 `dist` 目录中生成
 
-::: code-group
-```sh [pnpm]
+
+```sh
 pnpm build
 ```
-```sh [yarn]
-yarn build
-```
-:::
 
 
 
@@ -647,32 +627,20 @@ yarn build
 
 ## 常见问题
 
-#### 1. pnpm或yarn不是内部或外部命令
+#### 1. pnpm不是内部或外部命令
 
 
 原因：pnpm或yarn没有成功安装，卸载后重新安装
 
 
-::: code-group
-```sh [pnpm]
+
+```sh
 # 卸载
 npm uninstall pnpm -g
 
-# 安装yarn
+# 安装pnpm
 npm install -g pnpm
 
 # 查看版本号
 pnpm -v
 ```
-```sh [yarn]
-# 卸载
-npm uninstall yarn -g
-
-# 安装yarn
-npm install -g yarn
-
-# 查看版本号
-yarn -v
-```
-:::
-

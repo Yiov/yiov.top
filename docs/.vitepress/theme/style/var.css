@@ -1,0 +1,28 @@
+/* var.css */
+:root {
+    --vp-c-brand-1: #18794e;
+    --vp-c-brand-2: #299764;
+    --vp-c-brand-3: #30a46c;
+  }
+  
+  .dark {
+    --vp-c-brand-1: #3dd68c;
+    --vp-c-brand-2: #30a46c;
+    --vp-c-brand-3: #298459;
+  }
+  /* 以前的vp-c-brand已弃用 */
+
+/* vp-doc.css */
+.vp-doc a {
+  text-decoration: dotted;
+}
+/* underline改成dotted或者其他也行 */
+
+/* .vitepress\theme\style\var.css */
+h1 {
+  background: -webkit-linear-gradient(-45deg, #e43498 5%, #5ad7dd 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}

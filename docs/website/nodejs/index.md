@@ -279,6 +279,7 @@ D:\Program Files\nodejs\node_global
 
 ![](./nodejs-19.png)
 
+
 ```sh
 node -v
 npm -v
@@ -495,26 +496,28 @@ apk info
 
 ![](../nodejs/nodejs-12.png)
 
-::: code-group
-```sh [pnpm]
+
+```sh
 #安装pnpm
 npm install -g pnpm
 #查看版本号
 pnpm -v
 ```
-```sh [yarn]
+
+```sh
 #安装yarn
 npm install -g yarn
 #查看版本号
 yarn -v
 ```
-```sh [bun]
+
+```sh
 #安装bun
 npm install -g bun
 #查看版本号
 bun -v
 ```
-:::
+
 
 
 
@@ -559,23 +562,25 @@ set-ExecutionPolicy Default
 
 #### 2.如何卸载
 
-::: code-group
-```sh [pnpm]
-#卸载
+
+```sh
+#pnpm卸载
 npm rm -g pnpm
 ```
-```sh [yarn]
-#卸载
+
+```sh
+#yarn卸载
 npm uninstall yarn -g
 ```
-```sh [npm]
+
+```sh
 #npm卸载
 npm uninstall npm -g
 
 #卸载node
 yum remove nodejs npm -y
 ```
-:::
+
 
 
 

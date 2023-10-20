@@ -111,6 +111,8 @@ Insiders：内测版
 
 vue专用插件，就不多介绍了
 
+`TypeScript Vue Plugin (Volar)` 和 `Vue Language Features (Volar) `
+
 ![](./VSCode-12.png)
 
 

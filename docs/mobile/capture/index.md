@@ -18,23 +18,22 @@
 
 * HTTP Catcher （俗称网球，已跑路）
 
-* [Stream](https://apps.apple.com/cn/app/stream/id1312141691)（免费）
+* [Stream](#ios端-stream)（免费）
 
 ### 安卓端
 
 * Packet Capture（已凉）
 
-* [HttpCanary](https://dzp.lanzouy.com/i0uhfkd2nle)（俗称小黄鸟/小蓝鸟）
+* [HttpCanary](#安卓端-httpcanary)（俗称小黄鸟/小蓝鸟）
 
 
 
 
-## 1.安装
+## 安装
 
 
-::: details 点我查看 IOS端安装教程
 
-### 1.1 IOS端：Stream
+### IOS端：Stream
 
 APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://apps.apple.com/cn/app/stream/id1312141691)
 
@@ -82,10 +81,10 @@ APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://ap
 ![](./capture-07.png)
 
 
-:::
 
 
-### 1.2 安卓端：HttpCanary
+
+### 安卓端：HttpCanary
 
 
 ::: warning 注意
@@ -99,7 +98,9 @@ APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://ap
 
 #### 硬性条件
 
+::: tip 说明
 缺一不可，达不到的无视以下教程
+:::
 
 * 手机root (小米系统切换为开发版)
 
@@ -246,7 +247,7 @@ APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://ap
 
 
 
-## 2.使用
+## 使用
 
 
 
@@ -263,10 +264,11 @@ APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://ap
 
 
 
-:::: details IOS抓包演示
+### IOS抓包演示
 
+---
 
-## 抓滴滴果园
+#### 抓滴滴果园
 
 进入滴滴APP主界面，找到免费领水果，**但先不要进去**
 
@@ -308,7 +310,7 @@ APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://ap
 
 
 
-## 抓京东CK
+#### 抓京东CK
 
 
 打开浏览器，输入网址：[https://m.jd.com/](https://m.jd.com/)
@@ -362,7 +364,6 @@ APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://ap
 
 ![](./capture-40.png)
 
-::::
 
 
 
@@ -371,10 +372,11 @@ APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://ap
 
 
 
-:::: details 安卓抓包演示
+### 安卓抓包演示
 
+---
 
-## 抓滴滴果园
+#### 抓滴滴果园
 
 
 进入滴滴APP主界面，找到免费领水果，**但先不要进去**
@@ -411,10 +413,10 @@ APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://ap
 
 
 
-## 抓京东CK
+### 抓京东CK
 
 
-直接上工具 JD任务小辅：[https://dzp.lanzoui.com/iCMXQr2edpg](https://dzp.lanzoui.com/iCMXQr2edpg)
+直接上工具 JD任务小辅：[https://mp.weixin.qq.com/s/iAuW6if4o_P9wfR1h2pfeg](https://mp.weixin.qq.com/s/iAuW6if4o_P9wfR1h2pfeg)
 
 
 安装登录APP-右上角-设置-导出登录信息，粘贴到任意聊天界面，提取pt信息
@@ -429,6 +431,4 @@ APP Store下载：[https://apps.apple.com/cn/app/stream/id1312141691](https://ap
 ![](./capture-48.png)
 
 
-
-::::
 

@@ -110,17 +110,10 @@ ncu -u
 推荐使用pnpm，速度快
 :::
 
-::: code-group
-```sh [pnpm]
+
+```sh
 pnpm install
 ```
-```sh [yarn]
-yarn install
-```
-```sh [npm]
-npm install
-```
-:::
 
 ![](Portofolio-08.png)
 
@@ -135,17 +128,11 @@ npm install
 ## 3.开发模式
 
 
-::: code-group
-```sh [pnpm]
+
+```sh
 pnpm run serve
 ```
-```sh [yarn]
-yarn run serve
-```
-```sh [npm]
-npm run serve
-```
-:::
+
 
 浏览器打开本地端口的连接
 

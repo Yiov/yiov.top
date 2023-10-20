@@ -7,9 +7,7 @@
 
 
 ::: danger 注意
-本教程仅适用于 刷机时出现
-
-`remote:update sparse crc list failed`
+本教程仅适用于 刷机时出现 `remote:update sparse crc list failed`
 
 原因：MIUI 12.5 后小米限制了降级
 :::
@@ -20,18 +18,17 @@
 ## 准备工作
 
 
+* [原装数据线+备份](#备份)
 
-* 原装数据线+备份
+* [下载rom包](#下载rom包)
 
-* 下载rom包
-
-* 下载小米官方刷机工具
+* [下载小米官方刷机工具](#官方刷机工具)
 
 * [已解官方BL锁](http://www.miui.com/unlock/index.html)
 
 
 
-## 1.备份
+## 备份
 
 
 方便恢复数据，一定要备份！！
@@ -49,7 +46,7 @@
 
 
 
-## 2.下载ROM包
+## 下载ROM包
 
 
 
@@ -75,7 +72,7 @@ XiaomiRom：[https://xiaomirom.com/](https://xiaomirom.com/)
 
 
 
-## 3.小米官方刷机工具
+## 官方刷机工具
 
 
 
@@ -95,7 +92,7 @@ XiaomiRom：[https://xiaomirom.com/](https://xiaomirom.com/)
 
 
 
-## 4.开始刷机
+## 开始刷机
 
 
 

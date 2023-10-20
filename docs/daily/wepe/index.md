@@ -5,6 +5,8 @@
 :::
 
 
+## 简介
+
 PE启动盘有很多，除了微PE还有：[老毛桃](https://www.laomaotao.net/)、[优启通](https://www.upe.net/)
 
 方法都大同小异，本次仅演示微PE的安装

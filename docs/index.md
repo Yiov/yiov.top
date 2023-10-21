@@ -15,7 +15,7 @@ hero:
     - theme: alt
       text: 关于我
       link: /guide/feedback
-    - theme: A
+    - theme: sponsor
       text:  👉 搭建此文档
       link: https://vitepress.yiov.top/
 

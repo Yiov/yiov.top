@@ -168,7 +168,7 @@ https://www.icloud.com/shortcuts/1e38047c04b74604a7e60f5586a3d906
 
 ### 3.iOS端
 
-这里不建议折腾，[直接网页提取即可](#_3-ios端)，非要折腾，先会 [轻松签](../../mobile/esign/) 再说
+这里不建议折腾，[直接网页提取即可](#_3-ios端)，非要折腾，先会 [轻松签](../../mobile/iPhone/sign/#轻松签) 再说
 
 以 iBox 为例，先下载
 

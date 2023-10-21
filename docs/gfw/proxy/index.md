@@ -118,12 +118,12 @@
 
 * [白鲸加速器](https://www.bjch999.com/)「简单好用」
 
-* [快联](https://github.com/LetsGo666/LetsGo_2)「付费」
+* [快连](https://github.com/LetsGo666/LetsGo_2)「付费」
 
 ::: tip 说明
 IOS端配合 巨魔助手安装 `Apps Manager` 抹除数据可无限刷
 
-[不懂巨魔助手的点我另外的文章](../../mobile/TrollStore/)
+[不懂巨魔助手的点我另外的文章](../../mobile/iPhone/sign/#巨魔助手)
 :::
 
 

@@ -84,19 +84,19 @@
 
 ---
 
-* [iPhone玩机工具](../iPhone/iPhone/order/)
+* [iPhone玩机工具](../iPhone/order/)
 
-* [iPhone签名工具](../iPhone/iPhone/sign/)
+* [iPhone签名工具](../iPhone/sign/)
 
-* [iPhone越狱](../iPhone/iPhone/jail​break/)
+* [iPhone越狱](../iPhone/jail​break/)
 
-* [MDC](../iPhone/iPhone/mdc/)
+* [MDC](../iPhone/mdc/)
 
-* [KFD](../iPhone/iPhone/kfd/)
+* [KFD](../iPhone/kfd/)
 
-* [IOS应用砸壳及插件注入](../iPhone/iPhone/dump/)
+* [IOS应用砸壳及插件注入](../iPhone/dump/)
 
-* [Filza文件管理器破解](../iPhone/iPhone/Filza/)
+* [Filza文件管理器破解](../iPhone/Filza/)
 
 
 ## Telegram

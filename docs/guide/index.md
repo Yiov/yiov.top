@@ -1,8 +1,6 @@
 # 目录索引
 
-::: tip 说明
-不能跳转的就是在编写中 ...
-:::
+
 
 ## 科学上网
 
@@ -12,7 +10,7 @@
 
 * [科学上网工具及使用方法](../gfw/proxy/)
 
-* [机场channel大全一览表](../gfw/channel/)「长期更新」
+* [机场channel大全一览表](../gfw/channel/)
 
 
 
@@ -54,7 +52,7 @@
 
 * [小米运动刷步教程](../daily/xmsb/)
 
-* [电脑常见问题汇总](../daily/win11/)「长期更新」
+* [电脑常见问题汇总](../daily/win11/)
 
 * [电脑无法安装Photoshop 2023](../daily/ps/)
 
@@ -72,40 +70,40 @@
 
 ## 手机相关
 
-* [手机抓包工具安装及使用](../mobile/capture/)
+* [手机抓包工具安装及使用](../Android/capture/)
 
-* [小米线刷降级破MIUI限制](../mobile/miui/)
+* [小米线刷降级破MIUI限制](../Android/miui/)
 
-* [小米下载国外版主题并提取](../mobile/mi_theme/)
+* [小米下载国外版主题并提取](../Android/mi_theme/)
 
-* [iPhone短信添加头像](../mobile/smscard/)
+* [iPhone短信添加头像](../iPhone/smscard/)
 
-* [注册国外苹果Apple_ID步骤](../mobile/Apple_ID/)
+* [注册国外苹果Apple_ID步骤](../iPhone/Apple_ID/)
 
-* [stay2给Safari安装油猴插件](../mobile/stay2/)
+* [stay2给Safari安装油猴插件](../iPhone/stay2/)
 
 ---
 
-* [iPhone玩机工具](../mobile/iPhone/order/)
+* [iPhone玩机工具](../iPhone/iPhone/order/)
 
-* [iPhone签名工具](../mobile/iPhone/sign/)
+* [iPhone签名工具](../iPhone/iPhone/sign/)
 
-* [iPhone越狱](../mobile/iPhone/jail​break/)
+* [iPhone越狱](../iPhone/iPhone/jail​break/)
 
-* [MDC](../mobile/iPhone/mdc/)
+* [MDC](../iPhone/iPhone/mdc/)
 
-* [KFD](../mobile/iPhone/kfd/)
+* [KFD](../iPhone/iPhone/kfd/)
 
-* [IOS应用砸壳及插件注入](../mobile/iPhone/dump/)
+* [IOS应用砸壳及插件注入](../iPhone/iPhone/dump/)
 
-* [Filza文件管理器破解](../mobile/iPhone/Filza/)
+* [Filza文件管理器破解](../iPhone/iPhone/Filza/)
 
 
 ## Telegram
 
 * [Telegram的注册及使用](../telegram/tg/)
 
-* [创建自己的tg私聊机器人](../telegram/tgbot/) 「长期更新」
+* [创建自己的tg私聊机器人](../telegram/tgbot/)
 
 * [TG表情包下载与制作](../telegram/sticker/)
 
@@ -164,7 +162,7 @@
 
 * wordpress主题汉化
 
-* [各类主题/模板/源码汇总](../website/source/) 「长期更新」
+* [各类主题/模板/源码汇总](../website/source/)
 
 * [Vuepress文档搭建](https://yiov.github.io/vuepress2/)
 

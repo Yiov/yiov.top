@@ -33,16 +33,16 @@
 
 | 手机/系统 | iPhone 8系列 / X (A11) | 11-15系列/ XS系列 / XR / SE 2-3 (A12-A16) |
 | :-: | :-: | :-: |
-| 15.0-15.7.3 | [Misaka](https://www.123pan.com/s/3LWcVv-cZzrh.html) / [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) / [SimpleKFD](https://github.com/Lrdsnow/SimpleKFD/releases) | [Misaka](https://www.123pan.com/s/3LWcVv-cZzrh.html) / [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) |
+| 15.0-15.7.3 | [Misaka](https://github.com/straight-tamago/misaka/releases) / [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) / [SimpleKFD](https://github.com/Lrdsnow/SimpleKFD/releases) | [Misaka](https://github.com/straight-tamago/misaka/releases) / [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) |
 | 15.7.4-15.7.6 | [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) / [SimpleKFD](https://github.com/Lrdsnow/SimpleKFD/releases) | [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) |
 | 15.7.7-15.7.9 | - | [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) |
-| 16.0-16.0.1 | [Misaka](https://www.123pan.com/s/3LWcVv-cZzrh.html) / [SimpleKFD](https://github.com/Lrdsnow/SimpleKFD/releases) | [Misaka](https://www.123pan.com/s/3LWcVv-cZzrh.html) / [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) |
-| 16.2-16.5 | [Misaka](https://www.123pan.com/s/3LWcVv-cZzrh.html) / [Cluckabunga](https://github.com/leminlimez/Cluckabunga/releases) / [SimpleKFD](https://github.com/Lrdsnow/SimpleKFD/releases) | [Misaka](https://www.123pan.com/s/3LWcVv-cZzrh.html) / [Cluckabunga](https://github.com/leminlimez/Cluckabunga/releases) / [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) / [posi0nKFD](https://github.com/GenericCoding/kfd/releases) |
+| 16.0-16.0.1 | [Misaka](https://github.com/straight-tamago/misaka/releases) / [SimpleKFD](https://github.com/Lrdsnow/SimpleKFD/releases) | [Misaka](https://github.com/straight-tamago/misaka/releases) / [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) |
+| 16.2-16.5 | [Misaka](https://github.com/straight-tamago/misaka/releases) / [Cluckabunga](https://github.com/leminlimez/Cluckabunga/releases) / [SimpleKFD](https://github.com/Lrdsnow/SimpleKFD/releases) | [Misaka](https://github.com/straight-tamago/misaka/releases) / [Cluckabunga](https://github.com/leminlimez/Cluckabunga/releases) / [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) / [posi0nKFD](https://github.com/GenericCoding/kfd/releases) |
 | 16.6及以上 | ✘ | ✘ |
 
 
 
-* [Misaka：KFD漏洞开发多功能插件商店，适用于iOS 15.0-15.7.3 / iOS16.0-16.5 / iOS16.6 Beta1 | 在Dekotas源找到NoVuInTools安装实现电量百分比](https://www.123pan.com/s/3LWcVv-cZzrh.html)
+* [Misaka：KFD漏洞开发多功能插件商店，适用于iOS 15.0-15.7.3 / iOS16.0-16.5 / iOS16.6 Beta1 | 在Dekotas源找到NoVuInTools安装实现电量百分比](https://github.com/straight-tamago/misaka/releases)
 
 * [Cluckabunga：KFD漏洞开发，适用于iOS 16.2-16.5 / 16.6 Beta 1 | @leminlimez](https://github.com/leminlimez/Cluckabunga/releases) 丨 [详细使用教程](https://mp.weixin.qq.com/s/PMtNLWHIBmI2vOVGw_k5vw)
 

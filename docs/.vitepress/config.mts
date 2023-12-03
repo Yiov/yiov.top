@@ -87,30 +87,33 @@ export default defineConfig({
       },
       {
         //分组标题3
-        text: '手机相关',
+        text: '安卓玩机',
         collapsed: true,
         items: [
           { text: '手机抓包工具安装及使用', link: '/Android/capture/' },
           { text: '小米线刷降级破MIUI限制', link: '/Android/miui/' },
           { text: '小米下载国外版主题并提取', link: '/Android/mi_theme/' },
-          { text: 'iPhone短信添加头像', link: '/iPhone/smscard/' },
-          { text: '注册国外苹果Apple_ID步骤', link: '/iPhone/Apple_ID/' },
-          { text: 'stay2给Safari安装油猴插件', link: '/iPhone/stay2/' },
-          { text: 'iPhone玩机技巧', 
-          items: [
-            { text: '玩机工具(必看)', link: '/iPhone/order/' },
-            { text: '签名工具', link: '/iPhone/sign/' },
-            { text: '越狱', link: '/iPhone/jail​break/' },
-            { text: 'MDC', link: '/iPhone/mdc/' },
-            { text: 'KFD', link: '/iPhone/kfd/' },
-            { text: '砸壳及注入', link: '/iPhone/dump/' },
-            { text: 'Filza破解', link: '/iPhone/Filza/' },
-            ],
-          },
         ],
       },
       {
         //分组标题4
+        text: 'iPhone玩机',
+        collapsed: true,
+        items: [
+          { text: 'iPhone短信添加头像', link: '/iPhone/smscard/' },
+          { text: '注册国外苹果Apple_ID步骤', link: '/iPhone/Apple_ID/' },
+          { text: 'stay2给Safari安装油猴插件', link: '/iPhone/stay2/' },
+          { text: '玩机工具(必看)', link: '/iPhone/order/' },
+          { text: '签名工具', link: '/iPhone/sign/' },
+          { text: '越狱', link: '/iPhone/jail​break/' },
+          { text: 'MDC', link: '/iPhone/mdc/' },
+          { text: 'KFD', link: '/iPhone/kfd/' },
+          { text: '砸壳及注入', link: '/iPhone/dump/' },
+          { text: 'Filza破解', link: '/iPhone/Filza/' },
+        ],
+      },
+      {
+        //分组标题5
         text: 'Telegram',
         collapsed: true,
         items: [
@@ -120,7 +123,7 @@ export default defineConfig({
         ],
       },
       {
-        //分组标题5
+        //分组标题6
         text: '网站搭建',
         collapsed:true,
         items: [

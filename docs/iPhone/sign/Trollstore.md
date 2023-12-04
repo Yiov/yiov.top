@@ -124,16 +124,16 @@
 然后再下载：https://dhinakg.github.io/apps.html
 
 
-![](./Trollstore-MDC-01.png)
+![](./TrollStore-MDC-01.png)
 
 下载完成后，点击浏览器 `下载` 按键，再点击已经下载好的 `TrollInstallerMDC`
 
-![](./Trollstore-MDC-02.png)
+![](./TrollStore-MDC-02.png)
 
 
 右上角分享，选择 `牛蛙助手`
 
-![](./Trollstore-MDC-03.png)
+![](./TrollStore-MDC-03.png)
 
 点 `发送`，牛蛙打开后，选择 `导入`
 
@@ -141,43 +141,43 @@
 如果勿点了取消，也可直接点 TrollInstallerMDC.ipa 选择导入应用库
 :::
 
-![](./Trollstore-MDC-04.png)
+![](./TrollStore-MDC-04.png)
 
 
 点击 `TrollInstallerMDC` ，选择 `签名` - `立即签名`
 
-![](./Trollstore-MDC-05.png)
+![](./TrollStore-MDC-05.png)
 
 
 在已签名的页卡中，选择刚签好名的 `TrollInstallerMDC` 安装，但牛蛙安装必须要开启`VPN和WIFI`，我们去打开
 
-![](./Trollstore-MDC-06.png)
+![](./TrollStore-MDC-06.png)
 
 设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
 
-![](./Trollstore-MDC-07.png)
+![](./TrollStore-MDC-07.png)
 
 打开VPN后我们返回重新安装 TrollInstallerMDC 即可
 
-![](./Trollstore-MDC-08.png)
+![](./TrollStore-MDC-08.png)
 
 TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
-![](./Trollstore-MDC-09.png)
+![](./TrollStore-MDC-09.png)
 
 
 设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
 
-![](./Trollstore-MDC-10.png)
+![](./TrollStore-MDC-10.png)
 
-![](./Trollstore-MDC-11.png)
+![](./TrollStore-MDC-11.png)
 
 
 再次打开 TrollInstallerMDC ，提示沙盒读写，点 `好`
 
 这样 `Tips` 即 `提示` ，就成了一个安装器
 
-![](./Trollstore-MDC-12.png)
+![](./TrollStore-MDC-12.png)
 
 打开 `提示` 点 `Install TrollStore` 安装巨魔即可
 
@@ -185,7 +185,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 需要翻墙，[科学上网工具及使用方法](../../gfw/channel/)
 :::
 
-![](./Trollstore-MDC-13.png)
+![](./TrollStore-MDC-13.png)
 
 自动安装好了 `Idid` ，灰色状态就是已经安装成功了
 
@@ -235,16 +235,16 @@ https://github.com/straight-tamago/misaka/releases
 下载最新版的即可，截稿前演示版本3.2.5
 :::
 
-![](./Trollstore-misaka-01.png)
+![](./TrollStore-misaka-01.png)
 
 下载完成后，点击浏览器 `下载` 按键，再点击已经下载好的 `misaka`
 
-![](./Trollstore-misaka-02.png)
+![](./TrollStore-misaka-02.png)
 
 
 右上角分享，选择 `牛蛙助手`
 
-![](./Trollstore-misaka-03.png)
+![](./TrollStore-misaka-03.png)
 
 点 `发送`，牛蛙打开后，选择 `导入`
 
@@ -252,66 +252,66 @@ https://github.com/straight-tamago/misaka/releases
 如果勿点了取消，也可直接点 misaka.ipa 选择导入应用库
 :::
 
-![](./Trollstore-misaka-04.png)
+![](./TrollStore-misaka-04.png)
 
 
 点击 `misaka` ，选择 `签名` - `立即签名`
 
-![](./Trollstore-misaka-05.png)
+![](./TrollStore-misaka-05.png)
 
 
 在已签名的页卡中，选择刚签好名的 `misaka` 安装
 
 但牛蛙安装必须要开启`VPN和WIFI`，我们去打开
 
-![](./Trollstore-misaka-06.png)
+![](./TrollStore-misaka-06.png)
 
 设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
 
-![](./Trollstore-misaka-07.png)
+![](./TrollStore-misaka-07.png)
 
 打开VPN后我们返回重新安装 misaka 即可
 
-![](./Trollstore-misaka-08.png)
+![](./TrollStore-misaka-08.png)
 
 misaka就安装成功了，但是还打不开，要信任一下
 
-![](./Trollstore-misaka-09.png)
+![](./TrollStore-misaka-09.png)
 
 
 设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
 
-![](./Trollstore-misaka-10.png)
+![](./TrollStore-misaka-10.png)
 
-![](./Trollstore-misaka-11.png)
+![](./TrollStore-misaka-11.png)
 
 
 再次打开 misaka ，提示沙盒读写，点 `好`
 
-![](./Trollstore-misaka-12.png)
+![](./TrollStore-misaka-12.png)
 
 允许 `无限局域网与蜂窝数据`，但是提示 `Network Erro`
 
 
-![](./Trollstore-misaka-13.png)
+![](./TrollStore-misaka-13.png)
 
 这时我们需要使用 [科学上网](../../gfw/channel/) ，我用小火箭，机场用的超级机场
 
-![](./Trollstore-misaka-14.png)
+![](./TrollStore-misaka-14.png)
 
 连接好再次打开 misaka，`Agree` 同意后进入主界面
 
-![](./Trollstore-misaka-15.png)
+![](./TrollStore-misaka-15.png)
 
 
 左上角 Setting - App Language
 
-![](./Trollstore-misaka-16.png)
+![](./TrollStore-misaka-16.png)
 
 选择 `zh_CN` 完成后，自动退出，再次进入就能看到已经汉化了，下滑可退出页面
 
 
-![](./Trollstore-misaka-17.png)
+![](./TrollStore-misaka-17.png)
 
 
 
@@ -326,12 +326,12 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 :::
 
 
-![](./Trollstore-misaka-18.png)
+![](./TrollStore-misaka-18.png)
 
 
 打开 misaka - 软件包 - 左下角图标 - `Install TrollStore`
 
-![](./Trollstore-misaka-19.png)
+![](./TrollStore-misaka-19.png)
 
 任选一个作为安装器，我这里选 `Books` 演示
 
@@ -352,7 +352,7 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 :::
 
 
-![](./Trollstore-misaka-20.png)
+![](./TrollStore-misaka-20.png)
 
 
 成功后会自动注销，重新进入桌面打开 `Books`
@@ -362,15 +362,15 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 
 下载：https://www.123pan.com/s/3LWcVv-8RLrh.html
 
-![](./Trollstore-misaka-21.png)
+![](./TrollStore-misaka-21.png)
 
 打开 misaka 文件管理 - var - containers
 
-![](./Trollstore-misaka-22.png)
+![](./TrollStore-misaka-22.png)
 
 Bundle - Application
 
-![](./Trollstore-misaka-23.png)
+![](./TrollStore-misaka-23.png)
 
 com.apple.iBooks - Books.app
 
@@ -380,11 +380,11 @@ com.apple.iBooks - Books.app
 home，那么就找 `com.apple.Home`
 :::
 
-![](./Trollstore-misaka-24.png)
+![](./TrollStore-misaka-24.png)
 
 找到 `books`，再点 `Flie Overwrite`
 
-![](./Trollstore-misaka-25.png)
+![](./TrollStore-misaka-25.png)
 
 选择我们刚才下好的文件 [PersistenceHelper_Embedded](https://www.123pan.com/s/3LWcVv-8RLrh.html)，这样就覆盖重写完成了，再次打开books即可
 
@@ -392,7 +392,7 @@ home，那么就找 `com.apple.Home`
 safari下载的文件路径：icloud云盘-下载
 :::
 
-![](./Trollstore-misaka-26.png)
+![](./TrollStore-misaka-26.png)
 
 
 ::::
@@ -400,7 +400,7 @@ safari下载的文件路径：icloud云盘-下载
 
 点 `Install TrollStore` 安装巨魔，桌面有图标就是了
 
-![](./Trollstore-misaka-27.png)
+![](./TrollStore-misaka-27.png)
 
 
 自动安装好了 `Idid` ，灰色状态就是已经安装成功了
@@ -413,7 +413,7 @@ safari下载的文件路径：icloud云盘-下载
 
 如果非要选的Tips，请先卸载重装 [提示](https://apps.apple.com/cn/app/id1069509450)，再来选择 Tips 为持久性助手即可
 
-![](./Trollstore-misaka-28.png)
+![](./TrollStore-misaka-28.png)
 
 
 如果有天巨魔打不开，可以通过持久性助手可让巨魔恢复正常使用
@@ -422,7 +422,7 @@ safari下载的文件路径：icloud云盘-下载
 有了持久性助手，TrollInstallerMDC 可以直接卸载了
 :::
 
-![](./Trollstore-misaka-29.png)
+![](./TrollStore-misaka-29.png)
 
 
 
@@ -430,7 +430,7 @@ safari下载的文件路径：icloud云盘-下载
 ## 4.界面介绍
 
 
-![](./Trollstore-01.png)
+![](./TrollStore-01.png)
 
 ::: warning 注意
 用巨魔安装的应用，只能在巨魔的APP界面，左滑卸载
@@ -445,15 +445,15 @@ safari下载的文件路径：icloud云盘-下载
 
 打开链接，先下载授权的版本
 
-![](./Trollstore-02.png)
+![](./TrollStore-02.png)
 
 下载完成后，点击查看，点击文件
 
-![](./Trollstore-03.png)
+![](./TrollStore-03.png)
 
 右上角分享，用巨魔 `TrollStore` 打开安装即可
 
-![](./Trollstore-04.png)
+![](./TrollStore-04.png)
 
 然后同样的方法，覆盖安装破解的可搜索的v1.4.1版本即可
 

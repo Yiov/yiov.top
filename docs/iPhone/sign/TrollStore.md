@@ -357,10 +357,13 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 
 成功后会自动注销，重新进入桌面打开 `Books`
 
+
+
+
 :::: details 疑问3：books等打不开，闪退
 这个就麻烦一点了，看步骤
 
-下载：https://www.123pan.com/s/3LWcVv-8RLrh.html
+下载：https://github.com/opa334/TrollStore/releases
 
 ![](./TrollStore-misaka-21.png)
 
@@ -386,7 +389,7 @@ home，那么就找 `com.apple.Home`
 
 ![](./TrollStore-misaka-25.png)
 
-选择我们刚才下好的文件 [PersistenceHelper_Embedded](https://www.123pan.com/s/3LWcVv-8RLrh.html)，这样就覆盖重写完成了，再次打开books即可
+选择我们刚才下好的文件 [PersistenceHelper_Embedded](https://github.com/opa334/TrollStore/releases/download/2.0.8/PersistenceHelper_Embedded)，这样就覆盖重写完成了，再次打开books即可
 
 ::: tip 说明
 safari下载的文件路径：icloud云盘-下载
@@ -396,6 +399,10 @@ safari下载的文件路径：icloud云盘-下载
 
 
 ::::
+
+
+
+
 
 
 点 `Install TrollStore` 安装巨魔，桌面有图标就是了
@@ -516,7 +523,7 @@ safari下载的文件路径：icloud云盘-下载
 
 * [AppStore++：App随意升降级 丨 @CokePokes](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) 丨 [越狱源](https://cokepokes.github.io/)
 
-* [DowngradeApp：无广告 App随意升降级 | @Netskao](https://www.123pan.com/s/3LWcVv-fuLrh.html)
+* [DowngradeApp：无广告 App随意升降级 | @Netskao](https://www.123pan.com/s/3LWcVv-zSLrh.html)
 
 * [NetWorkManager：网络状态管理工具 | @Netskao](https://www.123pan.com/s/3LWcVv-YuLrh.html)
 
@@ -524,6 +531,7 @@ safari下载的文件路径：icloud云盘-下载
 
 * [IpaDownloadTool：IPA下载器 | @SmileZXLee](https://github.com/SmileZXLee/IpaDownloadTool/)
 
+* [NetworkController：国行苹果设备网络控制，输入Bundle ID点SET即可 丨 @Halo-Michael](https://github.com/Halo-Michael/NetworkController-app)
 
 ---
 
@@ -561,6 +569,8 @@ safari下载的文件路径：icloud云盘-下载
 
 
 ### 美化类
+
+* [StatusMagic：魔法状态栏 丨 @Avangelista](https://github.com/Avangelista/StatusMagic)
 
 * [BatteryInfo：查看电池健康状态 | @xybp888](http://www.htv123.com/down/BatteryInfo_1.0.7.ipa)
 
@@ -670,6 +680,45 @@ safari下载的文件路径：icloud云盘-下载
 
 ### 静音模块
 
+开始前请用巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
+
+然后下载由 @赵楠 大佬提供的文件：https://www.123pan.com/s/3LWcVv-WULrh.html
+
+![](./TrollStore-18.png)
+
+下载 - 选择下好的文件
+
+![](./TrollStore-19.png)
+
+右上分享 - 用 `Filza` 打开
+
+![](./TrollStore-20.png)
+
+进入了Filza的 `/var/mobile/Documents` 目录，长按导入的文件 `复制`
+
+![](./TrollStore-21.png)
+
+左上返回找到目录 `/var/Managed Preferences/mobile`
+
+![](./TrollStore-22.png)
+
+在此处左下角粘贴刚复制的文件
+
+![](./TrollStore-23.png)
+
+在目录后，打开巨魔注销一下就可以了
+
+![](./TrollStore-24.png)
+
+我们下拉控制中心就能看到了
+
+::: tip 说明
+文件是从iPad提取出来，只是手机上屏蔽了，我们通过文件恢复了，100%安全
+:::
+
+![](./TrollStore-25.png)
+
+
 
 
 
@@ -690,9 +739,9 @@ safari下载的文件路径：icloud云盘-下载
 
 
 
-#### 8.3 可以多开应用吗
+#### 8.3 可以多开微信等应用吗
 
-不可以，巨魔仅具有免签安装，不能修改Bundle ID来实现多开
+不可以，巨魔仅具有免签安装，不能实现多开
 
 不过可以通过巨魔，安装轻松签等签名工具，就可以修改Bundle ID来多开了
 

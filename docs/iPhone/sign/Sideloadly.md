@@ -1,13 +1,18 @@
+---
+prev: false
+next: false
+---
+
 # Sideloadly
 
-### 1.简介
+## 1.简介
 
 优点：免越狱且免费，支持 Windows 和 macOS
 
-缺点：需手机连接电脑操作，且一个Apple ID只能签名3个应用
+缺点：需手机连接电脑操作，且一个Apple ID只能签名3个应用，与 [爱思助手](http://127.0.0.1:5173/iPhone/sign/Sideloadly.html) 差不多
 
 
-### 2.安装
+## 2.安装
 
 
 官网：[https://sideloadly.io/](https://sideloadly.io/)
@@ -33,7 +38,7 @@
 
 
 
-### 3.签名
+## 3.签名
 
 
 我在 [@SmileZXLee](https://github.com/SmileZXLee/IpaDownloadTool) 下了个 [ipa下载器](http://www.zxlee.cn/ipaDownloadTool/release/ipaDownloadTool-2.1.1.ipa) 的软件包，用来签名安装演示，其他安装同理
@@ -87,7 +92,7 @@
 
 
 
-### 4.常见问题
+## 4.常见问题
 
 
 #### 4.1 设备信息没显示

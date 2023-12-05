@@ -1,6 +1,11 @@
+---
+prev: false
+next: false
+---
+
 # 巨魔助手安装及使用
 
-> 更新时间：2023-11-29
+> 更新时间：2023-12-4
 
 ## 1.简介
 
@@ -487,7 +492,7 @@ safari下载的文件路径：icloud云盘-下载
 
 * [凸游CLUB](https://toyou.club/)
 
-* [冷冷雨·付费·应用破解·SuperVIP8.1-33](https://www.123pan.com/s/3LWcVv-auLrh.html)
+* [冷冷雨·付费·应用破解·SuperVIP8.1-33](https://www.mediafire.com/file/l6ggeti3d1pdrlw/SuperVIP8.1-3.ipa/file)
 
 
 
@@ -497,18 +502,18 @@ safari下载的文件路径：icloud云盘-下载
 
 * [PostBox：插件下载工具，国区上架PostBox Pocket | @PostBoxTeam](https://www.postbox.news/downloads)
 
-* [TrollTools：巨魔多功能应用合集丨 @sourcelocation](https://github.com/sourcelocation/TrollTools/releases)
-
 ---
-* [LocSim：虚拟定位破解版 | @Mika](https://www.123pan.com/s/3LWcVv-X7zrh.html)
+* [LocSim：先装虚拟定位v1.3.7授权版 | @Mika](https://www.mediafire.com/file/qwdgdnvek84xb83/虚拟定位_1.3.7_授权版.ipa/file) 丨 [后装可搜索破解版v1.4.1](https://www.mediafire.com/file/0pfhnyv3twnw3f6/%E8%99%9A%E6%8B%9F%E5%AE%9A%E4%BD%8D_1.4.1.ipa/file)
 
-* [TrollSpeed：实时网速浮窗工具](https://www.123pan.com/s/3LWcVv-K7zrh.html)
+* [TrollSpeed：实时网速浮窗工具 丨 @Lessica](https://github.com/Lessica/TrollSpeed/releases)
 
 * [SecondHand：状态栏显示实时秒数 | @leminlimez](https://github.com/leminlimez/SecondHand/releases)
 
+* [Helium：悬浮显示日期/网速/设备温度/电池详细工具 丨 @LeminLimez](https://github.com/leminlimez/Helium/releases)
+
 ---
 
-* [AppsDump2：巨魔非全权限砸壳](https://www.123pan.com/s/3LWcVv-JuLrh.html)
+* [AppsDump2：巨魔非全权限砸壳/虚拟定位](https://www.mediafire.com/file/7tlb4a96zgu2xkg/AppDump2_2.0.ipa/file)
 
 * [TrollDecrypt：巨魔非全权限砸壳](https://github.com/donato-fiore/TrollDecrypt/releases)
 
@@ -517,7 +522,7 @@ safari下载的文件路径：icloud云盘-下载
 
 ---
 
-* [Apps Manager：用于备份还原 丨@TIGI Software](https://www.tigisoftware.com/default/?p=435) 丨 [破解版v1.8.3](https://www.123pan.com/s/3LWcVv-KuLrh.html)
+* [Apps Manager：用于备份还原 丨@TIGI Software](https://www.tigisoftware.com/default/?p=435) 丨 [@巨魔e族破解v1.8.4](https://www.123pan.com/s/3LWcVv-T7Lrh.html)
 
 * [Filza：文件管理器 丨@TIGI Software](https://www.tigisoftware.com/default/?p=439) 丨 [@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
 
@@ -553,7 +558,7 @@ safari下载的文件路径：icloud云盘-下载
 
 * [NiceBattery：电池助手,查看电池详细数据的工具 | @NiceiOS](https://www.niceios.com/download.php)
 
-* [H5GG：游戏修改器工具，仅限IOS 15.0-15.1.1 | @H5GG](https://github.com/H5GG/H5GG)丨 [H5GG画中画版](https://www.123pan.com/s/3LWcVv-IuLrh.html)
+* [H5GG：游戏修改器工具，仅限IOS 15.0-15.1.1 | @H5GG](https://github.com/H5GG/H5GG)丨 [H5GG画中画版](https://www.mediafire.com/file/u3yy4myazbd5np1/H5GG_7.9_PIP%25E7%2594%25BB%25E4%25B8%25AD%25E7%2594%25BB%25E7%2589%2588.ipa/file)
 
 * [iM 修改器：数据修改器](https://www.123pan.com/s/3LWcVv-r7zrh.html)
 
@@ -582,7 +587,7 @@ safari下载的文件路径：icloud云盘-下载
 
 * [BlizzardBoard：主题美化 但书签形式 | @BenjaminHornbeck6](https://github.com/BenjaminHornbeck6/BlizzardBoard)
 
-* [WallpaperSetter：自定义浅色/深色模式的墙纸](https://www.123pan.com/s/3LWcVv-U7zrh.html)
+* [WallpaperSetter：自定义浅色/深色模式的墙纸](https://github.com/Skittyblock/WallpaperSetter)
 
 * [ResolutionSetter：修改分辨率的工具 | @Halo-Michael](https://github.com/Halo-Michael/Resolution-Setter-app/releases)丨 [苹果官网分辨率查看](https://www.apple.com.cn/iphone/compare/)
 
@@ -682,7 +687,7 @@ safari下载的文件路径：icloud云盘-下载
 
 开始前请用巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
 
-然后下载由 @赵楠 大佬提供的文件：https://www.123pan.com/s/3LWcVv-WULrh.html
+然后下载由 [@赵楠](https://github.com/invalidunit) 大佬提供的文件：https://www.123pan.com/s/3LWcVv-WULrh.html
 
 ![](./TrollStore-18.png)
 
@@ -720,14 +725,168 @@ safari下载的文件路径：icloud云盘-下载
 
 
 
+### 多开分身
+
+巨魔没有多开App功能，但是可以借助 [轻松签](https://esign.yyyue.xyz/) 完成，以多开微信为例
+
+轻松签官网下载ipa：https://esign.yyyue.xyz/
+
+![](./TrollStore-wechat-01.png)
+
+下载 - 点击下载好的文件
+
+![](./TrollStore-wechat-02.png)
+
+右上角分享 - 用 `巨魔` 打开安装
+
+![](./TrollStore-wechat-03.png)
+
+安装成功后，桌面就有图标了
+
+![](./TrollStore-wechat-04.png)
+
+进入轻松签
+
+![](./TrollStore-wechat-05.png)
+
+我们还需要一个过期的签名证书
+
+下载：https://www.123pan.com/s/3LWcVv-IlLrh.html
+
+::: tip 说明
+没有证书，会无法签名，所以过期的也行
+:::
+
+![](./TrollStore-wechat-06.png)
+
+下载好后，我们点击进入iCloud云盘
+
+![](./TrollStore-wechat-07.png)
+
+长按压缩包，共享
+
+![](./TrollStore-wechat-08.png)
+
+用轻松签打开
+
+![](./TrollStore-wechat-09.png)
+
+点击文件，直接解压，解压完后，进入文件夹
+
+![](./TrollStore-wechat-10.png)
+
+点击 `cert 2.p 12` 导入证书库，输入密码 `1`，在设置-证书管理可看到
+
+![](./TrollStore-wechat-11.png)
+
+![](./TrollStore-wechat-12.png)
+
+
+同样的方式，下载好微信的砸壳ipa包，然后用轻松签打开
+
+::: tip 科普
+这里的dump就表示砸壳，就是提取ipa安装包
+
+因为苹果对安装包进行了加密，并包裹在了ipa上，砸壳的过程就是解密脱壳
+:::
+
+[https://www.mediafire.com/file/q7pod9131llj6ca/](https://www.mediafire.com/file/q7pod9131llj6ca/%25E5%25BE%25AE%25E4%25BF%25A1_8.0.44_Dump.ipa/file)
+
+![](./TrollStore-wechat-13.png)
+
+点击微信文件，导入应用库，选择微信 - 签名
+
+![](./TrollStore-wechat-14.png)
+
+
+
+这里我们多开就修改下 `App名字` 和 `Bundle Identifier` 就好了，例如我在后面都加了个 `fenshen`
+
+::: tip 说明
+Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独一无二就相当于人的身份证
+
+我们通过修改应用ID，就变成了两个完全独立的App，可共存安装，也就是多开
+:::
+
+![](./TrollStore-wechat-15.png)
+
+
+点 `更多设置` 根据自己需求也可以改一下图标
+
+::: tip 关于插件
+就是移除已有库和添加第三方库，使用上和 [轻松签+](./esign.md) 一致的，这里不再赘述
+:::
+
+![](./TrollStore-wechat-16.png)
+
+
+然后下拉，建议打开 `移除应用跳转` 和 `开启文件访问` 开关，立即签名
+
+::: tip 说明
+移除应用跳转：可避免大号分享时跳转到分身上
+
+开启文件访问：可访问本地文件及相册等
+
+提示掉签：本身就是过期证书，无视即可
+:::
+
+![](./TrollStore-wechat-17.png)
+
+
+签名完成后，在 `已签名` 页卡中找到改好的微信，点击 `分享`
+
+::: warning 注意
+不要直接安装了，过期的证书签的名，装了也打不开
+
+点分享！点分享！点分享
+:::
+
+![](./TrollStore-wechat-18.png)
+
+
+用巨魔打开安装，卸载也只能用巨魔卸载，桌面删不掉
+
+![](./TrollStore-wechat-19.png)
+
+
+安装完成，打开登录账号即可
+
+![](./TrollStore-wechat-20.png)
+
+
+
+::: details 疑问1：会封号吗
+理论上来说，99.99%不会
+
+本身就是原版未修改的ipa包，不存在封号一说
+
+有插件的都未必封号，最多限制几小时登陆；修改过的微商版微信那肯定是会封
+:::
+
+::: details 疑问2：怎么卸载
+卸载不能在桌面删，只能在 `已安装` 页卡，选中应用左滑即可卸载
+:::
+
+::: details 疑问3：再安装新版本微信聊天记录还在吗
+只要签名的时候，应用ID和上次一样就可以直接覆盖安装，聊天记录都在
+:::
+
+
+
+
+
+
+
+
+
 
 
 
 ## 8.常见问题
 
----
 
-#### 8.1 安装失败，不显示图标
+
+#### 8.1 安装完成，不显示图标
 
 
 打开 TrollStore - Settings - 点击 `Rebuild Icon Cache` 等待重启，未重启的话，点击 `Respring` 即可
@@ -736,14 +895,6 @@ safari下载的文件路径：icloud云盘-下载
 #### 8.2 可以安装其他应用吗
 
 可以，以上只是一些工具，可以安装一些破解版APP，例如：Youtube破解版
-
-
-
-#### 8.3 可以多开微信等应用吗
-
-不可以，巨魔仅具有免签安装，不能实现多开
-
-不过可以通过巨魔，安装轻松签等签名工具，就可以修改Bundle ID来多开了
 
 
 

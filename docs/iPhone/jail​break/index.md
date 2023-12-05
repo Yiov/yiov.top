@@ -28,6 +28,19 @@
 | 17及以上 | - | - | - | - | - | - |
 
 
+## 越狱
+
+Freya，手机端越狱，无需依赖电脑，支持 A11 及以下设备，目前只支持 iOS 15.0 - 15.1 系统。
+
+多巴胺越狱支持 iOS 15.0 - 15.4.1，Freya 越狱支持 iOS 15.0 - 15.1 系统，两者有什么不同呢？多巴胺越狱，仅仅支持 A12 - A15 设备。目前并不支持 A11 及以下设备。
+
+Freya，手机端越狱。越狱后可以正常使用面容或指纹。主要利用 kfd 漏洞。palera1n，依赖电脑。越狱后无法正常使用面容或指纹。主要利用 checkm8 漏洞。越狱无系统上限限制。
+
+https://github.com/pwned4ever/Freya15/releases
+
+一，XinaA15 官方网站XinaA15 官方网站：https://apt.xina.vip/XinaA15 2.0.15 版本官方下载地址：https://apt.xina.vip/Xina.kfd.2.0.15.ip
+
+
 
 ## 💪Dopamine
 

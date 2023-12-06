@@ -149,6 +149,12 @@ Bundle ID就是应用程序标识符，也叫应用ID，也叫包名，独一无
 
 根据自己需求也可以改一下图标，立即签名，签名成功，去安装
 
+::: details 分享1个图片
+
+![](./bullfrog-wechat-icon.png)
+
+:::
+
 ![](./bullfrog-20.png)
 
 

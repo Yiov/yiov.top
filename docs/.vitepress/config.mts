@@ -105,7 +105,7 @@ export default defineConfig({
           { text: 'stay2给Safari安装油猴插件', link: '/iPhone/stay2/' },
           { text: '玩机工具(必看)', link: '/iPhone/order/' },
           { text: '签名工具', link: '/iPhone/sign/' },
-          { text: '越狱', link: '/iPhone/jail​break/' },
+          { text: '越狱工具', link: '/iPhone/Jailbreak/' },
           { text: 'MDC', link: '/iPhone/mdc/' },
           { text: 'KFD', link: '/iPhone/kfd/' },
           { text: '砸壳及注入', link: '/iPhone/dump/' },

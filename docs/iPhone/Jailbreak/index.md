@@ -11,7 +11,7 @@
 随着苹果漏洞的完善，越狱在不久的将来，可能会不复存在
 
 
-## 手机芯片对照表
+## 芯片与手机
 
 | 芯片| 手机 | 系统兼容设备范围 |
 | :-: | :-: | :-: |
@@ -31,61 +31,35 @@
 
 带 ⭐ 的是有教程的，点击即可跳转
 
-> 除 `Dopamine` 为 `rootless无根越狱`，其他均为 `rootful有根越狱`
+> 除 `Dopamine` 和 `XinaA15` 为 `rootless无根越狱`，其他均为 `rootful有根越狱`
 
+::: details 关于有根和无根
+有根是 `读写` 系统权限，无根是`只读` 系统权限
 
-| 越狱工具 | 系统范围 | 说明 |
-|:-:|:-:|:-:|
-| [⭐Dopamine](./Dopamine.md) | A12-15 M1 / iOS 15.0-15.4.1 | - |
-| [⭐unc0ver](./unc0ver.md) | - | - |
-| [⭐checkra1n](./checkra1n.md) | - | - |
-| Taurine | - | - |
-| Palera1n | - | - |
-| Palera1n | - | - |
-| Freya | - | - |
-| XinaA15 | - | - |
+主要原因是由于苹果漏洞的修复，越狱已经举步维艰了
+:::
 
-
-
-Freya，手机端越狱，无需依赖电脑，支持 A11 及以下设备，目前只支持 iOS 15.0 - 15.1 系统。
-
-多巴胺越狱支持 iOS 15.0 - 15.4.1，Freya 越狱支持 iOS 15.0 - 15.1 系统，两者有什么不同呢？多巴胺越狱，仅仅支持 A12 - A15 设备。目前并不支持 A11 及以下设备。
-
-Freya，手机端越狱。越狱后可以正常使用面容或指纹。主要利用 kfd 漏洞。palera1n，依赖电脑。越狱后无法正常使用面容或指纹。主要利用 checkm8 漏洞。越狱无系统上限限制。
-
-https://github.com/pwned4ever/Freya15/releases
-
-一，XinaA15 官方网站XinaA15 官方网站：https://apt.xina.vip/XinaA15 2.0.15 版本官方下载地址：https://apt.xina.vip/Xina.kfd.2.0.15.ip
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Taurine
-
-### 1.简介
-
-俗称牛磺酸，是 CoolStar(酷星) 主导开发的越狱工具，现在他已离开越狱社区
-
-### 2.适用范围
-
-| 手机/系统| 6s-12系列 / SE-2 / X / XS系列 / XR (A9-A14) | 13-15系列 / SE 3 (A15-A16) |
+| 越狱工具| 系统范围 | 说明 |
 | :-: | :-: | :-: |
-| 14.0-14.8.1 | :heart: | ✘ |
-| 15.0及以上 | ✘ | ✘ |
+| [⭐Dopamine](./Dopamine.md) | A12-A15 M1<br>iOS 15.0 - 15.4.1 | [@opa334](https://twitter.com/opa334dev) 开发的IOS 15越狱工具，目前是主流 |
+| [XinaA15](https://apt.xina.vip/) | A12-A15 M1<br>iOS 15.0 - 15.4.1 | 国人 [@朱心浪]((https://twitter.com/xina520)) 独立开发的首款IOS 15越狱工具 |
+| |
+| [⭐unc0ver](./unc0ver.md) | A9-A14 iOS 11.0 - 14.3 /<br>A12-A13 IOS 14.6 - 14.8 | - |
+| [Taurine](https://taurine.app/) | A9-A14 iOS 14.0 - 14.8.1 | 俗称牛磺酸，是 [CoolStar(酷星)](https://twitter.com/CStar_OW) 主导开发的越狱工具，现在他已离开越狱社区，[参考我爱搞机网的教程](http://www.52ggi.cn/yynews/256.html) |
+| [Freya](https://github.com/pwned4ever/Freya15/releases) | A9-A11 iOS 15.0 - 15.1 | 利用 `KFD` 漏洞，越狱后可以正常使用面容或指纹 |
+| [⭐checkra1n](./checkra1n.md) | - | 俗称C1，需要电脑U盘引导，利用 `checkm8` 漏洞，越狱后无法正常使用面容或指纹 |
+| [Palera1n](https://palera.in/) | - | 需要电脑U盘引导，利用 `checkm8` 漏洞，越狱后无法正常使用面容或指纹，[参考爱思的教程](https://www.i4.cn/news_detail_52687.html) |
+| [Odyssey](https://theodyssey.dev/) | - | - |
+| [Electra](https://coolstar.org/electra/) | - | - |
+| [Chimera](https://chimera.coolstar.org/) | - | - |
 
-### 3.开始越狱
 
-与多巴胺非常相似，步骤请参照我爱搞机网的教程
 
-http://www.52ggi.cn/yynews/256.html
+
+
+
+
+
+
+
 

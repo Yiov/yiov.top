@@ -17,13 +17,6 @@ next: false
 
 ![](./checkra1n-01.png)
 
-::: details 关于Palera1n
-安装步骤基本雷同，可以参考爱思的教程
-
-https://www.i4.cn/news_detail_52687.html
-:::
-
-
 
 ## 适用范围
 

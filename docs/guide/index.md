@@ -88,7 +88,7 @@
 
 * [iPhone签名工具](../iPhone/sign/)
 
-* [iPhone越狱](../iPhone/jail​break/)
+* [iPhone越狱](../iPhone/Jailbreak/)
 
 * [MDC](../iPhone/mdc/)
 

@@ -355,6 +355,14 @@ Picasso就安装成功了，但是还打不开，要信任一下
 
 misaka是一款利用MDC/KFD漏洞开发的工具，且已上线了巨魔的辅助安装功能
 
+我们现在直接使用 [@Little_34306](https://x.com/Little_34306) 越南大佬提供的在线安装
+
+* iPhone: http://is.gd/34306misaka
+
+* iPad M1/M2: http://is.gd/34306misakaM1
+
+:::: details 在线安装地址无反应或失效？
+
 使用前我们需要先安装好自签工具：[牛蛙助手](./bullfrog.md)
 
 然后再下载 Misaka ：
@@ -403,6 +411,9 @@ https://github.com/straight-tamago/misaka/releases
 打开VPN后我们返回重新安装 misaka 即可
 
 ![](./TrollStore-misaka-08.png)
+
+::::
+
 
 misaka就安装成功了，但是还打不开，要信任一下
 

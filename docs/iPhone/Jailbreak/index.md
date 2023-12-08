@@ -42,7 +42,7 @@
 | 越狱工具| 系统范围 | 说明 |
 | :-: | :-: | :-: |
 | [⭐Dopamine](./Dopamine.md) | A12 - A15 M1<br>iOS 15.0 - 15.4.1 | [@opa334](https://twitter.com/opa334dev) 开发的IOS 15越狱工具，目前是主流 |
-| [XinaA15](https://apt.xina.vip/) | A12 - A15 M1<br>iOS 15.0 - 15.4.1 | 国人 [@朱心浪]((https://twitter.com/xina520)) 独立开发的首款IOS 15越狱工具 |
+| [XinaA15](https://apt.xina.vip/) | A12 - A15 M1<br>iOS 15.0 - 15.4.1 | 国人 [@朱心浪](https://twitter.com/xina520) 独立开发的首款IOS 15越狱工具 |
 | [Freya](https://github.com/pwned4ever/Freya15/releases) | A9 - A11 iOS 15.0 - 15.1 | 由 [@pwned4ever](https://twitter.com/shogunpwnd) 利用 `KFD` 漏洞开发的越狱工具，越狱后可以正常使用面容或指纹 |
 | |
 | [Taurine](https://taurine.app/) | A9 - A14 iOS 14.0 - 14.8.1 | 俗称牛磺酸，是 [CoolStar(酷星)](https://twitter.com/CStar_OW) 主导开发的越狱工具，现在他已离开越狱社区，[参考我爱搞机网的教程](http://www.52ggi.cn/yynews/256.html) |

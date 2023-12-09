@@ -18,7 +18,7 @@ next: false
 :::
 
 ::: tip 事件进展
-* [@Linus Henze](https://twitter.com/LinusHenze) 向苹果官方递交了漏洞 `CVE-2022-26766` / `CVE-2022-26763`
+* [@Linus Henze](https://twitter.com/LinusHenze) 向苹果官方递交了漏洞 [CVE-2022-26766](https://support.apple.com/zh-cn/102877) / [CVE-2022-26763](https://support.apple.com/zh-cn/102877)
 
 * 2022/7/2 [@Zhouwei Zhang](https://twitter.com/Zhouwei) 公开了利用此漏洞绕过签名的方法
 
@@ -29,7 +29,32 @@ next: false
 * 2023/11/28 [@opa334](https://twitter.com/opa334dev) 通过利用 [@Alfie](https://twitter.com/alfiecg_dev) 发现的 `cve-2023-41991` 漏洞，并获得他的帮助完成了 `TrollStore2`
 :::
 
+::: details 关于 CVE-2022-26766 和 CVE-2022-26763 漏洞
+```
+Security
 
+适用于：Apple TV 4K、Apple TV 4K（第 2 代）和 Apple TV HD
+
+影响：恶意 App 或许能够绕过签名验证
+
+描述：已通过改进检查解决证书解析问题
+
+CVE-2022-26766：Pinauten GmbH (pinauten.de) 的 Linus Henze
+
+---
+
+DriverKit
+
+适用于：Apple TV 4K、Apple TV 4K（第 2 代）和 Apple TV HD
+
+影响：恶意应用程序或许能够以系统权限执行任意代码
+
+描述：已通过改进边界检查解决越界访问问题。
+
+CVE-2022-26763：Pinauten GmbH (pinauten.de) 的 Linus Henze
+```
+
+:::
 
 ## 2.适用范围
 

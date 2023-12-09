@@ -103,7 +103,6 @@ export default defineConfig({
           { text: 'iPhone短信添加头像', link: '/iPhone/smscard/' },
           { text: '注册国外苹果Apple_ID步骤', link: '/iPhone/Apple_ID/' },
           { text: 'stay2给Safari安装油猴插件', link: '/iPhone/stay2/' },
-          { text: '玩机工具(必看)', link: '/iPhone/order/' },
           { text: '签名工具', link: '/iPhone/sign/' },
           { text: '越狱工具', link: '/iPhone/Jailbreak/' },
           { text: 'MDC', link: '/iPhone/mdc/' },

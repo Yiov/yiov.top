@@ -77,9 +77,16 @@ CVE-2023-32434：Kaspersky 的 Georgy Kucherin (@kucher1n)、Leonid Bezvershenko
 :::
 
 
-## 使用工具
 
-> 软件里打开看文字就会用了，是在不会可以看 [Cluckabunga的使用教程](https://mp.weixin.qq.com/s/PMtNLWHIBmI2vOVGw_k5vw)
+
+
+
+
+
+
+
+
+## 工具
 
 | KFD工具| 系统范围 | 说明 |
 | :-: | :-: | :-: |
@@ -92,8 +99,196 @@ CVE-2023-32434：Kaspersky 的 Georgy Kucherin (@kucher1n)、Leonid Bezvershenko
 
 
 
+## 演示
 
-## 工具
+> 软件需要全程使用 [科学上网](../../gfw/proxy/) ，否则打不开！
+
+
+我用 `misaka` 软件演示，misaka是一款利用MDC/KFD漏洞开发的工具
+
+现在直接使用 [@Little_34306](https://x.com/Little_34306) 越南大佬提供的在线安装
+
+* iPhone: http://is.gd/34306misaka
+
+* iPad M1/M2: http://is.gd/34306misakaM1
+
+
+::: details 在线安装地址无反应？
+需要使用 [科学上网](../../gfw/proxy/) ，才可以打开
+:::
+
+
+:::: details 安装地址失效，手动安装方式
+使用前我们需要先安装好自签工具：[牛蛙助手](./bullfrog.md)
+
+然后再下载 Misaka ：
+
+https://github.com/straight-tamago/misaka/releases
+
+::: tip 说明
+下载最新版的即可，截稿前演示版本3.2.5
+:::
+
+![](./TrollStore-misaka-01.png)
+
+下载完成后，点击浏览器 `下载` 按键，再点击已经下载好的 `misaka`
+
+![](./TrollStore-misaka-02.png)
+
+
+右上角分享，选择 `牛蛙助手`
+
+![](./TrollStore-misaka-03.png)
+
+点 `发送`，牛蛙打开后，选择 `导入`
+
+::: tip 说明
+如果勿点了取消，也可直接点 misaka.ipa 选择导入应用库
+:::
+
+![](./TrollStore-misaka-04.png)
+
+
+点击 `misaka` ，选择 `签名` - `立即签名`
+
+![](./TrollStore-misaka-05.png)
+
+
+在已签名的页卡中，选择刚签好名的 `misaka` 安装
+
+但牛蛙安装必须要开启`VPN和WIFI`，我们去打开
+
+![](./TrollStore-misaka-06.png)
+
+设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
+
+![](./TrollStore-misaka-07.png)
+
+打开VPN后我们返回重新安装 misaka 即可
+
+![](./TrollStore-misaka-08.png)
+
+::::
+
+
+misaka就安装成功了，但是还打不开，要信任一下
+
+![](./TrollStore-misaka-09.png)
+
+
+设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
+
+![](./TrollStore-misaka-10.png)
+
+![](./TrollStore-misaka-11.png)
+
+
+再次打开 misaka ，提示沙盒读写，点 `好`
+
+![](./TrollStore-misaka-12.png)
+
+允许 `无限局域网与蜂窝数据`，但是提示 `Network Erro`
+
+
+![](./TrollStore-misaka-13.png)
+
+这时我们需要使用 [科学上网](../../gfw/channel/) ，我用小火箭，机场用的超级机场
+
+![](./TrollStore-misaka-14.png)
+
+连接好再次打开 misaka，`Agree` 同意后进入主界面
+
+![](./TrollStore-misaka-15.png)
+
+
+左上角 Setting - App Language
+
+![](./TrollStore-misaka-16.png)
+
+选择 `zh_CN` 完成后，自动退出，再次进入就能看到已经汉化了，下滑可退出页面
+
+
+![](./TrollStore-misaka-17.png)
+
+
+
+在 misaka 设置中，请根据自己的系统选择模式！
+
+::: warning 参照表
+KFD：IOS 16.2-16.5系统
+
+MDC：IOS 15.0-16.1.2系统
+
+No Exploit：无漏洞(IOS 16.5及以上系统)
+:::
+
+
+![](./TrollStore-misaka-18.png)
+
+
+底部软件源，右上角默认源，点 `misaka.app` 安装一个插件试试
+
+01.png
+
+这里我就选虚拟定位，进去后点 `get`
+
+02.png
+
+显示队列中了，点一下底部查看，安装确认
+
+03.png
+
+安装成功后，在底部软件包里可以看到
+
+04.png
+
+点 `Simulation Start` 开始模拟位置，在地图上选择你要定位的位置，close关闭
+
+05.png
+
+插件有对勾就表示生效了，微信定位也是变动了
+
+::: tip 说明
+有些插件是需要注销后，才生效，具体一插件说明为准
+:::
+
+06’png
+
+
+不用了记得来关闭，除了点 `Simulation End` 结束模拟外，还建议长按关闭插件
+
+07.png
+
+部分插件是没有结束开关的，所以通过长按取消对勾就好，养成好习惯
+
+08.png
+
+不想要插件了，长按卸载，点开底部队列表，确认卸载即可
+
+09.png
+
+10.png
+
+::: details 疑问1：选不了，这里图标是灰的
+那是因为你没有安装这个应用，去App Store下载即可
+:::
+
+::: details 疑问2：提示错误2或1
+确保你的科学上网软件没有掉，那就重启手机，再试一次
+
+或在设置-隐私与安全中打开开发者模式
+:::
+
+
+## 其他工具
+
+::: danger 注意
+iOS 15 系统，请勿使用灵动岛功能，会白苹果！
+
+iOS 16以下系统请勿使用灵动岛，会白苹果
+
+请勿轻易尝试修改分辨率，操作失误会白苹果
+:::
 
 ### 其他
 
@@ -112,7 +307,26 @@ CVE-2023-32434：Kaspersky 的 Georgy Kucherin (@kucher1n)、Leonid Bezvershenko
 
 * [PiP Status Bar：悬浮显示电池百分比 丨 @Phu Do 丨 PhucDo源](https://straight-tamago.github.io/misaka/?repo=https://phucdo-repo.pages.dev/repo.json&tweak=com.dobabaophuc.pipstt1)
 
-* NoVuInTools：实现电量百分比 丨 Dekotas源
+* [NoVuInTools：实现电量百分比 丨 @DekotasTM 丨 Dekotas源](https://straight-tamago.github.io/misaka/?repo=https://raw.githubusercontent.com/hanabiADHD/DekotasMirror/main/dekotas.json&tweak=mirror.dekotastm.novulntools)
+
+* [NoVulnTools2：系统动画加速 丨 @tyler1029 丨 EPOSbox 源](https://straight-tamago.github.io/misaka/?repo=https://raw.githubusercontent.com/EPOS05/EPOSbox/main/misaka.json&tweak=com.epos.novulntools2)
+
+* [JBJFToolBox：让设备一键进入监督 丨 @jbjf 丨 misaka源](https://straight-tamago.github.io/misaka/?repo=https://raw.githubusercontent.com/shimajiron/Misaka_Network/main/repo.json&tweak=com.jbjf.JBJFToolBox)
+
+* [CC Mode iOS 15: 更改控制中心 丨 @Phuc Do 丨 phucDo 源](https://straight-tamago.github.io/misaka/?repo=https://phucdo-repo.pages.dev/repo.json&tweak=com.dobabaophuc.ccmodios15)
+
+* [HideMamager：隐藏Dock栏等 丨 @YangJiii 丨 YangJiii 源](https://straight-tamago.github.io/misaka/?repo=https://yangjiii.tech/file/Repo/repo.json&tweak=com.yangjiii.hidemanager)
+
+* [Radar：在 iPhone 储存空间的系统显示更多使用信息 丨 @YangJiii 丨 YangJiii 源](https://straight-tamago.github.io/misaka/?repo=https://yangjiii.tech/file/Repo/repo.json&tweak=com.yangjiii.radar)
+
+* [LocationSimulator：虚拟定位 丨 @straight-tamago 丨 misaka 源](https://straight-tamago.github.io/misaka/?repo=https://raw.githubusercontent.com/shimajiron/Misaka_Network/main/repo.json&tweak=com.straight-tamago.locationsimulator)
+
+* [Plampy UI：控制中心图标美化 丨 @YangJiii 丨 YangJiii 源](https://straight-tamago.github.io/misaka/?repo=https://yangjiii.tech/file/Repo/repo.json&tweak=com.yangjiii.plampyuicc)
+
+* [Pulsar Control Center UI：控制中心图标美化 丨 @Phuc Do 丨 PhucDo 源](https://straight-tamago.github.io/misaka/?repo=https://phucdo-repo.pages.dev/repo.json&tweak=com.dobabaophuc.pulsarCC)
+
+
+
 
 
 

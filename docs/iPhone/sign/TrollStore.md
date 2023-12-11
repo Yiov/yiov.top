@@ -386,8 +386,13 @@ misaka是一款利用MDC/KFD漏洞开发的工具，且已上线了巨魔的辅�
 
 * iPad M1/M2: http://is.gd/34306misakaM1
 
-:::: details 在线安装地址无反应或失效？
 
+::: details 在线安装地址无反应？
+需要使用 [科学上网](../../gfw/proxy/) ，才可以打开
+:::
+
+
+:::: details 安装地址失效，手动安装方式
 使用前我们需要先安装好自签工具：[牛蛙助手](./bullfrog.md)
 
 然后再下载 Misaka ：
@@ -461,7 +466,7 @@ misaka就安装成功了，但是还打不开，要信任一下
 
 ![](./TrollStore-misaka-13.png)
 
-这时我们需要使用 [科学上网](../../gfw/channel/) ，我用小火箭，机场用的超级机场
+这时我们需要使用 [科学上网](../../gfw/proxy/) ，我用小火箭，机场用的超级机场
 
 ![](./TrollStore-misaka-14.png)
 
@@ -678,7 +683,7 @@ safari下载的文件路径：icloud云盘-下载
 
 ---
 
-* [AppsDump2：巨魔非全权限砸壳/虚拟定位 丨 @bswbw](https://www.mediafire.com/file/8fv65905s3iya73/AppDump2_2.0.2.ipa/file) 丨 [TG群](https://t.me/gblwjb)
+* [AppsDump2：巨魔非全权限砸壳/虚拟定位 丨 @bswbw](https://www.mediafire.com/file/ch7dmzw8cnb0g0y/AppDump2_2.0.3.ipa/file) 丨 [TG群](https://t.me/gblwjb)
 
 * [TrollDecrypt：巨魔非全权限砸壳](https://github.com/donato-fiore/TrollDecrypt/releases) 丨 [秋名山汉化版v1.1.5](https://www.123pan.com/s/3LWcVv-dbLrh.html)
 
@@ -786,7 +791,9 @@ safari下载的文件路径：icloud云盘-下载
 
 请先用巨魔安装好 [轻松签](https://esign.yyyue.xyz/)
 
-然后下载最新版的官方包：https://github.com/opa334/TrollStore/releases
+然后下载最新版的官方包
+
+https://github.com/opa334/TrollStore/releases
 
 ![](./TrollStore-06.png)
 

@@ -1,8 +1,7 @@
 # 注册国外苹果Apple ID
 
-::: warning 更新时间
-最近更新：2022-10-15
-:::
+> 更新时间：2022-10-15
+
 
 步骤其实很简单：正常注册 - 切换地区- 完成
 
@@ -24,7 +23,7 @@
 
 
 
-## 1.注册中国ID账号
+## 1.注册账号
 
 
 
@@ -58,7 +57,7 @@
 
 
 
-## 2.更改地区信息
+## 2.更改地区
 
 
 个人信息 - 国家或地区 - 更改国家或地区
@@ -82,29 +81,29 @@
 ![](./appleid-10.png)
 
 
-#### 备用信息生成
+::: details 备用信息生成
 
 * 地址生成大全：[http://www.shenfendaquan.com/](http://www.shenfendaquan.com/)
 
 * FakeNameGenerator：[https://www.fakenamegenerator.com/](https://www.fakenamegenerator.com/)
-
-
-
-
-#### 免税州
-
-
-
-::: tip 说明
-为了方便后续自己充值使用，免税州购买应用不扣税
 :::
 
-* 阿拉斯加州（Alaska）
-* 特拉华州（Delaware）
-* 蒙大拿州（Montana）
-* 新罕布什尔州（New Hampshire）
-* 俄勒冈州（Oregon）
 
+
+为了方便后续自己充值使用，免税州购买应用不扣税
+
+
+::: details 免税州
+* 阿拉斯加州（Alaska）
+
+* 特拉华州（Delaware）
+
+* 蒙大拿州（Montana）
+
+* 新罕布什尔州（New Hampshire）
+
+* 俄勒冈州（Oregon）
+:::
 
 免税州及城市参考：[https://www.googlevoice.cn/us-5-tax-free-state/](https://www.googlevoice.cn/us-5-tax-free-state/)
 
@@ -135,8 +134,7 @@
 
 
 
-## 3.登录APP Store
-
+## 3.登录
 
 
 一定要登录一次！！！打开App store 右上头像 - 输入账号登录
@@ -165,29 +163,39 @@ OK了，现在在应用商店，下载你想要的APP即可
 
 
 
-## 4.拓展使用：充值
+## 4.拓展：充值
 
 
-推荐的两个途径
+推荐：支付宝直接购买
 
-> 注：不想买花钱APP的无视
+> 不想花钱买App的可以不用充值
+
+::: details 其他购买途径
 
 * 闲鱼搜：美国礼品卡、itune实体卡
 
-* OFFGAMERS官网：[https://www.offgamers.com/cn/cn/itunes-gift-card/](https://www.offgamers.com/cn/cn/itunes-gift-card/)
+* OFFGAMERS官网购买：[https://www.offgamers.com/cn/cn/itunes-gift-card/](https://www.offgamers.com/cn/cn/itunes-gift-card/)
+:::
 
+打开支付宝，切换定位 `拉斯维加斯`，中间滚动栏 `大牌礼卡`，更多折扣礼品卡
 
-打开商店 - 头像 - Redeem Gift Card - 底部输入兑换码
+![](./appleid-20.png)
 
-::: warning 注意
+选择 `App Store & iTunes USA` 充值，金额自定义，立即购买
+
+![](./appleid-21.png)
+
+购买完成后，打开应用商店 - 头像 - Redeem Gift Card - 底部输入兑换码
+
+::: details 提示报错
 若提示：Error:This code has already been redeemed
 
 兑换码已经被用过了，找店家换
 :::
 
-![](./appleid-20.png)
+![](./appleid-22.png)
 
-![](./appleid-21.png)
+![](./appleid-23.png)
 
 
 

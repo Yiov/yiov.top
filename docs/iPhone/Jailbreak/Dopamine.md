@@ -677,6 +677,7 @@ TG群：https://t.me/lanmaoios
 
 * Fallen：让 iPhone 雪花飘落插件
 
+* FrendaCC：控制中心图标美化
 
 
 

@@ -179,6 +179,44 @@
 
 
 
+:::: details 点击查看 其它获取方式
+
+1.TG群分享
+
+有很多白嫖节点分享群，请参照 [TG搜：白嫖](https://tgsou.me/findtg/?keyword=%E7%99%BD%E5%AB%96)
+
+
+
+2.爬虫搜索
+
+* [FOFA搜索引擎](https://fofa.so/)(凉了)
+
+
+* [zoomeye 钟馗之眼](https://www.zoomeye.org/)「需注册账号」
+
+
+![](./zoomeye.png)
+
+搜索 `title:"Free Proxies"` ，点黑色小箭头进去
+
+```
+title:"Free Proxies"
+```
+
+![](./zoomeye-1.png)
+
+
+这种就是搭建好了的，我们直接复制订阅，使用即可
+
+::: tip 注意
+如果进来没有这个页面，说明没有搭建，找下一个即可
+:::
+
+![](./zoomeye-2.png)
+
+::::
+
+
 
 
 ## 订阅转换

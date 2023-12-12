@@ -1,8 +1,7 @@
 # Filza文件管理器破解
 
-::: warning 更新时间
-最近更新：2022-12-11
-:::
+> 更新时间：2022-12-11
+
 
 
 ::: danger 最新消息
@@ -17,8 +16,6 @@ Filza破解版已出，直接使用而且可以联网，首发自 **@巨魔e族*
 
 
 
-本文章参考威锋教程：[https://www.feng.com/post/13616773](https://www.feng.com/post/13616773)
-
 
 ## 安装Filza
 
@@ -26,6 +23,11 @@ Filza破解版已出，直接使用而且可以联网，首发自 **@巨魔e族*
 
 Filza官网：[https://www.tigisoftware.com/default/?p=439](https://www.tigisoftware.com/default/?p=439)
 
+
+[巨魔用户](#巨魔用户) 和 [越狱用户](#越狱用户) 安装方式不同，请按需选择
+
+
+---
 
 
 ### 巨魔用户
@@ -44,7 +46,7 @@ Filza官网：[https://www.tigisoftware.com/default/?p=439](https://www.tigisoft
 ![](./Filza-03.png)
 
 
-
+---
 
 ### 越狱用户
 
@@ -98,9 +100,9 @@ http://tigisoftware.com/cydia/
 
 我们先计算激活码，再回来填值
 
-* 「已挂」在线计算激活码：[http://106.55.39.169/?SN=](http://106.55.39.169/?SN=)
+* ~~「已挂」在线计算激活码：[http://106.55.39.169/?SN=](http://106.55.39.169/?SN=)~~
 
-* 电脑计算激活码：[https://www.123pan.com/s/3LWcVv-Zbzrh.html](https://www.123pan.com/s/3LWcVv-Zbzrh.html)
+* 电脑计算激活码：https://www.123pan.com/s/3LWcVv-Zbzrh.html
 
 ::: tip 说明
 Loader1.0/Filza1.2任选其一，因为教程较早，使用的Loader1.0
@@ -125,15 +127,6 @@ Loader1.0/Filza1.2任选其一，因为教程较早，使用的Loader1.0
 自动退出，重新打开Filza - 设置 - 激活状态显示 `完整版` 破解完成
 
 ![](./Filza-12.png)
-
-
-
-## 特别鸣谢
-
-* [Filza](https://www.tigisoftware.com/default/?p=439) 「文件管理器」
-
-
-
 
 
 

@@ -1,27 +1,19 @@
 # 机场channel大全一览表
 
-::: warning 更新时间
-最近更新：2023-6-1
-
-注：本文长期更新 ...
-:::
-
-由于机场众多且杂乱，为了将白嫖进行到极致，于是对低价机场进行筛选
+> 更新时间：2023-6-1
 
 
-* [科学上网工具及使用方法](../proxy/)
 
-* [机场直连/中转/BGP的区别](https://baiyunju.cc/9413)
+## 前言
 
-* [品云机场导航](https://52.mk/)
+如果你还没有工具，请先下载对应的使用客户端 [科学上网工具及使用方法](../proxy/)
 
 
-## 白嫖机场一览表
+
+## 白嫖机场
 
 ::: tip 说明
 不保证机场主会调整，具体以注册后的情况为准
-
-每隔一个月时间会重新注册账号，检测套餐是否变更
 :::
 
 
@@ -43,7 +35,7 @@
 
 
 
-
+---
 
 
 ### 50G
@@ -61,7 +53,7 @@
 
 
 
-
+---
 
 
 
@@ -93,11 +85,48 @@
 * [老习VPN小熊α机场 - 注册送每月5G - 均速2.5m/s](https://dh.timeswath.uk/) 丨 [TG群](https://t.me/limccloud)
 
 
+---
+
+### 白嫖节点
+
+除了机场，我们还可以找别人分享的节点
+
+
+在 [TG搜：白嫖](https://tgsou.me/findtg/?keyword=%E7%99%BD%E5%AB%96) 上找分享白嫖节点的TG群，不过失效快
+
+
+我们可以直接使用爬虫搜索
+
+* ~~[FOFA搜索引擎](https://fofa.so/)(凉了)~~
+
+
+* [zoomeye 钟馗之眼](https://www.zoomeye.org/)「需注册账号」
+
+
+![](./channel-zoomeye-01.png)
+
+搜索 `title:"Free Proxies"` ，点黑色小箭头进去
+
+```
+title:"Free Proxies"
+```
+
+![](./channel-zoomeye-02.png)
+
+
+这种就是搭建好了的，我们直接复制订阅，使用即可
+
+::: tip 注意
+如果进来没有这个页面，说明没有搭建，找下一个即可
+:::
+
+![](./channel-zoomeye-03.png)
 
 
 
 
-## 付费机场一览表
+
+## 付费机场
 
 
 * [三毛机场 - 9元/年200G/月](https://xn--ehqx7tcnnope.com/) 丨 [TG群](https://t.me/sanmaojichang)
@@ -169,66 +198,16 @@
 
 
 
-
-
-
-
-## 不限时
+## 不限时机场
 
 * [腾讯云Tencent - 不限时7元100G](https://www.tencent.cfd/) 丨 [TG群](https://t.me/tencent_cfd)
 
 
 
-:::: details 点击查看 其它获取方式
-
-1.TG群分享
-
-有很多白嫖节点分享群，请参照 [TG搜：白嫖](https://tgsou.me/findtg/?keyword=%E7%99%BD%E5%AB%96)
 
 
+## 相关知识
 
-2.爬虫搜索
+* [机场直连/中转/BGP的区别](https://baiyunju.cc/9413)
 
-* [FOFA搜索引擎](https://fofa.so/)(凉了)
-
-
-* [zoomeye 钟馗之眼](https://www.zoomeye.org/)「需注册账号」
-
-
-![](./zoomeye.png)
-
-搜索 `title:"Free Proxies"` ，点黑色小箭头进去
-
-```
-title:"Free Proxies"
-```
-
-![](./zoomeye-1.png)
-
-
-这种就是搭建好了的，我们直接复制订阅，使用即可
-
-::: tip 注意
-如果进来没有这个页面，说明没有搭建，找下一个即可
-:::
-
-![](./zoomeye-2.png)
-
-::::
-
-
-
-
-## 订阅转换
-
-TG些订阅节点和机场格式，app不支持，我们就可以用链接转换
-
-* [Shawn](https://dove.589669.xyz/web)
-
-* [fengguo](https://sub.feng666.tk/)
-
-* [碧海](https://sub.bihai.cf/)
-
-* [Saraphine](https://sub.saraphine.cf/)
-
-* [cycxtit](https://subs.cycxtit.ga/)
+* [品云机场导航](https://52.mk/)

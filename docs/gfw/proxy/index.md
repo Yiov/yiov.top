@@ -9,9 +9,9 @@
 
 不推荐使用任何VPN以及破解的VPN，因为会被监管审计，小心说错话被请去喝茶
 
-* 苹果推荐：[⭐小火箭](#苹果使用)
+* 苹果推荐：[小火箭](#iphone)
 
-* 安卓推荐：[⭐Clash](#安卓使用)
+* 安卓推荐：[Clash](#android)
 
 
 
@@ -21,7 +21,7 @@
 
 ### iPhone
 
-* [Shadowrocket·小火箭：美区$5.99](https://apps.apple.com/us/app/shadowrocket/id932747118)
+* [Shadowrocket·小火箭：美区$5.99](https://apps.apple.com/us/app/shadowrocket/id932747118) 丨 [⭐点我直达教程](#苹果使用)
 
 * [QuantumultX·圈X：美区$7.99](https://apps.apple.com/us/app/quantumult-x/id1443988620)
 
@@ -47,7 +47,7 @@
 ### Android
 
 
-* [Clash：小猫咪，作者@Kr328关库的备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFA)
+* [Clash：小猫咪，作者@Kr328关库的备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFA)  丨 [⭐点我直达教程](#安卓使用)
 
 * [V2rayN](https://github.com/2dust/v2rayNG/releases)
 
@@ -171,7 +171,7 @@ IOS端配合 巨魔助手安装 `Apps Manager` 抹除数据可无限刷
 选择对应的工具，我这里选 `shadowrocket`，跳转后点右上角保存
 
 ::: details 没有跳转到小火箭
-点复制订阅，打开小火箭，右上角+号添加保存即可
+点复制订阅地址，打开小火箭，右上角+号添加保存即可
 
 ![](./proxy-03.png)
 :::

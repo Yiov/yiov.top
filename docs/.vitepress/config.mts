@@ -90,7 +90,7 @@ export default defineConfig({
         text: '安卓玩机',
         collapsed: true,
         items: [
-          { text: '手机抓包工具安装及使用', link: '/Android/capture/' },
+          { text: '安卓抓包工具安装及使用', link: '/Android/HttpCanary/' },
           { text: '小米线刷降级破MIUI限制', link: '/Android/miui/' },
           { text: '小米下载国外版主题并提取', link: '/Android/mi_theme/' },
         ],
@@ -101,6 +101,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'iPhone短信添加头像', link: '/iPhone/smscard/' },
+          { text: '苹果抓包工具安装及使用', link: '/iPhone/Stream/' },
           { text: '注册国外苹果Apple_ID步骤', link: '/iPhone/Apple_ID/' },
           { text: 'stay2给Safari安装油猴插件', link: '/iPhone/stay2/' },
           { text: '签名工具', link: '/iPhone/sign/' },

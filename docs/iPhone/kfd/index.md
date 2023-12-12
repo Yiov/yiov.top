@@ -90,7 +90,7 @@ CVE-2023-32434：Kaspersky 的 Georgy Kucherin (@kucher1n)、Leonid Bezvershenko
 
 | KFD工具| 系统范围 | 说明 |
 | :-: | :-: | :-: |
-| [Misaka](https://github.com/straight-tamago/misaka/releases) | iOS 15.7.2 - 15.7.6 /<br>iOS 16.2 - 16.6 Beta1 | [@straight-tamago](https://twitter.com/straight_tamago) 开发的多功能插件商店 |
+| [Misaka](https://github.com/straight-tamago/misaka/releases) | iOS 15.7.2 - 15.7.6 /<br>iOS 16.2 - 16.6 Beta1 | [@straight-tamago](https://twitter.com/straight_tamago) 开发的多功能插件商店，[其他插件使用介绍](#misaka商店) |
 | [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) | [A11](#适用范围) iOS 15.0 - 15.7.6 /<br>[A12及以上](#适用范围) iOS 15.0 - 16.5 | [@Lrdsnow](https://twitter.com/Lrdsnow101) 开发的插件商店，同时支持 [Picasso](https://repo.sourceloc.net/) 和 [Misaka](https://github.com/straight-tamago/misaka/releases) 软件源的包管理器 |
 | [SimpleKFD](https://github.com/Lrdsnow/SimpleKFD/releases) | [A11](#适用范围) iOS 16.0-16.5 /<br>[A12及以上](#适用范围) 15.0-15.7.6 / 16.6 Beta1 | [@Lrdsnow](https://twitter.com/Lrdsnow101) 利用KFD漏洞开发的工具箱 |
 | [Cluckabunga](https://github.com/leminlimez/Cluckabunga/releases) | iOS 16.2-16.5 /<br>16.6 Beta1 | MDC的奶牛开发者 [@LeminLimez](https://twitter.com/LeminLimez) 利用KFD漏洞开发的工具箱 |
@@ -108,14 +108,16 @@ CVE-2023-32434：Kaspersky 的 Georgy Kucherin (@kucher1n)、Leonid Bezvershenko
 
 现在直接使用 [@Little_34306](https://x.com/Little_34306) 越南大佬提供的在线安装
 
+::: details 在线安装地址无反应？
+需要使用 [科学上网](../../gfw/proxy/) ，才可以打开
+:::
+
+
 * iPhone: http://is.gd/34306misaka
 
 * iPad M1/M2: http://is.gd/34306misakaM1
 
 
-::: details 在线安装地址无反应？
-需要使用 [科学上网](../../gfw/proxy/) ，才可以打开
-:::
 
 
 :::: details 安装地址失效，手动安装方式
@@ -129,16 +131,16 @@ https://github.com/straight-tamago/misaka/releases
 下载最新版的即可，截稿前演示版本3.2.5
 :::
 
-![](./TrollStore-misaka-01.png)
+![](./kfd-misaka-01.png)
 
 下载完成后，点击浏览器 `下载` 按键，再点击已经下载好的 `misaka`
 
-![](./TrollStore-misaka-02.png)
+![](./kfd-misaka-02.png)
 
 
 右上角分享，选择 `牛蛙助手`
 
-![](./TrollStore-misaka-03.png)
+![](./kfd-misaka-03.png)
 
 点 `发送`，牛蛙打开后，选择 `导入`
 
@@ -146,69 +148,74 @@ https://github.com/straight-tamago/misaka/releases
 如果勿点了取消，也可直接点 misaka.ipa 选择导入应用库
 :::
 
-![](./TrollStore-misaka-04.png)
+![](./kfd-misaka-04.png)
 
 
 点击 `misaka` ，选择 `签名` - `立即签名`
 
-![](./TrollStore-misaka-05.png)
+![](./kfd-misaka-05.png)
 
 
 在已签名的页卡中，选择刚签好名的 `misaka` 安装
 
 但牛蛙安装必须要开启`VPN和WIFI`，我们去打开
 
-![](./TrollStore-misaka-06.png)
+![](./kfd-misaka-06.png)
 
 设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
 
-![](./TrollStore-misaka-07.png)
+![](./kfd-misaka-07.png)
 
 打开VPN后我们返回重新安装 misaka 即可
 
-![](./TrollStore-misaka-08.png)
+![](./kfd-misaka-08.png)
 
 ::::
 
 
 misaka就安装成功了，但是还打不开，要信任一下
 
-![](./TrollStore-misaka-09.png)
+![](./kfd-misaka-09.png)
 
 
 设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
 
-![](./TrollStore-misaka-10.png)
+![](./kfd-misaka-10.png)
 
-![](./TrollStore-misaka-11.png)
+![](./kfd-misaka-11.png)
 
 
 再次打开 misaka ，提示沙盒读写，点 `好`
 
-![](./TrollStore-misaka-12.png)
+::: details 打开闪退
+设置-隐私与安全中打开 `开发者模式`
+:::
+
+
+![](./kfd-misaka-12.png)
 
 允许 `无限局域网与蜂窝数据`，但是提示 `Network Erro`
 
 
-![](./TrollStore-misaka-13.png)
+![](./kfd-misaka-13.png)
 
 这时我们需要使用 [科学上网](../../gfw/channel/) ，我用小火箭，机场用的超级机场
 
-![](./TrollStore-misaka-14.png)
+![](./kfd-misaka-14.png)
 
 连接好再次打开 misaka，`Agree` 同意后进入主界面
 
-![](./TrollStore-misaka-15.png)
+![](./kfd-misaka-15.png)
 
 
 左上角 Setting - App Language
 
-![](./TrollStore-misaka-16.png)
+![](./kfd-misaka-16.png)
 
 选择 `zh_CN` 完成后，自动退出，再次进入就能看到已经汉化了，下滑可退出页面
 
 
-![](./TrollStore-misaka-17.png)
+![](./kfd-misaka-17.png)
 
 
 
@@ -223,61 +230,54 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 :::
 
 
-![](./TrollStore-misaka-18.png)
+![](./kfd-misaka-18.png)
 
 
 底部软件源，右上角默认源，点 `misaka.app` 安装一个插件试试
 
-01.png
+![](./kfd-misaka-19.png)
 
 这里我就选虚拟定位，进去后点 `get`
 
-02.png
+![](./kfd-misaka-20.png)
 
 显示队列中了，点一下底部查看，安装确认
 
-03.png
+![](./kfd-misaka-21.png)
 
 安装成功后，在底部软件包里可以看到
 
-04.png
+![](./kfd-misaka-22.png)
 
 点 `Simulation Start` 开始模拟位置，在地图上选择你要定位的位置，close关闭
 
-05.png
+![](./kfd-misaka-23.png)
 
 插件有对勾就表示生效了，微信定位也是变动了
 
 ::: tip 说明
-有些插件是需要注销后，才生效，具体一插件说明为准
+有些插件是需要应用注销后才生效，具体一插件说明为准
 :::
 
-06’png
+![](./kfd-misaka-24.png)
 
 
 不用了记得来关闭，除了点 `Simulation End` 结束模拟外，还建议长按关闭插件
 
-07.png
-
 部分插件是没有结束开关的，所以通过长按取消对勾就好，养成好习惯
 
-08.png
+![](./kfd-misaka-25.png)
+
+
 
 不想要插件了，长按卸载，点开底部队列表，确认卸载即可
 
-09.png
+![](./kfd-misaka-26.png)
 
-10.png
+![](./kfd-misaka-27.png)
 
-::: details 疑问1：选不了，这里图标是灰的
-那是因为你没有安装这个应用，去App Store下载即可
-:::
 
-::: details 疑问2：提示错误2或1
-确保你的科学上网软件没有掉，那就重启手机，再试一次
 
-或在设置-隐私与安全中打开开发者模式
-:::
 
 
 ## 其他工具
@@ -285,18 +285,16 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 ::: danger 注意
 iOS 15 系统，请勿使用灵动岛功能，会白苹果！
 
-iOS 16以下系统请勿使用灵动岛，会白苹果
+iOS 16 以下系统，请勿使用灵动岛，会白苹果！
 
-请勿轻易尝试修改分辨率，操作失误会白苹果
+请勿轻易尝试修改分辨率，操作失误，会白苹果！
 :::
 
-### 其他
-
-* [KFDFontOverwrite：KFD漏洞开发，支持iOS 16.2-16.5 / 16.6 Beta1 丨 @htrowii](https://github.com/hrtowii/WDBFontOverwrite)
-
-* [KFDFontOverwrite：KFD漏洞开发，支持iOS 16.2-16.5 / 16.6 Beta1 丨 @Little_34306](https://github.com/34306/iPA/releases)
-
 * [Blacklist KFD：修复企业证书黑名单 丨 @appinstalleriosgh](https://appinstalleriosgh.github.io/Sign/Blacklist%20KFD.ipa)
+
+* [KFDFontOverwrite：KFD漏洞开发的字体管理工具，支持iOS 16.2-16.5 / 16.6 Beta1 丨 @htrowii](https://github.com/hrtowii/WDBFontOverwrite)
+
+* [kfd_stuffs：越南大佬编译的KFD漏洞工具，支持iOS 15.0-16.5 / 16.6 Beta1 丨 @Little_34306](https://github.com/34306/iPA/releases)
 
 
 ### Misaka商店

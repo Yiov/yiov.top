@@ -68,29 +68,32 @@
 
 
 
-## 手机相关
+## 安卓相关
 
-* [手机抓包工具安装及使用](../Android/capture/)
+* [安卓抓包工具安装及使用](../Android/HttpCanary/)
 
 * [小米线刷降级破MIUI限制](../Android/miui/)
 
 * [小米下载国外版主题并提取](../Android/mi_theme/)
 
+
+## 苹果相关
+
 * [iPhone短信添加头像](../iPhone/smscard/)
+
+* [苹果抓包工具安装及使用](../iPhone/Stream/)
 
 * [注册国外苹果Apple_ID步骤](../iPhone/Apple_ID/)
 
 * [stay2给Safari安装油猴插件](../iPhone/stay2/)
 
----
-
 * [iPhone签名工具](../iPhone/sign/)
 
-* [iPhone越狱](../iPhone/Jailbreak/)
+* [iPhone越狱工具](../iPhone/Jailbreak/)
 
-* [MDC](../iPhone/mdc/)
+* [MDC漏洞工具](../iPhone/mdc/)
 
-* [KFD](../iPhone/kfd/)
+* [KFD漏洞侗剧](../iPhone/kfd/)
 
 * [IOS应用砸壳及插件注入](../iPhone/dump/)
 

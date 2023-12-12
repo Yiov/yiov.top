@@ -346,9 +346,9 @@ lxml
 京东的话，这里就是添加CK账号；其他APP就按脚本说明来
 
 ::: tip 注意
-[手机抓CK的教程](../../Android/capture/#_2-使用)
+[安卓手机抓CK的教程](../../Android/HttpCanary/index.md#京东ck)
 
-注：用Nvjdc(现已更名为方舟)可以不用抓
+[苹果手机抓CK的教程](../../iPhone/Stream/index.md#京东ck)
 :::
 
 

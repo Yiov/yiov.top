@@ -27,13 +27,10 @@ Markdown语法简明便捷，既弥补了传统纯文本缺少样式的不足，
 * PC端 ： [Typora·已收费](https://typoraio.cn/)丨[VSCode·免费](../VSCode/)
 
 
-
 * 手机端：[Mweb·IOS](https://zh.mweb.im/)丨[Markor·安卓](https://github.com/gsantner/markor/releases)
 
 
-
-
-* 网页端：[雷欧的前端客栈](https://www.xkboke.com/web-inn/onlineTool/markdown-online.html)丨[Marked Demo](https://marked.js.org/demo/)
+* 网页端：[Marked Demo](https://marked.js.org/demo/)
 
 
 
@@ -727,12 +724,14 @@ X~1~+X~2~=Y
 
 ## 换行
 
-回车只能换一行，多次换行可以用 `<br/>` 标签表示
+回车只能换一行，多次换行可以用 `<br>` 标签表示
 
 ::: tip 说明
-在VuePress中是无法被渲染，不可用
+在VuePress中直接使用 `<br>` ，不要使用结束标签 `<br/>`
+
+否则无法被渲染，不可用
 :::
 
 ```md
-<br/>
+<br>
 ```

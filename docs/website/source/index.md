@@ -83,7 +83,7 @@
 
 * [Wing](https://github.com/Tokinx/Wing) 丨 [DEMO](https://biji.io/)
 
-* [资源小站](https://github.com/Dr0ii/LockStore) 丨 [DEMO](http://www.lockstore.top/)
+* [Cowabunga 锁头资源站](https://github.com/Dr0ii/LockStore) 丨 [DEMO](http://www.lockstore.top/)
 
 * [夏柔：在线扒站工具](https://gitee.com/xiarou_admin/station-raking-tool) 丨 [DEMO](https://ba.aa1.cn/)
 
@@ -122,9 +122,6 @@
 
 
 * [账号分享模板](https://github.com/Yiov/static-share) 丨 [DEMO](https://yiov.github.io/static-share/)
-
-
-* [账号分享模板2](https://github.com/Yiov/static-share2) 丨 [DEMO](https://yiov.github.io/static-share2/)
 
 
 * [账号分享模板2](https://github.com/Yiov/static-share2) 丨 [DEMO](https://yiov.github.io/static-share2/)

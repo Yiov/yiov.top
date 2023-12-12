@@ -121,7 +121,7 @@ CVE-2023-32434：Kaspersky 的 Georgy Kucherin (@kucher1n)、Leonid Bezvershenko
 
 
 :::: details 安装地址失效，手动安装方式
-使用前我们需要先安装好自签工具：[牛蛙助手](./bullfrog.md)
+使用前我们需要先安装好自签工具：[牛蛙助手](../sign/bullfrog.md)
 
 然后再下载 Misaka ：
 

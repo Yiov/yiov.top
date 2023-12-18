@@ -93,7 +93,7 @@
 
 * [MDC漏洞工具](../iPhone/mdc/)
 
-* [KFD漏洞侗剧](../iPhone/kfd/)
+* [KFD漏洞工具](../iPhone/kfd/)
 
 * [IOS应用砸壳及插件注入](../iPhone/dump/)
 
@@ -161,10 +161,8 @@
 
 * [cloudflare注册使用](../website/cloudflare/)
 
-* wordpress主题汉化
-
 * [各类主题/模板/源码汇总](../website/source/)
 
-* [Vuepress文档搭建](https://yiov.github.io/vuepress2/)
+* wordpress主题汉化
 
 * web开发

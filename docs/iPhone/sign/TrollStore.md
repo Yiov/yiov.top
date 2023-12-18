@@ -26,10 +26,11 @@ next: false
 
 * 2022/10/6 [@Linus Henze](https://twitter.com/LinusHenze) 在OBTS会议上公开了 `Fugu15` 的全新越狱方式，[@opa334](https://twitter.com/opa334dev) 也通过他的帮助发布了全新的`TrollStore`工具
 
-* 2023/11/28 [@opa334](https://twitter.com/opa334dev) 通过利用 [@Alfie](https://twitter.com/alfiecg_dev) 发现的 `cve-2023-41991` 漏洞，并获得他的帮助完成了 `TrollStore2`
+* 2023/11/28 [@opa334](https://twitter.com/opa334dev) 通过利用 [@Alfie](https://twitter.com/alfiecg_dev) 发现的 [CVE-2023-41991](https://support.apple.com/zh-cn/106369
+) 漏洞，并获得他的帮助完成了 `TrollStore2`
 :::
 
-::: details 关于 CVE-2022-26766 和 CVE-2022-26763 漏洞
+::: details 关于 CVE-2022-26766 / CVE-2022-26763 和 CVE-2023-41991 漏洞
 ```
 Security
 
@@ -52,6 +53,18 @@ DriverKit
 描述：已通过改进边界检查解决越界访问问题。
 
 CVE-2022-26763：Pinauten GmbH (pinauten.de) 的 Linus Henze
+
+---
+
+Security
+
+适用于：iPhone XS 及更新机型、12.9 英寸 iPad Pro（第 2 代）及更新机型、10.5 英寸 iPad Pro、11 英寸 iPad Pro（第 1 代）及更新机型、iPad Air（第 3 代）及更新机型、iPad（第 6 代）及更新机型、iPad mini（第 5 代）及更新机型
+
+影响：恶意 App 或许能够绕过签名验证.有报告指出，在 iOS 16.7 之前发布的 iOS 版本中，这个问题可能已经遭到频繁利用；Apple 已知晓这一报告。
+
+描述：已解决证书验证问题。
+
+CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Google Threat Analysis Group 的 Maddie Stone 合作发现
 ```
 
 :::
@@ -268,7 +281,7 @@ https://repo.sourceloc.net/
 
 由于App下载需要进 [Discord](https://discord.com/invite/aYW54vZFpt) ，我将文件转存到网盘，下载即可
 
-https://www.123pan.com/s/3LWcVv-9bLrh.html
+https://www.123pan.com/s/3LWcVv-TjLrh.html
 
 ![](./TrollStore-picasso-04.png)
 
@@ -710,7 +723,7 @@ safari下载的文件路径：icloud云盘-下载
 
 ---
 
-* [电话助手：T9拨号 来电归属 | @xybp888](https://www.htv123.com/) 丨 [IOS16版](http://www.htv123.com/down/CallAssist_TrollStore16.ipa) 丨 [IOS15版](http://www.htv123.com/down/CallAssist_TrollStore.ipa)
+* [电话助手：T9拨号 来电归属 | @xybp888](https://www.htv123.com/) 丨 [IOS17版](https://www.htv123.com/down/CallAssist_TrollStore17_102.tipa) 丨 [IOS16版](https://www.htv123.com/down/CallAssist_TrollStore16_102.tipa) 丨 [IOS15版](http://www.htv123.com/down/CallAssist_TrollStore.ipa)
 
 * [AirTroller：强制隔空投送ipa 丨@sourcelocation](https://github.com/sourcelocation/AirTroller/releases)
 

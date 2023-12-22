@@ -1,82 +1,68 @@
 
 # Xshell终端连接服务器
 
-::: warning 更新时间
-最近更新：2021-11-17
+> 更新时间：2023-12-22
+
+
+
+## 简介
+
+Xshell是 NetSarang 公司旗下的一个安全终端模拟软件，用于远程连接服务器
+
+::: details 关于 CMD 和 PowerShell
+* 操作系统：可以分为 `kernel` (核心) 和 `Shell` (外壳) 两部分，shell位于系统外层，只要用于连接系统内部核心
+
+* Shell：分为图形shell和命令行shell，Windows系统桌面 `explorer.exe` (资源管理器) 是图形shell，而 `cmd` 是命令行shell
+
+* CMD：是 Command shell 的简写，仅用于执行Windows系统命令和批处理文件
+
+* PowerShell：是CMD的升级版，包含CMD所有功能且可跨平台使用
+
+* Xshell：不仅包含它们两个的所有功能，还能多窗口连接服务器，处理脚本等等
 :::
 
 
+## 常见工具
 
-## shell工具
-
-* 电脑端：[Xshell](https://www.netsarang.com/)、[FinalShell](http://www.hostbuf.com/)、[MobaXterm](https://mobaxterm.mobatek.net/)等等
-
-* 手机端：[Termius：苹果](https://apps.apple.com/cn/app/id549039908) 丨 [Termius：安卓](https://apkpure.com/cn/termius-ssh-and-sftp-client/com.server.auditor.ssh.client) 丨 [JuiceSSH：安卓](https://www.juicessh.com/changelog)
+带 ⭐ 的是有教程的，点击即可跳转
 
 
-本文仅演示 `Xshell` 安装教程
+* 电脑端：[⭐Xshell](#电脑端)、[FinalShell](http://www.hostbuf.com/)、[MobaXterm](https://mobaxterm.mobatek.net/) 等等
+
+* 手机端：[⭐Termius：苹果/安卓](#termius) 丨 [⭐JuiceSSH：安卓](#juicessh)
+
 
 ![](./Xshell-01.png)
 
 
 
+## 电脑端
 
-## 1.下载Xshell
+### 下载安装
 
 
-
-
-这里我们直接去官网下载免费版，也属于教育版
+Xshell官网：https://www.xshell.com/zh/all-downloads/
 
 ::: tip 说明
-不要在其他网站下载，否则过一段时间会结束体验期
+现在官网已经可以免费使用了
 :::
 
-Xshell官网：[https://www.netsarang.com/zh/all-downloads/](https://www.netsarang.com/zh/all-downloads/)
-
-
-进入页面后，下拉到底部，找到 `家庭/学校免费` ，点击
+进入页面后，点击 `所有下载 - 家庭/学校免费`
 
 
 ![](./Xshell-02.png)
 
 
-进来后，需要填写邮箱，一会要接受邮件，姓名随便
-
-::: tip 说明
-我这里只用Xshell，我只勾选了这一个，想都要的都勾选
-:::
+选择 `Xshell` 下载即可
 
 ![](./Xshell-03.png)
 
 
 
-填好后点下载，邮箱就会收到下载地址了
-
-![](./Xshell-04.png)
-
-
-
-
-打开链接即可下载
-
-::: tip 说明
-注：如果以前下载的Xshell，提示评估期已过，那就再来一遍
-:::
-
-![](./Xshell-05.png)
-
-
-
-
-
-## 2.安装Xshell
-
-
 
 下载好后，我们双击开始安装
 
-![](./Xshell-06.png)
+![](./Xshell-04.png)
 
 
 
@@ -84,40 +70,43 @@ Xshell官网：[https://www.netsarang.com/zh/all-downloads/](https://www.netsara
 
 点 `浏览`
 
-![](./Xshell-07.png)
+![](./Xshell-05.png)
 
 
 
 我们把C盘改成D盘，其他不要动，确定，下一步
 
+![](./Xshell-06.png)
+
+
+
+安装，直到完成
+
+![](./Xshell-07.png)
+
+
+打开后会要求注册，填好用户名和邮箱，提交
+
+关掉再打开即可，不需要真的去注册！
+
+
 ![](./Xshell-08.png)
 
 
 
-安装-直到完成，打开
-
-![](./Xshell-09.png)
-
-
-
-
-
-
-
-
-## 3.连接服务器
+### 连接服务器
 
 
 
 打开Xshell，左上-新建会话
 
-![](./Xshell-10.png)
+![](./Xshell-09.png)
 
 
 
 名称随便，主机填你的服务器 `公网IP` ，端口默认22
 
-![](./Xshell-11.png)
+![](./Xshell-10.png)
 
 
 
@@ -127,13 +116,13 @@ Xshell官网：[https://www.netsarang.com/zh/all-downloads/](https://www.netsara
 要是忘记了，去服务器控制台那里重置密码
 :::
 
-![](./Xshell-12.png)
+![](./Xshell-11.png)
 
 
 
 弹出主机密钥验证，接受保存就好
 
-![](./Xshell-13.png)
+![](./Xshell-12.png)
 
 
 
@@ -143,6 +132,17 @@ Xshell官网：[https://www.netsarang.com/zh/all-downloads/](https://www.netsara
 如果不小心X掉了，选择服务器，鼠标右键-打开
 :::
 
+![](./Xshell-13.png)
+
+
+
+root目录用 `~`,根目录用 `/`
+
+```
+cd /
+ls
+```
+
 ![](./Xshell-14.png)
 
 
@@ -150,29 +150,11 @@ Xshell官网：[https://www.netsarang.com/zh/all-downloads/](https://www.netsara
 
 
 
-
-## 其他拓展
-
+## 手机端
 
 
 
-### 1.查看目录列表
-
-```
-cd /
-ls
-```
-
-![](./Xshell-15.png)
-
-
-
-
-### 2.手机端远程SSH
-
-
-
-#### Termius
+### Termius
 
 根据自己的系统选择下载：[Termius：苹果](https://apps.apple.com/cn/app/id549039908) 丨 [Termius：安卓](https://apkpure.com/cn/termius-ssh-and-sftp-client/com.server.auditor.ssh.client)
 
@@ -183,7 +165,7 @@ ls
 安装好打开，点击 `Hosts` 再点右上角 `+`
 
 
-![](./Xshell-16.png)
+![](./Xshell-15.png)
 
 
 点 `New Host` ，填写信息后，save保存
@@ -196,21 +178,22 @@ ls
 `Password` 填服务器密码
 :::
 
-![](./Xshell-17.png)
+![](./Xshell-16.png)
 
 这样就登录成功了，点击当前标签也可关闭连接
 
+![](./Xshell-17.png)
+
+
+
+---
+
+### JuiceSSH
+
+仅限安卓，官网下载 [JuiceSSH](https://juicessh.com/) 或者 [蓝奏云](https://dzp.lanzouy.com/iMsuF0gb2dha)
+
+
 ![](./Xshell-18.png)
-
-
-
-
-#### JuiceSSH
-
-官网下载 [JuiceSSH](https://juicessh.com/) 或者 [蓝奏云](https://dzp.lanzouy.com/iMsuF0gb2dha)
-
-
-![](./Xshell-19.png)
 
 
 新建认证这里
@@ -223,7 +206,7 @@ ls
 填好后，右上对勾 `√` 确定
 :::
 
-![](./Xshell-20.png)
+![](./Xshell-19.png)
 
 
 
@@ -238,7 +221,7 @@ ls
 填好后，右上对勾 `√` 确定
 :::
 
-![](./Xshell-21.png)
+![](./Xshell-20.png)
 
 
 

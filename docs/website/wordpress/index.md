@@ -1,9 +1,7 @@
 # wordpress详细安装教程
 
 
-::: warning 更新时间
-最近更新：2022-7-18
-:::
+> 更新时间：2023-12-22
 
 
 wordpress官网：[https://cn.wordpress.org/](https://cn.wordpress.org/)
@@ -25,12 +23,10 @@ wordpress官网：[https://cn.wordpress.org/](https://cn.wordpress.org/)
 
 * [安装宝塔面板](../BT/)
 
-* 足够的耐心
 
 
 
-
-## 1.下载wordpress
+## 下载
 
 进入 [wordpress中国官网](https://cn.wordpress.org/) ，点击右上角获取 - 下载并安装 - 下载
 
@@ -42,7 +38,7 @@ wordpress官网：[https://cn.wordpress.org/](https://cn.wordpress.org/)
 
 
 
-## 2.添加站点
+## 添加站点
 
 
 打开宝塔面板后，点 网站-添加站点
@@ -67,7 +63,7 @@ wordpress官网：[https://cn.wordpress.org/](https://cn.wordpress.org/)
 
 
 
-## 3.上传wordpress
+## 上传
 
 
 
@@ -100,7 +96,7 @@ wordpress官网：[https://cn.wordpress.org/](https://cn.wordpress.org/)
 
 
 
-## 4.安装wordpress
+## 安装
 
 
 
@@ -130,12 +126,14 @@ wordpress官网：[https://cn.wordpress.org/](https://cn.wordpress.org/)
 ![](./wordpress-16.png)
 
 
-这样就完成了wordpress的所有安装
+
+
+## 登录
 
 进入了后台，外观-主题里找 或 上传主题
 
 ::: tip 说明
-我会整理一些自己喜欢的主题进来，进行参考
+我整理了一些自己喜欢的主题 [自行参考](../source/index.md#wordpress模板)
 :::
 
 后台的地址：[http://***.com/wp-admin/](http://***.com/wp-admin/)
@@ -146,7 +144,25 @@ wordpress官网：[https://cn.wordpress.org/](https://cn.wordpress.org/)
 
 
 
-## 特别鸣谢
+## 疑问解答
 
+#### 网站打不开，突然403了
 
-* [@wordpress中国](https://cn.wordpress.org/)
+很有可能是误删了wordpress文件，回收站也没有文件就只能重装，数据还在不要怕
+
+1.先备份
+
+* 首先打开宝塔 - 数据库，选择自己的网站 `备份数据库`
+
+* 在网站目录找到 `wp-config.php` 手动下载到电脑，这里是重要的恢复数据
+
+* 在 `wp-content/themes` 目录找到 `wordpress的主题文件夹` 打包并下载到电脑
+
+2.恢复
+
+* 清空网站目录，重新解压安装wordpress，数据库账户密码填和之前一样的
+
+* 在 `wp-content/themes` 目录上传刚备份的主题文件夹并解压，然后登录wordpress后台启用主题
+
+* 在电脑右键记事本打开刚备份的 `wp-config.php`，全选复制，粘贴到网站目录的 `wp-config.php` 文件中保存即可
+

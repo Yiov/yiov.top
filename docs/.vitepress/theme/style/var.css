@@ -46,12 +46,10 @@ h1 {
 
 /* 警告框 */
 .custom-block.warning {
-  /* border-color: #d97706; */
   border-color: var(--vp-c-yellow-2);
 }
 
 /* 危险框 */
 .custom-block.danger {
-  /* border-color: #f43f5e; */
   border-color: var(--vp-c-red-2);
 }

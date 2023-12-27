@@ -287,6 +287,8 @@ tg机器人目录：[https://botostore.com/bots/telegram/](https://botostore.com
 
 * [@File Store Bot：解除频道禁止转发保存的媒体机器人](https://t.me/GetFilesRoBot)
 
+* [@Group Help：群组管理机器人](https://t.me/GroupHelpBot)
+
 * [@ixdbot：查到群组管理员的用户名、id、昵称、管理权限等](https://t.me/ixdbot)
 
 * [@Lottery Bot V2：Telegram 中文公平抽奖机器人](https://t.me/tgLotteryBot)

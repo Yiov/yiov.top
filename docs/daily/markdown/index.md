@@ -1,8 +1,7 @@
 # Markdown的简单用法
 
-::: warning 更新时间
-最近更新：2022-1-7
-:::
+> 更新时间：2023-12-27
+
 
 
 ## 关于Markdown
@@ -20,17 +19,25 @@ Markdown语法简明便捷，既弥补了传统纯文本缺少样式的不足，
 
 ## 演示工具
 
+带 ⭐ 的是有教程的，点击即可跳转
 
-当然演示的软件和网站有很多，你自己去度娘找也可以
+::: tip 说明
+软件和网站有很多，本人只列了自己使用过的
+
+可以根据自己的使用习惯挑选
+:::
+
+| 软件 | 支持平台 | 是否收费 |
+|:-:|:-:|:-:|
+| [Typora](https://typoraio.cn/) | iOS / Mac / Windows / Linux | 收费 |
+| [Mweb](https://zh.mweb.im/) | iOS / Mac | 收费 |
+| |
+| [⭐VSCode](../VSCode/) | Mac / Windows / Linux | 免费 |
+| [Obsidian](https://obsidian.md/) | Android / iOS / Mac / Windows / Linux | 免费 |
+| [Joplin](https://github.com/laurent22/joplin/) | Android / iOS / Mac / Windows / Linux | 免费 |
+| [Marked Demo](https://marked.js.org/demo/) | 网页端 | 免费 |
 
 
-* PC端 ： [Typora·已收费](https://typoraio.cn/)丨[VSCode·免费](../VSCode/)
-
-
-* 手机端：[Mweb·IOS](https://zh.mweb.im/)丨[Markor·安卓](https://github.com/gsantner/markor/releases)
-
-
-* 网页端：[Marked Demo](https://marked.js.org/demo/)
 
 
 

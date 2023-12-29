@@ -19,9 +19,13 @@
 
 请根据自己的设备，下载相应的客户端
 
+::: tip 说明
+有⭐的有教程，点击即跳转
+:::
+
 ### iPhone
 
-* [Shadowrocket·小火箭：美区$5.99](https://apps.apple.com/us/app/shadowrocket/id932747118) 丨 [⭐点我直达教程](#苹果使用)
+* [⭐Shadowrocket·小火箭：美区$5.99](#苹果使用)
 
 * [QuantumultX·圈X：美区$7.99](https://apps.apple.com/us/app/quantumult-x/id1443988620)
 
@@ -32,6 +36,8 @@
 * [Choc：美区$2.99](https://apps.apple.com/us/app/choc/id1582542227)
 
 * [Stash：美区$3.99](https://apps.apple.com/us/app/stash-proxy-utility/id1596063349)
+
+* [sing-box](https://apps.apple.com/us/app/sing-box/id6451272673)
 
 * [Potatso Lite](https://apps.apple.com/us/app/id1239860606)
 
@@ -47,7 +53,7 @@
 ### Android
 
 
-* [Clash：小猫咪，作者@Kr328关库的备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFA)  丨 [⭐点我直达教程](#安卓使用)
+* [⭐Clash：小猫咪，作者@Kr328关库的备份](#安卓使用)
 
 * [V2rayN](https://github.com/2dust/v2rayNG/releases)
 
@@ -120,20 +126,6 @@
 
 
 ---
-
-### VPN
-
-基本都是付费的，不需要自己找节点，自己找破解的用也可
-
-* [白鲸加速器](https://www.bjch999.com/)「简单好用」
-
-* [快连](https://github.com/LetsGo666/LetsGo_2)「付费」
-
-::: tip 说明
-IOS端配合 巨魔助手安装 `Apps Manager` 抹除数据可无限刷
-
-[不懂巨魔助手的点我另外的文章](../../iPhone/sign/#巨魔助手)
-:::
 
 
 
@@ -228,16 +220,3 @@ IOS端配合 巨魔助手安装 `Apps Manager` 抹除数据可无限刷
 
 
 
-## 订阅转换
-
-一般情况下用不上，遇到有些分享整合的节点，需要链接转换后才可导入App
-
-* [Shawn](https://dove.589669.xyz/web)
-
-* [fengguo](https://sub.feng666.tk/)
-
-* [碧海](https://sub.bihai.cf/)
-
-* [Saraphine](https://sub.saraphine.cf/)
-
-* [cycxtit](https://subs.cycxtit.ga/)

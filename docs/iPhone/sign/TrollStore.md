@@ -696,7 +696,7 @@ safari下载的文件路径：icloud云盘-下载
 
 ---
 
-* [AppsDump2：巨魔非全权限砸壳/虚拟定位 丨 @bswbw](https://www.mediafire.com/file/ch7dmzw8cnb0g0y/AppDump2_2.0.3.ipa/file) 丨 [TG群](https://t.me/gblwjb)
+* [AppsDump2：巨魔非全权限砸壳/虚拟定位 丨 @bswbw](https://www.mediafire.com/file/qslrr64a6cm31uj/AppDump2_2.0.5.ipa/file) 丨 [TG群](https://t.me/gblwjb)
 
 * [TrollDecrypt：巨魔非全权限砸壳](https://github.com/donato-fiore/TrollDecrypt/releases) 丨 [秋名山汉化版v1.1.5](https://www.123pan.com/s/3LWcVv-dbLrh.html)
 

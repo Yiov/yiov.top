@@ -8,9 +8,11 @@
 
 请先下载对应的使用客户端 [科学上网工具及使用方法](../proxy/)
 
-* 临时邮箱1：https://www.emailnator.com/
+* 临时邮箱
 
-* 临时邮箱2：https://smailpro.com/tool/temp-mail
+https://www.emailnator.com/
+
+https://smailpro.com/tool/temp-mail
 
 
 ## 白嫖机场
@@ -22,6 +24,7 @@
 
 | 机场 | 流量 | 说明 | 防走丢 |
 |:-:|:-:|:-:|:-:|
+| [一键连](https://www.strongswans.net/) | 新户注册1年天1T<br>2024年后变为一月 | 均速3M/s | [TG群](https://t.me/yijianlianapp) |
 | [👍 超级机场](https://www.超级机场.com/) | 注册/商店0购100G/月 | 均速12M/s | [TG群](https://t.me/chaojijichang) |
 | [Helium Network](https://web.henet.uk) | 不限时100G | `网站需挂梯子打开`<br>均速2M/s | [TG群](https://t.me/helium_official) |
 | [SsPlane ETS](https://ets.ss-plane.com) | [临时邮箱注册](#临时邮箱)<br>不限时100G | `网站需挂梯子打开`<br>均速2M/s | [TG群](https://t.me/SsPlaneVPN) |
@@ -96,6 +99,7 @@ title:"Free Proxies"
 | 机场 | 价格 | 说明 | 防走丢 |
 |:-:|:-:|:-:|:-:|
 | [良心机场](https://良心机场.com/) | 7元/年1000G/月 | `网站需挂梯子打开` | [TG群](https://t.me/liangxinjc)
+| [宇宙机场](https://宇宙机场.com) | 8元/年200G/月 | `网站需挂梯子打开` | [TG群](https://t.me/yuzhoujichang) |
 | [慈善机场](https://慈善机场.com/) | 8.99元/年200G/月<br>3元/月100G | `网站需挂梯子打开` | [TG群](https://t.me/csjc_chat)
 | [三分机场](https://xn--ehq00hgtfdmt.xyz/) | 9.5/年/200G/月 | `网站需挂梯子打开` | [TG群](https://t.me/sanfenjichanggroup)
 | [低价机场](https://低价机场.com/) | 11元/年100G/月 | `网站需挂梯子打开` | [TG群](https://t.me/+4sC_xezLo1lkY2Zl)
@@ -121,7 +125,7 @@ title:"Free Proxies"
 | [鹦鹉云](https://yingwuyun.shop/) | 5元/月200G | - | [TG群](https://t.me/yingwuyun_top) |
 | [稳连云](https://xn--9kqq77hqun.com/) | 5元/月100G | `网站需挂梯子打开` | [TG群](https://t.me/wlypd) |
 | [XMRth](https://xmrth1.net/) | 5元/月1000G | - | [TG群](https://t.me/xmrth)
-| [腾讯云Tencent](http://w2.tencent.sbs/) | 5.3元/月88G | - | [TG群](https://t.me/tencent_cfd)
+| [腾讯云Tencent](https://xn--mes358alztgkj.com/) | 5.3元/月88G | - | [TG群](https://t.me/tencent_cfd)
 
 
 

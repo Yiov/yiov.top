@@ -304,6 +304,17 @@ Administrator：是超级用户
 
 
 
+## 关闭windows自动更新
+
+win键+R键打开运行，输入 `services.msc` 回车进入Windows服务
+
+然后在服务里找到 `Windows Update` 选项双击打开
+
+常规 - 启动类型选择 `禁用` - 应用即可
+
+![](./win11-22.png)
+
+
 
 ## 公众号主页链接
 

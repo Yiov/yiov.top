@@ -5,7 +5,7 @@
 
 ## 简介
 
-Short For Kernel漏洞，也就是 [CVE-2023-23536](https://support.apple.com/zh-cn/HT213676) 和 [CVE-2023-32434](https://support.apple.com/zh-cn/103837) 漏洞，简称KFD
+Kernel Function Discovery漏洞，也就是 [CVE-2023-23536](https://support.apple.com/zh-cn/HT213676) 和 [CVE-2023-32434](https://support.apple.com/zh-cn/103837) 漏洞，简称KFD
 
 ::: details 关于 CVE-2023-23536 和 CVE-2023-32434 漏洞
 ```

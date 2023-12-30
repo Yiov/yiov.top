@@ -44,6 +44,7 @@
 | [⭐Dopamine](./Dopamine.md) | [A12 - A15 M1](#芯片与手机)<br>iOS 15.0 - 15.4.1 | [@opa334](https://twitter.com/opa334dev) 开发的IOS 15越狱工具，目前是主流 |
 | [XinaA15](https://apt.xina.vip/) | [A12 - A15 M1](#芯片与手机)<br>iOS 15.0 - 15.4.1 | 国人 [@朱心浪](https://twitter.com/xina520) 独立开发的首款IOS 15越狱工具 |
 | [Freya](https://github.com/pwned4ever/Freya15/releases) | [A9 - A11](#芯片与手机)<br>iOS 15.0 - 15.1 | 由 [@pwned4ever](https://twitter.com/shogunpwnd) 利用 `KFD` 漏洞开发的越狱工具，越狱后可以正常使用面容或指纹 |
+| [NekoJB](https://nekojb.hhls.xyz/) | [A9 - A11](#芯片与手机)<br>iOS 15.0 - 15.7.6 | 由 [@hahalosah](https://x.com/hahalosah/) 利用 `KFD` 漏洞开发的越狱工具，越狱后可以正常使用面容或指纹 |
 | |
 | [Taurine](https://taurine.app/) | [A9 - A14](#芯片与手机)<br>iOS 14.0 - 14.8.1 | 俗称牛磺酸，是 [CoolStar(酷星)](https://twitter.com/CStar_OW) 主导开发的越狱工具，现在他已离开越狱社区，[参考我爱搞机网的教程](http://www.52ggi.cn/yynews/256.html) |
 | [⭐unc0ver](./unc0ver.md) | [A9 - A14](#芯片与手机)<br>iOS 11.0 - 14.3 /<br>[A12 - A13](#芯片与手机)<br>iOS 14.6 - 14.8 | 前 [Electra](https://coolstar.org/electra/) 成员的 [@pwn20wnd](https://twitter.com/Pwn20wnd) 开发的越狱工具，其在v7版本中添加了Fugu14的支持 |

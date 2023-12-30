@@ -694,6 +694,8 @@ safari下载的文件路径：icloud云盘-下载
 
 * [Helium：悬浮显示日期/网速/设备温度/电池详细工具 丨 @LeminLimez](https://github.com/leminlimez/Helium/releases)
 
+* [Copylog：系统键盘最强剪切板插件 - 收费 丨@tomt000](https://havoc.app/package/copylogts) 丨 [！折扣技巧：注册提交购买越狱版，不付款，返回购买巨魔版，28变15](https://havoc.app/package/copylog) 丨 [汉化版](https://www.123pan.com/s/3LWcVv-wo5rh.html)
+
 ---
 
 * [AppsDump2：巨魔非全权限砸壳/虚拟定位 丨 @bswbw](https://www.mediafire.com/file/qslrr64a6cm31uj/AppDump2_2.0.5.ipa/file) 丨 [TG群](https://t.me/gblwjb)

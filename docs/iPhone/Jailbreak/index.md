@@ -15,15 +15,15 @@
 
 | 芯片| 手机 | 系统兼容设备范围 |
 | :-: | :-: | :-: |
-| A9 | iPhone 6s系列 / SE | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) |
-| A10 | iPhone 7系列 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) |
-| A11 | iPhone 8系列 / X | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS16](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/16.0/ios/16.0) |
-| A12 | iPhone XS系列 / XR | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A13 | iPhone 11系列 / SE 2 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A14 | iPhone 12系列 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A15 | iPhone 13系列 / 14系列 / SE 3 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A16 | iPhone 14 pro系列 / 15系列 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A17 | iPhone 15 pro系列 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A9 | iPhone 6s系列 / SE | iOS 9 - [iOS 15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) |
+| A10 | iPhone 7系列 | iOS 10 - [iOS 15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) |
+| A11 | iPhone 8系列 / X | iOS 11 - [iOS 16](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/16.0/ios/16.0) |
+| A12 | iPhone XS系列 / XR | [iOS 12](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/12.0/ios/12.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A13 | iPhone 11系列 / SE 2 | [iOS 13](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/13.0/ios/13.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A14 | iPhone 12系列 | [iOS 14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A15 | iPhone 13系列 / 14系列 / SE 3 | [iOS 15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A16 | iPhone 14 pro系列 / 15系列 | [iOS 16](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/16.0/ios/16.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A17 | iPhone 15 pro系列 | [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
 
 
 

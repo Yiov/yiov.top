@@ -1,6 +1,6 @@
 # 科学上网工具及使用
 
-> 更新时间：2023-12-9
+> 更新时间：2024-1-2
 
 
 ## 简介
@@ -38,6 +38,8 @@
 * [Stash：美区$3.99](https://apps.apple.com/us/app/stash-proxy-utility/id1596063349)
 
 * [sing-box](https://apps.apple.com/us/app/sing-box/id6451272673)
+
+* [karing](https://karing.app/)
 
 * [Potatso Lite](https://apps.apple.com/us/app/id1239860606)
 
@@ -102,6 +104,8 @@
 
 * [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases)
 
+* [karing](https://karing.app/)
+
 * [浏览器插件·Hoxx VPN.crx](https://dzp.lanzouy.com/ih2uz052glwh)
 
 * [浏览器插件·iGG谷歌学术助手.crx](https://dzp.lanzouy.com/igSY9xk2asd)
@@ -122,7 +126,7 @@
 
 * [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases)
 
-
+* [karing](https://karing.app/)
 
 
 ---

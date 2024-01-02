@@ -1,11 +1,11 @@
 # KFD漏洞的软件及使用
 
-> 更新时间：2023-10-20
+> 更新时间：2024-1-2
 
 
 ## 简介
 
-Kernel Function Discovery漏洞，也就是 [CVE-2023-23536](https://support.apple.com/zh-cn/HT213676) 和 [CVE-2023-32434](https://support.apple.com/zh-cn/103837) 漏洞，简称KFD
+Kernel Function Discovery漏洞，也就是 [CVE-2023-23536(physpuppet)](https://support.apple.com/zh-cn/HT213676) 、 [CVE-2023-32434(smith)](https://support.apple.com/zh-cn/103837) 和 [CVE-2023-41974(landa)](https://support.apple.com/en-us/HT213938) 漏洞，简称KFD
 
 ::: details 关于 CVE-2023-23536 和 CVE-2023-32434 漏洞
 ```
@@ -30,15 +30,35 @@ Kernel
 描述：已通过改进输入验证解决整数溢出问题。
 
 CVE-2023-32434：Kaspersky 的 Georgy Kucherin (@kucher1n)、Leonid Bezvershenko (@bzvr_)、Boris Larin (@oct0xor) 和 Valentin Pashkov
+
+---
+
+Kernel
+
+适用于：iPhone XS 及更新机型、12.9 英寸第 2 代及更新机型 iPad Pro、10.5 英寸 iPad Pro、11 英寸第 1 代及更新机型、iPad Air 第 3 代及更新机型、iPad 第 6 代及更新机型以及 iPad mini 第 5 代及更新机型
+
+影响：App 或许能够以内核权限执行任意代码
+
+描述：已通过改进内存管理解决释放后使用问题。
+
+CVE-2023-41995：蚂蚁安全光年实验室的 Certik Skyfall 团队 pattern-f （@pattern_F_）
+
+CVE-2023-42870：昆仑实验室的 Zweig
+
+CVE-2023-41974：Félix Poulin-Bélanger
 ```
 :::
+
+
 
 ::: tip 事件进展
 * 2023-7-21 [@p0up0u](https://twitter.com/_p0up0u_) 公开 [kfd 内核读写项目](https://github.com/felix-pb/kfd)，它可以在 Apple 设备上读写内核内存的项目，该漏洞仅适用于iPhone 8 及更高机型
 
-* 2023-8-2 [@Ledsnow101](https://twitter.com/Lrdsnow101) 利用此漏洞推出 [DevTest](https://github.com/Lrdsnow/kfd/)
+* 2023-8-2 [@Ledsnow](https://twitter.com/Lrdsnow101) 利用此漏洞推出 [DevTest](https://github.com/Lrdsnow/kfd/)
 
 * 其他开发者相继推出自己的工具
+
+* 2024-1-1 [@P0up0u](https://twitter.com/_p0up0u_) 新增landa漏洞(CVE-2023-41974)
 :::
 
 
@@ -58,22 +78,22 @@ CVE-2023-32434：Kaspersky 的 Georgy Kucherin (@kucher1n)、Leonid Bezvershenko
 
 * 理论支持：iPhone 8及以上的设备 (A11-A17)
 
-* 系统：`iOS 15.0-iOS 16.5` / `iOS 16.6 Beta1 / 17.0 beta1-2`
+* 系统：`iOS 15.0-iOS 16.7.4` / `iOS 16.6 Beta1 / 17.0 beta1-2`
 
 * 注意：具体以工具为准
 
 ::: details 芯片与手机
 | 芯片| 手机 | 系统兼容设备范围 |
 | :-: | :-: | :-: |
-| A9 | iPhone 6s系列 / SE | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) |
-| A10 | iPhone 7系列 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) |
-| A11 | iPhone 8系列 / X | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS16](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/16.0/ios/16.0) |
-| A12 | iPhone XS系列 / XR | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A13 | iPhone 11系列 / SE 2 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A14 | iPhone 12系列 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A15 | iPhone 13系列 / 14系列 / SE 3 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A16 | iPhone 14 pro系列 / 15系列 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
-| A17 | iPhone 15 pro系列 | [iOS14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A9 | iPhone 6s系列 / SE | iOS 9 - [iOS 15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) |
+| A10 | iPhone 7系列 | iOS 10 - [iOS 15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) |
+| A11 | iPhone 8系列 / X | iOS 11 - [iOS 16](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/16.0/ios/16.0) |
+| A12 | iPhone XS系列 / XR | [iOS 12](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/12.0/ios/12.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A13 | iPhone 11系列 / SE 2 | [iOS 13](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/13.0/ios/13.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A14 | iPhone 12系列 | [iOS 14](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/14.0/ios/14.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A15 | iPhone 13系列 / 14系列 / SE 3 | [iOS 15](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/15.0/ios/15.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A16 | iPhone 14 pro系列 / 15系列 | [iOS 16](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/16.0/ios/16.0) - [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
+| A17 | iPhone 15 pro系列 | [iOS 17](https://support.apple.com/zh-cn/guide/iphone/iphe3fa5df43/ios) |
 :::
 
 
@@ -280,7 +300,7 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 
 
 
-## 其他工具
+## 工具集
 
 ::: danger 注意
 iOS 15 系统，请勿使用灵动岛功能，会白苹果！
@@ -289,6 +309,9 @@ iOS 16 以下系统，请勿使用灵动岛，会白苹果！
 
 请勿轻易尝试修改分辨率，操作失误，会白苹果！
 :::
+
+
+### 其他工具
 
 * [Blacklist KFD：修复企业证书黑名单 丨 @appinstalleriosgh](https://appinstalleriosgh.github.io/Sign/Blacklist%20KFD.ipa)
 
@@ -322,6 +345,13 @@ iOS 16 以下系统，请勿使用灵动岛，会白苹果！
 * [Plampy UI：控制中心图标美化 丨 @YangJiii 丨 YangJiii 源](https://straight-tamago.github.io/misaka/?repo=https://yangjiii.tech/file/Repo/repo.json&tweak=com.yangjiii.plampyuicc)
 
 * [Pulsar Control Center UI：控制中心图标美化 丨 @Phuc Do 丨 PhucDo 源](https://straight-tamago.github.io/misaka/?repo=https://phucdo-repo.pages.dev/repo.json&tweak=com.dobabaophuc.pulsarCC)
+
+* [Deco Control Center Ul：控制中心美化 丨 @PhucDo 丨 PhucDo源](https://straight-tamago.github.io/misaka/?repo=https://phucdo-repo.pages.dev/repo.json&tweak=com.dobabaophuc.DecoCC)
+
+* [DuoTone Control Center Ul：控制中心美化丨 @PhucDo 丨 PhucDo源](https://straight-tamago.github.io/misaka/?repo=https://phucdo-repo.pages.dev/repo.json&tweak=com.dobabaophuc.controlcenter1_6)
+
+* [Pulsar Settings Ul：设置添加顶图 丨@Phuc Do 丨 PhucDo源](https://straight-tamago.github.io/misaka/?repo=https://phucdo-repo.pages.dev/repo.json&tweak=com.dobabaophuc.PulsarSettingsUI)
+
 
 
 

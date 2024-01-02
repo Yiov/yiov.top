@@ -9,15 +9,58 @@ next: false
 
 # 更新内容
 
-## 2023
 
-* 12/30 更新了 [机场列表](../gfw/channel/) 、新增 [越狱工具NekoJB](../iPhone/Jailbreak/) 、更正 [KFD漏洞原名](../iPhone/kfd/) 、新增 [window关闭系统更新方法](../daily/win11/index.md#关闭windows自动更新) 、新增 [巨魔工具Copylog剪切板](../iPhone/sign/TrollStore.md)
+## 2021-1-2
 
-* 12/27 更新了巨魔砸壳软件 [AppsDump2](https://www.mediafire.com/file/qslrr64a6cm31uj/AppDump2_2.0.5.ipa/file) 的下载链接、更新了[机场列表](../gfw/channel/)
+* 新增了多巴胺越狱 [0xkuj源](../iPhone/Jailbreak/Dopamine.md#其他插件)
 
-* 12/27 更新的 [机场列表](../gfw/channel/)、[markdown的使用工具](../daily/markdown/index.md#演示工具)
+* 新增KFD新增landa漏洞，misaka 支持范围更新至 `16.7.4`，[misaka商店工具](../iPhone/kfd/index.md#misaka商店)
 
-* 12/22 更新了 [Xshell官网链接](../website/Xshell/)、更新了 [wordpress数据恢复方式](../website/wordpress/index.md#疑问解答)
+* 新增巨魔安装工具 [PureKFD](../iPhone/sign/TrollStore.md#purekfd) 、其他工具 [CAPerfHUDSwift](../iPhone/sign/TrollStore.md#工具类)
 
-* 12/12 更新了一堆内容
+* 新增科学上网工具 [karing](../gfw/proxy/index.md)
+
+* 更新了 [机场列表](../gfw/channel/)
+
+
+
+
+## 2023-12-30
+
+* 更新了 [机场列表](../gfw/channel/)
+
+* 新增 [越狱工具NekoJB](../iPhone/Jailbreak/)
+
+* 更正 [KFD漏洞原名](../iPhone/kfd/)
+
+* 新增 [window关闭系统更新方法](../daily/win11/index.md#关闭windows自动更新)
+
+* 新增 [巨魔工具Copylog剪切板](../iPhone/sign/TrollStore.md)
+
+
+
+
+## 2023-12-27
+
+* 更新了巨魔砸壳软件 [AppsDump2](https://www.mediafire.com/file/qslrr64a6cm31uj/AppDump2_2.0.5.ipa/file) 的下载链接
+
+* 更新了[机场列表](../gfw/channel/)
+
+* 更新的 [机场列表](../gfw/channel/)
+
+* [markdown的使用工具](../daily/markdown/index.md#演示工具)
+
+
+
+## 2023-12-22
+
+* 更新了 [Xshell官网链接](../website/Xshell/)
+
+* 更新了 [wordpress数据恢复方式](../website/wordpress/index.md#疑问解答)
+
+
+
+## 2023-12-12
+
+* 更新了一堆内容
 

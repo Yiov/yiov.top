@@ -5,7 +5,7 @@ next: false
 
 # Dopamine多巴胺越狱及使用
 
-> 更新时间：2023-12-5
+> 更新时间：2024-1-2
 
 ## 简介
 
@@ -541,6 +541,17 @@ TG群：https://t.me/lanmaoios
 源地址：https://nahtedetihw.github.io/
 
 * ReachPlayer：便捷访问区域显示音乐播放器的插件
+
+
+
+
+
+# 0xkuj 源
+
+源地址：https://0xkuj.yourepo.com/
+
+* 3DAppVersionSpoofer：更改已安装App的版本号
+
 
 
 

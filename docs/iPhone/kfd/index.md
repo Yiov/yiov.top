@@ -7,7 +7,7 @@
 
 Kernel Function Discovery漏洞，也就是 [CVE-2023-23536(physpuppet)](https://support.apple.com/zh-cn/HT213676) 、 [CVE-2023-32434(smith)](https://support.apple.com/zh-cn/103837) 和 [CVE-2023-41974(landa)](https://support.apple.com/en-us/HT213938) 漏洞，简称KFD
 
-::: details 关于 CVE-2023-23536 和 CVE-2023-32434 漏洞
+::: details 关于 CVE-2023-23536、CVE-2023-32434 和 CVE-2023-41974 漏洞
 ```
 Kernel
 
@@ -110,8 +110,8 @@ CVE-2023-41974：Félix Poulin-Bélanger
 
 | KFD工具| 系统范围 | 说明 |
 | :-: | :-: | :-: |
-| [Misaka](https://github.com/straight-tamago/misaka/releases) | iOS 15.7.2 - 15.7.6 /<br>iOS 16.2 - 16.6 Beta1 | [@straight-tamago](https://twitter.com/straight_tamago) 开发的多功能插件商店，[其他插件使用介绍](#misaka商店) |
-| [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) | [A11](#适用范围) iOS 15.0 - 15.7.6 /<br>[A12及以上](#适用范围) iOS 15.0 - 16.5 | [@Lrdsnow](https://twitter.com/Lrdsnow101) 开发的插件商店，同时支持 [Picasso](https://repo.sourceloc.net/) 和 [Misaka](https://github.com/straight-tamago/misaka/releases) 软件源的包管理器 |
+| [Misaka](https://github.com/straight-tamago/misaka/releases) | iOS 15.7.2 - 15.7.6 /<br>iOS 16.2 - 16.7.4 | [@straight-tamago](https://twitter.com/straight_tamago) 开发的多功能插件商店，[其他插件使用介绍](#misaka商店) |
+| [PureKFD](https://github.com/Lrdsnow/PureKFD/releases) | [A11](#适用范围) iOS 15.0 - 15.7.6 /<br>[A12及以上](#适用范围) iOS 15.0 - 16.6.1 | [@Lrdsnow](https://twitter.com/Lrdsnow101) 开发的插件商店，同时支持 [Picasso](https://repo.sourceloc.net/) 和 [Misaka](https://github.com/straight-tamago/misaka/releases) 软件源的包管理器 |
 | [SimpleKFD](https://github.com/Lrdsnow/SimpleKFD/releases) | [A11](#适用范围) iOS 16.0-16.5 /<br>[A12及以上](#适用范围) 15.0-15.7.6 / 16.6 Beta1 | [@Lrdsnow](https://twitter.com/Lrdsnow101) 利用KFD漏洞开发的工具箱 |
 | [Cluckabunga](https://github.com/leminlimez/Cluckabunga/releases) | iOS 16.2-16.5 /<br>16.6 Beta1 | MDC的奶牛开发者 [@LeminLimez](https://twitter.com/LeminLimez) 利用KFD漏洞开发的工具箱 |
 | [posi0nKFD](https://github.com/GenericCoding/kfd/releases) | iOS 16.2-16.5 | [GenericCoding](https://twitter.com/GenericCoding) 利用KFD漏洞开发的工具箱 |
@@ -121,26 +121,29 @@ CVE-2023-41974：Félix Poulin-Bélanger
 
 ## 演示
 
-> 软件需要全程使用 [科学上网](../../gfw/proxy/) ，否则打不开！
-
-
 我用 `misaka` 软件演示，misaka是一款利用MDC/KFD漏洞开发的工具
 
-现在直接使用 [@Little_34306](https://x.com/Little_34306) 越南大佬提供的在线安装
 
-::: details 在线安装地址无反应？
-需要使用 [科学上网](../../gfw/proxy/) ，才可以打开
-:::
+安装方式两种：在线安装 和 自签安装
 
+> 在线安装：方便，但是不一定是最新版
+>
+> 自签安装：麻烦，但是可装最新版
+
+
+::: details 在线安装 (二选一)
+我们现在直接使用 [@Little_34306](https://x.com/Little_34306) 越南大佬提供的在线安装
 
 * iPhone: http://is.gd/34306misaka
 
 * iPad M1/M2: http://is.gd/34306misakaM1
 
+注意：需要使用 [科学上网](../../gfw/proxy/) ，才可以打开
+:::
 
 
 
-:::: details 安装地址失效，手动安装方式
+:::: details 自签安装 (二选一)
 使用前我们需要先安装好自签工具：[牛蛙助手](../sign/bullfrog.md)
 
 然后再下载 Misaka ：
@@ -242,7 +245,7 @@ misaka就安装成功了，但是还打不开，要信任一下
 在 misaka 设置中，请根据自己的系统选择模式！
 
 ::: warning 参照表
-KFD：IOS 16.2-16.5系统
+KFD：IOS 16.2-16.7.4系统
 
 MDC：IOS 15.0-16.1.2系统
 
@@ -303,8 +306,6 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 ## 工具集
 
 ::: danger 注意
-iOS 15 系统，请勿使用灵动岛功能，会白苹果！
-
 iOS 16 以下系统，请勿使用灵动岛，会白苹果！
 
 请勿轻易尝试修改分辨率，操作失误，会白苹果！

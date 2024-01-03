@@ -5,9 +5,11 @@ next: false
 
 # 巨魔助手安装及使用
 
-> 更新时间：2024-1-2
+> 更新时间：2024-1-3
 
-## 1.简介
+
+
+## 简介
 
 全称 `TrollStore` ，中文名 `巨魔助手`，是一个绕签名安装ipa的工具，是一个划时代的伟大作品！
 
@@ -26,8 +28,7 @@ next: false
 
 * 2022/10/6 [@Linus Henze](https://twitter.com/LinusHenze) 在OBTS会议上公开了 `Fugu15` 的全新越狱方式，[@opa334](https://twitter.com/opa334dev) 也通过他的帮助发布了全新的`TrollStore`工具
 
-* 2023/11/28 [@opa334](https://twitter.com/opa334dev) 通过利用 [@Alfie](https://twitter.com/alfiecg_dev) 发现的 [CVE-2023-41991](https://support.apple.com/zh-cn/106369
-) 漏洞，并获得他的帮助完成了 `TrollStore2`
+* 2023/11/28 [@opa334](https://twitter.com/opa334dev) 通过利用 [@Alfie](https://twitter.com/alfiecg_dev) 发现的 [CVE-2023-41991](https://support.apple.com/zh-cn/106369) 漏洞，并获得他的帮助完成了 `TrollStore2`
 :::
 
 ::: details 关于 CVE-2022-26766 / CVE-2022-26763 和 CVE-2023-41991 漏洞
@@ -69,11 +70,11 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 :::
 
-## 2.适用范围
+## 适用范围
 
 根据 [opa334的文档](https://github.com/opa334/TrollStore/) 中的 [安装指南](https://ios.cfw.guide/installing-trollstore/) 查看是否符合
 
-| 系统 / iPhone | 6-8系列 / SE / X<br>(A8-A11) | 11-15系列 / XR / XS / SE 2-3<br>(A12-A17)<br>(M1-M2) |
+| 系统 / iPhone | 6-8系列 / SE / X<br>(A8-A11) | 11-15系列 / XR / XS / SE 2-3<br>(A12-A16)<br>(M1-M2) |
 | :-: | :-: | :-: |
 | [14.0](https://support.apple.com/zh-cn/HT211808) - 14.8.1 | checkra1n 越狱 | [TrollHelper arm64e](#arm64-arm64e) |
 | [15.0](https://support.apple.com/zh-cn/HT212788) - 15.4.1 | [TrollHelper arm64](#arm64-arm64e) | [TrollHelper arm64e](#arm64-arm64e) |
@@ -89,18 +90,21 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 
 
-## 3.安装
-
-提供了5种安装方式，请参照 [适用范围](#_2-适用范围) 选择
 
 
+
+## 安装
+
+提供了5种安装方式，请参照 [适用范围](#适用范围) 选择
+
+---
 
 
 ### arm64/arm64e
 
-> 教程仅适用于：[A8-A11](#_2-适用范围)：`IOS 15.0 - 15.4.1`(arm64)
+> 教程仅适用于：[A8-A11](#适用范围)：`IOS 15.0 - 15.4.1`(arm64)
 > 
-> 教程仅适用于：[A12-A17](#_2-适用范围)：`IOS 14.0 - 15.6.1`(arm64e)
+> 教程仅适用于：[A12-A16](#适用范围)：`IOS 14.0 - 15.6.1`(arm64e)
 
 
 * TrollHelper arm64：https://api.jailbreaks.app/troll64
@@ -154,9 +158,9 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 ### TrollInstaller MDC
 
-> 教程仅适用于：[A8-A11](#_2-适用范围)：`IOS 15.5 - 15.6.1`
+> 教程仅适用于：[A8-A11](#适用范围)：`IOS 15.5 - 15.6.1`
 > 
-> 教程仅适用于：[A8-A17](#_2-适用范围)：`IOS 15.7 - 15.7.1` / `16.0 - 16.1.2`
+> 教程仅适用于：[A8-A16](#适用范围)：`IOS 15.7 - 15.7.1` / `16.0 - 16.1.2`
 
 
 它是一款利用MDC漏洞开发的巨魔安装辅助工具
@@ -261,11 +265,17 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 
 
+
+
+
+
 ### PureKFD
 
-> 教程仅适用于：[A12-A16](#_2-适用范围) IOS 16.2 - 16.6.1
+> 教程仅适用于：[A12-A16](#适用范围) IOS 16.2 - 16.6.1
 > 
 > 支持具体机型：[请查阅官方文档](https://github.com/PureKFD/PureKFD/blob/beta/supported.md)
+> 
+> 特别说明：iOS 16.5.1 暂时无法安装
 
 PureKFD是一款利用KFD漏洞开发的工具，且已上线了巨魔的辅助安装功能
 
@@ -387,7 +397,13 @@ PureKFD安装成功了，但是还打不开，要信任一下
 
 首次进入需要将 `Override Exploit Method` 开关打开
 
-puaf method 选择 `landa`，static headroom选择 `65536`，其他保持默认
+::: tip 关于 puaf method 漏洞选择
+iOS 16.2 - 16.5 选择 `physpuppet` 或 `smith`
+
+iOS 16.5.1 - 16.6.1 选择 `landa`
+:::
+
+我这里以 `landa` 为例，static headroom选择 `65536`，其他保持默认
 
 ![](./TrollStore-purekfd-16.png)
 
@@ -405,23 +421,22 @@ puaf method 选择 `landa`，static headroom选择 `65536`，其他保持默认
 :::
 
 
-::: details 巨魔安装报错
-请使用 [科学上网](../../gfw/proxy/) 工具，挂梯子再安装
-:::
-
 ![](./TrollStore-purekfd-17.png)
 
 
 
 重启设备后，打开提示并点 `Install TrollStore` 安装巨魔，桌面有图标就是了
 
+::: details 点开提示无变化
+可以再尝试一遍，步骤有没有问题，或者换工具
+:::
+
+
 ::: details 巨魔安装报错
 请使用 [科学上网](../../gfw/proxy/) 工具，挂梯子再安装
 :::
 
-::: details 点开提示无变化
-可以再尝试一遍，步骤有没有问题，或者换工具
-:::
+
 
 ![](./TrollStore-purekfd-18.png)
 
@@ -457,9 +472,18 @@ puaf method 选择 `landa`，static headroom选择 `65536`，其他保持默认
 
 
 
+
+
+
+
+
+
+
+
+
 ### Picasso
 
-> 教程仅适用于：[A12-A17](#_2-适用范围) `IOS 16.2 - 16.5`
+> 教程仅适用于：[A12-A16](#适用范围) `IOS 16.2 - 16.5`
 
 
 开始前请先安装好自签工具：[牛蛙助手](./bullfrog.md)
@@ -599,11 +623,28 @@ Picasso就安装成功了，但是还打不开，要信任一下
 ---
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Misaka
 
-> 教程仅适用于：[A12-A17](#_2-适用范围) `IOS 16.2 - 16.6.1`
+> 教程仅适用于：[A12-A16](#适用范围) `IOS 16.2 - 16.6.1`
 >
 > 具体机型 [请查阅官方文档](https://github.com/straight-tamago/misaka/releases)
+> 
+> 特别说明：iOS 16.5.1 暂时无法安装
 
 misaka是一款利用MDC/KFD漏洞开发的工具，且已上线了巨魔的辅助安装功能
 
@@ -726,7 +767,7 @@ misaka就安装成功了，但是还打不开，要信任一下
 在 misaka 设置中，请根据自己的系统选择模式！
 
 ::: warning 参照表
-KFD：IOS 16.2-16.5系统
+KFD：IOS 16.2-16.6.1系统
 
 MDC：IOS 15.0-16.1.2系统
 
@@ -850,7 +891,19 @@ safari下载的文件路径：icloud云盘-下载
 
 
 
-## 4.界面介绍
+
+
+
+
+
+
+
+
+
+
+
+
+## 界面介绍
 
 
 ![](./TrollStore-01.png)
@@ -860,9 +913,19 @@ safari下载的文件路径：icloud云盘-下载
 :::
 
 
-## 5.使用
 
-软件众多，可以到 [更多工具](#_6-更多工具) 中查找，就以 `虚拟定位` 演示
+
+
+## 使用
+
+不定期会添加一些使用方法
+
+---
+
+
+
+
+### 虚拟定位
 
 下载：[https://www.mediafire.com/file/qwdgdnvek84xb83/](https://www.mediafire.com/file/qwdgdnvek84xb83/虚拟定位_1.3.7_授权版.ipa/file)
 
@@ -887,7 +950,264 @@ safari下载的文件路径：icloud云盘-下载
 
 
 
-## 6.更多工具
+
+
+
+---
+
+
+
+
+
+
+
+
+### 更换图标
+
+请先用巨魔安装好 [轻松签](./esign.md#安装)
+
+然后下载最新版的官方包
+
+https://github.com/opa334/TrollStore/releases
+
+![](./TrollStore-06.png)
+
+点下载，在点击下载好的包
+
+![](./TrollStore-07.png)
+
+长按 - 共享
+
+![](./TrollStore-08.png)
+
+选择 轻松签 ，然后点击 `TrollStore.tar` 解压2次
+
+![](./TrollStore-09.png)
+
+得到 `TrollStore.app` 文件夹，点击选择 `签名` - 更多设置
+
+![](./TrollStore-10.png)
+
+桌面图标，选一张你自己喜欢的，除了 `仅修改配置，不签名` 开关打开，其他全部关闭
+
+::: details 分享几个图片吧
+
+![](./TrollStore-icon-01.png)
+
+![](./TrollStore-icon-02.png)
+
+![](./TrollStore-icon-03.png)
+
+![](./TrollStore-icon-04.png)
+:::
+
+![](./TrollStore-11.png)
+
+![](./TrollStore-12.png)
+
+签名好后不要安装，`退出` ，文件列表进入 `YYYAppFolder` 文件夹
+
+![](./TrollStore-13.png)
+
+在 `SignedApps` 找到 刚签好名的ipa，解压，进入 `Payload`
+
+![](./TrollStore-14.png)
+
+![](./TrollStore-15.png)
+
+将解压后的 `TrollStore.app` 文件夹压缩成zip，然后点 `i` 重命名为 `TrollStore.tar`
+
+![](./TrollStore-16.png)
+
+然后分享给巨魔安装，自动注销后，就能看到图标已经变了
+
+::: tip 说明
+想改回来，去下载官方包分享给巨魔安装即可
+:::
+
+![](./TrollStore-17.png)
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+### 静音模块
+
+开始前请用巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
+
+然后下载由 [@赵楠](https://github.com/invalidunit) 大佬提供的文件：https://www.123pan.com/s/3LWcVv-WULrh.html
+
+![](./TrollStore-18.png)
+
+下载 - 选择下好的文件
+
+![](./TrollStore-19.png)
+
+右上分享 - 用 `Filza` 打开
+
+![](./TrollStore-20.png)
+
+进入了Filza的 `/var/mobile/Documents` 目录，长按导入的文件 `复制`
+
+![](./TrollStore-21.png)
+
+左上返回找到目录 `/var/Managed Preferences/mobile`
+
+![](./TrollStore-22.png)
+
+在此处左下角粘贴刚复制的文件
+
+![](./TrollStore-23.png)
+
+在目录后，打开巨魔注销一下就可以了
+
+![](./TrollStore-24.png)
+
+我们下拉控制中心就能看到了
+
+::: tip 说明
+文件是从iPad提取出来，只是手机上屏蔽了，我们通过文件恢复了，100%安全
+:::
+
+![](./TrollStore-25.png)
+
+
+
+
+---
+
+
+
+
+
+
+
+
+### 多开分身
+
+巨魔没有多开App功能，但是可以借助 [轻松签](https://esign.yyyue.xyz/) 完成
+
+点我查看 [轻松签多开微信教程](./esign.md#多开微信)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+### 屏蔽更新
+
+
+方法原自 [@赵楠](https://github.com/invalidunit) 大佬，安装tvOS16描述文件，屏蔽检测更新的红点
+
+浏览器打开：https://alexia.lol/noota16.mobileconfig
+
+![](./TrollStore-26.png)
+
+设置中点开描述文件安装
+
+![](./TrollStore-27.png)
+
+安装完重不重启都可以，这样更新界面就不再推送了
+
+::: tip 建议
+如果你本身有更新红点，点 `以后` ，回设置中查看无红点了再重启
+
+如果本身没有更新红点，直接 `重启启动`
+:::
+
+::: details 桌面多了一个反馈app
+无视即可，删掉也行
+:::
+
+![](./TrollStore-28.png)
+
+但保不齐苹果强制更新，巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
+
+进入 `/usr/bin/` 目录，找到 `vm_stat` 打开运行
+
+![](./TrollStore-29.png)
+
+![](./TrollStore-30.png)
+
+复制下面代码，Paste粘贴
+
+```sh
+rm -rf /var/MobileSoftwareUpdate/MobileAsset/AssetsV2/* && chflags schg,schange,simmutable /var/MobileSoftwareUpdate/MobileAsset/AssetsV2
+```
+
+这就苹果就彻底无法更新了
+
+![](./TrollStore-31.png)
+
+::: details 想还原使用：恢复命令
+
+```sh
+chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/AssetsV2
+```
+:::
+
+---
+
+
+
+
+
+
+
+
+
+
+### 砸壳dump
+
+::: tip 简介
+简而言之，就是提取APP安装包
+
+与安卓不同，苹果对商店上架的APP，在外层包裹了一层加密的外壳
+
+只有通过砸壳工具进行解密脱壳后才可以，所以叫做砸壳，也叫dump
+:::
+
+用巨魔安装好 [AppsDump2：巨魔非全权限砸壳 @bswbw](https://www.mediafire.com/file/qslrr64a6cm31uj/AppDump2_2.0.5.ipa/file)
+
+以 `抖音` 为例，打开 AppsDump2，选择抖音 - `脱壳 - 打包ipa`
+
+![](./TrollStore-32.png)
+
+解密完成后，可导入到轻松签进行多开和注入插件等
+
+![](./TrollStore-33.png)
+
+::: warning 注意
+微信不可以砸，因为砸出来非全权限，没有分享等小组件
+
+只能越狱机或Mac砸
+:::
+
+
+
+
+
+
+## 更多工具
 
 
 
@@ -909,7 +1229,7 @@ safari下载的文件路径：icloud云盘-下载
 
 ### 工具类
 
-* <span style="border-bottom:2px dashed yellow;">[轻松签：多开软件必备，可添加移除插件 | @esign](https://esign.yyyue.xyz/)</span>
+* <span style="border-bottom:2px dashed yellow;">[轻松签：多开软件必备，可添加移除插件 | @esign](./esign.md)</span>
 
 * [PostBox：插件下载工具，国区上架PostBox Pocket | @PostBoxTeam](https://www.postbox.news/downloads)
 
@@ -1030,357 +1350,20 @@ safari下载的文件路径：icloud云盘-下载
 
 
 
-## 7.使用拓展
 
 
-### 更换图标
 
-请先用巨魔安装好 [轻松签](https://esign.yyyue.xyz/)
+## 常见问题
 
-然后下载最新版的官方包
 
-https://github.com/opa334/TrollStore/releases
 
-![](./TrollStore-06.png)
-
-点下载，在点击下载好的包
-
-![](./TrollStore-07.png)
-
-长按 - 共享
-
-![](./TrollStore-08.png)
-
-选择 轻松签 ，然后点击 `TrollStore.tar` 解压2次
-
-![](./TrollStore-09.png)
-
-得到 `TrollStore.app` 文件夹，点击选择 `签名` - 更多设置
-
-![](./TrollStore-10.png)
-
-桌面图标，选一张你自己喜欢的，除了 `仅修改配置，不签名` 开关打开，其他全部关闭
-
-::: details 分享几个图片吧
-
-![](./TrollStore-icon-01.png)
-
-![](./TrollStore-icon-02.png)
-
-![](./TrollStore-icon-03.png)
-
-![](./TrollStore-icon-04.png)
-:::
-
-![](./TrollStore-11.png)
-
-![](./TrollStore-12.png)
-
-签名好后不要安装，`退出` ，文件列表进入 `YYYAppFolder` 文件夹
-
-![](./TrollStore-13.png)
-
-在 `SignedApps` 找到 刚签好名的ipa，解压，进入 `Payload`
-
-![](./TrollStore-14.png)
-
-![](./TrollStore-15.png)
-
-将解压后的 `TrollStore.app` 文件夹压缩成zip，然后点 `i` 重命名为 `TrollStore.tar`
-
-![](./TrollStore-16.png)
-
-然后分享给巨魔安装，自动注销后，就能看到图标已经变了
-
-::: tip 说明
-想改回来，去下载官方包分享给巨魔安装即可
-:::
-
-![](./TrollStore-17.png)
-
-
-
-
----
-
-
-### 静音模块
-
-开始前请用巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
-
-然后下载由 [@赵楠](https://github.com/invalidunit) 大佬提供的文件：https://www.123pan.com/s/3LWcVv-WULrh.html
-
-![](./TrollStore-18.png)
-
-下载 - 选择下好的文件
-
-![](./TrollStore-19.png)
-
-右上分享 - 用 `Filza` 打开
-
-![](./TrollStore-20.png)
-
-进入了Filza的 `/var/mobile/Documents` 目录，长按导入的文件 `复制`
-
-![](./TrollStore-21.png)
-
-左上返回找到目录 `/var/Managed Preferences/mobile`
-
-![](./TrollStore-22.png)
-
-在此处左下角粘贴刚复制的文件
-
-![](./TrollStore-23.png)
-
-在目录后，打开巨魔注销一下就可以了
-
-![](./TrollStore-24.png)
-
-我们下拉控制中心就能看到了
-
-::: tip 说明
-文件是从iPad提取出来，只是手机上屏蔽了，我们通过文件恢复了，100%安全
-:::
-
-![](./TrollStore-25.png)
-
-
-
-
----
-
-
-### 多开分身
-
-巨魔没有多开App功能，但是可以借助 [轻松签](https://esign.yyyue.xyz/) 完成，以多开微信为例
-
-轻松签官网下载ipa：https://esign.yyyue.xyz/
-
-![](./TrollStore-wechat-01.png)
-
-下载 - 点击下载好的文件
-
-![](./TrollStore-wechat-02.png)
-
-右上角分享 - 用 `巨魔` 打开安装
-
-![](./TrollStore-wechat-03.png)
-
-安装成功后，桌面就有图标了
-
-![](./TrollStore-wechat-04.png)
-
-进入轻松签
-
-![](./TrollStore-wechat-05.png)
-
-我们还需要一个过期的签名证书
-
-下载：https://www.123pan.com/s/3LWcVv-IlLrh.html
-
-::: tip 说明
-没有证书，会无法签名，所以过期的也行
-:::
-
-![](./TrollStore-wechat-06.png)
-
-下载好后，我们点击进入iCloud云盘
-
-![](./TrollStore-wechat-07.png)
-
-长按压缩包，共享
-
-![](./TrollStore-wechat-08.png)
-
-用轻松签打开
-
-![](./TrollStore-wechat-09.png)
-
-点击文件，直接解压，解压完后，进入文件夹
-
-![](./TrollStore-wechat-10.png)
-
-点击 `cert 2.p 12` 导入证书库，输入密码 `1`，在设置-证书管理可看到
-
-![](./TrollStore-wechat-11.png)
-
-![](./TrollStore-wechat-12.png)
-
-
-同样的方式，下载好微信的砸壳ipa包，然后用轻松签打开
-
-::: tip 科普
-这里的dump就表示砸壳，就是提取ipa安装包
-
-因为苹果对安装包进行了加密，并包裹在了ipa上，砸壳的过程就是解密脱壳
-:::
-
-[https://www.mediafire.com/file/q7pod9131llj6ca/](https://www.mediafire.com/file/q7pod9131llj6ca/%25E5%25BE%25AE%25E4%25BF%25A1_8.0.44_Dump.ipa/file)
-
-::: details 下载的ipa后缀是zip
-没关系，导入到轻松签了，删掉 `.zip` 后缀名即可
-:::
-
-![](./TrollStore-wechat-13.png)
-
-点击微信文件，导入应用库，选择微信 - 签名
-
-![](./TrollStore-wechat-14.png)
-
-
-
-这里我们多开就修改下 `App名字` 和 `Bundle Identifier` 就好了，例如我在后面都加了个 `fenshen`
-
-::: tip 说明
-Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独一无二就相当于人的身份证
-
-我们通过修改应用ID，就变成了两个完全独立的App，可共存安装，也就是多开
-:::
-
-![](./TrollStore-wechat-15.png)
-
-
-点 `更多设置` 根据自己需求也可以改一下图标
-
-::: tip 关于插件
-就是移除已有库和添加第三方库，使用上和 [轻松签+](./esign.md) 一致的，这里不再赘述
-:::
-
-::: details 分享1个图片
-
-![](./TrollStore-wechat-icon.png)
-
-:::
-
-![](./TrollStore-wechat-16.png)
-
-
-然后下拉，建议打开 `移除应用跳转` 和 `开启文件访问` 开关，立即签名
-
-::: tip 说明
-移除应用跳转：可避免大号分享时跳转到分身上
-
-开启文件访问：可访问本地文件及相册等
-
-提示掉签：本身就是过期证书，无视即可
-:::
-
-![](./TrollStore-wechat-17.png)
-
-
-签名完成后，在 `已签名` 页卡中找到改好的微信，点击 `分享`
-
-::: warning 注意
-不要直接安装了，过期的证书签的名，装了也打不开
-
-点分享！点分享！点分享
-:::
-
-![](./TrollStore-wechat-18.png)
-
-
-用巨魔打开安装，卸载也只能用巨魔卸载，桌面删不掉
-
-![](./TrollStore-wechat-19.png)
-
-
-安装完成，打开登录账号即可
-
-![](./TrollStore-wechat-20.png)
-
-
-
-::: details 疑问1：会封号吗
-理论上来说，99.99%不会
-
-本身就是原版未修改的ipa包，不存在封号一说
-
-有插件的都未必封号，最多限制几小时登陆；修改过的微商版微信那肯定是会封
-:::
-
-::: details 疑问2：怎么卸载
-卸载不能在桌面删，只能在 `已安装` 页卡，选中应用左滑即可卸载
-:::
-
-::: details 疑问3：再安装新版本微信聊天记录还在吗
-只要签名的时候，应用ID和上次一样就可以直接覆盖安装，聊天记录都在
-:::
-
-
-
----
-
-
-### 屏蔽更新
-
-
-方法原自 [@赵楠](https://github.com/invalidunit) 大佬，安装tvOS16描述文件，屏蔽检测更新的红点
-
-浏览器打开：https://alexia.lol/noota16.mobileconfig
-
-![](./TrollStore-26.png)
-
-设置中点开描述文件安装
-
-![](./TrollStore-27.png)
-
-安装完重不重启都可以，这样更新界面就不再推送了
-
-::: tip 建议
-如果你本身有更新红点，点 `以后` ，回设置中查看无红点了再重启
-
-如果本身没有更新红点，直接 `重启启动`
-:::
-
-::: details 桌面多了一个反馈app
-无视即可，删掉也行
-:::
-
-![](./TrollStore-28.png)
-
-但保不齐苹果强制更新，巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
-
-进入 `/usr/bin/` 目录，找到 `vm_stat` 打开运行
-
-![](./TrollStore-29.png)
-
-![](./TrollStore-30.png)
-
-复制下面代码，Paste粘贴
-
-```sh
-rm -rf /var/MobileSoftwareUpdate/MobileAsset/AssetsV2/* && chflags schg,schange,simmutable /var/MobileSoftwareUpdate/MobileAsset/AssetsV2
-```
-
-这就苹果就彻底无法更新了
-
-![](./TrollStore-31.png)
-
-::: details 想还原使用：恢复命令
-
-```sh
-chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/AssetsV2
-```
-:::
-
-
-
-
-
-
-
-
-## 8.常见问题
-
-
-
-#### 8.1 安装完成，不显示图标
+#### 安装完成，不显示图标
 
 
 打开 TrollStore - Settings - 点击 `Rebuild Icon Cache` 等待重启，未重启的话，点击 `Respring` 即可
 
 
-#### 8.2 可以安装其他应用吗
+#### 可以安装其他应用吗
 
 可以，以上只是一些工具，可以安装一些破解版APP，例如：Youtube破解版
 

@@ -121,7 +121,7 @@ export default defineConfig({
             items: [
             { text: '使用介绍(必读)', link: '/iPhone/sign/' },
             { text: '巨魔助手', link: '/iPhone/sign/TrollStore' },
-            { text: '轻松签+', link: '/iPhone/sign/esign' },
+            { text: '轻松签', link: '/iPhone/sign/esign' },
             { text: '牛蛙助手', link: '/iPhone/sign/bullfrog' },
             { text: 'Sideloadly', link: '/iPhone/sign/Sideloadly' },
             ],

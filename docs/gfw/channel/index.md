@@ -29,6 +29,7 @@ https://smailpro.com/tool/temp-mail
 | [Helium Network](https://web.henet.uk) | 不限时100G | `网站需挂梯子打开`<br>均速2M/s | [TG群](https://t.me/helium_official) |
 | [SsPlane ETS](https://ets.ss-plane.com) | [临时邮箱注册](#临时邮箱)<br>不限时100G | `网站需挂梯子打开`<br>均速2M/s | [TG群](https://t.me/SsPlaneVPN) |
 | [咔啦咪](https://kalaa.me/) | 白嫖码 `kalaa.me` <br>商店0购100G/月 | 均速5M/s | [TG群](https://t.me/kalaamegp) |
+| [红杏](https://红杏.co) | 新户注册30天100G | 均速5M/s | [TG群](https://t.me/Redapricot_VPN) |
 | [麻雀加速器](https://v.spwvpn.com/) | 新户注册1000G<br>可续 | 均速4M/s | [TG群](https://t.me/spwvpn) |
 | |
 | [👍 iKuuu](https://ikuuu.me/) | 不限时50G | 均速4.5M/s | [备用](https://ikuuu.boo/) |

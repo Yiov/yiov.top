@@ -36,7 +36,7 @@
 | [SideStore](https://sidestore.io/) | (仅首次需要电脑) 手机 | 个人Apple ID(7天) | 免费 |
 | [Scarlet·猩红](http://usescarlet.com/) | 手机 | 自带免费企业证书(不推荐) | 免费 |
 | |
-| [轻松签](https://esign.yyyue.xyz/) | 手机 | 企业证书(收费) | 免费 |
+| [⭐轻松签](./esign.md) | 手机 | 企业证书(收费) | 免费 |
 | [全能签](https://udid.nuosike.cn/sign/) | 手机 | 企业证书(收费) | 免费 |
 | [喵喵签](https://sign.mmqqq.com/) | 手机 | 企业证书(收费) | 免费 |
 | [Gbox](https://gbox.run/) | 手机 | 企业证书(收费) | 免费 |

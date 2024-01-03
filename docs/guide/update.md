@@ -10,7 +10,24 @@ next: false
 # 更新内容
 
 
-## 2021-1-2
+
+## 2024-1-3
+
+
+* 更新了 [机场列表](../gfw/channel/)
+
+* 新增科学上网工具 [NekoRay](../gfw/proxy/index.md)
+
+* 更新 [轻松签教程](../iPhone/sign/esign.md)
+
+* 更新 [KFD工具教程](../iPhone/kfd/)
+
+* 更新 [巨魔教程](../iPhone/sign/TrollStore.md)
+
+
+
+
+## 2024-1-2
 
 * 新增了多巴胺越狱 [0xkuj源](../iPhone/Jailbreak/Dopamine.md#其他插件)
 
@@ -43,8 +60,6 @@ next: false
 ## 2023-12-27
 
 * 更新了巨魔砸壳软件 [AppsDump2](https://www.mediafire.com/file/qslrr64a6cm31uj/AppDump2_2.0.5.ipa/file) 的下载链接
-
-* 更新了[机场列表](../gfw/channel/)
 
 * 更新的 [机场列表](../gfw/channel/)
 

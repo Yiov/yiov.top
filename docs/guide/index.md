@@ -95,8 +95,6 @@
 
 * [KFD漏洞工具](../iPhone/kfd/)
 
-* [IOS应用砸壳及插件注入](../iPhone/dump/)
-
 * [Filza文件管理器破解](../iPhone/Filza/)
 
 

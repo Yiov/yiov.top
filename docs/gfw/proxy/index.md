@@ -106,6 +106,8 @@
 
 * [karing](https://karing.app/)
 
+* [NekoRay](https://github.com/MatsuriDayo/nekoray/releases)
+
 * [浏览器插件·Hoxx VPN.crx](https://dzp.lanzouy.com/ih2uz052glwh)
 
 * [浏览器插件·iGG谷歌学术助手.crx](https://dzp.lanzouy.com/igSY9xk2asd)

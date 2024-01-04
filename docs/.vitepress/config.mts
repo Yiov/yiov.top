@@ -140,9 +140,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'MDC工具', link: '/iPhone/mdc/' },
-          { text: 'KFD工具', link: '/iPhone/kfd/' },
-          { text: '砸壳及注入', link: '/iPhone/dump/' },
-          { text: 'Filza破解', link: '/iPhone/Filza/' },
+              { text: 'KFD工具', link: '/iPhone/kfd/' },
+              { text: 'Filza破解', link: '/iPhone/Filza/' },
 
             ],
           },

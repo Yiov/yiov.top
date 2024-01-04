@@ -11,6 +11,14 @@ next: false
 
 
 
+
+## 2024-1-4
+
+* 删除 砸壳教程 以合并入其他教程
+
+
+
+
 ## 2024-1-3
 
 
@@ -24,7 +32,7 @@ next: false
 
 * 更新 [巨魔教程](../iPhone/sign/TrollStore.md)
 
-
+* 更新 [unc0ver越狱](../iPhone/Jailbreak/unc0ver.md) 和 [checkra1n越狱](../iPhone/Jailbreak/checkra1n.md) 排版
 
 
 ## 2024-1-2

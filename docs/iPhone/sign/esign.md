@@ -125,6 +125,16 @@ IOS 16及以上的手机不支持，官网还没有更新
 
 
 
+::: details 已越狱用户安装
+
+添加蔡明美源：https://cydia.akemi.ai/
+
+搜索 `AppSync Unified` ，就可以免签安装App
+
+:::
+
+
+
 
 ## 使用
 

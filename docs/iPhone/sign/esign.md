@@ -462,17 +462,17 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 ## 插件
 
 ::: tip 说明
-`arm` 文件对应 有根，`arm64` 文件对应 无根
+`arm` 文件对应 `有根` ，`arm64` 文件对应 `无根`
 
-注入而言没有区别，都可注入使用
+对注入而言，没有区别，都可注入使用
 :::
 
-::: details 有根和无根的区别
+::: details 有根 和 无根 的区别
 仅是对越狱而言
 
-有根即rootful，可以读写系统根文件，如：unc0ver 和 checkra1n 等越狱
+有根即 `rootful` ，可以读写系统根文件，如：`unc0ver` 和 `checkra1n` 等越狱
 
-无根即rootless，仅可读系统根文件，如 Dopamine 和 XinaA15 等越狱
+无根即 `rootless` ，仅可读系统根文件，如 `Dopamine` 和 `XinaA15` 等越狱
 :::
 
 
@@ -486,6 +486,9 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 
 - [高德地图 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-ia5rh.html)
+
+
+- [今日头条 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-DB5rh.html)
 
 
 - Tiktok - BH/Tiktok Plus 丨 [@BandarHL](https://github.com/BandarHL/BHTikTok) / [@dayanch96](https://github.com/dayanch96/BHTikTok-Plus)

@@ -12,6 +12,18 @@ next: false
 
 
 
+## 2024-1-6
+
+- 更新 [iOS 16.5.1 系统已可以安装巨魔](../iPhone/sign/TrollStore.md)
+
+- 更新 [使用AppsManager恢复数据后无法从AppStore下载的问题](../iPhone/sign/TrollStore.md#工具类)
+
+- 新增 [轻松签插件](../iPhone/sign/esign.md#插件) ，可能会一直整理
+
+
+
+
+
 ## 2024-1-4
 
 * 删除 砸壳教程 以合并入其他教程

@@ -459,8 +459,22 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 
 
+## 插件
 
 
+- [抖音 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-Lx5rh.html)
+
+
+- [小红书 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-Va5rh.html)
+
+
+- [快手 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-ja5rh.html)
+
+
+- [高德地图 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-ia5rh.html)
+
+
+- Tiktok - BH/Tiktok Plus 丨 [@BandarHL](https://github.com/BandarHL/BHTikTok) / [@dayanch96](https://github.com/dayanch96/BHTikTok-Plus)
 
 
 

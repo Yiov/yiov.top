@@ -274,8 +274,6 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 > 教程仅适用于：[A12-A16](#适用范围) IOS 16.2 - 16.6.1
 > 
 > 支持具体机型：[请查阅官方文档](https://github.com/PureKFD/PureKFD/blob/beta/supported.md)
-> 
-> 特别说明：iOS 16.5.1 暂时无法安装
 
 PureKFD是一款利用KFD漏洞开发的工具，且已上线了巨魔的辅助安装功能
 
@@ -643,8 +641,6 @@ Picasso就安装成功了，但是还打不开，要信任一下
 > 教程仅适用于：[A12-A16](#适用范围) `IOS 16.2 - 16.6.1`
 >
 > 具体机型 [请查阅官方文档](https://github.com/straight-tamago/misaka/releases)
-> 
-> 特别说明：iOS 16.5.1 暂时无法安装
 
 misaka是一款利用MDC/KFD漏洞开发的工具，且已上线了巨魔的辅助安装功能
 
@@ -1256,6 +1252,21 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 ---
 
 * [Apps Manager：用于备份还原 丨@TIGI Software](https://www.tigisoftware.com/default/?p=435) 丨 [@巨魔e族破解v1.8.4](https://www.123pan.com/s/3LWcVv-T7Lrh.html)
+
+::: details 使用AppsManager恢复数据后无法从AppStore下载的问题
+由于出现此问题的几率较高，出现后只能抹机，没有推荐使用
+
+现在有了解决方式
+
+Filza 找到 `/usr/bin/vm_stat` ，单击运行，粘贴下面的指令，回车
+
+```
+chown 0:0 /var/tmp
+chmod 777 /var/tmp
+chown 501:0 /var/tmp/com.apple.appstored
+chmod 700 /var/tmp/com.apple.appstored
+```
+:::
 
 * [Filza：文件管理器 丨@TIGI Software](https://www.tigisoftware.com/default/?p=439) 丨 [@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
 

@@ -127,9 +127,29 @@ IOS 16及以上的手机不支持，官网还没有更新
 
 ::: details 已越狱用户安装
 
-添加蔡明美源：https://cydia.akemi.ai/
+添加源地址：https://havoc.app，搜索 `Trollstore Helper` 安装巨魔助手
 
-搜索 `AppSync Unified` ，就可以免签安装App
+---
+
+然后 [轻松签官网](https://esign.yyyue.xyz/) 下载ipa
+
+![](./esign-02.png)
+
+下载 - 点击下载好的文件
+
+![](./esign-03.png)
+
+右上角分享 - 用 `巨魔` 打开安装
+
+![](./esign-04.png)
+
+安装成功后，桌面就有图标了
+
+![](./esign-05.png)
+
+进入轻松签
+
+![](./esign-06.png)
 
 :::
 

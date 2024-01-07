@@ -12,6 +12,16 @@ next: false
 
 
 
+## 2024-1-7
+
+- 更新 [巨魔软件 Copylog](../iPhone/sign/TrollStore.md#工具类) 苹果原生系统键盘增强剪切板破解
+
+- 更新 [巨魔软件 IPCC](../iPhone/sign/TrollStore.md#工具类) 永久锁定SA 5G、去除系统漫游、开启独立5G语音
+
+- 更新 [轻松签已越狱安装教程](../iPhone/sign/esign.md#安装)
+
+
+
 ## 2024-1-6
 
 - 更新 [iOS 16.5.1 系统已可以安装巨魔](../iPhone/sign/TrollStore.md)

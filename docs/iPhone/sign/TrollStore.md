@@ -1218,13 +1218,15 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 ## 更多工具
 
-
+::: tip 说明
+带 ⭐ 的是我正在使用的
+:::
 
 ### 聚合类
 
 * [CyPwnStore：破解应用商店](https://ipa.cypwn.xyz/) | [@Coolstars](https://twitter.com/CStar_OW) 丨[APP下载](https://www.123pan.com/s/3LWcVv-N7zrh.html)
 
-* [Decrypt：在线砸壳商店](https://decrypt.day/)
+* [Decrypt：在线砸壳商店](https://decrypt.day/) ⭐
 
 * [IPA图书馆](https://zappfree.com/ipa-library/)
 
@@ -1238,24 +1240,45 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 ### 工具类
 
-* <span style="border-bottom:2px dashed yellow;">[轻松签：多开软件必备，可添加移除插件 | @esign](./esign.md)</span>
+* <span style="border-bottom:2px dashed yellow;">[轻松签：多开软件必备，可添加移除插件 | @esign](./esign.md)</span> ⭐
 
-* [PostBox：插件下载工具，国区上架PostBox Pocket | @PostBoxTeam](https://www.postbox.news/downloads)
+* [PostBox：插件下载工具，国区上架PostBox Pocket | @PostBoxTeam](https://www.postbox.news/downloads) ⭐
 
 ---
-* [LocSim：先装虚拟定位v1.3.7授权版 | @Mika](https://www.mediafire.com/file/qwdgdnvek84xb83/虚拟定位_1.3.7_授权版.ipa/file) 丨 [后装可搜索破解版v1.4.1](https://www.mediafire.com/file/0pfhnyv3twnw3f6/%E8%99%9A%E6%8B%9F%E5%AE%9A%E4%BD%8D_1.4.1.ipa/file)
+* [LocSim：先装虚拟定位v1.3.7授权版 | @Mika](https://www.mediafire.com/file/qwdgdnvek84xb83/虚拟定位_1.3.7_授权版.ipa/file) 丨 [后装可搜索破解版v1.4.1](https://www.mediafire.com/file/0pfhnyv3twnw3f6/%E8%99%9A%E6%8B%9F%E5%AE%9A%E4%BD%8D_1.4.1.ipa/file) ⭐
 
-* [TrollSpeed：实时网速浮窗工具 丨 @Lessica](https://github.com/Lessica/TrollSpeed/releases)
+* [TrollSpeed：实时网速浮窗工具 丨 @Lessica](https://github.com/Lessica/TrollSpeed/releases) ⭐
 
 * [SecondHand：状态栏显示实时秒数 | @leminlimez](https://github.com/leminlimez/SecondHand/releases)
 
 * [Helium：悬浮显示日期/网速/设备温度/电池详细工具 丨 @LeminLimez](https://github.com/leminlimez/Helium/releases)
 
-* [Copylog：系统键盘最强剪切板插件 - 收费 丨@tomt000](https://havoc.app/package/copylogts) 丨 [！折扣技巧：注册提交购买越狱版，不付款，返回购买巨魔版，28变15](https://havoc.app/package/copylog) 丨 [汉化版](https://www.123pan.com/s/3LWcVv-wo5rh.html)
+* [Copylog：系统键盘最强剪切板插件 - 收费 丨@tomt000](https://havoc.app/package/copylogts) 丨 [Copylog_1.6_原版](https://www.123pan.com/s/3LWcVv-mJ5rh.html) 丨 [破解工具CLCracker](https://www.123pan.com/s/3LWcVv-1J5rh.html) ⭐
+
+
+
+::: details Copylog破解教程
+1.先下载安装 `copylog_1.6_原版` ，打开
+
+2.登录选择 `Or get it on Havoc`
+
+3.自动跳浏览器后，选择 `Apple ID` 登录
+
+4.下载安装 破解工具 `CLCracker_1.0` ，打开点击 `Crack`，直到 `Finish` 结束
+
+5.划掉浏览器、Copylog和CLCracker后台，重新打开 `Copylog`
+
+6.能进入后台就说明破解完成，点击右上角 `Active` 激活使用
+
+注：在原生键盘上滑（或长按空格键不限时字母后上滑），有手势划过的状态即可调出
+:::
+
+
+
 
 ---
 
-* [AppsDump2：巨魔非全权限砸壳/虚拟定位 丨 @bswbw](https://www.mediafire.com/file/qslrr64a6cm31uj/AppDump2_2.0.5.ipa/file) 丨 [TG群](https://t.me/gblwjb)
+* [AppsDump2：巨魔非全权限砸壳/虚拟定位 丨 @bswbw](https://www.mediafire.com/file/qslrr64a6cm31uj/AppDump2_2.0.5.ipa/file) 丨 [TG群](https://t.me/gblwjb) ⭐
 
 * [TrollDecrypt：巨魔非全权限砸壳](https://github.com/donato-fiore/TrollDecrypt/releases) 丨 [秋名山汉化版v1.1.5](https://www.123pan.com/s/3LWcVv-dbLrh.html)
 
@@ -1281,11 +1304,11 @@ chmod 700 /var/tmp/com.apple.appstored
 ```
 :::
 
-* [Filza：文件管理器 丨@TIGI Software](https://www.tigisoftware.com/default/?p=439) 丨 [@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
+* [Filza：文件管理器 丨@TIGI Software](https://www.tigisoftware.com/default/?p=439) 丨 [@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file) ⭐
 
 * [AppStore++：App随意升降级 丨 @CokePokes](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) 丨 [越狱源](https://cokepokes.github.io/)
 
-* [DowngradeApp：无广告 App随意升降级 | @Netskao](https://www.123pan.com/s/3LWcVv-zSLrh.html)
+* [DowngradeApp：无广告 App随意升降级 | @Netskao](https://www.123pan.com/s/3LWcVv-zSLrh.html) ⭐
 
 * [NetWorkManager：网络状态管理工具 | @Netskao](https://www.123pan.com/s/3LWcVv-YuLrh.html)
 
@@ -1294,6 +1317,8 @@ chmod 700 /var/tmp/com.apple.appstored
 * [IpaDownloadTool：IPA下载器 | @SmileZXLee](https://github.com/SmileZXLee/IpaDownloadTool/)
 
 * [NetworkController：国行苹果设备网络控制，输入Bundle ID点SET即可 丨 @Halo-Michael](https://github.com/Halo-Michael/NetworkController-app)
+
+* [IPCC3.0：永久锁定SA 5G、去除系统漫游、开启独立5G语音 丨 @肖博](https://ipcc.xiaobo.pro) 丨 [B站视频讲解](https://www.bilibili.com/video/BV1gG41167k4/) 丨 [IPCC2.9：支持导入指定ipcc版本，iOS 14-15.7.1 / 16.0-16.1.2](https://www.123pan.com/s/3LWcVv-BJ5rh.html)
 
 
 ---
@@ -1341,7 +1366,7 @@ chmod 700 /var/tmp/com.apple.appstored
 
 * [Mugunghwa木槿花：真主题/角标/全面屏手势 | @s8ngyu](https://github.com/s8ngyu/Mugunghwa/releases)
 
-* [red-dot：自定义角标颜色 | @s8ngyu](https://github.com/s8ngyu/red-dot/releases)
+* [red-dot：自定义角标颜色 | @s8ngyu](https://github.com/s8ngyu/red-dot/releases) ⭐
 
 * [TrollTools：真假主题/角标/全屏手势/锁屏图案等 丨 @sourcelocation](https://github.com/sourcelocation/TrollTools/releases)
 

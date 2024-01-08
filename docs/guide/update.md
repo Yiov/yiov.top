@@ -10,7 +10,11 @@ next: false
 # 更新内容
 
 
+## 2024-1-8
 
+- 新增 轻松签插件：[微信]((../iPhone/sign/esign.md)
+
+- 新增 巨魔iPad安装软件 [SimpleKFD](https://github.com/braumye/simplekfd-ipad-ipa/releases)
 
 ## 2024-1-7
 

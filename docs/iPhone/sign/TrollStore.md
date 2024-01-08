@@ -89,7 +89,9 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 | 17.0.1及以上 | ✘ | ✘ |
 
 
-
+::: warning 注意
+如果你是iPad 可以是使用 [Misaka](#misaka) 或者 [SimpleKFD](https://github.com/braumye/simplekfd-ipad-ipa/releases)
+:::
 
 
 

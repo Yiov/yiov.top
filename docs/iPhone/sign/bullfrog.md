@@ -153,6 +153,8 @@ Bundle ID就是应用程序标识符，也叫应用ID，也叫包名，独一无
 
 ![](./bullfrog-wechat-icon.png)
 
+![](./bullfrog-wechat-icon2.jpg)
+
 :::
 
 ![](./bullfrog-20.png)

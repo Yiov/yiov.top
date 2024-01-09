@@ -10,11 +10,17 @@ next: false
 # 更新内容
 
 
+## 2024-1-9
+
+- 新增一个 [多开微信的图标](../iPhone/sign/esign.md)
+
+年底较忙，可能不怎么大更新了
+
 ## 2024-1-8
 
-- 新增 轻松签插件：[微信]((../iPhone/sign/esign.md)
+- 新增 轻松签插件：[微信](../iPhone/sign/esign.md)
 
-- 新增 巨魔iPad安装软件 [SimpleKFD](https://github.com/braumye/simplekfd-ipad-ipa/releases)
+- 新增 巨魔iPad安装软件[SimpleKFD](https://github.com/braumye/simplekfd-ipad-ipa/releases)
 
 ## 2024-1-7
 

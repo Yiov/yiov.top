@@ -257,6 +257,8 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 ![](./esign-wechat-icon.png)
 
+![](./esign-wechat-icon2.jpg)
+
 :::
 
 ![](./esign-wechat-07.png)

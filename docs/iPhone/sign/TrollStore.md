@@ -391,22 +391,15 @@ PureKFD安装成功了，但是还打不开，要信任一下
 
 ![](./TrollStore-purekfd-14.png)
 
-右上角齿轮 - 设置，点击 `v4 Settings`
+右上角齿轮 - 设置，查看自己是否是KFD
 
 ![](./TrollStore-purekfd-15.png)
 
-首次进入需要将 `Override Exploit Method` 开关打开
-
 ::: tip 关于 puaf method 漏洞选择
-iOS 16.2 - 16.5 选择 `physpuppet` 或 `smith`
+iOS 16.0 - 16.5 选择 `physpuppet` 、 `smith` 或 `landa`
 
-iOS 16.5.1 - 16.6.1 选择 `landa`
+iOS 16.5.1 - 16.6.1 必须选择 `landa`
 :::
-
-我这里以 `landa` 为例，static headroom选择 `65536`，其他保持默认
-
-![](./TrollStore-purekfd-16.png)
-
 
 
 再点击底部 `Developer` ，安装巨魔 `Install Trollstore Helper`
@@ -421,7 +414,7 @@ iOS 16.5.1 - 16.6.1 选择 `landa`
 :::
 
 
-![](./TrollStore-purekfd-17.png)
+![](./TrollStore-purekfd-16.png)
 
 
 
@@ -438,7 +431,7 @@ iOS 16.5.1 - 16.6.1 选择 `landa`
 
 
 
-![](./TrollStore-purekfd-18.png)
+![](./TrollStore-purekfd-17.png)
 
 
 
@@ -452,7 +445,7 @@ iOS 16.5.1 - 16.6.1 选择 `landa`
 如果非要选的Tips，请先卸载重装 [提示](https://apps.apple.com/cn/app/id1069509450)，再来选择 Tips 为持久性助手即可
 :::
 
-![](./TrollStore-purekfd-19.png)
+![](./TrollStore-purekfd-18.png)
 
 如果有天巨魔打不开，可以通过持久性助手可让巨魔恢复正常使用
 
@@ -460,7 +453,7 @@ iOS 16.5.1 - 16.6.1 选择 `landa`
 有了持久性助手，PureKFD 可以直接卸载了
 :::
 
-![](./TrollStore-purekfd-20.png)
+![](./TrollStore-purekfd-19.png)
 
 
 

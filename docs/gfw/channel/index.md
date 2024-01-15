@@ -21,6 +21,8 @@ https://smailpro.com/tool/temp-mail
 不保证机场主会调整，具体以注册后的情况为准
 :::
 
+👍 永久更新公益订阅：https://shz.al/PSXr
+
 
 | 机场 | 流量 | 说明 | 防走丢 |
 |:-:|:-:|:-:|:-:|
@@ -42,6 +44,7 @@ https://smailpro.com/tool/temp-mail
 | |
 | [GlaDOS](https://glados.network/) | 注册后每4个月送兑换码一月200G | `网站需挂梯子打开`<br>均速1.5m/s | [TG群](https://t.me/liangxinjc) |
 | [大湾区机场](https://v2.quanstring.top/) | 新户注册7天100G | 均速2.6M/s | WeChat：yugangao001 |
+| [白蘑菇机场](https://baimoguyun.xyz/) | 新户注册7天25G | 均速1.5M/s | [TG群](https://t.me/baimoguyun668) |
 | [UU云](https://uuyun.one/) | 新户注册8天20G | 不验证邮箱<br>均速2.7M/s | [TG群](https://t.me/uuyun) |
 | [Speedy](https://cloud.speedypro.xyz/) | 新户注册7天10G | `网站需挂梯子打开`均速1.2M/s | [TG群](https://t.me/speedyasia) |
 | [永动机](https://www.yongdong.xyz) | `不验证邮箱`<br>新户注册5天20G | 均速2.4M/s | [TG群](https://t.me/yongdongjijiaoliu) |

@@ -483,13 +483,11 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 ## 插件
 
-::: tip 说明
+::: tip 有根和无根的区别
 `arm` 文件对应 `有根` ，`arm64` 文件对应 `无根`
 
 对注入而言，没有区别，都可注入使用
-:::
 
-::: details 有根 和 无根 的区别
 仅是对越狱而言
 
 有根即 `rootful` ，可以读写系统根文件，如：`unc0ver` 和 `checkra1n` 等越狱
@@ -498,26 +496,49 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 :::
 
 
-- [微信 丨 多位大佬合辑](https://www.123pan.com/s/3LWcVv-6J5rh.html)
+
+::: details 微信插件合辑
+
+由于插件开发者较多，最新版查过10个插件，点击游戏会闪退，所以可以自行选注入
+
+- [插件收纳/密友  - 老牌猫源 丨 @老猫](https://apt.25mao.com/) 丨 [TG群](https://t.me/lanmaoshare)
+
+-  [黄白助手](https://hbpan.baixingyllh.com) 丨 [越狱源](https://byg.iosios.net/)
+
+- [主题：猪咪小屋 丨 @小茜宝宝](http://49.232.49.29/) 丨 [公众号](https://mp.weixin.qq.com/s/RZDxtc9NAhtjVGxZ-VC_KQ)
+
+- [主题：酸果 丨苏兔](https://apt.sutuplus.com) 丨[公众号](https://mp.weixin.qq.com/s/QmpzY5X36t3XnIzd7PsJkw)
+
+- [主题：菠萝 丨 ThemePro](https://themepro.yourepo.com/) 丨 [公众号](https://mp.weixin.qq.com/s/ggYRb-MmTZRrYOsOyk3YkA)
+
+- 其他：https://www.123pan.com/s/3LWcVv-6J5rh.html
+
+:::
 
 
-- [抖音 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-Lx5rh.html)
 
 
-- [小红书 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-Va5rh.html)
+::: details 抖音/小红书/快手/高德/百度/今日头条
+
+- 图层：https://www.123pan.com/s/CvniVv-IJXa.html
+
+:::
 
 
-- [快手 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-ja5rh.html)
+
+::: details Tiktok
+
+- BH/Tiktok Plus：https://github.com/dayanch96/BHTikTok-Plus
+
+:::
 
 
-- [高德地图 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-ia5rh.html)
 
 
-- [今日头条 - 图层 丨 @X大佬](https://www.123pan.com/s/3LWcVv-DB5rh.html)
+::: details Youtube
 
+- YTLite：https://github.com/dayanch96/YTLite/releases/
 
-- Tiktok - BH/Tiktok Plus 丨 [@BandarHL](https://github.com/BandarHL/BHTikTok) / [@dayanch96](https://github.com/dayanch96/BHTikTok-Plus)
-
-
+:::
 
 

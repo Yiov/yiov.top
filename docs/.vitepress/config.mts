@@ -133,6 +133,7 @@ export default defineConfig({
             { text: 'Dopamine', link: '/iPhone/Jailbreak/Dopamine' },
             { text: 'unc0ver', link: '/iPhone/Jailbreak/unc0ver' },
             { text: 'checkra1n', link: '/iPhone/Jailbreak/checkra1n' },
+            { text: '搭建插件源', link: '/iPhone/Jailbreak/repo' },
 
             ],
           },

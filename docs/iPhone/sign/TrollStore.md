@@ -83,8 +83,8 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 | 15.7.2 | checkra1n 越狱 | [Misaka](#misaka) |
 | 15.7.3 - 15.8| checkra1n 越狱 | ✘ |
 | [16.0](https://support.apple.com/zh-cn/HT213407) - 16.1.2 | [TrollInstaller MDC](#trollinstaller-mdc) | [TrollInstaller MDC](#trollinstaller-mdc) |
-| 16.2 - 16.6.1 | checkra1n 越狱 | [👍PureKFD](#purekfd) /<br>[👍Picasso](#picasso) /<br>[Misaka](#misaka) |
-| 16.7 - 16.7.2 | ✘ | ✘ |
+| 16.2 - 16.6.1 | checkra1n 越狱 | [TrollStar](#trollstar) /<br>[其他第三方安装](#其他第三方安装) |
+| 16.7 - 16.7.4 | ✘ | ✘ |
 | [17](https://support.apple.com/zh-cn/HT213781) | checkra1n 越狱 | 无安装方式 |
 | 17.0.1及以上 | ✘ | ✘ |
 
@@ -115,7 +115,7 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 根据自己的系统选择安装链接
 
-![](./TrollStore-arm-01.png)
+![](/TrollStore/TrollStore-arm-01.png)
 
 
 安装的是 `GTA Car Tracker` ，打开点安装 `Install Trollstore`，自动注销后，回到桌面就发现装完成了
@@ -125,7 +125,7 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 :::
 
 
-![](./TrollStore-arm-02.png)
+![](/TrollStore/TrollStore-arm-02.png)
 
 自动安装好了 `Idid` ，灰色状态就是已经安装成功了
 
@@ -138,7 +138,7 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 :::
 
 
-![](./TrollStore-arm-03.png)
+![](/TrollStore/TrollStore-arm-03.png)
 
 
 如果有天巨魔打不开，我们通过 `Tips` 可让巨魔恢复正常使用
@@ -147,7 +147,7 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 有了持久性助手，GTA 可以直接卸载了
 :::
 
-![](./TrollStore-arm-04.png)
+![](/TrollStore/TrollStore-arm-04.png)
 
 
 ---
@@ -172,16 +172,16 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 然后再下载：https://dhinakg.github.io/apps.html
 
 
-![](./TrollStore-MDC-01.png)
+![](/TrollStore/TrollStore-MDC-01.png)
 
 下载完成后，点击浏览器 `下载` 按键，再点击已经下载好的 `TrollInstallerMDC`
 
-![](./TrollStore-MDC-02.png)
+![](/TrollStore/TrollStore-MDC-02.png)
 
 
 右上角分享，选择 `牛蛙助手`
 
-![](./TrollStore-MDC-03.png)
+![](/TrollStore/TrollStore-MDC-03.png)
 
 点 `发送`，牛蛙打开后，选择 `导入`
 
@@ -189,43 +189,43 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 如果勿点了取消，也可直接点 TrollInstallerMDC.ipa 选择导入应用库
 :::
 
-![](./TrollStore-MDC-04.png)
+![](/TrollStore/TrollStore-MDC-04.png)
 
 
 点击 `TrollInstallerMDC` ，选择 `签名` - `立即签名`
 
-![](./TrollStore-MDC-05.png)
+![](/TrollStore/TrollStore-MDC-05.png)
 
 
 在已签名的页卡中，选择刚签好名的 `TrollInstallerMDC` 安装，但牛蛙安装必须要开启`VPN和WIFI`，我们去打开
 
-![](./TrollStore-MDC-06.png)
+![](/TrollStore/TrollStore-MDC-06.png)
 
 设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
 
-![](./TrollStore-MDC-07.png)
+![](/TrollStore/TrollStore-MDC-07.png)
 
 打开VPN后我们返回重新安装 TrollInstallerMDC 即可
 
-![](./TrollStore-MDC-08.png)
+![](/TrollStore/TrollStore-MDC-08.png)
 
 TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
-![](./TrollStore-MDC-09.png)
+![](/TrollStore/TrollStore-MDC-09.png)
 
 
 设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
 
-![](./TrollStore-MDC-10.png)
+![](/TrollStore/TrollStore-MDC-10.png)
 
-![](./TrollStore-MDC-11.png)
+![](/TrollStore/TrollStore-MDC-11.png)
 
 
 再次打开 TrollInstallerMDC ，提示沙盒读写，点 `好`
 
 这样 `Tips` 即 `提示` ，就成了一个安装器
 
-![](./TrollStore-MDC-12.png)
+![](/TrollStore/TrollStore-MDC-12.png)
 
 打开 `提示` 点 `Install TrollStore` 安装巨魔即可
 
@@ -233,7 +233,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 需要翻墙，[科学上网工具及使用方法](../../gfw/channel/)
 :::
 
-![](./TrollStore-MDC-13.png)
+![](/TrollStore/TrollStore-MDC-13.png)
 
 自动安装好了 `Idid` ，灰色状态就是已经安装成功了
 
@@ -245,7 +245,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 如果非要选的Tips，请先卸载重装 [提示](https://apps.apple.com/cn/app/id1069509450)，再来选择 Tips 为持久性助手即可
 
-![](./TrollStore-arm-03.png)
+![](/TrollStore/TrollStore-arm-03.png)
 
 
 如果有天巨魔打不开，可以通过持久性助手可让巨魔恢复正常使用
@@ -254,7 +254,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 有了持久性助手，TrollInstallerMDC 可以直接卸载了
 :::
 
-![](./TrollStore-arm-04.png)
+![](/TrollStore/TrollStore-arm-04.png)
 
 
 
@@ -265,13 +265,23 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 
 
+### TrollStar
+
+
+编写中...
+
+自签安装下载：https://github.com/34306/TrollStar/releases/
 
 
 
+---
 
 
+### 其他第三方安装
 
-### PureKFD
+
+::::: details PureKFD安装
+
 
 > 教程仅适用于：[A12-A16](#适用范围) IOS 16.2 - 16.6.1
 > 
@@ -283,11 +293,11 @@ PureKFD是一款利用KFD漏洞开发的工具，且已上线了巨魔的辅助�
 找到你的 `提示` App 卸载，没错就是 `卸载`
 
 
-![](./TrollStore-purekfd-01.png)
+![](/TrollStore/purekfd/purekfd-01.png)
 
 然后去商店把 [提示](https://apps.apple.com/cn/app/id1069509450) 下载回来，但千万不要打开！！！
 
-![](./TrollStore-purekfd-02.png)
+![](/TrollStore/purekfd/purekfd-02.png)
 
 
 ::: tip 为什么要这样做
@@ -324,16 +334,16 @@ https://github.com/Lrdsnow/PureKFD/releases
 :::
 
 
-![](./TrollStore-purekfd-03.png)
+![](/TrollStore/purekfd/purekfd-03.png)
 
 下载完成后，点击浏览器 下载 按键，再点击已经下载好的 `Purekfd`
 
-![](./TrollStore-purekfd-04.png)
+![](/TrollStore/purekfd/purekfd-04.png)
 
 
 右上角分享，选择 `牛蛙助手`
 
-![](./TrollStore-purekfd-05.png)
+![](/TrollStore/purekfd/purekfd-05.png)
 
 点 `发送`，牛蛙打开后，选择 `导入`
 
@@ -341,30 +351,30 @@ https://github.com/Lrdsnow/PureKFD/releases
 如果勿点了取消，也可直接点 Purekfd.ipa 选择导入应用库
 :::
 
-![](./TrollStore-purekfd-06.png)
+![](/TrollStore/purekfd/purekfd-06.png)
 
 点击 `Purekfd` ，选择 `签名` - `立即签名`
 
 
-![](./TrollStore-purekfd-07.png)
+![](/TrollStore/purekfd/purekfd-07.png)
 
 在已签名的页卡中，选择刚签好名的 `Purekfd` 安装
 
 但牛蛙安装必须要开启 `VPN和WIFI`，我们去打开
 
 
-![](./TrollStore-purekfd-08.png)
+![](/TrollStore/purekfd/purekfd-08.png)
 
 设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
 
 
-![](./TrollStore-purekfd-09.png)
+![](/TrollStore/purekfd/purekfd-09.png)
 
 
 打开VPN后我们返回重新安装 `Purekfd` 即可
 
 
-![](./TrollStore-purekfd-10.png)
+![](/TrollStore/purekfd/purekfd-10.png)
 
 ::::
 
@@ -372,14 +382,14 @@ https://github.com/Lrdsnow/PureKFD/releases
 
 PureKFD安装成功了，但是还打不开，要信任一下
 
-![](./TrollStore-purekfd-11.png)
+![](/TrollStore/purekfd/purekfd-11.png)
 
 
 设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
 
-![](./TrollStore-purekfd-12.png)
+![](/TrollStore/purekfd/purekfd-12.png)
 
-![](./TrollStore-purekfd-13.png)
+![](/TrollStore/purekfd/purekfd-13.png)
 
 再次打开 PureKFD ，提示沙盒读写，点 `好`
 
@@ -389,11 +399,11 @@ PureKFD安装成功了，但是还打不开，要信任一下
 若无法安装巨魔，请尝试自签安装
 :::
 
-![](./TrollStore-purekfd-14.png)
+![](/TrollStore/purekfd/purekfd-14.png)
 
 右上角齿轮 - 设置，查看自己是否是KFD
 
-![](./TrollStore-purekfd-15.png)
+![](/TrollStore/purekfd/purekfd-15.png)
 
 ::: tip 关于 puaf method 漏洞选择
 iOS 16.0 - 16.5 选择 `physpuppet` 、 `smith` 或 `landa`
@@ -414,7 +424,7 @@ iOS 16.5.1 - 16.6.1 必须选择 `landa`
 :::
 
 
-![](./TrollStore-purekfd-16.png)
+![](/TrollStore/purekfd/purekfd-16.png)
 
 
 
@@ -431,7 +441,7 @@ iOS 16.5.1 - 16.6.1 必须选择 `landa`
 
 
 
-![](./TrollStore-purekfd-17.png)
+![](/TrollStore/purekfd/purekfd-17.png)
 
 
 
@@ -445,7 +455,7 @@ iOS 16.5.1 - 16.6.1 必须选择 `landa`
 如果非要选的Tips，请先卸载重装 [提示](https://apps.apple.com/cn/app/id1069509450)，再来选择 Tips 为持久性助手即可
 :::
 
-![](./TrollStore-purekfd-18.png)
+![](/TrollStore/purekfd/purekfd-18.png)
 
 如果有天巨魔打不开，可以通过持久性助手可让巨魔恢复正常使用
 
@@ -453,15 +463,10 @@ iOS 16.5.1 - 16.6.1 必须选择 `landa`
 有了持久性助手，PureKFD 可以直接卸载了
 :::
 
-![](./TrollStore-purekfd-19.png)
+![](/TrollStore/purekfd/purekfd-19.png)
 
 
-
-
----
-
-
-
+:::::
 
 
 
@@ -474,20 +479,25 @@ iOS 16.5.1 - 16.6.1 必须选择 `landa`
 
 
 
-### Picasso
 
-> 教程仅适用于：[A12-A16](#适用范围) `IOS 16.2 - 16.5`
+
+
+
+
+::::: details Picasso安装
+
+> 教程仅适用于：[A12-A16](#适用范围) `IOS 16.2 - 16.6.1`
 
 
 开始前请先安装好自签工具：[牛蛙助手](./bullfrog.md)
 
 找到你的 `提示` App 卸载，没错就是 卸载
 
-![](./TrollStore-picasso-01.png)
+![](/TrollStore/picasso/picasso-01.png)
 
 然后去商店把 [提示](https://apps.apple.com/cn/app/id1069509450) 下载回来，但千万不要打开！！！
 
-![](./TrollStore-picasso-02.png)
+![](/TrollStore/picasso/picasso-02.png)
 
 ::: tip 为什么要这样做
 因为要确保提示没有打开过，避免产生诸多奇怪的问题
@@ -499,47 +509,47 @@ iOS 16.5.1 - 16.6.1 必须选择 `landa`
 
 https://repo.sourceloc.net/
 
-![](./TrollStore-picasso-03.png)
+![](/TrollStore/picasso/picasso-03.png)
 
 由于App下载需要进 [Discord](https://discord.com/invite/aYW54vZFpt) ，我将文件转存到网盘，下载即可
 
 https://www.123pan.com/s/3LWcVv-TjLrh.html
 
-![](./TrollStore-picasso-04.png)
+![](/TrollStore/picasso/picasso-04.png)
 
 下载完成后，点击浏览器 `下载` 按键，再点击已经下载好的 `Picasso`
 
-![](./TrollStore-picasso-05.png)
+![](/TrollStore/picasso/picasso-05.png)
 
 右上角分享，选择 `牛蛙助手`
 
-![](./TrollStore-picasso-06.png)
+![](/TrollStore/picasso/picasso-06.png)
 
 点 发送，牛蛙打开后，选择 导入应用库
 
-![](./TrollStore-picasso-07.png)
+![](/TrollStore/picasso/picasso-07.png)
 
 点击 `Picasso` ，选择 签名 - 立即签名，签好去安装
 
-![](./TrollStore-picasso-08.png)
+![](/TrollStore/picasso/picasso-08.png)
 
 但牛蛙安装必须要开启VPN和WIFI，我们去打开
 
-![](./TrollStore-picasso-09.png)
+![](/TrollStore/picasso/picasso-09.png)
 
 设置 - VPN - 勾选 牛蛙助手 - 打开VPN开关
 
-![](./TrollStore-picasso-10.png)
+![](/TrollStore/picasso/picasso-10.png)
 
 打开VPN后我们返回重新安装 Picasso 即可
 
-![](./TrollStore-picasso-11.png)
+![](/TrollStore/picasso/picasso-11.png)
 
 Picasso就安装成功了，但是还打不开，要信任一下
 
 设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
 
-![](./TrollStore-picasso-12.png)
+![](/TrollStore/picasso/picasso-12.png)
 
 
 再次打开 Picasso ，登录账号
@@ -549,18 +559,18 @@ Picasso就安装成功了，但是还打不开，要信任一下
 :::
 
 
-![](./TrollStore-picasso-13.png)
+![](/TrollStore/picasso/picasso-13.png)
 
 
 底部 `Explore` - 下拉 `TrollStore`
 
-![](./TrollStore-picasso-14.png)
+![](/TrollStore/picasso/picasso-14.png)
 
 
 点 `Get` 安装，成功提示Success，回到Picasso首页，点击 `Apply`
 
 
-![](./TrollStore-picasso-15.png)
+![](/TrollStore/picasso/picasso-15.png)
 
 
 出现 `Successfully overwritten Tips. app`还会显示 `Applying...`
@@ -571,7 +581,7 @@ Picasso就安装成功了，但是还打不开，要信任一下
 一定要重启，否则提示注入失败无法打开，从头再来
 :::
 
-![](./TrollStore-picasso-16.png)
+![](/TrollStore/picasso/picasso-16.png)
 
 
 重启设备后，打开提示并点 `Install TrollStore` 安装巨魔，桌面有图标就是了
@@ -585,7 +595,7 @@ Picasso就安装成功了，但是还打不开，要信任一下
 请使用 [科学上网](../../gfw/proxy/) 工具，挂梯子再安装
 :::
 
-![](./TrollStore-picasso-17.png)
+![](/TrollStore/picasso/picasso-17.png)
 
 
 自动安装好了 `Idid` ，灰色状态就是已经安装成功了
@@ -598,7 +608,7 @@ Picasso就安装成功了，但是还打不开，要信任一下
 
 如果非要选的Tips，请先卸载重装 [提示](https://apps.apple.com/cn/app/id1069509450)，再来选择 Tips 为持久性助手即可
 
-![](./TrollStore-picasso-18.png)
+![](/TrollStore/picasso/picasso-18.png)
 
 
 如果有天巨魔打不开，可以通过持久性助手可让巨魔恢复正常使用
@@ -607,17 +617,11 @@ Picasso就安装成功了，但是还打不开，要信任一下
 有了持久性助手，Picasso 可以直接卸载了
 :::
 
-![](./TrollStore-picasso-19.png)
+![](/TrollStore/picasso/picasso-19.png)
 
 
 
-
-
----
-
-
-
-
+:::::
 
 
 
@@ -631,7 +635,12 @@ Picasso就安装成功了，但是还打不开，要信任一下
 
 
 
-### Misaka
+
+
+
+
+
+::::: details Misaka安装
 
 > 教程仅适用于：[A12-A16](#适用范围) `IOS 16.2 - 16.6.1`
 >
@@ -672,16 +681,16 @@ https://github.com/straight-tamago/misaka/releases
 下载最新版的即可，截稿前演示版本3.2.5
 :::
 
-![](./TrollStore-misaka-01.png)
+![](/TrollStore/misaka/misaka-01.png)
 
 下载完成后，点击浏览器 `下载` 按键，再点击已经下载好的 `misaka`
 
-![](./TrollStore-misaka-02.png)
+![](/TrollStore/misaka/misaka-02.png)
 
 
 右上角分享，选择 `牛蛙助手`
 
-![](./TrollStore-misaka-03.png)
+![](/TrollStore/misaka/misaka-03.png)
 
 点 `发送`，牛蛙打开后，选择 `导入`
 
@@ -689,69 +698,69 @@ https://github.com/straight-tamago/misaka/releases
 如果勿点了取消，也可直接点 misaka.ipa 选择导入应用库
 :::
 
-![](./TrollStore-misaka-04.png)
+![](/TrollStore/misaka/misaka-04.png)
 
 
 点击 `misaka` ，选择 `签名` - `立即签名`
 
-![](./TrollStore-misaka-05.png)
+![](/TrollStore/misaka/misaka-05.png)
 
 
 在已签名的页卡中，选择刚签好名的 `misaka` 安装
 
 但牛蛙安装必须要开启`VPN和WIFI`，我们去打开
 
-![](./TrollStore-misaka-06.png)
+![](/TrollStore/misaka/misaka-06.png)
 
 设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
 
-![](./TrollStore-misaka-07.png)
+![](/TrollStore/misaka/misaka-07.png)
 
 打开VPN后我们返回重新安装 misaka 即可
 
-![](./TrollStore-misaka-08.png)
+![](/TrollStore/misaka/misaka-08.png)
 
 ::::
 
 
 misaka就安装成功了，但是还打不开，要信任一下
 
-![](./TrollStore-misaka-09.png)
+![](/TrollStore/misaka/misaka-09.png)
 
 
 设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
 
-![](./TrollStore-misaka-10.png)
+![](/TrollStore/misaka/misaka-10.png)
 
-![](./TrollStore-misaka-11.png)
+![](/TrollStore/misaka/misaka-11.png)
 
 
 再次打开 misaka ，提示沙盒读写，点 `好`
 
-![](./TrollStore-misaka-12.png)
+![](/TrollStore/misaka/misaka-12.png)
 
 允许 `无限局域网与蜂窝数据`，但是提示 `Network Erro`
 
 
-![](./TrollStore-misaka-13.png)
+![](/TrollStore/misaka/misaka-13.png)
 
 这时我们需要使用 [科学上网](../../gfw/proxy/) ，我用小火箭，机场用的超级机场
 
-![](./TrollStore-misaka-14.png)
+![](/TrollStore/misaka/misaka-14.png)
 
 连接好再次打开 misaka，`Agree` 同意后进入主界面
 
-![](./TrollStore-misaka-15.png)
+![](/TrollStore/misaka/misaka-15.png)
 
 
 左上角 Setting - App Language
 
-![](./TrollStore-misaka-16.png)
+![](/TrollStore/misaka/misaka-16.png)
 
 选择 `zh_CN` 完成后，自动退出，再次进入就能看到已经汉化了，下滑可退出页面
 
 
-![](./TrollStore-misaka-17.png)
+![](/TrollStore/misaka/misaka-17.png)
 
 
 
@@ -766,7 +775,7 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 :::
 
 
-![](./TrollStore-misaka-18.png)
+![](/TrollStore/misaka/misaka-18.png)
 
 
 打开 misaka - 软件包 - 左下角图标 - `Install TrollStore`
@@ -775,7 +784,7 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 利用的是KFD漏洞，偏移量不够,可以尝试 [Picasso](#picasso)
 :::
 
-![](./TrollStore-misaka-19.png)
+![](/TrollStore/misaka/misaka-19.png)
 
 任选一个作为安装器，我这里选 `Books` 演示
 
@@ -796,7 +805,7 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 :::
 
 
-![](./TrollStore-misaka-20.png)
+![](/TrollStore/misaka/misaka-20.png)
 
 
 成功后会自动注销，重新进入桌面打开 `Books`
@@ -809,15 +818,15 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 
 下载：https://github.com/opa334/TrollStore/releases
 
-![](./TrollStore-misaka-21.png)
+![](/TrollStore/misaka/misaka-21.png)
 
 打开 misaka 文件管理 - var - containers
 
-![](./TrollStore-misaka-22.png)
+![](/TrollStore/misaka/misaka-22.png)
 
 Bundle - Application
 
-![](./TrollStore-misaka-23.png)
+![](/TrollStore/misaka/misaka-23.png)
 
 com.apple.iBooks - Books.app
 
@@ -827,11 +836,11 @@ com.apple.iBooks - Books.app
 home，那么就找 `com.apple.Home`
 :::
 
-![](./TrollStore-misaka-24.png)
+![](/TrollStore/misaka/misaka-24.png)
 
 找到 `books`，再点 `Flie Overwrite`
 
-![](./TrollStore-misaka-25.png)
+![](/TrollStore/misaka/misaka-25.png)
 
 选择我们刚才下好的文件 [PersistenceHelper_Embedded](https://github.com/opa334/TrollStore/releases/download/2.0.8/PersistenceHelper_Embedded)，这样就覆盖重写完成了，再次打开books即可
 
@@ -839,7 +848,7 @@ home，那么就找 `com.apple.Home`
 safari下载的文件路径：icloud云盘-下载
 :::
 
-![](./TrollStore-misaka-26.png)
+![](/TrollStore/misaka/misaka-26.png)
 
 ::::
 
@@ -855,7 +864,7 @@ safari下载的文件路径：icloud云盘-下载
 请使用 [科学上网](../../gfw/proxy/) 工具，挂梯子再安装
 :::
 
-![](./TrollStore-misaka-27.png)
+![](/TrollStore/misaka/misaka-27.png)
 
 
 自动安装好了 `Idid` ，灰色状态就是已经安装成功了
@@ -868,7 +877,7 @@ safari下载的文件路径：icloud云盘-下载
 
 如果非要选的Tips，请先卸载重装 [提示](https://apps.apple.com/cn/app/id1069509450)，再来选择 Tips 为持久性助手即可
 
-![](./TrollStore-misaka-28.png)
+![](/TrollStore/misaka/misaka-28.png)
 
 
 如果有天巨魔打不开，可以通过持久性助手可让巨魔恢复正常使用
@@ -877,10 +886,10 @@ safari下载的文件路径：icloud云盘-下载
 有了持久性助手，TrollInstallerMDC 可以直接卸载了
 :::
 
-![](./TrollStore-misaka-29.png)
+![](/TrollStore/misaka/misaka-29.png)
 
 
-
+:::::
 
 
 
@@ -897,7 +906,7 @@ safari下载的文件路径：icloud云盘-下载
 ## 界面介绍
 
 
-![](./TrollStore-01.png)
+![](/TrollStore/TrollStore-01.png)
 
 ::: warning 注意
 用巨魔安装的应用，只能在巨魔的APP界面，左滑卸载
@@ -935,21 +944,21 @@ safari下载的文件路径：icloud云盘-下载
 
 打开链接，先下载授权的版本
 
-![](./TrollStore-02.png)
+![](/TrollStore/TrollStore-02.png)
 
 下载完成后，点击查看，点击文件
 
-![](./TrollStore-03.png)
+![](/TrollStore/TrollStore-03.png)
 
 右上角分享，用巨魔 `TrollStore` 打开安装即可
 
-![](./TrollStore-04.png)
+![](/TrollStore/TrollStore-04.png)
 
 然后同样的方法，覆盖安装破解的可搜索的v1.4.1版本即可
 
 [https://www.mediafire.com/file/0pfhnyv3twnw3f6/](https://www.mediafire.com/file/0pfhnyv3twnw3f6/%E8%99%9A%E6%8B%9F%E5%AE%9A%E4%BD%8D_1.4.1.ipa/file)
 
-![](./TrollStore-05.png)
+![](/TrollStore/TrollStore-05.png)
 
 
 
@@ -974,54 +983,66 @@ safari下载的文件路径：icloud云盘-下载
 
 https://github.com/opa334/TrollStore/releases
 
-![](./TrollStore-06.png)
+![](/TrollStore/TrollStore-06.png)
 
 点下载，在点击下载好的包
 
-![](./TrollStore-07.png)
+![](/TrollStore/TrollStore-07.png)
 
 长按 - 共享
 
-![](./TrollStore-08.png)
+![](/TrollStore/TrollStore-08.png)
 
 选择 轻松签 ，然后点击 `TrollStore.tar` 解压2次
 
-![](./TrollStore-09.png)
+![](/TrollStore/TrollStore-09.png)
 
 得到 `TrollStore.app` 文件夹，点击选择 `签名` - 更多设置
 
-![](./TrollStore-10.png)
+![](/TrollStore/TrollStore-10.png)
 
 桌面图标，选一张你自己喜欢的，除了 `仅修改配置，不签名` 开关打开，其他全部关闭
 
 ::: details 分享几个图片吧
 
-![](./TrollStore-icon-01.png)
+![](/TrollStore/icon/icon-01.png)
 
-![](./TrollStore-icon-02.png)
+![](/TrollStore/icon/icon-02.jpg)
 
-![](./TrollStore-icon-03.png)
+![](/TrollStore/icon/icon-03.png)
 
-![](./TrollStore-icon-04.png)
+![](/TrollStore/icon/icon-04.png)
+
+![](/TrollStore/icon/icon-05.jpg)
+
+![](/TrollStore/icon/icon-06.jpg)
+
+![](/TrollStore/icon/icon-07.jpg)
+
+![](/TrollStore/icon/icon-08.jpg)
+
+![](/TrollStore/icon/icon-09.jpg)
+
+![](/TrollStore/icon/icon-10.png)
 :::
 
-![](./TrollStore-11.png)
+![](/TrollStore/TrollStore-11.png)
 
-![](./TrollStore-12.png)
+![](/TrollStore/TrollStore-12.png)
 
 签名好后不要安装，`退出` ，文件列表进入 `YYYAppFolder` 文件夹
 
-![](./TrollStore-13.png)
+![](/TrollStore/TrollStore-13.png)
 
 在 `SignedApps` 找到 刚签好名的ipa，解压，进入 `Payload`
 
-![](./TrollStore-14.png)
+![](/TrollStore/TrollStore-14.png)
 
-![](./TrollStore-15.png)
+![](/TrollStore/TrollStore-15.png)
 
 将解压后的 `TrollStore.app` 文件夹压缩成zip，然后点 `i` 重命名为 `TrollStore.tar`
 
-![](./TrollStore-16.png)
+![](/TrollStore/TrollStore-16.png)
 
 然后分享给巨魔安装，自动注销后，就能看到图标已经变了
 
@@ -1029,7 +1050,7 @@ https://github.com/opa334/TrollStore/releases
 想改回来，去下载官方包分享给巨魔安装即可
 :::
 
-![](./TrollStore-17.png)
+![](/TrollStore/TrollStore-17.png)
 
 
 
@@ -1053,31 +1074,31 @@ https://github.com/opa334/TrollStore/releases
 
 然后下载由 [@赵楠](https://github.com/invalidunit) 大佬提供的文件：https://www.123pan.com/s/3LWcVv-WULrh.html
 
-![](./TrollStore-18.png)
+![](/TrollStore/TrollStore-18.png)
 
 下载 - 选择下好的文件
 
-![](./TrollStore-19.png)
+![](/TrollStore/TrollStore-19.png)
 
 右上分享 - 用 `Filza` 打开
 
-![](./TrollStore-20.png)
+![](/TrollStore/TrollStore-20.png)
 
 进入了Filza的 `/var/mobile/Documents` 目录，长按导入的文件 `复制`
 
-![](./TrollStore-21.png)
+![](/TrollStore/TrollStore-21.png)
 
 左上返回找到目录 `/var/Managed Preferences/mobile`
 
-![](./TrollStore-22.png)
+![](/TrollStore/TrollStore-22.png)
 
 在此处左下角粘贴刚复制的文件
 
-![](./TrollStore-23.png)
+![](/TrollStore/TrollStore-23.png)
 
 在目录后，打开巨魔注销一下就可以了
 
-![](./TrollStore-24.png)
+![](/TrollStore/TrollStore-24.png)
 
 我们下拉控制中心就能看到了
 
@@ -1085,7 +1106,7 @@ https://github.com/opa334/TrollStore/releases
 文件是从iPad提取出来，只是手机上屏蔽了，我们通过文件恢复了，100%安全
 :::
 
-![](./TrollStore-25.png)
+![](/TrollStore/TrollStore-25.png)
 
 
 
@@ -1124,11 +1145,11 @@ https://github.com/opa334/TrollStore/releases
 
 浏览器打开：https://alexia.lol/noota16.mobileconfig
 
-![](./TrollStore-26.png)
+![](/TrollStore/TrollStore-26.png)
 
 设置中点开描述文件安装
 
-![](./TrollStore-27.png)
+![](/TrollStore/TrollStore-27.png)
 
 安装完重不重启都可以，这样更新界面就不再推送了
 
@@ -1142,15 +1163,15 @@ https://github.com/opa334/TrollStore/releases
 无视即可，删掉也行
 :::
 
-![](./TrollStore-28.png)
+![](/TrollStore/TrollStore-28.png)
 
 但保不齐苹果强制更新，巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
 
 进入 `/usr/bin/` 目录，找到 `vm_stat` 打开运行
 
-![](./TrollStore-29.png)
+![](/TrollStore/TrollStore-29.png)
 
-![](./TrollStore-30.png)
+![](/TrollStore/TrollStore-30.png)
 
 复制下面代码，Paste粘贴
 
@@ -1160,7 +1181,7 @@ rm -rf /var/MobileSoftwareUpdate/MobileAsset/AssetsV2/* && chflags schg,schange,
 
 这就苹果就彻底无法更新了
 
-![](./TrollStore-31.png)
+![](/TrollStore/TrollStore-31.png)
 
 ::: details 想还原使用：恢复命令
 
@@ -1194,11 +1215,11 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 以 `抖音` 为例，打开 AppsDump2，选择抖音 - `脱壳 - 打包ipa`
 
-![](./TrollStore-32.png)
+![](/TrollStore/TrollStore-32.png)
 
 解密完成后，可导入到轻松签进行多开和注入插件等
 
-![](./TrollStore-33.png)
+![](/TrollStore/TrollStore-33.png)
 
 ::: warning 注意
 微信不可以砸，因为砸出来非全权限，没有分享等小组件

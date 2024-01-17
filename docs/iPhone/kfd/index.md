@@ -126,12 +126,12 @@ CVE-2023-41974：Félix Poulin-Bélanger
 
 安装方式两种：在线安装 和 自签安装
 
-> 在线安装：方便，但是不一定是最新版
->
-> 自签安装：麻烦，但是可装最新版
-
 
 ::: details 在线安装 (二选一)
+方便，无需签名直接安装，但是不一定是最新版
+
+---
+
 我们现在直接使用 [@Little_34306](https://x.com/Little_34306) 越南大佬提供的在线安装
 
 * iPhone: http://is.gd/34306misaka
@@ -144,26 +144,30 @@ CVE-2023-41974：Félix Poulin-Bélanger
 
 
 :::: details 自签安装 (二选一)
-使用前我们需要先安装好自签工具：[牛蛙助手](../sign/bullfrog.md)
+麻烦，需要使用签名工具安装，但是可装最新版
 
-然后再下载 Misaka ：
+---
+
+开始前先安装好自签工具：[牛蛙助手并认证好个人证书](./bullfrog.md)
+
+再下载 Misaka ：
 
 https://github.com/straight-tamago/misaka/releases
 
 ::: tip 说明
-下载最新版的即可，截稿前演示版本3.2.5
+下载最新版的即可，截稿前演示版本8.2.1
 :::
 
-![](./kfd-misaka-01.png)
+![](/kfd/misaka-01.png)
 
 下载完成后，点击浏览器 `下载` 按键，再点击已经下载好的 `misaka`
 
-![](./kfd-misaka-02.png)
+![](/kfd/misaka-02.png)
 
 
 右上角分享，选择 `牛蛙助手`
 
-![](./kfd-misaka-03.png)
+![](/kfd/misaka-03.png)
 
 点 `发送`，牛蛙打开后，选择 `导入`
 
@@ -171,110 +175,107 @@ https://github.com/straight-tamago/misaka/releases
 如果勿点了取消，也可直接点 misaka.ipa 选择导入应用库
 :::
 
-![](./kfd-misaka-04.png)
+![](/kfd/misaka-04.png)
 
 
 点击 `misaka` ，选择 `签名` - `立即签名`
 
-![](./kfd-misaka-05.png)
+![](/kfd/misaka-05.png)
 
 
 在已签名的页卡中，选择刚签好名的 `misaka` 安装
 
 但牛蛙安装必须要开启`VPN和WIFI`，我们去打开
 
-![](./kfd-misaka-06.png)
+![](/kfd/misaka-06.png)
 
 设置 - VPN - 勾选 `牛蛙助手` - 打开VPN开关
 
-![](./kfd-misaka-07.png)
+![](/kfd/misaka-07.png)
 
 打开VPN后我们返回重新安装 misaka 即可
 
-![](./kfd-misaka-08.png)
+![](/kfd/misaka-08.png)
 
 ::::
 
 
 misaka就安装成功了，但是还打不开，要信任一下
 
-![](./kfd-misaka-09.png)
+![](/kfd/misaka-09.png)
 
 
 设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
 
-![](./kfd-misaka-10.png)
+![](/kfd/misaka-10.png)
 
-![](./kfd-misaka-11.png)
+![](/kfd/misaka-11.png)
 
 
 再次打开 misaka ，提示沙盒读写，点 `好`
 
-::: details 打开闪退
-设置-隐私与安全中打开 `开发者模式`
-:::
-
-
-![](./kfd-misaka-12.png)
+![](/kfd/misaka-12.png)
 
 允许 `无限局域网与蜂窝数据`，但是提示 `Network Erro`
 
 
-![](./kfd-misaka-13.png)
+![](/kfd/misaka-13.png)
 
 这时我们需要使用 [科学上网](../../gfw/proxy/) ，我用小火箭，机场用的超级机场
 
-![](./kfd-misaka-14.png)
+![](/kfd/misaka-14.png)
 
 连接好再次打开 misaka，`Agree` 同意后进入主界面
 
-![](./kfd-misaka-15.png)
+![](/kfd/misaka-15.png)
 
 
 左上角 Setting - App Language
 
-![](./kfd-misaka-16.png)
+![](/kfd/misaka-16.png)
 
 选择 `zh_CN` 完成后，自动退出，再次进入就能看到已经汉化了，下滑可退出页面
 
 
-![](./kfd-misaka-17.png)
+![](/kfd/misaka-17.png)
 
 
 
 在 misaka 设置中，请根据自己的系统选择模式！
 
 ::: warning 参照表
-KFD：IOS 16.2-16.7.4系统
+KFD：iOS 16.2 - 16.6.1系统
 
-MDC：IOS 15.0-16.1.2系统
+MDC：iOS 15.0 - 16.1.2系统
 
-No Exploit：无漏洞(IOS 16.5及以上系统)
+No Exploit：无漏洞(iOS 16.7及以上系统)
 :::
 
 
-![](./kfd-misaka-18.png)
+![](/kfd/misaka-18.png)
+
+
 
 
 底部软件源，右上角默认源，点 `misaka.app` 安装一个插件试试
 
-![](./kfd-misaka-19.png)
+![](/kfd/misaka-19.png)
 
 这里我就选虚拟定位，进去后点 `get`
 
-![](./kfd-misaka-20.png)
+![](/kfd/misaka-20.png)
 
 显示队列中了，点一下底部查看，安装确认
 
-![](./kfd-misaka-21.png)
+![](/kfd/misaka-21.png)
 
 安装成功后，在底部软件包里可以看到
 
-![](./kfd-misaka-22.png)
+![](/kfd/misaka-22.png)
 
 点 `Simulation Start` 开始模拟位置，在地图上选择你要定位的位置，close关闭
 
-![](./kfd-misaka-23.png)
+![](/kfd/misaka-23.png)
 
 插件有对勾就表示生效了，微信定位也是变动了
 
@@ -282,22 +283,22 @@ No Exploit：无漏洞(IOS 16.5及以上系统)
 有些插件是需要应用注销后才生效，具体一插件说明为准
 :::
 
-![](./kfd-misaka-24.png)
+![](/kfd/misaka-24.png)
 
 
 不用了记得来关闭，除了点 `Simulation End` 结束模拟外，还建议长按关闭插件
 
 部分插件是没有结束开关的，所以通过长按取消对勾就好，养成好习惯
 
-![](./kfd-misaka-25.png)
+![](/kfd/misaka-25.png)
 
 
 
 不想要插件了，长按卸载，点开底部队列表，确认卸载即可
 
-![](./kfd-misaka-26.png)
+![](/kfd/misaka-26.png)
 
-![](./kfd-misaka-27.png)
+![](/kfd/misaka-27.png)
 
 
 

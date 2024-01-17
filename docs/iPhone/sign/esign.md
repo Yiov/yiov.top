@@ -22,7 +22,7 @@ next: false
 
 官网：https://esign.yyyue.xyz/
 
-![](./esign-01.png)
+![](/esign/esign-01.png)
 
 
 ## 适用范围
@@ -61,23 +61,23 @@ next: false
 
 开始前请先安装好 [巨魔助手](./TrollStore.md)，然后 [轻松签官网](https://esign.yyyue.xyz/) 下载ipa
 
-![](./esign-02.png)
+![](/esign/esign-02.png)
 
 下载 - 点击下载好的文件
 
-![](./esign-03.png)
+![](/esign/esign-03.png)
 
 右上角分享 - 用 `巨魔` 打开安装
 
-![](./esign-04.png)
+![](/esign/esign-04.png)
 
 安装成功后，桌面就有图标了
 
-![](./esign-05.png)
+![](/esign/esign-05.png)
 
 进入轻松签
 
-![](./esign-06.png)
+![](/esign/esign-06.png)
 :::
 
 
@@ -88,14 +88,14 @@ next: false
 需要苹果国外ID登录应用商店，搜：`jetsign`  下载安装后打开
 
 
-![](./esign-07.png)
+![](/esign/esign-07.png)
 
 打开app，允许 `无限局域网与蜂窝网络` ，然后我们直接卸载
 
 > 因为我们只需要把这个权限打开即可
 
 
-![](./esign-08.png)
+![](/esign/esign-08.png)
 :::
 
 根据 [官网](https://esign.yyyue.xyz/) 的 表格 ，选择对应的安装方式
@@ -106,7 +106,7 @@ IOS 16及以上的手机不支持，官网还没有更新
 以我列出的 [轻松签+适用范围](#适用范围) 表为准
 :::
 
-![](./esign-09.png)
+![](/esign/esign-09.png)
 
 点击安装，桌面会出现一个 `jetsign`，进入点安装 `Esign+`
 
@@ -114,12 +114,12 @@ IOS 16及以上的手机不支持，官网还没有更新
 如果无法成功安装Esign+，可尝试 [科学上网](../../gfw/proxy/) 挂一个梯子
 :::
 
-![](./esign-10.png)
+![](/esign/esign-10.png)
 
 
 打开轻松签+，允许 `无限局域网与蜂窝网络` ，就可以使用了
 
-![](./esign-11.png)
+![](/esign/esign-11.png)
 
 ::::
 
@@ -133,23 +133,23 @@ IOS 16及以上的手机不支持，官网还没有更新
 
 然后 [轻松签官网](https://esign.yyyue.xyz/) 下载ipa
 
-![](./esign-02.png)
+![](/esign/esign-02.png)
 
 下载 - 点击下载好的文件
 
-![](./esign-03.png)
+![](/esign/esign-03.png)
 
 右上角分享 - 用 `巨魔` 打开安装
 
-![](./esign-04.png)
+![](/esign/esign-04.png)
 
 安装成功后，桌面就有图标了
 
-![](./esign-05.png)
+![](/esign/esign-05.png)
 
 进入轻松签
 
-![](./esign-06.png)
+![](/esign/esign-06.png)
 
 :::
 
@@ -169,29 +169,29 @@ IOS 16及以上的手机不支持，官网还没有更新
 没有证书，会无法签名，所以过期的也行
 :::
 
-![](./esign-12.png)
+![](/esign/esign-12.png)
 
 下载好后，我们点击进入iCloud云盘
 
-![](./esign-13.png)
+![](/esign/esign-13.png)
 
 长按压缩包，共享
 
-![](./esign-14.png)
+![](/esign/esign-14.png)
 
 用轻松签打开
 
-![](./esign-15.png)
+![](/esign/esign-15.png)
 
 点击文件，直接解压，解压完后，进入文件夹
 
-![](./esign-16.png)
+![](/esign/esign-16.png)
 
 点击 `cert 2.p 12` 导入证书库，输入密码 `1`，在设置-证书管理可看到
 
-![](./esign-17.png)
+![](/esign/esign-17.png)
 
-![](./esign-18.png)
+![](/esign/esign-18.png)
 
 ::::
 
@@ -221,23 +221,23 @@ IOS 16及以上的手机不支持，官网还没有更新
 苹果对安装包进行了加密，犹如外壳一样，砸壳的过程就是解密脱壳
 :::
 
-![](./esign-wechat-01.png)
+![](/esign/wechat/wechat-01.png)
 
 下载 - 点击下载好的文件
 
-![](./esign-wechat-02.png)
+![](/esign/wechat/wechat-02.png)
 
 右上角分享 - 用 轻松签 打开
 
-![](./esign-wechat-03.png)
+![](/esign/wechat/wechat-03.png)
 
 点击微信文件，导入应用库
 
-![](./esign-wechat-04.png)
+![](/esign/wechat/wechat-04.png)
 
 选择微信 - 签名
 
-![](./esign-wechat-05.png)
+![](/esign/wechat/wechat-05.png)
 
 这里我们多开就修改下 `App名字` 和 `Bundle Identifier` 就好了
 
@@ -249,19 +249,19 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 我们通过修改应用ID，就变成了两个完全独立的App，可共存安装，也就是多开
 :::
 
-![](./esign-wechat-06.png)
+![](/esign/wechat/wechat-06.png)
 
 点击 `更多设置` 根据自己需求也可以改一下图标
 
 ::: details 分享1个图片
 
-![](./esign-wechat-icon.png)
+![](/esign/icon/icon-01.png)
 
-![](./esign-wechat-icon2.jpg)
+![](/esign/icon/icon-02.jpg)
 
 :::
 
-![](./esign-wechat-07.png)
+![](/esign/wechat/wechat-07.png)
 
 
 
@@ -276,7 +276,7 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 :::: details 轻松签 安装方式
 
-![](./esign-wechat-08.png)
+![](/esign/wechat/wechat-08.png)
 
 签名完成后，在 `已签名` 页卡中找到改好的微信，点击 `分享`
 
@@ -288,7 +288,7 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 :::
 
 
-![](./esign-wechat-09.png)
+![](/esign/wechat/wechat-09.png)
 
 
 用巨魔打开安装
@@ -296,7 +296,7 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 卸载也只能用巨魔卸载，桌面删不掉
 :::
 
-![](./esign-wechat-10.png)
+![](/esign/wechat/wechat-10.png)
 
 ::::
 
@@ -308,7 +308,7 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 签名完成后，`轻松签+` 点击 `永久安装`，
 
-![](./esign-wechat-11.png)
+![](/esign/wechat/wechat-11.png)
 
 :::
 
@@ -316,7 +316,7 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 安装完成后，打开应用登录账号即可
 
 
-![](./esign-wechat-12.png)
+![](/esign/wechat/wechat-12.png)
 
 
 
@@ -384,7 +384,7 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 打开轻松签，分别倒入砸壳的IPA文件和插件
 
-![](./esign-19.png)
+![](/esign/esign-19.png)
 
 
 这样就都准备完毕了
@@ -396,33 +396,33 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 :::
 
-![](./esign-20.png)
+![](/esign/esign-20.png)
 
 
 将抖音导入应用库，然后签名
 
 
-![](./esign-21.png)
+![](/esign/esign-21.png)
 
 
 更多设置 - 添加第三方库
 
-![](./esign-22.png)
+![](/esign/esign-22.png)
 
 
 选择下载好的插件，立即签名
 
-![](./esign-23.png)
+![](/esign/esign-23.png)
 
 ::: details 轻松签 安装方式
 
 返回已签名页卡，选择抖音 - 分享到巨魔安装
 
-![](./esign-24.png)
+![](/esign/esign-24.png)
 
 因为没有更改应用ID就是官替，巨魔提示存在相同应用，我们直接强制覆盖
 
-![](./esign-25.png)
+![](/esign/esign-25.png)
 
 :::
 
@@ -431,18 +431,18 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 签完名，直接永久安装即可
 
-![](./esign-26.png)
+![](/esign/esign-26.png)
 
 :::
 
 `双指双击屏幕` 打开插件设置，`单指双击屏幕` 下载无水印视频
 
-![](./esign-27.png)
+![](/esign/esign-27.png)
 
 
 前后视频对比
 
-![](./esign-28.png)
+![](/esign/esign-28.png)
 
 
 
@@ -470,13 +470,13 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 :::
 
 
-![](./esign-29.png)
+![](/esign/esign-29.png)
 
 
 点击复制到当前目录即可
 
 
-![](./esign-30.png)
+![](/esign/esign-30.png)
 
 
 

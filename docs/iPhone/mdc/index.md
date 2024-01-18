@@ -71,14 +71,14 @@ CVE-2022-46689：Google Project Zero 的 Ian Beer
 
 * 下载：[WDBRemoveThreeAppLimit](https://github.com/zhuowei/WDBRemoveThreeAppLimit/releases)
 
-![](./MDC-01.png)
+![](/MDC/MDC-01.png)
 
 
 
 打开牛蛙助手，右上角+ -> 导入资源
 
 
-![](./MDC-02.png)
+![](/MDC/MDC-02.png)
 
 
 选择刚下载好的 `WDBRemoveThreeAppLimit`，并导入应用库
@@ -87,30 +87,30 @@ CVE-2022-46689：Google Project Zero 的 Ian Beer
 Safari浏览器下载的默认在文件-icloud云盘-下载里
 :::
 
-![](./MDC-03.png)
+![](/MDC/MDC-03.png)
 
 
 选择 `WDBRemoveThreeAppLimit` 签名
 
-![](./MDC-04.png)
+![](/MDC/MDC-04.png)
 
 
 立即签名- 安装
 
-![](./MDC-05.png)
+![](/MDC/MDC-05.png)
 
 
 打开 `WDBRemoveThreeAppLimit` ，进入会有个提示，点好
 
-![](./MDC-06.png)
+![](/MDC/MDC-06.png)
 
 点击 `go`，提示成功后，重启一下手机
 
-![](./MDC-07.png)
+![](/MDC/MDC-07.png)
 
 我们继续用牛蛙自签，可以看到我已经装了5个了
 
-![](./MDC-08.png)
+![](/MDC/MDC-08.png)
 
 
 
@@ -121,11 +121,11 @@ Safari浏览器下载的默认在文件-icloud云盘-下载里
 主要用于修复右图这种，证书过期打不开的情况
 :::
 
-![](./MDC-09.png)
+![](/MDC/MDC-09.png)
 
 进入的提示点好，在点击修复 `Fix Blacklist` 即可
 
-![](./MDC-10.png)
+![](/MDC/MDC-10.png)
 
 
 
@@ -140,7 +140,7 @@ Safari浏览器下载的默认在文件-icloud云盘-下载里
 ### 聚合类
 
 
-* [Cowabunga：俗称奶牛，是MDC漏洞最具代表性的超强工具箱，适用于iOS 14.0-15.7.1 / 16.0-16.1.2 | @leminlimez](https://github.com/leminlimez/Cowabunga/releases) 丨 [详细使用教程](https://mp.weixin.qq.com/s/Kx7EE_VF0ozdPagUq4PPFA)
+* [Cowabunga：俗称奶牛，是MDC漏洞最具代表性的超强工具箱，适用于iOS 14.0-15.7.1 / 16.0-16.1.2 | @leminlimez](https://github.com/leminlimez/Cowabunga/releases) 丨 [官网](https://cowabun.ga/)
 
 * [Cowabunga Lite：Mac端的MDC漏洞开发的超强工具箱，适用于 iOS 15 - 17.x 系统 | @leminlimez](https://github.com/leminlimez/CowabungaLite/releases) 丨 [Windows版-Cowabunga Lite](https://github.com/Avangelista/CowabungaLiteWindows)
 

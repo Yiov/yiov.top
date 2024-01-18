@@ -3,7 +3,7 @@ prev: false
 next: false
 ---
 
-# Sideloadly
+# Sideloadly安装及使用
 
 ## 1.简介
 
@@ -19,21 +19,21 @@ next: false
 
 点击 `Download` ， 这里根据自己电脑系统下载
 
-![](./Sideloadly-01.png)
+![](/Sideloadly/Sideloadly-01.png)
 
 我的电脑-右键属性-系统类型显示的有 `32` 或者 `64` 位
 
-![](./Sideloadly-02.png)
+![](/Sideloadly/Sideloadly-02.png)
 
 
 下载完成后，双击安装，不装C盘就行，安装就不用说了吧
 
-![](./Sideloadly-03.png)
+![](/Sideloadly/Sideloadly-03.png)
 
 
 安装完成后，双击打开
 
-![](./Sideloadly-04.png)
+![](/Sideloadly/Sideloadly-04.png)
 
 
 
@@ -45,7 +45,7 @@ next: false
 
 把ipa包拖入，然后看一下界面
 
-![](./Sideloadly-05.png)
+![](/Sideloadly/Sideloadly-05.png)
 
 
 手机连接数据线插入电脑，我们输入Apple ID账号后，点 `start` 开始
@@ -58,21 +58,21 @@ next: false
 这是唯一的难点，可以试试挂梯子会不会好点
 :::
 
-![](./Sideloadly-06.png)
+![](/Sideloadly/Sideloadly-06.png)
 
 等到提示 `complete `完成即可，应用已经签名并安装好了
 
-![](./Sideloadly-07.png)
+![](/Sideloadly/Sideloadly-07.png)
 
 
 我们打开app，提示需要信任证书
 
-![](./Sideloadly-08.png)
+![](/Sideloadly/Sideloadly-08.png)
 
 
 设置-通用-VPN与设备管理-显示自己的苹果ID处-信任
 
-![](./Sideloadly-09.png)
+![](/Sideloadly/Sideloadly-09.png)
 
 再次打开APP即可使用
 
@@ -80,13 +80,13 @@ next: false
 注：7天后需要重新签哦
 :::
 
-![](./Sideloadly-10.png)
+![](/Sideloadly/Sideloadly-10.png)
 
 
 最后的最后，了解一下高级选项的功能
 
 
-![](./Sideloadly-11.png)
+![](/Sideloadly/Sideloadly-11.png)
 
 
 

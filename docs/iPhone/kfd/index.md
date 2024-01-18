@@ -148,7 +148,7 @@ CVE-2023-41974：Félix Poulin-Bélanger
 
 ---
 
-开始前先安装好自签工具：[牛蛙助手并认证好个人证书](./bullfrog.md)
+开始前先安装好自签工具：[牛蛙助手并认证好个人证书](../sign/bullfrog.md)
 
 再下载 Misaka ：
 

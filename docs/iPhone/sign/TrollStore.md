@@ -5,7 +5,7 @@ next: false
 
 # 巨魔助手安装及使用
 
-> 更新时间：2024-1-6
+> 更新时间：2024-1-18
 
 
 
@@ -341,15 +341,76 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 ![](/TrollStore/TrollStar/TrollStar-09.png)
 
 
-打开VPN后我们返回重新安装 `Purekfd` 即可
+打开VPN后我们返回重新安装 `TrollStar` 即可
+
+![](/TrollStore/TrollStar/TrollStar-10.png)
 
 
-...
+PureKFD安装成功了，但是还打不开，要信任一下
+
+![](/TrollStore/TrollStar/TrollStar-11.png)
+
+设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
+
+![](/TrollStore/TrollStar/TrollStar-12.png)
+
+
+![](/TrollStore/TrollStar/TrollStar-13.png)
+
+再次打开 `TrollStar` ，点击 `kopen` 开启KFD漏洞利用
+
+![](/TrollStore/TrollStar/TrollStar-14.png)
+
+不出意外手机会自动重启，打开后再进去底部就显示漏洞利用成功了
+
+::: details 手机重启打不开了
+参考 [官网强制重启](https://support.apple.com/zh-cn/guide/iphone/-iph8903c3ee6/15.0/ios/15.0) 方法：按一下音量+，再按一下音量-，最后长按开机键直到出现logo
+:::
+
+![](/TrollStore/TrollStar/TrollStar-15.png)
+
+挂上梯子 [科学上网](../../gfw/proxy/) ，注入巨魔安装器
+
+![](/TrollStore/TrollStar/TrollStar-16.png)
+
+成功后，点击 `Respring to Apply` 注销一下即可，不成功可能会重启
+
+![](/TrollStore/TrollStar/TrollStar-17.png)
+
+打开提示app，挂上梯子 [科学上网](../../gfw/proxy/) ，安装巨魔
+
+::: details 提示没有变化或闪退
+再试一次，或者换其他工具
+:::
+
+![](/TrollStore/TrollStar/TrollStar-18.png)
+
+
+打开巨魔会自动安装 `Idid` ，灰色状态就是已经安装成功了
+
+安装持久性助手，点击 `Install Persistence Helper`，选择 `除Tips` 以外的
+
+::: danger 特别注意
+因为安装器是Tips，如果持久性助手也选Tips，有可能会白苹果，就开不了机了
+
+如果非要选的Tips，请先卸载重装 [提示](https://apps.apple.com/cn/app/id1069509450)，再来选择 Tips 为持久性助手即可
+:::
+
+![](/TrollStore/TrollStar/TrollStar-19.png)
+
+如果有天巨魔打不开，可以通过持久性助手可让巨魔恢复正常使用
+
+::: tip 另外
+有了持久性助手，TrollStar 可以直接卸载了
+
+软件初期可能有点不稳，巨魔安装成功后，建议手动重启一次后再使用
+:::
+
+![](/TrollStore/TrollStar/TrollStar-20.png)
+
 
 
 安装完成，我们直接看 [巨魔界面介绍](#界面介绍)
-
-
 
 
 ---

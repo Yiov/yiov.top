@@ -481,9 +481,25 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 
 
-## 插件
+## 微信插件
 
-::: tip 有根和无根的区别
+> 微信新版超10个插件后，点游戏闪退，所以可以自行选择注入，有些功能是相同的
+>
+> 其他应用收集插件没有意义，直接用现成的即可
+> 下载合辑：https://www.123pan.com/s/3LWcVv-6J5rh.html
+
+| 名称 | 插件名 | 作者 | 防走丢 | 视频预览 |
+|:-:|:-:|:-:|:-:|:-:|
+| [斗图助手](https://apt.25mao.com/view/252) | DouTu.dylib | @老猫 | [TG群](https://t.me/lanmaoshare) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [微信助手/密友](https://apt.25mao.com/view/252) | MiYou.dylib | @老猫 | [TG群](https://t.me/lanmaoshare) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [黄白助手](https://hbpan.baixingyllh.com) | HBWechatHelper.dylib | @黄白团队 | [越狱源](https://byg.iosios.net/) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [主题：猪咪小屋](http://49.232.49.29/) | HBWechatHelper.dylib | @小茜宝宝 | [公众号](https://mp.weixin.qq.com/s/RZDxtc9NAhtjVGxZ-VC_KQ) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [主题：酸果](https://apt.sutuplus.com) | HBWechatHelper.dylib | @苏兔 | [公众号](https://mp.weixin.qq.com/s/QmpzY5X36t3XnIzd7PsJkw) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [主题：菠萝](https://themepro.yourepo.com/) | HBWechatHelper.dylib | @ThemePro | [公众号](https://mp.weixin.qq.com/s/ggYRb-MmTZRrYOsOyk3YkA) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+
+
+
+::: details 有根和无根的区别
 `arm` 文件对应 `有根` ，`arm64` 文件对应 `无根`
 
 对注入而言，没有区别，都可注入使用
@@ -496,49 +512,5 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 :::
 
 
-
-::: details 微信插件合辑
-
-由于插件开发者较多，最新版查过10个插件，点击游戏会闪退，所以可以自行选注入
-
-- [插件收纳/密友  - 老牌猫源 丨 @老猫](https://apt.25mao.com/) 丨 [TG群](https://t.me/lanmaoshare)
-
--  [黄白助手](https://hbpan.baixingyllh.com) 丨 [越狱源](https://byg.iosios.net/)
-
-- [主题：猪咪小屋 丨 @小茜宝宝](http://49.232.49.29/) 丨 [公众号](https://mp.weixin.qq.com/s/RZDxtc9NAhtjVGxZ-VC_KQ)
-
-- [主题：酸果 丨苏兔](https://apt.sutuplus.com) 丨[公众号](https://mp.weixin.qq.com/s/QmpzY5X36t3XnIzd7PsJkw)
-
-- [主题：菠萝 丨 ThemePro](https://themepro.yourepo.com/) 丨 [公众号](https://mp.weixin.qq.com/s/ggYRb-MmTZRrYOsOyk3YkA)
-
-- 其他：https://www.123pan.com/s/3LWcVv-6J5rh.html
-
-:::
-
-
-
-
-::: details 抖音/小红书/快手/高德/百度/今日头条
-
-- 图层：https://www.123pan.com/s/CvniVv-IJXa.html
-
-:::
-
-
-
-::: details Tiktok
-
-- BH/Tiktok Plus：https://github.com/dayanch96/BHTikTok-Plus
-
-:::
-
-
-
-
-::: details Youtube
-
-- YTLite：https://github.com/dayanch96/YTLite/releases/
-
-:::
 
 

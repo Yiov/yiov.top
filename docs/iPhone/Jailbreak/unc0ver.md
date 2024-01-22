@@ -14,7 +14,7 @@ next: false
 
 官网：https://unc0ver.dev/
 
-![](./unc0ver-01.png)
+![](/unc0ver/unc0ver-01.png)
 
 
 
@@ -37,7 +37,7 @@ next: false
 官网：[https://www.i4.cn/](https://www.i4.cn/)
 
 
-![](./unc0ver-02.png)
+![](/unc0ver/unc0ver-02.png)
 
 
 安装完成后，连接手机，手机端点一下 `信任` ，就进入了爱思界面
@@ -48,12 +48,12 @@ next: false
 都是手机的信息，查验手机也会用到它
 :::
 
-![](./unc0ver-03.png)
+![](/unc0ver/unc0ver-03.png)
 
 
 点工具箱 - 一键越狱，等下载安装完成
 
-![](./unc0ver-04.png)
+![](/unc0ver/unc0ver-04.png)
 
 
 
@@ -63,20 +63,20 @@ next: false
 如果你这里没有可用的工具，排出数据线没插好外，默哀，你的手机越狱不了
 :::
 
-![](./unc0ver-05.png)
+![](/unc0ver/unc0ver-05.png)
 
 
 
 勾选 `unc0ver` ，点击开始越狱，自动下载安装
 
-![](./unc0ver-06.png)
+![](/unc0ver/unc0ver-06.png)
 
-![](./unc0ver-07.png)
+![](/unc0ver/unc0ver-07.png)
 
 
 回到手机，设置-通用-设备管理，安装信任证书
 
-![](./unc0ver-08.png)
+![](/unc0ver/unc0ver-08.png)
 
 
 打开 `unc0ver` ，却提示 `Unsupported`，竟然不支持，我哭
@@ -85,7 +85,7 @@ next: false
 不支持就是无解了，不要再尝试了，换工具吧
 :::
 
-![](./unc0ver-09.png)
+![](/unc0ver/unc0ver-09.png)
 
 
 虽然我的手机不可以，我去截个图来继续演示
@@ -93,14 +93,14 @@ next: false
 
 打开 `unc0ver` ，点左上角 齿轮 ，进入设置，只开 `Load Tweaks`即可，右上角 Done 退出
 
-![](./unc0ver-10.png)
+![](/unc0ver/unc0ver-10.png)
 
 
 
 返回后点击 `jailbraek` 开始越狱，等完成后点击OK，手机自动重启
 
 
-![](./unc0ver-11.png)
+![](/unc0ver/unc0ver-11.png)
 
 
 
@@ -111,7 +111,7 @@ next: false
 
 进入Cyida-更新必要软件包-确定-即可进入主页
 
-![](./unc0ver-12.png)
+![](/unc0ver/unc0ver-12.png)
 
 
 
@@ -124,15 +124,15 @@ next: false
 
 软件源-右上角编辑-左上角添加，输入源地址：[https://havoc.app](https://havoc.app)
 
-![](./unc0ver-13.png)
+![](/unc0ver/unc0ver-13.png)
 
 等安装完成即可，现在就有Havoc的源了
 
-![](./unc0ver-14.png)
+![](/unc0ver/unc0ver-14.png)
 
 搜索 `Trollstore Helper` 然后右上角-更改-安装就完成了
 
-![](./unc0ver-15.png)
+![](/unc0ver/unc0ver-15.png)
 
 
 

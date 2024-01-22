@@ -23,7 +23,7 @@ checkra1n越狱后无发使用面容或指纹，所以推荐看一下 [NekoJB](h
 
 官网：[https://checkra.in/](https://checkra.in/)
 
-![](./checkra1n-01.png)
+![](/checkra1n/checkra1n-01.png)
 
 
 
@@ -49,7 +49,7 @@ checkra1n越狱后无发使用面容或指纹，所以推荐看一下 [NekoJB](h
 爱思官网：https://www.i4.cn/
 
 
-![](./checkra1n-02.png)
+![](/checkra1n/checkra1n-02.png)
 
 
 安装完成后，连接手机，手机端点一下 `信任` ，就进入了爱思界面
@@ -60,12 +60,12 @@ checkra1n越狱后无发使用面容或指纹，所以推荐看一下 [NekoJB](h
 都是手机的信息，查验手机也会用到它
 :::
 
-![](./checkra1n-03.png)
+![](/checkra1n/checkra1n-03.png)
 
 
 点工具箱 - 一键越狱，等下载安装完成
 
-![](./checkra1n-04.png)
+![](/checkra1n/checkra1n-04.png)
 
 
 
@@ -75,7 +75,7 @@ checkra1n越狱后无发使用面容或指纹，所以推荐看一下 [NekoJB](h
 如果你这里没有可用的工具，排出数据线没插好外，默哀，你的手机越狱不了
 :::
 
-![](./checkra1n-05.png)
+![](/checkra1n/checkra1n-05.png)
 
 
 
@@ -85,11 +85,11 @@ checkra1n越狱后无发使用面容或指纹，所以推荐看一下 [NekoJB](h
 操作会清空U盘数据，自行备份好数据！！！
 :::
 
-![](./checkra1n-06.png)
+![](/checkra1n/checkra1n-06.png)
 
-![](./checkra1n-07.png)
+![](/checkra1n/checkra1n-07.png)
 
-![](./checkra1n-08.png)
+![](/checkra1n/checkra1n-08.png)
 
 
 U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
@@ -129,13 +129,13 @@ U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
 如果U盘有一个EFUI模式，硬件支持的话选，速度快点；不支持就选常规U盘
 :::
 
-![](./checkra1n-09.png)
+![](/checkra1n/checkra1n-09.png)
 
 
 
 在Welcome to checkn1x 界面按组合键 `Alt+F2` 进入 Checkra1n
 
-![](./checkra1n-10.png)
+![](/checkra1n/checkra1n-10.png)
 
 
 电脑用USB链接手机，手机弹窗点`信任`，然后再电脑端用方向键选择 `options` 回车
@@ -144,7 +144,7 @@ U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
 无反应，再次拔插数据线即可
 :::
 
-![](./checkra1n-11.png)
+![](/checkra1n/checkra1n-11.png)
 
 
 全选-返回，如果全选卡死就重启再来的时候，不选 `Safe Mode`
@@ -153,7 +153,7 @@ U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
 仍然卡死的话，先选1后，返回！再选2345！
 :::
 
-![](./checkra1n-12.png)
+![](/checkra1n/checkra1n-12.png)
 
 
 
@@ -163,7 +163,7 @@ U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
 如果还没有亮，再次拔插数据线就可以了
 :::
 
-![](./checkra1n-13.png)
+![](/checkra1n/checkra1n-13.png)
 
 
 
@@ -175,11 +175,11 @@ U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
 再松开电源键，保持按住音量下键10秒
 :::
 
-![](./checkra1n-14.png)
+![](/checkra1n/checkra1n-14.png)
 
 
 
-![](./checkra1n-15.png)
+![](/checkra1n/checkra1n-15.png)
 
 
 越狱完成后，Checkra1n 会提示 `All Done` 
@@ -188,7 +188,7 @@ U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
 如果越狱失败，请再尝试一次
 :::
 
-![](./checkra1n-16.png)
+![](/checkra1n/checkra1n-16.png)
 
 
 桌面会有 `checkra1n` 图标生成，打开 checkra1n，点击 Cydia 并安装 `Install Cydia`
@@ -197,7 +197,7 @@ U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
 如果不显示或者提示 `timed out` ，挂个梯子就好了
 :::
 
-![](./checkra1n-17.png)
+![](/checkra1n/checkra1n-17.png)
 
 
 
@@ -208,7 +208,7 @@ U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
 
 进入Cyida-更新必要软件包-确定-即可进入主页
 
-![](./checkra1n-18.png)
+![](/checkra1n/checkra1n-18.png)
 
 
 
@@ -221,15 +221,15 @@ U盘不要拔掉，重启电脑，进入BIOS模式并选择以U盘启动
 
 软件源-右上角编辑-左上角添加，输入源地址：[https://havoc.app](https://havoc.app)
 
-![](./checkra1n-19.png)
+![](/checkra1n/checkra1n-19.png)
 
 等安装完成即可，现在就有Havoc的源了
 
-![](./checkra1n-20.png)
+![](/checkra1n/checkra1n-20.png)
 
 搜索 `Trollstore Helper` 然后右上角-更改-安装就完成了
 
-![](./checkra1n-21.png)
+![](/checkra1n/checkra1n-21.png)
 
 
 
@@ -279,13 +279,13 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 
 打开 `DumpDecrypter` APP，选择抖音-确定解密，等砸完，手机不要锁屏
 
-![](./checkra1n-22.png)
+![](/checkra1n/checkra1n-22.png)
 
 砸完，前往Filza查看，一个完整的脱壳IPA就诞生了
 
 你也可以分享到轻松签来进行插件注入
 
-![](./checkra1n-23.png)
+![](/checkra1n/checkra1n-23.png)
 
 ::::
 
@@ -326,9 +326,9 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 
 源 - Tweaks - 抖音净化 - 更改 - 添加到Downloads
 
-![](./checkra1n-24.png)
+![](/checkra1n/checkra1n-24.png)
 
-![](./checkra1n-25.png)
+![](/checkra1n/checkra1n-25.png)
 
 
 下载完成点击插件 - Show in Filza - 点击插件
@@ -337,12 +337,12 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 /var/mobile/Documents/Cydown
 :::
 
-![](./checkra1n-26.png)
+![](/checkra1n/checkra1n-26.png)
 
 
 我们先解压，进 Library 文件夹
 
-![](./checkra1n-27.png)
+![](/checkra1n/checkra1n-27.png)
 
 
 我们先长按文件，点复制把路径复制出来
@@ -351,7 +351,7 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 /var/mobile/Documents/CyDown/netskao.***/Awemepure.dylib
 :::
 
-![](./checkra1n-28.png)
+![](/checkra1n/checkra1n-28.png)
 
 
 
@@ -376,18 +376,18 @@ IPA路径路径：/var/mobile/Documents/DumpDecrypter/抖音_23.1.0.ipa
 例子：injectipa /var/mobile/Documents/DumpDecrypter/抖音_23.1.0.ipa /var/mobile/Documents/CyDown/netskao.***/Awemepure.dylib
 ```
 
-![](./checkra1n-29.png)
+![](/checkra1n/checkra1n-29.png)
 
 
 等它注入打包完就可以了，会自动跳到Filza目录
 
-![](./checkra1n-30.png)
+![](/checkra1n/checkra1n-30.png)
 
 之前安装了自签插件了，直接安装就可以打开了
 
 首次打开会弹作者介绍窗，之后就没有了，在设置里可以看到插件设置
 
-![](./checkra1n-31.png)
+![](/checkra1n/checkra1n-31.png)
 
 
 ::::
@@ -759,20 +759,20 @@ FakeLocationX：虚拟定位
 
 下载工具下载到桌面，打开运行
 
-![](./checkra1n-32.png)
+![](/checkra1n/checkra1n-32.png)
 
 
 插入U盘，会自动识别设备，在 引导类型选择 下选择 `FreeDOS`
 
 
-![](./checkra1n-33.png)
+![](/checkra1n/checkra1n-33.png)
 
 
 点击开始，直到完成，U盘恢复正常模式
 
-![](./checkra1n-34.png)
+![](/checkra1n/checkra1n-34.png)
 
-![](./checkra1n-35.png)
+![](/checkra1n/checkra1n-35.png)
 
 
 

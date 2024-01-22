@@ -149,7 +149,7 @@
 美区苹果商店，下载安装 [小火箭 shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118) 来演示
 
 ::: details 关于小火箭安装方式
-* 付费方式：需 [注册美区Apple ID](../../iPhone/Apple_ID/) 且购买后下载使用
+* 付费方式：需 [注册美区Apple ID](../../iPhone/Apple_ID) 且购买后下载使用
 
 * 免费方式1：安装 [巨魔助手](../../iPhone/sign/TrollStore.md) ，下载 [小火箭巨魔专用版](https://app.liuchengxi.com/app/243.html) ，用巨魔安装使用
 

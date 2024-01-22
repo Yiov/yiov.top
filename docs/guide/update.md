@@ -9,6 +9,12 @@ next: false
 
 # 更新内容
 
+## 2024-1-22
+
+- 更新 轻松签微信插件
+
+- 新增巨魔安装工具 TrollMisaka
+
 
 ## 2024-1-16
 
@@ -28,33 +34,33 @@ next: false
 
 ## 2024-1-9
 
-- 新增一个 [多开微信的图标](../iPhone/sign/esign.md)
+- 新增一个 多开微信的图标
 
 年底较忙，可能不怎么大更新了
 
 ## 2024-1-8
 
-- 新增 轻松签插件：[微信](../iPhone/sign/esign.md)
+- 新增 轻松签插件：微信
 
-- 新增 巨魔iPad安装软件[SimpleKFD](https://github.com/braumye/simplekfd-ipad-ipa/releases)
+- 新增 巨魔iPad安装软件 SimpleKFD
 
 ## 2024-1-7
 
-- 更新 [巨魔软件 Copylog](../iPhone/sign/TrollStore.md#工具类) 苹果原生系统键盘增强剪切板破解
+- 更新 巨魔软件 Copylog 苹果原生系统键盘增强剪切板破解
 
-- 更新 [巨魔软件 IPCC](../iPhone/sign/TrollStore.md#工具类) 永久锁定SA 5G、去除系统漫游、开启独立5G语音
+- 更新 巨魔软件 IPCC 永久锁定SA 5G、去除系统漫游、开启独立5G语音
 
-- 更新 [轻松签已越狱安装教程](../iPhone/sign/esign.md#安装)
+- 更新 轻松签已越狱安装教程
 
 
 
 ## 2024-1-6
 
-- 更新 [iOS 16.5.1 系统已可以安装巨魔](../iPhone/sign/TrollStore.md)
+- 更新 iOS 16.5.1 系统已可以安装巨魔
 
-- 更新 [使用AppsManager恢复数据后无法从AppStore下载的问题](../iPhone/sign/TrollStore.md#工具类)
+- 更新 使用AppsManager恢复数据后无法从AppStore下载的问题
 
-- 新增 [轻松签插件](../iPhone/sign/esign.md#插件) ，可能会一直整理
+- 新增 轻松签插件 ，可能会一直整理
 
 - 添加 巨魔安装软件后的说明：商店会显示小云朵，更新也只能通过巨魔安装
 
@@ -71,68 +77,30 @@ next: false
 ## 2024-1-3
 
 
-* 更新了 [机场列表](../gfw/channel/)
+* 更新了 机场列表
 
-* 新增科学上网工具 [NekoRay](../gfw/proxy/index.md)
+* 新增科学上网工具 NekoRay
 
-* 更新 [轻松签教程](../iPhone/sign/esign.md)
+* 更新 轻松签教程
 
-* 更新 [KFD工具教程](../iPhone/kfd/)
+* 更新 KFD工具教程
 
-* 更新 [巨魔教程](../iPhone/sign/TrollStore.md)
+* 更新 巨魔教程
 
-* 更新 [unc0ver越狱](../iPhone/Jailbreak/unc0ver.md) 和 [checkra1n越狱](../iPhone/Jailbreak/checkra1n.md) 排版
+* 更新 unc0ver越狱 和 checkra1n越狱 排版
 
 
 ## 2024-1-2
 
-* 新增了多巴胺越狱 [0xkuj源](../iPhone/Jailbreak/Dopamine.md#其他插件)
+* 新增了多巴胺越狱 0xkuj源
 
-* 新增KFD新增landa漏洞，misaka 支持范围更新至 `16.7.4`，[misaka商店工具](../iPhone/kfd/index.md#misaka商店)
+* 新增KFD新增landa漏洞，misaka 支持范围更新至 `16.7.4`，misaka商店工具
 
-* 新增巨魔安装工具 [PureKFD](../iPhone/sign/TrollStore.md#purekfd) 、其他工具 [CAPerfHUDSwift](../iPhone/sign/TrollStore.md#工具类)
+* 新增巨魔安装工具 PureKFD 、其他工具 CAPerfHUDSwift
 
-* 新增科学上网工具 [karing](../gfw/proxy/index.md)
+* 新增科学上网工具 karing
 
-* 更新了 [机场列表](../gfw/channel/)
-
-
+* 更新了 机场列表
 
 
-## 2023-12-30
-
-* 更新了 [机场列表](../gfw/channel/)
-
-* 新增 [越狱工具NekoJB](../iPhone/Jailbreak/)
-
-* 更正 [KFD漏洞原名](../iPhone/kfd/)
-
-* 新增 [window关闭系统更新方法](../daily/win11/index.md#关闭windows自动更新)
-
-* 新增 [巨魔工具Copylog剪切板](../iPhone/sign/TrollStore.md)
-
-
-
-
-## 2023-12-27
-
-* 更新了巨魔砸壳软件 [AppsDump2](https://www.mediafire.com/file/qslrr64a6cm31uj/AppDump2_2.0.5.ipa/file) 的下载链接
-
-* 更新的 [机场列表](../gfw/channel/)
-
-* [markdown的使用工具](../daily/markdown/index.md#演示工具)
-
-
-
-## 2023-12-22
-
-* 更新了 [Xshell官网链接](../website/Xshell/)
-
-* 更新了 [wordpress数据恢复方式](../website/wordpress/index.md#疑问解答)
-
-
-
-## 2023-12-12
-
-* 更新了一堆内容
 

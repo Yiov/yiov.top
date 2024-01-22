@@ -79,23 +79,23 @@
 
 ## 苹果相关
 
-* [iPhone短信添加头像](../iPhone/smscard/)
+* [iPhone短信添加头像](../iPhone/smscard)
 
-* [苹果抓包工具安装及使用](../iPhone/Stream/)
+* [苹果抓包工具安装及使用](../iPhone/Stream)
 
-* [注册国外苹果Apple_ID步骤](../iPhone/Apple_ID/)
+* [注册国外苹果Apple_ID步骤](../iPhone/Apple_ID)
 
-* [stay2给Safari安装油猴插件](../iPhone/stay2/)
+* [stay2给Safari安装油猴插件](../iPhone/stay2)
 
 * [iPhone签名工具](../iPhone/sign/)
 
 * [iPhone越狱工具](../iPhone/Jailbreak/)
 
-* [MDC漏洞工具](../iPhone/mdc/)
+* [MDC漏洞工具](../iPhone/mdc)
 
-* [KFD漏洞工具](../iPhone/kfd/)
+* [KFD漏洞工具](../iPhone/kfd)
 
-* [Filza文件管理器破解](../iPhone/Filza/)
+* [Filza文件管理器破解](../iPhone/Filza)
 
 
 ## Telegram

@@ -109,10 +109,10 @@ export default defineConfig({
           { text: '日常使用', 
             collapsed: true,
             items: [
-              { text: '短信添加头像', link: '/iPhone/smscard/' },
-              { text: '抓包工具使用', link: '/iPhone/Stream/' },
-              { text: '注册国外Apple ID', link: '/iPhone/Apple_ID/' },
-              { text: 'stay2安装油猴插件', link: '/iPhone/stay2/' },
+              { text: '短信添加头像', link: '/iPhone/smscard' },
+              { text: '抓包工具使用', link: '/iPhone/Stream' },
+              { text: '注册国外Apple ID', link: '/iPhone/Apple_ID' },
+              { text: 'stay2安装油猴插件', link: '/iPhone/stay2' },
 
             ],
           },
@@ -140,9 +140,9 @@ export default defineConfig({
           { text: '其他工具', 
             collapsed: true,
             items: [
-              { text: 'MDC工具', link: '/iPhone/mdc/' },
-              { text: 'KFD工具', link: '/iPhone/kfd/' },
-              { text: 'Filza破解', link: '/iPhone/Filza/' },
+              { text: 'MDC工具', link: '/iPhone/mdc' },
+              { text: 'KFD工具', link: '/iPhone/kfd' },
+              { text: 'Filza破解', link: '/iPhone/Filza' },
 
             ],
           },

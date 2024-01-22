@@ -5,7 +5,7 @@ next: false
 
 # 轻松签安装及使用
 
-> 更新时间：2024-1-6
+> 更新时间：2024-1-22
 
 
 ## 简介
@@ -483,19 +483,30 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 ## 微信插件
 
-> 微信新版超10个插件后，点游戏闪退，所以可以自行选择注入，有些功能是相同的
->
-> 其他应用收集插件没有意义，直接用现成的即可
-> 下载合辑：https://www.123pan.com/s/3LWcVv-6J5rh.html
+::: tip 说明
+微信新版超10个插件后，点游戏闪退，所以可以自行选择注入，有些功能是相同的
 
-| 名称 | 插件名 | 作者 | 防走丢 | 视频预览 |
+其他应用收集插件没有意义，直接用现成的即可
+
+下载合辑：https://www.123pan.com/s/3LWcVv-6J5rh.html
+:::
+
+| 名称 | 插件名.dylib | 作者 | 防走丢 | 视频预览 |
 |:-:|:-:|:-:|:-:|:-:|
-| [斗图助手](https://apt.25mao.com/view/252) | DouTu.dylib | @老猫 | [TG群](https://t.me/lanmaoshare) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [微信助手/密友](https://apt.25mao.com/view/252) | MiYou.dylib | @老猫 | [TG群](https://t.me/lanmaoshare) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [黄白助手](https://hbpan.baixingyllh.com) | HBWechatHelper.dylib | @黄白团队 | [越狱源](https://byg.iosios.net/) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [主题：猪咪小屋](http://49.232.49.29/) | HBWechatHelper.dylib | @小茜宝宝 | [公众号](https://mp.weixin.qq.com/s/RZDxtc9NAhtjVGxZ-VC_KQ) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [主题：酸果](https://apt.sutuplus.com) | HBWechatHelper.dylib | @苏兔 | [公众号](https://mp.weixin.qq.com/s/QmpzY5X36t3XnIzd7PsJkw) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [主题：菠萝](https://themepro.yourepo.com/) | HBWechatHelper.dylib | @ThemePro | [公众号](https://mp.weixin.qq.com/s/ggYRb-MmTZRrYOsOyk3YkA) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [斗图助手](https://apt.25mao.com/view/252) | DouTu | @老猫 | [越狱源](https://apt.25mao.com/) / [TG群](https://t.me/lanmaoshare) / [公众号](https://mp.weixin.qq.com/s/9HM4UeqMEnYyZusmjvaNtQ) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [微信助手/密友](https://apt.25mao.com/view/252) | MiYou | @老猫 | [越狱源](https://apt.25mao.com/) / [TG群](https://t.me/lanmaoshare) / [公众号](https://mp.weixin.qq.com/s/9HM4UeqMEnYyZusmjvaNtQ) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [插件收纳](https://apt.25mao.com/view/252) | wcplugins | @老猫 | [越狱源](https://apt.25mao.com/) / [TG群](https://t.me/lanmaoshare) / [公众号](https://mp.weixin.qq.com/s/9HM4UeqMEnYyZusmjvaNtQ) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| |
+| 微信净化_长期版 | WCPureExtension | @Netskao /<br>@热心网友 | - | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [黄白助手](https://hbpan.baixingyllh.com) | HBWechatHelper | @黄白团队 | [越狱源](https://byg.iosios.net/) / [TG群](https://t.me/HbHelper) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| Misaka助手 | MisakaHelper | @御坂美琴666 | [公众号](https://mp.weixin.qq.com/s/droMoPLfUk12DCwy23xuZg) / [QQ群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-kDRxtJPYPRAgdxNljqL6fpomGolF-EP&authKey=TeungKEzxgz4v8Ioq0kl2fJf70pRESnH4viD6Vkv9Pw%2F%2F6WjTzZUU31N01pboTV2&noverify=0&group_code=295324679) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| PKC助手 | PKCWechatTools | @皮卡车 | [TG群](https://t.me/TopStyle2021) / [公众号](https://mp.weixin.qq.com/s/9LNr_75YSs2rhYZg8TB5SA) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| 广告友好+Callkit | Purifyless | @秋名山 | [TG群](https://t.me/ae86_ios) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| 虚拟视频 | libdkhelperDylib | @平凡 | [官网](https://iosi.vip/) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| |
+| [主题：猪咪小屋](http://49.232.49.29/) | ThemeManager | @小茜宝宝 | [公众号](https://mp.weixin.qq.com/s/RZDxtc9NAhtjVGxZ-VC_KQ) / [备用](https://mp.weixin.qq.com/s/j1vSjjHIiaU_RaISfHpSCA) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [主题：酸果](https://apt.sutuplus.com) | sutuplus | @苏兔 | [公众号](https://mp.weixin.qq.com/s/QmpzY5X36t3XnIzd7PsJkw) / [越狱源](http://apt.sutuplus.com) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+| [主题：菠萝](https://themepro.yourepo.com/) | libPineappleDylib | @ThemePro | [公众号](https://mp.weixin.qq.com/s/ggYRb-MmTZRrYOsOyk3YkA) / [越狱源](https://themepro.yourepo.com/) | [视频预览](https://pan.quark.cn/s/da757809387e) |
 
 
 

@@ -348,7 +348,7 @@ lxml
 ::: tip 注意
 [安卓手机抓CK的教程](../../Android/HttpCanary/index.md#京东ck)
 
-[苹果手机抓CK的教程](../../iPhone/Stream/index.md#京东ck)
+[苹果手机抓CK的教程](../../iPhone/Stream.md#京东ck)
 :::
 
 

@@ -5,7 +5,7 @@ next: false
 
 # 巨魔助手安装及使用
 
-> 更新时间：2024-1-18
+> 更新时间：2024-1-22
 
 
 
@@ -80,12 +80,11 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 | [15.0](https://support.apple.com/zh-cn/HT212788) - 15.4.1 | [TrollHelper arm64](#arm64-arm64e) | [TrollHelper arm64e](#arm64-arm64e) |
 | 15.5 - 15.6.1 | [TrollInstaller MDC](#trollinstaller-mdc) | [TrollHelper arm64e](#arm64-arm64e) |
 | 15.7 - 15.7.1 | [TrollInstaller MDC](#trollinstaller-mdc) | [TrollInstaller MDC](#trollinstaller-mdc) |
-| 15.7.2 | checkra1n 越狱 | [Misaka](#其他第三方安装) |
-| 15.7.3 - 15.8| checkra1n 越狱 | ✘ |
+| 15.7.2 - 15.8.1 | checkra1n 越狱 | [TrollMisaka](#trollmisaka) |
 | [16.0](https://support.apple.com/zh-cn/HT213407) - 16.1.2 | [TrollInstaller MDC](#trollinstaller-mdc) | [TrollInstaller MDC](#trollinstaller-mdc) |
 | 16.2 - 16.6.1 | checkra1n 越狱 | [TrollStar](#trollstar) /<br>[其他第三方安装](#其他第三方安装) |
 | 16.7 - 16.7.4 | ✘ | ✘ |
-| [17](https://support.apple.com/zh-cn/HT213781) | checkra1n 越狱 | 无安装方式 |
+| [17.0](https://support.apple.com/zh-cn/HT213781) | checkra1n 越狱 | 无安装方式 |
 | 17.0.1及以上 | ✘ | ✘ |
 
 
@@ -97,7 +96,7 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 ## 安装
 
-提供了5种安装方式，请参照 [适用范围](#适用范围) 选择
+提供了 4+3 种安装方式，请参照 [适用范围](#适用范围) 选择
 
 ---
 
@@ -269,6 +268,165 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 
 
+
+
+
+
+
+
+
+### TrollMisaka
+
+> 教程仅适用于：[A12-A16](#适用范围)：`iOS 15.7.2 - 15.8.1`
+
+
+开始前安装好自签工具： [牛蛙助手并认证好个人证书](./bullfrog.md)
+
+再下载：https://github.com/straight-tamago/TrollMisaka/releases
+
+::: tip 说明
+下载最新版的即可，截稿前演示版本v2.0 Beta
+:::
+
+
+![](/TrollStore/TrollMisaka/TrollMisaka-01.png)
+
+
+
+下载完成后，点击浏览器 下载 按键，再点击已经下载好的 `TrollMisaka`
+
+![](/TrollStore/TrollMisaka/TrollMisaka-02.png)
+
+
+右上角分享，选择 `牛蛙助手`
+
+![](/TrollStore/TrollMisaka/TrollMisaka-03.png)
+
+点 `发送`，牛蛙打开后，选择 `导入`
+
+::: tip 说明
+如果勿点了取消，也可直接点 TrollMisaka.ipa 选择导入应用库
+:::
+
+![](/TrollStore/TrollMisaka/TrollMisaka-04.png)
+
+点击 `TrollMisaka` ，选择 `签名 - 立即签名` ，签名完成去安装
+
+![](/TrollStore/TrollMisaka/TrollMisaka-05.png)
+
+在已签名的页卡中，选择刚签好名的 `TrollMisaka` 安装
+
+但牛蛙安装必须要开启 `VPN和WIFI`，我们去打开
+
+![](/TrollStore/TrollMisaka/TrollMisaka-06.png)
+
+
+设置 - VPN - 牛蛙助手 -打开连接开关
+
+![](/TrollStore/TrollMisaka/TrollMisaka-07.png)
+
+
+然后后我们返回重新安装 `TrollMisaka` 即可
+
+
+![](/TrollStore/TrollMisaka/TrollMisaka-08.png)
+
+
+安装成功了，但是还打不开，要信任一下
+
+![](/TrollStore/TrollMisaka/TrollMisaka-09.png)
+
+
+
+设置 - 通用 - VPN与设备管理 - 选择 开发者APP - `信任`
+
+![](/TrollStore/TrollMisaka/TrollMisaka-10.png)
+
+![](/TrollStore/TrollMisaka/TrollMisaka-11.png)
+
+
+再进入 `TrollMisaka` ，点击 `Add keyboard` 添加新键盘
+
+
+![](/TrollStore/TrollMisaka/TrollMisaka-12.png)
+
+添加 `TrollMisaka` 键盘，并允许完全访问！一定要给权限！
+
+![](/TrollStore/TrollMisaka/TrollMisaka-13.png)
+
+
+然后返回 TrollMisaka 界面，重启手机
+
+::: details 手机重启打不开了
+参考 [官网强制重启](https://support.apple.com/zh-cn/guide/iphone/-iph8903c3ee6/15.0/ios/15.0) 方法：按一下音量+，再按一下音量-，最后长按开机键直到出现logo
+:::
+
+![](/TrollStore/TrollMisaka/TrollMisaka-14.png)
+
+重启后，先别进 TrollMisaka ！别进！
+
+打开 Safari 浏览器地址栏位置，切换输入法为 `TrollMisaka` ，即可进入安装器，点击 `kopen` 开启利用漏洞
+
+![](/TrollStore/TrollMisaka/TrollMisaka-15.png)
+
+漏洞利用成功后，下方显示 Kopen Success!
+
+然后挂上梯子 [科学上网](../../gfw/proxy/) ，不挂无法安装！
+
+::: details kopen未显示成功
+多点击几次kopen，或者换工具
+:::
+
+![](/TrollStore/TrollMisaka/TrollMisaka-16.png)
+
+`install TrollStore` 安装巨魔，知道提示成功
+
+![](/TrollStore/TrollMisaka/TrollMisaka-17.png)
+
+
+
+再次重启手机，重启完，打开 TrollMisaka 会发现已变身成安装器了
+
+![](/TrollStore/TrollMisaka/TrollMisaka-18.png)
+
+
+
+再次挂上梯子 [科学上网](../../gfw/proxy/) ，安装巨魔
+
+![](/TrollStore/TrollMisaka/TrollMisaka-19.png)
+
+
+
+打开巨魔会自动安装 `Idid` ，灰色状态就是已经安装成功了
+
+安装持久性助手，点击 `Install Persistence Helper`，选择 `除Tips` 以外的
+
+::: danger 特别注意
+因为安装器是Tips，如果持久性助手也选Tips，有可能会白苹果，就开不了机了
+
+如果非要选的Tips，请先卸载重装 [提示](https://apps.apple.com/cn/app/id1069509450)，再来选择 Tips 为持久性助手即可
+:::
+
+![](/TrollStore/TrollMisaka/TrollMisaka-20.png)
+
+如果有天巨魔打不开，可以通过持久性助手可让巨魔恢复正常使用
+
+::: tip 另外
+有了持久性助手，TrollMisaka 可以直接卸载了
+:::
+
+
+![](/TrollStore/TrollMisaka/TrollMisaka-21.png)
+
+
+安装完成，我们直接看 [巨魔界面介绍](#界面介绍)
+
+
+
+---
+
+
+
 ### TrollStar
 
 
@@ -346,7 +504,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 ![](/TrollStore/TrollStar/TrollStar-10.png)
 
 
-PureKFD安装成功了，但是还打不开，要信任一下
+安装成功了，但是还打不开，要信任一下
 
 ![](/TrollStore/TrollStar/TrollStar-11.png)
 
@@ -1172,6 +1330,9 @@ https://github.com/opa334/TrollStore/releases
 ![](/TrollStore/icon/icon-09.jpg)
 
 ![](/TrollStore/icon/icon-10.png)
+
+![](/TrollStore/icon/icon-11.jpg)
+
 :::
 
 ![](/TrollStore/TrollStore-11.png)
@@ -1365,12 +1526,18 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 ![](/TrollStore/TrollStore-32.png)
 
-解密完成后，可导入到轻松签进行多开和注入插件等
+解密完成后，可 `共享文件` 导入到轻松签，进行多开和注入插件等
+
+::: tip 说明
+因为砸壳的文件多了会占内存，建议安装一个 [Fliza文件管理器](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
+
+删掉多余的ipa文件
+:::
 
 ![](/TrollStore/TrollStore-33.png)
 
 ::: warning 注意
-微信不可以砸，因为砸出来非全权限，没有分享等小组件
+微信砸出来非全权限，没有分享等小组件
 
 只能越狱机或Mac砸
 :::

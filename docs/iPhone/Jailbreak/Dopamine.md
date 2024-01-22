@@ -25,7 +25,7 @@ next: false
 
 * 越狱源：https://apt.xina.vip/
 
-![](./Dopamine-XinaA15.png)
+![](/Dopamine/Dopamine-XinaA15.png)
 
 :::
 
@@ -33,7 +33,7 @@ next: false
 
 官网：https://ellekit.space/dopamine/
 
-![](./Dopamine-01.png)
+![](/Dopamine/Dopamine-01.png)
 
 ::: tip 说明
 * 适用：`A12-15 M1 / iOS 15.0-15.4.1`
@@ -48,7 +48,7 @@ next: false
 
 
 
-![](./Dopamine-02.png)
+![](/Dopamine/Dopamine-02.png)
 
 
 ::: warning 注意
@@ -73,22 +73,22 @@ next: false
 
 多巴胺官网下载ipa包：[https://ellekit.space/dopamine/](https://ellekit.space/dopamine/)
 
-![](./Dopamine-03.png)
+![](/Dopamine/Dopamine-03.png)
 
 我用巨魔安装，或者你也可以 [用其他自签工具](../sign/)
 
-![](./Dopamine-04.png)
+![](/Dopamine/Dopamine-04.png)
 
 
 支持中文界面，UI很舒服
 
-![](./Dopamine-05.png)
+![](/Dopamine/Dopamine-05.png)
 
 
 点击底部 `越狱` 开始，选择包管理器，默认 Sileo
 
 
-![](./Dopamine-06.png)
+![](/Dopamine/Dopamine-06.png)
 
 首次越狱，会弹出设置终端密码提示框，以后会使用到
 
@@ -103,13 +103,13 @@ next: false
 如越狱失败，重启下手机，再试一遍，不代表一次能成功
 
 
-![](./Dopamine-07.png)
+![](/Dopamine/Dopamine-07.png)
 
 
 接下来就是打开Sileo商店安装插件了
 
 
-![](./Dopamine-08.png)
+![](/Dopamine/Dopamine-08.png)
 
 
 

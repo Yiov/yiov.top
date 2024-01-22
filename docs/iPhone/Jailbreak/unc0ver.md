@@ -240,7 +240,7 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 /var/mobile/Documents/Cydown
 :::
 
-![](checkra1n/checkra1n-26.png)
+![](/checkra1n/checkra1n-26.png)
 
 
 我们先解压，进 Library 文件夹

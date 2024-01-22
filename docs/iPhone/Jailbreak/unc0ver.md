@@ -163,7 +163,7 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 
 * DumpDecrypter：https://repo.initnil.com
 
-* Filza：https://tigisoftware.com/cydia/ 丨 [Filza破解教程☛点我](../Filza/)
+* Filza：https://tigisoftware.com/cydia/ 丨 [Filza破解教程☛点我](../Filza.md)
 
 ::: danger 注意
 哥哥源已闭源，源下插件已无法使用
@@ -216,7 +216,7 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 
 * DumpDecrypter：https://repo.initnil.com
 
-* Filza：https://tigisoftware.com/cydia/ 丨 [Filza破解教程☛点我](../Filza/)
+* Filza：https://tigisoftware.com/cydia/ 丨 [Filza破解教程☛点我](../Filza.md)
 
 * CyDown：https://julio.hackyouriphone.org/
 

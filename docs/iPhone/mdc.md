@@ -66,7 +66,7 @@ CVE-2022-46689：Google Project Zero 的 Ian Beer
 个人ID签名只能签3个，用MDC就可以打破这个限制
 
 
-* 安装：[牛蛙助手](../sign/#牛蛙助手)
+* 安装：[牛蛙助手](./sign/bullfrog.md)
 
 
 * 下载：[WDBRemoveThreeAppLimit](https://github.com/zhuowei/WDBRemoveThreeAppLimit/releases)

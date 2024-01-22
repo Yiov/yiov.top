@@ -182,13 +182,13 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 
 打开 `DumpDecrypter` APP，选择抖音-确定解密，等砸完，手机不要锁屏
 
-![](./checkra1n-22.png)
+![](/checkra1n/checkra1n-22.png)
 
 砸完，前往Filza查看，一个完整的脱壳IPA就诞生了
 
 你也可以分享到轻松签来进行插件注入
 
-![](./checkra1n-23.png)
+![](checkra1n/checkra1n-23.png)
 
 ::::
 

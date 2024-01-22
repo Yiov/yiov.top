@@ -182,13 +182,13 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 
 打开 `DumpDecrypter` APP，选择抖音-确定解密，等砸完，手机不要锁屏
 
-![](/unc0ver/unc0ver-16.png)
+![](/checkra1n/checkra1n-22.png)
 
 砸完，前往Filza查看，一个完整的脱壳IPA就诞生了
 
 你也可以分享到轻松签来进行插件注入
 
-![](/unc0ver/unc0ver-17.png)
+![](/checkra1n/checkra1n-23.png)
 
 ::::
 
@@ -229,9 +229,9 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 
 源 - Tweaks - 抖音净化 - 更改 - 添加到Downloads
 
-![](./checkra1n-24.png)
+![](/checkra1n/checkra1n-24.png)
 
-![](./checkra1n-25.png)
+![](/checkra1n/checkra1n-25.png)
 
 
 下载完成点击插件 - Show in Filza - 点击插件
@@ -240,12 +240,12 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 /var/mobile/Documents/Cydown
 :::
 
-![](./checkra1n-26.png)
+![](checkra1n/checkra1n-26.png)
 
 
 我们先解压，进 Library 文件夹
 
-![](./checkra1n-27.png)
+![](/checkra1n/checkra1n-27.png)
 
 
 我们先长按文件，点复制把路径复制出来
@@ -254,7 +254,7 @@ iOS 15 以上的用 `MacOS` + `bagbak` 砸壳
 /var/mobile/Documents/CyDown/netskao.***/Awemepure.dylib
 :::
 
-![](./checkra1n-28.png)
+![](/checkra1n/checkra1n-28.png)
 
 
 
@@ -279,18 +279,18 @@ IPA路径路径：/var/mobile/Documents/DumpDecrypter/抖音_23.1.0.ipa
 例子：injectipa /var/mobile/Documents/DumpDecrypter/抖音_23.1.0.ipa /var/mobile/Documents/CyDown/netskao.***/Awemepure.dylib
 ```
 
-![](./checkra1n-29.png)
+![](/checkra1n/checkra1n-29.png)
 
 
 等它注入打包完就可以了，会自动跳到Filza目录
 
-![](./checkra1n-30.png)
+![](/checkra1n/checkra1n-30.png)
 
 之前安装了自签插件了，直接安装就可以打开了
 
 首次打开会弹作者介绍窗，之后就没有了，在设置里可以看到插件设置
 
-![](./checkra1n-31.png)
+![](/checkra1n/checkra1n-31.png)
 
 
 ::::

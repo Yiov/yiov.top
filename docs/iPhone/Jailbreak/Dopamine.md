@@ -13,7 +13,7 @@ next: false
 
 ::: details XinaA15 IOS 15首个越狱工具
 
-首个IOS 15越狱，由国人 [@朱心浪](https://twitter.com/xina520) 独立开发，后发布了 [XinaA15](https://apt.xina.vip/)
+首个IOS 15越狱，由国人 [@朱心浪](https://twitter.com/xina520) 独立开发，后发布了 [XinaA15](https://zhuxinlang.github.io/)
 
 * 适用：`A12-15 / iOS 15.0-15.1.1`
 

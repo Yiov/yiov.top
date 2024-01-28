@@ -19,6 +19,10 @@ export default defineConfig({
   markdown: {
     //行号显示
     lineNumbers: true, 
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true
+    },
 
   },
 
@@ -264,10 +268,11 @@ export default defineConfig({
     returnToTopLabel:'返回顶部',
 
 
-    //大纲显示2-3级标题
-    outline:[2,3],
-    //大纲顶部标题
-    outlineTitle:'当前页大纲',
+    //大纲
+    outline: { 
+      level: [2,4], // 显示2-4级标题
+      label: '当前页大纲' // 文字显示
+    },
 
 
     //自定义上下页名

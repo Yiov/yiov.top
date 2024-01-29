@@ -270,7 +270,7 @@ export default defineConfig({
 
     //大纲
     outline: { 
-      level: [2,4], // 显示2-4级标题
+      level: [2,3], // 显示2-3级标题
       label: '当前页大纲' // 文字显示
     },
 

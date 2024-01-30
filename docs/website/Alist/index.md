@@ -25,13 +25,6 @@ Alist是一个网盘文件列表程序，支持的网盘谷歌、pikpak、阿里
 ## 准备
 
 
-本次仅演示docker安装，其他安装请参考文档
-
-::: tip 说明
-如果想安装在指定域名目录，可以使用Curl一键脚本，安装的时候指定目录
-:::
-
-
 * [服务器1台](../ECS/)
 
 * [搭建好宝塔面板](../BT/)
@@ -54,7 +47,7 @@ Alist是一个网盘文件列表程序，支持的网盘谷歌、pikpak、阿里
 本次仅演示使用Docker安装，其他请参照官方说明
 :::
 
-进官方安装文档：https://alist.nn.ci/zh/guide/install/docker.html
+官方安装文档：https://alist.nn.ci/zh/guide/install/docker.html
 
 点击复制 `发行版` 的安装命令
 
@@ -224,11 +217,11 @@ http://127.0.0.1:5244
 
 
 
-## 挂载使用
+## 使用
 
 
 
-网盘太多就不一一展示了，我就列举两个
+网盘太多就不一一展示了，我就以阿里云盘为例吧
 
 
 
@@ -295,6 +288,11 @@ https://api.xhofe.top/alist/ali_open/token
 ![](/Alist/Alist-28.png)
 
 
+最后，我们希望别人访问，还需要开启 `guest` 用户
+
+用户 - 编辑 `guest` 不用给权限，直接保存启用即可
+
+![](/Alist/Alist-29.png)
 
 
 
@@ -306,15 +304,15 @@ https://api.xhofe.top/alist/ali_open/token
 
 关闭站点公告：设置 - 站点 - 站点公告，再次打开就不会弹了
 
-![](/Alist/Alist-29.png)
+![](/Alist/Alist-30.png)
 
 
 元信息 - 路径(在哪个文件夹下显示) - 说明，支持Markdown
 
 
-![](/Alist/Alist-30.png)
-
 ![](/Alist/Alist-31.png)
+
+![](/Alist/Alist-32.png)
 
 
 ---
@@ -325,15 +323,15 @@ https://api.xhofe.top/alist/ali_open/token
 
 开启自动更新索引，保存
 
-![](/Alist/Alist-32.png)
+![](/Alist/Alist-33.png)
 
 点击重建索引，等它自动爬数据
 
-![](/Alist/Alist-33.png)
+![](/Alist/Alist-34.png)
 
 这样有数据就可以了，点一个 `更新索引` 即可
 
-![](/Alist/Alist-34.png)
+![](/Alist/Alist-35.png)
 
 
 
@@ -355,11 +353,11 @@ https://api.xhofe.top/alist/ali_open/token
 
 备份与恢复 - 备份
 
-![](/Alist/Alist-35.png)
+![](/Alist/Alist-36.png)
 
 会自动下载一个 `json` 文件，可用于恢复所有索引及布局
 
-![](/Alist/Alist-36.png)
+![](/Alist/Alist-37.png)
 
 
 
@@ -382,7 +380,7 @@ docker stop alist #暂停alist容器
 docker rm -f alist #删除alist容器
 ```
 
-![](/Alist/Alist-37.png)
+![](/Alist/Alist-38.png)
 
 
 重新命令拉取即可
@@ -404,7 +402,7 @@ docker rmi 镜像ID #删除镜像
 docker rm -f xhofe/alist:latest #删除镜像
 ```
 
-![](/Alist/Alist-38.png)
+![](/Alist/Alist-39.png)
 
 :::
 
@@ -432,3 +430,6 @@ docker rm -f xhofe/alist:latest #删除镜像
 登录后台备份，将备份下载到桌面，部署好新站点后，导入即可
 
 
+#### 4.ipa下载变成了zip
+
+设置 - 全局 - 打包下载关闭

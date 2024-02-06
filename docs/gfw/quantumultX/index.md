@@ -5,11 +5,9 @@
 :::
 
 参考教程：
-[https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917)
 
-::: tip 说明
-注：日区苹果ID的圈X，买兑换码只要6RMB
-:::
+https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
+
 
 ![](./quantumultX.png)
 
@@ -33,11 +31,13 @@
 
 ::: tip 说明
 主要用于普及订阅知识，机场仅供参考，后续有条件换好点的
+
+[点我查看白嫖机场](../channel/)
 :::
 
 免费机场：iKUUU，注册就有50G
 
-官网：[https://ikuuu.eu/](https://ikuuu.eu/)
+官网：https://ikuuu.me/
 
 ![](./IKUUU.png)
 
@@ -138,9 +138,6 @@ URI：支持ss、ssr以及圈x格式的vmess/https/trojan的节点
 
 自己找好用的机场或者免费分享节点的tg群都可以，演示一遍，粘贴订阅链接-开启资源解析器-保存
 
-::: tip 白嫖
-* [白嫖节点教程](../proxy/)
-:::
 
 ![](./quantumultX-9.png)
 

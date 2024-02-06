@@ -39,10 +39,12 @@ https://smailpro.com/tool/temp-mail
 | [盲盒.store](http://bb.盲盒.store/) | 新户注册50G/月 | 均速1.2M/s | [TG群](https://t.me/blindbox_new_group) |
 | |
 | [👍 盛丰](https://xn--iiq540h.com/) | 不验证邮箱<br>商店0元/月30G | 均速4M/s | [TG群](https://t.me/sfjsq1) |
+| [Best VPN](https://www.invitevp.com) | 商店0购永久20G | 兑换码：`xcfl`<br>均速6M/s | [TG群](https://t.me/joinchat/0-NOZlFrXJ42NzRh) |
 | [Bee VPN](https://bee.sulepay.com/) | 新户注册30天20G | 仅一个节点且`需要转换格式`<br>均速2.5M/s | [TG群](https://t.me/+wUYiCDeM-B04OGFh) |
 | [遥遥领先](https://free.346492.xyz/) | 商店0购10G/月 | `网站需挂梯子打开`<br>均速600Kb/s | [TG群](https://t.me/yylx_group) |
 | |
 | [GlaDOS](https://glados.network/) | 注册后每4个月送兑换码一月200G | `网站需挂梯子打开`<br>均速1.5m/s | [TG群](https://t.me/liangxinjc) |
+| [墙了个墙](https://www.qlgq.top/) | 新户注册7天888G | 均速1.6m/s | [TG群](https://t.me/qlgq0001) |
 | [大湾区机场](https://v2.quanstring.top/) | 新户注册7天100G | 均速2.6M/s | WeChat：yugangao001 |
 | [白蘑菇机场](https://baimoguyun.xyz/) | 新户注册7天25G | 均速1.5M/s | [TG群](https://t.me/baimoguyun668) |
 | [UU云](https://uuyun.one/) | 新户注册8天20G | 不验证邮箱<br>均速2.7M/s | [TG群](https://t.me/uuyun) |

@@ -27,7 +27,6 @@ https://smailpro.com/tool/temp-mail
 | 机场 | 流量 | 说明 | 防走丢 |
 |:-:|:-:|:-:|:-:|
 | [一键连](https://www.strongswans.net/) | 新户注册1年天1T<br>2024年后变为一月 | 均速3M/s | [TG群](https://t.me/yijianlianapp) |
-| [👍 超级机场](https://www.超级机场.com/) | 注册/商店0购100G/月 | 均速12M/s | [TG群](https://t.me/chaojijichang) |
 | [Helium Network](https://web.henet.uk) | 不限时100G | `网站需挂梯子打开`<br>均速2M/s | [TG群](https://t.me/helium_official) |
 | [SsPlane ETS](https://ets.ss-plane.com) | [临时邮箱注册](#临时邮箱)<br>不限时100G | `网站需挂梯子打开`<br>均速2M/s | [TG群](https://t.me/SsPlaneVPN) |
 | [咔啦咪](https://kalaa.me/) | 白嫖码 `kalaa.me` <br>商店0购100G/月 | 均速5M/s | [TG群](https://t.me/kalaamegp) |
@@ -38,7 +37,7 @@ https://smailpro.com/tool/temp-mail
 | [备用机场](https://jc.beiyong.top) | 商店优惠码0购50G/月 | 均速1M/s | [TG群](https://t.me/beiyongjichang) |
 | [盲盒.store](http://bb.盲盒.store/) | 新户注册50G/月 | 均速1.2M/s | [TG群](https://t.me/blindbox_new_group) |
 | |
-| [👍 盛丰](https://xn--iiq540h.com/) | 不验证邮箱<br>商店0元/月30G | 均速4M/s | [TG群](https://t.me/sfjsq1) |
+| [👍 盛丰/ 速音](https://xn--r93a47m.com/) | 不验证邮箱<br>商店0元/15天50G | 均速4M/s | [TG群](https://t.me/sfjsq1) |
 | [Best VPN](https://www.invitevp.com) | 商店0购永久20G | 兑换码：`xcfl`<br>均速6M/s | [TG群](https://t.me/joinchat/0-NOZlFrXJ42NzRh) |
 | [Bee VPN](https://bee.sulepay.com/) | 新户注册30天20G | 仅一个节点且`需要转换格式`<br>均速2.5M/s | [TG群](https://t.me/+wUYiCDeM-B04OGFh) |
 | [遥遥领先](https://free.346492.xyz/) | 商店0购10G/月 | `网站需挂梯子打开`<br>均速600Kb/s | [TG群](https://t.me/yylx_group) |
@@ -114,6 +113,7 @@ title:"Free Proxies"
 | [一元机场](https://一元机场.art/) | 12元/年500G/月 | - | [TG群](https://t.me/yyjc_channel)
 | [极速机场](https://极速机场.com) | 12元/年200G/月 | `网站需挂梯子打开` | [TG群](https://t.me/jisujichangpindao) |
 | [X机场](https://xjichang.buzz/) | 12元/年100G/月 | `网站需挂梯子打开` | [TG群](https://t.me/xjichang001) |
+| [超级机场](https://www.超级机场.com/) | 1元/月100G | `网站需挂梯子打开`<br>均速12M/s | [TG群](https://t.me/chaojijichang) |
 | [性价比机场](https://jichang.gitbook.io/) | 1元/月100G | - | [TG群](https://t.me/xingjiabijichang)
 | [甜品机场](https://甜品机场.com) | 1元/月500G | - | [TG群](https://t.me/TianPinJiChang) |
 | [小破梯](https://xpoti.com/) | 1元/月100G | - | [TG群](https://t.me/xpotich) |

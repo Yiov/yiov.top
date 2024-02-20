@@ -76,39 +76,42 @@
 ![](/appleid/appleid-09.png)
 
 
-好维特官网：[http://www.haoweichi.com/](http://www.haoweichi.com/)
+好维特官网：http://www.haoweichi.com/
+
+::: details 其他备用信息生成
+
+* 地址生成大全：http://www.shenfendaquan.com/
+
+* FakeNameGenerator：https://www.fakenamegenerator.com/
+:::
+
 
 ![](/appleid/appleid-10.png)
 
 
-::: details 备用信息生成
 
-* 地址生成大全：[http://www.shenfendaquan.com/](http://www.shenfendaquan.com/)
 
-* FakeNameGenerator：[https://www.fakenamegenerator.com/](https://www.fakenamegenerator.com/)
+
+这里很重要！！为了方便后续自己充值购买应用不扣税，选免税州！
+
+
+::: details 免税州税率参考
+
+免税州及城市参考：https://www.googlevoice.cn/us-5-tax-free-state/
+
+* 阿拉斯加州（Alaska），购物消费税：1.76%
+
+* 特拉华州（Delaware），购物消费税：0%
+
+* 蒙大拿州（Montana），购物消费税：0%
+
+* 新罕布什尔州（New Hampshire），购物消费税：0%，参观消费税：8%
+
+* 俄勒冈州（Oregon），购物消费税：0%，参观消费税：5%
 :::
 
 
-
-为了方便后续自己充值使用，免税州购买应用不扣税
-
-
-::: details 免税州
-* 阿拉斯加州（Alaska）
-
-* 特拉华州（Delaware）
-
-* 蒙大拿州（Montana）
-
-* 新罕布什尔州（New Hampshire）
-
-* 俄勒冈州（Oregon）
-:::
-
-免税州及城市参考：[https://www.googlevoice.cn/us-5-tax-free-state/](https://www.googlevoice.cn/us-5-tax-free-state/)
-
-
-参考资料，我用好维特，生成一个阿拉斯加，朱诺的地址
+参考资料，我用好维特，生成一个`蒙大拿州`的地址
 
 ![](/appleid/appleid-11.png)
 
@@ -187,15 +190,19 @@ OK了，现在在应用商店，下载你想要的APP即可
 
 购买完成后，打开应用商店 - 头像 - Redeem Gift Card - 底部输入兑换码
 
+
+
+![](/appleid/appleid-22.png)
+
+
+![](/appleid/appleid-23.png)
+
 ::: details 提示报错
 若提示：Error:This code has already been redeemed
 
 兑换码已经被用过了，找店家换
 :::
 
-![](/appleid/appleid-22.png)
-
-![](/appleid/appleid-23.png)
 
 
 
@@ -209,7 +216,7 @@ OK了，现在在应用商店，下载你想要的APP即可
 
 #### 2.填写信息页，付款方式没有无
 
-可以先去手机苹果商店登录一下账号，然后APP上选择付款方式无
+可以先去手机苹果商店登录一下账号，然后APP上选择付款方式`无`
 
 
 #### 3.登入苹果商店，提示没有网络

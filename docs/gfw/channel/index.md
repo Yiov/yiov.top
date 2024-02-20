@@ -1,6 +1,6 @@
 # 机场channel大全一览表
 
-> 更新时间：2024-1-2
+> 更新时间：2024-2-20
 
 
 
@@ -8,11 +8,7 @@
 
 请先下载对应的使用客户端 [科学上网工具及使用方法](../proxy/)
 
-* 临时邮箱
-
-https://www.emailnator.com/
-
-https://smailpro.com/tool/temp-mail
+然后在下方挑选中意的机场，点击机场名跳转注册
 
 
 ## 白嫖机场
@@ -21,7 +17,21 @@ https://smailpro.com/tool/temp-mail
 不保证机场主会调整，具体以注册后的情况为准
 :::
 
-👍 永久更新公益订阅：https://shz.al/PSXr
+::: details 👍 永久更新公益订阅
+点击链接进入后，复制任意线路到小火箭
+
+https://shz.al/cCNj
+:::
+
+
+::: details 临时邮箱
+没有邮箱号，这里管够
+
+https://www.emailnator.com/
+
+https://smailpro.com/tool/temp-mail
+
+:::
 
 
 | 机场 | 流量 | 说明 | 防走丢 |
@@ -47,7 +57,7 @@ https://smailpro.com/tool/temp-mail
 | [大湾区机场](https://v2.quanstring.top/) | 新户注册7天100G | 均速2.6M/s | WeChat：yugangao001 |
 | [白蘑菇机场](https://baimoguyun.xyz/) | 新户注册7天25G | 均速1.5M/s | [TG群](https://t.me/baimoguyun668) |
 | [UU云](https://uuyun.one/) | 新户注册8天20G | 不验证邮箱<br>均速2.7M/s | [TG群](https://t.me/uuyun) |
-| [Speedy](https://cloud.speedypro.xyz/) | 新户注册7天10G | `网站需挂梯子打开`均速1.2M/s | [TG群](https://t.me/speedyasia) |
+| [Speedy](https://cloud.speedypro.xyz/) | 新户注册7天10G | `网站需挂梯子打开`<br>均速1.2M/s | [TG群](https://t.me/speedyasia) |
 | [永动机](https://www.yongdong.xyz) | `不验证邮箱`<br>新户注册5天20G | 均速2.4M/s | [TG群](https://t.me/yongdongjijiaoliu) |
 | [唤境网络](https://www.huanjingwan.xyz/) | 不验证邮箱<br>无限注册3天15G | `网站需挂梯子打开` | [TG群](https://t.me/huanjingyyds) |
 | [小宝云](https://xbyun.xyz/) | 新户注册3天10G | 均速2.5M/s | [TG群](https://t.me/xiaobaiyunxyz) |

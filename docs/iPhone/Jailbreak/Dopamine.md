@@ -5,17 +5,17 @@ next: false
 
 # Dopamine多巴胺越狱及使用
 
-> 更新时间：2024-1-2
+> 更新时间：2024-2-24
 
 ## 简介
 
-最初名成为 [Fugu 15 Max](https://github.com/opa334/fugu15) ，后更名为 Dopamine，中文名 `多巴胺` ，是由 [@opa334](https://twitter.com/opa334dev) 开发的IOS 15越狱工具
+最初名成为 [Fugu 15 Max](https://github.com/opa334/fugu15) ，后更名为 [Dopamine](https://github.com/opa334/Dopamine)，中文名 `多巴胺` ，是由 [@opa334](https://twitter.com/opa334dev) 开发的IOS 15-16越狱工具
 
 ::: details XinaA15 IOS 15首个越狱工具
 
 首个IOS 15越狱，由国人 [@朱心浪](https://twitter.com/xina520) 独立开发，后发布了 [XinaA15](https://zhuxinlang.github.io/)
 
-* 适用：`A12-15 / iOS 15.0-15.1.1`
+* 适用：`A12-15 / iOS 15.0-15.4.1`
 
 * 功能：首次推出最强功能的 `临退模式` ，即可以临时退出越狱模式，以应对银行等app对越狱环境的检测
 
@@ -31,25 +31,34 @@ next: false
 
 
 
-官网：https://ellekit.space/dopamine/
+* 官网：https://ellekit.space/dopamine/
+
+* 仓库：https://github.com/opa334/Dopamine
+
+* 越狱源：https://opa334.github.io/
+
 
 ![](/Dopamine/Dopamine-01.png)
-
-::: tip 说明
-* 适用：`A12-15 M1 / iOS 15.0-15.4.1`
-
-* 发布：2023/4/20正式发布，并命名为 [Dopamine](https://github.com/opa334/Dopamine) (多巴胺)
-
-* 仓库：[https://github.com/opa334/Dopamine](https://github.com/opa334/Dopamine)
-
-* 越狱源：[https://opa334.github.io/](https://opa334.github.io/)
-:::
-
 
 
 
 ![](/Dopamine/Dopamine-02.png)
 
+
+
+
+
+
+## 适用范围
+
+> `A9-A16 M1-M2 / iOS 15.0-16.6.1`
+
+| 手机/系统| 6s-8系列 / X / SE<br>(A9-A11) | XS / XR / 11-12系列 / SE 2<br>(A12-A14) | 13-15系列 / SE 3<br>(A15-A16) |
+| :-: | :-: | :-: | :-: |
+| 15.0 - 16.5 | :heart: | :heart: | :heart: |
+| 16.5.1 | :heart: | :heart: | ✘ |
+| 16.6.1 | :heart: | ✘ | ✘ |
+| 16.7及以上 | ✘ | ✘ | ✘ |
 
 ::: warning 注意
 越狱为不完美越狱，即重启后恢复未越狱状态，需要重新越狱
@@ -57,15 +66,6 @@ next: false
 多巴胺为rootless，即无根越狱，无根目录权限，仅可读取系统文件
 :::
 
-
-
-
-## 适用范围
-
-| 手机/系统| XS系列 / XR / 11-14系列 / SE 2-3<br>(A12-A15) | 14 Pro系列 / 15系列<br>(A16) |
-| :-: | :-: | :-: |
-| 15.0-15.4.1 | :heart: | ✘ |
-| 15.5及以上 | ✘ | ✘ |
 
 
 ## 安装
@@ -84,6 +84,9 @@ next: false
 
 ![](/Dopamine/Dopamine-05.png)
 
+
+
+## 越狱
 
 点击底部 `越狱` 开始，选择包管理器，默认 Sileo
 
@@ -509,19 +512,15 @@ TG群：https://t.me/lanmaoios
 
 # Netskao 源
 
-源地址：https://repo.initnil.com
+源地址：https://repo.initnil.com（已闭源）
+
+镜像源：https://invalidunit.github.io/netskao-archive/
 
 * CCPower：电源增强插件
 
 * PullOver Pro：侧边分屏神器，c1d3r 开发 Netskao 重新编译
 
 * 其他：净化/去广告/增强插件
-
-* IPA下载：https://share.initnil.com/With_TorllStore
-
-* QQ及微信砸壳包：https://github.com/Netskao/iOS-DumpDecrypted-IPAs
-
-* 公众号Netskao：https://mp.weixin.qq.com/s/ieLeWpUNjbDL9JGKYhJcmA
 
 
 

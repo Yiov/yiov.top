@@ -31,8 +31,6 @@
 
 带 ⭐ 的是有教程的，点击即可跳转
 
-> 除 `Dopamine` 和 `XinaA15` 为 `rootless无根越狱`，其他均为 `rootful有根越狱`
-
 ::: details 关于有根和无根
 有根是 `读写` 系统权限，无根是`只读` 系统权限
 
@@ -41,10 +39,14 @@
 
 | 越狱工具| 系统范围 | 说明 |
 | :-: | :-: | :-: |
-| [⭐Dopamine](./Dopamine.md) | [A12 - A15 M1](#芯片与手机)<br>iOS 15.0 - 15.4.1 | [@opa334](https://twitter.com/opa334dev) 开发的IOS 15越狱工具，目前是主流 |
-| [XinaA15](https://apt.xina.vip/) | [A12 - A15 M1](#芯片与手机)<br>iOS 15.0 - 15.4.1 | 国人 [@朱心浪](https://twitter.com/xina520) 独立开发的首款IOS 15越狱工具 |
+| [⭐Dopamine](./Dopamine.md) | [A9 - A116 M1-M2](#芯片与手机)<br>iOS 15.0 - 16.6.1 | [@opa334](https://twitter.com/opa334dev) 开发的IOS 15无根越狱工具，目前是主流 |
+| [XinaA15](https://zhuxinlang.github.io/) | [A12 - A15 M1](#芯片与手机)<br>iOS 15.0 - 15.4.1 | 国人 [@朱心浪](https://twitter.com/xina520) 独立开发的首款IOS 15无根越狱工具 |
+| |
 | [Freya](https://github.com/pwned4ever/Freya15/releases) | [A9 - A11](#芯片与手机)<br>iOS 15.0 - 15.1 | 由 [@pwned4ever](https://twitter.com/shogunpwnd) 利用 `KFD` 漏洞开发的越狱工具，越狱后可以正常使用面容或指纹 |
+| [Cherimoya](https://polcom.de/) | [A8X - A11](#芯片与手机)<br>iOS 15.0 - 15.1.1 | 由 [@jailbreakmerebooted](https://github.com/jailbreakmerebooted/cherimoya) 开发的越狱工具，越狱后可以正常使用面容或指纹 |
 | [NekoJB](https://nekojb.hhls.xyz/) | [A9 - A11](#芯片与手机)<br>iOS 15.0 - 15.8 | 由 [@hahalosah](https://x.com/hahalosah/) 利用 `KFD` 漏洞开发的越狱工具，越狱后可以正常使用面容或指纹 |
+| [Meowbrek2](https://ios.cfw.guide/installing-meowbrek2/) | [A11以以下](#芯片与手机)<br>iOS 15.0 - 15.8.1 | 由 [@kok3shiDev](https://twitter.com/kok3shiDev) 开发的越狱工具，越狱后可以正常使用面容或指纹 |
+| [D3Tool](https://github.com/KpwnZ/Def1nit3lyN0tAJa1lbr3akTool/releases) | [A11及以下](#芯片与手机)<br>iOS 16.0 - 16.6.1 | 由 [@Ny4aa](https://twitter.com/Nyaaaaa_ovo) 利用 `KFD` 漏洞开发的越狱工具，越狱后可以正常使用面容或指纹，目前功能界面皆比较简陋 |
 | |
 | [Taurine](https://taurine.app/) | [A9 - A14](#芯片与手机)<br>iOS 14.0 - 14.8.1 | 俗称牛磺酸，是 [CoolStar(酷星)](https://twitter.com/CStar_OW) 主导开发的越狱工具，现在他已离开越狱社区，[参考我爱搞机网的教程](http://www.52ggi.cn/yynews/256.html) |
 | [⭐unc0ver](./unc0ver.md) | [A9 - A14](#芯片与手机)<br>iOS 11.0 - 14.3 /<br>[A12 - A13](#芯片与手机)<br>iOS 14.6 - 14.8 | 前 [Electra](https://coolstar.org/electra/) 成员的 [@pwn20wnd](https://twitter.com/Pwn20wnd) 开发的越狱工具，其在v7版本中添加了Fugu14的支持 |

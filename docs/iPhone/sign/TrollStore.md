@@ -76,14 +76,14 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 | 系统 / iPhone | 6-8系列 / SE / X<br>(A8-A11) | 11-15系列 / XR / XS / SE 2-3<br>(A12-A16)<br>(M1-M2) |
 | :-: | :-: | :-: |
-| [14.0](https://support.apple.com/zh-cn/HT211808) - 14.8.1 | checkra1n 越狱 | [TrollHelper arm64e](#arm64-arm64e) |
-| [15.0](https://support.apple.com/zh-cn/HT212788) - 15.4.1 | [TrollHelper arm64](#arm64-arm64e) | [TrollHelper arm64e](#arm64-arm64e) |
-| 15.5 - 15.6.1 | [TrollInstaller MDC](#trollinstaller-mdc) | [TrollHelper arm64e](#arm64-arm64e) |
-| 15.7 - 15.7.1 | [TrollInstaller MDC](#trollinstaller-mdc) | [TrollInstaller MDC](#trollinstaller-mdc) |
-| 15.7.2 - 15.8.1 | checkra1n 越狱 | [TrollMisaka](#trollmisaka) |
-| [16.0](https://support.apple.com/zh-cn/HT213407) - 16.1.2 | [TrollInstaller MDC](#trollinstaller-mdc) | [TrollInstaller MDC](#trollinstaller-mdc) |
-| 16.2 - 16.6.1 | checkra1n 越狱 | [TrollStar](#trollstar) /<br>[其他第三方安装](#其他第三方安装) |
-| 16.7 - 16.7.4 | ✘ | ✘ |
+| [14.0](https://support.apple.com/zh-cn/HT211808) - 14.8.1 | [TrollMisaka](#官方安装) | [TrollHelper arm64e](#官方安装) |
+| [15.0](https://support.apple.com/zh-cn/HT212788) - 15.4.1 | [TrollHelper arm64](#官方安装) | [TrollHelper arm64e](#官方安装) |
+| 15.5 - 15.6.1 | [TrollInstaller MDC](#官方安装) | [TrollHelper arm64e](#官方安装) |
+| 15.7 - 15.7.1 | [TrollInstaller MDC](#官方安装) | [TrollInstaller MDC](#官方安装) |
+| 15.7.2 - 15.8.1 | [TrollMisaka](#官方安装) | [TrollMisaka](#官方安装) |
+| [16.0](https://support.apple.com/zh-cn/HT213407) - 16.1.2 | [TrollInstaller MDC](#官方安装) | [TrollInstaller MDC](#官方安装) |
+| 16.2 - 16.6.1 | [TrollStar](#官方安装) | [TrollStar](#官方安装) /<br>[第三方安装](#第三方安装) |
+| 16.7 - 16.7.5 | ✘ | ✘ |
 | [17.0](https://support.apple.com/zh-cn/HT213781) | checkra1n 越狱 | 无安装方式 |
 | 17.0.1及以上 | ✘ | ✘ |
 
@@ -96,12 +96,14 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 ## 安装
 
+
+
 提供了 4+3 种安装方式，请参照 [适用范围](#适用范围) 选择
 
----
 
+### 官方安装
 
-### arm64/arm64e
+:::: details arm64/arm64e 安装方式
 
 > 教程仅适用于：[A8-A11](#适用范围)：`IOS 15.0 - 15.4.1`(arm64)
 > 
@@ -152,7 +154,7 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 安装完成，我们直接看 [巨魔界面介绍](#界面介绍)
 
 
----
+::::
 
 
 
@@ -160,7 +162,7 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 
 
-### TrollInstaller MDC
+:::: details TrollInstallerMDC 安装方式
 
 > 教程仅适用于：[A8-A11](#适用范围)：`IOS 15.5 - 15.6.1`
 > 
@@ -261,7 +263,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 安装完成，我们直接看 [巨魔界面介绍](#界面介绍)
 
----
+::::
 
 
 
@@ -274,8 +276,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 
 
-
-### TrollMisaka
+:::: details TrollMisaka 安装方式
 
 > 教程仅适用于：[A12-A16](#适用范围)：`iOS 15.7.2 - 15.8.1`
 
@@ -422,13 +423,16 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 安装完成，我们直接看 [巨魔界面介绍](#界面介绍)
 
 
-
----
-
+::::
 
 
-### TrollStar
 
+
+
+
+
+
+:::: details TrollStar 安装方式
 
 > 教程仅适用于：[A12-A16](#适用范围)：`iOS 16.2 - 16.6.1`
 
@@ -571,7 +575,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 安装完成，我们直接看 [巨魔界面介绍](#界面介绍)
 
 
----
+::::
 
 
 
@@ -584,7 +588,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 
 
-### 其他第三方安装
+### 第三方安装
 
 > 教程仅适用于：[A12-A16](#适用范围) `iOS 16.2 - 16.6.1`
 

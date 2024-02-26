@@ -5,7 +5,7 @@ next: false
 
 # Dopamine多巴胺越狱及使用
 
-> 更新时间：2024-2-24
+> 更新时间：2024-2-25
 
 ## 简介
 
@@ -733,6 +733,8 @@ TG群：https://t.me/lanmaoios
 * bfdecryptor：砸壳插件
 
 * CalcLog：计算器显示历史记录的插件
+
+* CoolCC Reborn：控制中心移除模块背景和添加边框的插件
 
 * FakeSignalBa：自定义运营商的插件
 

@@ -71,6 +71,7 @@ export default defineConfig({
               { text: '小米运动刷步教程', link: '/daily/xmsb/' },
               { text: '买房及房产证办理', link: '/daily/house/' },
               { text: '台州麻将玩法', link: '/daily/mahjong/' },
+              { text: '车厘子基础知识科普', link: '/daily/cherries' },
             ],
           },
           { text: '电脑相关', 

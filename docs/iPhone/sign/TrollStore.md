@@ -5,7 +5,7 @@ next: false
 
 # 巨魔助手安装及使用
 
-> 更新时间：2024-1-22
+> 更新时间：2024-2-24
 
 
 
@@ -1585,6 +1585,8 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 * [TrollSpeed：实时网速浮窗工具 丨 @Lessica](https://github.com/Lessica/TrollSpeed/releases) ⭐
 
 * [SecondHand：状态栏显示实时秒数 | @leminlimez](https://github.com/leminlimez/SecondHand/releases)
+
+* [ChargeLimiter：系统充电限制、过充保护 | @lich4](https://github.com/lich4/ChargeLimiter)
 
 * [Helium：悬浮显示日期/网速/设备温度/电池详细工具 丨 @LeminLimez](https://github.com/leminlimez/Helium/releases)
 

@@ -42,7 +42,7 @@
 
 * [Todesk远程开关电脑](../daily/todesk/)
 
-* [TV电视安装apk应用](../daily/tvapp/)
+* [电视TV的使用技巧](../daily/tvapp)
 
 * [VSCode安装步骤](../daily/VSCode/)
 

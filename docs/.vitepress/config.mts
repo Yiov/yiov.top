@@ -67,7 +67,7 @@ export default defineConfig({
             items: [
               { text: '待产包清单及入院指南', link: '/daily/bags-just-yet/' },
               { text: '1688母婴同源店', link: '/daily/1688/' },
-              { text: 'TV电视安装apk应用', link: '/daily/tvapp/' },
+              { text: '电视TV的使用技巧', link: '/daily/tvapp' },
               { text: '小米运动刷步教程', link: '/daily/xmsb/' },
               { text: '买房及房产证办理', link: '/daily/house/' },
               { text: '台州麻将玩法', link: '/daily/mahjong/' },

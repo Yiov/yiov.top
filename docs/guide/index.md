@@ -64,6 +64,9 @@
 
 * [车厘子基础知识科普](../daily/cherries)
 
+* [维生素基础知识](../daily/vitamin)
+
+
 
 
 ## 安卓相关

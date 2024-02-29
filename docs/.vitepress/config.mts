@@ -72,6 +72,7 @@ export default defineConfig({
               { text: '买房及房产证办理', link: '/daily/house/' },
               { text: '台州麻将玩法', link: '/daily/mahjong/' },
               { text: '车厘子基础知识科普', link: '/daily/cherries' },
+              { text: '维生素基础知识', link: '/daily/vitamin' },
             ],
           },
           { text: '电脑相关', 

@@ -5,7 +5,7 @@ next: false
 
 # 巨魔助手安装及使用
 
-> 更新时间：2024-2-24
+> 更新时间：2024-3-3
 
 
 
@@ -1454,9 +1454,18 @@ https://github.com/opa334/TrollStore/releases
 ### 屏蔽更新
 
 
-方法原自 [@赵楠](https://github.com/invalidunit) 大佬，安装tvOS16描述文件，屏蔽检测更新的红点
 
-浏览器打开：https://alexia.lol/noota16.mobileconfig
+首先打开手机设置 - 通用 - 日期与时间，关闭 `自动设置` 开关，将时间改为 `2023-12-14`
+
+然后，安装tvOS17描述文件
+
+Safari打开：https://static.itsnebula.net/apple/noota/17.mobileconfig
+
+::: details 进入链接浏览器警告了
+苹果官方拦截的，无视即可，点 `显示详细信息 - 访问此网站`
+
+注意：提示描述文件无效签名无效的问题，是你时间没改对
+:::
 
 ![](/TrollStore/TrollStore-26.png)
 
@@ -1684,7 +1693,7 @@ chmod 700 /var/tmp/com.apple.appstored
 
 * [iM 修改器：数据修改器](https://www.123pan.com/s/3LWcVv-r7zrh.html)
 
-* [Legizmo：低版系统配对高版本watchOS 系统 | @lunotecth11](https://www.123pan.com/s/3LWcVv-87zrh.html)
+* [Zomigle：Apple Watch配对神器，低版系统可配对高版本 | @HAHALOSAH](https://github.com/HAHALOSAH/Zomigle/releases)
 
 * [TrollNonce：固定G值 | @opa334](https://github.com/opa334/TrollNonce/releases)
 

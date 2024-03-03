@@ -5,7 +5,7 @@ next: false
 
 # Dopamine多巴胺越狱及使用
 
-> 更新时间：2024-2-25
+> 更新时间：2024-3-3
 
 ## 简介
 
@@ -194,6 +194,8 @@ Ellekit 是 Dopamine 越狱后必须安装的基板
 * Translomatic：快捷翻译，可配合Snapper 3使用
 
 * TrollStore Helper：巨魔助手，可永久免签安装ipa
+
+* Tinge：角标个性化颜色的插件(收费)
 
 * Uptime：控制中心显示开机后运行时间的插件
 

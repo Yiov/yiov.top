@@ -66,6 +66,7 @@
 
 * [维生素基础知识](../daily/vitamin)
 
+* [血常规化验单解读](../daily/blood)
 
 
 

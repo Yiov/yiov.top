@@ -73,6 +73,7 @@ export default defineConfig({
               { text: '台州麻将玩法', link: '/daily/mahjong/' },
               { text: '车厘子基础知识科普', link: '/daily/cherries' },
               { text: '维生素基础知识', link: '/daily/vitamin' },
+              { text: '血常规化验单解读', link: '/daily/blood' },
             ],
           },
           { text: '电脑相关', 

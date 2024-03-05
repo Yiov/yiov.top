@@ -32,7 +32,7 @@ https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
 ::: tip 说明
 主要用于普及订阅知识，机场仅供参考，后续有条件换好点的
 
-[点我查看白嫖机场](../channel/)
+[点我查看白嫖机场](../channel)
 :::
 
 免费机场：iKUUU，注册就有50G

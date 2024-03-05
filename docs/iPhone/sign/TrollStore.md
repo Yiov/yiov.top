@@ -122,7 +122,7 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 安装的是 `GTA Car Tracker` ，打开点安装 `Install Trollstore`，自动注销后，回到桌面就发现装完成了
 
 ::: details 无法安装报错 Error
-需要翻墙，[科学上网工具及使用方法](../../gfw/channel/)
+需要翻墙，[科学上网工具及使用方法](../../gfw/channel)
 :::
 
 
@@ -234,7 +234,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 打开 `提示` 点 `Install TrollStore` 安装巨魔即可
 
 ::: details 无法安装报错 Error
-需要翻墙，[科学上网工具及使用方法](../../gfw/channel/)
+需要翻墙，[科学上网工具及使用方法](../../gfw/channel)
 :::
 
 ![](/TrollStore/MDC/MDC-13.png)

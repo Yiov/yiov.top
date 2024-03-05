@@ -149,9 +149,9 @@
 美区苹果商店，下载安装 [小火箭 shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118) 来演示
 
 ::: details 关于小火箭安装方式
-* 付费方式：需 [注册美区Apple ID](../../iPhone/Apple_ID) 且购买后下载使用
+* 付费方式：需 [注册美区Apple ID](../iPhone/Apple_ID.md) 且购买后下载使用
 
-* 免费方式1：安装 [巨魔助手](../../iPhone/sign/TrollStore.md) ，下载 [小火箭巨魔专用版](https://pan.liuchengxi.com/%E5%9B%BD%E5%A4%96%E5%BA%94%E7%94%A8/Shadowrocket) ，用巨魔安装使用
+* 免费方式1：安装 [巨魔助手](../iPhone/sign/TrollStore.md) ，下载 [小火箭巨魔专用版](https://pan.liuchengxi.com/%E5%9B%BD%E5%A4%96%E5%BA%94%E7%94%A8/Shadowrocket) ，用巨魔安装使用
 
 * 免费方式2：借别人购买过小火箭的账号，登录下载
 :::
@@ -161,7 +161,7 @@
 ::: tip 说明
 以下截图机场仅为演示
 
-更多免费好用机场，请查看 [机场channel大全一览表](../channel/)
+更多免费好用机场，请查看 [机场channel大全一览表](./channel.md)
 :::
 
 ![](/proxy/proxy-01.png)
@@ -209,7 +209,7 @@
 ::: tip 说明
 以下截图机场仅为演示
 
-更多免费好用机场，请查看 [机场channel大全一览表](../channel/)
+更多免费好用机场，请查看 [机场channel大全一览表](./channel.md)
 :::
 
 

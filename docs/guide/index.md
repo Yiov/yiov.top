@@ -6,11 +6,11 @@
 
 * [圈X上手教程](../gfw/quantumultX/)
 
-* [BoxJS的搭建](../gfw/boxjs/)
+* [BoxJS的安装](../gfw/boxjs)
 
-* [科学上网工具及使用方法](../gfw/proxy/)
+* [科学上网工具及使用](../gfw/proxy)
 
-* [机场channel大全一览表](../gfw/channel/)
+* [机场channel大全一览表](../gfw/channel)
 
 
 

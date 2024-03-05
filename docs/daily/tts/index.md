@@ -32,7 +32,7 @@
 [https://chrome.google.com/webstore/category/extensions](https://chrome.google.com/webstore/category/extensions)
 
 ::: warning 注意
-需 [科学上网](../../gfw/proxy/) 才可打开谷歌插件商店
+需 [科学上网](../../gfw/proxy) 才可打开谷歌插件商店
 
 此插件每月限6次
 :::

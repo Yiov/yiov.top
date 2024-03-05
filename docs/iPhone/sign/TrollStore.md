@@ -372,7 +372,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 漏洞利用成功后，下方显示 Kopen Success!
 
-然后挂上梯子 [科学上网](../../gfw/proxy/) ，不挂无法安装！
+然后挂上梯子 [科学上网](../../gfw/proxy) ，不挂无法安装！
 
 ::: details kopen未显示成功
 多点击几次kopen，或者换工具
@@ -392,7 +392,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 
 
-再次挂上梯子 [科学上网](../../gfw/proxy/) ，安装巨魔
+再次挂上梯子 [科学上网](../../gfw/proxy) ，安装巨魔
 
 ![](/TrollStore/TrollMisaka/TrollMisaka-19.png)
 
@@ -531,7 +531,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 ![](/TrollStore/TrollStar/TrollStar-15.png)
 
-挂上梯子 [科学上网](../../gfw/proxy/) ，注入巨魔安装器
+挂上梯子 [科学上网](../../gfw/proxy) ，注入巨魔安装器
 
 ![](/TrollStore/TrollStar/TrollStar-16.png)
 
@@ -539,7 +539,7 @@ TrollInstallerMDC就安装成功了，但是还打不开，要信任一下
 
 ![](/TrollStore/TrollStar/TrollStar-17.png)
 
-打开提示app，挂上梯子 [科学上网](../../gfw/proxy/) ，安装巨魔
+打开提示app，挂上梯子 [科学上网](../../gfw/proxy) ，安装巨魔
 
 ::: details 提示没有变化或闪退
 再试一次，或者换其他工具
@@ -747,7 +747,7 @@ iOS 16.5.1 - 16.6.1 必须选择 `landa`
 
 
 ::: details 巨魔安装报错
-请使用 [科学上网](../../gfw/proxy/) 工具，挂梯子再安装
+请使用 [科学上网](../../gfw/proxy) 工具，挂梯子再安装
 :::
 
 
@@ -867,7 +867,7 @@ Picasso就安装成功了，但是还打不开，要信任一下
 再次打开 Picasso ，登录账号
 
 ::: tip 说明书
-老外的App，记得全程 [科学上网](../../gfw/proxy/) ，我使用的是小火箭
+老外的App，记得全程 [科学上网](../../gfw/proxy) ，我使用的是小火箭
 :::
 
 
@@ -904,7 +904,7 @@ Picasso就安装成功了，但是还打不开，要信任一下
 :::
 
 ::: details 巨魔安装报错
-请使用 [科学上网](../../gfw/proxy/) 工具，挂梯子再安装
+请使用 [科学上网](../../gfw/proxy) 工具，挂梯子再安装
 :::
 
 ![](/TrollStore/picasso/picasso-17.png)
@@ -971,7 +971,7 @@ misaka是一款利用MDC/KFD漏洞开发的工具，且已上线了巨魔的辅�
 
 * iPad M1/M2: http://is.gd/34306misakaM1
 
-注意：需要使用 [科学上网](../../gfw/proxy/) ，才可以打开
+注意：需要使用 [科学上网](../../gfw/proxy) ，才可以打开
 :::
 
 
@@ -1054,7 +1054,7 @@ misaka就安装成功了，但是还打不开，要信任一下
 
 ![](/TrollStore/misaka/misaka-13.png)
 
-这时我们需要使用 [科学上网](../../gfw/proxy/) ，我用小火箭，机场用的超级机场
+这时我们需要使用 [科学上网](../../gfw/proxy) ，我用小火箭，机场用的超级机场
 
 ![](/TrollStore/misaka/misaka-14.png)
 
@@ -1171,7 +1171,7 @@ safari下载的文件路径：icloud云盘-下载
 :::
 
 ::: details 巨魔安装报错
-请使用 [科学上网](../../gfw/proxy/) 工具，挂梯子再安装
+请使用 [科学上网](../../gfw/proxy) 工具，挂梯子再安装
 :::
 
 ![](/TrollStore/misaka/misaka-27.png)

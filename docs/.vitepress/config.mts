@@ -53,9 +53,9 @@ export default defineConfig({
         text: '科学上网',
         items: [
           { text: '圈X上手教程', link: '/gfw/quantumultX/' },
-          { text: 'BoxJS的搭建', link: '/gfw/boxjs/' },
-          { text: '科学上网工具及使用方法', link: '/gfw/proxy/' },
-          { text: '机场channel大全一览表', link: '/gfw/channel/' },
+          { text: 'BoxJS的安装', link: '/gfw/boxjs' },
+          { text: '科学上网工具及使用', link: '/gfw/proxy' },
+          { text: '机场channel大全一览表', link: '/gfw/channel' },
         ],
       },
       {

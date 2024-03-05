@@ -1,6 +1,6 @@
 # 科学上网工具及使用
 
-> 更新时间：2024-1-2
+> 更新时间：2024-3-5
 
 
 ## 简介
@@ -9,10 +9,6 @@
 
 不推荐使用任何VPN以及破解的VPN，因为会被监管审计，小心说错话被请去喝茶
 
-* 苹果推荐：[小火箭](#iphone)
-
-* 安卓推荐：[Clash](#android)
-
 
 
 ## 工具
@@ -20,12 +16,16 @@
 请根据自己的设备，下载相应的客户端
 
 ::: tip 说明
-有⭐的有教程，点击即跳转
+苹果美区应用需要美区苹果账号，没有可以 [自行注册](../iPhone/Apple_ID.md) 一个
+
+* 苹果推荐：[小火箭](#iphone)
+
+* 安卓推荐：[Clash](#android)
 :::
 
 ### iPhone
 
-* [⭐Shadowrocket·小火箭：美区$5.99](#苹果使用)
+* [Shadowrocket·小火箭：美区$5.99 点我查看教程⭐](#苹果使用)
 
 * [QuantumultX·圈X：美区$7.99](https://apps.apple.com/us/app/quantumult-x/id1443988620)
 
@@ -55,7 +55,7 @@
 ### Android
 
 
-* [⭐Clash：小猫咪，作者@Kr328关库的备份](#安卓使用)
+* [Clash：小猫咪，作者@Kr328关库的备份 点我查看教程⭐](#安卓使用)
 
 * [V2rayN](https://github.com/2dust/v2rayNG/releases)
 
@@ -141,7 +141,7 @@
 
 本次仅演示手机端的使用
 
----
+
 
 ### 苹果使用
 
@@ -151,7 +151,7 @@
 ::: details 关于小火箭安装方式
 * 付费方式：需 [注册美区Apple ID](../../iPhone/Apple_ID) 且购买后下载使用
 
-* 免费方式1：安装 [巨魔助手](../../iPhone/sign/TrollStore.md) ，下载 [小火箭巨魔专用版](https://app.liuchengxi.com/app/243.html) ，用巨魔安装使用
+* 免费方式1：安装 [巨魔助手](../../iPhone/sign/TrollStore.md) ，下载 [小火箭巨魔专用版](https://pan.liuchengxi.com/%E5%9B%BD%E5%A4%96%E5%BA%94%E7%94%A8/Shadowrocket) ，用巨魔安装使用
 
 * 免费方式2：借别人购买过小火箭的账号，登录下载
 :::
@@ -164,17 +164,17 @@
 更多免费好用机场，请查看 [机场channel大全一览表](../channel/)
 :::
 
-![](./proxy-01.png)
+![](/proxy/proxy-01.png)
 
 选择对应的工具，我这里选 `shadowrocket`，跳转后点右上角保存
 
 ::: details 没有跳转到小火箭
 点复制订阅地址，打开小火箭，右上角+号添加保存即可
 
-![](./proxy-03.png)
+![](/proxy/proxy-03.png)
 :::
 
-![](./proxy-02.png)
+![](/proxy/proxy-02.png)
 
 设置 - 延迟测试方法，改成 `CONNECT`
 
@@ -182,11 +182,11 @@
 这一步虽然不是非必要的，但是是一个查看网络延迟的重要参考
 :::
 
-![](./proxy-04.png)
+![](/proxy/proxy-04.png)
 
-选择延迟低的，打开开关，上 [谷歌](https://www.google.com/) 看看是否成功
+点击 `连通性测试` 选择延迟低的，打开开关，上 [谷歌](https://www.google.com/) 看看是否成功
 
-![](./proxy-05.png)
+![](/proxy/proxy-05.png)
 
 
 ::: details 关于节点
@@ -213,15 +213,15 @@
 :::
 
 
-![](./proxy-06.png)
+![](/proxy/proxy-06.png)
 
 自动跳转过来保存即可，不能跳转的，手动复制填写，返回启动
 
-![](./proxy-07.png)
+![](/proxy/proxy-07.png)
 
 访问谷歌，成功即可，打不开说明节点不行，换机场
 
-![](./proxy-08.png)
+![](/proxy/proxy-08.png)
 
 
 

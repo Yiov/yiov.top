@@ -138,7 +138,7 @@ CVE-2023-41974：Félix Poulin-Bélanger
 
 * iPad M1/M2: http://is.gd/34306misakaM1
 
-注意：需要使用 [科学上网](../gfw/proxy/) ，才可以打开
+注意：需要使用 [科学上网](../gfw/proxy) ，才可以打开
 :::
 
 
@@ -221,7 +221,7 @@ misaka就安装成功了，但是还打不开，要信任一下
 
 ![](/kfd/misaka-13.png)
 
-这时我们需要使用 [科学上网](../gfw/proxy/) ，我用小火箭，机场用的超级机场
+这时我们需要使用 [科学上网](../gfw/proxy) ，我用小火箭，机场用的超级机场
 
 ![](/kfd/misaka-14.png)
 

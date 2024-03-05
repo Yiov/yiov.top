@@ -45,7 +45,7 @@ https://smailpro.com/tool/temp-mail
 | [红杏](https://红杏.co) | 新户注册30天100G | 均速5M/s | [TG群](https://t.me/Redapricot_VPN) |
 | [麻雀加速器](https://v.spwvpn.com/) | 新户注册1000G<br>可续 | 均速4M/s | [TG群](https://t.me/spwvpn) |
 | |
-| [👍 iKuuu](https://ikuuu.me/) | 不限时50G | 均速4.5M/s | [备用](https://ikuuu.boo/) |
+| [👍 iKuuu](https://ikuuu.pw/) | 不限时50G | 均速4.5M/s | [备用](https://ikuuu.boo/) |
 | [备用机场](https://jc.beiyong.top) | 商店优惠码0购50G/月 | 均速1M/s | [TG群](https://t.me/beiyongjichang) |
 | [盲盒.store](http://bb.盲盒.store/) | 新户注册50G/月 | 均速1.2M/s | [TG群](https://t.me/blindbox_new_group) |
 | |

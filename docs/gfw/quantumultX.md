@@ -1,87 +1,88 @@
 # 圈X上手教程
 
-::: warning 更新时间
-最近更新：2022-1-25
+> 更新时间：重新编辑中...
+
+## 简介
+
+Quantumult X是一款强大的网络工具，可以用于代理、规则分流、脚本运行、抓包等，简称圈X
+
+新版圈X界面更新了UI，在 [圈X不完全教程的基础](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917) 上进行了补充
+
+
+![](/quantumultX/quantumultX.png)
+
+
+## 安装
+
+你需要注册一个 [美区Apple ID](../iPhone/Apple_ID.md)，充值并在付费购买它，最后 [下载安装](https://apps.apple.com/us/app/quantumult-x/id1443988620)
+
+::: warning ！千万不要买共享账号
+开发者做了限制，共享号下载的不能使用
 :::
 
-参考教程：
-
-https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917
-
-
-![](./quantumultX.png)
-
-
-
-
-
-## 1.主界面说明
-
+## 主界面
 
 主界面如下图都一一注明了，基本操作都是点按/长按/左滑/右滑动
 
-![](./quantumultX-1.png)
+![](/quantumultX/quantumultX-1.png)
 
 
 
-## 2.连通圈X
+## 基础使用
 
+### 科学上网
 
-圈X的使用全程需要扶梯子，就顺道演示下如何用机场翻墙
+使用圈X必须全程翻墙，不然就用不了
+
+本次演示使用免费机场 `iKUUU` ，注册就永久50G
 
 ::: tip 说明
-主要用于普及订阅知识，机场仅供参考，后续有条件换好点的
-
-[点我查看白嫖机场](../channel)
+主要用于普及订阅知识，后续有条件换好点的 [点我查看白嫖机场](../channel)
 :::
 
-免费机场：iKUUU，注册就有50G
+官网：https://ikuuu.pw/
 
-官网：https://ikuuu.me/
-
-![](./IKUUU.png)
+![](/quantumultX/IKUUU.png)
 
 
 下拉，找到V2Ray，点击会复制到剪切板
 
-![](./IKUUU-1.png)
+![](/quantumultX/IKUUU-1.png)
 
 
 因为圈X不直接支持这种格式，我们用订阅转化一下
 
 官网：[https://dove.589669.xyz/web](https://dove.589669.xyz/web)
 
-![](./quantumultX-2.png)
+![](/quantumultX/quantumultX-2.png)
 
 
 
 然后来到我们的圈X，点右下角风车-节点-引用（订阅）
 
-![](./quantumultX-3.png)
+![](/quantumultX/quantumultX-3.png)
 
 
 标签随便，资源路径填我们 `刚转换的订阅链接` ，右上角保存即可
 
 
-![](./quantumultX-4.png)
+![](/quantumultX/quantumultX-4.png)
 
 
 回到主界面，就能看到我们添加成功的节点了
 
 
+---
 
 
-
-
-
-## 3.资源解析器
+### 资源解析器
 
 
 有了资源解析器的加持，以后都不会用到转换链接了，它会自动本地处理转换完成
 
 随便选一个速度可以的节点，打开圈X开关，点风车-下拉到底部，配置文件-编辑
 
-![](./quantumultX-5.png)
+![](/quantumultX/quantumultX-5.png)
 
 
 在 `[general]` 下面粘贴资源解析器代码，右上角保存
@@ -94,14 +95,14 @@ resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/maste
 资源解析器来源：[https://github.com/KOP-XIAO/QuantumultX/](https://github.com/KOP-XIAO/QuantumultX/)
 :::
 
-![](./quantumultX-6.png)
+![](/quantumultX/quantumultX-6.png)
 
 
 
 
 风车-节点-引用（订阅）-资源解析器的下方，有灰色介绍字体就说明成功了
 
-![](./quantumultX-7.png)
+![](/quantumultX/quantumultX-7.png)
 
 
 只要是导入节点，都要开启开关，否则导入失败
@@ -110,7 +111,7 @@ resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/maste
 
 
 
-## 4.节点
+## 节点
 
 
 Quantumult X共支持5种类型的格式：SS，SSR，VMess，HTTP(s)，Trojan
@@ -133,18 +134,18 @@ URI：支持ss、ssr以及圈x格式的vmess/https/trojan的节点
 引用（订阅）：支持ss、ssr订阅，以及圈X格式的vmess/https/trojan的订阅
 :::
 
-![](./quantumultX-8.png)
+![](/quantumultX/quantumultX-8.png)
 
 
 自己找好用的机场或者免费分享节点的tg群都可以，演示一遍，粘贴订阅链接-开启资源解析器-保存
 
 
-![](./quantumultX-9.png)
+![](/quantumultX/quantumultX-9.png)
 
 
 
 
-## 5.分流
+## 分流
 
 相对复杂的知识，涉及到分流规则和策略组
 
@@ -156,7 +157,7 @@ URI：支持ss、ssr以及圈x格式的vmess/https/trojan的节点
 
 
 
-### 5.1分流规则
+### 分流规则
 
 * 一次添加一个规则，对应配置文件中的 [**filter_local**] 模块
 
@@ -167,7 +168,7 @@ URI：支持ss、ssr以及圈x格式的vmess/https/trojan的节点
 > 引用（订阅）：灵活更细分，格式：*.list
 
 
-![](./quantumultX-10.png)
+![](/quantumultX/quantumultX-10.png)
 
 
 
@@ -175,14 +176,14 @@ URI：支持ss、ssr以及圈x格式的vmess/https/trojan的节点
 
 [https://github.com/DivineEngine/Profiles/tree/master/Quantumult/Filter](https://github.com/DivineEngine/Profiles/tree/master/Quantumult/Filter)
 
-![](./rule-1.png)
+![](/quantumultX/rule-1.png)
 
-![](./rule-2.png)
+![](/quantumultX/rule-2.png)
 
 
 获取到list链接，粘贴到引用里即可
 
-![](./quantumultX-11.png)
+![](/quantumultX/quantumultX-11.png)
 
 
 更多的规则，请自己挨个导入，另外在配置文件中可使用 force-policy 来强制使用策略偏好,如
@@ -196,7 +197,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter
 
 
 
-### 5.2策略组
+### 策略组
 
 策略组需要配合分流规则使用，可包含多个节点和策略组，对应配置文件中的 `[policy]` 模块
 
@@ -221,17 +222,17 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter
 
 风车-分流-引用，添加后主界面的节点变成了策略组的图标
 
-![](./quantumultX-12.png)
+![](/quantumultX/quantumultX-12.png)
 
 
 长按这个策略组-编辑，进入组查看，根据需要添加，访问苹果走哪些节点
 
-![](./quantumultX-13.png)
+![](/quantumultX/quantumultX-13.png)
 
 
 
 
-### 5.3策略组图标
+### 策略组图标
 
 主要是美化作用，喜欢折腾的可以弄，否则无视
 
@@ -267,7 +268,7 @@ static=YouTube,  节点1, 节点2 , 策略组1 , 策略组2 , img-url= https://r
 
 
 
-### 5.4小白/懒人配置
+### 小白/懒人配置
 
 深度理解了分流规则和策略组就可以自己写规则了，反正我不会，我选择小白配置
 
@@ -301,13 +302,13 @@ static=YouTube,  节点1, 节点2 , 策略组1 , 策略组2 , img-url= https://r
 
 风车-配置文件-下载，粘贴链接保存
 
-![](./quantumultX-14.png)
+![](/quantumultX/quantumultX-14.png)
 
 这里就替换了自己原先的配置文件了，主界面也清空了！
 
 我们重新把订阅节点添加进来，好使用
 
-![](./quantumultX-15.png)
+![](/quantumultX/quantumultX-15.png)
 
 
 
@@ -319,18 +320,18 @@ static=YouTube,  节点1, 节点2 , 策略组1 , 策略组2 , img-url= https://r
 
 安装完成后，我们导入订阅节点，打开圈X开关，全部更新
 
-![](./quantumultX-16.png)
+![](/quantumultX/quantumultX-16.png)
 
 
 我们开启分流规则，就可以愉快的使用了
 
-![](./quantumultX-17.png)
+![](/quantumultX/quantumultX-17.png)
 
 
 
 
 
-## 6.重写和Mitm
+## 重写和Mitm
 
 * 添加：本地重写，对应配置文件中的[**rewrite_local**]模块
 
@@ -339,41 +340,41 @@ static=YouTube,  节点1, 节点2 , 策略组1 , 策略组2 , img-url= https://r
 这是很常用的功能了，去广告跑脚本这些
 
 
-![](./quantumultX-18.png)
+![](/quantumultX/quantumultX-18.png)
 
 
 
 
-### 6.1 安装证书
+### 安装证书
 
 
 打开 `重写` 和 `MitM` 开关，并生成证书
 
-![](./quantumultX-19.png)
+![](/quantumultX/quantumultX-19.png)
 
 
 然后点配置证书-跳转浏览器 允许
 
-![](./quantumultX-20.png)
+![](/quantumultX/quantumultX-20.png)
 
 
 设置-通用-描述文件与设备管理，找到圈X-安装
 
-![](./quantumultX-21.png)
+![](/quantumultX/quantumultX-21.png)
 
-![](./quantumultX-22.png)
+![](/quantumultX/quantumultX-22.png)
 
 
 设置-通用-关于本机-证书信任设置
 
-![](./quantumultX-23.png)
+![](/quantumultX/quantumultX-23.png)
 
 
 到这里，就完成了证书的安装
 
 
 
-### 6.2 去广告的演示
+### 去广告的演示
 
 
 其实小白/懒人配置里其实都已经集成了，我这里演示一下其他大佬的订阅怎么用
@@ -383,7 +384,7 @@ static=YouTube,  节点1, 节点2 , 策略组1 , 策略组2 , img-url= https://r
 
 风车-配置文件 编辑，我们来这里粘贴
 
-![](./quantumultX-24.png)
+![](/quantumultX/quantumultX-24.png)
 
 
 右上角跳转到 远程分流 `[filter_remote]` 添加，保存
@@ -398,12 +399,12 @@ http://limbopro.xyz/Adblock4limbo.list, tag=毒奶特供, force-policy=reject, e
 http://limbopro.xyz/Adblock4limbo.conf, tag=毒奶特供, enabled=true
 ```
 
-![](./quantumultX-25.png)
+![](/quantumultX/quantumultX-25.png)
 
 
 这样在重写界面，我们就能看到毒奶的脚本了
 
-![](./quantumultX-26.png)
+![](/quantumultX/quantumultX-26.png)
 
 ::: tip 说明
 其他规则请参照脚本作者说明
@@ -411,15 +412,15 @@ http://limbopro.xyz/Adblock4limbo.conf, tag=毒奶特供, enabled=true
 
 
 
-## 7.工具&分析
+## 工具&分析
 
 这个就是我们常见的用来跑js脚本
 
 
-![](./quantumultX-27.png)
+![](/quantumultX/quantumultX-27.png)
 
 
-### 7.1 单脚本任务
+### 单脚本任务
 
 格式是 *.js，单脚本运行，以野比大佬 @NobyDa 的脚本为例
 
@@ -429,13 +430,13 @@ https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBon
 
 我们在浏览器打开这个脚本，根据要求在 `task_local` 、 `rewrite_local` 和 `mitm` 添加，然后保存
 
-![](./quantumultX-28.png)
+![](/quantumultX/quantumultX-28.png)
 
 ::: warning 注意
 注：如果这里已经有hostname=了，就只复制主机名，添加在后面，用逗号隔开
 :::
 
-![](./quantumultX-29.png)
+![](/quantumultX/quantumultX-29.png)
 
 
 脚本里说打开网页获取CK，登录一次账号后再粘贴进入一次，即可获取
@@ -443,21 +444,21 @@ https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBon
 ```
 https://home.m.jd.com/myJd/newhome.action
 ```
-![](./quantumultX-30.png)
+![](/quantumultX/quantumultX-30.png)
 
 
 我们来运行看看，脚本往右滑，运行，查看
 
-![](./quantumultX-31.png)
+![](/quantumultX/quantumultX-31.png)
 
 
 顺便讲一下界面
 
-![](./quantumultX-32.png)
+![](/quantumultX/quantumultX-32.png)
 
 
 
-### 7.2 多脚本任务
+### 多脚本任务
 
 格式是 `*.json` ，有些大佬已经写好了，我们直接拉仓库
 
@@ -468,7 +469,7 @@ https://home.m.jd.com/myJd/newhome.action
 这里一定要先加系统的，后面才能加其他大佬的
 :::
 
-![](./quantumultX-33.png)
+![](/quantumultX/quantumultX-33.png)
 
 
 野比大佬  [@NobyDa](https://github.com/NobyDa) 我又来了
@@ -477,30 +478,30 @@ https://home.m.jd.com/myJd/newhome.action
 https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 ```
 
-![](./quantumultX-34.png)
+![](/quantumultX/quantumultX-34.png)
 
 
 这样我们就添加成功了，其他脚本可以按需添加。添加后再任务栏，右滑查看脚本，如何获取数据即可
 
 
-![](./quantumultX-35.png)
+![](/quantumultX/quantumultX-35.png)
 
 
 
 有些多账号管理的可以用boxjs，最后说一下Cron表达式吧，看图，还不懂就度娘吧
 
-![](./quantumultX-36.png)
+![](/quantumultX/quantumultX-36.png)
 
 
 
 
-## 8.配置文件及设置
+## 配置文件及设置
 
 终于最后了，好家伙我真累了
 
 这里没啥好说的了，已经来来回回接触它几次了，看一下吧
 
-![](./quantumultX-37.png)
+![](/quantumultX/quantumultX-37.png)
 
 
 就是圈X的核心配置文件了，关于其他设置里，开不开启开启iCloud，看个人喜好吧
@@ -513,7 +514,7 @@ https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 本地使用也可用 `Working Copy` 软件Fetch脚本，前提在我的iphone里建一个文件夹
 :::
 
-![](./quantumultX-37.png)
+![](/quantumultX/quantumultX-37.png)
 
 
 篇幅真的长，上手还是有点门槛的！收工！
@@ -538,4 +539,4 @@ https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 
 * [@NobyDa](https://github.com/NobyDa)「野比大佬」
 
-* 查看流媒体解锁：[https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/UI-Action.json](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/UI-Action.json)
+* [查看流媒体解锁](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/UI-Action.json)

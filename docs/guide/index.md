@@ -4,7 +4,7 @@
 
 ## 科学上网
 
-* [圈X上手教程](../gfw/quantumultX/)
+* [圈X上手教程](../gfw/quantumultX)
 
 * [BoxJS的安装](../gfw/boxjs)
 

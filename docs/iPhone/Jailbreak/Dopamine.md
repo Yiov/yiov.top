@@ -669,6 +669,14 @@ TG群：https://t.me/lanmaoios
 
 
 
+# Skitty 源
+
+源地址：https://skitty.xyz/repo/
+
+* Sushi：一款歌曲变化时横幅提醒的插件
+
+
+
 
 # Spark 源
 

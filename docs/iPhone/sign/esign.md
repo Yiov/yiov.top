@@ -5,7 +5,7 @@ next: false
 
 # 轻松签安装及使用
 
-> 更新时间：2024-2-24
+> 更新时间：2024-3-9
 
 
 ## 简介
@@ -160,6 +160,12 @@ IOS 16及以上的手机不支持，官网还没有更新
 
 ![](/esign/esign-207.png)
 
+::: details 提示：修改失败？
+多次尝试后，依旧无法安装
+
+请参考，[轻松签+ 安装不上的解决办法 (前提：有巨魔)](#安装)
+:::
+
 再次打开 提示 App，就注入成功了，安装轻松签
 
 ::: details 提示打不开，闪退
@@ -172,7 +178,11 @@ IOS 16及以上的手机不支持，官网还没有更新
 
 ![](/esign/esign-209.png)
 
-你也可以在轻松签+，永久安装配置中，安装持久性助手，也可以不弄
+你也可以在轻松签+ - 永久安装配置中，安装持久性助手和更新
+
+::: tip 建议
+持久性助手不要选择tips，以免和巨魔同样造成冲突白苹果了
+:::
 
 ![](/esign/esign-210.png)
 
@@ -189,14 +199,70 @@ IOS 16及以上的手机不支持，官网还没有更新
 
 
 
+:::: details 轻松签+ 安装不上的解决办法 (前提：有巨魔)
+
+那我们只能通过安装轻松签+本体，然后修改权限即可
+
+下载 轻松签+_5.0：[https://www.mediafire.com/file/hu43y55914bmtwx/](https://www.mediafire.com/file/hu43y55914bmtwx/%25E8%25BD%25BB%25E6%259D%25BE%25E7%25AD%25BE%252B_5.0.0.ipa/file)
+
+::: tip 说明
+以上的版本好像不能改了，可以安装5.0版本后自行升级
+:::
+
+![](/esign/esign-212.png)
+
+下载 - 点击 `轻松签+_5.0`
+
+![](/esign/esign-213.png)
+
+分享到巨魔安装
+
+![](/esign/esign-214.png)
+
+安装好了，先别急着打开
+
+同样的方式安装Filza文件管理器：[https://www.mediafire.com/file/jwcsx875fmz9kep/](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
+
+![](/esign/esign-215.png)
+
+进入 `Filza` 目录 `/var`
+
+![](/esign/esign-216.png)
+
+`Bundle` - `Application`
+
+![](/esign/esign-217.png)
+
+`轻松签+` - `ESign.app`
+
+![](/esign/esign-218.png)
+
+`esignhelper` 右边的 `!` ，所有者 `root`
 
 
+![](/esign/esign-219.png)
 
+将 `用户` 和 `组` 都改成 `0`，存储
+![](/esign/esign-220.png)
+
+
+返回桌面打开 轻松签+ 即可使用
+
+::: tip 如何更新
+进入 轻松签+ - 设置 - 永久安装配置，顶部更新
+
+最新版无需更新
+:::
+
+
+![](/esign/esign-221.png)
+
+::::
 
 ## 使用
 
 
-:::: details 轻松签 必看的准备工作
+:::: details 轻松签证书(必看) (轻松签+用户请无视)
 
 我们还需要一个过期的签名证书
 

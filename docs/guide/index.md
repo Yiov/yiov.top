@@ -16,7 +16,27 @@
 
 ## 日常使用
 
-* [待产包清单及入院指南](../daily/bags-just-yet/)
+* [待产包清单](../daily/bags-just-yet)
+
+* [1688母婴同源店](../daily/1688)
+
+* [电视TV的使用技巧](../daily/tvapp)
+
+* [小米运动刷步教程](../daily/xmsb)
+
+* [买房及房产证办理](../daily/house)
+
+* [台州麻将玩法](../daily/mahjong)
+
+* [车厘子基础知识科普](../daily/cherries)
+
+* [维生素基础知识](../daily/vitamin)
+
+* [血常规化验单解读](../daily/blood)
+
+
+
+
 
 * [百度云下载变态加速](../daily/baiduyun/)
 
@@ -42,31 +62,17 @@
 
 * [Todesk远程开关电脑](../daily/todesk/)
 
-* [电视TV的使用技巧](../daily/tvapp)
-
 * [VSCode安装步骤](../daily/VSCode/)
 
 * [企业微信推送教程](../daily/wecom/)
 
 * [微PE制作PE启动盘](../daily/wepe/)
 
-* [小米运动刷步教程](../daily/xmsb/)
-
 * [电脑常见问题汇总](../daily/win11/)
 
 * [电脑无法安装Photoshop 2023](../daily/ps/)
 
-* [买房及房产证办理](../daily/house/)
 
-* [台州麻将玩法](../daily/mahjong/)
-
-* [1688母婴同源店](../daily/1688/)
-
-* [车厘子基础知识科普](../daily/cherries)
-
-* [维生素基础知识](../daily/vitamin)
-
-* [血常规化验单解读](../daily/blood)
 
 
 

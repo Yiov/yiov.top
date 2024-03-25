@@ -31,8 +31,6 @@ https://shz.al/cCNj
 
 https://www.emailnator.com/
 
-https://smailpro.com/tool/temp-mail
-
 :::
 
 
@@ -49,7 +47,6 @@ https://smailpro.com/tool/temp-mail
 | [备用机场](https://jc.beiyong.top) | 商店优惠码0购50G/月 | 均速1M/s | [TG群](https://t.me/beiyongjichang) |
 | [盲盒.store](http://bb.盲盒.store/) | 新户注册50G/月 | 均速1.2M/s | [TG群](https://t.me/blindbox_new_group) |
 | |
-| [👍 盛丰/ 速音](https://xn--r93a47m.com/) | 不验证邮箱<br>商店0元/15天50G | 均速4M/s | [TG群](https://t.me/sfjsq1) |
 | [Best VPN](https://www.invitevp.com) | 商店0购永久20G | 兑换码：`xcfl`<br>均速6M/s | [TG群](https://t.me/joinchat/0-NOZlFrXJ42NzRh) |
 | [Bee VPN](https://bee.sulepay.com/) | 新户注册30天20G | 仅一个节点且`需要转换格式`<br>均速2.5M/s | [TG群](https://t.me/+wUYiCDeM-B04OGFh) |
 | [遥遥领先](https://free.346492.xyz/) | 商店0购10G/月 | `网站需挂梯子打开`<br>均速600Kb/s | [TG群](https://t.me/yylx_group) |

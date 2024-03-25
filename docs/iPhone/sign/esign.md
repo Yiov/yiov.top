@@ -588,6 +588,8 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 其他应用收集插件没有意义，直接用现成的即可
 
 下载合辑：https://www.123pan.com/s/3LWcVv-6J5rh.html
+
+JaBi扎比轻言微信主题：https://jabizb.com/mh/theme.html
 :::
 
 | 名称 | 插件名.dylib | 作者 | 防走丢 | 视频预览 |

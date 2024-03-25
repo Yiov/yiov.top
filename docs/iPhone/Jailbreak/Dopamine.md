@@ -514,7 +514,7 @@ TG群：https://t.me/lanmaoios
 
 # Netskao 源
 
-源地址：https://repo.initnil.com（已闭源）
+源地址：https://jailrepo.initnil.com
 
 镜像源：https://invalidunit.github.io/netskao-archive/
 
@@ -523,6 +523,10 @@ TG群：https://t.me/lanmaoios
 * PullOver Pro：侧边分屏神器，c1d3r 开发 Netskao 重新编译
 
 * 其他：净化/去广告/增强插件
+
+* QQNotiAvatar：QQ通知显示联系人头像
+
+* WechatNotiAvatar：微信通知显示联系人头像
 
 
 
@@ -764,6 +768,13 @@ TG群：https://t.me/lanmaoios
 
 * Frame：锁屏主屏使用视频作为壁纸
 
+
+
+# 赵楠源
+
+源地址：https://invalidunit.github.io/repo/
+
+* Give me deb：自动保存deb安装包的插件
 
 
 

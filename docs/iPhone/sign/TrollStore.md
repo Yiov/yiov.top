@@ -1595,6 +1595,8 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 * [SecondHand：状态栏显示实时秒数 | @leminlimez](https://github.com/leminlimez/SecondHand/releases)
 
+* [TrollRecorder：巨魔录音机，即通话录音 | @Lakr233 / @i_82](https://github.com/Lessica/TrollRecorder/releases) ⭐
+
 * [ChargeLimiter：系统充电限制、过充保护 | @lich4](https://github.com/lich4/ChargeLimiter)
 
 * [Helium：悬浮显示日期/网速/设备温度/电池详细工具 丨 @LeminLimez](https://github.com/leminlimez/Helium/releases)

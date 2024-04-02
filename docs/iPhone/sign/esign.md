@@ -310,9 +310,8 @@ IOS 16及以上的手机不支持，官网还没有更新
 > 目前已知：京东、淘宝、抖音无法多开，安装后无网络
 
 
-下载砸好壳的微信ipa包，演示的版本是 `8.0.44`
+点击下载 [砸壳的微信ipa包](https://github.com/Yiov/wechat-dump/releases/tag/dump)，演示的版本是 `8.0.44`
 
-[https://www.mediafire.com/file/q7pod9131llj6ca/](https://www.mediafire.com/file/q7pod9131llj6ca/%25E5%25BE%25AE%25E4%25BF%25A1_8.0.44_Dump.ipa/file)
 
 ::: tip 科普
 这里的dump就表示砸壳，就是提取应用的ipa安装包
@@ -467,9 +466,9 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 需要先准备已砸壳好的应用和插件，本次以 `抖音` 为例
 
-* 已砸壳应用：抖音 丨 [巨魔砸壳教程](./TrollStore.md#砸壳dump) 丨 [越狱砸壳教程](../Jailbreak/checkra1n.md#砸壳dump)
+* 已砸壳应用：[抖音](https://decrypt.day/) 「或手动砸壳 [巨魔](./TrollStore.md#砸壳dump) / [越狱](../Jailbreak/checkra1n.md#砸壳dump)」
 
-* 对应的插件：[抖音图层](https://www.123pan.com/s/3LWcVv-Lx5rh.html) 丨 [作者X大佬的TG群](https://t.me/DouYinHook)
+* 对应的插件：[抖音图层v1.1.9-1](https://raw.githubusercontent.com/flyX099/repo/main/debs/rootless/com.xx.dyhook_1.1.9-1_iphoneos-arm64.deb) 「作者@X大佬的[TG群](https://t.me/DouYinHook) / [仓库](https://github.com/flyX099/repo/)」
 
 
 ::: tip 有根和无根的区别
@@ -551,7 +550,7 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 ### 插件提取
 
 
-我这里已 `抖音` 为例
+确保ipa包是已经注入过插件的，我这里已 `抖音` 为例
 
 在已安装的页面中点击抖音 `提取库` ，选择插件复制到
 
@@ -580,49 +579,20 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 
 
-## 微信插件
 
-::: tip 说明
-微信新版超10个插件后，点游戏闪退，所以可以自行选择注入，有些功能是相同的
+### 插件下载
 
-其他应用收集插件没有意义，直接用现成的即可
-
-下载合辑：https://www.123pan.com/s/3LWcVv-6J5rh.html
-
-JaBi扎比轻言微信主题：https://jabizb.com/mh/theme.html
-:::
-
-| 名称 | 插件名.dylib | 作者 | 防走丢 | 视频预览 |
-|:-:|:-:|:-:|:-:|:-:|
-| [斗图助手](https://apt.25mao.com/view/252) | DouTu | @老猫 | [越狱源](https://apt.25mao.com/) / [TG群](https://t.me/lanmaoshare) / [公众号](https://mp.weixin.qq.com/s/9HM4UeqMEnYyZusmjvaNtQ) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [微信助手/密友](https://apt.25mao.com/view/252) | MiYou | @老猫 | [越狱源](https://apt.25mao.com/) / [TG群](https://t.me/lanmaoshare) / [公众号](https://mp.weixin.qq.com/s/9HM4UeqMEnYyZusmjvaNtQ) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [插件收纳](https://apt.25mao.com/view/252) | wcplugins | @老猫 | [越狱源](https://apt.25mao.com/) / [TG群](https://t.me/lanmaoshare) / [公众号](https://mp.weixin.qq.com/s/9HM4UeqMEnYyZusmjvaNtQ) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| |
-| 微信净化_长期版 | WCPureExtension | @Netskao /<br>@热心网友 | - | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [黄白助手](https://hbpan.baixingyllh.com) | HBWechatHelper | @黄白团队 | [越狱源](https://byg.iosios.net/) / [TG群](https://t.me/HbHelper) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| Misaka助手 | MisakaHelper | @御坂美琴666 | [公众号](https://mp.weixin.qq.com/s/droMoPLfUk12DCwy23xuZg) / [QQ群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-kDRxtJPYPRAgdxNljqL6fpomGolF-EP&authKey=TeungKEzxgz4v8Ioq0kl2fJf70pRESnH4viD6Vkv9Pw%2F%2F6WjTzZUU31N01pboTV2&noverify=0&group_code=295324679) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| PKC助手 | PKCWechatTools | @皮卡车 | [TG群](https://t.me/TopStyle2021) / [公众号](https://mp.weixin.qq.com/s/9LNr_75YSs2rhYZg8TB5SA) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| 广告友好+Callkit | Purifyless | @秋名山 | [TG群](https://t.me/ae86_ios) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| 虚拟视频 | libdkhelperDylib | @平凡 | [官网](https://iosi.vip/) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| |
-| [主题：猪咪小屋](http://49.232.49.29/) | ThemeManager | @小茜宝宝 | [公众号](https://mp.weixin.qq.com/s/RZDxtc9NAhtjVGxZ-VC_KQ) / [备用](https://mp.weixin.qq.com/s/j1vSjjHIiaU_RaISfHpSCA) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [主题：酸果](https://apt.sutuplus.com) | sutuplus | @苏兔 | [公众号](https://mp.weixin.qq.com/s/QmpzY5X36t3XnIzd7PsJkw) / [越狱源](http://apt.sutuplus.com) | [视频预览](https://pan.quark.cn/s/da757809387e) |
-| [主题：菠萝](https://themepro.yourepo.com/) | libPineappleDylib | @ThemePro | [公众号](https://mp.weixin.qq.com/s/ggYRb-MmTZRrYOsOyk3YkA) / [越狱源](https://themepro.yourepo.com/) | [视频预览](https://pan.quark.cn/s/da757809387e) |
+输入越狱源下载，按需下载即可
 
 
+<style src="/.vitepress/theme/style/linkcard.css"></style>
+<div class="linkcard">
+  <a href="https://www.postbox.news/downloads" target="_blank">
+    <p class="description">PostBox<br><span>插件下载工具，国区上架PostBox Pocket</span></p>
+    <div class="logo">
+        <img alt="Logo" width="70px" height="70px" src="https://www.postbox.news/assets/images/appIconSite.webp" />
+    </div>
+  </a>
+</div>
 
-::: details 有根和无根的区别
-`arm` 文件对应 `有根` ，`arm64` 文件对应 `无根`
-
-对注入而言，没有区别，都可注入使用
-
-仅是对越狱而言
-
-有根即 `rootful` ，可以读写系统根文件，如：`unc0ver` 和 `checkra1n` 等越狱
-
-无根即 `rootless` ，仅可读系统根文件，如 `Dopamine` 和 `XinaA15` 等越狱
-:::
-
-
-
-
+<br>

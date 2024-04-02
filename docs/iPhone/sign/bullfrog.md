@@ -104,12 +104,12 @@ next: false
 
 
 
-### 签名/多开分身
+### 签名APP
 
 
 以 `微信` 多开为例
 
-下载砸好壳的微信ipa包，演示的版本是 `8.0.44`
+点击下载 [砸好壳的微信ipa包](https://github.com/Yiov/wechat-dump/releases/tag/dump)，演示的版本是 `8.0.44`
 
 ::: tip 科普
 这里的dump就表示砸壳，就是提取ipa安装包
@@ -117,7 +117,6 @@ next: false
 因为苹果对安装包进行了加密，并包裹在了ipa上，砸壳的过程就是解密脱壳
 :::
 
-[https://www.mediafire.com/file/q7pod9131llj6ca/](https://www.mediafire.com/file/q7pod9131llj6ca/%25E5%25BE%25AE%25E4%25BF%25A1_8.0.44_Dump.ipa/file)
 
 ![](/bullfrog/bullfrog-14.png)
 

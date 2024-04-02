@@ -1228,8 +1228,6 @@ safari下载的文件路径：icloud云盘-下载
 
 ## 使用
 
-不定期会添加一些使用方法
-
 ::: warning 注意
 通过巨魔安装的应用，AppStore会显示小云朵，即未下载此应用的状态
 
@@ -1244,7 +1242,6 @@ safari下载的文件路径：icloud云盘-下载
 
 
 ---
-
 
 
 
@@ -1336,6 +1333,8 @@ https://github.com/opa334/TrollStore/releases
 ![](/TrollStore/icon/icon-10.png)
 
 ![](/TrollStore/icon/icon-11.jpg)
+
+![](/TrollStore/icon/icon-12.jpg)
 
 :::
 
@@ -1533,7 +1532,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 只有通过砸壳工具进行解密脱壳后才可以，所以叫做砸壳，也叫dump
 :::
 
-用巨魔安装好 [AppsDump2：巨魔非全权限砸壳 @bswbw](https://www.123pan.com/s/3LWcVv-y25rh.html)
+用巨魔安装好 [AppsDump2：巨魔非全权限砸壳 @bswbw](https://www.123pan.com/s/3LWcVv-g6qrh.html)
 
 以 `抖音` 为例，打开 AppsDump2，选择抖音 - `脱壳 - 打包ipa`
 
@@ -1562,57 +1561,144 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 ## 更多工具
 
-::: tip 说明
-带 ⭐ 的是我正在使用的
-:::
 
 ### 聚合类
+<br>
 
-* [CyPwnStore：破解应用商店](https://ipa.cypwn.xyz/) | [@Coolstars](https://twitter.com/CStar_OW) 丨[APP下载](https://www.123pan.com/s/3LWcVv-N7zrh.html)
+<style src="/.vitepress/theme/style/linkcard.css"></style>
+<div class="linkcard">
+  <a href="https://ipa.cypwn.xyz/" target="_blank">
+    <p class="description">CyPwnStore：破解应用商店<br><span>https://ipa.cypwn.xyz/</span></p>
+    <div class="logo">
+        <img alt="Logo" width="70px" height="70px" src="https://ipa.cypwn.xyz/favicon.ico" />
+    </div>
+  </a>
+</div>
 
-* [Decrypt：在线砸壳商店](https://decrypt.day/) ⭐
+<br>
 
-* [IPA图书馆](https://zappfree.com/ipa-library/)
+<style src="/.vitepress/theme/style/linkcard.css"></style>
+<div class="linkcard">
+  <a href="https://decrypt.day/" target="_blank">
+    <p class="description">Decrypt：在线砸壳商店<br><span>https://decrypt.day/</span></p>
+    <div class="logo">
+        <img alt="Logo" width="70px" height="70px" src="https://cdn.decrypt.day/images/decrypt-logo.webp" />
+    </div>
+  </a>
+</div>
 
-* [IPA商店](https://ipa.store/game)
+<br>
 
-* [凸游CLUB](https://toyou.club/)
+<style src="/.vitepress/theme/style/linkcard.css"></style>
+<div class="linkcard">
+  <a href="https://zappfree.com/ipa-library/" target="_blank">
+    <p class="description">IPA图书馆<br><span>https://zappfree.com/ipa-library/</span></p>
+    <div class="logo">
+        <img alt="Logo" width="70px" height="70px" src="https://zappfree.com/img/ipa-library.png" />
+    </div>
+  </a>
+</div>
 
-* [冷冷雨·付费·应用破解·SuperVIP8.1-33](https://www.mediafire.com/file/l6ggeti3d1pdrlw/SuperVIP8.1-3.ipa/file)
+<br>
+
+<style src="/.vitepress/theme/style/linkcard.css"></style>
+<div class="linkcard">
+  <a href="https://ipa.store/game" target="_blank">
+    <p class="description">IPA商店<br><span>https://ipa.store/game</span></p>
+    <div class="logo">
+        <img alt="Logo" width="70px" height="70px" src="https://ipa.store/wp-content/uploads/2022/08/2022080502143894.png" />
+    </div>
+  </a>
+</div>
+
+<br>
+
+<style src="/.vitepress/theme/style/linkcard.css"></style>
+<div class="linkcard">
+  <a href="https://toyou.club/" target="_blank">
+    <p class="description">凸游CLUB<br><span>https://toyou.club/</span></p>
+    <div class="logo">
+        <img alt="Logo" width="70px" height="70px" src="https://toyou.club/wp-content/uploads/2023/03/cropped-%E7%BD%91%E7%AB%99fa-180x180.png" />
+    </div>
+  </a>
+</div>
+
+<br>
+
+<style src="/.vitepress/theme/style/linkcard.css"></style>
+<div class="linkcard">
+  <a href="https://www.mediafire.com/file/l6ggeti3d1pdrlw/SuperVIP8.1-3.ipa/file" target="_blank">
+    <p class="description">SuperVIP8.1-33<br><span>冷冷雨·付费·应用破解</span></p>
+    <div class="logo">
+        <img alt="Logo" width="70px" height="70px" src="https://www.qhmanhua.com/d/file/soft/20230325/202109292979.jpg" />
+    </div>
+  </a>
+</div>
+
+<br>
+
+
+
 
 
 
 ### 工具类
 
-* <span style="border-bottom:2px dashed yellow;">[轻松签：多开软件必备，可添加移除插件 | @esign](./esign.md)</span> ⭐
 
-* [PostBox：插件下载工具，国区上架PostBox Pocket | @PostBoxTeam](https://www.postbox.news/downloads) ⭐
 
----
-* [LocSim：先装虚拟定位v1.3.7授权版 | @Mika](https://www.mediafire.com/file/qwdgdnvek84xb83/虚拟定位_1.3.7_授权版.ipa/file) 丨 [后装可搜索破解版v1.4.1](https://www.mediafire.com/file/0pfhnyv3twnw3f6/%E8%99%9A%E6%8B%9F%E5%AE%9A%E4%BD%8D_1.4.1.ipa/file) ⭐
-
-* [TrollSpeed：实时网速浮窗工具 丨 @Lessica](https://github.com/Lessica/TrollSpeed/releases) ⭐
-
-* [SecondHand：状态栏显示实时秒数 | @leminlimez](https://github.com/leminlimez/SecondHand/releases)
-
-* [TrollRecorder：巨魔录音机，即通话录音 | @Lakr233 / @i_82](https://github.com/Lessica/TrollRecorder/releases) ⭐
-
-* [ChargeLimiter：系统充电限制、过充保护 | @lich4](https://github.com/lich4/ChargeLimiter)
-
-* [Helium：悬浮显示日期/网速/设备温度/电池详细工具 丨 @LeminLimez](https://github.com/leminlimez/Helium/releases)
-
-* [Copylog：系统键盘最强剪切板插件 - 收费 丨@tomt000](https://havoc.app/package/copylogts) 丨 [Copylog_1.6_原版](https://www.123pan.com/s/3LWcVv-mJ5rh.html) 丨 [破解工具CLCracker](https://www.123pan.com/s/3LWcVv-1J5rh.html) ⭐
-
+| 应用 | 说明 | 推荐 |
+|:-:|:-:|:-:|
+| [巨魔汉化](https://github.com/sbwml/TrollStore_zh_Hans/releases) | 下载tar文件，用巨魔打开即可 | 🟢 |
+| [轻松签](./esign.md) | 多开软件必备，可添加移除插件 | 🟢 |
+| [AppsDump2](https://www.123pan.com/s/3LWcVv-g6qrh.html) | 巨魔非全权限砸壳/虚拟定位<br>[TG群](https://t.me/gblwjb) | 🟢 |
+| [Copylog](https://havoc.app/package/copylogts) | 系统键盘最强剪切板插件<br>下滑到底部查看破解教程 | 🟢 |
+| [DowngradeApp](https://www.123pan.com/s/3LWcVv-zSLrh.html) | 无广告<br>App随意升降级无广告 | 🟢 |
+| [Filza](https://www.tigisoftware.com/default/?p=439) | 文件管理器<br>[@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file) | 🟢 |
+| LocSim | 1.先装 [虚拟定位v1.3.7授权版](https://www.mediafire.com/file/qwdgdnvek84xb83/虚拟定位_1.3.7_授权版.ipa/file)<br>2.后装 [虚拟定位v1.4.1可搜索版](https://www.mediafire.com/file/0pfhnyv3twnw3f6/%E8%99%9A%E6%8B%9F%E5%AE%9A%E4%BD%8D_1.4.1.ipa/file) | 🟢 |
+| [TrollRecorder](https://github.com/Lessica/TrollRecorder/releases) | 巨魔录音机，即通话录音 | 🟢 |
+| [TrollSpeed](https://github.com/Lessica/TrollSpeed/releases) | 实时网速浮窗工具 | 🟢 |
+| |
+| [Apps Manager](https://www.tigisoftware.com/default/?p=435) | 用于备份还原<br>[@巨魔e族破解v1.8.4](https://www.123pan.com/s/3LWcVv-T7Lrh.html)<br>下滑到底部查看应用无法下载问题 | 🟠 |
+| [AppStore++](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) | 有广告<br>App随意升降级 | 🟠 |
+| [ChargeLimiter](https://github.com/lich4/ChargeLimiter/releases) | 系统充电限制、过充保护 | 🟠 |
+| [Helium](https://github.com/leminlimez/Helium/releases) | 悬浮显示日期/网速等 | 🟠 |
+| [SecondHand](https://github.com/leminlimez/SecondHand/releases) | 状态栏显示实时秒数 | 🟠 |
+| |
+| [电话助手](https://www.htv123.com/) | [IOS17版](https://www.htv123.com/down/CallAssist_TrollStore17_103.tipa)<br>[IOS16版](https://www.htv123.com/down/CallAssist_TrollStore16_103.tipa)<br>[IOS15版](https://www.htv123.com/down/CallAssist_TrollStore15.tipa) | 🟣 |
+| [CocoaTop](https://www.123pan.com/s/3LWcVv-D7zrh.html) | 进程查看工具 | 🟣 |
+| [IpaDownloadTool](https://github.com/SmileZXLee/IpaDownloadTool/) | IPA下载器 | 🟣 |
+| [RingTonesManager](https://www.123pan.com/s/3LWcVv-GuLrh.html) | 铃声管理器 | 🟣 |
+| [TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt/releases) | 巨魔非全权限砸壳<br>[秋名山汉化版v1.1.8](https://www.123pan.com/s/3LWcVv-F6qrh.html) | 🟣 |
+| [TrollDecryptor](https://github.com/wh1te4ever/TrollDecryptor/releases) | 巨魔非全权限砸壳<br>需要配合 CocoaTop 查看PID进程 | 🟣 |
+| |
+| [AirTroller](https://github.com/sourcelocation/AirTroller/releases) | 强制隔空投送ipa | 🔵 |
+| [BatteryInfo](http://www.htv123.com/down/BatteryInfo_1.0.7.ipa) | 查看电池健康状态 | 🔵 |
+| [CAPerfHUD](https://github.com/khanhduytran0/CAPerfHUD/releases/) | 显示手机性能的工具 | 🔵 |
+| [CAPerfHUDSwift](https://github.com/BomberFish/CAPerfHUDSwift/releases) | 浮窗式显示手机性能参数 | 🔵 |
+| [DebToIPA](https://github.com/sourcelocation/DebToIPA/releases) | deb文件转IPA | 🔵 |
+| [H5GG画中画版](https://www.mediafire.com/file/u3yy4myazbd5np1/H5GG_7.9_PIP%25E7%2594%25BB%25E4%25B8%25AD%25E7%2594%25BB%25E7%2589%2588.ipa/file) | 游戏修改器工具<br>仅限IOS 15.0-15.1.1 | 🔵 |
+| [iMemScanTS](https://www.123pan.com/s/3LWcVv-r7zrh.html) | 数据修改器 | 🔵 |
+| [IPCC](https://ipcc.xiaobo.pro) | 卡贴机解锁、去除系统漫游、开启独立5G语音<br>[B站视频讲解](https://www.bilibili.com/video/BV1gG41167k4/) | 🔵 |
+| [Jaility](https://github.com/haxi0/Jaility/releases) | 开启/解除监督状态/角标/锁屏密码空白 | 🔵 |
+| [mobileTSS](https://github.com/lucaIz-ldx/MobileTSS/releases) | 保存/下载 SHSH2 | 🔵 |
+| [NetworkController](https://github.com/Halo-Michael/NetworkController-app) | 国行苹果设备网络控制，输入Bundle ID点SET即可 | 🔵 |
+| [NiceBattery](https://www.niceios.com/download.php) | 电池助手,查看电池详细数据的工具 | 🔵 |
+| [Supervise](https://www.123pan.com/s/3LWcVv-R7zrh.html) | 开启/解除监督状态 | 🔵 |
+| [TrollNonce](https://github.com/opa334/TrollNonce/releases) | 固定G值 | 🔵 |
+| [TSSSaver](https://www.123pan.com/s/3LWcVv-07zrh.html) | SHSH2备份工具<br>[在线SHSH备份](https://tsssaver.1conan.com/v2/) | 🔵 |
+| [u0Launcher](https://github.com/opa334/u0Launcher/releases) | 修复unc0ver越狱过程的错误 | 🔵 |
+| [Zomigle](https://github.com/HAHALOSAH/Zomigle/releases) | Apple Watch配对神器，低版系统可配对高版本 | 🔵 |
 
 
 ::: details Copylog破解教程
-1.先下载安装 `copylog_1.6_原版` ，打开
+
+1.先下载安装 [Copylog_1.6_原版](https://www.123pan.com/s/3LWcVv-mJ5rh.html) ，打开
 
 2.登录选择 `Or get it on Havoc`
 
 3.自动跳浏览器后，选择 `Apple ID` 登录
 
-4.下载安装 破解工具 `CLCracker_1.0` ，打开点击 `Crack`，直到 `Finish` 结束
+4.下载安装 破解工具 [CLCracker](https://www.123pan.com/s/3LWcVv-1J5rh.html) ，打开点击 `Crack`，直到 `Finish` 结束
 
 5.划掉浏览器、Copylog和CLCracker后台，重新打开 `Copylog`
 
@@ -1623,24 +1709,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 
 
-
----
-
-* [AppsDump2：巨魔非全权限砸壳/虚拟定位 丨 @bswbw](https://www.123pan.com/s/3LWcVv-y25rh.html) 丨 [TG群](https://t.me/gblwjb) ⭐
-
-* [TrollDecrypt：巨魔非全权限砸壳](https://github.com/donato-fiore/TrollDecrypt/releases) 丨 [秋名山汉化版v1.1.5](https://www.123pan.com/s/3LWcVv-dbLrh.html)
-
-* [TrollDecryptor：巨魔非全权限砸壳，需要配合 CocoaTop 查看APPP的PID进程](https://github.com/wh1te4ever/TrollDecryptor/releases)
-
-
----
-
-* [Apps Manager：用于备份还原 丨@TIGI Software](https://www.tigisoftware.com/default/?p=435) 丨 [@巨魔e族破解v1.8.4](https://www.123pan.com/s/3LWcVv-T7Lrh.html)
-
-::: details 使用AppsManager恢复数据后无法从AppStore下载的问题
-由于出现此问题的几率较高，出现后只能抹机，没有推荐使用
-
-现在有了解决方式
+::: details AppsManager恢复数据后，无法从AppStore下载应用
 
 Filza 找到 `/usr/bin/vm_stat` ，单击运行，粘贴下面的指令，回车
 
@@ -1652,98 +1721,41 @@ chmod 700 /var/tmp/com.apple.appstored
 ```
 :::
 
-* [Filza：文件管理器 丨@TIGI Software](https://www.tigisoftware.com/default/?p=439) 丨 [@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file) ⭐
-
-* [AppStore++：App随意升降级 丨 @CokePokes](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) 丨 [越狱源](https://cokepokes.github.io/)
-
-* [DowngradeApp：无广告 App随意升降级 | @Netskao](https://www.123pan.com/s/3LWcVv-zSLrh.html) ⭐
-
-* [NetWorkManager：网络状态管理工具 | @Netskao](https://www.123pan.com/s/3LWcVv-YuLrh.html)
-
-* [RingTonesManager：铃声管理器 | @Netskao](https://www.123pan.com/s/3LWcVv-GuLrh.html)
-
-* [IpaDownloadTool：IPA下载器 | @SmileZXLee](https://github.com/SmileZXLee/IpaDownloadTool/)
-
-* [NetworkController：国行苹果设备网络控制，输入Bundle ID点SET即可 丨 @Halo-Michael](https://github.com/Halo-Michael/NetworkController-app)
-
-* [IPCC3.0：永久锁定SA 5G、去除系统漫游、开启独立5G语音 丨 @肖博](https://ipcc.xiaobo.pro) 丨 [B站视频讲解](https://www.bilibili.com/video/BV1gG41167k4/) 丨 [IPCC2.9：支持导入指定ipcc版本，iOS 14-15.7.1 / 16.0-16.1.2](https://www.123pan.com/s/3LWcVv-BJ5rh.html)
-
-
----
-
-* [电话助手：T9拨号 来电归属 | @xybp888](https://www.htv123.com/) 丨 [IOS17版](https://www.htv123.com/down/CallAssist_TrollStore17_103.tipa) 丨 [IOS16版](https://www.htv123.com/down/CallAssist_TrollStore16_103.tipa) 丨 [IOS15版](http://www.htv123.com/down/CallAssist_TrollStore.ipa)
-
-* [AirTroller：强制隔空投送ipa 丨@sourcelocation](https://github.com/sourcelocation/AirTroller/releases)
-
-* [DebToIPA：deb文件转IPA | @sourcelocation](https://github.com/sourcelocation/DebToIPA/releases)
-
----
-
-* [Jaility：开启/解除监督状态/角标/锁屏密码空白 | @haxi0](https://github.com/haxi0/Jaility/releases)
-
-* [Supervise：开启/解除监督状态](https://www.123pan.com/s/3LWcVv-R7zrh.html)
-
-* [CocoaTop：进程查看工具 | @Domo](https://www.123pan.com/s/3LWcVv-D7zrh.html)
-
-* [CAPerfHUD：显示手机性能的工具](https://github.com/khanhduytran0/CAPerfHUD/releases/tag/0.0.1)
-
-* [CAPerfHUDSwift：浮窗式显示手机性能参数](https://github.com/BomberFish/CAPerfHUDSwift/releases)
-
-* [NiceBattery：电池助手,查看电池详细数据的工具 | @NiceiOS](https://www.niceios.com/download.php)
-
-* [H5GG：游戏修改器工具，仅限IOS 15.0-15.1.1 | @H5GG](https://github.com/H5GG/H5GG)丨 [H5GG画中画版](https://www.mediafire.com/file/u3yy4myazbd5np1/H5GG_7.9_PIP%25E7%2594%25BB%25E4%25B8%25AD%25E7%2594%25BB%25E7%2589%2588.ipa/file)
-
-* [iM 修改器：数据修改器](https://www.123pan.com/s/3LWcVv-r7zrh.html)
-
-* [Zomigle：Apple Watch配对神器，低版系统可配对高版本 | @HAHALOSAH](https://github.com/HAHALOSAH/Zomigle/releases)
-
-* [TrollNonce：固定G值 | @opa334](https://github.com/opa334/TrollNonce/releases)
-
-* [u0Launcher：修复了unc0ver越狱过程的错误 | @opa334](https://github.com/opa334/u0Launcher/releases)
-
-* [mobileTSS：保存/下载 SHSH2 | @lucaIz-ldx](https://github.com/lucaIz-ldx/MobileTSS/releases)
-
-* [TSSSaver：SHSH2备份工具](https://www.123pan.com/s/3LWcVv-07zrh.html) | [在线SHSH备份](https://tsssaver.1conan.com/v2/)
 
 
 ### 美化类
 
-* [StatusMagic：魔法状态栏 丨 @Avangelista](https://github.com/Avangelista/StatusMagic)
 
-* [BatteryInfo：查看电池健康状态 | @xybp888](http://www.htv123.com/down/BatteryInfo_1.0.7.ipa)
-
-* [Mugunghwa木槿花：真主题/角标/全面屏手势 | @s8ngyu](https://github.com/s8ngyu/Mugunghwa/releases)
-
-* [red-dot：自定义角标颜色 | @s8ngyu](https://github.com/s8ngyu/red-dot/releases) ⭐
-
-* [TrollTools：真假主题/角标/全屏手势/锁屏图案等 丨 @sourcelocation](https://github.com/sourcelocation/TrollTools/releases)
-
-* [BlizzardBoard：主题美化 但书签形式 | @BenjaminHornbeck6](https://github.com/BenjaminHornbeck6/BlizzardBoard)
-
-* [WallpaperSetter：自定义浅色/深色模式的墙纸](https://github.com/Skittyblock/WallpaperSetter)
-
-* [ResolutionSetter：修改分辨率的工具 | @Halo-Michael](https://github.com/Halo-Michael/Resolution-Setter-app/releases)丨 [苹果官网分辨率查看](https://www.apple.com.cn/iphone/compare/)
-
-* [ResolutionSetterSwift：修改分辨率的工具、内置参考分辨率 | @haoict](https://github.com/haoict/haoict.github.io/tree/master/cydia/ipa/ResolutionSetterSwift)
+| 应用 | 说明 | 推荐 |
+|:-:|:-:|:-:|
+| [red-dot](https://github.com/s8ngyu/red-dot/releases) | 自定义角标颜色 | 🟢 |
+| |
+| [Mugunghwa](https://github.com/s8ngyu/Mugunghwa/releases) | 木槿花：真主题/角标/全面屏手势 | 🔵 |
+| [Mugunghwa](https://github.com/s8ngyu/Mugunghwa/releases) | 木槿花：真主题/角标/全面屏手势 | 🔵 |
+| [ResolutionSetter](https://github.com/Halo-Michael/Resolution-Setter-app/releases) | 修改分辨率的工具<br>[苹果官网分辨率查看](https://www.apple.com.cn/iphone/compare/) | 🔵 |
+| [ResolutionSetterSwift](https://github.com/haoict/haoict.github.io/tree/master/cydia/ipa/ResolutionSetterSwift) | 修改分辨率的工具、内置参考分辨率 | 🔵 |
+| [StatusMagic](https://github.com/Avangelista/StatusMagic/releases) | 魔法状态栏 | 🔵 |
+| [TrollTools](https://github.com/sourcelocation/TrollTools/releases) | 真假主题/角标/全屏手势/锁屏图案等 | 🔵 |
+| [WallpaperSetter](https://github.com/Skittyblock/WallpaperSetter/releases) | 自定义浅色/深色模式的墙纸 | 🔵 |
 
 
 ### 其他
 
-* [Price Tag：App 价格监控的工具，查看每日限免](https://www.123pan.com/s/3LWcVv-S7zrh.html)
 
-* [Zebra：软件包管理器；未越狱仅可查看 | @zbrateam](https://github.com/zbrateam/Zebra/releases)
+| 应用 | 说明 | 推荐 |
+|:-:|:-:|:-:|
+| [OldOS](https://github.com/zzanehip/The-OldOS-Project/releases) | 模拟 iOS 4 系统 | 🔵 |
+| [Price Tag](https://www.123pan.com/s/3LWcVv-S7zrh.html) | App 价格监控的工具，查看每日限免 | 🔵 |
+| [uYou+](https://github.com/qnblackcat/uYouPlus/releases) | 去除广告/下载视频/音频 | 🔵 |
+| [WiFiList](https://www.123pan.com/s/3LWcVv-l7zrh.html) | WiFi 密码查看器 | 🔵 |
+| [WiFiScanner](https://www.123pan.com/s/3LWcVv-77zrh.html) | WiFi 扫描工具 | 🔵 |
+| [Sileo](https://github.com/Sileo/Sileo/releases) | 软件包管理器；未越狱仅可查看 | 🔵 |
+| [Saily](https://github.com/SailyTeam/Saily/releases) | 软件包管理器 | 🔵 |
+| [Zebra](https://github.com/zbrateam/Zebra/releases) | 软件包管理器；未越狱仅可查看 | 🔵 |
 
-* [Sileo：软件包管理器；未越狱仅可查看 | @Sileo](https://github.com/Sileo/Sileo/releases)
 
-* [Saily：软件包管理器 | @SailyTeam](https://github.com/SailyTeam/Saily/releases)
 
-* [OldOS：模拟 iOS 4 系统 | @zzanehip](https://github.com/zzanehip/The-OldOS-Project/releases)
 
-* [uYou+：去除广告/下载视频/音频 | @qnblackcat](https://github.com/qnblackcat/uYouPlus/releases)
-
-* [WiFiList：WiFi 密码查看器](https://www.123pan.com/s/3LWcVv-l7zrh.html)
-
-* [WiFiScanner：WiFi 扫描工具](https://www.123pan.com/s/3LWcVv-77zrh.html)
 
 
 
@@ -1763,7 +1775,6 @@ chmod 700 /var/tmp/com.apple.appstored
 #### 可以安装其他应用吗
 
 可以，以上只是一些工具，可以安装一些破解版APP，例如：Youtube破解版
-
 
 
 

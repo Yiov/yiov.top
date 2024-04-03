@@ -1565,7 +1565,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 ### 聚合类
 <br>
 
-<style src="/.vitepress/theme/style/linkcard.css"></style>
+<style src="@theme/style/linkcard.css"></style>
 <div class="linkcard">
   <a href="https://ipa.cypwn.xyz/" target="_blank">
     <p class="description">CyPwnStore：破解应用商店<br><span>https://ipa.cypwn.xyz/</span></p>
@@ -1577,7 +1577,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 <br>
 
-<style src="/.vitepress/theme/style/linkcard.css"></style>
+<style src="@theme/style/linkcard.css"></style>
 <div class="linkcard">
   <a href="https://decrypt.day/" target="_blank">
     <p class="description">Decrypt：在线砸壳商店<br><span>https://decrypt.day/</span></p>
@@ -1589,7 +1589,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 <br>
 
-<style src="/.vitepress/theme/style/linkcard.css"></style>
+<style src="@theme/style/linkcard.css"></style>
 <div class="linkcard">
   <a href="https://zappfree.com/ipa-library/" target="_blank">
     <p class="description">IPA图书馆<br><span>https://zappfree.com/ipa-library/</span></p>
@@ -1601,7 +1601,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 <br>
 
-<style src="/.vitepress/theme/style/linkcard.css"></style>
+<style src="@theme/style/linkcard.css"></style>
 <div class="linkcard">
   <a href="https://ipa.store/game" target="_blank">
     <p class="description">IPA商店<br><span>https://ipa.store/game</span></p>
@@ -1613,7 +1613,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 <br>
 
-<style src="/.vitepress/theme/style/linkcard.css"></style>
+<style src="@theme/style/linkcard.css"></style>
 <div class="linkcard">
   <a href="https://toyou.club/" target="_blank">
     <p class="description">凸游CLUB<br><span>https://toyou.club/</span></p>
@@ -1625,7 +1625,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 <br>
 
-<style src="/.vitepress/theme/style/linkcard.css"></style>
+<style src="@theme/style/linkcard.css"></style>
 <div class="linkcard">
   <a href="https://www.mediafire.com/file/l6ggeti3d1pdrlw/SuperVIP8.1-3.ipa/file" target="_blank">
     <p class="description">SuperVIP8.1-33<br><span>冷冷雨·付费·应用破解</span></p>

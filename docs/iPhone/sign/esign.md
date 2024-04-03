@@ -585,7 +585,7 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 输入越狱源下载，按需下载即可
 
 
-<style src="/.vitepress/theme/style/linkcard.css"></style>
+<style src="@theme/style/linkcard.css"></style>
 <div class="linkcard">
   <a href="https://www.postbox.news/downloads" target="_blank">
     <p class="description">PostBox<br><span>插件下载工具，国区上架PostBox Pocket</span></p>

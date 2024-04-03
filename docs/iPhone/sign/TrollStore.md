@@ -825,7 +825,7 @@ https://repo.sourceloc.net/
 
 由于App下载需要进 [Discord](https://discord.com/invite/aYW54vZFpt) ，我将文件转存到网盘，下载即可
 
-https://www.123pan.com/s/3LWcVv-TjLrh.html
+https://www.mediafire.com/file/d7ewlvszkjkqguv/
 
 ![](/TrollStore/picasso/picasso-04.png)
 
@@ -1247,7 +1247,7 @@ safari下载的文件路径：icloud云盘-下载
 
 ### 虚拟定位
 
-下载：[https://www.mediafire.com/file/qwdgdnvek84xb83/](https://www.mediafire.com/file/qwdgdnvek84xb83/虚拟定位_1.3.7_授权版.ipa/file)
+下载：https://www.mediafire.com/file/qwdgdnvek84xb83/
 
 打开链接，先下载授权的版本
 
@@ -1263,7 +1263,7 @@ safari下载的文件路径：icloud云盘-下载
 
 然后同样的方法，覆盖安装破解的可搜索的v1.4.1版本即可
 
-[https://www.mediafire.com/file/0pfhnyv3twnw3f6/](https://www.mediafire.com/file/0pfhnyv3twnw3f6/%E8%99%9A%E6%8B%9F%E5%AE%9A%E4%BD%8D_1.4.1.ipa/file)
+https://www.mediafire.com/file/0pfhnyv3twnw3f6/
 
 ![](/TrollStore/TrollStore-05.png)
 
@@ -1382,9 +1382,9 @@ https://github.com/opa334/TrollStore/releases
 
 ### 静音模块
 
-开始前请用巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
+开始前请用巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/)
 
-然后下载由 [@赵楠](https://github.com/invalidunit) 大佬提供的文件：https://www.123pan.com/s/3LWcVv-WULrh.html
+然后下载由 [@赵楠](https://github.com/invalidunit) 大佬提供的文件：https://www.mediafire.com/file/4cpvykfuu2biqeo/
 
 ![](/TrollStore/TrollStore-18.png)
 
@@ -1486,7 +1486,7 @@ Safari打开：https://static.itsnebula.net/apple/noota/17.mobileconfig
 
 ![](/TrollStore/TrollStore-28.png)
 
-但保不齐苹果强制更新，巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
+但保不齐苹果强制更新，巨魔安装好 [Filza：文件管理器 丨@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/)
 
 进入 `/usr/bin/` 目录，找到 `vm_stat` 打开运行
 
@@ -1532,7 +1532,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 只有通过砸壳工具进行解密脱壳后才可以，所以叫做砸壳，也叫dump
 :::
 
-用巨魔安装好 [AppsDump2：巨魔非全权限砸壳 @bswbw](https://www.123pan.com/s/3LWcVv-g6qrh.html)
+用巨魔安装好 [AppsDump2：巨魔非全权限砸壳](https://www.mediafire.com/file/pu75onrrz0hdej3/)
 
 以 `抖音` 为例，打开 AppsDump2，选择抖音 - `脱壳 - 打包ipa`
 
@@ -1541,7 +1541,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 解密完成后，可 `共享文件` 导入到轻松签，进行多开和注入插件等
 
 ::: tip 说明
-因为砸壳的文件多了会占内存，建议安装一个 [Fliza文件管理器](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file)
+因为砸壳的文件多了会占内存，建议安装一个 [Fliza文件管理器](https://www.mediafire.com/file/jwcsx875fmz9kep/)
 
 删掉多余的ipa文件
 :::
@@ -1650,25 +1650,25 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 |:-:|:-:|:-:|
 | [巨魔汉化](https://github.com/sbwml/TrollStore_zh_Hans/releases) | 下载tar文件，用巨魔打开即可 | 🟢 |
 | [轻松签](./esign.md) | 多开软件必备，可添加移除插件 | 🟢 |
-| [AppsDump2](https://www.123pan.com/s/3LWcVv-g6qrh.html) | 巨魔非全权限砸壳/虚拟定位<br>[TG群](https://t.me/gblwjb) | 🟢 |
+| [AppsDump2](https://www.mediafire.com/file/pu75onrrz0hdej3/) | 巨魔非全权限砸壳/虚拟定位<br>[TG群](https://t.me/gblwjb) | 🟢 |
 | [Copylog](https://havoc.app/package/copylogts) | 系统键盘最强剪切板插件<br>下滑到底部查看破解教程 | 🟢 |
-| [DowngradeApp](https://www.123pan.com/s/3LWcVv-zSLrh.html) | 无广告<br>App随意升降级无广告 | 🟢 |
-| [Filza](https://www.tigisoftware.com/default/?p=439) | 文件管理器<br>[@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/Filza_4.0_巨魔e族_Dao.ipa/file) | 🟢 |
-| LocSim | 1.先装 [虚拟定位v1.3.7授权版](https://www.mediafire.com/file/qwdgdnvek84xb83/虚拟定位_1.3.7_授权版.ipa/file)<br>2.后装 [虚拟定位v1.4.1可搜索版](https://www.mediafire.com/file/0pfhnyv3twnw3f6/%E8%99%9A%E6%8B%9F%E5%AE%9A%E4%BD%8D_1.4.1.ipa/file) | 🟢 |
+| [DowngradeApp](https://www.mediafire.com/file/dvyxb4tvutx1f0x/) | 无广告<br>App随意升降级无广告 | 🟢 |
+| [Filza](https://www.tigisoftware.com/default/?p=439) | 文件管理器<br>[@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/) | 🟢 |
+| LocSim | 1.先装 [虚拟定位v1.3.7授权版](https://www.mediafire.com/file/qwdgdnvek84xb83/)<br>2.后装 [虚拟定位v1.4.1可搜索版](https://www.mediafire.com/file/0pfhnyv3twnw3f6/) | 🟢 |
 | [TrollRecorder](https://github.com/Lessica/TrollRecorder/releases) | 巨魔录音机，即通话录音 | 🟢 |
 | [TrollSpeed](https://github.com/Lessica/TrollSpeed/releases) | 实时网速浮窗工具 | 🟢 |
 | |
-| [Apps Manager](https://www.tigisoftware.com/default/?p=435) | 用于备份还原<br>[@巨魔e族破解v1.8.4](https://www.123pan.com/s/3LWcVv-T7Lrh.html)<br>下滑到底部查看应用无法下载问题 | 🟠 |
+| [Apps Manager](https://www.tigisoftware.com/default/?p=435) | 用于备份还原<br>[@巨魔e族破解v1.8.4](https://www.mediafire.com/file/ze98mhw9vz95z0b/)<br>下滑到底部查看应用无法下载问题 | 🟠 |
 | [AppStore++](https://github.com/CokePokes/AppStorePlus-TrollStore/releases) | 有广告<br>App随意升降级 | 🟠 |
 | [ChargeLimiter](https://github.com/lich4/ChargeLimiter/releases) | 系统充电限制、过充保护 | 🟠 |
 | [Helium](https://github.com/leminlimez/Helium/releases) | 悬浮显示日期/网速等 | 🟠 |
 | [SecondHand](https://github.com/leminlimez/SecondHand/releases) | 状态栏显示实时秒数 | 🟠 |
 | |
 | [电话助手](https://www.htv123.com/) | [IOS17版](https://www.htv123.com/down/CallAssist_TrollStore17_103.tipa)<br>[IOS16版](https://www.htv123.com/down/CallAssist_TrollStore16_103.tipa)<br>[IOS15版](https://www.htv123.com/down/CallAssist_TrollStore15.tipa) | 🟣 |
-| [CocoaTop](https://www.123pan.com/s/3LWcVv-D7zrh.html) | 进程查看工具 | 🟣 |
+| [CocoaTop](https://www.mediafire.com/file/6p0w5239spd9quf/) | 进程查看工具 | 🟣 |
 | [IpaDownloadTool](https://github.com/SmileZXLee/IpaDownloadTool/) | IPA下载器 | 🟣 |
-| [RingTonesManager](https://www.123pan.com/s/3LWcVv-GuLrh.html) | 铃声管理器 | 🟣 |
-| [TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt/releases) | 巨魔非全权限砸壳<br>[秋名山汉化版v1.1.8](https://www.123pan.com/s/3LWcVv-F6qrh.html) | 🟣 |
+| [RingTonesManager](https://www.mediafire.com/file/9011jolyzf2hso5/) | 铃声管理器 | 🟣 |
+| [TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt/releases) | 巨魔非全权限砸壳<br>[秋名山汉化版v1.1.8](https://www.mediafire.com/file/38naw9pkq483r25/) | 🟣 |
 | [TrollDecryptor](https://github.com/wh1te4ever/TrollDecryptor/releases) | 巨魔非全权限砸壳<br>需要配合 CocoaTop 查看PID进程 | 🟣 |
 | |
 | [AirTroller](https://github.com/sourcelocation/AirTroller/releases) | 强制隔空投送ipa | 🔵 |
@@ -1676,29 +1676,29 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 | [CAPerfHUD](https://github.com/khanhduytran0/CAPerfHUD/releases/) | 显示手机性能的工具 | 🔵 |
 | [CAPerfHUDSwift](https://github.com/BomberFish/CAPerfHUDSwift/releases) | 浮窗式显示手机性能参数 | 🔵 |
 | [DebToIPA](https://github.com/sourcelocation/DebToIPA/releases) | deb文件转IPA | 🔵 |
-| [H5GG画中画版](https://www.mediafire.com/file/u3yy4myazbd5np1/H5GG_7.9_PIP%25E7%2594%25BB%25E4%25B8%25AD%25E7%2594%25BB%25E7%2589%2588.ipa/file) | 游戏修改器工具<br>仅限IOS 15.0-15.1.1 | 🔵 |
-| [iMemScanTS](https://www.123pan.com/s/3LWcVv-r7zrh.html) | 数据修改器 | 🔵 |
+| [H5GG画中画版](https://www.mediafire.com/file/u3yy4myazbd5np1/) | 游戏修改器工具<br>仅限IOS 15.0-15.1.1 | 🔵 |
+| [iMemScanTS](https://www.mediafire.com/file/e8c848tdzx1suee/) | 数据修改器 | 🔵 |
 | [IPCC](https://ipcc.xiaobo.pro) | 卡贴机解锁、去除系统漫游、开启独立5G语音<br>[B站视频讲解](https://www.bilibili.com/video/BV1gG41167k4/) | 🔵 |
 | [Jaility](https://github.com/haxi0/Jaility/releases) | 开启/解除监督状态/角标/锁屏密码空白 | 🔵 |
 | [mobileTSS](https://github.com/lucaIz-ldx/MobileTSS/releases) | 保存/下载 SHSH2 | 🔵 |
 | [NetworkController](https://github.com/Halo-Michael/NetworkController-app) | 国行苹果设备网络控制，输入Bundle ID点SET即可 | 🔵 |
 | [NiceBattery](https://www.niceios.com/download.php) | 电池助手,查看电池详细数据的工具 | 🔵 |
-| [Supervise](https://www.123pan.com/s/3LWcVv-R7zrh.html) | 开启/解除监督状态 | 🔵 |
+| [Supervise](https://www.mediafire.com/file/3sf5wge31vq3wjz/) | 开启/解除监督状态 | 🔵 |
 | [TrollNonce](https://github.com/opa334/TrollNonce/releases) | 固定G值 | 🔵 |
-| [TSSSaver](https://www.123pan.com/s/3LWcVv-07zrh.html) | SHSH2备份工具<br>[在线SHSH备份](https://tsssaver.1conan.com/v2/) | 🔵 |
+| [TSSSaver](https://www.mediafire.com/file/4f64viw214drlko/) | SHSH2备份工具<br>[在线SHSH备份](https://tsssaver.1conan.com/v2/) | 🔵 |
 | [u0Launcher](https://github.com/opa334/u0Launcher/releases) | 修复unc0ver越狱过程的错误 | 🔵 |
 | [Zomigle](https://github.com/HAHALOSAH/Zomigle/releases) | Apple Watch配对神器，低版系统可配对高版本 | 🔵 |
 
 
 ::: details Copylog破解教程
 
-1.先下载安装 [Copylog_1.6_原版](https://www.123pan.com/s/3LWcVv-mJ5rh.html) ，打开
+1.先下载安装 [Copylog_1.6_原版](https://www.mediafire.com/file/0ve502rjnqo3l08/) ，打开
 
 2.登录选择 `Or get it on Havoc`
 
 3.自动跳浏览器后，选择 `Apple ID` 登录
 
-4.下载安装 破解工具 [CLCracker](https://www.123pan.com/s/3LWcVv-1J5rh.html) ，打开点击 `Crack`，直到 `Finish` 结束
+4.下载安装 破解工具 [CLCracker](https://www.mediafire.com/file/nzbbvdr9r702qva/) ，打开点击 `Crack`，直到 `Finish` 结束
 
 5.划掉浏览器、Copylog和CLCracker后台，重新打开 `Copylog`
 
@@ -1745,10 +1745,10 @@ chmod 700 /var/tmp/com.apple.appstored
 | 应用 | 说明 | 推荐 |
 |:-:|:-:|:-:|
 | [OldOS](https://github.com/zzanehip/The-OldOS-Project/releases) | 模拟 iOS 4 系统 | 🔵 |
-| [Price Tag](https://www.123pan.com/s/3LWcVv-S7zrh.html) | App 价格监控的工具，查看每日限免 | 🔵 |
+| [Price Tag](https://www.mediafire.com/file/xy9paa4zmxuquzo/) | App 价格监控的工具，查看每日限免 | 🔵 |
 | [uYou+](https://github.com/qnblackcat/uYouPlus/releases) | 去除广告/下载视频/音频 | 🔵 |
-| [WiFiList](https://www.123pan.com/s/3LWcVv-l7zrh.html) | WiFi 密码查看器 | 🔵 |
-| [WiFiScanner](https://www.123pan.com/s/3LWcVv-77zrh.html) | WiFi 扫描工具 | 🔵 |
+| [WiFiList](https://www.mediafire.com/file/tvg9cfom88jy64d/) | WiFi 密码查看器 | 🔵 |
+| [WiFiScanner](https://www.mediafire.com/file/gtwdituuwwz8vv3/) | WiFi 扫描工具 | 🔵 |
 | [Sileo](https://github.com/Sileo/Sileo/releases) | 软件包管理器；未越狱仅可查看 | 🔵 |
 | [Saily](https://github.com/SailyTeam/Saily/releases) | 软件包管理器 | 🔵 |
 | [Zebra](https://github.com/zbrateam/Zebra/releases) | 软件包管理器；未越狱仅可查看 | 🔵 |

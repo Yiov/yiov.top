@@ -7,7 +7,7 @@
 ::: danger 最新消息
 Filza破解版已出，直接使用而且可以联网，首发自 **@巨魔e族**
 
-下载地址：[https://www.123pan.com/s/3LWcVv-bbzrh.html](https://www.123pan.com/s/3LWcVv-bbzrh.html)
+下载地址：https://www.mediafire.com/file/jwcsx875fmz9kep/
 
 
 注：以下教程就可以不用看了
@@ -102,7 +102,7 @@ http://tigisoftware.com/cydia/
 
 * ~~「已挂」在线计算激活码：[http://106.55.39.169/?SN=](http://106.55.39.169/?SN=)~~
 
-* 电脑计算激活码：https://www.123pan.com/s/3LWcVv-Zbzrh.html
+* 电脑计算激活码：https://www.mediafire.com/file/x7sr98bvikbosp6/
 
 ::: tip 说明
 Loader1.0/Filza1.2任选其一，因为教程较早，使用的Loader1.0

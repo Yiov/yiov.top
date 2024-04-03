@@ -79,13 +79,14 @@ export default defineConfig({
           { text: '电脑相关', 
             collapsed: true,
             items: [
+              { text: '提取应用icon图标', link: '/daily/icon' },
+
               { text: '百度云下载变态加速', link: '/daily/baiduyun/' },
               { text: '书签同步至不同浏览器', link: '/daily/bookmark/' },
               { text: '微软tts·云希音色配音', link: '/daily/tts/' },
               { text: 'crx浏览器插件导出', link: '/daily/crx/' },
               { text: 'git使用及上传代码到仓库', link: '/daily/git/' },
               { text: 'Github的注册使用到上传', link: '/daily/github/' },
-              { text: '快速提取应用icon图标', link: '/daily/icon/' },
               { text: 'Markdown的简单用法', link: '/daily/markdown/' },
               { text: 'Pake将网页打包成应用程序', link: '/daily/pake/' },
               { text: 'QQ邮箱接收其他邮箱信息', link: '/daily/qqmail/' },

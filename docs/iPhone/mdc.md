@@ -159,7 +159,7 @@ Safari浏览器下载的默认在文件-icloud云盘-下载里
 
 ---
 
-* [CCEnabler：自定义控制中心](https://www.123pan.com/s/3LWcVv-b7zrh.html)
+* [CCEnabler：自定义控制中心](https://www.mediafire.com/file/3k83zr48bkoubpd/)
 
 * [RespringCC：一键注销工具，可添加到控制中心 | @straight-tamago](https://github.com/straight-tamago/RespringCC/releases)
 

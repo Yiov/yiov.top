@@ -203,7 +203,7 @@ IOS 16及以上的手机不支持，官网还没有更新
 
 那我们只能通过安装轻松签+本体，然后修改权限即可
 
-下载 轻松签+_5.0：[https://www.mediafire.com/file/hu43y55914bmtwx/](https://www.mediafire.com/file/hu43y55914bmtwx/%25E8%25BD%25BB%25E6%259D%25BE%25E7%25AD%25BE%252B_5.0.0.ipa/file)
+下载 轻松签+_5.0：https://www.mediafire.com/file/hu43y55914bmtwx/
 
 ::: tip 说明
 以上的版本好像不能改了，可以安装5.0版本后自行升级
@@ -266,7 +266,7 @@ IOS 16及以上的手机不支持，官网还没有更新
 
 我们还需要一个过期的签名证书
 
-下载：https://www.123pan.com/s/3LWcVv-IlLrh.html
+下载：https://www.mediafire.com/file/l5v551bfb0qeeuj/
 
 ::: tip 说明
 没有证书，会无法签名，所以过期的也行
@@ -468,7 +468,7 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 * 已砸壳应用：[抖音](https://decrypt.day/) 「或手动砸壳 [巨魔](./TrollStore.md#砸壳dump) / [越狱](../Jailbreak/checkra1n.md#砸壳dump)」
 
-* 对应的插件：[抖音图层v1.1.9-1](https://raw.githubusercontent.com/flyX099/repo/main/debs/rootless/com.xx.dyhook_1.1.9-1_iphoneos-arm64.deb) 「作者@X大佬的[TG群](https://t.me/DouYinHook) / [仓库](https://github.com/flyX099/repo/)」
+* 对应的插件：[抖音图层dyhook.deb](https://github.com/flyX099/repo/tree/main/debs/rootless) 「作者@X大佬的[TG群](https://t.me/DouYinHook) / [仓库](https://github.com/flyX099/repo/)」
 
 
 ::: tip 有根和无根的区别
@@ -584,7 +584,16 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 输入越狱源下载，按需下载即可
 
+<div class="linkcard">
+  <a href="https://github.com/Yiov/wechat-dump/releases/tag/deb" target="_blank">
+    <p class="description">微信常用插件<br><span>按需下载</span></p>
+    <div class="logo">
+        <img alt="Logo" width="70px" height="70px" src="https://pp.myapp.com/ma_icon/0/icon_10910_1711008413/256" />
+    </div>
+  </a>
+</div>
 
+<br>
 
 <div class="linkcard">
   <a href="https://www.postbox.news/downloads" target="_blank">
@@ -596,3 +605,4 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 </div>
 
 <br>
+

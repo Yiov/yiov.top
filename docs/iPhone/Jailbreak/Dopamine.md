@@ -780,7 +780,7 @@ TG群：https://t.me/lanmaoios
 
 # 其他插件
 
-* [deb备份插件.ipa](https://www.123pan.com/s/3LWcVv-ibzrh.html)
+* [deb备份插件.ipa](https://www.mediafire.com/file/rezwz8jgltu5skz/)
 
 * [BigShot：长截图；无根越狱下arm64；需在BigBoss安装CCSupport](https://github.com/jontelang/BigShotJbSnapper3Plugin/tree/main/packages)
 

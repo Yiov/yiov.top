@@ -37,7 +37,6 @@
 
 
 
-
 * [百度云下载变态加速](../daily/baiduyun/)
 
 * [书签同步至不同浏览器](../daily/bookmark/)
@@ -50,7 +49,7 @@
 
 * [Github的注册使用到上传](../daily/github/)
 
-* [快速提取应用icon图标](../daily/icon/)
+* [提取应用icon图标](../daily/icon)
 
 * [Markdown的简单用法](../daily/markdown/)
 

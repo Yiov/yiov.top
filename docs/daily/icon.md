@@ -186,7 +186,7 @@ https://www.icloud.com/shortcuts/1e38047c04b74604a7e60f5586a3d906
 
 这里不建议折腾，[直接网页提取即可](#ios)，非要折腾
 
-先下载安装好 [轻松签](../../iPhone/sign/esign.md)，以 iBox 为例
+先下载安装好 [轻松签](../iPhone/sign/esign.md)，以 iBox 为例
 
 下载：https://www.mediafire.com/file/o3x8js5vb2xhrdy/
 

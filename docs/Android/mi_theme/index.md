@@ -16,7 +16,7 @@
 
 
 
-* [shizuku](https://www.coolapk.com/apk/moe.shizuku.privileged.api)
+* [shizuku](https://mp.weixin.qq.com/s/JaqXB3xa8oHzQF5iumbt2w)
 
 * [安装狮](https://dzp.lanzouy.com/iaXS70hr297i)
 
@@ -61,9 +61,9 @@
 ## 2.安装工具
 
 
-* 下载安装 shizuku：[https://www.coolapk.com/apk/moe.shizuku.privileged.api](https://www.coolapk.com/apk/moe.shizuku.privileged.api)
+* 下载安装 shizuku：https://mp.weixin.qq.com/s/JaqXB3xa8oHzQF5iumbt2w
 
-* 下载安装 安装狮：[https://dzp.lanzouy.com/iaXS70hr297i](https://dzp.lanzouy.com/iaXS70hr297i)
+* 下载安装 安装狮：https://dzp.lanzouy.com/iaXS70hr297i
 
 ::: tip 说明
 主要是通过他们来安装 主题(国内版/国际版)
@@ -120,9 +120,9 @@
 
 
 
-* 下载小米商店国际版：[https://dzp.lanzouy.com/i0MXx0hr29gh](https://dzp.lanzouy.com/i0MXx0hr29gh)
+* 下载小米商店国际版：https://dzp.lanzouy.com/i0MXx0hr29gh
 
-* 下载小米商店国内版：[https://dzp.lanzouy.com/ieYxo0hr29ij](https://dzp.lanzouy.com/ieYxo0hr29ij)
+* 下载小米商店国内版：https://dzp.lanzouy.com/ieYxo0hr29ij
 
 
 

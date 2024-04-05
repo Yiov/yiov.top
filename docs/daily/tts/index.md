@@ -29,7 +29,7 @@
 
 打开谷歌商店，搜索：`tts`
 
-[https://chrome.google.com/webstore/category/extensions](https://chrome.google.com/webstore/category/extensions)
+https://chrome.google.com/webstore/category/extensions
 
 ::: warning 注意
 需 [科学上网](../../gfw/proxy) 才可打开谷歌插件商店
@@ -40,7 +40,7 @@
 ::: tip 说明
 或 直接用我打包好的插件，下载解压拖入浏览器安装
 
-蓝奏云：[https://dzp.lanzouk.com/iwHgE1192tud](https://dzp.lanzouk.com/iwHgE1192tud)
+蓝奏云：https://dzp.lanzouk.com/iwHgE1192tud
 
 注：chrome和Edge需要在拓展里打开 `开发者工具` 开关
 :::

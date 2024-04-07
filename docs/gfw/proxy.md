@@ -5,37 +5,95 @@
 
 ## 简介
 
-想要翻墙看外面的世界，工具必不可少
+科学上网，也就是常说的 翻墙 / 梯子，都是一个意思
 
-不推荐使用任何VPN以及破解的VPN，因为会被监管审计，小心说错话被请去喝茶
+
+::: tip 什么是墙
+墙，即防火长城，英文名Great Firewall of China，简称 Great Firewall ，缩写 `GFW`
+
+* 目的：便于分析和过滤中国境外网络的信息
+
+* 方式：国家会对所有国际网关通讯进行监督审查，对认为不符合国家的内容进行干扰、阻断、屏蔽
+:::
+
+
+
+
+
+::: warning 翻墙是否违法
+违法，根据《计算机信息网络国际联网管理暂行规定》第6条：计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。任何单位和个人不得自行建立或者使用其他信道进行国际联网。
+
+* 行政处罚：警告和罚款，常见于浏览非法网站
+
+* 刑事处罚：有期徒刑或拘役并处罚金，常见于兜售VPN、代搭建翻墙环境等非法获利，以及造谣抹黑国家等等
+:::
+
+
+
+
+
+:::: danger 到底能不能翻墙
+能，是否违法取决于使用者本人
+
+* 目的单一：大多数人翻墙仅是浏览文献、油管、推特、INS、Tiktok等，是可以的
+
+* 目的复杂：售卖VPN获利、抹黑造谣国家、鼓动宣传分裂思想、网络赌博等，都是吃牢饭的
+
+::: details 为什么明星可以注册国外账号并更新动态
+1.明星经纪的公司办理了使用国际出入口信道的手续
+
+2.明星人在国外
+
+3.明星也使用了代理工具
+:::
+::::
+
+
 
 
 
 ## 工具
 
-请根据自己的设备，下载相应的客户端
+::: tip 关于 VPN 与 代理工具
+推荐使用列出的代理工具，不推荐使用任何VPN以及破解的VPN
 
-::: tip 说明
-苹果美区应用需要美区苹果账号，没有可以 [自行注册](../iPhone/Apple_ID.md) 一个
+* VPN：点击连接即可使用，自带节点，但是会被国家审计，说错话可能要请去喝茶
 
-* 苹果推荐：[小火箭](#iphone)
+* 代理工具：需要自备节点，导入后方可使用，部分提供节点的机场可以绕过审计
 
-* 安卓推荐：[Clash](#android)
 :::
 
-### iPhone
 
-* [Shadowrocket·小火箭：美区$5.99 点我查看教程⭐](#苹果使用)
+
+请根据自己的设备，下载相应的客户端
+
+
+
+:::: details iPhone
+
+::: tip 说明
+苹果美区应用需要 [自行注册一个美区苹果账号](../iPhone/Apple_ID.md)
+:::
+
+
+
+* [Shadowrocket·小火箭：美区$5.99 丨 点我查看教程⭐](#苹果使用)
 
 * [QuantumultX·圈X：美区$7.99](https://apps.apple.com/us/app/quantumult-x/id1443988620)
 
-* [Surge](https://apps.apple.com/us/app/id1442620678)
-
 * [Loon：美区$5.99](https://apps.apple.com/us/app/loon/id1373567447)
+
+* [Stash：美区$3.99](https://apps.apple.com/us/app/stash-proxy-utility/id1596063349)
 
 * [Choc：美区$2.99](https://apps.apple.com/us/app/choc/id1582542227)
 
-* [Stash：美区$3.99](https://apps.apple.com/us/app/stash-proxy-utility/id1596063349)
+
+
+
+---
+
+
+* [Surge](https://apps.apple.com/us/app/id1442620678)
 
 * [sing-box](https://apps.apple.com/us/app/sing-box/id6451272673)
 
@@ -49,13 +107,16 @@
 
 * [Upnet：每天签到免费15分钟](https://apps.apple.com/us/app/vpn-upnetvpn/id1532190618)
 
-
----
-
-### Android
+::::
 
 
-* [Clash：小猫咪，作者@Kr328关库的备份 点我查看教程⭐](#安卓使用)
+
+
+
+::: details Android
+
+
+* [Clash：小猫咪，作者@Kr328关库的备份 丨 点我查看教程⭐](#安卓使用)
 
 * [V2rayN](https://github.com/2dust/v2rayNG/releases)
 
@@ -67,12 +128,14 @@
 
 * [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)
 
-
----
-
+:::
 
 
-### Window
+
+
+
+
+:::: details Window
 
 
 * [Clash：作者@Fndroid关库的备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW)
@@ -112,10 +175,13 @@
 
 * [浏览器插件·iGG谷歌学术助手.crx](https://dzp.lanzouy.com/igSY9xk2asd)
 
+::::
 
----
 
-### Mac
+
+
+
+::: details Mac
 
 
 * [ClashX：作者@yichengchen关库的备份](https://www.clash.la/archives/750/)
@@ -130,8 +196,9 @@
 
 * [karing](https://karing.app/)
 
+:::
 
----
+
 
 
 
@@ -140,6 +207,8 @@
 
 
 本次仅演示手机端的使用
+
+---
 
 
 

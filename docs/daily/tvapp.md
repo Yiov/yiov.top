@@ -258,8 +258,10 @@ adb shell
 
 ```sh
 setprop persist.tcl.installapk.enable 1
+
 shell setprop persist.tcl.debug.installapk 1
-exit #退出，弄完一点要退出来
+
+exit #退出，弄完一定要退出来
 ```
 
 ![](/tvapp/tvapp-32.png)

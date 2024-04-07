@@ -164,9 +164,12 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 
 再次打开 TrollInstallerX ，会根据系统自动提供方案
 
-* OTA安装：直接通过程序安装 (我点击空白处跳过了)
+::: tip 安装方式
 
-* 沙盒安装：MDC或者KFD漏洞，点击 `Unsandbox`
+* TrollHelperOTA：[OTA安装的教程](#trollhelperota)
+
+* Unsandboxing：沙盒安装，通过利用MDC或者KFD漏洞安装
+:::
 
 ![](/TrollStore/TrollInstallerX/TrollInstallerX-12.png)
 
@@ -175,12 +178,12 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 
 ![](/TrollStore/TrollInstallerX/TrollInstallerX-13.png)
 
-然后让我们选择一个 `Persistence Helper` ，即持久性助手，我就直接选了 `Tips`
+选择一个 `Persistence Helper` ，即持久性助手，我就直接选了 `Tips`
 
 等待安装完成，过程顺滑速度飞快
 
-::: details 无法安装报错 Error
-需要翻墙，[科学上网工具及使用方法](../../gfw/channel)
+::: details 无法安装报错 Failed to get kernel
+可能需要翻墙，[科学上网工具及使用方法](../../gfw/channel)
 :::
 
 ![](/TrollStore/TrollInstallerX/TrollInstallerX-14.png)
@@ -188,6 +191,11 @@ TrollInstallerX 就安装成功了，但是还打不开，要信任一下
 
 手机桌面巨魔安装成功，可以直接看 [巨魔界面介绍](#界面介绍)
 
+::: tip 桌面没有巨魔
+常见于iOS 16的KFD漏洞，需要通过注入系统程序来安装
+
+如果你选了 `Tips` ，打开提示APP，它会变身成巨魔安装器，点 `Insatll TrollStore` 安装巨魔即可
+:::
 
 ![](/TrollStore/TrollInstallerX/TrollInstallerX-15.png)
 

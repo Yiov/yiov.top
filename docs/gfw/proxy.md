@@ -1,6 +1,6 @@
-# 科学上网工具及使用
+# 科学上网工具介绍
 
-> 更新时间：2024-3-5
+> 更新时间：2024-4-16
 
 
 ## 简介
@@ -65,232 +65,37 @@
 
 
 
-请根据自己的设备，下载相应的客户端
-
-
-
-:::: details iPhone
-
-::: tip 说明
-苹果美区应用需要 [自行注册一个美区苹果账号](../iPhone/Apple_ID.md)
+::: warning 推荐使用：带 ⭐ 的有教程
+工具很多，不必都会，选其一即可
 :::
 
+| 名称 | iOS | Android | Windows | Mac | Linux |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| ⭐ [Shadowrocket<br>小火箭](./shadowrocket.md)<br>$2.99 | [iOS端](https://apps.apple.com/us/app/shadowrocket/id932747118) | ✘ | ✘ | ✘ | ✘ |
+| ⭐ [QuantumultX<br>圈X](./quantumultX.md)<br>$7.99 | [iOS端](https://apps.apple.com/us/app/quantumult-x/id1443988620) | ✘ | ✘ | [Mac端](https://apps.apple.com/us/app/quantumult-x/id1443988620) | ✘ |
+| [Loon](https://nsloon.com/)<br>$5.99 | [iOS端](https://apps.apple.com/us/app/loon/id1373567447) | ✘ | ✘ | ✘ | ✘ |
+| [Stash](https://stash.ws/)<br>$3.99 | [iOS端](https://apps.apple.com/us/app/stash-proxy-utility/id1596063349) | ✘ | ✘ | [Mac端](https://stash.ws/macos/pricing/) | ✘ |
+| [Surge](https://nssurge.com/) | [iOS端](https://apps.apple.com/us/app/id1442620678) | ✘ | ✘ | [Mac端](https://nssurge.com/) | ✘ |
+| [sing-box](https://sing-box.sagernet.org/) | [iOS端](https://apps.apple.com/us/app/sing-box/id6451272673) | [安卓端](https://github.com/SagerNet/sing-box/releases) | [PC端](https://github.com/SagerNet/sing-box/releases) | [Mac端](https://github.com/SagerNet/sing-box/releases) | [Linux端](https://github.com/SagerNet/sing-box/releases) |
+| [Karing](https://karing.app/) | [iOS端](https://apps.apple.com/us/app/karing/id6472431552) | [安卓端](https://github.com/KaringX/karing/releases) | [PC端](https://github.com/KaringX/karing/releases) | [Mac端](https://apps.apple.com/us/app/karing/id6472431552) | ✘ |
+| Potatso| [iOS端](https://apps.apple.com/us/app/id1239860606) | ✘ | ✘ | ✘ | ✘ |
+| [OneClick](https://oneclick.earth/)| [iOS端](https://apps.apple.com/us/app/id1545555197) | [安卓端](https://oneclick.earth/) | ✘ | ✘ | ✘ |
+| [Spectre](https://proxy.spectreapp.xyz/) | [iOS端](https://apps.apple.com/app/spectre-vpn/id1508712998) | ✘ | ✘ | ✘ | ✘ |
+| [Wireguard](https://www.wireguard.com/) | [iOS端](https://apps.apple.com/us/app/wireguard/id1441195209) | [安卓端](https://www.wireguard.com/install/) | [PC端](https://www.wireguard.com/install/) | [Mac端](https://apps.apple.com/us/app/wireguard/id1451685025) | [Linux端](https://www.wireguard.com/install/) |
+| |
+| ⭐ [Clash<br>小猫咪](./Clash.md) | [Stash](https://stash.ws/) | [安卓端](https://github.com/Yiov/Clash_For_Android/releases) | [PC端](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW) | [Mac](./Clash.md#其他软件) | ✘ |
+| V2ray | ✘ | [安卓端](https://github.com/2dust/v2rayNG/releases) | [PC端](https://github.com/2dust/v2rayN/releases) | [Mac端](https://github.com/yanue/V2rayU/releases) | ✘ |
+| Shadowsocks<br>SS | ✘ | [安卓端](https://github.com/shadowsocks/shadowsocks-android/releases) | [PC端](https://github.com/shadowsocks/shadowsocks-windows/releases) | [Mac端](https://github.com/shadowsocks/ShadowsocksX-NG/releases/) | ✘ |
+| shadowsocksr<br>SSR | ✘ | [安卓端](https://github.com/shadowsocksrr/shadowsocksr-android/releases) | [PC端](https://github.com/shadowsocksr-rm/shadowsocksr-csharp/releases) | ✘ | ✘ |
+| [Surfboard](https://getsurfboard.com/)<br>冲浪板 | ✘ | [安卓端](https://github.com/getsurfboard/surfboard/releases/) | ✘ | ✘ | ✘ |
+| [NekoBox](https://matsuridayo.github.io/) | ✘ | [安卓端](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) | [PC端](https://github.com/MatsuriDayo/nekoray/releases) | ✘ | [Linux端](https://github.com/MatsuriDayo/nekoray/releases) |
+| |
+| [passwall2](https://github.com/xiaorouji/openwrt-passwall2/releases)<br>OpenWrt软路由 | ✘ | ✘ | ✘ | [Mac端](https://github.com/keiko233/clash-nyanpasu/releases) | ✘ |
 
 
-* [Shadowrocket·小火箭：美区$5.99 丨 点我查看教程⭐](#苹果使用)
 
-* [QuantumultX·圈X：美区$7.99](https://apps.apple.com/us/app/quantumult-x/id1443988620)
 
-* [Loon：美区$5.99](https://apps.apple.com/us/app/loon/id1373567447)
 
-* [Stash：美区$3.99](https://apps.apple.com/us/app/stash-proxy-utility/id1596063349)
-
-* [Choc：美区$2.99](https://apps.apple.com/us/app/choc/id1582542227)
-
-
-
-
----
-
-
-* [Surge](https://apps.apple.com/us/app/id1442620678)
-
-* [sing-box](https://apps.apple.com/us/app/sing-box/id6451272673)
-
-* [karing](https://karing.app/)
-
-* [Potatso Lite](https://apps.apple.com/us/app/id1239860606)
-
-* [OneClick](https://apps.apple.com/us/app/id1545555197)
-
-* [Spectre](https://apps.apple.com/app/spectre-vpn/id1508712998)
-
-* [Upnet：每天签到免费15分钟](https://apps.apple.com/us/app/vpn-upnetvpn/id1532190618)
-
-::::
-
-
-
-
-
-::: details Android
-
-
-* [Clash：小猫咪，作者@Kr328关库的备份 丨 点我查看教程⭐](#安卓使用)
-
-* [V2rayN](https://github.com/2dust/v2rayNG/releases)
-
-* [Shadowsocks](https://github.com/shadowsocks/shadowsocks-android/releases)
-
-* [surfboard：冲浪板](https://github.com/getsurfboard/surfboard/releases/)
-
-* [shadowsocksr：SSR](https://github.com/shadowsocksrr/shadowsocksr-android/releases)
-
-* [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)
-
-:::
-
-
-
-
-
-
-:::: details Window
-
-
-* [Clash：作者@Fndroid关库的备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW)
-
-::: details Clash使用说明
-使用方法：
-1.配置-粘贴订阅链接-下载;
-2.常规-打开系统代理;
-3.代理-选择节点
-:::
-
-* [Clash汉化补丁_作者@BoyceLig关库的备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW-V0.20.39_CN)
-
-::: details Clash汉化说明
-下载对应版本的app.asar文件，替换resources\app.asar中的文件
-:::
-
-* [Shadowsocks](https://github.com/shadowsocks/shadowsocks-windows/releases)
-
-::: details Shadowsocks使用说明
-使用方法：右键状态栏-服务器-从剪切板导入；系统代理-勾选PAC模式
-:::
-
-* [V2rayN](https://github.com/2dust/v2rayN/releases)
-
-* [shadowsocksr：SSR](https://github.com/shadowsocksr-rm/shadowsocksr-csharp/releases)
-
-* [Nekoray：window端64位](https://github.com/MatsuriDayo/nekoray/releases)
-
-* [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases)
-
-* [karing](https://karing.app/)
-
-* [NekoRay](https://github.com/MatsuriDayo/nekoray/releases)
-
-* [浏览器插件·Hoxx VPN.crx](https://dzp.lanzouy.com/ih2uz052glwh)
-
-* [浏览器插件·iGG谷歌学术助手.crx](https://dzp.lanzouy.com/igSY9xk2asd)
-
-::::
-
-
-
-
-
-::: details Mac
-
-
-* [ClashX：作者@yichengchen关库的备份](https://www.clash.la/archives/750/)
-
-* [V2rayU](https://github.com/yanue/V2rayU/releases)
-
-* [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases/)
-
-* [Surge：需科学上网才可打开](http://nssurge.com/)
-
-* [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases)
-
-* [karing](https://karing.app/)
-
-:::
-
-
-
-
-
-
-## 使用
-
-
-本次仅演示手机端的使用
-
----
-
-
-
-### 苹果使用
-
-
-美区苹果商店，下载安装 [小火箭 shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118) 来演示
-
-::: details 关于小火箭安装方式
-* 付费方式：需 [注册美区Apple ID](../iPhone/Apple_ID.md) 且购买后下载使用
-
-* 免费方式1：安装 [巨魔助手](../iPhone/sign/TrollStore.md) ，下载 [小火箭巨魔专用版](https://pan.liuchengxi.com/%E5%9B%BD%E5%A4%96%E5%BA%94%E7%94%A8/Shadowrocket) ，用巨魔安装使用
-
-* 免费方式2：借别人购买过小火箭的账号，登录下载
-:::
-
-找一个免费送流量的机场注册，点击 `一键订阅`
-
-::: tip 说明
-以下截图机场仅为演示
-
-更多免费好用机场，请查看 [机场channel大全一览表](./channel.md)
-:::
-
-![](/proxy/proxy-01.png)
-
-选择对应的工具，我这里选 `shadowrocket`，跳转后点右上角保存
-
-::: details 没有跳转到小火箭
-点复制订阅地址，打开小火箭，右上角+号添加保存即可
-
-![](/proxy/proxy-03.png)
-:::
-
-![](/proxy/proxy-02.png)
-
-设置 - 延迟测试方法，改成 `CONNECT`
-
-::: tip 说明
-这一步虽然不是非必要的，但是是一个查看网络延迟的重要参考
-:::
-
-![](/proxy/proxy-04.png)
-
-点击 `连通性测试` 选择延迟低的，打开开关，上 [谷歌](https://www.google.com/) 看看是否成功
-
-![](/proxy/proxy-05.png)
-
-
-::: details 关于节点
-* 垃圾节点打开就很慢的，无解
-
-* 如果节点是中国香港，那么谷歌只能用 https://www.google.hk/
-:::
-
-
----
-
-
-### 安卓使用
-
-
-安卓下载安装 [小猫咪 Clash](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFA) 来演示
-
-找一个免费送流量的机场注册，点击 `一键订阅`
-
-::: tip 说明
-以下截图机场仅为演示
-
-更多免费好用机场，请查看 [机场channel大全一览表](./channel.md)
-:::
-
-
-![](/proxy/proxy-06.png)
-
-自动跳转过来保存即可，不能跳转的，手动复制填写，返回启动
-
-![](/proxy/proxy-07.png)
-
-访问谷歌，成功即可，打不开说明节点不行，换机场
-
-![](/proxy/proxy-08.png)
 
 
 

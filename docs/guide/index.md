@@ -4,11 +4,15 @@
 
 ## 科学上网
 
+* [科学上网工具「必看」](../gfw/proxy)
+
+* [小火箭](../gfw/shadowrocket)
+
 * [圈X上手教程](../gfw/quantumultX)
 
 * [BoxJS的安装](../gfw/boxjs)
 
-* [科学上网工具及使用](../gfw/proxy)
+* [Clash](../gfw/Clash)
 
 * [机场channel大全一览表](../gfw/channel)
 
@@ -164,7 +168,7 @@
 
 * [Socks5的搭建](../website/socks5/)
 
-* [cloudflare注册使用](../website/cloudflare/)
+* [cloudflare注册使用](../website/cloudflare)
 
 * [各类主题/模板/源码汇总](../website/source/)
 

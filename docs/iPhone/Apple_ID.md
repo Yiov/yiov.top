@@ -3,17 +3,24 @@
 > 更新时间：2022-10-15
 
 
-步骤其实很简单：正常注册 - 切换地区- 完成
+## 简介
 
+当你下载 [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118) 等翻墙工具，就需要额外注册一个美区的Apple ID账号
+
+毕竟国内的 AppStoe 不可能上架
 
 成品展示，借号/买号不求人
+
+::: tip 简要步骤
+正常注册 - 切换地区- 完成
+:::
 
 ![](/appleid/appleid-01.png)
 
 
 
 
-## 准备工作
+## 准备
 
 * 新邮箱账号 1个
 
@@ -23,11 +30,10 @@
 
 
 
-## 1.注册账号
+## 注册
 
 
-
-苹果ID官网：[https://appleid.apple.com/](https://appleid.apple.com/)
+苹果ID官网：https://appleid.apple.com/
 
 
 浏览器进苹果ID官网 `创建你的Apple ID`
@@ -57,7 +63,7 @@
 
 
 
-## 2.更改地区
+## 更改地区
 
 
 个人信息 - 国家或地区 - 更改国家或地区
@@ -137,7 +143,7 @@
 
 
 
-## 3.登录
+## 登录使用
 
 
 一定要登录一次！！！打开App store 右上头像 - 输入账号登录
@@ -166,14 +172,12 @@ OK了，现在在应用商店，下载你想要的APP即可
 
 
 
-## 4.拓展：充值
+## 充值(可选)
 
 
-推荐：支付宝直接购买
+直接支付宝购买兑换码即可，不想花钱买应用的无视
 
-> 不想花钱买App的可以不用充值
-
-::: details 其他购买途径
+::: details 其他购买途径(不推荐)
 
 * 闲鱼搜：美国礼品卡、itune实体卡
 
@@ -190,6 +194,11 @@ OK了，现在在应用商店，下载你想要的APP即可
 
 购买完成后，打开应用商店 - 头像 - Redeem Gift Card - 底部输入兑换码
 
+::: details 提示报错
+若提示：Error:This code has already been redeemed
+
+兑换码已经被用过了，找店家换
+:::
 
 
 ![](/appleid/appleid-22.png)
@@ -197,11 +206,6 @@ OK了，现在在应用商店，下载你想要的APP即可
 
 ![](/appleid/appleid-23.png)
 
-::: details 提示报错
-若提示：Error:This code has already been redeemed
-
-兑换码已经被用过了，找店家换
-:::
 
 
 
@@ -233,9 +237,8 @@ OK了，现在在应用商店，下载你想要的APP即可
 #### 5.如何关闭双重认证
 
 
-苹果处于安全考虑，已经开启的无法再关闭了
+苹果处于安全考虑，已经开启的无法再关闭了，[苹果社区官方解释](https://discussionschinese.apple.com/thread/251920584)
 
-苹果社区问答原链接 [☛点我](https://discussionschinese.apple.com/thread/251920584)
 
 
 #### 6.如何注销账户

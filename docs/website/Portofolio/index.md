@@ -281,7 +281,7 @@ export default {
 
 作者这里添加了一个emoji，我们可以自己替换
 
-emojiXD：https://emojixd.com/
+emoji大全：https://emoji6.com/emojiall/
 
 
 ```vue

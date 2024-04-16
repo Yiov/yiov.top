@@ -52,10 +52,16 @@ export default defineConfig({
         //分组标题1
         text: '科学上网',
         items: [
-          { text: '圈X上手教程', link: '/gfw/quantumultX' },
-          { text: 'BoxJS的安装', link: '/gfw/boxjs' },
-          { text: '科学上网工具及使用', link: '/gfw/proxy' },
-          { text: '机场channel大全一览表', link: '/gfw/channel' },
+          { text: '工具', 
+            collapsed: true,
+            items: [
+              { text: '圈X', link: '/gfw/quantumultX' },
+              { text: 'BoxJS', link: '/gfw/boxjs' },
+              { text: '小火箭', link: '/gfw/shadowrocket' },
+              { text: 'Clash', link: '/gfw/Clash' },
+            ],
+          },
+          { text: '机场 (节点)', link: '/gfw/channel' },
         ],
       },
       {
@@ -202,7 +208,7 @@ export default defineConfig({
               { text: 'Centos系统切换图形界面', link: '/website/Centos/' },
               { text: '浅谈内网穿透', link: '/website/NAT/' },
               { text: 'Socks5的搭建', link: '/website/socks5/' },
-              { text: 'cloudflare注册使用', link: '/website/cloudflare/' },
+              { text: 'Cloudflare注册及使用', link: '/website/cloudflare' },
               { text: '各类主题/模板/源码汇总 ', link: '/website/source/' },
             ],
           },

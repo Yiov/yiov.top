@@ -1,0 +1,83 @@
+# 小火箭安装及使用
+
+
+> 更新时间：2024-4-10
+
+## 简介
+
+Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于它的LOGO：小火箭
+
+::: tip 说明
+* 主要作用：根据支持的协议实现代理翻墙、规则分流
+
+* 支持协议：Shadowsocks(SS)、ShadowsocksR(SSR)、VMess(V2Ray)、VLESS(Xray)、Trojan等
+:::
+
+[非官网](https://www.shadowrocket.vip/) (官方没有官网) 丨 [TG群](https://t.me/ShadowrocketApp) 丨 [推特(X)](https://twitter.com/shadowrocketapp)
+
+![](/shadowrocket/shadowrocket-01.png)
+
+
+## 安装
+
+
+### 付费安装
+
+- 先 [注册美区Apple ID](../iPhone/Apple_ID.md) 后登陆美区苹果商店
+
+- 然后充值后购买 [小火箭 shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118) 下载安装
+
+
+
+### 免费安装
+
+- 借别人购买过小火箭的账号，登录下载安装
+
+- 或安装 [巨魔助手](../iPhone/sign/TrollStore.md) ，下载 [小火箭巨魔专用版](https://pan.liuchengxi.com/%E5%9B%BD%E5%A4%96%E5%BA%94%E7%94%A8/Shadowrocket) ，用巨魔安装
+
+
+![](/shadowrocket/shadowrocket-02.png)
+
+
+
+## 使用
+
+找一个免费送流量的机场注册，点击 `一键订阅`
+
+::: tip 说明
+以下截图机场仅为演示
+
+更多免费好用机场，请查看 [机场channel大全一览表](./channel.md)
+:::
+
+![](/shadowrocket/shadowrocket-03.png)
+
+选择对应的工具，我这里选 `shadowrocket`，跳转后点右上角保存
+
+::: details 没有跳转到小火箭
+点复制订阅地址，打开小火箭，右上角+号添加保存即可
+
+![](/shadowrocket/shadowrocket-04.png)
+:::
+
+![](/shadowrocket/shadowrocket-05.png)
+
+设置 - 延迟测试方法，改成 `CONNECT`
+
+::: tip 说明
+这一步虽然不是非必要的，但是是一个查看网络延迟的重要参考
+:::
+
+![](/shadowrocket/shadowrocket-06.png)
+
+点击 `连通性测试` 选择延迟低的，打开开关，上 [谷歌](https://www.google.com/) 看看是否成功
+
+::: details 谷歌打不开
+* 节点拉垮：换节点或机场
+
+* 台湾节点：国内是屏蔽的，只能用谷歌香港 https://www.google.com.hk/
+:::
+
+![](/shadowrocket/shadowrocket-07.png)
+
+

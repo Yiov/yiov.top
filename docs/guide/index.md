@@ -4,17 +4,21 @@
 
 ## 科学上网
 
-* [科学上网工具「必看」](../gfw/proxy)
+* [工具「必看」](../gfw/proxy)
 
-* [小火箭](../gfw/shadowrocket)
+    * [圈X](../gfw/quantumultX)
 
-* [圈X上手教程](../gfw/quantumultX)
+    * [BoxJS](../gfw/boxjs)
 
-* [BoxJS的安装](../gfw/boxjs)
+    * [小火箭](../gfw/shadowrocket)
 
-* [Clash](../gfw/Clash)
+    * [Clash](../gfw/Clash)
 
-* [机场channel大全一览表](../gfw/channel)
+    * [WARP](../gfw/warp)
+
+    * [WARP](../gfw/wireguard)
+
+* [机场 (节点)](../gfw/channel)
 
 
 

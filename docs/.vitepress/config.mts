@@ -55,10 +55,13 @@ export default defineConfig({
           { text: '工具', 
             collapsed: true,
             items: [
+              { text: '使用介绍(必看)', link: '/gfw/proxy' },
               { text: '圈X', link: '/gfw/quantumultX' },
               { text: 'BoxJS', link: '/gfw/boxjs' },
               { text: '小火箭', link: '/gfw/shadowrocket' },
               { text: 'Clash', link: '/gfw/Clash' },
+              { text: 'WARP', link: '/gfw/warp' },
+              { text: 'WireGuard', link: '/gfw/wireguard' },
             ],
           },
           { text: '机场 (节点)', link: '/gfw/channel' },

@@ -92,8 +92,7 @@ https://shz.al/cCNj
 
 2.爬虫搜索
 
-* ~~[FOFA搜索引擎](https://fofa.so/)(凉了)~~
-
+* [FOFA搜索引擎](https://fofa.info/)
 
 * [zoomeye 钟馗之眼](https://www.zoomeye.org/)「需注册账号」
 

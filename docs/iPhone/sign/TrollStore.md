@@ -681,7 +681,7 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 | [轻松签](./esign.md) | 多开软件必备，可添加移除插件 | 🟢 |
 | [AppsDump2](https://www.mediafire.com/file/pu75onrrz0hdej3/) | 巨魔非全权限砸壳/虚拟定位<br>[TG群](https://t.me/gblwjb) | 🟢 |
 | [Copylog](https://havoc.app/package/copylogts) | 系统键盘最强剪切板插件<br>下滑到底部查看破解教程 | 🟢 |
-| [DowngradeApp](https://www.mediafire.com/file/dvyxb4tvutx1f0x/) | 无广告<br>App随意升降级无广告 | 🟢 |
+| [DowngradeApp](https://www.mediafire.com/file/dvyxb4tvutx1f0x/) | 无广告<br>App随意升降级无广告<br>一键切换AppStore账号 | 🟢 |
 | [Filza](https://www.tigisoftware.com/default/?p=439) | 文件管理器<br>[@巨魔e族破解v4.0_刀刀汉化版](https://www.mediafire.com/file/jwcsx875fmz9kep/) | 🟢 |
 | LocSim | 1.先装 [虚拟定位v1.3.7授权版](https://www.mediafire.com/file/qwdgdnvek84xb83/)<br>2.后装 [虚拟定位v1.4.1可搜索版](https://www.mediafire.com/file/0pfhnyv3twnw3f6/) | 🟢 |
 | [TrollRecorder](https://github.com/Lessica/TrollRecorder/releases) | 巨魔录音机，即通话录音 | 🟢 |

@@ -16,7 +16,9 @@
 
     * [WARP](../gfw/warp)
 
-    * [WARP](../gfw/wireguard)
+    * [WireGuard](../gfw/wireguard)
+
+    * [NekoBox](../gfw/NekoBox)
 
 * [机场 (节点)](../gfw/channel)
 

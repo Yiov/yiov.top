@@ -1,6 +1,6 @@
 # WireGuard使用及优选IP
 
-> 更新时间：2024-4-23
+> 更新时间：2024-4-24
 
 
 
@@ -11,6 +11,15 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 官网：https://www.wireguard.com/
 
 ![](/wireguard/wireguard.png)
+
+
+
+## 准备工作
+
+* [TG账号](../telegram/tg/) 「必备」
+
+* [Apple ID美区苹果账号](../iPhone/Apple_ID.md) 「iOS准备」
+
 
 
 

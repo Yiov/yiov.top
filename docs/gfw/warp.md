@@ -1,6 +1,6 @@
 # WARP安装及使用
 
-> 更新时间：2024-4-17
+> 更新时间：2024-4-24
 
 ## 简介
 
@@ -18,9 +18,11 @@ WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比
 
 ## 准备工作
 
-* [Apple ID美区苹果账号](../iPhone/Apple_ID.md)
+* [TG账号](../telegram/tg/) 「必备」
 
-* [注册TG账号](../telegram/tg/)
+* [Apple ID美区苹果账号](../iPhone/Apple_ID.md) 「iOS准备」
+
+
 
 
 
@@ -45,8 +47,14 @@ WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比
 
 按键 - 更改密钥，我们去tg上免费获取
 
-::: details 为什么要去获取
-普通用户每月仅1G流量，需要自己刷邀请，非常麻烦，不如直接找现成的
+::: details 登录到 Cloudflare Zero Trust 是什么
+WARP账户分为三种：warp、warp+、zero trust
+
+* warp：免费版，拉新可获得有限的Warp+流量
+
+* Warp+：付费订阅版，无限流量
+
+* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费
 :::
 
 ![](/warp/ios/ios-04.png)
@@ -121,8 +129,14 @@ WARP - 账户 - 按键
 
 进入机器人对话，点开始
 
-::: details 为什么要去获取
-普通用户每月仅1G流量，需要自己刷邀请，非常麻烦，不如直接找现成的
+::: details 登录到 Cloudflare Zero Trust 是什么
+WARP账户分为三种：warp、warp+、zero trust
+
+* warp：免费版，拉新可获得有限的Warp+流量
+
+* Warp+：付费订阅版，无限流量
+
+* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费
 :::
 
 ![](/warp/android/android-04.png)
@@ -200,8 +214,15 @@ WARP - 账户 - 按键
 
 进入机器人对话，点开始
 
-::: details 为什么要去获取
-普通用户每月仅1G流量，需要自己刷邀请，非常麻烦，不如直接找现成的
+
+::: details 登录到 Cloudflare Zero Trust 是什么
+WARP账户分为三种：warp、warp+、zero trust
+
+* warp：免费版，拉新可获得有限的Warp+流量 【麻烦，需用脚本刷】
+
+* Warp+：付费订阅版，无限流量 【方便，直接Tg获取】
+
+* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费
 :::
 
 ![](/warp/windows/windows-06.png)
@@ -284,10 +305,24 @@ WARP是使用的wireguard协议，那么我们可以使用 [WireGuard客户端�
 
 由于WARP代理就是全局代理，访问国内网页延迟高。可以打开谷歌，却打不开百度
 
-需要借助第三方客户端 [NekoBox](https://matsuridayo.github.io/) 实现
+* 安卓/电脑端：第三方客户端 [NekoBox](./NekoBox.md) 实现
+
+* iOS端：没有
 
 :::
 
 
 
 
+## 常见问题
+
+
+#### 密钥填不上去，提示无效
+
+是否出现有这种情况：
+
+* 直接退出了WARP+密钥账号
+
+* 应用的设备ID都是0
+
+解决：挂个梯子进应用，激活新的普通密钥即可

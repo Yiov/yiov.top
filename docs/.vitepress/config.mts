@@ -62,6 +62,7 @@ export default defineConfig({
               { text: 'Clash', link: '/gfw/Clash' },
               { text: 'WARP', link: '/gfw/warp' },
               { text: 'WireGuard', link: '/gfw/wireguard' },
+              { text: 'NekoBox', link: '/gfw/NekoBox' },
             ],
           },
           { text: '机场 (节点)', link: '/gfw/channel' },

@@ -36,12 +36,26 @@ CDN 的全称是 Content Delivery Network，即内容分发网络
 
 
 
+
+
+
+
+
+
+
+
 ## 使用
 
 Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，但体验上稍微差点，这里先不演示
 
 
-## CDN加速
+
+
+
+
+
+
+:::: details CDN加速
 
 ::: tip 说明
 仅演示下Github Page的步骤，服务器步骤也差不多
@@ -52,15 +66,14 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 :::
 
 
-
-### 准备域名
+#### 准备域名
 
 需要自己先准备 [一个域名 或 自定二级域名](../website/githubpage/index.md#_3-访问及自定义域名) ，Github Pages不能修改DNS
 
 ---
 
 
-### 添加解析
+#### 添加解析
 
 我是腾讯云买的域名，进控制台，添加记录
 
@@ -88,7 +101,7 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 
 ---
 
-### 添加站点
+#### 添加站点
 
 回到 cloudflare 添加站点
 
@@ -127,7 +140,7 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 
 ---
 
-### 修改DNS
+#### 修改DNS
 
 
 最后要求我们修改DNS服务器
@@ -198,18 +211,26 @@ DNS - 记录 - 将小云朵关掉，仅DNS即可
 ![](/cloudflare/cloudflare-21.png)
 
 
+::::
 
 
 
 
 
-## WARP科学上网
+
+
+
+
+
+
+
+:::: details WARP科学上网
 
 WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比传统的VPN更稳定更安全可靠
 
 ---
 
-### 创建团队
+#### 创建团队
 
 点击 `Zero Trust` 
 
@@ -279,7 +300,7 @@ WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比
 
 * QQ邮箱后缀：`@qq.com`，必须用QQ邮箱注册方可加入团队
 
-... (以此类推)
+* ... (以此类推)
 
 注：非当前填写的邮箱类型，注册将无法接收到验证码！
 :::
@@ -288,13 +309,15 @@ WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比
 
 然后要选择一个客户端，我就选 `Windows` 吧，必须要点一下！！！
 
-::: details 不小心关掉网页了在那里下载
-Zero Trust - Settings - Downloads - Download the WARP client
-:::
+不需要下载，等会我们统一使用其他客户端
 
 ![](/cloudflare/cloudflare-32.png)
 
 接下来会跳出你的团队名，点一个 `copy`，必须要点一下！！！
+
+::: details 团队名找回或修改
+Zero Trust - Settings - Custom Pages - Team domain
+:::
 
 ![](/cloudflare/cloudflare-33.png)
 
@@ -305,7 +328,7 @@ Zero Trust - Settings - Downloads - Download the WARP client
 
 ---
 
-### 1.1.1.1
+#### 1.1.1.1
 
 不管刚刚跳转的客户端是什么，都推荐使用 [1.1.1.1](https://one.one.one.one/zh-Hans/)
 
@@ -320,6 +343,10 @@ Zero Trust - Settings - Downloads - Download the WARP client
 ![](/cloudflare/cloudflare-35.png)
 
 下载完成点安装
+
+::: tip 关于手机端的使用
+使用方式基本一致，是在搞不懂可以参照 [WARP的使用教程](../gfw/warp.md)
+:::
 
 ![](/cloudflare/cloudflare-36.png)
 
@@ -399,16 +426,12 @@ Zero Trust - Settings - Downloads - Download the WARP client
 
 ---
 
-### 优选IP
+#### 优选IP
 
 针对网络延迟高，我们可以通过优选一下IP来解决
 
 ::: tip 说明
 这里的优选IP是 [优选WARP](https://gitlab.com/Misaka-blog/warp-script/) ，不是 [优选Cloudflare](https://github.com/XIU2/CloudflareSpeedTest)
-
-* 优选WARP：不同的端口扫描，主要用于优化VPN访问连接
-
-* 优选Cloudflare：443端口扫描，主要用于优化网页访问速度
 :::
 
 开始前请先断开WARP以及所有VPN
@@ -417,6 +440,9 @@ Zero Trust - Settings - Downloads - Download the WARP client
 
 下载解压 [@Misaka-blog的优选WARP_Windows端](https://gitlab.com/Misaka-blog/warp-script/-/blob/main/files/warp-yxip/warp-yxip-win.7z)
 
+::: details 其他优选工具
+[@甬哥](https://github.com/yonggekkk/warp-yg) 的 [WIN端warp自选IP-v23.11.15.zip](https://raw.githubusercontent.com/yonggekkk/warp-yg/main/WIN%E7%AB%AFwarp%E8%87%AA%E9%80%89IP-v23.11.15.zip)
+:::
 
 点击 `warp-yxip.bat` 运行
 
@@ -466,3 +492,5 @@ Zero Trust - Settings - Downloads - Download the WARP client
 
 ![](/cloudflare/cloudflare-57.png)
 
+
+::::

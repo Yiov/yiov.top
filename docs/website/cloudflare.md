@@ -234,13 +234,14 @@ WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比
 
 点击 `Zero Trust` 
 
-::: tip 说明
+::: details Cloudflare WARP 账户区别
+账户分为3种：warp、warp+、zero trust
 
-* Zero Trust：无限流量，50人以内免费
+* warp：免费版(普通账户)，无限流量，拉新可获得Warp+流量，无法隐藏源IP
 
-* WARP+：无限流量，付费订阅版
+* Warp+：付费订阅版，有限流量，可以隐藏源IP
 
-* WARP：免费，每月1G，拉新获得流量
+* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费，可以隐藏源IP
 :::
 
 

@@ -47,14 +47,14 @@ WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比
 
 按键 - 更改密钥，我们去tg上免费获取
 
-::: details 登录到 Cloudflare Zero Trust 是什么
-WARP账户分为三种：warp、warp+、zero trust
+::: details Cloudflare WARP 账户区别
+账户分为3种：warp、warp+、zero trust
 
-* warp：免费版，拉新可获得有限的Warp+流量
+* warp：免费版(普通账户)，无限流量，拉新可获得Warp+流量，无法隐藏源IP
 
-* Warp+：付费订阅版，无限流量
+* Warp+：付费订阅版，有限流量，可以隐藏源IP
 
-* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费
+* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费，可以隐藏源IP
 :::
 
 ![](/warp/ios/ios-04.png)
@@ -129,14 +129,14 @@ WARP - 账户 - 按键
 
 进入机器人对话，点开始
 
-::: details 登录到 Cloudflare Zero Trust 是什么
-WARP账户分为三种：warp、warp+、zero trust
+::: details Cloudflare WARP 账户区别
+账户分为3种：warp、warp+、zero trust
 
-* warp：免费版，拉新可获得有限的Warp+流量
+* warp：免费版(普通账户)，无限流量，拉新可获得Warp+流量，无法隐藏源IP
 
-* Warp+：付费订阅版，无限流量
+* Warp+：付费订阅版，有限流量，可以隐藏源IP
 
-* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费
+* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费，可以隐藏源IP
 :::
 
 ![](/warp/android/android-04.png)
@@ -215,14 +215,14 @@ WARP账户分为三种：warp、warp+、zero trust
 进入机器人对话，点开始
 
 
-::: details 登录到 Cloudflare Zero Trust 是什么
-WARP账户分为三种：warp、warp+、zero trust
+::: details Cloudflare WARP 账户区别
+账户分为3种：warp、warp+、zero trust
 
-* warp：免费版，拉新可获得有限的Warp+流量 【麻烦，需用脚本刷】
+* warp：免费版(普通账户)，无限流量，拉新可获得Warp+流量，无法隐藏源IP
 
-* Warp+：付费订阅版，无限流量 【方便，直接Tg获取】
+* Warp+：付费订阅版，有限流量，可以隐藏源IP
 
-* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费
+* Zero Trust：Team团队版，[需自行注册Cloudflare](../website/cloudflare.md) ，无限流量，50人以内免费，可以隐藏源IP
 :::
 
 ![](/warp/windows/windows-06.png)

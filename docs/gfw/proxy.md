@@ -104,11 +104,11 @@
 | ⭐<br>[WARP](./warp.md)<br>`1.1.1.1` | 免费 | [iOS端](https://apps.apple.com/us/app/id1423538627)、[安卓端](https://one.one.one.one/zh-Hans/)、[PC端](https://one.one.one.one/zh-Hans/) | [Mac端](https://one.one.one.one/zh-Hans/)、[Linux端](https://one.one.one.one/zh-Hans/) |
 | ⭐<br>[Wireguard](./wireguard.md) | 免费 | [iOS端](https://apps.apple.com/us/app/wireguard/id1441195209)、[安卓端](https://www.wireguard.com/install/)、[PC端](https://www.wireguard.com/install/)、[Mac端](https://apps.apple.com/us/app/wireguard/id1451685025)、[Linux端](https://www.wireguard.com/install/) |
 | |
-| ⭐<br>[Clash<br>小猫咪](./Clash.md) | 免费 | [Stash](https://stash.ws/)、[安卓端](https://github.com/Yiov/Clash_For_Android/releases)、[PC端](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW)、[Mac](./Clash.md#其他软件) |
+| ⭐<br>[Clash<br>小猫咪](./Clash.md) | 免费 | [iOS端](https://stash.ws/)、[安卓端](https://github.com/Yiov/Clash_For_Android/releases)、[PC端](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW)、[Mac端](./Clash.md#其他软件) |
 | V2ray | 免费 | [安卓端](https://github.com/2dust/v2rayNG/releases)、[PC端](https://github.com/2dust/v2rayN/releases)、[Mac端](https://github.com/yanue/V2rayU/releases) |
 | Shadowsocks<br>`SS` | 免费 | [安卓端](https://github.com/shadowsocks/shadowsocks-android/releases)、[PC端](https://github.com/shadowsocks/shadowsocks-windows/releases)、[Mac端](https://github.com/shadowsocks/ShadowsocksX-NG/releases/) |
 | shadowsocksr<br>`SSR` | 免费 | [安卓端](https://github.com/shadowsocksrr/shadowsocksr-android/releases)、[PC端](https://github.com/shadowsocksr-rm/shadowsocksr-csharp/releases) |
 | [Surfboard](https://getsurfboard.com/)<br>`冲浪板` | 免费 | [安卓端](https://github.com/getsurfboard/surfboard/releases/) |
-| [NekoBox](./NekoBox.md)<br>`nekoray` | 免费 | [安卓端](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)、[PC端](https://github.com/MatsuriDayo/nekoray/releases)、[Linux端](https://github.com/MatsuriDayo/nekoray/releases) |
+| ⭐<br>[NekoBox](./NekoBox.md)<br>`nekoray` | 免费 | [安卓端](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)、[PC端](https://github.com/MatsuriDayo/nekoray/releases)、[Linux端](https://github.com/MatsuriDayo/nekoray/releases) |
 | |
 | [passwall2](https://github.com/xiaorouji/openwrt-passwall2/releases) | 免费 | OpenWrt软路由 |

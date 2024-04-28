@@ -77,8 +77,5 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 ## 特别鸣谢
 
-
-* [BoxJs](https://docs.boxjs.app/)
-
 * [chavyleung](https://github.com/chavyleung/scripts)
 

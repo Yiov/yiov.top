@@ -1,6 +1,6 @@
 # WireGuard使用及优选IP
 
-> 更新时间：2024-4-24
+> 更新时间：2024-4-28
 
 
 
@@ -10,7 +10,7 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 官网：https://www.wireguard.com/
 
-![](/wireguard/wireguard.png)
+![](/wireguard/wireguard-01.png)
 
 
 
@@ -522,8 +522,363 @@ engage.cloudflareclient.com:2408
 
 
 
+## 账户类型
+
+连接WireGuard，打开连接查看账户类型
+
+::: tip 说明
+`warp=off`：wireguard未连接或失败
+
+`warp=on`：普通账户
+
+`warp=plus` warp+或team账户
+:::
+
+官网：https://www.cloudflare.com/cdn-cgi/trace
 
 
+![](/wireguard/wireguard-02.png)
+
+
+
+
+## 拓展
+
+本次仅演示WARP普通账户注册，WARP+直接tg群获取现成的即可，不用这么麻烦
+
+
+
+:::: details ios端 注册WARP
+
+同样使用 [iSH Shell](https://apps.apple.com/cn/app/id1436902243) 工具， [@甬哥](https://github.com/yonggekkk/warp-yg) 的优选IP脚本
+
+```sh
+curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && bash endip.sh
+```
+
+::: details 其他脚本
+
+MisakaNo の 小破站的 [warp-script脚本](https://gitlab.com/Misaka-blog/warp-script)
+
+```sh
+wget -N https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip.sh && bash warp-yxip.sh
+```
+:::
+
+运行后，选 `2`，在选 `1`
+
+::: details 三者的区别
+warp-go和wgcf就是内核不同，warp-go最新内核，推荐！
+
+warp api是官方的接口，失败率比较高
+:::
+
+![](/wireguard/ios/ios-17.png)
+
+等待配置生成
+
+![](/wireguard/ios/ios-18.png)
+
+
+生成后将配置复制出来，等会要用
+
+![](/wireguard/ios/ios-19.png)
+
+```:no-line-numbers
+[Interface]
+PrivateKey = uKv0YgRdFJVXXcPAH2cAaJHZOMoJJlhAjzVjzLBbbHE=
+Address    = 172.16.0.2/32
+Address    = 2606:4700:110:85d4:ec39:bd5b:23:7ef5/128
+DNS        = 1.1.1.1
+MTU        = 1280
+
+[Peer]
+PublicKey  = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+AllowedIPs = 0.0.0.0/0
+AllowedIPs = ::/0
+Endpoint   = 162.159.193.10:2408
+```
+
+
+打开 WireGuard 客户端，右上角 `+` 号，手动创建，再点一下 `生成密钥对`
+
+![](/wireguard/ios/ios-20.png)
+
+名称不要填中文，其他信息我们按要求填写，保存，然后激活
+
+::: tip 对应关系
+* PrivateKey：私钥 (自动生成的删掉，填这个；生成的公钥不用动)
+
+* Address：局域网IP地址v4和v6 (格式：`v4地址 , v6地址`)
+
+* DNS：DNS服务器
+
+* MTU：MTU (端口不要漏)
+
+---
+
+* PublicKey：公钥 (远程peer里的，不是本地)
+
+* AllowedIPs：路由的IP地址v4和v6 (格式：`v4地址段 , v6地址段`)
+
+* Endpoint：对端
+
+注：v6地址也可以不填，不影响使用
+:::
+
+
+![](/wireguard/ios/ios-21.png)
+
+
+访问 [谷歌](https://www.google.com) 只能访问 [谷歌香港](https://www.google.com.hk)
+
+[查看一下账户类型](#账户类型)，确定是warp普通账户了
+
+::: tip 说明
+移动和联通一般无法握手成功，[优选一下IP](#优选ip) 替换对端即可
+:::
+
+
+![](/wireguard/ios/ios-22.png)
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+:::: details Android端 注册WARP
+
+
+同样使用 [Termux](https://github.com/termux/termux-app/releases) 工具， [@甬哥](https://github.com/yonggekkk/warp-yg) 的优选IP脚本
+
+```sh
+curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && bash endip.sh
+```
+
+::: details 其他脚本
+
+MisakaNo の 小破站的 [warp-script脚本](https://gitlab.com/Misaka-blog/warp-script)
+
+```sh
+wget -N https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip.sh && bash warp-yxip.sh
+```
+:::
+
+运行后，选 `2`，注册生成warp-wireguard配置
+
+![](/wireguard/android/android-16.png)
+
+再选 `1`，warp-go，等配置生成将它复制出来
+
+::: details 三者的区别
+warp-go和wgcf就是内核不同，warp-go最新内核，推荐！
+
+warp api是官方的接口，失败率比较高
+:::
+
+![](/wireguard/android/android-17.png)
+
+```:no-line-numbers
+[Interface]
+PrivateKey = IBh1rIzWkKzSdIkCZM6nKP7Sz1OPw3HXBtPaHZId7lc
+Address = 172.16.0.2/32
+DNS = 1.1.1.1
+MTU = 1280
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+AllowedIPs = 0.0.0.0/0
+Endpoint = 162.159.193.10:2408
+```
+
+
+打开 WireGuard 客户端，右下角 `+` 号，手动创建
+
+![](/wireguard/android/android-18.png)
+
+名称不要填中文，私钥需要点一下生成，会自动生成私钥和公钥
+
+![](/wireguard/android/android-19.png)
+
+然后我们依次填入信息，添加节点，填写Peer信息后，保存
+
+::: tip 对应关系
+* PrivateKey：私钥 (自动生成的删掉，填这个；生成的公钥不用动)
+
+* Address：局域网IP地址
+
+* DNS：DNS服务器
+
+* MTU：MTU (端口不要漏)
+
+---
+
+* PublicKey：公钥 (远程peer里的，不是本地)
+
+* AllowedIPs：路由的IP地址
+
+* Endpoint：对端
+:::
+
+![](/wireguard/android/android-20.png)
+
+添加成功后，打开开关连接
+
+::: tip 说明
+移动和联通一般无法握手成功，[优选一下IP](#优选ip) 替换对端即可
+:::
+
+![](/wireguard/android/android-21.png)
+
+访问 [谷歌](https://www.google.com) 只能访问 [谷歌香港](https://www.google.com.hk)
+
+[查看一下账户类型](#账户类型)，确定是warp普通账户了
+
+![](/wireguard/android/android-22.png)
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:::: details Windows端 注册WARP
+
+下载 @甬哥 的仓库：https://github.com/yonggekkk/warp-yg
+
+![](/wireguard/windows/windows-22.png)
+
+解压到桌面
+
+![](/wireguard/windows/windows-23.png)
+
+按住 `SHIFT键` 鼠标右键，选择 `在此处打开Powershell`
+
+![](/wireguard/windows/windows-24.png)
+
+在窗口输入 `./warp.exe` 回车
+
+```sh
+./warp.exe
+```
+
+![](/wireguard/windows/windows-25.png)
+
+电脑端利用warp api的方式就注册好了，信息如下
+
+::: tip 说明
+其中最重要的是 `private_key` 和 `v6` 信息
+:::
+
+![](/wireguard/windows/windows-26.png)
+
+```sh:no-line-numbers{7,12}
+PS C:\Users\Administrator\Desktop\warp-yg-main> ./warp.exe
+device_id: 6e140f41-7696-4135-b1d4-1b2e6b116e43
+token: e00625db-b6d6-488d-bb81-ca2f0ea6d61a
+account_id: 89b27fe6-d219-4c83-8813-c3c600ec2829
+account_type: free
+license: bX293su8-1j2Z76iv-a976XxW2
+private_key: 6JGRWQ1YoRkajIrbeZb/focrzxiR4wuOka5VUQFlQUA=
+public_key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+client_id: I2LP
+reserved: [ 35, 98, 207 ]
+v4: 172.16.0.2
+v6: 2606:4700:110:8972:6bae:af17:9509:f1cd
+endpoint: engage.cloudflareclient.com:2408
+```
+
+
+准备一个wireguard模板，修改 `PrivateKey` 和 `Address` 的v6地址，其他默认即可
+
+::: danger 注意
+v6后面的 `/128` 不能漏掉
+
+或者干脆删掉v6整个地址，只留v4
+:::
+
+```:no-line-numbers{2-3}
+[Interface]
+PrivateKey = 这里填private_key密钥 // [!code ++]
+Address = 172.16.0.2/32, 这里填v6/128 // [!code ++]
+DNS = 1.1.1.1
+MTU = 1280
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+AllowedIPs = 0.0.0.0/0
+AllowedIPs = ::/0
+Endpoint = engage.cloudflareclient.com:2408
+```
+
+进入WireGuard客户端，新建空隧道
+
+![](/wireguard/windows/windows-27.png)
+
+粘贴到配置中，注意密钥和v6地址别错
+
+::: tip 注意
+隧道名称不要填中文，否则无法创建
+:::
+
+![](/wireguard/windows/windows-28.png)
+
+连接，好像是没有握手成功，[优选一下IP](#优选ip) 替换 `Endpoint` 对端即可
+
+![](/wireguard/windows/windows-29.png)
+
+现在就可以了
+
+![](/wireguard/windows/windows-30.png)
+
+[查看一下账户类型](#账户类型)，确定是warp普通账户了
+
+![](/wireguard/windows/windows-31.png)
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 特别鸣谢
+
+* [@甬哥：warp多功能脚本](https://github.com/yonggekkk/warp-yg)
+
+* [@MisakaNo：warp-script脚本](https://gitlab.com/Misaka-blog/warp-script)
+
+* [IPv6测试](https://www.test-ipv6.com/)
+
+* [ipw.cn](https://ipw.cn/)
+
+* [ip.gs](https://ip.gs/)
+
+* [ip.me](https://ip.me/)
 
 
 

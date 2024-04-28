@@ -57,10 +57,11 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
 ::: details 没有跳转到小火箭
 点复制订阅地址，打开小火箭，右上角+号添加保存即可
 
-![](/shadowrocket/shadowrocket-04.png)
+![](/shadowrocket/shadowrocket-05.png)
+
 :::
 
-![](/shadowrocket/shadowrocket-05.png)
+![](/shadowrocket/shadowrocket-04.png)
 
 设置 - 延迟测试方法，改成 `CONNECT`
 
@@ -75,7 +76,7 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
 ::: details 谷歌打不开
 * 节点拉垮：换节点或机场
 
-* 台湾节点：国内是屏蔽的，只能用谷歌香港 https://www.google.com.hk/
+* 台湾节点：国内是屏蔽的，只能用 [谷歌香港](https://www.google.com.hk/)
 :::
 
 ![](/shadowrocket/shadowrocket-07.png)

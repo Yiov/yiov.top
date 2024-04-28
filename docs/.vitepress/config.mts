@@ -55,7 +55,7 @@ export default defineConfig({
           { text: '工具', 
             collapsed: true,
             items: [
-              { text: '使用介绍(必看)', link: '/gfw/proxy' },
+              { text: '介绍(必看)', link: '/gfw/proxy' },
               { text: '圈X', link: '/gfw/quantumultX' },
               { text: 'BoxJS', link: '/gfw/boxjs' },
               { text: '小火箭', link: '/gfw/shadowrocket' },
@@ -65,7 +65,14 @@ export default defineConfig({
               { text: 'NekoBox', link: '/gfw/NekoBox' },
             ],
           },
-          { text: '机场 (节点)', link: '/gfw/channel' },
+          { text: '机场(节点)', 
+            collapsed: true,
+            items: [
+              { text: '机场推荐指南', link: '/gfw/channel' },
+              { text: '常见协议', link: '/gfw/protocol' },
+            ],
+          },
+
         ],
       },
       {

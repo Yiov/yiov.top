@@ -4,7 +4,9 @@
 
 ## 科学上网
 
-* [工具「必看」](../gfw/proxy)
+* 工具
+
+    * [介绍「必看」](../gfw/proxy)
 
     * [圈X](../gfw/quantumultX)
 
@@ -20,7 +22,11 @@
 
     * [NekoBox](../gfw/NekoBox)
 
-* [机场 (节点)](../gfw/channel)
+* 机场 (节点)
+
+    * [机场推荐指南](../gfw/channel)
+
+    * [常见的协议](../gfw/channel)
 
 
 

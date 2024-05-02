@@ -7,33 +7,46 @@
 
 Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于它的LOGO：小火箭
 
-::: tip 说明
-* 主要作用：根据支持的协议实现代理翻墙、规则分流
-
-* 支持协议：Shadowsocks(SS)、ShadowsocksR(SSR)、VMess(V2Ray)、VLESS(Xray)、Trojan等
-:::
-
 [非官网](https://www.shadowrocket.vip/) (官方没有官网) 丨 [TG群](https://t.me/ShadowrocketApp) 丨 [推特(X)](https://twitter.com/shadowrocketapp)
 
 ![](/shadowrocket/shadowrocket-01.png)
 
 
+## 协议
+
+
+| 类型 | 支持协议 |
+|:-:|:-:|
+| 节点 | Shadowsocks(SS)、ShadowsocksR(SSR)、VMess(V2Ray)、VLESS(Xray)、Relay(GOST)、socks5、socks5Over TLS、HTTP、HTTPS、HTTP2、Trojan、Hysterria、Hysterria2、TUIC、Juicity、SSH、WireGuard、Snell、Brool、Lua |
+| 订阅 | URL、clash YAML URL |
+
+
+## 客户端
+
+* [iOS端](https://apps.apple.com/us/app/shadowrocket/id932747118)
+
+
 ## 安装
 
 
-### 付费安装
+::: details 付费安装
 
 - 先 [注册美区Apple ID](../iPhone/Apple_ID.md) 后登陆美区苹果商店
 
 - 然后充值后购买 [小火箭 shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118) 下载安装
 
+:::
 
 
-### 免费安装
+
+
+::: details 免费安装
 
 - 借别人购买过小火箭的账号，登录下载安装
 
 - 或安装 [巨魔助手](../iPhone/sign/TrollStore.md) ，下载 [小火箭巨魔专用版](https://pan.liuchengxi.com/%E5%9B%BD%E5%A4%96%E5%BA%94%E7%94%A8/Shadowrocket) ，用巨魔安装
+
+:::
 
 
 ![](/shadowrocket/shadowrocket-02.png)

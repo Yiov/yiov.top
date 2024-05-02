@@ -4,26 +4,31 @@
 
 ## 简介
 
-NekoBox for Android，简称 `NB4A`，是一款基于sing-box内核开发的安卓端代理工具，是目前最强内核
-
-::: tip 其他客户端
-电脑端 (含Windows端 / Linux端) ：[Nekoray](https://github.com/MatsuriDayo/nekoray/releases)
-:::
-
-
-::: warning 支持协议
-
-* 节点：SOCKS、HTTP、Shadowsocks、VMess、VLESS、Trojan、Trojan-Go、Mieru、Naïve、Hysterria、TUIC、SSH、shadowTLS 和 WireGuard
-
-* 订阅模式：Shadowsocks、V2RayN、Clash、Clash Meta
-:::
-
+NekoBox for Android，简称 `NB4A`，是一款基于 [sing-box内核](./singbox.md) 开发的安卓端代理工具
 
 官网：https://matsuridayo.github.io/
 
 ![](/NekoBox/NekoBox.png)
 
 
+## 客户端
+
+
+* [安卓端](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
+
+* [Windows端](https://github.com/MatsuriDayo/nekoray/releases)
+
+* [Linux端](https://github.com/MatsuriDayo/nekoray/releases)
+
+
+
+## 协议
+
+| 类型 | 支持协议 |
+|:-:|:-:|
+| 节点 | SOCKS、HTTP、Shadowsocks、VMess、VLESS、Trojan、Trojan-Go、Mieru、Naïve、Hysterria、TUIC、SSH、shadowTLS、WireGuard |
+| 订阅 | Shadowsocks、V2RayN、Clash、Clash Meta |
+支持Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github配置链接及配置导入
 
 ## 安装
 

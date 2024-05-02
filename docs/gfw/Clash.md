@@ -7,10 +7,6 @@
 
 著名的网络代理工具，由于它的LOGO是酷似一只猫，俗称：小猫咪
 
-* 主要作用：根据支持的协议实现代理翻墙、规则分流
-
-* 支持协议：Shadowsocks(SS)、ShadowsocksR(SSR)、Socks、Snell、VMess(V2Ray)、Trojan等
-
 
 ::: tip 关于Clash
 clash是一个core核心，即 [clash core](https://github.com/Dreamacro/clash) ，以`Clash Premium`、`Clash meta` 两个衍生出的核心为代表
@@ -34,12 +30,29 @@ clash是一个core核心，即 [clash core](https://github.com/Dreamacro/clash) 
 :::
 
 
-
-
-
 ![](/Clash/Clash-01.png)
 
 
+## 客户端
+
+* [iOS端](https://stash.ws/)
+
+* [安卓端](https://github.com/Yiov/Clash_For_Android/releases)
+
+* [PC端](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW)
+
+* [Mac端](./Clash.md#其他软件)
+
+
+
+
+## 协议
+
+
+| 内核 | 支持协议 |
+|:-:|:-:|
+| clash core | socks、HTTP、Shadowsocks(SS)、ShadowsocksR(SSR)、Snell、VMess(V2Ray)、Trojan |
+| Clash.Meta<br>`mihomo` | socks、HTTP、Shadowsocks(SS)、ShadowsocksR(SSR)、Snell、VMess(V2Ray)、Trojan、Hysteria、VLESS(xray)、Hysteria2、TUIC、WireGuard、SSH |
 
 
 ## 安装

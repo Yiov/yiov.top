@@ -146,9 +146,9 @@ resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/maste
 ::: tip 说明
 添加：仅支持ss协议
 
-URI：支持ss / ssr / vmess / https /trojan的节点
+URI：支持ss / ssr / vmess / https / trojan / vless 的节点
 
-扫码：支持ss / ssr / vmess / https /trojan的节点二维码
+扫码：支持ss / ssr / vmess / https / trojan / vless 的节点二维码
 :::
 
 
@@ -162,7 +162,7 @@ URI：支持ss / ssr / vmess / https /trojan的节点
 对应配置文件中的 [[server_remote]](#编辑) 模块
 
 ::: tip 说明
-* 支持 ss / ssr / vmess / https /trojan 的节点
+* 支持 ss / ssr / vmess / https /trojan / vless 的节点
 
 * 以及由 [资源解析器](#资源解析器) 解析的各种格式
 :::

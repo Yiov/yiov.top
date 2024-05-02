@@ -228,7 +228,7 @@ https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 
 ---
 
-* 先 [Fork项目]([sing-box-subscribe](https://github.com/Toperlock/sing-box-subscribe/)) 到自己仓库
+* 先 [Fork项目：sing-box-subscribe](https://github.com/Toperlock/sing-box-subscribe/) 到自己仓库
 
 * 按照 [Vercel教程部署](https://github.com/Toperlock/sing-box-subscribe/blob/main/docs/vercel-cn.md)
 

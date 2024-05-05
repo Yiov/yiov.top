@@ -88,7 +88,7 @@ Hiddify是一款基于 Sing-box 通用代理工具的跨平台代理客户端
 
 
 
-::: details Android端 使用
+:::: details Android端 使用
 
 
 找一个 [免费送流量的机场注册](./channel.md)，一键订阅 - 复制订阅地址
@@ -104,11 +104,38 @@ Hiddify是一款基于 Sing-box 通用代理工具的跨平台代理客户端
 
 ![](/Hiddify/android/android-05.png)
 
-点击连接，访问 [谷歌](https://www.google.com) 看看
+连接之前需要改一下配置，否则无法使用
+
+左上角三横 `≡` - 配置选项- 远程DNS改成 `tls://8.8.8.8` 或者 `tls://8.8.4.4`
+
+```:no-line-numbers
+tls://8.8.8.8
+```
+
+::: details 如果还是连不上？
+
+根据自己运营商修改直连DNS
+
+```:no-line-numbers
+中国移动 DNS：211.138.180.2
+备用 DNS 服务器：211.138.180.3
+
+中国联通 DNS：221.131.143.69
+备用 DNS 服务器：221.131.143.69
+
+中国电信 DNS：223.5.5.5
+备用 DNS 服务器：223.6.6.6
+```
+:::
 
 ![](/Hiddify/android/android-06.png)
 
-:::
+点击连接，访问 [谷歌](https://www.google.com) 看看
+
+
+![](/Hiddify/android/android-07.png)
+
+::::
 
 
 
@@ -116,7 +143,7 @@ Hiddify是一款基于 Sing-box 通用代理工具的跨平台代理客户端
 
 
 
-::: details Windows端 使用
+:::: details Windows端 使用
 
 点击 `添加新的配置文件`
 
@@ -151,6 +178,33 @@ Hiddify是一款基于 Sing-box 通用代理工具的跨平台代理客户端
 
 访问 [谷歌](https://www.google.com) 看看
 
+::: details 虽然连接成功，但访问不了
+
+左上角三横 `≡` - 配置选项- 远程DNS
+
+```:no-line-numbers
+tls://8.8.8.8
+
+或者
+
+tls://8.8.4.4
+```
+
+
+还连不上，根据自己运营商修改直连DNS
+
+```:no-line-numbers
+中国移动 DNS：211.138.180.2
+备用 DNS 服务器：211.138.180.3
+
+中国联通 DNS：221.131.143.69
+备用 DNS 服务器：221.131.143.69
+
+中国电信 DNS：223.5.5.5
+备用 DNS 服务器：223.6.6.6
+```
+:::
+
 ![](/Hiddify/windows/windows-11.png)
 
-:::
+::::

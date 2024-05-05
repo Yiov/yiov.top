@@ -65,13 +65,14 @@ export default defineConfig({
               { text: 'sing-box', link: '/gfw/singbox' },
               { text: 'NekoBox', link: '/gfw/NekoBox' },
               { text: 'Karing', link: '/gfw/Karing' },
+              { text: 'Hiddify', link: '/gfw/Hiddify' },
             ],
           },
           { text: '机场(节点)', 
             collapsed: true,
             items: [
               { text: '机场推荐指南', link: '/gfw/channel' },
-              { text: '常见协议', link: '/gfw/protocol' },
+              { text: '常见的代理协议', link: '/gfw/protocol' },
             ],
           },
 

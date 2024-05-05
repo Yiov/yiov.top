@@ -26,11 +26,13 @@
 
     * [Karing](../gfw/Karing)
 
+    * [Hiddify](../gfw/Hiddify)
+
 * 机场 (节点)
 
     * [机场推荐指南](../gfw/channel)
 
-    * [常见的协议](../gfw/channel)
+    * [常见的代理协议](../gfw/protocol)
 
 
 

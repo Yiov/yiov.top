@@ -27,8 +27,9 @@ NekoBox for Android，简称 `NB4A`，是一款基于 [sing-box内核](./singbox
 | 类型 | 支持协议 |
 |:-:|:-:|
 | 节点 | SOCKS、HTTP、Shadowsocks、VMess、VLESS、Trojan、Trojan-Go、Mieru、Naïve、Hysterria、TUIC、SSH、shadowTLS、WireGuard |
-| 订阅 | Shadowsocks、V2RayN、Clash、Clash Meta |
-支持Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github配置链接及配置导入
+| 订阅 | Shadowsocks、V2RayN、Clash、Clash Meta、Sing-box |
+
+
 
 ## 安装
 

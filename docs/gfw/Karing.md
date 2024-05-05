@@ -1,6 +1,6 @@
-# Karing
+# Karing的安装及使用
 
-> 更新时间：2024-4-30
+> 更新时间：2024-5-5
 
 
 
@@ -48,9 +48,11 @@ Karing是一个基于 [sing-box内核](./singbox.md) ，强大易用的代理工
 
 ![](/karing/ios/ios-01.png)
 
+![](/karing/ios/ios-02.png)
+
 简体中文 - CN 中国
 
-![](/karing/ios/ios-02.png)
+![](/karing/ios/ios-03.png)
 
 :::
 
@@ -71,11 +73,29 @@ Karing是一个基于 [sing-box内核](./singbox.md) ，强大易用的代理工
 
 
 
+::: details Windows端 安装
+
+下载 [karing](https://github.com/KaringX/karing/releases) ，选压缩包文件，解压后打开
+
+![](/karing/windows/windows-01.png)
+
+![](/karing/windows/windows-02.png)
+
+简体中文 - CN 中国
+
+![](/karing/windows/windows-03.png)
+
+:::
+
+
+
+
+
+
+
 
 
 ## 使用
-
-
 
 
 
@@ -135,3 +155,33 @@ Karing是一个基于 [sing-box内核](./singbox.md) ，强大易用的代理工
 :::
 
 
+
+
+
+::: details Windows端 使用
+
+点击上方 `+` 号，添加 - 添加配置链接
+
+![](/karing/windows/windows-04.png)
+
+找一个 [免费送流量的机场注册](./channel.md)，一键订阅 - 复制订阅地址
+
+![](/karing/windows/windows-05.png)
+
+粘贴订阅链接，备注随便，右上角添加，成功提示即可
+
+![](/karing/windows/windows-06.png)
+
+返回主界面底部，自动选择，订阅链接旁一键测速
+
+![](/karing/windows/windows-07.png)
+
+会自动筛选出3个最优的，点击任意一个使用
+
+![](/karing/windows/windows-08.png)
+
+打开开关，访问 [谷歌](https://www.google.com) 看看
+
+![](/karing/windows/windows-09.png)
+
+:::

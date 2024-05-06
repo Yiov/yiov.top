@@ -5,9 +5,9 @@
 
 ## 简介
 
-Hiddify是一款基于 Sing-box 通用代理工具的跨平台代理客户端
+Hiddify是一款基于 Sing-box 通用代理工具
 
-名称是 Hidden （隐藏） 和 Simplify （简化） 的合并而来
+由 Hidden（隐藏）和 Simplify（简化）的合并而来
 
 官网：https://hiddify.com/
 

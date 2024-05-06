@@ -28,6 +28,8 @@
 
     * [Hiddify](../gfw/Hiddify)
 
+    * [V2Ray](../gfw/v2ray)
+
 * 机场 (节点)
 
     * [机场推荐指南](../gfw/channel)

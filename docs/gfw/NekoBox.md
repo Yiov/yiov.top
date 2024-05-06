@@ -279,6 +279,77 @@ IP分流查询：https://ip.skk.moe/
 
 
 
+## 优选IP
+
+对于分享的延迟较高的节点，我们可以通过优选IP来降低延迟
+
+::: details Android端 优选IP
+
+我这里准备了一个 [@冰河圈子](https://t.me/binghequanzi) 分享的Vmess节点，复制粘贴进来后，点编辑
+
+![](/NekoBox/android/android-11.png)
+
+不要挂任何代理，打开 [在线优选IP（默认443端口）](https://stock.hostmonit.com/CloudFlareYes) ，从自动筛选的结果里，挑选自己运营商的IP，复制
+
+然后打开V2RayNG，地址这里删掉之前的，粘贴复制的IP，保存
+
+![](/NekoBox/android/android-12.png)
+
+我们点击运行，访问 [谷歌](https://www.google.com) 看看
+
+![](/NekoBox/android/android-13.png)
+
+:::
+
+
+
+
+
+::: details Windows端 优选IP
+
+我这里准备了一个 [@冰河圈子](https://t.me/binghequanzi) 分享的Vmess节点
+
+![](/NekoBox/windows/windows-21.png)
+
+复制后，点 程序 - 从剪切板添加
+
+![](/NekoBox/windows/windows-22.png)
+
+这样就添加成功了，双击这个节点
+
+![](/NekoBox/windows/windows-23.png)
+
+我们要更改这里的地址
+
+![](/NekoBox/windows/windows-24.png)
+
+不要挂任何代理，打开 [在线优选IP（默认443端口）](https://stock.hostmonit.com/CloudFlareYes) ，从自动筛选的结果里，挑选自己运营商的IP，复制
+
+![](/NekoBox/windows/windows-25.png)
+
+地址这里删掉之前的，粘贴复制的IP，确定
+
+![](/NekoBox/windows/windows-26.png)
+
+地址就变成了我们修改的
+
+![](/NekoBox/windows/windows-27.png)
+
+选择节点 - 启动
+
+![](/NekoBox/windows/windows-28.png)
+
+勾选系统代理
+
+![](/NekoBox/windows/windows-29.png)
+
+访问 [谷歌](https://www.google.com) 看看
+
+![](/NekoBox/windows/windows-15.png)
+
+:::
+
+
 
 
 
@@ -290,20 +361,20 @@ NekoBox可一键生成WireGuard配置，仅限安卓端
 
 NekoBox左上角三横 `≡` - `工具`
 
-![](/NekoBox/android/android-11.png)
+![](/NekoBox/android/android-14.png)
 
 在 Cloudflare Warp 处点击 `生成配置` 即可
 
 ::: tip 说明
 移动和联通用户大概率无法连接，需要优选IP
 :::
-![](/NekoBox/android/android-12.png)
+![](/NekoBox/android/android-15.png)
 
 请查看 [WireGuard优选IP的教程](./wireguard.md#优选ip) ，更改服务器IP和端口
 
 也可以自行更换公钥和私钥
 
-![](/NekoBox/android/android-13.png)
+![](/NekoBox/android/android-16.png)
 
 更改完后访问 [谷歌](https://www.google.com) 成功即可
 
@@ -311,7 +382,7 @@ NekoBox左上角三横 `≡` - `工具`
 但是这种转发速度比WireGuard要慢，推荐使用官方的客户端
 :::
 
-![](/NekoBox/android/android-14.png)
+![](/NekoBox/android/android-17.png)
 
 ::::
 

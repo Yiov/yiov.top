@@ -66,6 +66,8 @@ export default defineConfig({
               { text: 'NekoBox', link: '/gfw/NekoBox' },
               { text: 'Karing', link: '/gfw/Karing' },
               { text: 'Hiddify', link: '/gfw/Hiddify' },
+              { text: 'V2Ray', link: '/gfw/v2ray' },
+              { text: '其他', link: 'https://docs.mebi.me/docs/intro' },
             ],
           },
           { text: '机场(节点)', 

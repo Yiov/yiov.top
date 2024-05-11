@@ -408,22 +408,6 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh &
 ```
 
 
-
-::: details 其他脚本
-
-MisakaNo の 小破站的 [warp-script脚本](https://gitlab.com/Misaka-blog/warp-script)
-
-
-```sh
-pkg update && pkg install wget
-```
----
-
-```sh
-wget -N https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip.sh && bash warp-yxip.sh
-```
-:::
-
 ![](/wireguard/android/android-10.png)
 
 
@@ -482,15 +466,6 @@ engage.cloudflareclient.com:2408
 
 接下来就是优选IP工具使用 [@甬哥](https://github.com/yonggekkk/warp-yg) 的 [WIN端warp自选IP-v23.11.15.zip](https://raw.githubusercontent.com/yonggekkk/warp-yg/main/WIN%E7%AB%AFwarp%E8%87%AA%E9%80%89IP-v23.11.15.zip)
 
-::: details 其他下载方式
-蓝奏云下载：https://dzp.lanzouj.com/iNO0f1vluafe
-
-或者使用 [@Misaka-blog的优选WARP_Windows端](https://gitlab.com/Misaka-blog/warp-script/-/blob/main/files/warp-yxip/warp-yxip-win.7z)
-
----
-
-题外话：虽然两个大佬关于抄不抄袭的有过口水战，但不影响两个都好用
-:::
 
 解压后运行 `手动方式1：生成优选IP端口结果文件.bat`
 
@@ -569,14 +544,6 @@ engage.cloudflareclient.com:2408
 curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && bash endip.sh
 ```
 
-::: details 其他脚本
-
-MisakaNo の 小破站的 [warp-script脚本](https://gitlab.com/Misaka-blog/warp-script)
-
-```sh
-wget -N https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip.sh && bash warp-yxip.sh
-```
-:::
 
 运行后，选 `2`，在选 `1`
 
@@ -676,14 +643,6 @@ Endpoint   = 162.159.193.10:2408
 curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && bash endip.sh
 ```
 
-::: details 其他脚本
-
-MisakaNo の 小破站的 [warp-script脚本](https://gitlab.com/Misaka-blog/warp-script)
-
-```sh
-wget -N https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip.sh && bash warp-yxip.sh
-```
-:::
 
 运行后，选 `2`，注册生成warp-wireguard配置
 

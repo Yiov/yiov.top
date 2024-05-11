@@ -16,8 +16,8 @@ hero:
       text: 关于我
       link: /guide/feedback
     - theme: sponsor
-      text: 更新内容
-      link: /guide/update
+      text: Todo
+      link: /guide/todo
 
 features:
   - icon: 📝

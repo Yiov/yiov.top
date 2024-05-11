@@ -186,11 +186,13 @@
 
 * [浅谈内网穿透](../website/NAT/)
 
-* [Socks5的搭建](../website/socks5/)
-
 * [cloudflare注册使用](../website/cloudflare)
 
 * [各类主题/模板/源码汇总](../website/source/)
+
+* [Replit的注册及使用](../website/Replit)
+
+* [UptimeRobot的注册及使用](../website/uptimerobot)
 
 * wordpress主题汉化
 

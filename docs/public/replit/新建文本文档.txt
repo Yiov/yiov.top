@@ -1,0 +1,81 @@
+https://zhuanlan.zhihu.com/p/521214589
+
+
+## 拓展
+
+
+### 生成WARP密钥
+
+那么可以自己注册账号吗 ，可以
+
+打开项目地址: https://replit.com/@misaka-blog/wgcf-profile-generator 或 https://replit.com/@misaka-blog/warpgo-profile-generator
+
+### 生成Wireguard配置
+
+
+[@甬哥](https://github.com/yonggekkk/warp-yg) 的脚本 [WARP-Wireguard-Register](https://replit.com/@yonggekkk/WARP-Wireguard-Register) ，点 `Run` 运行
+
+::: tip 说明
+需要注册账号后才能使用，可以直接用 [Github账号](../daily/github/) 登录
+:::
+
+
+
+
+https://replit.com/
+
+
+
+
+
+
+
+
+https://blog.misaka.rest/2023/03/12/cf-warp-yxip/
+ 
+https://surge.tel/13/2116/
+
+https://www.kejicode.cn/index.php/archives/39
+
+https://gitlab.com/Misaka-blog/warp-script
+
+https://gitlab.com/rwkgyg
+
+
+## 小火箭
+
+https://surge.tel/12/2150/
+
+
+
+## 利用反代CF的CDN搭建vless节点
+
+https://youtu.be/aASnYBdqM80?si=rngLfZ_2ilGt2vwm
+
+https://jdssl.top/index.php/2023/07/21/2023vpn/
+
+
+https://onezyh.blogspot.com/2024/04/vpnwokertlsip.html
+
+
+
+
+## IP
+
+https://browserleaks.com/dns
+
+https://ipleak.net/
+
+
+
+https://ip.gs/
+
+
+https://ip.skk.moe/
+
+
+warp分流
+https://onezyh.blogspot.com/2023/07/warpwireguardip.html
+
+
+https://ipw.cn/

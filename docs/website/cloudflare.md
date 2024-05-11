@@ -16,15 +16,16 @@ CDN 的全称是 Content Delivery Network，即内容分发网络
 另：常见的CDN服务商还有 [又拍云](https://www.upyun.com/)、[七牛云](https://www.qiniu.com/)、[腾讯云COS](https://cloud.tencent.com/act/pro/cos)、[阿里云OSS](https://www.aliyun.com/product/oss)等
 :::
 
+官网：https://www.cloudflare.com/
+
+![](/cloudflare/cloudflare-01.png)
+
 
 
 ## 注册
 
-官网：[https://www.cloudflare.com/](https://www.cloudflare-cn.com/)
 
-![](/cloudflare/cloudflare-01.png)
-
-注册账号就行
+在官网注册账号就行
 
 ::: warning 说明
 虽然有中国站点，但访问还是要 [科学上网](../gfw/proxy.md) ，否则无法跳转
@@ -224,7 +225,7 @@ DNS - 记录 - 将小云朵关掉，仅DNS即可
 
 
 
-:::: details WARP科学上网
+:::: details WARP科学上网 - Zero Trust
 
 WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比传统的VPN更稳定更安全可靠
 
@@ -439,45 +440,52 @@ Zero Trust - Settings - Custom Pages - Team domain
 
 ![](/cloudflare/cloudflare-44.png)
 
-下载解压 [@Misaka-blog的优选WARP_Windows端](https://gitlab.com/Misaka-blog/warp-script/-/blob/main/files/warp-yxip/warp-yxip-win.7z)
+下载解压 [@甬哥](https://github.com/yonggekkk/warp-yg) 的 [WIN端warp自选IP-v23.11.15.zip](https://raw.githubusercontent.com/yonggekkk/warp-yg/main/WIN%E7%AB%AFwarp%E8%87%AA%E9%80%89IP-v23.11.15.zip)
 
-::: details 其他优选工具
-[@甬哥](https://github.com/yonggekkk/warp-yg) 的 [WIN端warp自选IP-v23.11.15.zip](https://raw.githubusercontent.com/yonggekkk/warp-yg/main/WIN%E7%AB%AFwarp%E8%87%AA%E9%80%89IP-v23.11.15.zip)
-:::
+解压后运行 `手动方式1：生成优选IP端口结果文件.bat`
 
-点击 `warp-yxip.bat` 运行
 
 ![](/cloudflare/cloudflare-51.png)
 
-默认ipv4，我们选 `1` 就行
+这里我们输入 `1` ，回车
 
 ![](/cloudflare/cloudflare-52.png)
 
-批处理完成后，结果在 `result.csv` 中
-
+优选的结果自动生成了 `result.csv` 文件，按任意键退出
 
 ![](/cloudflare/cloudflare-53.png)
 
-
-鼠标右键 - 用记事本打开，就能查看了
+鼠标对着 `result.csv` 右键，用 `记事本打开`
 
 ![](/cloudflare/cloudflare-54.png)
 
-然后将解压文件夹的 `新版WARP设置端点`，复制到Cloudflare WARP文件夹中后运行
+![](/cloudflare/cloudflare-55.png)
 
-::: details Cloudflare WARP文件夹在哪
-* 默认路径：C:\Program Files\Cloudflare\Cloudflare WARP
+
+点击运行 `手动方式2：将IP端口复制到这里.bat`
+
+将筛选出来的IP和端口，填入bat命令行中，回车
+
+::: details 没有效果？
+
+将 `手动方式2：将IP端口复制到这里.bat` 复制到Cloudflare WARP文件夹中后运行
+
+默认路径：C:\Program Files\Cloudflare\Cloudflare WARP
+
+或者使用 `自动方式：官方warp自动设置端点.bat`
+
+---
+
+其他：
 
 * 桌面快捷方式查看：鼠标右键 - 属性 - 打开文件所在位置
 
 * 没有桌面快捷方式：开始 - 最近 `Cloudflare WARP` - 右键 `更多` - 打开文件位置，鼠标右键 - 发送到 `桌面快捷方式`
+
 :::
 
-![](/cloudflare/cloudflare-55.png)
-
-将筛选出来的IP带端口，填入bat命令行中，回车
-
 ![](/cloudflare/cloudflare-56.png)
+
 
 重新打开WARP开关
 

@@ -118,6 +118,10 @@ NekoBox for Android，简称 `NB4A`，是一款基于 [sing-box内核](./singbox
 
 ![](/NekoBox/android/android-06.png)
 
+为了避免后续导入节点使用问题，在设置 - 入站设置，打开 `追加HTTP代理至VPN` 开关
+
+![](/NekoBox/android/android-07.png)
+
 还可以按节点按延时最低的排序，选最低的，点击底部连接
 
 访问 [谷歌](https://www.google.com) 成功即可
@@ -126,7 +130,7 @@ NekoBox for Android，简称 `NB4A`，是一款基于 [sing-box内核](./singbox
 点击底部 测试 ，可以查看成否成功握手
 :::
 
-![](/NekoBox/android/android-07.png)
+![](/NekoBox/android/android-08.png)
 
 ::::
 
@@ -218,11 +222,11 @@ NekoBox for Android，简称 `NB4A`，是一款基于 [sing-box内核](./singbox
 * 绕过局域网地址：开启后可以访问本地路由器 (和绕过LAN一样)
 :::
 
-![](/NekoBox/android/android-08.png)
+![](/NekoBox/android/android-09.png)
 
 在路由中开启 `中国域名规则` 和 `中国IP规则`
 
-![](/NekoBox/android/android-09.png)
+![](/NekoBox/android/android-10.png)
 
 现在访问国内网址就不用走代理了，我们测试下是否分流成功
 
@@ -234,7 +238,7 @@ IP分流查询：https://ip.skk.moe/
 可以发现NekoBox访问国内并没有走代理，走的直连，非常好用
 :::
 
-![](/NekoBox/android/android-10.png)
+![](/NekoBox/android/android-11.png)
 
 ::::
 
@@ -287,17 +291,17 @@ IP分流查询：https://ip.skk.moe/
 
 我这里准备了一个 [@冰河圈子](https://t.me/binghequanzi) 分享的Vmess节点，复制粘贴进来后，点编辑
 
-![](/NekoBox/android/android-11.png)
+![](/NekoBox/android/android-12.png)
 
 不要挂任何代理，打开 [在线优选IP（默认443端口）](https://stock.hostmonit.com/CloudFlareYes) ，从自动筛选的结果里，挑选自己运营商的IP，复制
 
 然后打开V2RayNG，地址这里删掉之前的，粘贴复制的IP，保存
 
-![](/NekoBox/android/android-12.png)
+![](/NekoBox/android/android-13.png)
 
 我们点击运行，访问 [谷歌](https://www.google.com) 看看
 
-![](/NekoBox/android/android-13.png)
+![](/NekoBox/android/android-14.png)
 
 :::
 
@@ -361,20 +365,20 @@ NekoBox可一键生成WireGuard配置，仅限安卓端
 
 NekoBox左上角三横 `≡` - `工具`
 
-![](/NekoBox/android/android-14.png)
+![](/NekoBox/android/android-15.png)
 
 在 Cloudflare Warp 处点击 `生成配置` 即可
 
 ::: tip 说明
 移动和联通用户大概率无法连接，需要优选IP
 :::
-![](/NekoBox/android/android-15.png)
+![](/NekoBox/android/android-16.png)
 
 请查看 [WireGuard优选IP的教程](./wireguard.md#优选ip) ，更改服务器IP和端口
 
 也可以自行更换公钥和私钥
 
-![](/NekoBox/android/android-16.png)
+![](/NekoBox/android/android-17.png)
 
 更改完后访问 [谷歌](https://www.google.com) 成功即可
 
@@ -382,7 +386,7 @@ NekoBox左上角三横 `≡` - `工具`
 但是这种转发速度比WireGuard要慢，推荐使用官方的客户端
 :::
 
-![](/NekoBox/android/android-17.png)
+![](/NekoBox/android/android-18.png)
 
 ::::
 

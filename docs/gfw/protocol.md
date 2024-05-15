@@ -232,6 +232,58 @@ Kcptun 基于 KCP 协议的 UDP 隧道，它可以将 TCP 流转换为 KCP+UDP �
 
 
 
+
+## 安全协议
+
+
+### TLS
+
+传输层安全性协议(Transport Layer Security)，缩写：TLS
+
+:::: tip 关于SSL
+TLS的前身就是安全套接层（SSL，Secure Sockets Layer）
+
+* 特点：基于 [TCP/IP协议](#tcp-ip) 上实现的一种安全协议，采用公开密钥技术
+
+* 优劣：密码算法过时，容易被破解，现已用TLS代替
+
+::: details SSL不使用了，浏览器却还是SSL证书
+浏览器中使用的数字证书（Digital Certificate），早期是SSL
+
+但后来由于安全问题已经废弃，如今使用的都是TLS，也称：SSL/TLS 证书
+:::
+
+::::
+
+::: tip 关于TLS
+* 特点：基于 [TCP/IP协议](#tcp-ip) 上实现的一种安全协议
+
+* 优劣：加密、数据完整性、身份认证；加解密会消耗CPU资源
+:::
+
+
+
+---
+
+
+
+### XTLS
+
+由 [Project X Community](https://github.com/XTLS/) 开发并维护，基于 [TLS 1.3](#tls) 开发的网络代理工具
+
+
+::: tip 关于XTLS
+
+* 特点：使用 [TLS 1.3 协议](#tls) 握手，[TCP协议](#tcp) 进行传输
+
+* 优劣：通过混淆、伪装和流量控制等技术，增加了网络流量的隐蔽性和安全性；但可能会减慢通信速度
+:::
+
+
+
+
+
+
 ## 代理协议
 
 
@@ -581,53 +633,6 @@ Brook（自主研发新版）、Stream Brook（旧版）协议、Shadowsocks 协
 
 
 
-
-
-## 安全协议
-
-
-### TLS
-
-传输层安全性协议(Transport Layer Security)，缩写：TLS
-
-:::: tip 关于SSL
-TLS的前身就是安全套接层（SSL，Secure Sockets Layer）
-
-* 特点：基于 [TCP/IP协议](#tcp-ip) 上实现的一种安全协议，采用公开密钥技术
-
-* 优劣：密码算法过时，容易被破解，现已用TLS代替
-
-::: details SSL不使用了，浏览器却还是SSL证书
-浏览器中使用的数字证书（Digital Certificate），早期是SSL
-
-但后来由于安全问题已经废弃，如今使用的都是TLS，也称：SSL/TLS 证书
-:::
-
-::::
-
-::: tip 关于TLS
-* 特点：基于 [TCP/IP协议](#tcp-ip) 上实现的一种安全协议
-
-* 优劣：加密、数据完整性、身份认证；加解密会消耗CPU资源
-:::
-
-
-
----
-
-
-
-### XTLS
-
-由 [Project X Community](https://github.com/XTLS/) 开发并维护，基于 [TLS 1.3](#tls) 开发的网络代理工具
-
-
-::: tip 关于XTLS
-
-* 特点：使用 [TLS 1.3 协议](#tls) 握手，[TCP协议](#tcp) 进行传输
-
-* 优劣：通过混淆、伪装和流量控制等技术，增加了网络流量的隐蔽性和安全性；但可能会减慢通信速度
-:::
 
 
 

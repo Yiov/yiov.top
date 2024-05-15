@@ -380,7 +380,9 @@ engage.cloudflareclient.com:2408
 ![](/wireguard/android/android-08.png)
 
 
-打开 Termux 更新包和安装命令，有提示[Y/n]，输入 `y`，提示 `Defult` 直接回车
+首次使用需要更新一下，后面使用就不用了
+
+有提示[Y/n]，输入 `y`，提示 `Defult` 直接回车
 
 ```sh
 pkg update && pkg install curl
@@ -841,8 +843,6 @@ Endpoint = engage.cloudflareclient.com:2408
 ## 特别鸣谢
 
 * [@甬哥：warp多功能脚本](https://github.com/yonggekkk/warp-yg)
-
-* [@MisakaNo：warp-script脚本](https://gitlab.com/Misaka-blog/warp-script)
 
 * [IPv6测试](https://www.test-ipv6.com/)
 

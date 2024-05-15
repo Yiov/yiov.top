@@ -120,9 +120,13 @@ Edge浏览器，在右上方下载处点击 `保留`
 
 ![](/v2ray/android/android-05.png)
 
-选择延迟低的连接，访问 [谷歌](https://www.google.com) 看看
+为了避免后续导入节点使用问题，在设置中打开 `启用虚拟DNS` 开关
 
 ![](/v2ray/android/android-06.png)
+
+选择延迟低的连接，访问 [谷歌](https://www.google.com) 看看
+
+![](/v2ray/android/android-07.png)
 
 :::
 
@@ -174,6 +178,10 @@ Edge浏览器，在右上方下载处点击 `保留`
 
 
 
+
+
+
+
 ## 优选IP
 
 对于分享的延迟较高的节点，我们可以通过优选IP来降低延迟
@@ -184,19 +192,26 @@ Edge浏览器，在右上方下载处点击 `保留`
 
 我这里准备了一个 [@冰河圈子](https://t.me/binghequanzi) 分享的Vmess节点，复制粘贴进来后，点编辑
 
-![](/v2ray/android/android-07.png)
+![](/v2ray/android/android-08.png)
 
 不要挂任何代理，打开 [在线优选IP（默认443端口）](https://stock.hostmonit.com/CloudFlareYes) ，从自动筛选的结果里，挑选自己运营商的IP，复制
 
 然后打开V2RayNG，地址这里删掉之前的，粘贴复制的IP，保存
 
-![](/v2ray/android/android-08.png)
+![](/v2ray/android/android-09.png)
 
 我们点击运行，访问 [谷歌](https://www.google.com) 看看
 
-![](/v2ray/android/android-09.png)
+![](/v2ray/android/android-10.png)
 
 :::
+
+
+
+
+
+
+
 
 
 

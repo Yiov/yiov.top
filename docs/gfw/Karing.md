@@ -118,9 +118,13 @@ Karing是一个基于 [sing-box内核](./singbox.md) ，强大易用的代理工
 
 ![](/karing/ios/ios-06.png)
 
-打开开关，访问 [谷歌](https://www.google.com) 看看
+为了避免后续导入节点使用问题，在 设置 - DNS - 打开 `启用DNS分流规则` 开关
 
 ![](/karing/ios/ios-07.png)
+
+打开开关，访问 [谷歌](https://www.google.com) 看看
+
+![](/karing/ios/ios-08.png)
 
 :::
 
@@ -148,9 +152,13 @@ Karing是一个基于 [sing-box内核](./singbox.md) ，强大易用的代理工
 
 ![](/karing/android/android-06.png)
 
+为了避免后续导入节点使用问题，在 设置 - DNS - 打开 `启用DNS分流规则` 开关
+
+![](/karing/ios/ios-07.png)
+
 打开开关，访问 [谷歌](https://www.google.com) 看看
 
-![](/karing/android/android-07.png)
+![](/karing/android/android-08.png)
 
 :::
 

@@ -95,3 +95,42 @@ Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于�
 ![](/shadowrocket/shadowrocket-07.png)
 
 
+
+## 手动添加
+
+
+除了机场订阅，还可以添加搭建的节点
+
+复制了节点，打开小火箭，会弹窗
+
+![](/shadowrocket/shadowrocket-08.png)
+
+
+:::: details 如果不弹窗怎么手搓呢
+
+以Vless节点为例，点 `+` 号添加
+
+::: tip 说明
+
+* 类型：VLESS
+
+* 地址：优选域名地址
+
+* 端口：HTTP用 `80、8080、8880、2052、2082、2086、2095` 端口任选一；HTTPS用 `443、8843、2053、2083、2087、2096` 端口任选一
+
+* UUID：创建节点时的userID
+
+* TLS：根据自己搭建的情况选择开启还是关闭
+
+* 传输方式
+
+    * 名称：选择 `websocket`
+
+    * Host：输入你的搭建域名
+
+    * 路径：`/?ed=2560`
+:::
+
+![](/shadowrocket/shadowrocket-09.png)
+
+::::

@@ -335,9 +335,10 @@ eyJhIjoiYmVjNjVjODk5NzVhN2JhYTM5ODA5OWExM2UwNDYyNWEiLCJ0IjoiOTZiNWYyYjgtZWVmMS00
 
 重新订阅节点，或者双击节点修改 `伪装域名host` 和 `SNI` 为伪装域名
 
-| 类型 | HTTP | HTTPS |
+| 类型 | HTTPS | HTTP |
 | :-: | :-: | :-: |
 | 端口 | 443、8843、2053、2083、2087、2096 | 80、8080、8880、2052、2082、2086、2095 |
+| TLS | 开启 | 关闭 |
 
 
 ![](/replit/replit-48.png)

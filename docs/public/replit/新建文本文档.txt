@@ -16,7 +16,7 @@ https://zhuanlan.zhihu.com/p/521214589
 [@甬哥](https://github.com/yonggekkk/warp-yg) 的脚本 [WARP-Wireguard-Register](https://replit.com/@yonggekkk/WARP-Wireguard-Register) ，点 `Run` 运行
 
 ::: tip 说明
-需要注册账号后才能使用，可以直接用 [Github账号](../daily/github/) 登录
+需要注册账号后才能使用，可以直接用 [Github账号](../website/github) 登录
 :::
 
 

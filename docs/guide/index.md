@@ -71,8 +71,6 @@
 
 * [git使用及上传代码到仓库](../daily/git/)
 
-* [Github的注册使用到上传](../daily/github/)
-
 * [提取应用icon图标](../daily/icon)
 
 * [Markdown的简单用法](../daily/markdown/)
@@ -166,7 +164,7 @@
 
 * [Onenav导航网页的搭建](../website/onenav/)
 
-* [Github Page静态托管建站](../website/githubpage/)
+* [Github注册及使用](../website/github)
 
 * [Vercel静态部署网站](../website/vercel/)
 

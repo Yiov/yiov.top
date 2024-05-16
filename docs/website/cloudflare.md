@@ -2,9 +2,15 @@
 
 > 更新时间：2024-4-16
 
+
+
+
+
 ## 简介
 
-我们常说的 `套个CF` ，其实就是说的cloudflare，因为他其中最特色的功能就是免费的CDN
+美国比较有名的 CDN 加速服务商，提供免费和付费的加速和网站保护服务
+
+我们常说的 `套个CF` ，其实就是说的cloudflare
 
 ::: tip 什么是CDN
 CDN 的全称是 Content Delivery Network，即内容分发网络
@@ -19,6 +25,9 @@ CDN 的全称是 Content Delivery Network，即内容分发网络
 官网：https://www.cloudflare.com/
 
 ![](/cloudflare/cloudflare-01.png)
+
+
+
 
 
 
@@ -49,167 +58,139 @@ CDN 的全称是 Content Delivery Network，即内容分发网络
 
 Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，但体验上稍微差点，这里先不演示
 
-:::: details CDN加速
 
 
-::: tip 说明
-仅演示下Github Page的步骤，服务器步骤也差不多
+
+
+
+
+:::: details 域名解析
+
+
+
+先自己 [购买一个域名](./ECS/index.md#域名) 
+
+以腾讯云演示，进入控制台 - 域名注册 - 我的域名
+
+
+![](/cloudflare/domain/domain-01.png)
+
+在 Cloudflare 主页 - 添加站点
+
+![](/cloudflare/domain/domain-02.png)
+
+输入你的域名，继续
+
+![](/cloudflare/domain/domain-03.png)
+
+方案这里下拉，选 Free 免费的，确认计划
+
+![](/cloudflare/domain/domain-04.png)
+
+开始扫描DNS记录
+
+![](/cloudflare/domain/domain-05.png)
+
+我只买了域名，没买服务器，就没解析过，所以没扫描到，点继续
+
+![](/cloudflare/domain/domain-06.png)
+
+这里需要我们更改成 Cloudflare 的DNS服务器
+
+![](/cloudflare/domain/domain-07.png)
+
+打开域名界面，勾选域名，修改DNS服务器
+
+![](/cloudflare/domain/domain-08.png)
+
+自定义DNS，分别复制 Cloudflare 提供的两个DNS，下一步
+
+
+![](/cloudflare/domain/domain-09.png)
+
+确认提交
+
+::: details 域名页面显示：DNS 地址待修改
+因为它推荐你用默认的，我们已经使用Cloudflare了，不用管
 :::
 
+![](/cloudflare/domain/domain-10.png)
 
+等待邮箱提示激活
 
-#### 准备域名
+![](/cloudflare/domain/domain-11.png)
 
-需要自己先准备 [一个域名 或 自定二级域名](../website/githubpage/index.md#_3-访问及自定义域名) ，Github Pages不能修改DNS
+![](/cloudflare/domain/domain-12.png)
 
+成功后，域名前会显示对勾
 
----
-
-#### 添加解析
-
-我是腾讯云买的域名，进控制台，添加记录
-
-* 主机记录：`@` (或 自定义二级域名)
-
-* 记录类型：`CNAME`
-
-* 记录值：`yiov.github.io` (根据自己的来)
-
-::: warning 注意
-如果你是加速自己的服务器，不需要填额外添加
-:::
-
-![](/cloudflare/cdn/cdn-01.png)
-
-
-
-然后在仓库设置 - pages - 自定义域名 填入 我们购买的域名，保存
-
-::: tip 说明
-等待解析完成，用域名可以访问即可
-:::
-
-![](/cloudflare/cdn/cdn-02.png)
-
-
----
-
-
-
-#### 添加站点
-
-回到 cloudflare 添加站点
-
-::: tip 说明
-不需要填https，直接填域名
-:::
-
-![](/cloudflare/cdn/cdn-03.png)
-
-
-拉倒最下面，选择 Free 免费的方案，继续
-
-![](/cloudflare/cdn/cdn-04.png)
-
-
-
-它会自动扫描我们原本的DNS
-
-![](/cloudflare/cdn/cdn-05.png)
-
-
-我只解析了一个`@`，竟然没扫描过来，那就手动添加一下 `CNAME` ，和DNSPod那里一样的
-
-
-![](/cloudflare/cdn/cdn-06.png)
-
-添加好后点 继续
-
-::: tip 建议
-这里最好将小云朵代理状态关掉，否则网站不可访问
-
-代理走的是美国节点
-:::
-
-![](/cloudflare/cdn/cdn-07.png)
-
-
-
-----
-
-
-#### 修改DNS
-
-
-最后要求我们修改DNS服务器
-
-
-![](/cloudflare/cdn/cdn-08.png)
-
-
-以腾讯云为例进入域名后台，勾选域名 - 更多操作 - 修改DNS服务器
-
-
-![](/cloudflare/cdn/cdn-09.png)
-
-
-
-自定义DNS，将cloudflare提供的2个DNS填上去
-
-
-![](/cloudflare/cdn/cdn-10.png)
-
-
-完成后，会显示其他，且可以进域名里看到变更了
-
-
-
-![](/cloudflare/cdn/cdn-11.png)
-
-
-![](/cloudflare/cdn/cdn-12.png)
-
-
-点击检查服务器即可，等10分钟左右就会激活成功了
-
-
-![](/cloudflare/cdn/cdn-13.png)
-
-
-![](/cloudflare/cdn/cdn-14.png)
-
-
-这里的快速入门，我也是一顿骚操作默认点完了，最后网站不能访问
-
-> 提示：too many HTTP
-
-需要将 `SSL/TLS - 边缘证书 - 始终使用HTTPS` 关闭
-
-
-![](/cloudflare/cdn/cdn-15.png)
-
-
-![](/cloudflare/cdn/cdn-16.png)
-
-
-还是无法访问，最后发现是小云朵没关
-
-DNS - 记录 - 将小云朵关掉，仅DNS即可
-
-
-![](/cloudflare/cdn/cdn-17.png)
-
-
-刷新访问就可以了，我们用 [站长工具](https://ping.chinaz.com/) ping一下前后
-
-::: tip 说明
-事实证明免费的也就这样，还是付费的好用
-:::
-
-![](/cloudflare/cdn/cdn-18.png)
+![](/cloudflare/domain/domain-13.png)
 
 
 ::::
+
+
+
+
+
+:::: details CDN加速：网站访问
+
+适用于服务器在国外，给网站套了cf，访问会有明显提升
+
+::: details 服务器在国内可以用吗
+可以，但没必要！国内访问已经很快了，没必要通过cloudflare
+:::
+
+在 Cloudflare 主页点击你的域名
+
+![](/cloudflare/cdn/cdn-01.png)
+
+在DNS栏，添加记录
+
+::: tip 常用的解析
+
+* 类型：A
+    * 名称：`@` (一级域名，如：baidu.com)
+        * iPv4地址：填服务器IP
+    * 名称：`www` (二级域名，可自定义，如：www.baidu.com)
+        * iPv4地址：填服务器IP
+    * 名称：`*` (泛解析，不要轻易使用)
+        * iPv4地址：填服务器IP
+
+---
+
+* 类型：CNAME (别名解析)
+    * 名称：`@` (一级域名，如：yiov.top)
+        * iPv4地址：其他域名 (比如：yiov.github.io)
+    * 名称：`nav` (二级域名，可自定义，如：nav.yiov.top)
+        * iPv4地址：其他域名 (比如：yiov.github.io)
+
+---
+
+说明：二级/三级域名，都可以随意添加，免费的
+:::
+
+
+
+![](/cloudflare/cdn/cdn-02.png)
+
+::::
+
+
+
+
+
+
+
+
+::: details CDN加速：Github Pages 加速
+
+之前写过，但访问效果平平，还不如直接用 [Vercel](./vercel/)
+
+:::
+
+
+
 
 
 
@@ -685,40 +666,40 @@ const cn_hostnames = [''];
 
 在节点上服务器地址，这个网址是什么
 
-![](/cloudflare/domain/domain-win-01.png)
+![](/cloudflare/yxym/win-01.png)
 
 我们访问这个网址 [VISA](https://www.visa.com.sg/)，点击小锁查看证书，发现是 Cloufare 颁发的
 
 也就是利用了 Cloudfare 的CDN特性，来降低延迟
 
-![](/cloudflare/domain/domain-win-02.png)
+![](/cloudflare/yxym/win-02.png)
 
 这里用 [@甬哥的工具：CDN优选域名V23.8.18(电脑win64).exe](https://github.com/yonggekkk/Cloudflare_vless_trojan/blob/main/CDN%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8DV23.8.18(%E7%94%B5%E8%84%91win64).exe) 来筛选最优域名
 
-![](/cloudflare/domain/domain-win-03.png)
+![](/cloudflare/yxym/win-03.png)
 
 
 开始前，请先断开所有代理！！！否则不准！！！
 
 双击打开运行，耐心等待一会
 
-![](/cloudflare/domain/domain-win-04.png)
+![](/cloudflare/yxym/win-04.png)
 
 跑完后会自动生成一个 `CDNym.txt` 文件
 
-![](/cloudflare/domain/domain-win-05.png)
+![](/cloudflare/yxym/win-05.png)
 
 打开文件，复制延迟最低的网址
 
-![](/cloudflare/domain/domain-win-06.png)
+![](/cloudflare/yxym/win-06.png)
 
 粘贴到代理软件，开启代理，测速真连接延迟明显降低
 
-![](/cloudflare/domain/domain-win-07.png)
+![](/cloudflare/yxym/win-07.png)
 
 通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
 
-![](/cloudflare/domain/domain-win-08.png)
+![](/cloudflare/yxym/win-08.png)
 
 :::
 
@@ -738,15 +719,15 @@ iOS端可以使用 [小火箭](../gfw/shadowrocket.md) 或者 [Karing](../gfw/Ka
 
 我用小火箭演示，复制节点打开小火箭添加
 
-![](/cloudflare/domain/domain-ios-01.png)
+![](/cloudflare/yxym/ios-01.png)
 
 测一下速，有延迟显示即可，访问 [谷歌](https://www.google.com/) 看看
 
-![](/cloudflare/domain/domain-ios-02.png)
+![](/cloudflare/yxym/ios-02.png)
 
 国区AppStore下载 [iSH Shell](https://apps.apple.com/cn/app/id1436902243) 并安装
 
-![](/cloudflare/domain/domain-ios-03.png)
+![](/cloudflare/yxym/ios-03.png)
 
 安装 `openssh` `curl` `bash` 命令
 
@@ -765,21 +746,21 @@ sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/reposi
 ```
 :::
 
-![](/cloudflare/domain/domain-ios-04.png)
+![](/cloudflare/yxym/ios-04.png)
 
 安装完成后，使用 [@甬哥的脚本：优选CDN域名](https://github.com/yonggekkk/Cloudflare_vless_trojan/) ，命令如下
 
 耐心等待一会，由于苹果的特殊性，排序是乱的，需要我们自行找到延迟最低的域名网址
 
-![](/cloudflare/domain/domain-ios-05.png)
+![](/cloudflare/yxym/ios-05.png)
 
 点击节点旁的 `i` 进入编辑，替换地址出的网址，再次测速延迟明显降低
 
-![](/cloudflare/domain/domain-ios-06.png)
+![](/cloudflare/yxym/ios-06.png)
 
 通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
 
-![](/cloudflare/domain/domain-ios-07.png)
+![](/cloudflare/yxym/ios-07.png)
 
 ::::
 
@@ -797,11 +778,11 @@ sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/reposi
 
 我用 NekoBox 演示，复制搭建好的节点，从剪切板导入
 
-![](/cloudflare/domain/domain-and-01.png)
+![](/cloudflare/yxym/and-01.png)
 
 测一下速，连接测试 - URL Test
 
-![](/cloudflare/domain/domain-and-02.png)
+![](/cloudflare/yxym/and-02.png)
 
 
 下载 [Termux](https://github.com/termux/termux-app/releases) 并安装 
@@ -812,7 +793,7 @@ sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/reposi
 按顺序分别适用：手机64位、手机32位、手机64/32通用、平板32位、平板64位
 :::
 
-![](/cloudflare/domain/domain-and-03.png)
+![](/cloudflare/yxym/and-03.png)
 
 
 首次使用需要更新一下，后面使用就不用了
@@ -834,7 +815,7 @@ sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/reposi
 :::
 
 
-![](/cloudflare/domain/domain-and-04.png)
+![](/cloudflare/yxym/and-04.png)
 
 
 安装完成后，使用 [@甬哥的脚本：优选CDN域名](https://github.com/yonggekkk/Cloudflare_vless_trojan/) ，命令如下
@@ -846,19 +827,19 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh -o CFcdnym.
 ```
 
 
-![](/cloudflare/domain/domain-and-05.png)
+![](/cloudflare/yxym/and-05.png)
 
 打开 NekoBox 点节点编辑 - 服务器，替换成优选的域名
 
-![](/cloudflare/domain/domain-and-06.png)
+![](/cloudflare/yxym/and-06.png)
 
 再次测速发现，节点延迟已经降低了
 
-![](/cloudflare/domain/domain-and-07.png)
+![](/cloudflare/yxym/and-07.png)
 
 通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
 
-![](/cloudflare/domain/domain-and-08.png)
+![](/cloudflare/yxym/and-08.png)
 
 ::::
 
@@ -871,5 +852,6 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh -o CFcdnym.
 * [DNS Leak Test - BrowserLeaks](https://browserleaks.com/dns)
 
 * [ipleak.net](https://ipleak.net/)
+
 
 

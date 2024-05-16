@@ -8,7 +8,7 @@
 
 * [BookmarkHub插件](https://github.com/dudor/BookmarkHub)
 
-* [Github账号](../github/#_1-注册账号)
+* [Github账号](../../website/github.md)
 
 
 

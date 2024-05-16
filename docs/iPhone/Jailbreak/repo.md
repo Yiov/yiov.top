@@ -24,9 +24,7 @@
 
 * [安装宝塔面板](../../website/BT/)
 
-* [注册Github账号](../../daily/github/)
-
-* [Github Page的部署](../../website/githubpage/)
+* [注册Github账号](../../website/github)
 
 
 

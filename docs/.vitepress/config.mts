@@ -107,7 +107,7 @@ export default defineConfig({
               { text: '微软tts·云希音色配音', link: '/daily/tts/' },
               { text: 'crx浏览器插件导出', link: '/daily/crx/' },
               { text: 'git使用及上传代码到仓库', link: '/daily/git/' },
-              { text: 'Github的注册使用到上传', link: '/daily/github/' },
+
               { text: 'Markdown的简单用法', link: '/daily/markdown/' },
               { text: 'Pake将网页打包成应用程序', link: '/daily/pake/' },
               { text: 'QQ邮箱接收其他邮箱信息', link: '/daily/qqmail/' },
@@ -206,7 +206,7 @@ export default defineConfig({
               { text: 'Webstack导航从零搭建', link: '/website/WebStack/' },
               { text: '搭建Favicon图标API', link: '/website/Favicon/' },
               { text: 'Onenav导航网页的搭建', link: '/website/onenav/' },
-              { text: 'Github Page静态托管建站', link: '/website/githubpage/' },
+              { text: 'Github的注册及使用', link: '/website/github' },
               { text: 'Vercel静态部署网站', link: '/website/vercel/' },
               { text: '闲置iPhone搭建静态网站', link: '/website/ish/' },
               { text: 'Halo博客的搭建', link: '/website/Halo/' },

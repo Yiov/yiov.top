@@ -7,7 +7,7 @@
 
 ## 前言
 
-之前我们讲过 [Github Page 静态部署](../githubpage/)，但是Github这半墙状态就很烦人
+之前我们讲过 [Github Page 静态部署](../github.md#使用)，但是Github这半墙状态就很烦人
 
 Vercel 就完全不用担心，有国内CDN加速，访问丝滑，并且还能一键部署
 
@@ -19,7 +19,7 @@ vercel还可以部署私有仓库，真实棒棒
 
 * [域名一个](../ECS/#域名)
 
-* [Github注册使用及上传代码](../../daily/github/)
+* [Github注册使用及上传代码](../../website/github)
 
 ::: warning 注意
 必须要准备，否则无法访问

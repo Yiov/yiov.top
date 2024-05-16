@@ -687,7 +687,7 @@ const cn_hostnames = [''];
 
 ![](/cloudflare/domain/domain-win-01.png)
 
-我们访问这个网址 [VISA](www.visa.com.sg)，点击小锁查看证书，发现是 Cloufare 颁发的
+我们访问这个网址 [VISA](https://www.visa.com.sg/)，点击小锁查看证书，发现是 Cloufare 颁发的
 
 也就是利用了 Cloudfare 的CDN特性，来降低延迟
 

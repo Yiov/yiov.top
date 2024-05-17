@@ -70,7 +70,7 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 
 先自己 [购买一个域名](./ECS/index.md#域名) 
 
-以腾讯云演示，进入控制台 - 域名注册 - 我的域名
+以 [腾讯云](https://console.cloud.tencent.com/) 演示，进入控制台 - 域名注册 - 我的域名
 
 
 ![](/cloudflare/domain/domain-01.png)
@@ -196,13 +196,13 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 
 
 
+
+
 :::: details WARP科学上网 - Zero Trust
 
 
 WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比传统的VPN更稳定更安全可靠
 
-
-#### 创建团队
 
 点击 `Zero Trust` 
 
@@ -295,12 +295,6 @@ Zero Trust - Settings - Custom Pages - Team domain
 
 ![](/cloudflare/warp/warp-13.png)
 
-
-
----
-
-
-#### 1.1.1.1
 
 不管刚刚跳转的客户端是什么，都推荐使用 [1.1.1.1](https://one.one.one.one/zh-Hans/)
 
@@ -396,10 +390,7 @@ Zero Trust - Settings - Custom Pages - Team domain
 
 
 
----
 
-
-#### 优选IP
 
 针对网络延迟高，我们可以通过优选一下IP来解决
 
@@ -487,6 +478,214 @@ Zero Trust - Settings - Custom Pages - Team domain
 ## 搭建节点
 
 
+
+
+
+:::: details 搭建Github镜像站
+
+
+进入 [Cloudfare仪表盘](https://dash.cloudflare.com/) 点击 `Workers 和 Pages` - `创建Worker`
+
+
+![](/cloudflare/github/github-01.png)
+
+名称随便，我这里就写成github，点 `部署`
+
+![](/cloudflare/github/github-02.png)
+
+成功后，我们的链接也有了，先点 `编辑`
+
+![](/cloudflare/github/github-03.png)
+
+
+这里的代码先 `全部删掉` ，复制下面代码粘贴进去，部署
+
+::: details 点我查看详细代码
+```js
+// 你要镜像的网站.
+const upstream = 'github.com'
+
+// 镜像网站的目录，比如你想镜像某个网站的二级目录则填写二级目录的目录名，镜像 google 用不到，默认即可.
+const upstream_path = '/'
+
+// 镜像站是否有手机访问专用网址，没有则填一样的.
+const upstream_mobile = 'github.com'
+
+// 屏蔽国家和地区.
+const blocked_region = ['KP', 'SY', 'PK', 'CU']
+
+// 屏蔽 IP 地址.
+const blocked_ip_address = ['0.0.0.0', '127.0.0.1']
+
+// 镜像站是否开启 HTTPS.
+const https = true
+
+// 文本替换.
+const replace_dict = {'$upstream': '$custom_domain', '//github.com': ''}
+
+// 以下保持默认，不要动
+addEventListener('fetch', event => {
+  event.respondWith(fetchAndApply(event.request))
+})
+
+async function fetchAndApply(request) {
+  const region = request.headers.get('cf-ipcountry').toUpperCase()
+  const ip_address = request.headers.get('cf-connecting-ip')
+  const user_agent = request.headers.get('user-agent')
+
+  let response = null
+  let url = new URL(request.url)
+  let url_hostname = url.hostname
+
+  if (https == true) {
+    url.protocol = 'https:'
+  } else {
+    url.protocol = 'http:'
+  }
+
+  if (await device_status(user_agent)) {
+    var upstream_domain = upstream
+  } else {
+    var upstream_domain = upstream_mobile
+  }
+
+  url.host = upstream_domain
+  if (url.pathname == '/') {
+    url.pathname = upstream_path
+  } else {
+    url.pathname = upstream_path + url.pathname
+  }
+
+  if (blocked_region.includes(region)) {
+    response = new Response('Access denied: WorkersProxy is not available in your region yet.', {
+      status: 403
+    })
+  } else if (blocked_ip_address.includes(ip_address)) {
+    response = new Response('Access denied: Your IP address is blocked by WorkersProxy.', {
+      status: 403
+    })
+  } else {
+    let method = request.method
+    let request_headers = request.headers
+    let new_request_headers = new Headers(request_headers)
+
+    new_request_headers.set('Host', url.hostname)
+    new_request_headers.set('Referer', url.hostname)
+
+    let original_response = await fetch(url.href, {
+            method: method,
+            headers: new_request_headers
+    })
+
+    let original_response_clone = original_response.clone()
+    let original_text = null
+    let response_headers = original_response.headers
+    let new_response_headers = new Headers(response_headers)
+    let status = original_response.status
+
+    new_response_headers.set('access-control-allow-origin', '*')
+    new_response_headers.set('access-control-allow-credentials', true)
+    new_response_headers.delete('content-security-policy')
+    new_response_headers.delete('content-security-policy-report-only')
+    new_response_headers.delete('clear-site-data')
+    
+    const content_type = new_response_headers.get('content-type')
+    if (content_type.includes('text/html') && content_type.includes('UTF-8')) {
+      original_text = await replace_response_text(original_response_clone, upstream_domain, url_hostname)
+    } else {
+      original_text = original_response_clone.body
+    }
+
+    response = new Response(original_text, {
+      status,
+      headers: new_response_headers
+    })
+  }
+  return response
+}
+
+async function replace_response_text(response, upstream_domain, host_name) {
+  let text = await response.text()
+
+  var i, j
+  for (i in replace_dict) {
+    j = replace_dict[i]
+
+    if (i == '$upstream') {
+      i = upstream_domain
+    } else if (i == '$custom_domain') {
+      i = host_name
+    }
+
+    if (j == '$upstream') {
+      j = upstream_domain
+    } else if (j == '$custom_domain') {
+      j = host_name
+    }
+
+    let re = new RegExp(i, 'g')
+    text = text.replace(re, j)
+  }
+  return text
+}
+
+async function device_status(user_agent_info) {
+  var agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"]
+  var flag = true
+  for (var v = 0; v < agents.length; v++) {
+    if (user_agent_info.indexOf(agents[v]) > 0) {
+      flag = false
+      break
+    }
+  }
+  return flag
+}
+```
+:::
+
+![](/cloudflare/github/github-04.png)
+
+点连接查看，是否成功
+
+![](/cloudflare/github/github-05.png)
+
+![](/cloudflare/github/github-06.png)
+
+由于works域名国内无法访问，我们可以添加一个自己的域名
+
+设置 - 触发器 - 添加自定义域
+
+![](/cloudflare/github/github-07.png)
+
+
+注意：你的 [域名必须已经解析在Cloudflare](#使用) 上
+
+![](/cloudflare/github/github-08.png)
+
+再次使用绑定的域名访问即可
+
+::: tip 关于缺点
+无法登录账号 和 进入`raw.githubusercontent.com` 页面
+
+其实就是利用了一个反代功能，理论上可以镜像所有网站
+:::
+
+![](/cloudflare/github/github-09.png)
+
+
+::::
+
+
+
+
+
+
+
+
+
+
+
+
 :::: details 搭建vless节点
 
 
@@ -552,7 +751,10 @@ let userID = '77a571fb-4fd2-4b37-8596-1b7d9728bb5c';
 此参数不填，会导致无法访问CF和ChatGPT，但谷歌/油管等不影响
 :::
 
-::: details @3Kmfi6HP 大佬提供的其他proxyIP
+::: details 还有其他proxyIP吗
+
+[@3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel) 大佬提供的：
+
 ```md
 cdn-all.xn--b6gac.eu.org
 
@@ -564,7 +766,13 @@ edgetunnel.anycast.eu.org
 
 cdn.anycast.eu.org
 ```
+
+---
+
+说明：还可以填入反代IP，需要自行优选
+
 :::
+
 
 
 ```js:no-line-numbers
@@ -614,11 +822,12 @@ const cn_hostnames = [''];
 
 节点有两个，一个是没有tls，一个是有tls
 
-| 类型 | HTTP | HTTPS | 
+| 类型 | HTTP | HTTPS |
 | :-: | :-: | :-: |
-| 节点 | vless+ws| vless+ws+tls | 
-| 端口 | 80、8080、8880、2052、2082、2086、2095 | 443、8843、2053、2083、2087、2096
-| TLS | 关闭 | 开启 | 
+| 节点 | vless+ws| vless+ws+tls |
+| 端口 | 80、8080、8880、2052、2082、2086、2095 | 443、8843、2053、2083、2087、2096 |
+| TLS | 关闭 | 开启 |
+| 域名 | 非必须提供 | 必须提供 |
 
 
 使用任意一款，支持Vless协议的 [科学上网工具](../gfw/proxy.md) 使用，比如 V2rayN
@@ -649,6 +858,10 @@ const cn_hostnames = [''];
 
 再次尝试访问 [谷歌](https://www.google.com/) 看看
 
+::: tip 说明
+由于节点延迟感人，强烈建议 [优选域名](#优选域名) 或者 [优选IP](#优选ip)！
+:::
+
 ![](/cloudflare/vless/vless-20.png)
 
 ::::
@@ -661,6 +874,17 @@ const cn_hostnames = [''];
 
 
 
+
+
+
+
+
+
+## 优选域名
+
+主要是对大型网站的服务器筛选，非常稳，但是速度不快
+
+只能填在科学上网工具的 `服务器地址` 中
 
 ::: details 搭建节点补充：优选域名（windows端）
 
@@ -697,7 +921,7 @@ const cn_hostnames = [''];
 
 ![](/cloudflare/yxym/win-07.png)
 
-通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
+开启代理，通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
 
 ![](/cloudflare/yxym/win-08.png)
 
@@ -758,7 +982,7 @@ sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/reposi
 
 ![](/cloudflare/yxym/ios-06.png)
 
-通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
+开启代理，通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
 
 ![](/cloudflare/yxym/ios-07.png)
 
@@ -837,11 +1061,207 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh -o CFcdnym.
 
 ![](/cloudflare/yxym/and-07.png)
 
-通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
+开启代理，通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
 
 ![](/cloudflare/yxym/and-08.png)
 
 ::::
+
+
+
+
+
+
+
+
+## 优选IP
+
+主要是对所有cf的服务器筛选，速度快，但是不一定稳
+
+既可以填在科学上网工具的 `服务器地址` 中，也可以填在 work.js 的 `proxyIPs` 中
+
+
+:::: details 搭建节点补充：优选官方IP（windows端）
+
+下载 甬哥的 [CF优选官方IP(电脑版).zip](https://github.com/yonggekkk/Cloudflare_vless_trojan/blob/main/CF%E4%BC%98%E9%80%89%E5%AE%98%E6%96%B9IP(%E7%94%B5%E8%84%91%E7%89%88).zip) ，解压后双击打开 `CF官方IP优先工具(电脑版).exe`
+
+::: tip 说明
+不太推荐 [优选反代IP](https://github.com/yonggekkk/Cloudflare_vless_trojan/blob/main/CF%E4%BC%98%E9%80%89%E5%8F%8D%E4%BB%A3IP(%E7%94%B5%E8%84%91%E7%89%88).zip) ，因为这些都是被大佬扫出来的，容易失效
+:::
+
+
+![](/cloudflare/ip/win-01.png)
+
+这里我选 `1` IPv4，端口 我选 `2095`
+
+::: details 如何查询IPv4还是IPv6
+IPv6测试：https://www.test-ipv6.com/
+
+IP查询：https://ipw.cn/
+:::
+
+
+::: details 端口的使用区别
+
+* 搭建的节点未开启TLS，用80系列端口
+
+* 搭建的节点已开启TLS，用443系列端口
+
+| 类型 | HTTP | HTTPS |
+| :-: | :-: | :-: |
+| 节点 | vless+ws| vless+ws+tls |
+| 端口 | 80、8080、8880、2052、2082、2086、2095 | 443、8843、2053、2083、2087、2096|
+| TLS | 关闭 | 开启 |
+| 域名 | 非必须提供 | 必须提供 |
+
+:::
+
+![](/cloudflare/ip/win-02.png)
+
+脚本会自动选出最优的5个IP，复制第一个
+
+![](/cloudflare/ip/win-03.png)
+
+替换到节点 `服务器地址` 和 `端口` 中，确定
+
+![](/cloudflare/ip/win-04.png)
+
+测试一下延迟
+
+![](/cloudflare/ip/win-05.png)
+
+开启代理，通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
+
+![](/cloudflare/ip/win-06.png)
+
+
+::::
+
+
+
+
+
+::: details 搭建节点补充：优选官方IP（iOS端）
+
+经过测试，iOS端使用 [iSH Shell](https://apps.apple.com/cn/app/id1436902243) 跑代码会崩溃
+
+所以，要么使用其他客户端优选后，复制过来用
+
+要么直接用 [优选域名](#优选域名)
+
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+:::: details 搭建节点补充：优选官方IP（Android端）
+
+
+安卓端可以使用 [NekoBox](../gfw/NekoBox.md) 或 [V2ray](../gfw/v2ray.md)
+
+我用 NekoBox 演示，复制搭建好的节点，从剪切板导入
+
+![](/cloudflare/ip/and-01.png)
+
+测一下速，连接测试 - URL Test
+
+![](/cloudflare/ip/and-02.png)
+
+
+下载 [Termux](https://github.com/termux/termux-app/releases) 并安装 
+
+::: tip 下载哪一个
+作者的文件名太长了，电脑端能看清
+
+按顺序分别适用：手机64位、手机32位、手机64/32通用、平板32位、平板64位
+:::
+
+![](/cloudflare/ip/and-03.png)
+
+
+首次使用需要更新一下，后面使用就不用了
+
+有提示[Y/n]，输入 `y`，提示 `Defult` 直接回车
+
+```sh
+pkg update && pkg install curl
+```
+
+::: details 卡住不动了？
+点击 `∧` + `z` 键可退出，挂上梯子翻墙了再安装即可
+
+也可以直接更换镜像
+
+```sh
+sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
+```
+:::
+
+
+![](/cloudflare/ip/and-04.png)
+
+
+安装完成后，使用 [@甬哥的脚本：优选官方IP](https://github.com/yonggekkk/Cloudflare_vless_trojan/) ，命令如下
+
+```sh
+curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/cfip.sh -o cfip.sh && chmod +x cfip.sh && bash cfip.sh
+```
+
+
+我们选 `1` 优选官方IP，端口我用的 `8880`
+
+
+::: details 官方IP和反代IP的区别
+
+* 官方IP：稳定，但速度一般
+
+* 反代IP：速度快，但不太稳定，容易失效
+
+:::
+
+
+::: details 端口的使用区别
+
+* 搭建的节点未开启TLS，用80系列端口
+
+* 搭建的节点已开启TLS，用443系列端口
+
+| 类型 | HTTP | HTTPS |
+| :-: | :-: | :-: |
+| 节点 | vless+ws| vless+ws+tls |
+| 端口 | 80、8080、8880、2052、2082、2086、2095 | 443、8843、2053、2083、2087、2096|
+| TLS | 关闭 | 开启 |
+| 域名 | 非必须提供 | 必须提供 |
+
+:::
+
+![](/cloudflare/ip/and-05.png)
+
+耐心等待一会，在结果中复制延迟最低的域名网址
+
+![](/cloudflare/ip/and-06.png)
+
+打开 NekoBox 点节点编辑 - 服务器，替换成优选的域名
+
+再次测速发现，节点延迟已经降低了
+
+![](/cloudflare/ip/and-07.png)
+
+开启代理，通过访问 [ip.gs](https://ip.sb/) 、[ipleak.net](https://ipleak.net/)、[BrowserLeaks](https://browserleaks.com/dns)，IP是在一个范围内跳动，不是永久固定的
+
+![](/cloudflare/ip/and-08.png)
+
+
+::::
+
 
 
 
@@ -852,6 +1272,9 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh -o CFcdnym.
 * [DNS Leak Test - BrowserLeaks](https://browserleaks.com/dns)
 
 * [ipleak.net](https://ipleak.net/)
+
+
+
 
 
 

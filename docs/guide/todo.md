@@ -13,7 +13,12 @@ next: false
 
 * ✅ Replit使用教程
 
-* ⬜ CF 搭建VLESS节点
+* ✅ CF 搭建VLESS节点
 
-* ⬜ CF 搭建github镜像站
+* ✅ CF 搭建github镜像站
+
+
+* ⬜ ClouDNS免费域名注册及托管到CF
+
+* ⬜ GitLab注册及使用
 

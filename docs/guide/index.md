@@ -168,6 +168,8 @@
 
 * [Vercel静态部署网站](../website/vercel/)
 
+* [GitLab注册及使用](../website/gitlab)
+
 * [闲置iPhone搭建静态网站](../website/ish/)
 
 * [Halo博客的搭建](../website/Halo/)
@@ -192,6 +194,5 @@
 
 * [UptimeRobot的注册及使用](../website/uptimerobot)
 
-* wordpress主题汉化
+* [ClouDNS的注册使用](../website/cloudns)
 
-* web开发

@@ -19,12 +19,8 @@
 
 
 
-::: details 👍 永久更新公益订阅
-点击链接进入后，复制任意线路到小火箭
-
-https://shz.al/cCNj
-
-注意：仅适合临时使用，次日就会失效，需要重新获取
+::: details 机场机场经常掉？
+可以自己搭建一个，利用 [Cloudflare 搭建Vless 节点](../website/cloudflare.md)
 :::
 
 

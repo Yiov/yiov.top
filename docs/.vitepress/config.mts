@@ -209,6 +209,7 @@ export default defineConfig({
               { text: 'Github的注册及使用', link: '/website/github' },
               { text: 'Vercel静态部署网站', link: '/website/vercel/' },
               { text: '闲置iPhone搭建静态网站', link: '/website/ish/' },
+              { text: 'GitLab的注册及使用', link: '/website/gitlab' },
               { text: 'Halo博客的搭建', link: '/website/Halo/' },
               { text: '各类主题/模板/源码汇总 ', link: '/website/source/' },
 
@@ -224,6 +225,7 @@ export default defineConfig({
               { text: 'Centos系统切换图形界面', link: '/website/Centos/' },
               { text: '浅谈内网穿透', link: '/website/NAT/' },
               { text: 'Cloudflare', link: '/website/cloudflare' },
+              { text: 'ClouDNS', link: '/website/cloudns' },
               { text: 'Replit', link: '/website/Replit' },
               { text: 'UptimeRobot ', link: '/website/uptimerobot' },
             ],

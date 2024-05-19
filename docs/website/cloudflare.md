@@ -1,6 +1,6 @@
 # Cloudflare注册及使用
 
-> 更新时间：2024-4-16
+> 更新时间：2024-5-19
 
 
 
@@ -865,8 +865,6 @@ const cn_hostnames = [''];
 ![](/cloudflare/vless/vless-20.png)
 
 ::::
-
-
 
 
 

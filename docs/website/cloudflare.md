@@ -68,7 +68,7 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 
 
 
-先自己 [购买一个域名](./ECS/index.md#域名) 
+先自己 [购买一个域名](./ECS/index.md#域名)  或者 使用 [ClouDNS的免费域名](./cloudns.md)
 
 以 [腾讯云](https://console.cloud.tencent.com/) 演示，进入控制台 - 域名注册 - 我的域名
 
@@ -834,15 +834,17 @@ const cn_hostnames = [''];
 
 复制第一个没有tls， `Vless://` 开头的那一长串，从剪切板导入
 
-::: details 有tls怎么使用
+::: details 有 tls 怎么使用
 在当前Worker中，设置 - 触发器 - 添加自定义域，填入你已解析在Cloudfare上的域名
 
-然后重新部署，复制有tls且是自己域名的 `Vless://` 节点使用
-:::
+我这里使用的是 [ClouDNS的免费域名](./cloudns.md)，三级域名解析，手动添加了证书
 
 ![](/cloudflare/vless/vless-16.png)
+:::
 
 ![](/cloudflare/vless/vless-17.png)
+
+![](/cloudflare/vless/vless-18.png)
 
 然后右键测速，真连接延迟，有数字就可以
 
@@ -850,11 +852,11 @@ const cn_hostnames = [''];
 检查配置是否正确，或更换proxyIP后尝试
 :::
 
-![](/cloudflare/vless/vless-18.png)
+![](/cloudflare/vless/vless-19.png)
 
 现在还是连不了，双击节点打开配置，右上角切换为Xray核心
 
-![](/cloudflare/vless/vless-19.png)
+![](/cloudflare/vless/vless-20.png)
 
 再次尝试访问 [谷歌](https://www.google.com/) 看看
 
@@ -862,7 +864,7 @@ const cn_hostnames = [''];
 由于节点延迟感人，强烈建议 [优选域名](#优选域名) 或者 [优选IP](#优选ip)！
 :::
 
-![](/cloudflare/vless/vless-20.png)
+![](/cloudflare/vless/vless-21.png)
 
 ::::
 

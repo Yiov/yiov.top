@@ -17,8 +17,9 @@ next: false
 
 * ✅ CF 搭建github镜像站
 
-
-* ⬜ ClouDNS免费域名注册及托管到CF
+* ✅ ClouDNS免费域名注册及托管到CF
 
 * ⬜ GitLab注册及使用
+
+* ⬜ 整理所有文章目录
 

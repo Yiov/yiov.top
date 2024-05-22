@@ -72,8 +72,8 @@ export default defineConfig({
           { text: '机场(节点)', 
             collapsed: true,
             items: [
-              { text: '机场推荐指南', link: '/gfw/channel' },
-              { text: '常见代理协议', link: '/gfw/protocol' },
+              { text: '机场', link: '/gfw/channel' },
+              { text: '协议', link: '/gfw/protocol' },
             ],
           },
 
@@ -126,9 +126,9 @@ export default defineConfig({
         //分组标题3
         text: '安卓玩机',
         items: [
-          { text: '抓包工具安装及使用', link: '/Android/HttpCanary/' },
-          { text: '小米线刷降级破MIUI限制', link: '/Android/miui/' },
-          { text: '小米下载国外版主题并提取', link: '/Android/mi_theme/' },
+          { text: 'HttpCanary', link: '/Android/HttpCanary' },
+          { text: '小米降级', link: '/Android/miui' },
+          { text: '小米主题', link: '/Android/mi_theme' },
         ],
       },
       {

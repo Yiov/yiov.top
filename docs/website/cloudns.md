@@ -156,3 +156,54 @@ ClouDNS 更新这里都是对勾就行，耐心等待，大概5分钟左右
 ::::
 
 
+:::: details 域名解析到 CloudFlare 补充：Works使用自定义域
+
+在你的Worker中，设置 - 触发器 - 添加自定义域
+
+![](/cloudns/cloudns-31.png)
+
+这里要使用三级域名，在原本的二级域名中添加一个前缀
+
+![](/cloudns/cloudns-32.png)
+
+然后查看DNS记录
+
+![](/cloudns/cloudns-33.png)
+
+Cloudflare中已经添加好了，但是ClouDNS需要手动添加
+
+![](/cloudns/cloudns-34.png)
+
+在ClouDNS中添加新记录，类型 `NS`,主机为你设置的前缀，指向为CloudFlare的NS地址
+
+![](/cloudns/cloudns-35.png)
+
+2个都添加成功，就可以使用这个三级域名了
+
+![](/cloudns/cloudns-36.png)
+
+然后在Worker的自定义域，点击显示证书
+
+![](/cloudns/cloudns-37.png)
+
+这里有个待验证，需要手动添加一个TXT记录
+
+![](/cloudns/cloudns-38.png)
+
+依次复制TXT名称和值，添加到ClouDNS中
+
+::: warning 注意
+注意看第一个TXT名称，需要你复制 `_acme-challenge.你的域名前缀`，不要漏
+:::
+
+![](/cloudns/cloudns-39.png)
+
+这样一共2条NS和2条TXT记录，就都添加完成了
+
+![](/cloudns/cloudns-40.png)
+
+等10分钟，回到Worker自定义中查看，有效表示可以使用了
+
+![](/cloudns/cloudns-41.png)
+
+::::

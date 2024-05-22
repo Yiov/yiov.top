@@ -1,8 +1,7 @@
 # 小米下载国外版主题并提取
 
-::: warning 更新时间
-最近更新：2022/12/6
-:::
+> 更新时间：2022/12/6
+
 
 
 ## 前言
@@ -43,7 +42,7 @@
 没有开发者选项的，先在设置-个人头像-我的设备-全部参数-连点3次miui版本即可开启
 :::
 
-![](./mi_theme-01.png)
+![](/mi_theme/mi_theme-01.png)
 
 
 下拉打开 `USB调试等` 和 `停用adb授权超时` 如图
@@ -52,7 +51,7 @@
 不打开会产生各种问题
 :::
 
-![](./mi_theme-02.png)
+![](/mi_theme/mi_theme-02.png)
 
 
 
@@ -69,20 +68,20 @@
 主要是通过他们来安装 主题(国内版/国际版)
 :::
 
-![](./mi_theme-03.png)
+![](/mi_theme/mi_theme-03.png)
 
 打开Shizuku，下拉 配对
 
-![](./mi_theme-04.png)
+![](/mi_theme/mi_theme-04.png)
 
 提示 `通知设置` 的先允许通知
 
-![](./mi_theme-05.png)
+![](/mi_theme/mi_theme-05.png)
 
 
 点击 `开发者选项` 打开 `无线调试` 开关，允许
 
-![](./mi_theme-06.png)
+![](/mi_theme/mi_theme-06.png)
 
 
 进入无线调试- `使用配对码配对设备` 
@@ -91,15 +90,15 @@
 记住配对码，要用的
 :::
 
-![](./mi_theme-07.png)
+![](/mi_theme/mi_theme-07.png)
 
 通知栏下拉 输入 `配对码`，配对成功即可
 
-![](./mi_theme-08.png)
+![](/mi_theme/mi_theme-08.png)
 
 返回Shizuku，点 `启动`
 
-![](./mi_theme-09.png)
+![](/mi_theme/mi_theme-09.png)
 
 启动完成后点击 `已授权应用`，打开 `安装狮`开关
 
@@ -107,9 +106,9 @@
 安装狮界面 `安装狮-Shizuju开关是开启的即可`
 :::
 
-![](./mi_theme-10.png)
+![](/mi_theme/mi_theme-10.png)
 
-![](./mi_theme-11.png)
+![](/mi_theme/mi_theme-11.png)
 
 
 
@@ -128,11 +127,11 @@
 
 先安装国际版，在下载的文件夹长按下载好的文件 - 发送 - 选择 `安装狮-Shizuku`
 
-![](./mi_theme-12.png)
+![](/mi_theme/mi_theme-12.png)
 
 安装完成后，打开主题商店
 
-![](./mi_theme-13.png)
+![](/mi_theme/mi_theme-13.png)
 
 搜 `Nero 16` 、`polos` 、 `BoSe UI V13`这3个主题，下载后暂时不要应用
 
@@ -150,12 +149,12 @@
 
 :::
 
-![](./mi_theme-14.png)
+![](/mi_theme/mi_theme-14.png)
 
 
 同样的步骤，我们把国内版的主题商店安装回来，长按勾选国内版主题商店-选择`安装狮-Shizuku`
 
-![](./mi_theme-15.png)
+![](/mi_theme/mi_theme-15.png)
 
 安装回国内版后进入商店-主题-点击下载好的主题-混搭，勾选想要的应用即可
 
@@ -163,7 +162,7 @@
 国际版的混搭在这里改，混搭模块里改会出现应用不上的情况
 :::
 
-![](./mi_theme-16.png)
+![](/mi_theme/mi_theme-16.png)
 
 最后的半成品，用的也就这些了，其他好的主题都下架了，大家早下载早备份
 
@@ -171,11 +170,11 @@
 其他小组件的我就没弄了，可以看作者教程 [B站小慈学长](https://www.coolapk.com/feed/34962956)
 :::
 
-![](./mi_theme-17.png)
+![](/mi_theme/mi_theme-17.png)
 
 [Blurone](https://dzp.lanzouy.com/iE6VV0ir0myh) 就不讲了比较简单
 
-![](./mi_theme-18.png)
+![](/mi_theme/mi_theme-18.png)
 
 
 
@@ -204,11 +203,11 @@
 如果慢了已经下载完了，删掉重新下
 :::
 
-![](./mi_theme-19.png)
+![](/mi_theme/mi_theme-19.png)
 
 打开`下载管理`，未完成的任务进去，里面的下载链接复制出来就可以了，mtz格式可以直接导入
 
-![](./mi_theme-20.png)
+![](/mi_theme/mi_theme-20.png)
 
 
 
@@ -234,7 +233,7 @@ content是主题参数，preview是主题图，把 `content` 和 `preview` 两�
 不确定是哪个的，看一下preview主题图里的图片，并记住精确的小时和分钟
 :::
 
-![](./mi_theme-21.png)
+![](/mi_theme/mi_theme-21.png)
 
 
 
@@ -419,16 +418,16 @@ content是主题参数，preview是主题图，把 `content` 和 `preview` 两�
 mtz就是主题包的格式，字体也一样的
 :::
 
-![](./mi_theme-22.png)
+![](/mi_theme/mi_theme-22.png)
 
 
 回到我的主题，从SD卡导入，选择 `Download` 刚刚导出的 `*.mtz` 主题包
 
-![](./mi_theme-23.png)
+![](/mi_theme/mi_theme-23.png)
 
 这样我们的主题就提取完成，并可以使用了
 
-![](./mi_theme-24.png)
+![](/mi_theme/mi_theme-24.png)
 
 
 

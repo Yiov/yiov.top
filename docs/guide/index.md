@@ -40,58 +40,60 @@
 
 ## 日常使用
 
-* [待产包清单](../daily/bags-just-yet)
+* 生活相关
 
-* [1688母婴同源店](../daily/1688)
+    * [待产包清单](../daily/bags-just-yet)
 
-* [电视TV的使用技巧](../daily/tvapp)
+    * [1688母婴同源店](../daily/1688)
 
-* [小米运动刷步教程](../daily/xmsb)
+    * [电视TV的使用技巧](../daily/tvapp)
 
-* [买房及房产证办理](../daily/house)
+    * [小米运动刷步教程](../daily/xmsb)
 
-* [台州麻将玩法](../daily/mahjong)
+    * [买房及房产证办理](../daily/house)
 
-* [车厘子基础知识科普](../daily/cherries)
+    * [台州麻将玩法](../daily/mahjong)
 
-* [维生素基础知识](../daily/vitamin)
+    * [车厘子基础知识科普](../daily/cherries)
 
-* [血常规化验单解读](../daily/blood)
+    * [维生素基础知识](../daily/vitamin)
+
+    * [血常规化验单解读](../daily/blood)
 
 
+* 电脑相关
 
+    * [百度云下载变态加速](../daily/baiduyun/)
 
-* [百度云下载变态加速](../daily/baiduyun/)
+    * [书签同步至不同浏览器](../daily/bookmark/)
 
-* [书签同步至不同浏览器](../daily/bookmark/)
+    * [微软tts·云希音色配音](../daily/tts/)
 
-* [微软tts·云希音色配音](../daily/tts/)
+    * [crx浏览器插件导出](../daily/crx/)
 
-* [crx浏览器插件导出](../daily/crx/)
+    * [git使用及上传代码到仓库](../daily/git/)
 
-* [git使用及上传代码到仓库](../daily/git/)
+    * [提取应用icon图标](../daily/icon)
 
-* [提取应用icon图标](../daily/icon)
+    * [Markdown的简单用法](../daily/markdown/)
 
-* [Markdown的简单用法](../daily/markdown/)
+    * [Pake将网页打包成应用程序](../daily/pake/)
 
-* [Pake将网页打包成应用程序](../daily/pake/)
+    * [QQ邮箱接收其他邮箱信息](../daily/qqmail/)
 
-* [QQ邮箱接收其他邮箱信息](../daily/qqmail/)
+    * [油猴安装及使用教程](../daily/tampermonkey/)
 
-* [油猴安装及使用教程](../daily/tampermonkey/)
+    * [Todesk远程开关电脑](../daily/todesk/)
 
-* [Todesk远程开关电脑](../daily/todesk/)
+    * [VSCode安装步骤](../daily/VSCode/)
 
-* [VSCode安装步骤](../daily/VSCode/)
+    * [企业微信推送教程](../daily/wecom/)
 
-* [企业微信推送教程](../daily/wecom/)
+    * [微PE制作PE启动盘](../daily/wepe/)
 
-* [微PE制作PE启动盘](../daily/wepe/)
+    * [电脑常见问题汇总](../daily/win11/)
 
-* [电脑常见问题汇总](../daily/win11/)
-
-* [电脑无法安装Photoshop 2023](../daily/ps/)
+    * [电脑无法安装Photoshop 2023](../daily/ps/)
 
 
 
@@ -99,11 +101,11 @@
 
 ## 安卓相关
 
-* [安卓抓包工具安装及使用](../Android/HttpCanary/)
+* [HttpCanary抓包工具的使用](../Android/HttpCanary)
 
-* [小米线刷降级破MIUI限制](../Android/miui/)
+* [小米线刷降级破MIUI限制](../Android/miui)
 
-* [小米下载国外版主题并提取](../Android/mi_theme/)
+* [小米下载国外版主题并提取](../Android/mi_theme)
 
 
 ## 苹果相关

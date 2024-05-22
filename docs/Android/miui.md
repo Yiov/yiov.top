@@ -1,16 +1,17 @@
 
 # 小米线刷降级破MIUI限制
 
-::: warning 更新时间
-最近更新：2021-10-18
-:::
+> 更新时间：2021-10-18
 
 
-::: danger 注意
+
+
+## 前言
+
+MIUI 12.5 后小米限制了降级
+
 本教程仅适用于 刷机时出现 `remote:update sparse crc list failed`
 
-原因：MIUI 12.5 后小米限制了降级
-:::
 
 
 
@@ -18,35 +19,26 @@
 ## 准备工作
 
 
-* [原装数据线+备份](#备份)
 
-* [下载rom包](#下载rom包)
-
-* [下载小米官方刷机工具](#官方刷机工具)
-
-* [已解官方BL锁](http://www.miui.com/unlock/index.html)
-
-
-
-## 备份
+### 备份
 
 
 方便恢复数据，一定要备份！！
 
-设置-更多设置-备份与恢复，备份复制到电脑桌面，不然刷机会丢失
+设置 - 更多设置 - 备份与恢复，备份复制到电脑桌面，不然刷机会丢失
 
 ::: tip 说明
 手机端备份后在 **MIUI-Backup-AllBackup** 文件夹
 :::
 
-![](./miui-01.png)
+![](/miui/miui-01.png)
 
 
 
 
+---
 
-
-## 下载ROM包
+### 下载ROM包
 
 
 
@@ -56,23 +48,23 @@
 开发版要去小米论坛申请内测资格并通过，然后去 [官网申请BL锁](http://www.miui.com/unlock/index.html)
 :::
 
-官方论坛刷机包汇总：[https://web.vip.miui.com/page/info/mio/mio/detail?postId=37093637](https://web.vip.miui.com/page/info/mio/mio/detail?postId=37093637)
+官方论坛刷机包汇总：https://web.vip.miui.com/page/info/mio/mio/detail?postId=37093637
 
 ::: tip 其他途径
-XiaomiRom：[https://xiaomirom.com/](https://xiaomirom.com/)
+XiaomiRom：https://xiaomirom.com/
 :::
 
-![](./miui-02.png)
+![](/miui/miui-02.png)
+
+
+
+---
 
 
 
 
 
-
-
-
-
-## 官方刷机工具
+### 官方刷机工具
 
 
 
@@ -86,7 +78,7 @@ XiaomiRom：[https://xiaomirom.com/](https://xiaomirom.com/)
 带下载包的miflash pro：https://dzp.lanzouy.com/ij7Wk0g7755g
 ```
 
-![](./miui-03.png)
+![](/miui/miui-03.png)
 
 
 
@@ -102,7 +94,7 @@ XiaomiRom：[https://xiaomirom.com/](https://xiaomirom.com/)
 解压后，打开小米刷机工具文件夹，运行 **XiaoMiFlash.exe**
 
 
-![](./miui-04.png)
+![](/miui/miui-04.png)
 
 
 
@@ -113,7 +105,7 @@ XiaomiRom：[https://xiaomirom.com/](https://xiaomirom.com/)
 第一次下载的点一下 `Driver` 安装一下驱动，已经装过的无视
 :::
 
-![](./miui-05.png)
+![](/miui/miui-05.png)
 
 
 以下一一对应
@@ -127,23 +119,23 @@ XiaomiRom：[https://xiaomirom.com/](https://xiaomirom.com/)
 :::
 
 
-![](./miui-06.png)
+![](/miui/miui-06.png)
 
 
 
 打开ROM包文件夹，找到相应的bat命令更改，鼠标右键—用记事本打开
 
-![](./miui-07.png)
+![](/miui/miui-07.png)
 
 
 编辑—查找 `Flash sparsecrclist error`
 
-![](./miui-08.png)
+![](/miui/miui-08.png)
 
 
 把这一段**整句全删掉**，不留空格，**保存并退出**
 
-![](./miui-09.png)
+![](/miui/miui-09.png)
 
 
 
@@ -155,7 +147,7 @@ XiaomiRom：[https://xiaomirom.com/](https://xiaomirom.com/)
 不知道路径的，进你的ROM包文件夹里，复制顶部的路径，粘贴过去就行
 :::
 
-![](./miui-10.png)
+![](/miui/miui-10.png)
 
 
 

@@ -22,7 +22,7 @@ CDN 的全称是 Content Delivery Network，即内容分发网络
 另：常见的CDN服务商还有 [又拍云](https://www.upyun.com/)、[七牛云](https://www.qiniu.com/)、[腾讯云COS](https://cloud.tencent.com/act/pro/cos)、[阿里云OSS](https://www.aliyun.com/product/oss)等
 :::
 
-官网：https://www.cloudflare.com/
+官网：https://www.cloudflare.com/zh-cn/
 
 ![](/cloudflare/cloudflare-01.png)
 
@@ -837,7 +837,7 @@ const cn_hostnames = [''];
 ::: details 有 tls 怎么使用
 在当前Worker中，设置 - 触发器 - 添加自定义域，填入你已解析在Cloudfare上的域名
 
-我这里使用的是 [ClouDNS的免费域名](./cloudns.md)，三级域名解析，手动添加了证书
+如果使用的是 [ClouDNS的免费域名](./cloudns.md)，需自行解析三级域名并添加证书
 
 ![](/cloudflare/vless/vless-16.png)
 :::
@@ -885,6 +885,10 @@ const cn_hostnames = [''];
 主要是对大型网站的服务器筛选，非常稳，但是速度不快
 
 只能填在科学上网工具的 `服务器地址` 中
+
+
+
+
 
 ::: details 搭建节点补充：优选域名（windows端）
 
@@ -973,6 +977,10 @@ sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/reposi
 ![](/cloudflare/yxym/ios-04.png)
 
 安装完成后，使用 [@甬哥的脚本：优选CDN域名](https://github.com/yonggekkk/Cloudflare_vless_trojan/) ，命令如下
+
+```sh
+curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh -o CFcdnym.sh && chmod +x CFcdnym.sh && bash CFcdnym.sh
+```
 
 耐心等待一会，由于苹果的特殊性，排序是乱的，需要我们自行找到延迟最低的域名网址
 

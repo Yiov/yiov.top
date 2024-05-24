@@ -14,40 +14,6 @@
 ![](/reqable/reqable-01.png)
 
 
-## 准备工作
-
-::: tip 说明
-缺一不可，达不到的无视以下教程
-:::
-
-* 手机root (小米系统切换为开发版)
-
-* 解锁system分区
-
-
-:::: details 解锁分区步骤
-
-先解锁一下分区，我自己是小米，用的Syslock
-
-::: tip 说明
-其他手机请自测，一般刷面具root完成后就解锁分区了，如MT管理器无法移动文件就过来解锁
-:::
-
-下载Syslock：https://www.coolapk.com/apk/com.lerist.syslock
-
-![](/HttpCanary/HttpCanary-01.png)
-
-
-下载后，打开按钮
-
-![](/HttpCanary/HttpCanary-02.png)
-
-
-重启后，再次打开Syslock，开启即可完成
-
-![](/HttpCanary/HttpCanary-03.png)
-
-::::
 
 
 

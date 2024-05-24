@@ -99,20 +99,22 @@
 
 
 
-## 安卓相关
+## 小米相关
 
-* [HttpCanary抓包工具的使用](../Android/HttpCanary)
+
 
 * [小米线刷降级破MIUI限制](../Android/miui)
 
-* [小米下载国外版主题并提取](../Android/mi_theme)
+* [小米主题国外版下载及提取](../Android/mi_theme)
 
 
 ## 苹果相关
 
 * [iPhone短信添加头像](../iPhone/smscard)
 
-* [苹果抓包工具安装及使用](../iPhone/Stream)
+* [Reqable抓包工具的使用](../Android/Reqable)
+
+* [Stream抓包工具的使用](../iPhone/Stream)
 
 * [注册国外苹果Apple_ID步骤](../iPhone/Apple_ID)
 

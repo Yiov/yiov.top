@@ -124,9 +124,8 @@ export default defineConfig({
       },
       {
         //分组标题3
-        text: '安卓玩机',
+        text: '小米相关',
         items: [
-          { text: 'HttpCanary', link: '/Android/HttpCanary' },
           { text: '小米降级', link: '/Android/miui' },
           { text: '小米主题', link: '/Android/mi_theme' },
         ],
@@ -139,10 +138,10 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '短信添加头像', link: '/iPhone/smscard' },
+              { text: 'Reqable', link: '/Android/Reqable' },
               { text: '抓包工具使用', link: '/iPhone/Stream' },
               { text: '注册国外Apple ID', link: '/iPhone/Apple_ID' },
               { text: 'stay2安装油猴插件', link: '/iPhone/stay2' },
-
             ],
           },
           { text: '签名工具', 

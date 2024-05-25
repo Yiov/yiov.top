@@ -33,7 +33,7 @@
 
 * [YARN 和 PNPM](../nodejs/#yarn-和-pnpm)「推荐」
 
-* [VS Code的安装步骤](../../daily/VSCode/)「推荐」
+* [VS Code的安装步骤](../../tools/VSCode/)「推荐」
 
 
 ## 1.下载源码

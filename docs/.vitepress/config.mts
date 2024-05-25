@@ -79,69 +79,66 @@ export default defineConfig({
 
         ],
       },
+
       {
         //分组标题2
-        text: '日常使用',
+        text: '日常生活',
+        collapsed: true,
         items: [
-          { text: '生活相关', 
-            collapsed: true,
-            items: [
-              { text: '待产包清单', link: '/daily/bags-just-yet' },
-              { text: '1688母婴同源店', link: '/daily/1688' },
-              { text: '电视TV的使用技巧', link: '/daily/tvapp' },
-              { text: '小米运动刷步教程', link: '/daily/xmsb' },
-              { text: '买房及房产证办理', link: '/daily/house' },
-              { text: '台州麻将玩法', link: '/daily/mahjong' },
-              { text: '车厘子基础知识科普', link: '/daily/cherries' },
-              { text: '维生素基础知识', link: '/daily/vitamin' },
-              { text: '血常规化验单解读', link: '/daily/blood' },
-            ],
-          },
-          { text: '电脑相关', 
-            collapsed: true,
-            items: [
-              { text: '提取应用icon图标', link: '/daily/icon' },
-
-              { text: '百度云下载变态加速', link: '/daily/baiduyun/' },
-              { text: '书签同步至不同浏览器', link: '/daily/bookmark/' },
-              { text: '微软tts·云希音色配音', link: '/daily/tts/' },
-              { text: 'crx浏览器插件导出', link: '/daily/crx/' },
-              { text: 'git使用及上传代码到仓库', link: '/daily/git/' },
-
-              { text: 'Markdown的简单用法', link: '/daily/markdown/' },
-              { text: 'Pake将网页打包成应用程序', link: '/daily/pake/' },
-              { text: 'QQ邮箱接收其他邮箱信息', link: '/daily/qqmail/' },
-              { text: '油猴安装及使用教程', link: '/daily/tampermonkey/' },
-              { text: 'Todesk远程开关电脑', link: '/daily/todesk/' },
-              { text: 'VSCode安装步骤', link: '/daily/VSCode/' },
-              { text: '企业微信推送教程', link: '/daily/wecom/' },
-              { text: '微PE制作PE启动盘', link: '/daily/wepe/' },
-              { text: '电脑常见问题汇总', link: '/daily/win11/' },
-              { text: 'Photoshop 2023无法安装', link: '/daily/ps/' },
-            ],
-          },
+          { text: '微信刷步', link: '/daily/xmsb' },
+          { text: '待产包', link: '/daily/bags-just-yet' },
+          { text: '1688同源店', link: '/daily/1688' },
+          { text: '买房及房产证', link: '/daily/house' },
+          { text: '台州麻将', link: '/daily/mahjong' },
+          { text: '车厘子', link: '/daily/cherries' },
+          { text: '维生素', link: '/daily/vitamin' },
+          { text: '血常规', link: '/daily/blood' },
         ],
       },
+
       {
         //分组标题3
+        text: '工具使用', 
+        collapsed: true,
+        items: [
+          { text: '电视TV', link: '/tools/tvapp' },
+          { text: '提取icon', link: '/tools/icon' },
+          { text: '书签同步', link: '/tools/bookmark' },
+          { text: '微软TTS', link: '/tools/tts' },
+          { text: 'crx插件', link: '/tools/crx' },
+          { text: 'Markdown', link: '/tools/markdown' },
+          { text: 'Pake', link: '/tools/pake' },
+          { text: 'QQ邮箱', link: '/tools/qqmail' },
+          { text: '油猴插件', link: '/tools/tampermonkey' },
+          { text: 'Todesk', link: '/tools/todesk' },
+          { text: 'VSCode', link: '/tools/VSCode' },
+          { text: '企业微信推送', link: '/tools/wecom' },
+          { text: '微PE', link: '/tools/wepe' },
+          { text: '电脑常见问题', link: '/tools/win11' },
+          { text: 'PS 2023', link: '/tools/ps' },
+        ],
+      },
+
+      {
+        //分组标题4
         text: '小米相关',
         items: [
-          { text: '小米降级', link: '/Android/miui' },
-          { text: '小米主题', link: '/Android/mi_theme' },
+          { text: '小米降级', link: '/mi/miui' },
+          { text: '小米主题', link: '/mi/mi_theme' },
         ],
       },
       {
-        //分组标题4
+        //分组标题5
         text: 'iPhone玩机',
         items: [
           { text: '日常使用', 
             collapsed: true,
             items: [
               { text: '短信添加头像', link: '/iPhone/smscard' },
-              { text: 'Reqable', link: '/Android/Reqable' },
-              { text: '抓包工具使用', link: '/iPhone/Stream' },
-              { text: '注册国外Apple ID', link: '/iPhone/Apple_ID' },
-              { text: 'stay2安装油猴插件', link: '/iPhone/stay2' },
+              { text: 'Reqable', link: '/mi/Reqable' },
+              { text: 'Stream', link: '/iPhone/Stream' },
+              { text: 'Apple ID', link: '/iPhone/Apple_ID' },
+              { text: 'stay2', link: '/iPhone/stay2' },
             ],
           },
           { text: '签名工具', 
@@ -177,7 +174,7 @@ export default defineConfig({
         ],
       },
       {
-        //分组标题5
+        //分组标题6
         text: 'Telegram',
         items: [
           { text: 'Telegram的注册及使用', link: '/telegram/tg/' },
@@ -186,7 +183,7 @@ export default defineConfig({
         ],
       },
       {
-        //分组标题6
+        //分组标题7
         text: '网站相关',
         items: [
           { text: '搭建网站', 
@@ -205,8 +202,11 @@ export default defineConfig({
               { text: 'Webstack导航从零搭建', link: '/website/WebStack/' },
               { text: '搭建Favicon图标API', link: '/website/Favicon/' },
               { text: 'Onenav导航网页的搭建', link: '/website/onenav/' },
-              { text: 'Github的注册及使用', link: '/website/github' },
-              { text: 'Vercel静态部署网站', link: '/website/vercel/' },
+
+              { text: 'Github', link: '/website/github' },
+              { text: 'Git', link: '/website/git' },
+
+              { text: 'Vercel', link: '/website/vercel/' },
               { text: '闲置iPhone搭建静态网站', link: '/website/ish/' },
               { text: 'GitLab的注册及使用', link: '/website/gitlab' },
               { text: 'Halo博客的搭建', link: '/website/Halo/' },
@@ -232,7 +232,7 @@ export default defineConfig({
         ],
       },
       {
-        //分组标题6
+        //分组标题8
         text: '其他站点',
         //collapsed: false,
         items: [

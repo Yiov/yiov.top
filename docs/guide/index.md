@@ -46,7 +46,7 @@
 
     * [1688母婴同源店](../daily/1688)
 
-    * [电视TV的使用技巧](../daily/tvapp)
+    * [电视TV的使用技巧](../tools/tvapp)
 
     * [小米运动刷步教程](../daily/xmsb)
 
@@ -63,37 +63,34 @@
 
 * 电脑相关
 
-    * [百度云下载变态加速](../daily/baiduyun/)
+    * [书签同步至不同浏览器](../tools/bookmark)
 
-    * [书签同步至不同浏览器](../daily/bookmark/)
+    * [微软tts·云希音色配音](../tools/tts)
 
-    * [微软tts·云希音色配音](../daily/tts/)
+    * [crx浏览器插件导出](../tools/crx)
 
-    * [crx浏览器插件导出](../daily/crx/)
+    * [提取应用icon图标](../tools/icon)
 
-    * [git使用及上传代码到仓库](../daily/git/)
+    * [Markdown的简单用法](../tools/markdown)
 
-    * [提取应用icon图标](../daily/icon)
+    * [Pake将网页打包成应用程序](../tools/pake)
 
-    * [Markdown的简单用法](../daily/markdown/)
+    * [QQ邮箱接收其他邮箱信息](../tools/qqmail)
 
-    * [Pake将网页打包成应用程序](../daily/pake/)
+    * [油猴安装及使用教程](../tools/tampermonkey)
 
-    * [QQ邮箱接收其他邮箱信息](../daily/qqmail/)
+    * [Todesk远程开关电脑](../tools/todesk)
 
-    * [油猴安装及使用教程](../daily/tampermonkey/)
+    * [VSCode安装步骤](../tools/VSCode)
 
-    * [Todesk远程开关电脑](../daily/todesk/)
+    * [企业微信推送教程](../tools/wecom)
 
-    * [VSCode安装步骤](../daily/VSCode/)
 
-    * [企业微信推送教程](../daily/wecom/)
+    * [微PE制作PE启动盘](../tools)
 
-    * [微PE制作PE启动盘](../daily/wepe/)
+    * [电脑常见问题汇总](../tools/win11)
 
-    * [电脑常见问题汇总](../daily/win11/)
-
-    * [电脑无法安装Photoshop 2023](../daily/ps/)
+    * [Photoshop 2023无法安装](../tools/ps)
 
 
 
@@ -103,16 +100,16 @@
 
 
 
-* [小米线刷降级破MIUI限制](../Android/miui)
+* [小米线刷降级破MIUI限制](../mi/miui)
 
-* [小米主题国外版下载及提取](../Android/mi_theme)
+* [小米主题国外版下载及提取](../mi/mi_theme)
 
 
 ## 苹果相关
 
 * [iPhone短信添加头像](../iPhone/smscard)
 
-* [Reqable抓包工具的使用](../Android/Reqable)
+* [Reqable抓包工具的使用](../mi/Reqable)
 
 * [Stream抓包工具的使用](../iPhone/Stream)
 
@@ -169,6 +166,8 @@
 * [Onenav导航网页的搭建](../website/onenav/)
 
 * [Github注册及使用](../website/github)
+
+* [git使用及上传代码到仓库](../website/git/)
 
 * [Vercel静态部署网站](../website/vercel/)
 

@@ -85,8 +85,7 @@
 
     * [企业微信推送教程](../tools/wecom)
 
-
-    * [微PE制作PE启动盘](../tools)
+    * [微PE制作PE启动盘](../tools/wepe)
 
     * [电脑常见问题汇总](../tools/win11)
 
@@ -167,7 +166,7 @@
 
 * [Github注册及使用](../website/github)
 
-* [git使用及上传代码到仓库](../website/git/)
+* [git使用及上传代码到仓库](../website/git)
 
 * [Vercel静态部署网站](../website/vercel/)
 

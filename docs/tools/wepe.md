@@ -36,7 +36,7 @@
 ### PE启动盘
 
 
-在 [微PE官网]((https://www.wepe.com.cn/)) 右上角 [下载](https://www.wepe.com.cn/download.html) ，选择合适的版本
+在 [微PE官网](https://www.wepe.com.cn/) 右上角 [下载](https://www.wepe.com.cn/download.html) ，选择合适的版本
 
 ::: details 下载64位还是32位？
 我的电脑 - 右键属性 - 系统类型，可以查看

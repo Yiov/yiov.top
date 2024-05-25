@@ -47,7 +47,7 @@
 :::: details Linux系统安装
 
 
-由于系统原因，[Linux需要切换为图形界面](../../website/Centos/) 的系统才可安装，我这里以CentOS为例
+由于系统原因，[Linux需要切换为图形界面](../website/Centos/) 的系统才可安装，我这里以CentOS为例
 
 我们进入CentOS后，打开 [Todesk官网](https://www.todesk.com/download.html) 下载Linux版本
 

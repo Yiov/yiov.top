@@ -38,7 +38,7 @@ Tampermonkey 简称 `篡改猴` ，而一直被称为油猴的实际是Greasemon
 
 ## 安装
 
-进 [篡改猴](官网下载：https://www.tampermonkey.net/) 官网下载
+进 [篡改猴](https://www.tampermonkey.net/) 官网下载
 
 ::: details 打不开网页，需要翻墙？
 可以使用 [收藏猫：篡改猴](https://chrome.pictureknow.com/extension?id=4d999497b75d4eb6acf4d0db3053f1af)
@@ -79,7 +79,7 @@ Tampermonkey 简称 `篡改猴` ，而一直被称为油猴的实际是Greasemon
 ![](/tampermonkey/tampermonkey-06.png)
 
 
-以 [GitHub汉化插件]((https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)) 为例，演示安装和使用
+以 [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization) 为例，演示安装和使用
 
 ![](/tampermonkey/tampermonkey-07.png)
 
@@ -90,7 +90,7 @@ Tampermonkey 简称 `篡改猴` ，而一直被称为油猴的实际是Greasemon
 
 
 
-访问 [GitHub]((https://github.com/)) 就是中文了，由于处于半墙状态，打不开的，刷新一下
+访问 [GitHub](https://github.com/) 就是中文了，由于处于半墙状态，打不开的，刷新一下
 
 ![](/tampermonkey/tampermonkey-09.png)
 

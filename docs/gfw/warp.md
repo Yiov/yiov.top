@@ -18,7 +18,7 @@ WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比
 
 ## 准备工作
 
-* [TG账号](../telegram/tg/) 「必备」
+* [TG账号](../telegram/tg.md) 「必备」
 
 * [Apple ID美区苹果账号](../iPhone/Apple_ID.md) 「iOS准备」
 

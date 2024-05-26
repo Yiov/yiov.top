@@ -29,7 +29,7 @@ Wireguard是一款三层加密的隧道通信协议，以及免费开源软件
 
 ## 准备工作
 
-* [TG账号](../telegram/tg/) 「必备」
+* [TG账号](../telegram/tg.md) 「必备」
 
 * [Apple ID美区苹果账号](../iPhone/Apple_ID.md) 「iOS准备」
 

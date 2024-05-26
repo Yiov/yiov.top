@@ -5,23 +5,16 @@
 
 ## 简介
 
-抓包顾名思义，即通过工具来截取当前网页的内容
+iOS开发的网络抓包工具，可以快速抓取和分析网络数据
 
-工具：
-
-* [Stream](https://apps.apple.com/cn/app/stream/id1312141691)（免费）
-
-* Thor (俗称锤子，已跑路)
-
-* HTTP Catcher （俗称网球，已跑路）
+![](/Stream/Stream.png)
 
 
 
 ## 安装
 
 
-
-APP Store下载：https://apps.apple.com/cn/app/stream/id1312141691
+APP Store下载 [Stream](https://apps.apple.com/cn/app/stream/id1312141691)
 
 ![](/Stream/Stream-01.png)
 

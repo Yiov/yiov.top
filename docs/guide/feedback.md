@@ -13,13 +13,7 @@
 
 ## 反馈
 
-有问题咨询或者建议，均可发邮件给我
-
-Email：
-
-```
-490857007@qq.com
-```
+有问题咨询或者建议，发 [issues](https://github.com/Yiov/yiov.top/issues)
 
 ## 赞助
 

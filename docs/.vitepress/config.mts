@@ -83,39 +83,61 @@ export default defineConfig({
       {
         //分组标题2
         text: '日常生活',
-        collapsed: true,
         items: [
-          { text: '微信刷步', link: '/daily/xmsb' },
-          { text: '待产包', link: '/daily/bags-just-yet' },
-          { text: '1688同源店', link: '/daily/1688' },
-          { text: '买房及房产证', link: '/daily/house' },
-          { text: '台州麻将', link: '/daily/mahjong' },
-          { text: '车厘子', link: '/daily/cherries' },
-          { text: '维生素', link: '/daily/vitamin' },
-          { text: '血常规', link: '/daily/blood' },
+          { text: '常识', 
+            collapsed: true,
+            items: [
+              { text: '维生素', link: '/daily/vitamin' },
+              { text: '血常规', link: '/daily/blood' },
+              { text: '车厘子', link: '/daily/cherries' },
+              { text: '房产证', link: '/daily/house' },
+            ],
+          },
+
+          { text: '技巧', 
+            collapsed: true,
+            items: [
+              { text: '待产包', link: '/daily/bags-just-yet' },
+              { text: '台州麻将', link: '/daily/mahjong' },
+              { text: '1688同源店', link: '/daily/1688' },
+              { text: '微信运动刷步', link: '/daily/xmsb' },
+            ],
+          },
+
         ],
       },
 
       {
         //分组标题3
-        text: '工具使用', 
-        collapsed: true,
+        text: '电脑相关', 
         items: [
-          { text: '电视TV', link: '/tools/tvapp' },
-          { text: '提取icon', link: '/tools/icon' },
-          { text: '书签同步', link: '/tools/bookmark' },
-          { text: '微软TTS', link: '/tools/tts' },
-          { text: 'crx插件', link: '/tools/crx' },
-          { text: 'Markdown', link: '/tools/markdown' },
-          { text: 'Pake', link: '/tools/pake' },
-          { text: 'QQ邮箱', link: '/tools/qqmail' },
-          { text: '油猴插件', link: '/tools/tampermonkey' },
-          { text: 'Todesk', link: '/tools/todesk' },
-          { text: 'VSCode', link: '/tools/VSCode' },
-          { text: '企业微信推送', link: '/tools/wecom' },
-          { text: '微PE', link: '/tools/wepe' },
-          { text: '电脑常见问题', link: '/tools/win11' },
-          { text: 'PS 2023', link: '/tools/ps' },
+          { text: '系统', 
+            collapsed: true,
+            items: [
+              { text: '微PE', link: '/computer/wepe' },
+              { text: '电脑常见问题', link: '/computer/win11' },
+            ],
+          },
+
+          { text: '应用', 
+            collapsed: true,
+            items: [
+              { text: 'Pake', link: '/computer/pake' },
+
+              { text: 'Todesk', link: '/computer/todesk' },
+              { text: 'Markdown', link: '/computer/markdown' },
+              { text: 'PS 2023', link: '/computer/ps' },
+              { text: 'icon提取', link: '/computer/icon' },
+              { text: 'QQ邮箱', link: '/computer/qqmail' },
+              { text: '电视应用', link: '/computer/tvapp' },
+              { text: '油猴插件', link: '/computer/tampermonkey' },
+              { text: '微软TTS', link: '/computer/tts' },
+              { text: '书签同步', link: '/computer/bookmark' },
+              { text: 'crx插件导出', link: '/computer/crx' },
+              { text: '企业微信推送', link: '/computer/wecom' },
+            ],
+          },
+
         ],
       },
 
@@ -134,11 +156,11 @@ export default defineConfig({
           { text: '日常使用', 
             collapsed: true,
             items: [
-              { text: '短信添加头像', link: '/iPhone/smscard' },
-              { text: 'Reqable', link: '/mi/Reqable' },
-              { text: 'Stream', link: '/iPhone/Stream' },
+              { text: 'iMessage', link: '/iPhone/smscard' },
               { text: 'Apple ID', link: '/iPhone/Apple_ID' },
               { text: 'stay2', link: '/iPhone/stay2' },
+              { text: 'Stream', link: '/iPhone/Stream' },
+              { text: 'Reqable', link: '/iPhone/Reqable' },
             ],
           },
           { text: '签名工具', 
@@ -177,9 +199,9 @@ export default defineConfig({
         //分组标题6
         text: 'Telegram',
         items: [
-          { text: 'Telegram的注册及使用', link: '/telegram/tg/' },
-          { text: '创建自己的tg私聊机器人 ', link: '/telegram/tgbot//' },
-          { text: 'TG表情包下载与制作', link: '/telegram/sticker/' },
+          { text: 'TG', link: '/telegram/tg' },
+          { text: '机器人 ', link: '/telegram/tgbot' },
+          { text: '表情包', link: '/telegram/sticker' },
         ],
       },
       {
@@ -205,6 +227,7 @@ export default defineConfig({
 
               { text: 'Github', link: '/website/github' },
               { text: 'Git', link: '/website/git' },
+              { text: 'VSCode', link: '/website/VSCode' },
 
               { text: 'Vercel', link: '/website/vercel/' },
               { text: '闲置iPhone搭建静态网站', link: '/website/ish/' },

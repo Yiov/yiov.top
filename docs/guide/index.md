@@ -46,7 +46,7 @@
 
     * [1688母婴同源店](../daily/1688)
 
-    * [电视TV的使用技巧](../tools/tvapp)
+    * [电视TV的使用技巧](../computer/tvapp)
 
     * [小米运动刷步教程](../daily/xmsb)
 
@@ -63,33 +63,31 @@
 
 * 电脑相关
 
-    * [书签同步至不同浏览器](../tools/bookmark)
+    * [书签同步至不同浏览器](../computer/bookmark)
 
-    * [微软tts·云希音色配音](../tools/tts)
+    * [微软tts·云希音色配音](../computer/tts)
 
-    * [crx浏览器插件导出](../tools/crx)
+    * [crx浏览器插件导出](../computer/crx)
 
-    * [提取应用icon图标](../tools/icon)
+    * [提取应用icon图标](../computer/icon)
 
-    * [Markdown的简单用法](../tools/markdown)
+    * [Markdown的简单用法](../computer/markdown)
 
-    * [Pake将网页打包成应用程序](../tools/pake)
+    * [Pake将网页打包成应用程序](../computer/pake)
 
-    * [QQ邮箱接收其他邮箱信息](../tools/qqmail)
+    * [QQ邮箱接收其他邮箱信息](../computer/qqmail)
 
-    * [油猴安装及使用教程](../tools/tampermonkey)
+    * [油猴安装及使用教程](../computer/tampermonkey)
 
-    * [Todesk远程开关电脑](../tools/todesk)
+    * [Todesk远程开关电脑](../computer/todesk)
 
-    * [VSCode安装步骤](../tools/VSCode)
+    * [企业微信推送教程](../computer/wecom)
 
-    * [企业微信推送教程](../tools/wecom)
+    * [微PE制作PE启动盘](../computer/wepe)
 
-    * [微PE制作PE启动盘](../tools/wepe)
+    * [电脑常见问题汇总](../computer/win11)
 
-    * [电脑常见问题汇总](../tools/win11)
-
-    * [Photoshop 2023无法安装](../tools/ps)
+    * [Photoshop 2023无法安装](../computer/ps)
 
 
 
@@ -108,7 +106,7 @@
 
 * [iPhone短信添加头像](../iPhone/smscard)
 
-* [Reqable抓包工具的使用](../mi/Reqable)
+* [Reqable抓包工具的使用](../iPhone/Reqable)
 
 * [Stream抓包工具的使用](../iPhone/Stream)
 
@@ -129,11 +127,11 @@
 
 ## Telegram
 
-* [Telegram的注册及使用](../telegram/tg/)
+* [Telegram的注册及使用](../telegram/tg)
 
-* [创建自己的tg私聊机器人](../telegram/tgbot/)
+* [创建自己的tg私聊机器人](../telegram/tgbot)
 
-* [TG表情包下载与制作](../telegram/sticker/)
+* [TG表情包下载与制作](../telegram/sticker)
 
 
 ## 网站搭建
@@ -167,6 +165,8 @@
 * [Github注册及使用](../website/github)
 
 * [git使用及上传代码到仓库](../website/git)
+
+* [VSCode安装步骤](../website/VSCode)
 
 * [Vercel静态部署网站](../website/vercel/)
 

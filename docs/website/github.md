@@ -25,7 +25,7 @@ Github是微软旗下的开源项目托管平台，有无数的优质开源项�
 ::: tip 说明
 由于网站处于半墙状态，打不开，反复刷新 或者 [挂梯子](../gfw/proxy.md)
 
-进入的界面是英文的，可以通过 [油猴](../tools/tampermonkey) 安装 [☛GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
+进入的界面是英文的，可以通过 [油猴](../computer/tampermonkey) 安装 [☛GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
 :::
 
 ![](/github/github-02.png)

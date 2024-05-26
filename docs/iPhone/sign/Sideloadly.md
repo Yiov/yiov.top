@@ -5,23 +5,23 @@ next: false
 
 # Sideloadly安装及使用
 
-## 1.简介
+## 简介
 
 优点：免越狱且免费，支持 Windows 和 macOS
 
-缺点：需手机连接电脑操作，且一个Apple ID只能签名3个应用，与 [爱思助手](http://127.0.0.1:5173/iPhone/sign/Sideloadly.html) 差不多
+缺点：需手机连接电脑操作，且一个Apple ID只能签名3个应用，与 [爱思助手](https://www.i4.cn/) 差不多
 
 
-## 2.安装
+## 安装
 
 
-官网：[https://sideloadly.io/](https://sideloadly.io/)
+官网：https://sideloadly.io/
 
 点击 `Download` ， 这里根据自己电脑系统下载
 
 ![](/Sideloadly/Sideloadly-01.png)
 
-我的电脑-右键属性-系统类型显示的有 `32` 或者 `64` 位
+我的电脑 - 右键属性 - 系统类型显示的有 `32` 或者 `64` 位
 
 ![](/Sideloadly/Sideloadly-02.png)
 
@@ -38,7 +38,7 @@ next: false
 
 
 
-## 3.签名
+## 签名
 
 
 我在 [@SmileZXLee](https://github.com/SmileZXLee/IpaDownloadTool) 下了个 [ipa下载器](http://www.zxlee.cn/ipaDownloadTool/release/ipaDownloadTool-2.1.1.ipa) 的软件包，用来签名安装演示，其他安装同理
@@ -92,28 +92,28 @@ next: false
 
 
 
-## 4.常见问题
+## 常见问题
 
 
-#### 4.1 设备信息没显示
+1.设备信息没显示
 
 手机未信任电脑，重新拔插手机信任；实在搞不定用爱思助手连接好了，再打开此软件
 
 
 
-#### 4.2 苹果账号是手机号
+2.苹果账号是手机号
 
 在账号前加86，如手机为13300008888，则账号为：`8613300008888`
 
 
 
-#### 4.3 输入密码闪退
+3.输入密码闪退
 
 可以尝试打开 `Advanced options` 高级选项 - 身份验证 改为远程 `Remote`
 
 
 
-#### 4.4 未收到手机验证码
+4.未收到手机验证码
 
 可以尝试手机 - 设置 - Apple ID - 密码与安全性 - 获取验证码
 

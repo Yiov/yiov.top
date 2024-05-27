@@ -69,13 +69,8 @@ export default defineConfig({
               { text: 'V2Ray', link: '/gfw/v2ray' },
             ],
           },
-          { text: '机场(节点)', 
-            collapsed: true,
-            items: [
-              { text: '机场', link: '/gfw/channel' },
-              { text: '协议', link: '/gfw/protocol' },
-            ],
-          },
+          { text: '机场', link: '/gfw/channel' },
+          { text: '协议', link: '/gfw/protocol' },
 
         ],
       },

@@ -136,31 +136,31 @@
 
 ## 网站搭建
 
-* [服务器的购买及网站初成](../website/ECS/)
+* [服务器的购买及网站初成](../website/ECS)
 
-* [VM虚拟机安装centos系统](../website/VMware/)
+* [VM虚拟机安装centos系统](../website/VMware)
 
-* [Xshell终端连接服务器](../website/Xshell/)
+* [Xshell终端连接服务器](../website/Xshell)
 
-* [linux安装宝塔面板](../website/BT/)
+* [linux安装宝塔面板](../website/BT)
 
-* [node.js的安装教程](../website/nodejs/)
+* [node.js的安装教程](../website/nodejs)
 
-* [Go环境的安装教程](../website/go/)
+* [Go环境的安装教程](../website/go)
 
-* [Docker的安装教程](../website/docker/)
+* [Docker的安装教程](../website/docker)
 
-* [dockerhub上传本地镜像](../website/dockerhub/)
+* [dockerhub上传本地镜像](../website/dockerhub)
 
-* [青龙面板的安装及使用](../website/qinglong/)
+* [青龙面板的安装及使用](../website/qinglong)
 
-* [wordpress详细安装教程](../website/wordpress/)
+* [wordpress详细安装教程](../website/wordpress)
 
-* [Webstack导航从零搭建](../website/WebStack/)
+* [Webstack导航从零搭建](../website/WebStack)
 
-* [搭建Favicon图标API](../website/Favicon/)
+* [搭建Favicon图标API](../website/Favicon)
 
-* [Onenav导航网页的搭建](../website/onenav/)
+* [Onenav导航网页的搭建](../website/onenav)
 
 * [Github注册及使用](../website/github)
 
@@ -168,29 +168,29 @@
 
 * [VSCode安装步骤](../website/VSCode)
 
-* [Vercel静态部署网站](../website/vercel/)
+* [Vercel静态部署网站](../website/vercel)
 
 * [GitLab注册及使用](../website/gitlab)
 
-* [闲置iPhone搭建静态网站](../website/ish/)
+* [闲置iPhone搭建静态网站](../website/ish)
 
-* [Halo博客的搭建](../website/Halo/)
+* [Halo博客的搭建](../website/Halo)
 
-* [简单的个人主页搭建](../website/home/)
+* [简单的个人主页搭建](../website/home)
 
-* [Portofolio个人主页搭建](../website/Portofolio/)
+* [Portofolio个人主页搭建](../website/Portofolio)
 
-* [搭建专属的记仇小本本](../website/heng/)
+* [搭建专属的记仇小本本](../website/heng)
 
-* [Alist搭建自己的专属网盘](../website/Alist/)
+* [Alist搭建自己的专属网盘](../website/Alist)
 
-* [Centos系统切换图形界面](../website/Centos/)
+* [Centos系统切换图形界面](../website/Centos)
 
-* [浅谈内网穿透](../website/NAT/)
+* [浅谈内网穿透](../website/NAT)
 
 * [cloudflare注册使用](../website/cloudflare)
 
-* [各类主题/模板/源码汇总](../website/source/)
+* [各类主题/模板/源码汇总](../website/source)
 
 * [Replit的注册及使用](../website/Replit)
 

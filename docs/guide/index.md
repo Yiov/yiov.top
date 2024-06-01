@@ -136,9 +136,11 @@
 
 ## 网站搭建
 
-* [服务器的购买及网站初成](../website/ECS)
+* [服务器的购买及使用](../website/Server)
 
-* [VM虚拟机安装centos系统](../website/VMware)
+* [域名的购买及使用](../website/Server)
+
+* [VMware虚拟机安装及使用](../website/VMware)
 
 * [Xshell终端连接服务器](../website/Xshell)
 

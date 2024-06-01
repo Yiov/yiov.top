@@ -68,7 +68,7 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 
 
 
-先自己 [购买一个域名](./ECS/index.md#域名)  或者 使用 [ClouDNS的免费域名](./cloudns.md)
+先自己 [购买一个域名](./domain.md)  或者 使用 [ClouDNS的免费域名](./cloudns.md)
 
 以 [腾讯云](https://console.cloud.tencent.com/) 演示，进入控制台 - 域名注册 - 我的域名
 
@@ -185,7 +185,7 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 
 ::: details CDN加速：Github Pages 加速
 
-之前写过，但访问效果平平，还不如直接用 [Vercel](./vercel/)
+之前写过，但访问效果平平，还不如直接用 [Vercel](./vercel.md)
 
 :::
 

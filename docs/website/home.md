@@ -609,7 +609,7 @@ pnpm build
 我们将`dist`打包并上传到服务器上
 
 ::: tip 说明
-没有服务器也可使用 [静态托管平台部署](../github.md#使用)
+没有服务器也可使用 [静态托管平台部署](./github.md)
 :::
 
 ![](/home/home-16.png)
@@ -617,7 +617,7 @@ pnpm build
 ![](/home/home-17.png)
 
 
-上传后访问域名，却只有文字，因为要开启https，[直接SSL证书弄好了再开启](../ECS/#ssl证书)
+上传后访问域名，却只有文字，因为要开启https，[直接SSL证书弄好了再开启](./Server.md)
 
 ![](/home/home-18.png)
 

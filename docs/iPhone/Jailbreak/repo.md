@@ -18,13 +18,13 @@
 
 ## 准备工作
 
-* [服务器(花钱买)](../../website/ECS/) / [虚拟机(免费)](../../website/VMware/)
+* [服务器(花钱买)](../../website/Server.md) / [虚拟机(免费)](../../website/VMware.md)
 
-* [安装Xshell](../../website/Xshell/)
+* [安装Xshell](../../website/Xshell.md)
 
-* [安装宝塔面板](../../website/BT/)
+* [安装宝塔面板](../../website/BT.md)
 
-* [注册Github账号](../../website/github)
+* [注册Github账号](../../website/github.md)
 
 
 

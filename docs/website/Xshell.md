@@ -31,7 +31,7 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 
 * iOS端：[⭐Termius](./Termius.md)
 
-* 安卓端：[⭐Termius](./termius.md)、[⭐JuiceSSH](./JuiceSSH.md)
+* 安卓端：[⭐Termius](./Termius.md)、[⭐JuiceSSH](./JuiceSSH.md)
 :::
 
 

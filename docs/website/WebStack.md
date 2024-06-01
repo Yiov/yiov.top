@@ -247,7 +247,7 @@ RewriteRule . /index.php [L]
 ![](/webstack/webstack-24.png)
 
 
-这里我们直接用 [一为的api](https://api.iowen.cn/doc/favicon.html) ，或者[自己按他的源码搭建](../Favicon/)，图标源api后缀填`.png`，**保存**
+这里我们直接用 [一为的api](https://api.iowen.cn/doc/favicon.html) ，或者[自己按他的源码搭建](./Favicon.md)，图标源api后缀填`.png`，**保存**
 
 ```
 https://api.iowen.cn/favicon/

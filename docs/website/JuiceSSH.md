@@ -26,7 +26,7 @@
 
 ## 安装
 
-由于很久没更新了，推荐使用 [Termius](./termius.md)
+由于很久没更新了，推荐使用 [Termius](./Termius.md)
 
 ---
 

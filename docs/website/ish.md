@@ -28,7 +28,7 @@
 ## 安装python3
 
 ::: warning 注意
-报错 `ERROR` 的话，[挂一个梯子翻墙](../../gfw/proxy) 再运行就行了
+报错 `ERROR` 的话，[挂一个梯子翻墙](../gfw/proxy.md) 再运行就行了
 :::
 
 ```sh

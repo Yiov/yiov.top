@@ -22,7 +22,7 @@
 
 ## 安装
 
-首先准备一台 [服务器](./Server.md.) ，然后使用 [Xshell](./Xshell) 连接你的服务器
+首先准备一台 [服务器](./Server.md) ，然后使用 [Xshell](./Xshell) 连接你的服务器
 
 参考 [官网的命令](https://www.bt.cn/new/download.html) 安装，我以 `centos 7` 为例
 

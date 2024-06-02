@@ -114,21 +114,26 @@ export default defineConfig({
             ],
           },
 
+          { text: 'crx', 
+            collapsed: true,
+            items: [
+              { text: '油猴插件', link: '/computer/tampermonkey' },
+              { text: '书签同步', link: '/computer/bookmark' },
+              { text: '插件导出', link: '/computer/crx' },
+            ],
+          },
+
           { text: '应用', 
             collapsed: true,
             items: [
               { text: 'Pake', link: '/computer/pake' },
-
               { text: 'Todesk', link: '/computer/todesk' },
               { text: 'Markdown', link: '/computer/markdown' },
               { text: 'PS 2023', link: '/computer/ps' },
               { text: 'icon提取', link: '/computer/icon' },
               { text: 'QQ邮箱', link: '/computer/qqmail' },
               { text: '电视应用', link: '/computer/tvapp' },
-              { text: '油猴插件', link: '/computer/tampermonkey' },
               { text: '微软TTS', link: '/computer/tts' },
-              { text: '书签同步', link: '/computer/bookmark' },
-              { text: 'crx插件导出', link: '/computer/crx' },
               { text: '企业微信推送', link: '/computer/wecom' },
             ],
           },
@@ -203,7 +208,7 @@ export default defineConfig({
         //分组标题7
         text: '网站相关',
         items: [
-          { text: '搭建网站', 
+          { text: '基础', 
             collapsed: true,
             items: [
               { text: '服务器', link: '/website/Server' },
@@ -226,38 +231,46 @@ export default defineConfig({
                   { text: 'Docker', link: '/website/docker' },
                 ],
               },
-              { text: 'dockerhub', link: '/website/dockerhub' },
-              { text: '青龙面板', link: '/website/qinglong' },
               { text: 'wordpress', link: '/website/wordpress' },
               { text: 'Webstack', link: '/website/WebStack' },
-              { text: 'Favicon', link: '/website/Favicon' },
               { text: 'Onenav', link: '/website/onenav' },
-
-              { text: 'Github', link: '/website/github' },
-              { text: 'Git', link: '/website/git' },
-              { text: 'VSCode', link: '/website/VSCode' },
-
-              { text: 'Vercel', link: '/website/vercel' },
-              
-              { text: 'GitLab的注册及使用', link: '/website/gitlab' },
               { text: 'Halo', link: '/website/Halo' },
-              { text: '各类主题/模板/源码汇总 ', link: '/website/source' },
+              { text: '主题源码汇总 ', link: '/website/source' },
 
             ],
           },
-          { text: '其他相关', 
+
+
+          { text: '进阶', 
             collapsed: true,
             items: [
-              { text: '个人主页', link: '/website/home' },
-              { text: '记仇小本本', link: '/website/heng' },
+              { text: 'Git', link: '/website/git' },
+              { text: 'Github', link: '/website/github' },
+              { text: 'VSCode', link: '/website/VSCode' },
+              { text: 'Vercel', link: '/website/vercel' },
+              { text: 'GitLab', link: '/website/gitlab' },
+
               { text: 'Alist', link: '/website/Alist' },
-              { text: 'Centos切换图形界面', link: '/website/Centos' },
-              { text: '闲置iPhone搭建静态网站', link: '/website/ish' },
-              { text: '浅谈内网穿透', link: '/website/NAT' },
+              { text: '青龙面板', link: '/website/qinglong' },
+              { text: 'Dockerhub', link: '/website/dockerhub' },
+              { text: 'Favicon', link: '/website/Favicon' },
+              { text: '记仇小本本', link: '/website/heng' },
+              { text: '个人主页搭建', link: '/website/home' },
+
+            ],
+          },
+
+
+          { text: '其他', 
+            collapsed: true,
+            items: [
               { text: 'Cloudflare', link: '/website/cloudflare' },
               { text: 'ClouDNS', link: '/website/cloudns' },
               { text: 'Replit', link: '/website/Replit' },
               { text: 'UptimeRobot ', link: '/website/uptimerobot' },
+              { text: '浅谈内网穿透', link: '/website/NAT' },
+              { text: '闲置苹果托管网站', link: '/website/ish' },
+              { text: 'Centos切换图形界面', link: '/website/Centos' },
             ],
           },
         ],

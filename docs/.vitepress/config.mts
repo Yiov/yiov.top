@@ -96,6 +96,7 @@ export default defineConfig({
               { text: '台州麻将', link: '/daily/mahjong' },
               { text: '1688同源店', link: '/daily/1688' },
               { text: '微信运动刷步', link: '/daily/xmsb' },
+              { text: '京东强制加购', link: '/daily/jd' },
             ],
           },
 

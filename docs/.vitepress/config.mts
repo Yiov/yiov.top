@@ -96,6 +96,7 @@ export default defineConfig({
               { text: '台州麻将', link: '/daily/mahjong' },
               { text: '1688同源店', link: '/daily/1688' },
               { text: '京东强制加购', link: '/daily/jd' },
+              { text: '淘宝强制提交', link: '/daily/taobao' },
             ],
           },
 
@@ -328,7 +329,7 @@ export default defineConfig({
     //页脚
     footer: {
       message: 'Power by <a href="https://github.com/yyx990803" target="_blank">VitePress(Evan You)</a>',
-      copyright: 'Copyright © 2023 <a href="https://github.com/Yiov" target="_blank">Yiov</a>',
+      copyright: 'Copyright © 2023-2024 <a href="https://github.com/Yiov" target="_blank">Yiov</a>',
     },
 
 

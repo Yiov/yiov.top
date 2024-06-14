@@ -50,14 +50,14 @@ yum list installed | grep centos
 
 
 
-进入下载页面 选择 [Prebuilt Binaries](https://nodejs.org/en/download/prebuilt-binaries) 二进制文件
+进入下载页面 选择 [Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer)
 
 ::: tip 说明
 * Package Manager：用包管理器安装
 
-* Prebuilt Installer：安装程序压缩包
+* Prebuilt Installer：安装程序
 
-* Prebuilt Binaries：二进制文件
+* Prebuilt Binaries：二进制文件(压缩包)
 
 * Source Code：源代码
 :::

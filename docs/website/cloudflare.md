@@ -34,7 +34,7 @@ CDN 的全称是 Content Delivery Network，即内容分发网络
 ## 注册
 
 
-在官网注册账号就行
+在 [官网注册](https://dash.cloudflare.com/sign-up) 账号就行
 
 ::: warning 说明
 虽然有中国站点，但访问还是要 [科学上网](../gfw/proxy.md) ，否则无法跳转

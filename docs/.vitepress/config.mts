@@ -86,6 +86,7 @@ export default defineConfig({
               { text: '血常规', link: '/daily/blood' },
               { text: '车厘子', link: '/daily/cherries' },
               { text: '房产证', link: '/daily/house' },
+              { text: '二十四节气', link: '/daily/24' },
             ],
           },
 

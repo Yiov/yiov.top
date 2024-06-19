@@ -10,10 +10,9 @@ Alist是一个网盘文件列表程序，支持的网盘谷歌、pikpak、阿里
 
 * 演示：https://al.nn.ci/
 
+* [官网](https://alist.nn.ci/zh/) 丨 [仓库](https://github.com/alist-org/alist/) 丨 [镜像](https://hub.docker.com/r/xhofe/alist) 丨 [美化教程](https://space.bilibili.com/36411485/channel/collectiondetail?sid=686340)
+
 ![](/Alist/Alist-01.png)
-
-
-* [官网](https://alist.nn.ci/zh/) 丨 [仓库](https://github.com/alist-org/docs) 丨 [镜像](https://hub.docker.com/r/xhofe/alist) 丨 [美化教程](https://space.bilibili.com/36411485/channel/collectiondetail?sid=686340)
 
 
 

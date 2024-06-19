@@ -2,6 +2,13 @@
 
 > 更新时间：2024-4-24
 
+::: danger 紧急通知
+自从GFW阻断warp的IP段后，截止2024-6-19仍未恢复，目前仍无法使用
+
+请先使用其他工具 或者 [Cloudflare自建节点](../website/cloudflare.md)
+:::
+
+
 ## 简介
 
 WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比传统的VPN更稳定更安全可靠

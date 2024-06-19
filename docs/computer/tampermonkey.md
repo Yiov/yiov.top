@@ -16,20 +16,20 @@ Tampermonkey 简称 `篡改猴` ，而一直被称为油猴的实际是Greasemon
         <td align="center">脚本市场</td>
     </tr>
     <tr>
-        <td align="center"><a href="https://www.greasespot.net/">Greasemonkey</a></td>
+        <td align="center"><a href="https://www.greasespot.net/" target="_blank">Greasemonkey</a></td>
         <td align="center">油猴</td>
-        <td align="center" rowspan="4"><a href="https://greasyfork.org/zh-CN">Greasy Fork</a>、<a href="https://chrome.pictureknow.com/">收藏猫</a>、<a href="https://chrome.google.com/webstore/category/extensions">谷歌商店</a>、<a href="https://www.chajianxw.com/">插件小屋</a>、<a href="https://www.cxyhub.com/">CXYHUB</a>、<a href="https://www.crxfun.com/">扩展派</a></td>
+        <td align="center" rowspan="4"><a href="https://greasyfork.org/zh-CN" target="_blank">Greasy Fork</a>、<a href="https://chrome.pictureknow.com/" target="_blank">收藏猫</a>、<a href="https://chrome.google.com/webstore/category/extensions" target="_blank">谷歌商店</a>、<a href="https://www.chajianxw.com/" target="_blank">插件小屋</a>、<a href="https://www.cxyhub.com/" target="_blank">CXYHUB</a>、<a href="https://www.crxfun.com/" target="_blank">扩展派</a></td>
     </tr>
     <tr>
-        <td align="center"><a href="https://www.tampermonkey.net/">⭐Tampermonkey</a></td>
+        <td align="center"><a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a></td>
         <td align="center">篡改猴</td>
     </tr>
     <tr>
-        <td align="center"><a href="https://violentmonkey.github.io/">Violentmonkey</a></td>
+        <td align="center"><a href="https://violentmonkey.github.io/" target="_blank">Violentmonkey</a></td>
         <td align="center">暴力猴</td>
     </tr>
     <tr>
-        <td align="center"><a href="https://docs.scriptcat.org/">ScriptCat</a></td>
+        <td align="center"><a href="https://docs.scriptcat.org/" target="_blank">ScriptCat</a></td>
         <td align="center">脚本猫</td>
     </tr>
 </table>

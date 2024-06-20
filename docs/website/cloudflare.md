@@ -837,7 +837,7 @@ const cn_hostnames = [''];
 ::: details 有 tls 怎么使用
 在当前Worker中，设置 - 触发器 - 添加自定义域，填入你已解析在Cloudfare上的域名
 
-如果使用的是 [ClouDNS的免费域名](./cloudns.md)，需自行解析三级域名并添加证书
+如果使用的是 [ClouDNS的免费域名](./domain/cloudns.md)，需自行解析三级域名并添加证书
 
 ![](/cloudflare/vless/vless-16.png)
 :::

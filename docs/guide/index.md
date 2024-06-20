@@ -206,7 +206,7 @@
 
 * [服务器的购买及使用](../website/Server)
 
-* [域名的购买及使用](../website/Server)
+* [域名的介绍](../website/domain/)
 
 * [VMware虚拟机安装及使用](../website/VMware)
 
@@ -264,7 +264,7 @@
 
 * [cloudflare注册使用](../website/cloudflare)
 
-* [ClouDNS的注册使用](../website/cloudns)
+* [ClouDNS的注册使用](../website/domain/cloudns.md)
 
 * [Replit的注册及使用](../website/Replit)
 

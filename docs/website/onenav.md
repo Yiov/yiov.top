@@ -25,7 +25,7 @@ OneNav是一款开源免费的书签（导航）管理程序，由 [@xiaoz](http
 
 * [服务器1台](./Server.md)
 
-* [域名1个](./domain.md)
+* [域名1个](./domain/)
 
 * [安装Xshell工具](./Xshell.md)
 

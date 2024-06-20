@@ -23,7 +23,7 @@
 
 * [服务器1台](./Server.md)
 
-* [域名1个](./domain.md)
+* [域名1个](./domain/)
 
 * [安装Xshell工具](./Xshell.md)
 

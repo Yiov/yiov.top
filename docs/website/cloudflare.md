@@ -68,7 +68,7 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 
 
 
-先自己 [购买一个域名](./domain.md)  或者 使用 [ClouDNS的免费域名](./cloudns.md)
+先自己 [购买一个域名](./domain/index.md)  或者 使用 [ClouDNS的免费域名](./domain/cloudns.md)
 
 以 [腾讯云](https://console.cloud.tencent.com/) 演示，进入控制台 - 域名注册 - 我的域名
 

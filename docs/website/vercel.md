@@ -17,7 +17,7 @@
 
 ## 准备工作
 
-* [域名一个](./domain.md)
+* [域名一个](./domain/)
 
 * [Github账户并已上传代码](./github.md)
 

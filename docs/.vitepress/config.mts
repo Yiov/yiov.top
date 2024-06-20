@@ -214,7 +214,16 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '服务器', link: '/website/Server' },
-              { text: '域名', link: '/website/domain' },
+              { text: '域名', 
+                collapsed: true,
+                items: [
+                  { text: '使用介绍(必读)', link: '/website/domain/' },
+                  { text: '腾讯云', link: '/website/domain/tencent' },
+                  { text: 'ClouDNS', link: '/website/domain/cloudns' },
+                  { text: 'eu.org', link: '/website/domain/eu' },
+                  { text: 'DNSExit', link: '/website/domain/dnsexit' },
+                ],
+              },
               { text: '虚拟机', link: '/website/VMware' },
               { text: 'shell', 
                 collapsed: true,
@@ -267,7 +276,6 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Cloudflare', link: '/website/cloudflare' },
-              { text: 'ClouDNS', link: '/website/cloudns' },
               { text: 'Replit', link: '/website/Replit' },
               { text: 'UptimeRobot ', link: '/website/uptimerobot' },
               { text: '浅谈内网穿透', link: '/website/NAT' },

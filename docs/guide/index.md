@@ -208,17 +208,35 @@
 
 * [域名的介绍](../website/domain/)
 
+    * [腾讯云域名注册](../website/domain/tencent.md)
+
+    * [eu.org注册免费域名](../website/domain/eu.md)
+
+    * [ClouDNS的注册及使用](../website/domain/cloudns.md)
+
+    * [L53注册免费域名](../website/domain/l53.md)
+
+    * [DNSExit注册免费域名](../website/domain/dnsexit.md)
+
 * [VMware虚拟机安装及使用](../website/VMware)
 
-* [Xshell终端连接服务器](../website/Xshell)
+* shell工具
+
+    * [Xshell的安装及使用](../website/Xshell)
+
+    * [Termius的安装及使用](../website/Termius.md)
+
+    * [JuiceSSH的安装及使用](../website/JuiceSSH.md)
 
 * [安装宝塔面板](../website/BT)
 
-* [node.js的安装教程](../website/nodejs)
+* 环境安装
 
-* [Go环境的安装教程](../website/go)
+    * [node.js的安装教程](../website/nodejs)
 
-* [Docker的安装教程](../website/docker)
+    * [Go环境的安装教程](../website/go)
+
+    * [Docker的安装教程](../website/docker)
 
 * [wordpress详细安装教程](../website/wordpress)
 
@@ -257,12 +275,11 @@
 
 * [简单的个人主页搭建](../website/home)
 
+* [Cloudflare的注册使用](../website/cloudflare)
+
 
 
 ### 其他
-
-
-* [cloudflare注册使用](../website/cloudflare)
 
 * [ClouDNS的注册使用](../website/domain/cloudns.md)
 

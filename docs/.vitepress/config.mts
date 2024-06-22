@@ -86,13 +86,14 @@ export default defineConfig({
               { text: '血常规', link: '/daily/blood' },
               { text: '车厘子', link: '/daily/cherries' },
               { text: '房产证', link: '/daily/house' },
-              { text: '二十四节气', link: '/daily/24' },
+              { text: '廿四节气', link: '/daily/24' },
             ],
           },
 
           { text: '技巧', 
             collapsed: true,
             items: [
+              { text: 'PayPal', link: '/daily/paypal' },
               { text: '待产包', link: '/daily/bags-just-yet' },
               { text: '台州麻将', link: '/daily/mahjong' },
               { text: '1688同源店', link: '/daily/1688' },
@@ -219,8 +220,9 @@ export default defineConfig({
                 items: [
                   { text: '使用介绍(必读)', link: '/website/domain/' },
                   { text: '腾讯云', link: '/website/domain/tencent' },
-                  { text: 'ClouDNS', link: '/website/domain/cloudns' },
                   { text: 'eu.org', link: '/website/domain/eu' },
+                  { text: 'ClouDNS', link: '/website/domain/cloudns' },
+                  { text: 'L53', link: '/website/domain/l53' },
                   { text: 'DNSExit', link: '/website/domain/dnsexit' },
                 ],
               },
@@ -267,6 +269,7 @@ export default defineConfig({
               { text: 'Favicon', link: '/website/Favicon' },
               { text: '记仇小本本', link: '/website/heng' },
               { text: '个人主页搭建', link: '/website/home' },
+              { text: 'Cloudflare', link: '/website/cloudflare' },
 
             ],
           },
@@ -275,7 +278,6 @@ export default defineConfig({
           { text: '其他', 
             collapsed: true,
             items: [
-              { text: 'Cloudflare', link: '/website/cloudflare' },
               { text: 'Replit', link: '/website/Replit' },
               { text: 'UptimeRobot ', link: '/website/uptimerobot' },
               { text: '浅谈内网穿透', link: '/website/NAT' },

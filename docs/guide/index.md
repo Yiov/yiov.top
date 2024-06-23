@@ -216,6 +216,8 @@
 
     * [L53注册免费域名](../website/domain/l53.md)
 
+    * [com.mp注册免费域名](../website/domain/commp.md)
+
     * [DNSExit注册免费域名](../website/domain/dnsexit.md)
 
 * [VMware虚拟机安装及使用](../website/VMware)

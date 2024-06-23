@@ -223,6 +223,7 @@ export default defineConfig({
                   { text: 'eu.org', link: '/website/domain/eu' },
                   { text: 'ClouDNS', link: '/website/domain/cloudns' },
                   { text: 'L53', link: '/website/domain/l53' },
+                  { text: 'com.mp', link: '/website/domain/commp' },
                   { text: 'DNSExit', link: '/website/domain/dnsexit' },
                 ],
               },

@@ -214,20 +214,28 @@ export default defineConfig({
           { text: '基础', 
             collapsed: true,
             items: [
-              { text: '服务器', link: '/website/Server' },
+              { text: '服务器', 
+                collapsed: true,
+                items: [
+                  { text: '使用介绍(必读)', link: '/website/Server/' },
+                  { text: '虚拟机', link: '/website/VMware' },
+                  { text: '腾讯云', link: '/website/domain/tencent' },
+
+                ],
+              },
               { text: '域名', 
                 collapsed: true,
                 items: [
                   { text: '使用介绍(必读)', link: '/website/domain/' },
                   { text: '腾讯云', link: '/website/domain/tencent' },
                   { text: 'eu.org', link: '/website/domain/eu' },
+                  { text: 'US.KG', link: '/website/domain/uskg' },
                   { text: 'ClouDNS', link: '/website/domain/cloudns' },
                   { text: 'L53', link: '/website/domain/l53' },
                   { text: 'com.mp', link: '/website/domain/commp' },
                   { text: 'DNSExit', link: '/website/domain/dnsexit' },
                 ],
               },
-              { text: '虚拟机', link: '/website/VMware' },
               { text: 'shell', 
                 collapsed: true,
                 items: [

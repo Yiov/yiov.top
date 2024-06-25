@@ -617,7 +617,7 @@ pnpm build
 ![](/home/home-17.png)
 
 
-上传后访问域名，却只有文字，因为要开启https，[直接SSL证书弄好了再开启](./Server.md)
+上传后访问域名，却只有文字，因为要开启https，[直接SSL证书弄好了再开启](./Server/)
 
 ![](/home/home-18.png)
 

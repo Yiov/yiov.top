@@ -18,7 +18,7 @@
 
 ## 准备工作
 
-* [服务器(花钱买)](../../website/Server.md) / [虚拟机(免费)](../../website/VMware.md)
+* [服务器](../../website/Server/)
 
 * [安装Xshell](../../website/Xshell.md)
 

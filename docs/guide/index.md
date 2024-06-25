@@ -212,6 +212,8 @@
 
     * [eu.org注册免费域名](../website/domain/eu.md)
 
+    * [us.kg注册免费域名](../website/domain/uskg.md)
+
     * [ClouDNS的注册及使用](../website/domain/cloudns.md)
 
     * [L53注册免费域名](../website/domain/l53.md)

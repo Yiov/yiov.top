@@ -79,6 +79,10 @@
 
 点控制台，微信扫码登录账号
 
+::: details 可以用其他DNS解析吗
+可以，喜欢哪个用哪个，也可以用Cloudflare
+:::
+
 ![](/domain/eu/eu-12.png)
 
 点击 我的域名 - 添加域名
@@ -112,3 +116,12 @@
 申请通过后，会发邮件给你
 
 我们可以仍然使用 [DNSPod](https://www.dnspod.cn/) ，或者使用 [Cloudflare](../cloudflare.md) 托管
+
+
+
+
+## 特别鸣谢
+
+* [好维特虚拟信息生成](https://www.haoweichi.com/Others/ying_guo_shen_fen_sheng_cheng)
+
+* [腾讯的DNSPod](https://www.dnspod.cn/)

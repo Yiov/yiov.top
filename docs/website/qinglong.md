@@ -20,7 +20,7 @@ tg群：[https://t.me/jiao_long](https://t.me/jiao_long)
 
 ## 准备条件
 
-* [服务器](./Server.md)
+* [服务器](./Server/)
 
 * [XShell工具](./Xshell.md)
 
@@ -94,7 +94,7 @@ systemctl start firewalld
 
 ### 放行端口
 
-放行5700端口，另外 [服务器里的端口(安全组/防火墙)](./Server.md#防火墙) 也要放行
+放行5700端口，另外 [服务器里的端口(安全组/防火墙)](./Server/tencent.md#防火墙) 也要放行
 
 ::: tip 说明
 如果你映射端口改了，请放行更改后的映射端口

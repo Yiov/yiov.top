@@ -8,7 +8,7 @@
 
 VMware Workstation 是 VMware（威睿）公司为专业用户打造的一款电脑虚拟化软件，现已被 BROANCOM（博通）收购
 
-它可以模拟Windows、Linux、macOS等系统，对于开发测试人员非常有用
+它可以模拟Windows、Linux、macOS等系统，当成本地测试的服务器
 
 官网：https://www.vmware.com/
 
@@ -95,7 +95,7 @@ VMware Workstation 是 VMware（威睿）公司为专业用户打造的一款电
 
 ## 激活
 
-安装完成后，提示需要激活码，任选一个填入
+安装完成后，提示需要VMware 17的激活码，任选一个填入
 
 ```:no-line-numbers
 4A4RR-813DK-M81A9-4U35H-06KND
@@ -121,10 +121,8 @@ ZC3TK-63GE6-481JY-WWW5T-Z7ATA
 1Z0G9-67285-FZG78-ZL3Q2-234JG
 ```
 
-![](/VMware/VMware-17.png)
 
-
-::: details 其他版本激活码
+::: details 其他版本：16/15 激活码
 
 VMWare 16密钥：
 
@@ -145,6 +143,8 @@ YC34H-6WWDK-085MQ-JYPNX-NZRA2
 ```
 :::
 
+
+![](/VMware/VMware-17.png)
 
 
 

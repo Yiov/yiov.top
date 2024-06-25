@@ -22,7 +22,7 @@ docker就是其中一种应用容器引擎，可以更加便捷的管理镜像
 
 ## 安装docker
 
-用 [Xshell工具](./Xshell) 登录 [服务器](./Server)，然后一键安装Docker需要的依赖包
+用 [Xshell工具](./Xshell) 登录 [服务器](./Server/)，然后一键安装Docker需要的依赖包
 
 ```sh
 curl -fsSL https://get.docker.com -o get-docker.sh

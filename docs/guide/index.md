@@ -204,7 +204,11 @@
 ### 基础
 
 
-* [服务器的购买及使用](../website/Server)
+* [服务器的介绍](../website/Server/)
+
+   * [VMware虚拟机安装及使用](../website/VMware)
+
+   * [腾讯云服务器的购买及使用](../website/Server/tencent)
 
 * [域名的介绍](../website/domain/)
 
@@ -222,7 +226,6 @@
 
     * [DNSExit注册免费域名](../website/domain/dnsexit.md)
 
-* [VMware虚拟机安装及使用](../website/VMware)
 
 * shell工具
 

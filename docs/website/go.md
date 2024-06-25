@@ -27,7 +27,7 @@ https://dl.google.com/go/go1.20.1.linux-amd64.tar.gz
 ![](/go/go-02.png)
 
 
-打开 [Xshell工具](./Xshell) 并登录 [服务器](./Server)，然后下载go
+打开 [Xshell工具](./Xshell) 并登录 [服务器](./Server/)，然后下载go
 
 ```sh
 #下载

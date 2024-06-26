@@ -34,7 +34,7 @@ npm是其包管理工具
 
 :::: details CentOS安装
 
-安装前，使用 [hell](./shell/) 工具 连接服务器 查看centos版本
+安装前，使用 [shell](./shell/) 工具 连接服务器 查看centos版本
 
 ```sh
 yum list installed | grep centos

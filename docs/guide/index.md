@@ -227,13 +227,13 @@
     * [DNSExit注册免费域名](../website/domain/dnsexit.md)
 
 
-* shell工具
+* [shell的介绍](../website/shell/)
 
-    * [Xshell的安装及使用](../website/Xshell/)
+    * [Xshell的安装及使用](../website/shell/Xshell.md)
 
-    * [Termius的安装及使用](../website/Termius.md)
+    * [Termius的安装及使用](../website/shell/Termius.md)
 
-    * [JuiceSSH的安装及使用](../website/JuiceSSH.md)
+    * [JuiceSSH的安装及使用](../website/shell/JuiceSSH.md)
 
 * [安装宝塔面板](../website/BT)
 

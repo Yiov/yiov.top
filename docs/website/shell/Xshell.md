@@ -9,30 +9,11 @@
 
 Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 
-::: details 关于 CMD 和 PowerShell
-* 操作系统：可以分为 `kernel` (核心) 和 `Shell` (外壳) 两部分，shell位于系统外层，只要用于连接系统内部核心
-
-* Shell：分为图形shell和命令行shell，Windows系统桌面 `explorer.exe` (资源管理器) 是图形shell，而 `cmd` 是命令行shell
-
-* CMD：是 Command shell 的简写，仅用于执行Windows系统命令和批处理文件
-
-* PowerShell：是CMD的升级版，包含CMD所有功能且可跨平台使用
-
-* Xshell：不仅包含它们两个的所有功能，还能多窗口连接服务器，处理脚本等等
-:::
-
 官网：[https://www.xshell.com/](https://www.xshell.com/zh/)
 
-![](/Xshell/Xshell-01.png)
+![](/shell/Xshell/Xshell-01.png)
 
 
-::: details 其他同类工具
-* 电脑端：[FinalShell](http://www.hostbuf.com/)、[MobaXterm](https://mobaxterm.mobatek.net/)
-
-* iOS端：[⭐Termius](./Termius.md)
-
-* 安卓端：[⭐Termius](./Termius.md)、[⭐JuiceSSH](./JuiceSSH.md)
-:::
 
 
 ## 安装
@@ -47,17 +28,17 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 进入页面后，点击 所有下载 - [家庭/学校免费](https://www.xshell.com/zh/free-for-home-school/)
 
 
-![](/Xshell/Xshell-02.png)
+![](/shell/Xshell/Xshell-02.png)
 
 
 选择 `Xshell` 下载即可
 
-![](/Xshell/Xshell-03.png)
+![](/shell/Xshell/Xshell-03.png)
 
 
 下载好后，我们双击开始安装
 
-![](/Xshell/Xshell-04.png)
+![](/shell/Xshell/Xshell-04.png)
 
 
 
@@ -65,26 +46,26 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 
 点 `浏览`
 
-![](/Xshell/Xshell-05.png)
+![](/shell/Xshell/Xshell-05.png)
 
 
 
 我们把C盘改成D盘，其他不要动，确定，下一步
 
-![](/Xshell/Xshell-06.png)
+![](/shell/Xshell/Xshell-06.png)
 
 
 
 安装，直到完成
 
-![](/Xshell/Xshell-07.png)
+![](/shell/Xshell/Xshell-07.png)
 
 
 打开后会要求注册，填好用户名和邮箱，提交
 
 关掉！再打开即可！不需要真的去注册！
 
-![](/Xshell/Xshell-08.png)
+![](/shell/Xshell/Xshell-08.png)
 
 
 
@@ -96,13 +77,13 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 
 打开Xshell，左上 - 新建会话
 
-![](/Xshell/Xshell-09.png)
+![](/shell/Xshell/Xshell-09.png)
 
 
 
 名称随便，主机填你的服务器 `公网IP` ，端口默认22
 
-![](/Xshell/Xshell-10.png)
+![](/shell/Xshell/Xshell-10.png)
 
 
 
@@ -112,13 +93,13 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 要是忘记了，去服务器控制台那里重置密码
 :::
 
-![](/Xshell/Xshell-11.png)
+![](/shell/Xshell/Xshell-11.png)
 
 
 
 弹出主机密钥验证，接受保存就好
 
-![](/Xshell/Xshell-12.png)
+![](/shell/Xshell/Xshell-12.png)
 
 
 
@@ -128,7 +109,7 @@ Xshell是 NetSarang 公司旗下的一个安全终端模拟软件（SSH）
 如果不小心X掉了，选择服务器，鼠标右键打开即可
 :::
 
-![](/Xshell/Xshell-13.png)
+![](/shell/Xshell/Xshell-13.png)
 
 
 
@@ -139,6 +120,6 @@ cd /
 ls
 ```
 
-![](/Xshell/Xshell-14.png)
+![](/shell/Xshell/Xshell-14.png)
 
 

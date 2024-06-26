@@ -48,7 +48,7 @@ dockerhub 官网右上角 [Sign up](https://hub.docker.com/signup) 注册
 
 ## 使用
 
-开始前，请先用 [Xshell工具](./Xshell.md) 登录 [服务器](./Server/)
+开始前，请先用 [shell工具](./shell/) 登录 [服务器](./Server/)
 
 
 

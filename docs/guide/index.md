@@ -229,7 +229,7 @@
 
 * shell工具
 
-    * [Xshell的安装及使用](../website/Xshell)
+    * [Xshell的安装及使用](../website/Xshell/)
 
     * [Termius的安装及使用](../website/Termius.md)
 

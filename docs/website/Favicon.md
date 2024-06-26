@@ -95,7 +95,7 @@ Favicon图标就是浏览器标题栏上显示的小图标，也可以是缩小�
 
 * [域名1个](./domain/)
 
-* [安装Xshell工具](./Xshell.md)
+* [安装shell工具](./shell/)
 
 * [安装宝塔面板](./BT.md)
 

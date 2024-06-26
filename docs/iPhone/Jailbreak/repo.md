@@ -20,7 +20,7 @@
 
 * [服务器](../../website/Server/)
 
-* [安装Xshell](../../website/Xshell.md)
+* [安装shell](../../website/shell/)
 
 * [安装宝塔面板](../../website/BT.md)
 
@@ -44,7 +44,7 @@
 └─ Release
 ```
 
-[Xshell](#准备工作) 连接 [服务器（或虚拟机）](#准备工作)，然后进入 [宝塔面板](#准备工作)
+[shell](#准备工作) 连接 [服务器（或虚拟机）](#准备工作)，然后进入 [宝塔面板](#准备工作)
 
 文件 - 根目录/www/wwwroot ，新建一个 `jbrepo` 文件夹
 

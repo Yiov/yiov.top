@@ -5,22 +5,11 @@
 
 ## 简介
 
-安卓端免费的SSH工具，功能与 [Xshell](./Xshell.md) 类似
+安卓端免费的SSH工具
 
 官网：https://juicessh.com/
 
-![](/JuiceSSH/JuiceSSH-01.png)
-
-
-
-::: details 其他同类工具
-* 电脑端：[⭐Xshell](./Xshell.md)、[FinalShell](http://www.hostbuf.com/)、[MobaXterm](https://mobaxterm.mobatek.net/)
-
-* iOS端：[⭐Termius](./Termius.md)
-
-* 安卓端：[⭐Termius](./Termius.md)
-:::
-
+![](/shell/JuiceSSH/JuiceSSH-01.png)
 
 
 
@@ -33,7 +22,7 @@
 官网下载并安装 [JuiceSSH](https://juicessh.com/changelog)
 
 
-![](/JuiceSSH/JuiceSSH-02.png)
+![](/shell/JuiceSSH/JuiceSSH-02.png)
 
 
 
@@ -49,7 +38,7 @@
 密码：(你设置的服务器密码)
 :::
 
-![](/JuiceSSH/JuiceSSH-03.png)
+![](/shell/JuiceSSH/JuiceSSH-03.png)
 
 
 
@@ -63,7 +52,7 @@
 认证：(选择刚才的认证)
 :::
 
-![](/JuiceSSH/JuiceSSH-04.png)
+![](/shell/JuiceSSH/JuiceSSH-04.png)
 
 
 

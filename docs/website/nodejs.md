@@ -34,7 +34,7 @@ npm是其包管理工具
 
 :::: details CentOS安装
 
-安装前，使用 [Xhell](./Xshell.md) 工具 连接服务器 查看centos版本
+安装前，使用 [hell](./shell/) 工具 连接服务器 查看centos版本
 
 ```sh
 yum list installed | grep centos
@@ -81,7 +81,7 @@ https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz
 
 
 
-[Xhell](./Xshell.md) 输入命令，进入根目录
+[shell](./shell) 输入命令，进入根目录
 
 ::: tip 说明
 鼠标右键，粘贴！`ctrl+v` 是不可用的

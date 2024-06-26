@@ -24,7 +24,7 @@
 
 * [域名1个](./domain/)
 
-* [安装Xshell工具](./Xshell.md)
+* [安装shell工具](./shell/)
 
 * [安装宝塔面板](./BT.md)
 
@@ -39,7 +39,7 @@
 
 ## 下载配置文件
 
-Xshell登录服务器，创建工作目录
+shell登录服务器，创建工作目录
 
 ```sh
 mkdir ~/.halo && cd ~/.halo

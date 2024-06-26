@@ -35,7 +35,7 @@
 
 * [域名1个](./domain/)
 
-* [安装Xshell工具](./Xshell.md)
+* [安装shell工具](./shell/)
 
 * [安装宝塔面板](./BT.md)
 
@@ -47,7 +47,7 @@
 
 ## 部署API后端
 
-Xshell登录服务器，安装git
+shell登录服务器，安装git
 
 ::: tip 说明
 防止有些人没有安装，等会下不了

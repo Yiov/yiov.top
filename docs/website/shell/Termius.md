@@ -11,7 +11,7 @@
 
 仓库：https://github.com/termius
 
-![](/termius/termius-01.png)
+![](/shell/termius/termius-01.png)
 
 
 
@@ -27,7 +27,7 @@
 
 在 [官网下载](https://www.termius.com/download/) 对应的客户端即可
 
-![](/termius/termius-02.png)
+![](/shell/termius/termius-02.png)
 
 
 
@@ -41,7 +41,7 @@
 AppStore搜索下载并安装 [Termius](https://apps.apple.com/cn/app/id549039908)
 
 
-![](/termius/termius-03.png)
+![](/shell/termius/termius-03.png)
 
 
 打开，点击 `Hosts` ，再点右上角 `+`
@@ -51,7 +51,7 @@ AppStore搜索下载并安装 [Termius](https://apps.apple.com/cn/app/id54903990
 :::
 
 
-![](/termius/termius-04.png)
+![](/shell/termius/termius-04.png)
 
 
 点 `New Host` ，填写信息后，save保存
@@ -64,9 +64,9 @@ AppStore搜索下载并安装 [Termius](https://apps.apple.com/cn/app/id54903990
 `Password` 填服务器密码
 :::
 
-![](/termius/termius-05.png)
+![](/shell/termius/termius-05.png)
 
 
 这样就登录成功了，点击当前标签也可关闭连接
 
-![](/termius/termius-06.png)
+![](/shell/termius/termius-06.png)

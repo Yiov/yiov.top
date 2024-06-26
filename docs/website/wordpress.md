@@ -25,7 +25,7 @@
 
 * [域名1个](./domain/)
 
-* [安装Xshell工具](./Xshell.md)
+* [安装shell工具](./shell/)
 
 * [安装宝塔面板](./BT.md)
 

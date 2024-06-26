@@ -22,7 +22,7 @@ tg群：[https://t.me/jiao_long](https://t.me/jiao_long)
 
 * [服务器](./Server/)
 
-* [XShell工具](./Xshell.md)
+* [shell工具](./shell/)
 
 * [安装docker](./docker.md)
 

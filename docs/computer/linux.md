@@ -2,6 +2,44 @@
 
 > 更新时间：2024-6-7
 
+
+服务器
+
+https://www.aldsd.com/serv00
+
+https://www.aldsd.com/hz-cz
+
+https://www.aldsd.com/wordpress
+
+https://linux.do/t/topic/56482
+
+
+cloudflare
+
+https://linux.do/t/topic/114314
+
+。
+
+手机号
+
+https://www.aldsd.com/textr-go
+
+
+宝塔破解
+
+https://linux.do/t/topic/107409
+
+linux
+
+https://baike.baidu.com/item/Tux/9557378?fr=ge_ala
+
+
+
+
+
+
+
+
 ## 简介
 
 在服务器领域，Linux是主流的操作系统

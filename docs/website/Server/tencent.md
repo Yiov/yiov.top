@@ -84,7 +84,7 @@
 更多 - 管理，可以进行重启 或 重置密码(服务器)
 
 ::: tip 说明
-这里的登录，是指腾讯自带的 `WebShell` 工具登录，也可以使用 [其他shell工具](../Xshell.md)
+这里的登录，是指腾讯自带的 `WebShell` 工具登录，也可以使用 [其他shell工具](../shell/)
 :::
 
 ![](/server/tencent/tencent-08.png)

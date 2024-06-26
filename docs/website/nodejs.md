@@ -81,7 +81,7 @@ https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz
 
 
 
-[shell](./shell) 输入命令，进入根目录
+[shell](./shell/) 输入命令，进入根目录
 
 ::: tip 说明
 鼠标右键，粘贴！`ctrl+v` 是不可用的

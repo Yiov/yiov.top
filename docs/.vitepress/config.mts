@@ -219,7 +219,8 @@ export default defineConfig({
                 items: [
                   { text: '使用介绍(必读)', link: '/website/Server/' },
                   { text: '虚拟机', link: '/website/VMware' },
-                  { text: '腾讯云', link: '/website/domain/tencent' },
+                  { text: '腾讯云', link: '/website/Server/tencent' },
+                  { text: 'Serv00', link: '/website/Server/Serv00' },
 
                 ],
               },

@@ -210,6 +210,8 @@
 
    * [腾讯云服务器的购买及使用](../website/Server/tencent)
 
+   * [Serv00免费服务器注册](../website/Server/Serv00.md)
+
 * [域名的介绍](../website/domain/)
 
     * [腾讯云域名注册](../website/domain/tencent.md)

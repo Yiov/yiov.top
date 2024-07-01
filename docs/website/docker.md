@@ -1,9 +1,13 @@
 
 # Docker的安装
 
-> 更新时间：2024-5-30
+> 更新时间：2024-7-1
 
+::: danger 注意
+最近dockerhub官网被GFW屏蔽，镜像站也挂掉了，有很多搭建的镜像站并不稳定
 
+要么自己搭建，要么和我一样，用阿里云的就行
+:::
 
 ## 简介
 
@@ -98,7 +102,7 @@ sudo mkdir -p /etc/docker
 ```sh
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
-  "registry-mirrors": ["https://q1wsz1ur.mirror.aliyuncs.com"]
+  "registry-mirrors": ["https://改成你自己的.mirror.aliyuncs.com"]
 }
 EOF
 ```
@@ -184,7 +188,7 @@ docker-compose --help
 
 ## 常用命令
 
-
+更多命令请查看[官方文档](https://docs.docker.com/reference/cli/docker/)
 
 
 ```sh
@@ -192,13 +196,19 @@ docker ps -a #查看容器
 
 docker stop 容器ID #暂停容器
 
+docker start	#启动指定容器
+
+docker restart	#重新启动容器
+
+docker exec	#进入容器
+
+exit #退出容器
+
 docker rm -f 容器ID #删除容器
 
 docker kill 容器ID #关闭容器
 
 docker restart 容器名称 #重启容器
-
-exit #退出容器
 
 docker images #查看镜像
 
@@ -206,7 +216,6 @@ docker rmi 镜像ID #删除镜像
 
 docker rm -f whyour/qinglong:latest #删除青龙镜像
 ```
-
 
 
 

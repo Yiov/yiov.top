@@ -333,6 +333,10 @@ win键+R键打开运行，输入 `services.msc` 回车进入Windows服务
 
 
 
+
+
+
+
 ::: details 桌面的最小化三个字，关不掉
 
 原因：在使用某个软件时，过于频繁使用了 `windows键+D` 最小化，造成的卡顿
@@ -342,6 +346,27 @@ win键+R键打开运行，输入 `services.msc` 回车进入Windows服务
 ![](/win11/win11-23.png)
 
 :::
+
+
+
+
+
+::: details CAD弹窗 Nonvalid Software Detected 无法使用
+
+![](/win11/win11-24.png)
+
+解决：CAD图标右键 `打开文件所在的位置`，找到 `AcWebBrowser` 文件夹
+
+![](/win11/win11-25.png)
+
+找到`AcWebBrowser.exe` - 重命名，将exe后缀名删掉，或者直接将这个文件删除
+
+![](/win11/win11-26.png)
+
+:::
+
+
+
 
 
 

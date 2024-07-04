@@ -409,6 +409,11 @@ wget -O alist-freebsd.sh https://raw.githubusercontent.com/k0baya/alist_repl/mai
 没有权限，请检查是否打开了 `Additional services - Run your own applications` 开关
 
 如果已经打开，请关闭SSH工具重新连接
+
+或者使用SSH命令
+```sh
+devil binexec on
+```
 :::
 
 ```sh
@@ -514,14 +519,6 @@ pm2 start ./alist -- server
 ```
 
 ![](/server/serv00/alist/alist-18.png)
-
-
-这里的SSL证书3个月就到期了，我们可以直接使用CF的15年证书
-
-这就是为什么，刚开始强烈建议使用cf的托管域名
-
-
-![](/server/serv00/alist/alist-19.png)
 
 ::::
 

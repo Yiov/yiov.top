@@ -5,7 +5,6 @@
 
 服务器
 
-https://www.aldsd.com/serv00
 
 https://www.aldsd.com/hz-cz
 
@@ -13,16 +12,12 @@ https://www.aldsd.com/wordpress
 
 https://linux.do/t/topic/56482
 
+https://blog.lmyself.top/article/2774ad02-ba81-4ebe-9894-f03f7b873ce2
 
 cloudflare
 
 https://linux.do/t/topic/114314
 
-。
-
-手机号
-
-https://www.aldsd.com/textr-go
 
 
 宝塔破解
@@ -35,9 +30,18 @@ https://baike.baidu.com/item/Tux/9557378?fr=ge_ala
 
 
 
+https://qninq.cn/
+
+https://linux.do/t/topic/121834/40
+
+https://linux.do/t/topic/113252/6
 
 
+https://bbs.fit2cloud.com/t/topic/5902
 
+https://github.com/cmliu/CF-Workers-docker.io
+
+https://linux.do/t/topic/114345
 
 
 ## 简介

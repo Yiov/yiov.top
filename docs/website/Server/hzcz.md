@@ -28,5 +28,7 @@
 
 ## 注册
 
+选择 `Kč 0 /měs.` 的，点击 `OBJEDNAT` 
+
 ![](/server/hzcz/hzcz-02.png)
 

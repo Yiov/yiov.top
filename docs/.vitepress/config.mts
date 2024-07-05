@@ -221,6 +221,7 @@ export default defineConfig({
                   { text: '虚拟机', link: '/website/VMware' },
                   { text: '腾讯云', link: '/website/Server/tencent' },
                   { text: 'Serv00', link: '/website/Server/Serv00' },
+                  { text: 'wordpress主机', link: '/website/Server/wordpress' },
 
                 ],
               },

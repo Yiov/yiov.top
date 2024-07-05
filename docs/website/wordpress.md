@@ -34,7 +34,7 @@
 
 ## 下载
 
-进入 [wordpress中国官网](https://cn.wordpress.org/) ，点击右上角获取 - 下载并安装 - 下载
+点击wordpress中国官网，点击右上角 [获取](https://cn.wordpress.org/download/) - 下载并安装 - 下载
 
 ::: tip 说明
 下载就可以了，不要解压！一会用

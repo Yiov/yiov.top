@@ -211,7 +211,7 @@ YC34H-6WWDK-085MQ-JYPNX-NZRA2
 
 ![](/VMware/VMware-25.png)
 
-`自定义配件` 中可以移除用不上的 `声卡` `打印机`
+`自定义配件` 中可以移除用不上的 `声卡` `打印机` `USB`
 
 ![](/VMware/VMware-26.png)
 

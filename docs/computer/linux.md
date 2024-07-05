@@ -5,10 +5,7 @@
 
 服务器
 
-
-https://www.aldsd.com/hz-cz
-
-https://www.aldsd.com/wordpress
+VC HAX
 
 https://linux.do/t/topic/56482
 
@@ -19,10 +16,6 @@ cloudflare
 https://linux.do/t/topic/114314
 
 
-
-宝塔破解
-
-https://linux.do/t/topic/107409
 
 linux
 

@@ -7,19 +7,16 @@
 
 VC HAX
 
-https://linux.do/t/topic/56482
-
-https://blog.lmyself.top/article/2774ad02-ba81-4ebe-9894-f03f7b873ce2
 
 cloudflare
 
 https://linux.do/t/topic/114314
 
+https://linux.do/t/topic/127255/21
+
+https://www.moeelf.com/archives/305.html
 
 
-linux
-
-https://baike.baidu.com/item/Tux/9557378?fr=ge_ala
 
 
 
@@ -36,6 +33,7 @@ https://github.com/cmliu/CF-Workers-docker.io
 
 https://linux.do/t/topic/114345
 
+https://zhale.me/
 
 
 ## 简介
@@ -54,6 +52,11 @@ https://linux.do/t/topic/114345
 CentOS 官方计划停止维护 CentOS Linux 项目，并于2022年01月01日停止对 CentOS 8的维护支持。CentOS 7于2024年06月30日也将停止维护，详情请参见 [CentOS 官方公告](https://blog.centos.org/2020/12/future-is-centos-stream/)。
 
 ## 前世
+
+linux
+
+https://baike.baidu.com/item/Tux/9557378?fr=ge_ala
+
 
 
 

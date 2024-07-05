@@ -37,6 +37,8 @@ next: false
 
 * ✅ 免费域名
 
+* ✅ UptimeRobot站点监控
+
 * ⬜ Linux简介
 
 * ⬜ js代码编写

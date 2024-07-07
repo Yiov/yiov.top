@@ -185,7 +185,7 @@ Cloudflare还可以创建 [cloudflare page](https://pages.cloudflare.com/) ，�
 
 ::: details CDN加速：Github Pages 加速
 
-之前写过，但访问效果平平，还不如直接用 [Vercel](./vercel.md)
+之前写过，但访问效果平平，还不如直接用 [Vercel](./pages/vercel.md)
 
 :::
 

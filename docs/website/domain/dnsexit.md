@@ -82,7 +82,7 @@ DNSExit是NetDorm动态DNS提供商的子公司，而 freedomain.one 是DNSExit�
 
 ![](/domain/dnsexit/dnsexit-10.png)
 
-经过测试是无法解析到 [Vercel](../vercel.md) 上的，所以只能用来做别名解析了
+经过测试是无法解析到 [Vercel](../pages/vercel.md) 上的，所以只能用来做别名解析了
 
 
 ![](/domain/dnsexit/dnsexit-11.png)
@@ -94,7 +94,7 @@ DNSExit是NetDorm动态DNS提供商的子公司，而 freedomain.one 是DNSExit�
 
 将 `www` 改成自己喜欢的前缀，我改成了 `doc`
 
-`Points to host` 输入你原本的域名，我用 [GithubPages](../github.md) 演示
+`Points to host` 输入你原本的域名，我用 [GithubPages](../pages/github.md) 演示
 
 下面选择 `external host`，更新
 

@@ -96,11 +96,11 @@ https://qninq.cn/archives/site-status.html
 
 * [安装好nodejs之pnpm](./nodejs.md)
 
-* [Github账号](./github.md)
+* [Github账号](./pages/github.md)
 
 * [Vscode软件](./VSCode.md)
 
-* [Vercel账号](./vercel.md)
+* [Vercel账号](./pages/vercel.md)
 
 
 
@@ -161,7 +161,7 @@ pnpm dev
 
 ![](/uptimerobot/uptimerobot-19.png)
 
-没问题，按 `Ctrl+C` 退出开发模式，使用 [Vercel部署](./vercel.md)
+没问题，按 `Ctrl+C` 退出开发模式，使用 [Vercel部署](./pages/vercel.md)
 
 ::: details 为什么不pnpm build
 

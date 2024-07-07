@@ -23,7 +23,7 @@
 
 ## Fork项目
 
-准备一个 [GitHub账号](../website/github.md) ，进入仓库fork复刻项目
+准备一个 [GitHub账号](../website/pages/github.md) ，进入仓库fork复刻项目
 
 项目仓库：https://github.com/tw93/Pake
 

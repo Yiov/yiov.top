@@ -24,7 +24,7 @@
 
 * [安装宝塔面板](../../website/BT.md)
 
-* [注册Github账号](../../website/github.md)
+* [注册Github账号](../../website/pages/github.md)
 
 
 

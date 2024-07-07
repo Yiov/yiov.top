@@ -3,10 +3,12 @@
 
 > 更新时间：2024-7-1
 
-::: danger 注意
-最近dockerhub官网被GFW屏蔽，镜像站也挂掉了，有很多搭建的镜像站并不稳定
+::: danger 通知
+最近dockerhub官网被GFW屏蔽，镜像站也挂掉了
 
-要么自己搭建，要么和我一样，用阿里云的就行
+* 解决：直接用阿里云的就行 或者 自行搭建
+
+* 不建议：使用其他搭建的镜像站，要维护也不稳定
 :::
 
 ## 简介
@@ -24,7 +26,7 @@ docker就是其中一种应用容器引擎，可以更加便捷的管理镜像
 
 
 
-## 安装docker
+## 安装
 
 用 [shell工具](./shell/) 登录 [服务器](./Server/)，然后一键安装Docker需要的依赖包
 
@@ -186,9 +188,28 @@ docker-compose -v
 docker-compose --help
 ```
 
+
+
+
+## 使用
+
+> 带 ⭐ 的是有教程的，点击即可跳转
+
+| 应用 | 说明 |
+|:-:|:-|
+| [⭐Halo](./Halo.md) | 一款现代化的开源博客/CMS系统 |
+| [⭐Alist](./Alist.md) | 一个网盘文件列表程序 |
+| [⭐青龙面板](./qinglong.md) | 一个支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台 |
+| [⭐dockerhub](./dockerhub.md) | Docker官方提供一个托管平台，镜像上传 |
+| [MeEdu](https://meedu.vip/h5.html) | 网校系统，有开源版本 |
+| [Memos](https://usememos.com/) | 轻量级笔记服务 |
+
+
+
+
 ## 常用命令
 
-更多命令请查看[官方文档](https://docs.docker.com/reference/cli/docker/)
+更多命令请查看 [官方文档](https://docs.docker.com/reference/cli/docker/)
 
 
 ```sh
@@ -220,14 +241,6 @@ docker rm -f whyour/qinglong:latest #删除青龙镜像
 
 
 
-## 使用
-
-
-* [青龙面板的使用](./qinglong)
-
-* [dockerhub镜像上传](./dockerhub)
-
-
 
 
 
@@ -235,17 +248,17 @@ docker rm -f whyour/qinglong:latest #删除青龙镜像
 
 
 
-1.安装报错Errno 14
+::: details 安装报错Errno 14
 
 `Error: Unable to curl repository file ... repo`
 
 检查安装命令是否正确，下载失败了，或者卸载后重装
+:::
 
 
 
 
-
-2.卸载旧Docker
+::: details 卸载旧Docker
 
 如果你不是用curl方式安装的，请参考 [官网卸载说明](https://docs.docker.com/engine/install/centos/#uninstall-docker-engine)
 
@@ -254,11 +267,12 @@ sudo yum remove docker-ce docker-ce-cli containerd.io
 sudo rm -rf /var/lib/docker #删除Docker缓存
 sudo rm -rf /var/lib/containerd #删除Docker容器实例
 ```
+:::
 
 
-
-3.卸载docker compose
+::: details 卸载docker compose
 
 ```sh
 sudo rm /usr/local/bin/docker-compose
 ```
+:::

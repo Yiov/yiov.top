@@ -7,7 +7,7 @@
 
 当我们从一个浏览器更换到另一个浏览器时，如何将收藏夹中的网址，同步到另一个浏览器呢
 
-本文前提：注册一个 [Github账号](../website/github.md)
+本文前提：注册一个 [Github账号](../website/pages/github.md)
 
 
 ## 安装插件

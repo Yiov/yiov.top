@@ -13,7 +13,7 @@
 官网：https://git-scm.com/
 
 
-![](/git/git-01.png)
+![](/pages/git/git-01.png)
 
 
 
@@ -26,18 +26,18 @@
 
 下载：https://git-scm.com/downloads
 
-![](/git/git-02.png)
+![](/pages/git/git-02.png)
 
 
 安装的时候，这里要勾选
 
-![](/git/git-03.png)
+![](/pages/git/git-03.png)
 
 
 下载安装完成后 选择Launch Git Bash启动
 
 
-![](/git/git-04.png)
+![](/pages/git/git-04.png)
 
 
 
@@ -52,7 +52,7 @@
 
 打开git后是这样的界面
 
-![](/git/git-05.png)
+![](/pages/git/git-05.png)
 
 
 设置名字，修改一下，再粘贴
@@ -65,10 +65,10 @@ git config --global user.name "DzPian"
 
 鼠标右键 - Paste 粘贴(不要用ctrl+v) - 回车
 
-![](/git/git-06.png)
+![](/pages/git/git-06.png)
 
 
-![](/git/git-07.png)
+![](/pages/git/git-07.png)
 
 
 然后设置邮箱
@@ -78,7 +78,7 @@ git config --global user.name "DzPian"
 git config --global user.email "49****@qq.com"
 ```
 
-![](/git/git-08.png)
+![](/pages/git/git-08.png)
 
 
 设置的用处就是，为了知道远程仓库是谁上传的
@@ -106,7 +106,7 @@ git config user.email
 例：我在F盘新建了一个文件夹，命名为Github，然后再创建子文件夹copydog
 :::
 
-![](/git/git-09.png)
+![](/pages/git/git-09.png)
 
 `copydog` 就是我的仓库项目名，我们cd进文件夹
 
@@ -121,7 +121,7 @@ cd /f/github/copydog
 
 或者简单粗暴git bash文件夹，空白处，鼠标右键- `Git Bash Here` ，一样也能进入页面
 
-![](/git/git-10.png)
+![](/pages/git/git-10.png)
 
 
 
@@ -132,12 +132,12 @@ cd /f/github/copydog
 ```sh
 git init
 ```
-![](/git/git-11.png)
+![](/pages/git/git-11.png)
 
 
 创建完成后会在本地生成一个 `.git` 的隐藏文件
 
-![](/git/git-12.png)
+![](/pages/git/git-12.png)
 
 
 ::: details 为什么我看不到？
@@ -145,7 +145,7 @@ git init
 
 不打开也没有关系，以免你误删
 
-![](/git/git-13.png)
+![](/pages/git/git-13.png)
 :::
 
 
@@ -155,7 +155,7 @@ git init
 ls -al
 ```
 
-![](/git/git-14.png)
+![](/pages/git/git-14.png)
 
 
 
@@ -171,7 +171,7 @@ git默认使用 `master` 分支（蓝色），也可以切换成 `main`
 #切换main分支
 git checkout main
 ```
-![](/git/git-15.png)
+![](/pages/git/git-15.png)
 
 
 
@@ -189,7 +189,7 @@ git checkout main
 ~/.ssh
 ```
 
-![](/git/git-16.png)
+![](/pages/git/git-16.png)
 
 
 没有就输入命令创建SSH Key
@@ -210,39 +210,39 @@ ssh-keygen -t rsa -C "49****@qq.com"
 :::
 
 
-![](/git/git-17.png)
+![](/pages/git/git-17.png)
 
 
 在  `C:\Users\Administrator\.ssh` 目录，生成了 `id_rsa` 和 `id_rsa.pub` 两个秘钥文件
 
 找到 `id_rsa.pub` ，鼠标右键 - 用记事本打开
 
-![](/git/git-18.png)
+![](/pages/git/git-18.png)
 
 
 打开Github，右上角-头像-设置
 
-![](/git/git-19.png)
+![](/pages/git/git-19.png)
 
 
 点击 SSH与GPG公钥，创建New SSH key
 
-![](/git/git-20.png)
+![](/pages/git/git-20.png)
 
 标题随便起，key是刚刚生成的SSH key，全选了，复制粘贴进去
 
-![](/git/git-21.png)
+![](/pages/git/git-21.png)
 
 
 授权，输入你github的登录密码
 
-![](/git/git-22.png)
+![](/pages/git/git-22.png)
 
 SSH key就创建好了，邮箱也会收到通知
 
-![](/git/git-23.png)
+![](/pages/git/git-23.png)
 
-![](/git/git-24.png)
+![](/pages/git/git-24.png)
 
 
 
@@ -266,7 +266,7 @@ You’ve successfully authenticated, but GitHub does not provide shell access.
 :::
 
 
-![](/git/git-25.png)
+![](/pages/git/git-25.png)
 
 
 
@@ -280,7 +280,7 @@ You’ve successfully authenticated, but GitHub does not provide shell access.
 
 进入自己的仓库，点击SSH连接并复制
 
-![](/git/git-26.png)
+![](/pages/git/git-26.png)
 
 
 
@@ -292,7 +292,7 @@ git remote add origin 这里是你的SSH连接地址
 ```
 
 
-![](/git/git-27.png)
+![](/pages/git/git-27.png)
 
 
 输入 `git remote -v` 查看是否成功
@@ -307,7 +307,7 @@ git remote -v
 ```
 
 
-![](/git/git-28.png)
+![](/pages/git/git-28.png)
 
 
 
@@ -341,7 +341,7 @@ git add .
 #git add -A 提交所有变化。git add前几条都可以记不住，这个必须记住！！！
 ```
 
-![](/git/git-29.png)
+![](/pages/git/git-29.png)
 
 
 添加描述
@@ -353,7 +353,7 @@ git commit -m “这里描述上传了什么”
 
 
 
-![](/git/git-30.png)
+![](/pages/git/git-30.png)
 
 
 
@@ -374,7 +374,7 @@ git push origin main
 #git push origin main -f
 ```
 
-![](/git/git-31.png)
+![](/pages/git/git-31.png)
 
 
 
@@ -385,7 +385,7 @@ git push origin main
 
 
 
-#### 1.分支错误
+::: details 分支错误
 
 原来的master变成了 `master rebase 1/2` 之类的，用abort回退即可
 
@@ -398,17 +398,19 @@ git rebase --abort
 ```sh
 git reset --hard head
 ```
+:::
 
 
 
-#### 2.删除分支
 
+::: details 删除分支
 如果你上传错了分支，不是main而是传到了分支，在网页仓库点分支删除
+:::
 
 
 
 
-#### 3.修改注释
+::: details 修改注释
 
 修改后，别忘了push
 
@@ -419,12 +421,11 @@ git commit --amend -m "你要修改的内容"
 #更新推送
 git push origin main
 ```
+:::
 
 
 
-
-#### 4.修改文件名
-
+::: details 修改文件名
 
 ```sh
 #修改内容
@@ -433,17 +434,21 @@ git commit -m "你要修改的文件名"
 #更新推送
 git push origin main
 ```
+:::
 
 
 
-#### 5.查看历史提交
+
+::: details 查看历史提交
 
 ```sh
 git log
 ```
+:::
 
 
-#### 6.远程删除文件
+
+::: details 远程删除文件
 
 ```sh
 #删除文件
@@ -455,9 +460,12 @@ git commit -m "注释一下你删除了什么"
 #更新推送
 git push origin main
 ```
+:::
 
 
-#### 7.创建分支
+
+
+::: details 创建分支
 
 ```sh
 #用英文
@@ -465,12 +473,15 @@ git branch 这里写分支的名字
 
 #比如：git branch master
 ```
+:::
 
 
-#### 8.仓库克隆
+
+
+::: details 仓库克隆
 
 ```sh
 git clone 你的SSH仓库地址
 ```
-
+:::
 

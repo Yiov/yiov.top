@@ -117,6 +117,10 @@ https://qninq.cn/archives/site-status.html
 
 主要是这个 `ur` 开头的API Key，其他按需修改即可
 
+::: danger 注意
+如果你又新增了网站，必须重新获取key，否则页面不会更新
+:::
+
 ![](/uptimerobot/uptimerobot-13.png)
 
 在 [UptimeRobot官网](https://uptimerobot.com/) 上方点击 [old app](https://old.uptimerobot.com/dashboard)

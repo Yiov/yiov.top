@@ -221,7 +221,8 @@ export default defineConfig({
                   { text: '虚拟机', link: '/website/VMware' },
                   { text: '腾讯云', link: '/website/Server/tencent' },
                   { text: 'Serv00', link: '/website/Server/Serv00' },
-                  { text: 'wordpress主机', link: '/website/Server/wordpress' },
+                  { text: 'wordpress', link: '/website/Server/wordpress' },
+                  { text: 'Hax', link: '/website/Server/hax' },
 
                 ],
               },
@@ -253,50 +254,66 @@ export default defineConfig({
                 items: [
                   { text: 'node.js', link: '/website/nodejs' },
                   { text: 'Go', link: '/website/go' },
-                  { text: 'Docker', link: '/website/docker' },
                 ],
-              },
+              },   
+            ],
+          },
+
+          { text: 'WP相关', 
+            collapsed: true,
+            items: [
               { text: 'wordpress', link: '/website/wordpress' },
               { text: 'Webstack', link: '/website/WebStack' },
               { text: 'Onenav', link: '/website/onenav' },
-              { text: 'Halo', link: '/website/Halo' },
-              { text: '主题源码汇总 ', link: '/website/source' },
-
             ],
           },
 
-
-          { text: '进阶', 
+          { text: 'Docker', 
             collapsed: true,
             items: [
-              { text: 'Git', link: '/website/git' },
-              { text: 'Github', link: '/website/github' },
-              { text: 'VSCode', link: '/website/VSCode' },
-              { text: 'Vercel', link: '/website/vercel' },
-              { text: 'GitLab', link: '/website/gitlab' },
-
-              { text: 'Alist', link: '/website/Alist' },
-              { text: '青龙面板', link: '/website/qinglong' },
+              { text: '使用介绍(必读)', link: '/website/docker' },
+               { text: 'Halo', link: '/website/Halo' },
+               { text: 'Alist', link: '/website/Alist' },
+               { text: '青龙面板', link: '/website/qinglong' },
               { text: 'Dockerhub', link: '/website/dockerhub' },
-              { text: 'Favicon', link: '/website/Favicon' },
-              { text: '记仇小本本', link: '/website/heng' },
-              { text: '个人主页搭建', link: '/website/home' },
-              { text: 'Cloudflare', link: '/website/cloudflare' },
+             ],
+          },
 
+          { text: '静态托管', 
+            collapsed: true,
+            items: [
+              { text: '使用介绍(必读)', link: '/website/pages/' },
+              { text: 'Github', link: '/website/pages/github' },
+              { text: 'Vercel', link: '/website/pages/vercel' },
+              { text: 'GitLab', link: '/website/pages/gitlab' }, 
+              { text: 'Git', link: '/website/pages/git' },
             ],
           },
 
+          
+
+          { text: '拓展工具', 
+            collapsed: true,
+            items: [
+              { text: 'VSCode', link: '/website/VSCode' },
+              { text: '个人主页搭建', link: '/website/home' },
+              { text: 'Cloudflare', link: '/website/cloudflare' },
+              { text: 'UptimeRobot ', link: '/website/uptimerobot' },
+              { text: 'Replit', link: '/website/Replit' },
+              { text: 'Favicon', link: '/website/Favicon' },
+              { text: '记仇小本本', link: '/website/heng' },
+            ],
+          },
 
           { text: '其他', 
             collapsed: true,
             items: [
-              { text: 'Replit', link: '/website/Replit' },
-              { text: 'UptimeRobot ', link: '/website/uptimerobot' },
               { text: '浅谈内网穿透', link: '/website/NAT' },
               { text: '闲置苹果托管网站', link: '/website/ish' },
               { text: 'Centos切换图形界面', link: '/website/Centos' },
             ],
           },
+
         ],
       },
       {

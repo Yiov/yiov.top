@@ -29,7 +29,7 @@ GitHub：https://github.com/replit
 
 ## 注册
 
-点击 `Log in` 注册，可以用第三方关联注册，我选择 [GitHub](../website/github)
+点击 `Log in` 注册，可以用第三方关联注册，我选择 [GitHub](../website/pages/github)
 
 ::: details 网站打不开？
 那有可能你需要 [挂一个梯子](../gfw/channel.md)

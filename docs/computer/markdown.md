@@ -8,7 +8,7 @@
 
 Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）
 
-文档后缀为 `.md` 或 `.markdown`，目前它已是 [GitHub](../website/github.md) 的御用书写格式
+文档后缀为 `.md` 或 `.markdown`，目前它已是 [GitHub](../website/pages/github.md) 的御用书写格式
 
 * 弥补了传统纯文本缺少样式的不足
 

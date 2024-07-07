@@ -31,28 +31,19 @@
 
 
 
+## 安装
 
-## 下载
-
-点击wordpress中国官网，点击右上角 [获取](https://cn.wordpress.org/download/) - 下载并安装 - 下载
-
-::: tip 说明
-下载就可以了，不要解压！一会用
-:::
+在官网点击右上角 [获取wordpress](https://cn.wordpress.org/download/) - 下载，不要解压！一会用
 
 ![](/wordpress/wordpress-02.png)
 
 
-
-## 添加站点
-
-
-打开宝塔面板后，点 网站-添加站点
+登录宝塔面板后，点 网站 - 添加站点
 
 ![](/wordpress/wordpress-03.png)
 
 
-域名填入你买的域名，FTP不创建，数据库MySQL，密码可以自己改的好记一点，提交
+域名填入你的域名，FTP不创建，数据库MySQL，密码可以自己改的好记一点，提交
 
 
 ![](/wordpress/wordpress-04.png)
@@ -67,46 +58,35 @@
 ![](/wordpress/wordpress-05.png)
 
 
-
-
-## 上传
-
-
-
-文件  `/www/wwwroot/dh.***.com` 目录，把里面的文件都删掉
+文件  `/www/wwwroot/dh.***.com` 目录，把里面的文件都删掉！！！
 
 ![](/wordpress/wordpress-06.png)
 
 
-上传下载好的wordpress压缩包，完成后右键解压
+删掉后，上传下载好的wordpress压缩包
 
 ![](/wordpress/wordpress-07.png)
+
+
+然后右键解压
 
 ![](/wordpress/wordpress-08.png)
 
 
-但是，这样我们站点只有个文件夹，而不是整个wordpress的文件
-
 我们进文件夹，把里面文件全部剪切出来
-
-::: tip 说明
-事后记得删除空文件夹和压缩包哦
-:::
 
 ![](/wordpress/wordpress-09.png)
 
+粘贴到 `/www/wwwroot/dh.***.com` 目录
+
 ![](/wordpress/wordpress-10.png)
+
+删除空文件夹和压缩包即可
 
 ![](/wordpress/wordpress-11.png)
 
 
-
-
-## 安装
-
-
-
-访问你的域名即可，我的是`dh.***.com`，你们按自己的域名来
+访问你的域名，我的是`dh.***.com`，你们按自己的域名来
 
 ![](/wordpress/wordpress-12.png)
 
@@ -136,18 +116,42 @@
 
 
 
-## 登录
+## 使用
 
-进入了后台，外观-主题里找 或 上传主题
-
-::: tip 说明
-我整理了一些自己喜欢的主题 [自行参考](./source)
-:::
+进入了后台，外观 - 主题里找 或 上传主题
 
 后台的地址：http://你的域名.com/wp-admin/
 
 ![](/wordpress/wordpress-17.png)
 
+
+## 主题
+
+> 带 ⭐ 的是有教程的，点击即可跳转
+
+| WP主题 | 收费 | 类型 | 演示 |
+|:-:|:-:|:-:|:-:|
+| [wordpress](https://cn.wordpress.org/themes/) | 免费 / 收费 | 官方主题商店 | - |
+| [⭐Webstack](./WebStack.md) | 免费 | 导航 | [DEMO](https://webstack.cc/) |
+| [一为导航](https://www.iotheme.cn/store/onenav.html) | 收费 | Webstack衍生主题 | [DEMO](https://nav.iowen.cn/) |
+| [⭐Onenav](./onenav.md) | 免费 | 导航 | [DEMO](https://nav.rss.ink/) |
+| [子比主题](https://www.zibll.com/) | 收费 | 博客 / 社区 | [DEMO](https://demo.zibll.com/) |
+| [PIX主题](https://www.get.top/shop/64.html) | 收费 | 社交类朋友圈 | [DEMO](https://pixit.cn/) |
+| [CorePress主题](https://www.lovestu.com/corepress-free) | 免费 / 收费 | 博客 | [DEMO](https://www.lovestu.com/) |
+| [奈斯主题：vanilla](https://www.nicetheme.cn/store/vanilla-wordpress-theme) | 收费 | 图库 | [DEMO](https://bananahub.nicetheme.xyz/) |
+| [奈思主题：Maggie](https://www.nicetheme.cn/store/maggie) | 收费 | 知识库主题 | [DEMO](https://theme.nicetheme.xyz/maggie/) |
+| [奈思主题：Orange](https://www.nicetheme.cn/store/orange-theme) | 收费 | 企业商城 | [DEMO](https://orange.demo.nicetheme.xyz/) |
+| [闪电博：爆米花](https://www.wbolt.com/themes/popcorn) | 收费 | 影视资源下载 | [DEMO](https://popcorn.demo.wbolt.com/) |
+| [闪电博：Astore](https://www.wbolt.com/themes/astore) | 收费 | 软件应用商店 | [DEMO](https://www.inpandora.com/?ref=wbolt) |
+| [追格：企业官网](https://www.zhuige.com/) | 收费 | 企业官网 | [DEMO](https://qygw.zhuige.com/) |
+| [追格：小站点评主题](https://www.zhuige.com/) | 免费 / 收费 | 企业官网 | [DEMO](https://www.xzdp.com/) |
+| [上海米尊网络：ZAXU](https://www.zaxu.com/) | 收费 | 博客 / 商城 | [DEMO](https://demo.zaxu.com/) |
+| [Wing](https://github.com/Tokinx/Wing) | 免费 | 博客 | [DEMO](https://biji.io/) |
+| 其他PHP网站 |
+| [MDclub](https://www.mdclub.org/) | 免费 | 论坛 | [DEMO](https://community.mdclub.org/) |
+| [泡泡社区](https://github.com/rocboss/paopao-ce) | 免费 | 社区 | [DEMO](https://www.paopao.info/) |
+| [Blogger](https://www.blogger.com/) | 免费 | 谷歌免费网络博客 | - |
+| [CRMEB](https://www.crmeb.com/) | 收费 | 商城系统 | [DEMO](https://v5.crmeb.net/) |
 
 
 

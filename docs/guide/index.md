@@ -212,6 +212,10 @@
 
    * [Serv00免费服务器注册](../website/Server/Serv00.md)
 
+   * [wordpress免费主机](../website/Server/wordpress.md)
+
+   * [Hax免费服务器](../website/Server/hax.md)
+
 * [域名的介绍](../website/domain/)
 
     * [腾讯云域名注册](../website/domain/tencent.md)
@@ -245,7 +249,8 @@
 
     * [Go环境的安装教程](../website/go)
 
-    * [Docker的安装教程](../website/docker)
+
+### WP相关
 
 * [wordpress详细安装教程](../website/wordpress)
 
@@ -253,24 +258,12 @@
 
 * [Onenav导航网页的搭建](../website/onenav)
 
+
+### Docker相关
+
+* [Docker的安装教程](../website/docker)
+
 * [Halo博客的搭建](../website/Halo)
-
-* [各类主题/模板/源码汇总](../website/source)
-
-
-
-
-### 进阶
-
-* [git使用及上传代码到仓库](../website/git)
-
-* [Github注册及使用](../website/github)
-
-* [VSCode安装步骤](../website/VSCode)
-
-* [Vercel静态部署网站](../website/vercel)
-
-* [GitLab注册及使用](../website/gitlab)
 
 * [Alist搭建自己的专属网盘](../website/Alist)
 
@@ -278,23 +271,43 @@
 
 * [dockerhub上传本地镜像](../website/dockerhub)
 
-* [搭建Favicon图标API](../website/Favicon)
 
-* [搭建专属的记仇小本本](../website/heng)
+
+### 静态托管
+
+* [静态托管介绍](../website/pages/)
+
+* [Github注册及使用](../website/pages/github)
+
+* [Vercel静态部署网站](../website/pages/vercel)
+
+* [GitLab注册及使用](../website/pages/gitlab)
+
+* [git使用及上传代码到仓库](../website/pages/git)
+
+
+### 拓展工具
+
+
+* [VSCode安装步骤](../website/VSCode)
 
 * [简单的个人主页搭建](../website/home)
 
 * [Cloudflare的注册使用](../website/cloudflare)
 
-
-
-### 其他
-
-* [ClouDNS的注册使用](../website/domain/cloudns.md)
+* [UptimeRobot的注册及使用](../website/uptimerobot)
 
 * [Replit的注册及使用](../website/Replit)
 
-* [UptimeRobot的注册及使用](../website/uptimerobot)
+* [搭建Favicon图标API](../website/Favicon)
+
+* [搭建专属的记仇小本本](../website/heng)
+
+
+
+
+
+### 其他
 
 * [浅谈内网穿透](../website/NAT)
 

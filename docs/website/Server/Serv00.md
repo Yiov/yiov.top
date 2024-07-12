@@ -236,9 +236,7 @@ The account has been created successfully. Further instructions have been sent t
 选择 `Generate Let's Encrypt certificate` 添加即可
 
 ::: details The weekly certificate limit for the domain has been used
-每周证书数量限制，等名额吧
-
-也可自行申请导入 [Let's Encrypt](https://letsencrypt.org/zh-cn/) 或者 [ZeroSSL](https://zerossl.com/)
+每周证书数量限制，等名额吧，或者自己申请
 :::
 
 ::: details The A record for the domain is incorect
@@ -248,6 +246,122 @@ The account has been created successfully. Further instructions have been sent t
 ![](/server/serv00/two/two-12.png)
 
 ::::
+
+
+
+:::: details 自行申请SSL证书
+
+由于我们没有域名的使用权，所以只能使用HTTP文件验证
+
+那么，推荐使用 [ZeroSSL](https://zerossl.com/) ，点右上角 `Get Free SSL` 注册
+
+![](/server/serv00/zerossl/zerossl-01.png)
+
+输入邮箱密码即可，密码要大小写及数字，8位数以上
+
+![](/server/serv00/zerossl/zerossl-02.png)
+
+点 `New Certificate` 创建新证书
+
+![](/server/serv00/zerossl/zerossl-03.png)
+
+输入我们的Serv00二级域名，90天，其他默认，才是免费的
+
+::: tip 说明
+* Domains：输入单个域名（多域名和泛域名要付费）
+
+* Validity：90-Day Certificate
+
+* Add-Ons：什么都不选
+
+* CSR & Contact：默认自动开启的即可
+:::
+
+![](/server/serv00/zerossl/zerossl-04.png)
+
+![](/server/serv00/zerossl/zerossl-05.png)
+
+我们只能选 HTTP 文件验证，先下载txt验证文件 `Download Auth File`
+
+![](/server/serv00/zerossl/zerossl-06.png)
+
+然后再serv00文件管理器，域名 `public_html` 文件夹下
+
+按要求分别新建子母文件夹后，上传验证文件
+
+![](/server/serv00/zerossl/zerossl-07.png)
+
+访问链接能成功读取，就可以了
+
+![](/server/serv00/zerossl/zerossl-08.png)
+
+回到 ZeroSSL `verify` 验证
+
+![](/server/serv00/zerossl/zerossl-09.png)
+
+验证成功后，点击 `Download Certificate (.zip)` 下载证书压缩包
+
+![](/server/serv00/zerossl/zerossl-10.png)
+
+解压后，还不能直接使用，需要将ca_bundle.crt和certificate.crt合并
+
+![](/server/serv00/zerossl/zerossl-11.png)
+
+右键用记事本打开 `ca_bundle.crt` 全选内容，复制
+
+同样的方式打开 `certificate.crt` ，拉倒最底部，粘贴将刚复制的内容，保存
+
+![](/server/serv00/zerossl/zerossl-12.png)
+
+然后将 `certificate.crt` 重命名为 `certificate.pem`，确定
+
+::: details 看不到文件后缀名
+文件夹顶部 查看 - 勾选 `文件拓展名`
+:::
+
+![](/server/serv00/zerossl/zerossl-13.png)
+
+打开 serv00 面板 - SSL - WWW Websites，第一个IP `Manage` 管理
+
+![](/server/serv00/zerossl/zerossl-14.png)
+
+点击 `Add certificate` 添加证书，`choose file` 选择我们刚才的文件
+
+::: tip 说明
+
+* Type：Certificate file
+
+* Certificate File：刚才合并的pem文件（必须要pem才是完整的）
+
+* Key File：解压后的key文件
+
+* Domain：申请的域名
+:::
+
+![](/server/serv00/zerossl/zerossl-15.png)
+
+成功后在面板中能看到
+
+![](/server/serv00/zerossl/zerossl-16.png)
+
+回到ZeroSSL验证，这样就完成了
+
+![](/server/serv00/zerossl/zerossl-17.png)
+
+浏览网站，已经可以https访问了，证书是3个月过期
+
+![](/server/serv00/zerossl/zerossl-18.png)
+
+::::
+
+
+
+
+
+
+
+
+
 
 
 

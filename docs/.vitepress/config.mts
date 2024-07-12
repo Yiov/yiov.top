@@ -255,7 +255,8 @@ export default defineConfig({
                   { text: 'node.js', link: '/website/nodejs' },
                   { text: 'Go', link: '/website/go' },
                 ],
-              },   
+              }, 
+              { text: 'SSL证书', link: '/website/ssl' },
             ],
           },
 

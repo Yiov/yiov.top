@@ -39,6 +39,10 @@ next: false
 
 * ✅ UptimeRobot站点监控
 
+* ⬜ SSL证书
+
+* ⬜ Mesh组网
+
 * ⬜ Linux简介
 
 * ⬜ js代码编写

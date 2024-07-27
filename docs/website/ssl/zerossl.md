@@ -27,22 +27,19 @@ ZeroSSL是一个免费的证书颁发机构，提供SSL证书创建和管理的�
 
 ::: details 什么是 通配符 和 泛解析
 
-通配符 `*`，是泛解析的一个必用字符，且只能表示当前级
+* 通配符 `*`：是泛解析的一个必用字符，用来表示当前级
 
----
+* 通配符证书：可以多个二级域名或三级域名共用一个证书，只需要申请一张即可
 
-比如域名是：`baidu.com`，那么它的泛解析就是 `*.baidu.com` 
-
-表示 baidu.com 下所有的二级域名（不含三级域名），如 `baike.baidu.com` 等
-
----
-
-比如三级域名是 `bce.baidu.com`，那么它的泛解析就是 `*.bce.baidu.com`
-
-表示 bce.baidu.com 下所有的三级域名（不含四级域名）， 如 `login.bce.baidu.com` 等
-
-以此类推...
+| 域名/示例 | 泛解析 | 包含 | 不包含 |
+|:-:|:-:|:-:|:-:|
+| 一级域名 | ❌ | baidu.com | - |
+| 二级域名 | *.baidu.com | baike.baidu.com<br>www.baidu.com<br>... | baidu.com |
+| 三级域名 | *.bce.baidu.com | login.bce.baidu.com<br>h5.bce.baidu.com<br>... | *.baidu.com<br>bce.baidu.com |
+| 依次类推 | ... | ... | ... |
 :::
+
+
 
 
 
@@ -62,7 +59,7 @@ ZeroSSL是一个免费的证书颁发机构，提供SSL证书创建和管理的�
 输入我们的域名，选90天，其他默认，才是免费的
 
 ::: tip 说明
-* Domains：输入子域名或二级域名
+* Domains：输入一级域名或二级域名
 
 * Validity：90-Day Certificate
 

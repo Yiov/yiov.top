@@ -51,7 +51,7 @@
 
 提取出商品id后，按如下格式填入
 
-```:no-line-numbers
+```
 https://cart.jd.com/gate.action?ptype=1&pcount=1&pid={商品ID}
 ```
 
@@ -62,7 +62,7 @@ https://cart.jd.com/gate.action?ptype=1&pcount=1&pid={商品ID}
 注：如果限购2件，你改成100件，也只能加购2件
 :::
 
-```:no-line-numbers
+```
 https://cart.jd.com/gate.action?ptype=1&pcount=1&pid=100054487281
 ```
 
@@ -92,13 +92,13 @@ https://cart.jd.com/gate.action?ptype=1&pcount=1&pid=100054487281
 
 我们可以通过跳转付款页面，直接提交，将商品ID按如下格式组合：
 
-```:no-line-numbers
+```
 https://trade.m.jd.com/pay?booking=1&type=0&commlist={商品ID},,{商品数量},{商品ID},{商品数量},0,0
 ```
 
 改好后，我的链接是这样的
 
-```:no-line-numbers
+```
 https://trade.m.jd.com/pay?booking=1&type=0&commlist=10104923384837,,1,10104923384837,1,0,0
 ```
 

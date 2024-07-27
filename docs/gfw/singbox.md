@@ -102,7 +102,7 @@ sing-box有独特的格式，无法直接填入订阅
 我们借助 [@Toperlock](https://github.com/Toperlock/) 的 [sing-box-subscribe](https://github.com/Toperlock/sing-box-subscribe/) 来转换
 :::
 
-```:no-line-numbers
+```
 格式：
 https://sing-box-xxx.app/config/订阅链接
 ```
@@ -130,12 +130,12 @@ https://sing-box-xxx.app/config/订阅链接
 
 我准备的两个链接，第一个是作者的，第二个是我自己部署的
 
-```:no-line-numbers
+```
 https://sing-box-subscribe-doraemon.vercel.app/config/订阅链接
 ```
 ---
 
-```:no-line-numbers
+```
 https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 ```
 
@@ -203,19 +203,19 @@ URL处需填写特定的格式链接，机场订阅链接不可以直接用！�
 
 我们借助 [@Toperlock](https://github.com/Toperlock/) 的 [sing-box-subscribe](https://github.com/Toperlock/sing-box-subscribe/) 来转换
 
-```:no-line-numbers
+```
 格式：
 https://sing-box-xxx.app/config/订阅链接
 ```
 
 我提供了两个链接，第一个是作者的，第二个是我自己部署的，配置好后粘贴，点 `Create` 创建
 
-```:no-line-numbers
+```
 https://sing-box-subscribe-doraemon.vercel.app/config/订阅链接
 ```
 ---
 
-```:no-line-numbers
+```
 https://sing-box-subscribe-pink-two.vercel.app/config/订阅链接
 ```
 

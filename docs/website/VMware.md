@@ -97,7 +97,7 @@ VMware Workstation 是 VMware（威睿）公司为专业用户打造的一款电
 
 安装完成后，提示需要VMware 17的激活码，任选一个填入
 
-```:no-line-numbers
+```
 4A4RR-813DK-M81A9-4U35H-06KND
 
 NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
@@ -126,7 +126,7 @@ ZC3TK-63GE6-481JY-WWW5T-Z7ATA
 
 VMWare 16密钥：
 
-```:no-line-numbers
+```
 ZF3RO-FHED2-M80TY-8QYGC-NPKYF
 YF390-OHF8P-M81RQ-2DXQE-M2UT6
 ZF71R-DMX85-08DQY-8YMNC-PPHV8
@@ -134,7 +134,7 @@ ZF71R-DMX85-08DQY-8YMNC-PPHV8
 
 VMWare 15密钥：
 
-```:no-line-numbers
+```
 UY758-0RXEQ-M81WP-8ZM7Z-Y3HDA
 VF750-4MX5Q-488DQ-9WZE9-ZY2D6
 UU54R-FVD91-488PP-7NNGC-ZFAX6
@@ -608,13 +608,13 @@ Itellyou 官网：https://next.itellyou.cn
 
 按照下面路径修改host文件，填加IP+域名即可
 
-```:no-line-numbers
+```
 C:\Windows\System32\drivers\etc
 ```
 
 找到 `hosts` 文件，鼠标右键-记事本方式打开- 拉倒底部 输入`虚拟机的IP+空格+任意域名`，保存关掉
 
-```:no-line-numbers
+```
 192.168.1.154 alibaba.com
 ```
 

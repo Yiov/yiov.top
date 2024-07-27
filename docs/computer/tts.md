@@ -156,13 +156,13 @@
 
 不停顿
 
-```:no-line-numbers
+```
 你好啊<mstts:ttsbreak strength="none" />今天天气怎么样
 ```
 
 停顿2秒
 
-```:no-line-numbers
+```
 你好啊<break time="2000ms"/>今天天气怎么样?
 ```
 

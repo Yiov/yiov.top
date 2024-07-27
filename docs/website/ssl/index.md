@@ -8,20 +8,18 @@
 
 ![](/ssl/ssl-01.png)
 
-
-
-## 前言
-
-### HTTPS
+::: details HTTPS
 
 早前计算机数据传输，使用的是 [HTTP（超文本传输协议）](https://baike.baidu.com/item/HTTP)，但是由于HTTP是明文的，容易被劫持泄露
 
 之后在 HTTP 的基础上使用 `SSL证书` 加密，形成了 [HTTPS （超文本传输安全协议）](https://baike.baidu.com/item/HTTPS)
 
 ![](/ssl/ssl-02.png)
+:::
 
 
-### SSL/TLS
+
+::: details SSL/TLS
 
 浏览器中使用的数字证书（Digital Certificate），最早是 [SSL证书](https://baike.baidu.com/item/SSL%E8%AF%81%E4%B9%A6)，遵循 [SSL协议](https://baike.baidu.com/item/%E5%AE%89%E5%85%A8%E5%A5%97%E6%8E%A5%E5%B1%82)，但后面发现存在较多的漏洞，已经弃用
 
@@ -31,13 +29,16 @@
 
 ![](/ssl/ssl-03.png)
 
+:::
 
-### CA证书
+
+::: details CA证书
 
 CA是证书的签发机构（Certificate Authority），它们负责签发SSL证书，CA证书包含了SSL证书以及签名证书等信息
 
 ![](/ssl/ssl-04.png)
 
+:::
 
 
 ## 简介
@@ -62,14 +63,14 @@ Let's Encrypt 设计了一个 ACME 协议（目前最新是v2），这个协议�
 
 > 本次仅列举免费的，收费的咱也用不起
 
-| CA机构 | 有效天数 | 可用于的域名数量 | 是否支持通配符 | 是否支持IDNs |
-|:-:|:-:|:-:|:-:|:-:|
-| [Let's Encrypt](https://letsencrypt.org/zh-cn/) | 90天 | 100个 | 支持 | 支持 |
-| [ZeroSSL](https://zerossl.com/) | 90天 | 100个 | 支持 | 支持 |
-| [Google](https://pki.goog/) | 90天 | 100个 | 支持 | 不支持 |
-| [Buypass](https://www.buypass.com/) | 180天 | 5个 | 付费 | 支持 |
-| [SSL.com](https://www.ssl.com/) | 90天 | 2个 | 付费 | 支持 |
-| [Cloudflare](https://www.cloudflare.com/zh-cn/application-services/products/ssl/) | 15年 | 无限制 | 支持 | 支持 |
+| CA机构 | 说明 |
+|:-:|:-:|
+| [Let's Encrypt](https://letsencrypt.org/zh-cn/) | 公益组织 ISRG 推出的免费签发SSL证书的机构 |
+| [ZeroSSL](https://zerossl.com/) | 奥地利的证书公司，也提供免费SSL证书，旨在替代Let's Encrypt |
+| [Google](https://pki.goog/) | 谷歌推出的免费的SSL证书签发机构 |
+| [Buypass](https://www.buypass.com/) | 挪威的证书公司，也提供免费SSL证书 |
+| [SSL.com](https://www.ssl.com/) | 一家国际信托服务提供商，也提供免费SSL证书 |
+| [Cloudflare](https://www.cloudflare.com/zh-cn/application-services/products/ssl/) | 美国著名的 CDN 加速服务商，也提供免费SSL证书 |
 
 
 
@@ -89,23 +90,18 @@ Let's Encrypt 设计了一个 ACME 协议（目前最新是v2），这个协议�
 
 | 官方/第三方 | 支持 | 说明 |
 |:-:|:-:|:-:|
-| [Let's Encrypt](https://letsencrypt.org/zh-cn/) | `单域名` `多域名` `泛域名` | 使用 [certbot](https://letsencrypt.org/zh-cn/docs/client-options/) 安装，每60天自动续签，稍微有点复杂 |
-| [⭐ZeroSSL](./zerossl.md) | `单域名` | 在官网注册后申请，限3个，到期需要手动续签，[SSL For Free](https://www.sslforfree.com/) 已被它收购 |
-| [Google](https://pki.goog/) | `单域名` `多域名` `泛域名` | 参照 [文档申请即可](https://cloud.google.com/load-balancing/docs/ssl-certificates?hl=zh-cn) ，到期需要手动续签 |
-| [Cloudflare](https://www.cloudflare.com/zh-cn/application-services/products/ssl/) | `单域名` `多域名` `泛域名` | 需要将域名托管到cf，不需要配置90天证书，过期后可申请15年证书 |
+| [Let's Encrypt](https://letsencrypt.org/zh-cn/) | `单域名` `多域名` `泛域名` | 🟢 使用 [certbot](https://letsencrypt.org/zh-cn/docs/client-options/) 安装，每60天自动续签<br>🟠 步骤稍微有点复杂 |
+| [⭐ZeroSSL](./zerossl.md) | `单域名` | 🟢 注册后即可申请，和 [SSL For Free](https://www.sslforfree.com/) 是一家<br>🟠 不支持泛域名，仅3个证书，到期需要手动续签 |
+| [Google<br>Trust Services](https://pki.goog/) | `单域名` `多域名` `泛域名` | 🟢 支持泛域名，可使用ACME协议续签<br>🟠 需要翻墙，步骤稍微有点复杂 |
+| [Cloudflare](https://www.cloudflare.com/zh-cn/application-services/products/ssl/) | `单域名` `多域名` `泛域名` | 🟢 域名托管后，自动配置90天证书，过期后可免费申请15年证书<br>🟠 需要将域名托管到cf |
 | |
-| [acme.sh](https://github.com/acmesh-official/acme.sh) | `单域名` `多域名` `泛域名` | 可申请各家证书的脚本集，参照文档完成申请，自动检测是否过期，过期自动续签 |
-| [⭐来此加密](./laici.md) | `单域名` `多域名` `泛域名` | 可在官网注册后，直接申请，到期需要手动续签 |
-| [httpsok](https://httpsok.com/doc/) | `单域名` `多域名` `泛域名` | 可在官网注册后，直接申请，到期需要手动续签 |
-| [LookSSL](https://lookssl.com/) | `单域名` | 现已更换为 Sectigo 收费证书 |
-| [Freessl](https://freessl.cn/) | `单域名` | 使用 [TrustAsia 亚洲诚信](https://www.trustasia.com/) 免费证书，到期需要手动续签 |
-| |
-| [⭐宝塔面板](./bt.md) | `单域名` `多域名` `泛域名` | 操作简单，过期前1个月自动续签 |
-| [⭐腾讯云](./tencent.md) | `单域名` | 使用 [TrustAsia 亚洲诚信](https://www.trustasia.com/) 免费证书，50张额度，到期需要手动续签 |
-| [阿里云](https://www.aliyun.com/product/cas) | `单域名` | 使用 [Digicert](https://www.digicert.com/cn) 免费证书，20张额度，到期需要手动续签 |
-| [七牛云](https://www.qiniu.com/) | `单域名` | 使用 [TrustAsia 亚洲诚信](https://www.trustasia.com/) 免费证书，到期需要手动续签 |
+| [⭐acme.sh](./acmesh.md) | `单域名` `多域名` `泛域名` | 🟢 可申请各家证书的脚本集，参照文档完成申请，自动检测是否过期，过期自动续签 |
+| [⭐httpsok](https://httpsok.com/doc/guide/apply.html) | `单域名` `多域名` `泛域名` | 🟢 微信登录控制台，直接申请，支持泛域名，一行命令可自动续签，有方便的可视化面板  |
+| [⭐宝塔面板](./bt.md) | `单域名` `多域名` `泛域名` |🟢 操作简单，支持泛域名，自动续签<br>🟠 占用系统资源 |
+| [⭐来此加密](./laici.md) | `单域名` `多域名` `泛域名` | 🟢 注册后直接申请，支持泛域名<br>🟠 仅限个证书，到期需要手动续签 |
+| [⭐腾讯云](./tencent.md) | `单域名` | 🟢 使用 [TrustAsia 亚洲诚信](https://www.trustasia.com/) 免费证书，50张额度<br>🟠 不支持泛域名，到期需要手动续签 |
+| [阿里云](https://www.aliyun.com/product/cas) | `单域名` | 🟢 使用 [Digicert](https://www.digicert.com/cn) 免费证书，20张额度<br>🟠 不支持泛域名，到期需要手动续签 |
+| [七牛云](https://www.qiniu.com/) | `单域名` | 🟢 使用 [TrustAsia 亚洲诚信](https://www.trustasia.com/) 免费证书🟠 不支持泛域名，到期需要手动续签 |
 | [又拍云](https://www.upyun.com/products/ssl) | `单域名` `泛域名` | 只能申请1个，到期需要手动续签 |
-
-
-
+| [Freessl](https://freessl.cn/) | `单域名` | 🟢 使用 [TrustAsia 亚洲诚信](https://www.trustasia.com/) 免费证书<br>🟠 注册需要手机号，泛域名需要付费开会员，仅5张证书，到期需要手动续签 |
 

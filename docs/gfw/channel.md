@@ -23,6 +23,16 @@
 
 
 
+### 更新：2024-7-24
+
+| 机场 | 说明 |
+|:-:|:-:|
+| [怡宝云](http://yibao.ink/) | 新户注册7天10G，不验证邮箱<br>均速800K/s<br>[TG群](https://t.me/yibaoink) |
+| [宝可梦星云](https://52pokemon.cc/) | 商店0购30天100G，优惠码：`666`<br>均速4.7m/s<br>[TG群](https://t.me/pokemon_love) |
+| [Yuncat](https://yun.cat/) | 商店0购30天5G，优惠码：`小猫`<br>均速6.2m/s<br>[TG群](https://t.me/CatNOC) |
+
+
+
 ### 更新：2024-5-27
 
 

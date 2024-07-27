@@ -439,6 +439,11 @@ pm2 save
 
 :::: details 搭建Alist网盘
 
+
+::: warning 不建议使用这类
+serv00重启母鸡后，这类需要后台挂载的应用都会掉，即便有定时任务拉起，也是一样的
+:::
+
 在控制台 `Additional services - Run your own applications` 打开开关
 
 允许第三方应用，不打开后面运行Alist，会提示没有权限
@@ -710,13 +715,31 @@ chmod +x auto_renew.sh && ls
 :::
 
 ```sh
-/home/你的用户名/.npm-global/bin/pm2 resurrect 2>/dev/null 2>&1 && /home/你的用户名/.npm-global/bin/pm2 restart all 2>/dev/null 2>&1
+pkill -kill -u 你的用户名 && /home/你的用户名/.npm-global/bin/pm2 resurrect
 ```
 ![](/server/serv00/rebot/rebot-01.png)
 
 这样就添加了一个在服务器重启后，运行的命令
 
 ![](/server/serv00/rebot/rebot-02.png)
+
+同样的方式在添加一个定时任务
+
+::: tip 说明
+* Specify time：Specify manually
+
+* Form type：Advanced
+
+* Minute：10
+
+* 其他：Each time
+
+* Command：如下↓ ，将 `你的用户名` 修改成自己的
+:::
+
+```sh
+/home/你的用户名/.npm-global/bin/pm2 resurrect
+```
 
 添加完之后，在 SSH 窗口输入下面命令保存当前任务列表快照
 

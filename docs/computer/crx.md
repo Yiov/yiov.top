@@ -19,7 +19,7 @@
 也可以直接点右上角的插件管理进入
 :::
 
-```:no-line-numbers
+```
 se://plugin-manager/
 ```
 
@@ -41,7 +41,7 @@ se://plugin-manager/
 
 我是安装在D盘的，其他盘根据这个目录找到目录
 
-```:no-line-numbers
+```
 D:\Program Files (x86)\360se\360se6\User Data\Default\Extensions
 ```
 
@@ -58,7 +58,7 @@ D:\Program Files (x86)\360se\360se6\User Data\Default\Extensions
 
 地址复制出来，点击 `打包扩展程序`，把地址粘贴进去，打包即可
 
-```:no-line-numbers
+```
 D:\Program Files (x86)\360se\360se6\User Data\Default\Extensions\bkdgflcldnnnapblkhphbgpggdiikppg\2022.8.25_0
 ```
 
@@ -90,7 +90,7 @@ D:\Program Files (x86)\360se\360se6\User Data\Default\Extensions\bkdgflcldnnnapb
 也可以直接点右上角的插件管理进入
 :::
 
-```:no-line-numbers
+```
 edge://extensions/
 ```
 
@@ -111,7 +111,7 @@ edge://extensions/
 
 Edge插件默认位置在
 
-```:no-line-numbers
+```
 C:\Users\你的用户名\AppData\Local\Microsoft\Edge\User Data\Default\Extensions
 ```
 

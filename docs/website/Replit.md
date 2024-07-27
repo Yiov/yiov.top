@@ -181,7 +181,7 @@ Fork成功会自动进入仓库运行
 
 复制这个网址，一会要用到，去掉 `https://` 和尾部的 `/` 
 
-```:no-line-numbers
+```
 https://123456.pike.replit.dev/ // [!code --]
 
 123456.pike.replit.dev // [!code ++]
@@ -283,7 +283,7 @@ Replit主页头像 - Account - Your server location，将原先的 Asia 改成 `
 
 复制出来是这样的，我们只需要 `ey开头` 直到结尾的字符，前面的都删掉
 
-```sh:no-line-numbers
+```sh
 cloudflared.exe service install
 
 eyJhIjoiYmVjNjVjODk5NzVhN2JhYTM5ODA5OWExM2UwNDYyNWEiLCJ0IjoiOTZiNWYyYjgtZWVmMS00M2FiLWFjMzctYWIwNjJhODU4OTE2IiwicyI6Ik5tVTJNalE1WXpNdE1EazNZeTAwTUdRNUxXSTVaRFF0TnpKa09XUmpOekF4WWpjMyJ9

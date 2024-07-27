@@ -27,25 +27,20 @@
 
 * 自动续签：不支持
 
+
 ::: details 什么是 通配符 和 泛解析
 
-通配符 `*`，是泛解析的一个必用字符，且只能表示当前级
+* 通配符 `*`：是泛解析的一个必用字符，用来表示当前级
 
----
+* 通配符证书：可以多个二级域名或三级域名共用一个证书，只需要申请一张即可
 
-比如域名是：`baidu.com`，那么它的泛解析就是 `*.baidu.com` 
-
-表示 baidu.com 下所有的二级域名（不含三级域名），如 `baike.baidu.com` 等
-
----
-
-比如三级域名是 `bce.baidu.com`，那么它的泛解析就是 `*.bce.baidu.com`
-
-表示 bce.baidu.com 下所有的三级域名（不含四级域名）， 如 `login.bce.baidu.com` 等
-
-以此类推...
+| 域名/示例 | 泛解析 | 包含 | 不包含 |
+|:-:|:-:|:-:|:-:|
+| 一级域名 | ❌ | baidu.com | - |
+| 二级域名 | *.baidu.com | baike.baidu.com<br>www.baidu.com<br>... | baidu.com |
+| 三级域名 | *.bce.baidu.com | login.bce.baidu.com<br>h5.bce.baidu.com<br>... | *.baidu.com<br>bce.baidu.com |
+| 依次类推 | ... | ... | ... |
 :::
-
 
 
 ## 支持证书
@@ -73,7 +68,18 @@
 
 ![](/ssl/laici/laici-04.png)
 
-输入域名，勾选泛解析，仅二级域名就不要勾选
+输入域名，建议是直接勾选 `泛域名` 和 `包含根域` 证书一起申请
+
+::: tip 说明
+
+* 泛域名：比如 `*.baidu.com`，表示包含所有的二级域名
+
+* 包含根域：比如 `baidu.com`，表示当前级顶级域名
+
+* 特例：如果你输入 `www.baidu.com` 二级域名作为主域名，那么你的泛域名就是三级泛解析 `*.www.baidu.com`，根域名为 `www.baidu.com` ，而不是 baidu.com，是相对而言，以此类推
+
+:::
+
 
 ![](/ssl/laici/laici-05.png)
 
@@ -135,3 +141,8 @@
 打开网站已经有小锁了，顺便查看证书
 
 ![](/ssl/laici/laici-17.png)
+
+
+## 吊销
+
+无法吊销，手动删除证书会扣积分，那就算了吧

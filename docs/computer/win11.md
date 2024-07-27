@@ -213,7 +213,7 @@
 
 粘贴，另存，名字 `去掉小箭头.bat`，后缀名一定要是`.bat`文件，然后右键以`管理员身份`运行
 
-```bat:no-line-numbers
+```bat
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" /v 29 /d "%systemroot%\system32\imageres.dll,197" /t reg_sz /f
 taskkill /f /im explorer.exe
 attrib -s -r -h "%userprofile%\AppData\Local\iconcache.db"
@@ -229,7 +229,7 @@ pause
 
 同样的方法，新建一个文本文档，复制代码粘贴，以`管理员身份`运行
 
-```bat:no-line-numbers
+```bat
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" /v 29 /f
 taskkill /f /im explorer.exe
 attrib -s -r -h "%userprofile%\AppData\Local\iconcache.db"
@@ -385,7 +385,7 @@ https://mp.weixin.qq.com/s?__biz=Mzk0MDU3MjA4Ng==&tempkey=MTIzNF9MTzF2TWJYak93Vz
 
 根据自己的文章修改后面的biz即可，结尾添加一个`#wechat_redirect`，可用于外链跳转
 
-```:no-line-numbers
+```
 https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=你的biz值#wechat_redirect
 ```
 

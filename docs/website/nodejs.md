@@ -73,7 +73,7 @@ node.js 18 已不支持 Centos 7 了
 其他版本查找：https://nodejs.org/dist/
 :::
 
-```:no-line-numbers
+```
 https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz
 ```
 
@@ -668,7 +668,7 @@ pnpm > yarn > npm
 更换后可以让文件下载快一点
 
 
-```:no-line-numbers
+```
 * 阿里云源：https://npmmirror.com/
 
 * 华为云源：https://mirrors.huaweicloud.com/

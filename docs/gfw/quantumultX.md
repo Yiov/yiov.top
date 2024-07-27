@@ -225,7 +225,7 @@ URI：支持ss / ssr / vmess / https / trojan / vless 的节点
 
 首次使用，需要添加一次默认格式，才能看到按钮
 
-```sh:no-line-numbers
+```sh
 static=策略组名, proxy, direct, reject
 ```
 
@@ -306,7 +306,7 @@ url-latency-benchmark：选取延迟最优节点 (不常用)
 ![](/quantumultX/quantumultX-32.png)
 
 
-```sh:no-line-numbers
+```sh
 url-latency-benchmark=优选节点, server-tag-regex=.*, check-interval=300, tolerance=0, img-url=globe.system
 static=🇭🇰香港, server-tag-regex=🇭🇰|香港|HK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 static=🇹🇼台湾, server-tag-regex=🇹🇼|台湾TW, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png

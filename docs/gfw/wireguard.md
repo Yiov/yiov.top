@@ -570,7 +570,7 @@ warp api是官方的接口，失败率比较高
 
 ![](/wireguard/ios/ios-19.png)
 
-```:no-line-numbers
+```
 [Interface]
 PrivateKey = uKv0YgRdFJVXXcPAH2cAaJHZOMoJJlhAjzVjzLBbbHE=
 Address    = 172.16.0.2/32
@@ -664,7 +664,7 @@ warp api是官方的接口，失败率比较高
 
 ![](/wireguard/android/android-17.png)
 
-```:no-line-numbers
+```
 [Interface]
 PrivateKey = IBh1rIzWkKzSdIkCZM6nKP7Sz1OPw3HXBtPaHZId7lc
 Address = 172.16.0.2/32
@@ -766,7 +766,7 @@ Endpoint = 162.159.193.10:2408
 
 ![](/wireguard/windows/windows-26.png)
 
-```sh:no-line-numbers{7,12}
+```sh{7,12}
 PS C:\Users\Administrator\Desktop\warp-yg-main> ./warp.exe
 device_id: 6e140f41-7696-4135-b1d4-1b2e6b116e43
 token: e00625db-b6d6-488d-bb81-ca2f0ea6d61a
@@ -791,7 +791,7 @@ v6后面的 `/128` 不能漏掉
 或者干脆删掉v6整个地址，只留v4
 :::
 
-```:no-line-numbers{2-3}
+```sh{2-3}
 [Interface]
 PrivateKey = 这里填private_key密钥 // [!code ++]
 Address = 172.16.0.2/32, 这里填v6/128 // [!code ++]

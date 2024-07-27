@@ -737,7 +737,7 @@ async function device_status(user_agent_info) {
 使用 [UUID Generator](https://www.uuidgenerator.net/) 或 [1024tools](https://1024tools.com/uuid) 都可以，粘贴替换
 :::
 
-```js:no-line-numbers
+```js
 let userID = '77a571fb-4fd2-4b37-8596-1b7d9728bb5c';
 ```
 
@@ -775,7 +775,7 @@ cdn.anycast.eu.org
 
 
 
-```js:no-line-numbers
+```js
 const proxyIPs = ["cdn.xn--b6gac.eu.org"]; //workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
 ```
 
@@ -785,7 +785,7 @@ const proxyIPs = ["cdn.xn--b6gac.eu.org"]; //workers.cloudflare.cyou bestproxy.o
 
 最后一个参数 `cn_hostnames` ，伪装域名，建议填一下，随便伪装一个网站皆可
 
-```js:no-line-numbers
+```js
 const cn_hostnames = [''];
 ```
 

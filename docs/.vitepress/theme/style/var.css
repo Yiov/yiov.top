@@ -30,6 +30,9 @@ h1 {
 
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #066be1 50%);
   --vp-home-hero-image-filter: blur(40px);
+
+  /* 代码块颜色 */
+  /* --vp-code-block-bg: #0c0c0c; */
 }
 
 /* .vitepress/theme/style/var.css */

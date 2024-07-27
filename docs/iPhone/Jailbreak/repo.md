@@ -192,7 +192,7 @@ cd /www/wwwroot/jbrepo
 dpkg-scanpackages --multiversion debs /dev/null > Packages
 ```
 
-```sh{1}:no-line-numbers
+```sh{1}
 [root@yiov jbrepo]# dpkg-scanpackages --multiversion debs /dev/null > Packages
 dpkg-scanpackages: warning: Packages in archive but missing from override file:
 dpkg-scanpackages: warning:   com.bandarhl.bhtiktok
@@ -290,7 +290,7 @@ xz -cf Packages > Packages.xz
 ::: details 相关命令的使用
 
 
-```md:no-line-numbers
+```md
 gzip / bzip2 / xz /指令参数：
 
 -c (--stdout) 标准压缩
@@ -312,7 +312,7 @@ gzip / bzip2 / xz /指令参数：
 
 ---
 
-```md:no-line-numbers
+```md
 
 tar zcvf Packages.gz Packages
 
@@ -415,7 +415,7 @@ gpg --gen-key
 
 按照提示 默认 `1` - 默认`2048` - 默认 `0` 永久有效 - 默认 `y`
 
-```sh{11,13,21,23}:no-line-numbers
+```sh{11,13,21,23}
 [root@yiov jbrepo]# gpg --gen-key
 gpg (GnuPG) 2.0.22; Copyright (C) 2013 Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
@@ -448,7 +448,7 @@ Is this correct? (y/N) y
 
 ![](/repo/repo-07.png)
 
-```sh{3-5,9}:no-line-numbers
+```sh{3-5,9}
 GnuPG needs to construct a user ID to identify your key.
 
 Real name: yiovcopy
@@ -489,7 +489,7 @@ gpg -k
 
 这就是我们的秘钥了
 
-```sh{1}:no-line-numbers
+```sh{1}
 [root@yiov jbrepo]# gpg -k
 /root/.gnupg/pubring.gpg
 ------------------------
@@ -506,7 +506,7 @@ gpg -abs -r "你的Real name" -o Release.gpg Release
 
 输入密码，签名成功
 
-```sh{1}:no-line-numbers
+```sh{1}
 [root@yiov jbrepo]# gpg -abs -r "yiovcopy" -o Release.gpg Release
 gpg: WARNING: recipients (-r) given without using public key encryption
 

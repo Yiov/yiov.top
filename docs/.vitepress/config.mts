@@ -18,7 +18,7 @@ export default defineConfig({
   //markdown配置
   markdown: {
     //行号显示
-    lineNumbers: true, 
+    lineNumbers: false, 
     image: {
       // 开启图片懒加载
       lazyLoading: true
@@ -256,7 +256,18 @@ export default defineConfig({
                   { text: 'Go', link: '/website/go' },
                 ],
               }, 
-              { text: 'SSL证书', link: '/website/ssl' },
+              { text: 'SSL证书', 
+                collapsed: true,
+                items: [
+                  { text: '使用介绍(必读)', link: '/website/ssl/' },
+                  { text: 'ZeroSSL', link: '/website/ssl/zerossl' },
+                  { text: 'acme.sh', link: '/website/ssl/acmesh' },
+                  { text: 'httpsok', link: 'https://httpsok.com/doc/guide/apply.html' },
+                  { text: '宝塔面板', link: '/website/ssl/bt' },
+                  { text: '来此加密', link: '/website/ssl/laici' },
+                  { text: '腾讯云', link: '/website/ssl/tencent' },
+                ],
+              },
             ],
           },
 

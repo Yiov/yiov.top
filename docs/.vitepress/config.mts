@@ -260,10 +260,10 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: '使用介绍(必读)', link: '/website/ssl/' },
-                  { text: 'ZeroSSL', link: '/website/ssl/zerossl' },
-                  { text: 'acme.sh', link: '/website/ssl/acmesh' },
-                  { text: 'httpsok', link: 'https://httpsok.com/doc/guide/apply.html' },
                   { text: '宝塔面板', link: '/website/ssl/bt' },
+                  { text: 'httpsok', link: 'https://httpsok.com/doc/guide/apply.html' },
+                  { text: 'acme.sh', link: '/website/ssl/acmesh' },
+                  { text: 'ZeroSSL', link: '/website/ssl/zerossl' },
                   { text: '来此加密', link: '/website/ssl/laici' },
                   { text: '腾讯云', link: '/website/ssl/tencent' },
                 ],

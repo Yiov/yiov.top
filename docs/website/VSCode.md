@@ -104,12 +104,22 @@ Insiders：内测版
 
 
 
-### 其他插件
+### Vue - Official
+
+一个ts文件导入vue组件的辅助插件
+
+::: tip 说明
+最近新版没有兼容好，报错，可以退回 `v2.0.20` 版本
+:::
+
+![](/VSCode/VSCode-12.png)
 
 
-* `Vue - Official` ：vue专用插件
+### vscode-icons
 
-* `vscode-icons` ： 文件夹图标
+文件夹图标，不喜勿用
+
+![](/VSCode/VSCode-13.png)
 
 
 
@@ -121,20 +131,18 @@ Insiders：内测版
 ## 疑问解答
 
 
-1.打不开文件，拖拽也不行，但指定文件夹后，又可以打开
-
-答：插件引起的故障，关闭VS，打开目录 `C:\Users\Administrator\AppData\Roaming` ，删除code文件件，重新打开VS，重新安装插件即可
-
-
-
-
-2.如何使用Markdown
-
-答：可以桌面新建一个txt文本，然后将后缀名txt改成 `md` ，用vscode打开即可，书写格式参考Markdown语法
+::: details 1.打不开文件，拖拽也不行，但指定文件夹后，又可以打开
+插件引起的故障，关闭VS，打开目录 `C:\Users\Administrator\AppData\Roaming` ，删除code文件件，重新打开VS，重新安装插件即可
+:::
 
 
 
+::: details 2.如何使用Markdown
+可以桌面新建一个txt文本，然后将后缀名txt改成 `md` ，用vscode打开即可，书写格式参考Markdown语法
+:::
 
-3.Markdown怎么预览
 
-答：书写界面右键-命令面板-上方搜 `Markdown:侧边预览` 即可使用
+
+::: details 3.Markdown怎么预览
+书写界面右键-命令面板-上方搜 `Markdown:侧边预览` 即可使用
+:::

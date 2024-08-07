@@ -381,7 +381,7 @@ export default defineConfig({
     //页脚
     footer: {
       message: 'Power by <a href="https://github.com/yyx990803" target="_blank">VitePress(Evan You)</a>',
-      copyright: 'Copyright © 2023-2024 <a href="https://github.com/Yiov" target="_blank">Yiov</a>',
+      copyright: `Copyright © 2023-${new Date().getFullYear()} <a href="https://github.com/Yiov" target="_blank">Yiov</a>`,
     },
 
 

@@ -44,18 +44,20 @@
 | [⭐VitePress](https://vitepress.yiov.top) | 由 Vite 和 Vue 驱动的静态站点生成器 | [DEMO](https://vitepress.dev/zh/) |
 | [⭐VuePress](https://vuepress.yiov.top) | Vue 驱动的静态网站生成器 | [DEMO](https://v2.vuepress.vuejs.org/zh/) |
 | [vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) | 一款简洁高效的VuePress 知识管理&博客 主题 | [DEMO](https://doc.xugaoyi.com/) |
-| [vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) | 一款简洁的 vuepress 博客 & 文档 主题 | [DEMO](https://vuepress-theme-reco.recoluan.com/) |
 | [Hexo](https://hexo.io/zh-cn/) | 快速、简洁且高效的博客框架 | [主题商店](https://hexo.io/themes/) |
 | [⭐imsyy：home](../home.md) | 个人主页源码 | [DEMO](https://www.imsyy.top/) |
 | [imsyy：SPlayer](https://github.com/imsyy/SPlayer) | 一个简约的音乐播放器 | [DEMO](https://music.imsyy.top/) |
 | [imsyy：DailyHot](https://github.com/imsyy/DailyHot) | 今日热榜前端页面 | [DEMO](https://hot.imsyy.top/) |
 | [imsyy：Snavigation](https://github.com/imsyy/Snavigation) | 一个简约的起始页 | [DEMO](https://hot.imsyy.top/) |
 | [⭐imsyy：status](../uptimerobot.md) | 一个基于 UptimeRobot API 的在线状态面板 | [DEMO](https://status.imsyy.top/) |
+| [AI-web](https://github.com/liu-ziting/AI-web) | AI导航站点 | [DEMO](https://www.smartai.wtf/) |
+| [NotionNext](https://github.com/tangly1024/NotionNext/) | 使用 NextJS + Notion API 实现的，多达10多种主题 | [DEMO](https://www.tangly1024.com/) |
 | [Gridea](https://github.com/getgridea/gridea) | 一个静态博客写作客户端 |  [DEMO](https://open.gridea.dev/) |
 | [castalia](https://github.com/afterwork-design/castalia) | 设计师的导航 | [DEMO](https://afterwork-design.github.io/castalia/) |
 | [naviii](https://github.com/eehhh/naviii) | 一个简单优雅的导航页 | [DEMO](https://start.uue.me/) |
 | [Wechat-Official-Account-Web](https://github.com/zhheo/Wechat-Official-Account-Web) | 微信公众号的关注界面 | [DEMO](https://wechat.zhheo.com/) |
 | [Cowabunga](https://github.com/Dr0ii/LockStore) | 锁头资源站 | [DEMO](http://www.lockstore.top/) |
+| [讯七应用](https://gitee.com/wuaxcn/xunqi-application) | 全套应用商城下载系统 | [DEMO](https://gitee.com/wuaxcn/xunqi-application/raw/master/48fc37cf-f716-48dc-8543-7bea76c927ab.jpg) |
 | |
 | [api文档](https://dzp.lanzouj.com/ipdBu23r0xne) | 静态tml | [DEMO](http://api.yiov.serv00.net/) |
 | [绿色防走丢导航](https://dzp.lanzouj.com/iOJoF23r12qh) | 静态tml | [DEMO](http://nav.yiov.serv00.net/) |

@@ -1,6 +1,5 @@
 # Markdown的简单用法
 
-> 更新时间：2023-12-27
 
 
 
@@ -572,28 +571,30 @@ pnpm vuepress build
 
 ```html
 <table>
-    <tr>
-        <td align="center">名字</td>
-        <td align="center">性别</td>
-        <td align="center">年龄</td>
-        <td align="center">部门</td>
-    </tr>
-    <tr>
-        <td align="center">张三</td>
-        <td align="center">男</td>
-        <td align="center">21</td>
-        <td align="center" rowspan="2">产品</td>
-    </tr>
-    <tr>
-        <td align="center">李四</td>
-        <td align="center">女</td>
-        <td align="center">18</td>
-    </tr>
-    <tr>
-        <td align="center" colspan="2">王二 男</td>
-        <td align="center">20</td>
-        <td align="center">销售</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td align="center">名字</td>
+            <td align="center">性别</td>
+            <td align="center">年龄</td>
+            <td align="center">部门</td>
+        </tr>
+        <tr>
+            <td align="center">张三</td>
+            <td align="center">男</td>
+            <td align="center">21</td>
+            <td align="center" rowspan="2">产品</td>
+        </tr>
+        <tr>
+            <td align="center">李四</td>
+            <td align="center">女</td>
+            <td align="center">18</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">王二 男</td>
+            <td align="center">20</td>
+            <td align="center">销售</td>
+        </tr>
+    </tbody>
 </table>
 ```
 
@@ -601,28 +602,30 @@ pnpm vuepress build
 输出：
 
 <table>
-    <tr>
-        <td align="center">名字</td>
-        <td align="center">性别</td>
-        <td align="center">年龄</td>
-        <td align="center">部门</td>
-    </tr>
-    <tr>
-        <td align="center">张三</td>
-        <td align="center">男</td>
-        <td align="center">21</td>
-        <td align="center" rowspan="2">产品</td>
-    </tr>
-    <tr>
-        <td align="center">李四</td>
-        <td align="center">女</td>
-        <td align="center">18</td>
-    </tr>
-    <tr>
-        <td align="center" colspan="2">王二 男</td>
-        <td align="center">20</td>
-        <td align="center">销售</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td align="center">名字</td>
+            <td align="center">性别</td>
+            <td align="center">年龄</td>
+            <td align="center">部门</td>
+        </tr>
+        <tr>
+            <td align="center">张三</td>
+            <td align="center">男</td>
+            <td align="center">21</td>
+            <td align="center" rowspan="2">产品</td>
+        </tr>
+        <tr>
+            <td align="center">李四</td>
+            <td align="center">女</td>
+            <td align="center">18</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">王二 男</td>
+            <td align="center">20</td>
+            <td align="center">销售</td>
+        </tr>
+    </tbody>
 </table>
 
 
@@ -632,30 +635,46 @@ pnpm vuepress build
 
 ```md
 <table>
-    <tr>
-        <td align="center">脚本管理器</td>
-        <td align="center">别名</td>
-        <td align="center">脚本市场</td>
-    </tr>
-    <tr>
-        <td align="center"><a href="https://www.greasespot.net/" target="_blank">Greasemonkey</a></td>
-        <td align="center">油猴</td>
-        <td align="center" rowspan="4"><a href="https://greasyfork.org/zh-CN" target="_blank">Greasy Fork</a>、<a href="https://chrome.pictureknow.com/" target="_blank">收藏猫</a>、<a href="https://chrome.google.com/webstore/category/extensions" target="_blank">谷歌商店</a>、<a href="https://www.chajianxw.com/" target="_blank">插件小屋</a>、<a href="https://www.cxyhub.com/" target="_blank">CXYHUB</a>、<a href="https://www.crxfun.com/" target="_blank">扩展派</a></td>
-    </tr>
-    <tr>
-        <td align="center"><a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a></td>
-        <td align="center">篡改猴</td>
-    </tr>
-    <tr>
-        <td align="center"><a href="https://violentmonkey.github.io/" target="_blank">Violentmonkey</a></td>
-        <td align="center">暴力猴</td>
-    </tr>
-    <tr>
-        <td align="center"><a href="https://docs.scriptcat.org/" target="_blank">ScriptCat</a></td>
-        <td align="center">脚本猫</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td align="center">脚本管理器</td>
+            <td align="center">别名</td>
+            <td align="center">脚本市场</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="https://www.greasespot.net/" target="_blank">Greasemonkey</a>
+            </td>
+            <td align="center">油猴</td>
+            <td align="center" rowspan="4">
+                <a href="https://greasyfork.org/zh-CN" target="_blank">Greasy Fork</a>、
+                <a href="https://chrome.pictureknow.com/" target="_blank">收藏猫</a>、
+                <a href="https://chrome.google.com/webstore/category/extensions" target="_blank">谷歌商店</a>、
+                <a href="https://www.chajianxw.com/" target="_blank">插件小屋</a>、
+                <a href="https://www.cxyhub.com/" target="_blank">CXYHUB</a>、
+                <a href="https://www.crxfun.com/" target="_blank">扩展派</a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a>
+            </td>
+            <td align="center">篡改猴</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="https://violentmonkey.github.io/" target="_blank">Violentmonkey</a>
+            </td>
+            <td align="center">暴力猴</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="https://docs.scriptcat.org/" target="_blank">ScriptCat</a>
+            </td>
+            <td align="center">脚本猫</td>
+        </tr>
+    </tbody>
 </table>
-
 ```
 
 
@@ -663,30 +682,46 @@ pnpm vuepress build
 输出：
 
 <table>
-    <tr>
-        <td align="center">脚本管理器</td>
-        <td align="center">别名</td>
-        <td align="center">脚本市场</td>
-    </tr>
-    <tr>
-        <td align="center"><a href="https://www.greasespot.net/" target="_blank">Greasemonkey</a></td>
-        <td align="center">油猴</td>
-        <td align="center" rowspan="4"><a href="https://greasyfork.org/zh-CN" target="_blank">Greasy Fork</a>、<a href="https://chrome.pictureknow.com/" target="_blank">收藏猫</a>、<a href="https://chrome.google.com/webstore/category/extensions" target="_blank">谷歌商店</a>、<a href="https://www.chajianxw.com/" target="_blank">插件小屋</a>、<a href="https://www.cxyhub.com/" target="_blank">CXYHUB</a>、<a href="https://www.crxfun.com/" target="_blank">扩展派</a></td>
-    </tr>
-    <tr>
-        <td align="center"><a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a></td>
-        <td align="center">篡改猴</td>
-    </tr>
-    <tr>
-        <td align="center"><a href="https://violentmonkey.github.io/" target="_blank">Violentmonkey</a></td>
-        <td align="center">暴力猴</td>
-    </tr>
-    <tr>
-        <td align="center"><a href="https://docs.scriptcat.org/" target="_blank">ScriptCat</a></td>
-        <td align="center">脚本猫</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td align="center">脚本管理器</td>
+            <td align="center">别名</td>
+            <td align="center">脚本市场</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="https://www.greasespot.net/" target="_blank">Greasemonkey</a>
+            </td>
+            <td align="center">油猴</td>
+            <td align="center" rowspan="4">
+                <a href="https://greasyfork.org/zh-CN" target="_blank">Greasy Fork</a>、
+                <a href="https://chrome.pictureknow.com/" target="_blank">收藏猫</a>、
+                <a href="https://chrome.google.com/webstore/category/extensions" target="_blank">谷歌商店</a>、
+                <a href="https://www.chajianxw.com/" target="_blank">插件小屋</a>、
+                <a href="https://www.cxyhub.com/" target="_blank">CXYHUB</a>、
+                <a href="https://www.crxfun.com/" target="_blank">扩展派</a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a>
+            </td>
+            <td align="center">篡改猴</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="https://violentmonkey.github.io/" target="_blank">Violentmonkey</a>
+            </td>
+            <td align="center">暴力猴</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a href="https://docs.scriptcat.org/" target="_blank">ScriptCat</a>
+            </td>
+            <td align="center">脚本猫</td>
+        </tr>
+    </tbody>
 </table>
-
 
 
 

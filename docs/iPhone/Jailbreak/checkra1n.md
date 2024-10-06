@@ -5,7 +5,7 @@ next: false
 
 # checkra1n越狱及使用
 
-> 更新时间：2024-1-3
+
 
 
 ::: danger 注意

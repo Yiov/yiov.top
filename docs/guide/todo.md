@@ -39,7 +39,7 @@ next: false
 
 * ✅ UptimeRobot站点监控
 
-* ⬜ SSL证书
+* ✅ SSL证书
 
 * ⬜ Mesh组网
 

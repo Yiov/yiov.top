@@ -1,6 +1,5 @@
 # 油猴的安装及使用
 
-> 更新时间：2022-7-31
 
 
 ## 简介
@@ -10,6 +9,7 @@ Tampermonkey 简称 `篡改猴` ，而一直被称为油猴的实际是Greasemon
 官网：https://www.tampermonkey.net/
 
 <table>
+<tbody>
     <tr>
         <td align="center">脚本管理器</td>
         <td align="center">别名</td>
@@ -32,6 +32,7 @@ Tampermonkey 简称 `篡改猴` ，而一直被称为油猴的实际是Greasemon
         <td align="center"><a href="https://docs.scriptcat.org/" target="_blank">ScriptCat</a></td>
         <td align="center">脚本猫</td>
     </tr>
+</tbody>
 </table>
 
 

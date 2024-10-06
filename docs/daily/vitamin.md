@@ -1,6 +1,6 @@
 # 维生素基础知识
 
-> 更新时间：2024-2-29
+
 
 ## 简介
 
@@ -16,6 +16,7 @@
 
 
 <table>
+<tbody>
     <tr>
         <td align="center">分类</td>
         <td align="center">维生素</td>
@@ -47,6 +48,7 @@
         <td align="center">维生素C</td>
         <td align="center">抗坏血酸</td>
     </tr>
+</tbody>
 </table>
 
 

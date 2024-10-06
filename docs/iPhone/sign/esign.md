@@ -5,7 +5,7 @@ next: false
 
 # 轻松签安装及使用
 
-> 更新时间：2024-4-5
+
 
 
 ## 简介
@@ -585,25 +585,9 @@ Bundle ID就是 `应用程序标识符` ，也叫应用ID，也叫包名，独�
 
 输入越狱源下载，按需下载即可
 
-<div class="linkcard">
-  <a href="https://github.com/Yiov/wechat-dump/releases/tag/deb" target="_blank">
-    <p class="description">微信常用插件<br><span>按需下载</span></p>
-    <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="https://pp.myapp.com/ma_icon/0/icon_10910_1711008413/256" />
-    </div>
-  </a>
-</div>
 
-<br>
+<Linkcard url="https://github.com/Yiov/wechat-dump/releases/tag/deb" title="微信常用插件" description="按需下载" logo="https://pp.myapp.com/ma_icon/0/icon_10910_1711008413/256"/>
 
-<div class="linkcard">
-  <a href="https://www.postbox.news/downloads" target="_blank">
-    <p class="description">PostBox<br><span>插件下载工具，国区上架PostBox Pocket</span></p>
-    <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="https://www.postbox.news/assets/images/appIconSite.webp" />
-    </div>
-  </a>
-</div>
+<Linkcard url="https://www.postbox.news/downloads" title="PostBox" description="插件下载工具" logo="https://www.postbox.news/assets/images/appIconSite.webp"/>
 
-<br>
 

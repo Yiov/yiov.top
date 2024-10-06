@@ -5,7 +5,7 @@ next: false
 
 # 巨魔助手安装及使用
 
-> 更新时间：2024-4-5
+
 
 
 
@@ -82,7 +82,7 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 | 15.6 - 15.6.1 | [TrollInstallerX](#trollinstallerx) | [TrollHelperOTA](#trollhelperota) |
 | 15.7 - [16.6.1](https://support.apple.com/zh-cn/HT213407) | [TrollInstallerX](#trollinstallerx) | [TrollInstallerX](#trollinstallerx) |
 | 16.7 - 16.7.7 | ✘ | ✘ |
-| [17.0](https://support.apple.com/zh-cn/HT213781) | checkra1n 越狱 | 无安装方式 |
+| [17.0](https://support.apple.com/zh-cn/HT213781) | [TrollRestore](https://ios.cfw.guide/installing-trollstore-trollrestore/) | [TrollRestore](https://ios.cfw.guide/installing-trollstore-trollrestore/) |
 | 17.0.1及以上 | ✘ | ✘ |
 
 
@@ -91,10 +91,10 @@ CVE-2023-41991：多伦多大学芒克学院 Citizen Lab 的 Bill Marczak 和 Go
 
 ## 安装
 
-由于官方已经出了安装应用，第三方安装方式不再演示
+
+> 由于官方已经出了安装应用，第三方安装方式不再演示
 
 
----
 
 ### TrollInstallerX
 
@@ -592,79 +592,28 @@ chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/Asse
 
 
 ### 聚合类
-<br>
 
 
-<div class="linkcard">
-  <a href="https://ipa.cypwn.xyz/" target="_blank">
-    <p class="description">CyPwnStore：破解应用商店<br><span>https://ipa.cypwn.xyz/</span></p>
-    <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="https://ipa.cypwn.xyz/favicon.ico" />
-    </div>
-  </a>
-</div>
-
-<br>
+<Linkcard url="https://ipa.cypwn.xyz/" title="CyPwnStore：破解应用商店" description="https://ipa.cypwn.xyz/" logo="https://ipa.cypwn.xyz/favicon.ico"/>
 
 
-<div class="linkcard">
-  <a href="https://decrypt.day/" target="_blank">
-    <p class="description">Decrypt：在线砸壳商店<br><span>https://decrypt.day/</span></p>
-    <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="https://cdn.decrypt.day/images/decrypt-logo.webp" />
-    </div>
-  </a>
-</div>
-
-<br>
+<Linkcard url="https://decrypt.day/" title="Decrypt：在线砸壳商店" description="https://decrypt.day/" logo="https://cdn.decrypt.day/images/decrypt-logo.webp"/>
 
 
-<div class="linkcard">
-  <a href="https://zappfree.com/ipa-library/" target="_blank">
-    <p class="description">IPA图书馆<br><span>https://zappfree.com/ipa-library/</span></p>
-    <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="https://zappfree.com/img/ipa-library.png" />
-    </div>
-  </a>
-</div>
-
-<br>
+<Linkcard url="https://zappfree.com/ipa-library/" title="IPA图书馆" description="https://zappfree.com/ipa-library/" logo="https://zappfree.com/img/ipa-library.png"/>
 
 
-<div class="linkcard">
-  <a href="https://ipa.store/game" target="_blank">
-    <p class="description">IPA商店<br><span>https://ipa.store/game</span></p>
-    <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="https://ipa.store/wp-content/uploads/2022/08/2022080502143894.png" />
-    </div>
-  </a>
-</div>
-
-<br>
+<Linkcard url="https://ipa.store/game" title="IPA商店" description="https://ipa.store/game" logo="https://ipa.store/wp-content/uploads/2022/08/2022080502143894.png"/>
 
 
-<div class="linkcard">
-  <a href="https://toyou.club/" target="_blank">
-    <p class="description">凸游CLUB<br><span>https://toyou.club/</span></p>
-    <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="https://toyou.club/wp-content/uploads/2023/03/cropped-%E7%BD%91%E7%AB%99fa-180x180.png" />
-    </div>
-  </a>
-</div>
-
-<br>
+<Linkcard url="https://toyou.club/" title="凸游CLUB" description="https://toyou.club/" logo="https://toyou.club/wp-content/uploads/2023/03/cropped-%E7%BD%91%E7%AB%99fa-180x180.png"/>
 
 
-<div class="linkcard">
-  <a href="https://www.mediafire.com/file/l6ggeti3d1pdrlw/SuperVIP8.1-3.ipa/file" target="_blank">
-    <p class="description">SuperVIP8.1-33<br><span>冷冷雨·付费·应用破解</span></p>
-    <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="https://www.qhmanhua.com/d/file/soft/20230325/202109292979.jpg" />
-    </div>
-  </a>
-</div>
 
-<br>
+<Linkcard url="https://www.mediafire.com/file/l6ggeti3d1pdrlw/SuperVIP8.1-3.ipa/file" title="SuperVIP8.1-33" description="冷冷雨·付费·应用破解" logo="https://www.qhmanhua.com/d/file/soft/20230325/202109292979.jpg"/>
+
+
+
 
 
 

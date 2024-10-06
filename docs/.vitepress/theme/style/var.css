@@ -16,11 +16,10 @@
 }
 
 h1 {
-  background: #e43498;
+  background: -webkit-linear-gradient(10deg, #bd34fe 5%, #e43498 15%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 :root {
@@ -38,34 +37,12 @@ h1 {
 /* .vitepress/theme/style/var.css */
 
 .medium-zoom-overlay {
-  z-index: 20;
+  z-index: 30;
 }
 
 .medium-zoom-image {
   z-index: 9999 !important;/* 给的值是21，但是实测盖不住，直接999 */
 }
-
-
-/* 提示框背景颜色 */
-:root {
-  --vp-custom-block-tip-bg: var(--vp-c-green-soft);
-}
-
-/* 提示框 */
-.custom-block.tip {
-  border-color: var(--vp-c-green-2);
-}
-
-/* 警告框 */
-.custom-block.warning {
-  border-color: var(--vp-c-yellow-2);
-}
-
-/* 危险框 */
-.custom-block.danger {
-  border-color: var(--vp-c-red-2);
-}
-
 
 
 

@@ -1,7 +1,7 @@
 
 # Docker的安装
 
-> 更新时间：2024-7-1
+
 
 ::: danger 通知
 最近dockerhub官网被GFW屏蔽，镜像站也挂掉了

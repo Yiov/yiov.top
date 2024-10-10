@@ -134,7 +134,7 @@
   position: relative;
   z-index: 1;
   margin: 0 16px;
-  border: 2px solid var(--main-page-from);
+  border: 2px solid var(--main-page-text);
   border-radius: .5rem;
 }
 

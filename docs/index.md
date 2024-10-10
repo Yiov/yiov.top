@@ -33,5 +33,5 @@ features:
     details: 如果有其他疑问或文章错误，欢迎邮件反馈
 ---
 
-<!-- <vuejs /> -->
+<vuejs />
 

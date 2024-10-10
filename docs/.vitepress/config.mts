@@ -393,7 +393,7 @@ export default defineConfig({
 
     //页脚
     footer: {
-      message: 'Power by VitePress / Theme by Vidstack',
+      message: 'Power by VitePress && Vidstack',
       copyright: `Copyright © 2023-${new Date().getFullYear()} <a href="https://github.com/Yiov" target="_blank">Yiov</a>`,
     },
 

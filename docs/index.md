@@ -1,5 +1,7 @@
 ---
-layout: home
+layout: page
+sidebar: false
+aside: false
 
 hero:
   name: 劝学录
@@ -30,4 +32,6 @@ features:
     title: 问题反馈
     details: 如果有其他疑问或文章错误，欢迎邮件反馈
 ---
+
+<vuejs />
 

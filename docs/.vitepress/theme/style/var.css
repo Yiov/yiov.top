@@ -89,7 +89,17 @@
 
   }
 
-  
+  /* 手机端深浅模式切换 */
+  .VPNavScreenAppearance {
+    background-color: var(--main-page-bg);
+    border: 1px solid var(--main-page-appearance);
+  }
+
+  /* 手机端深浅模式字体 */
+  .VPNavScreenAppearance .text {
+    color: var(--main-page-menu);
+  }
+
 
   /* 手机端菜单背景 */
   .VPNavScreen {

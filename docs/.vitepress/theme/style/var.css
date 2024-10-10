@@ -1,4 +1,4 @@
-/* var.css */
+/* 主题色卡 */
 :root {
   --vp-c-brand-1: #18794e;
   --vp-c-brand-2: #299764;
@@ -11,36 +11,20 @@
   --vp-c-brand-3: #298459;
 }
 
+
 /* 超链接隐藏下划线 */
 .vp-doc a {
   text-decoration: none;
 }
 
-h1 {
-  color: var(--main-page-text);
-}
 
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #066be1);
-
-
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #066be1 50%);
-  --vp-home-hero-image-filter: blur(40px);
-
-  /* 代码块颜色 */
-  /* --vp-code-block-bg: #0c0c0c; */
-}
-
-/* .vitepress/theme/style/var.css */
-
+/* medium缩放遮盖 */
 .medium-zoom-overlay {
   z-index: 30;
 }
 
 .medium-zoom-image {
   z-index: 9999 !important;
-  /* 给的值是21，但是实测盖不住，直接999 */
 }
 
 
@@ -127,12 +111,6 @@ h1 {
     background-color: var(--main-page-bg);
   }
 
-
-  /* 页脚上移 */
-  .VPContent {
-    flex-grow: 0.5;
-  }
-
   /* 页脚背景 */
   .VPFooter {
     background-color: var(--main-page-bg);
@@ -175,4 +153,9 @@ h1 {
 /* 背景色 */
 body {
   background-color: var(--main-page-bg);
+}
+
+/* h1标题颜色 */
+h1 {
+  color: var(--main-page-text);
 }

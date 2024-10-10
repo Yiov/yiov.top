@@ -74,10 +74,8 @@
 
   /* 手机端菜单栏 */
   .VPNavScreenMenuLink {
-    padding: 15px 0;
     border-bottom: 0px;
     color: var(--main-page-menu);
-    font-size: 16px;
   }
 
   /* 手机端菜单组 */
@@ -87,8 +85,6 @@
 
   /* 手机端菜单组按钮 */
   .VPNavScreenMenuGroup .button {
-    padding: 15px 0;
-    font-size: 16px;
     color: var(--main-page-menu);
 
   }
@@ -101,7 +97,6 @@
 
   /* 手机端深浅模式字体 */
   .VPNavScreenAppearance .text {
-    font-size: 16px;
     color: var(--main-page-menu);
   }
 

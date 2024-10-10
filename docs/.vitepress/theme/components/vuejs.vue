@@ -90,7 +90,7 @@
 }
 
 .vcontainer .describe {
-  color: var(--main-page-to);
+  color: var(--vp-c-text-2);
   margin-top: 2rem;
   text-align: center;
   font-size: 16px;

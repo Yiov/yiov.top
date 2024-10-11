@@ -1,6 +1,13 @@
 # 目录索引
 
 
+<script setup>
+import { ql } from '/.vitepress/theme/components/date'
+</script>
+
+## 科学上网
+
+<lists v-for="{ items } in ql" :items="items" />
 
 ## 科学上网
 

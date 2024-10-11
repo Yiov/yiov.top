@@ -1,0 +1,14 @@
+/* 清单色卡 */
+:root {
+    --custom-bg: #f0f0f0;
+    --custom-border: #dedede;
+    --custom-text: #575d65;
+  }
+  
+  .dark{
+    --custom-bg: #050505;
+    --custom-border: #282828;
+    --custom-text: #969ba6;
+  }
+  
+  

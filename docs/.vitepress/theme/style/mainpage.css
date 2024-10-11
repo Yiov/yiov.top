@@ -1,0 +1,124 @@
+/* 主页自定义集 */
+
+/* 主页色卡 */
+:root {
+    --main-page-bg: #f0f0f0;
+    --main-page-text: #050505;
+    --main-page-from: #222222;
+    --main-page-to: #585858;
+    --main-page-menu: #525861;
+    --main-page-appearance: #e0e0e0;
+  }
+  
+  .dark {
+    --main-page-bg: #050505;
+    --main-page-text: #f0f0f0;
+    --main-page-from: #f0f0f0;
+    --main-page-to: #575757;
+    --main-page-menu: #969ba6;
+    --main-page-appearance: #222222;
+  }
+  
+  
+  /* 主页修饰 */
+  :root {
+  
+    /* 导航下拉菜单背景色 */
+    .VPMenu {
+      background-color: var(--main-page-bg);
+  }
+  
+  /* 搜索框背景色 */
+  
+  .VPLocalSearchBox .shell {
+    background: var(--main-page-bg);
+  }
+  
+    /* 手机端导航按钮 */
+    .VPNavBarHamburger:hover {
+      height: 40px;
+      border: 2px solid #dedede;
+      border-radius: 8px;
+    }
+  
+    /* 手机端菜单栏 */
+    .VPNavScreenMenuLink {
+      border-bottom: none;
+      color: var(--main-page-menu);
+    }
+  
+    /* 手机端菜单组隐藏 */
+    .VPNavScreenMenuGroup {
+      border-bottom: none;
+    }
+  
+    /* 手机端菜单组按钮 */
+    .VPNavScreenMenuGroup .button {
+      color: var(--main-page-menu);
+  
+    }
+  
+    /* 手机端深浅模式切换 */
+    .VPNavScreenAppearance {
+      background-color: var(--main-page-bg);
+      border: 1px solid var(--main-page-appearance);
+    }
+  
+    /* 手机端深浅模式字体 */
+    .VPNavScreenAppearance .text {
+      color: var(--main-page-menu);
+    }
+  
+    /* 手机端菜单栏顶部横条隐藏 */
+    .VPNavBar.screen-open {
+      border-bottom: none;
+    }
+    
+    /* 手机端菜单背景 */
+    .VPNavScreen {
+      background-color: var(--main-page-bg);
+    }
+  
+    /* 页脚背景 */
+    .VPFooter {
+      background-color: var(--main-page-bg);
+    }
+  
+  
+    /* 侧边栏背景色 */
+    .VPSidebar {
+      background-color: var(--main-page-bg);
+    }
+  
+    /* 文档页侧边栏顶部背景色 */
+    .curtain {
+      background-color: var(--main-page-bg);
+    }
+  
+    /* 侧边栏底部遮挡条背景 */
+    .aside-curtain {
+      background: var(--main-page-bg);
+    }
+  
+    /* 文档底部上下页间距 */
+    .pager .desc {
+      padding-bottom: 8px;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--main-page-text);
+    }
+  
+  
+  }
+  
+  
+  /* 背景色 */
+  body {
+    background-color: var(--main-page-bg);
+  }
+  
+  /* h1标题颜色 */
+  h1 {
+    color: var(--main-page-text);
+  }
+  

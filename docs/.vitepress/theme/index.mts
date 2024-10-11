@@ -10,6 +10,7 @@ import ArticleMetadata from "./components/ArticleMetadata.vue"
 import MyLayout from './components/MyLayout.vue'
 
 import vuejs from './components/vuejs.vue'
+import lists from './components/lists.vue'
 
 export default {
   extends: DefaultTheme,
@@ -21,6 +22,7 @@ export default {
     app.component('Linkcard' , Linkcard)
     app.component('ArticleMetadata' , ArticleMetadata)
     app.component('vuejs' , vuejs)
+    app.component('lists' , lists)
   },
 
   setup() {

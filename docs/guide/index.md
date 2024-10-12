@@ -9,34 +9,6 @@ import { ql } from '/.vitepress/theme/components/date'
 
 <lists v-for="{ items } in ql" :items="items" />
 
-## 科学上网
-
-### 工具
-
-* [介绍「必看」](../gfw/proxy)
-
-* [圈X](../gfw/quantumultX)
-
-* [BoxJS](../gfw/boxjs)
-
-* [小火箭](../gfw/shadowrocket)
-
-* [Clash](../gfw/Clash)
-
-* [WARP](../gfw/warp)
-
-* [WireGuard](../gfw/wireguard)
-
-* [Sing-box](../gfw/singbox)
-
-* [NekoBox](../gfw/NekoBox)
-
-* [Karing](../gfw/Karing)
-
-* [Hiddify](../gfw/Hiddify)
-
-* [V2Ray](../gfw/v2ray)
-
 
 ### 机场
 

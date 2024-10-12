@@ -44,12 +44,17 @@ defineProps<{
     }
 }
 
+.vlist {
+    transition: transform 0.3s;
+}
+
+.vlist:hover {
+    transform: translateY(-5px);
+}
 
 .vlist-bg {
     position: relative;
 }
-
-
 
 .vlist-item {
     display: flex;
@@ -66,6 +71,9 @@ defineProps<{
     border-radius: .5rem;
 }
 
+.vlist-item img{
+    border-radius: 1rem;
+}
 
 .vlist-bg:hover .vlist-item::before {
     content: "";

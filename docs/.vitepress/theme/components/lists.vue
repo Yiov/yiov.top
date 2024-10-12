@@ -87,4 +87,8 @@ defineProps<{
     font-weight: 500;
     color: var(--custom-text);
 }
+
+.medium-zoom-overlay,.medium-zoom-image {
+  z-index: 0 !important;
+}
 </style>

@@ -63,6 +63,7 @@ defineProps<{
 .vlist-item:hover {
     background-color: var(--custom-bg);
     border: 2px solid var(--border-color);
+    border-radius: .5rem;
 }
 
 

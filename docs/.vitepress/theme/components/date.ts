@@ -4,7 +4,7 @@ export const ql: listdata[] = [
     {
       "items": [
         {
-          "url": "https://baidu.com",
+          "url": "#",
           "image": "/wall.png",
           "name": "科学上网",
           "bdcolor": "#d81e06",

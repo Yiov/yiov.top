@@ -2,23 +2,12 @@
 
 
 <script setup>
-import { ql } from '/.vitepress/theme/components/date'
+import { gfw } from '/.vitepress/theme/lists/gfw'
 </script>
 
 ## 科学上网
 
-<lists v-for="{ items } in ql" :items="items" />
-
-
-### 机场
-
-* [机场推荐指南](../gfw/channel)
-
-
-### 协议
-
-* [常见代理协议](../gfw/protocol)
-
+<lists v-for="{ items } in gfw" :items="items" />
 
 
 ## 日常使用

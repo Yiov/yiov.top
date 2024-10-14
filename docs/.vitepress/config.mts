@@ -65,10 +65,10 @@ export default defineConfig({
         //分组标题1
         text: '科学上网',
         items: [
+          { text: '介绍(必看)', link: '/gfw/proxy' },
           { text: '工具', 
             collapsed: true,
             items: [
-              { text: '介绍(必看)', link: '/gfw/proxy' },
               { text: '圈X', link: '/gfw/quantumultX' },
               { text: 'BoxJS', link: '/gfw/boxjs' },
               { text: '小火箭', link: '/gfw/shadowrocket' },

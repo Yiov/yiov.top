@@ -10,7 +10,8 @@ import ArticleMetadata from "./components/ArticleMetadata.vue"
 import MyLayout from './components/MyLayout.vue'
 
 import vuejs from './components/vuejs.vue'
-import lists from './components/lists.vue'
+import lists from './lists/lists.vue'
+import navlist from './navlist/navlist.vue'
 
 export default {
   extends: DefaultTheme,
@@ -23,6 +24,7 @@ export default {
     app.component('ArticleMetadata' , ArticleMetadata)
     app.component('vuejs' , vuejs)
     app.component('lists' , lists)
+    app.component('navlist' , navlist)
   },
 
   setup() {

@@ -32,14 +32,16 @@ const props = withDefaults(defineProps<Props>(), {
     background-color: var(--vp-c-bg-soft);
     border-radius: 8px;
     padding: 8px 16px 8px 8px;
-    transition: color 0.5s, background-color 0.5s;
-    margin-top: 15px;
+    transition: transform 0.3s;
+    margin-top: 20px;
 }
 
 /* 卡片鼠标悬停 */
 .linkcard:hover {
-    background-color: var(--vp-c-yellow-soft);
+    transform: translateY(-5px);
+    background-image: linear-gradient(165deg, red, blue);
 }
+
 
 /* 链接样式 */
 .linkcard a {
@@ -47,15 +49,15 @@ const props = withDefaults(defineProps<Props>(), {
     align-items: center;
 }
 
+
 /* 描述链接文字 */
 .linkcard .description {
-    flex: 1;
+    flex-grow:1;
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
     color: var(--vp-c-text-1);
     margin: 0 0 0 16px;
-    transition: color 0.5s;
 }
 
 /* 描述链接文字2 */

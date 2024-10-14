@@ -8,10 +8,11 @@ defineProps<{
 
 <template>
     <section class="visland">
-        <div v-for="{ url, image, name, bdcolor, bgcolor } in items" class="vlist">
+        <div v-for="{ url, image, name, bdcolor, bgcolor , stars } in items" class="vlist">
             <a :href="url">
                 <div class="vlist-bg">
                     <div class="vlist-item" :style="'--border-color:' + bdcolor + ';' + '--background-color:' + bgcolor">
+                        <span>{{ stars }}</span>
                         <img width="60px" height="60px" :src="image" style="pointer-events: none;">
                     </div>
                 </div>
@@ -56,6 +57,7 @@ defineProps<{
     position: relative;
 }
 
+
 .vlist-item {
     display: flex;
     justify-content: center;
@@ -71,6 +73,12 @@ defineProps<{
     border-radius: .5rem;
 }
 
+.vlist-item span{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
 .vlist-item img{
     border-radius: 1rem;
 }
@@ -84,6 +92,7 @@ defineProps<{
     filter: blur(36px);
     z-index: -2;
     top: 0px;
+    left: 0px;
 }
 
 

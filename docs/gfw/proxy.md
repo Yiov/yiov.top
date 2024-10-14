@@ -1,6 +1,9 @@
 # 科学上网工具介绍
 
 
+<script setup>
+import { proxy } from '/.vitepress/theme/navlist/proxy'
+</script>
 
 
 ## 简介
@@ -88,7 +91,7 @@
 工具很多，不必都会，选其一即可
 :::
 
-
+<navlist v-for="{ items } in proxy" :items="items" />
 
 | 名称 | 收费 | 支持客户端 |
 |:-:|:-:|:-:|

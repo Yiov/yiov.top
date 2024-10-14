@@ -1,28 +1,23 @@
 import type { listdata } from './type'
 
-export const ql: listdata[] = [
+export const gfw_tools: listdata[] = [
     {
       "items": [
-        {
-          "url": "/gfw/",
-          "image": "/1/wall.png",
-          "name": "科学上网",
-          "bdcolor": "#d81e06",
-          "bgcolor": "#fc422a",
-        },
         {
           "url": "/gfw/quantumultX",
           "image": "https://quantumult.app/x/quantumult_files/logo.png",
           "name": "圈X",
           "bdcolor": "#0050d1",
           "bgcolor": "#007fe8",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/boxjs",
-          "image": "https://1532234502-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-MDxD9HYU2CoF7Jg2BEp%2Favatar-1597212951484.png?generation=1597212951933642&alt=media",
+          "image": "/1/boxjs.png",
           "name": "BoxJS",
           "bdcolor": "#f7bb10",
           "bgcolor": "#face51",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/shadowrocket",
@@ -30,6 +25,7 @@ export const ql: listdata[] = [
           "name": "小火箭",
           "bdcolor": "#9a7be9",
           "bgcolor": "#55b3f1",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/Clash",
@@ -37,6 +33,7 @@ export const ql: listdata[] = [
           "name": "Clash",
           "bdcolor": "#214d84",
           "bgcolor": "#152c50",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/warp",
@@ -44,6 +41,7 @@ export const ql: listdata[] = [
           "name": "WARP",
           "bdcolor": "#e41093",
           "bgcolor": "#293794",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/wireguard",
@@ -51,13 +49,15 @@ export const ql: listdata[] = [
           "name": "WireGuard",
           "bdcolor": "#871719",
           "bgcolor": "#f12b2e",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/singbox",
-          "image": "https://sing-box.sagernet.org/assets/icon.svg",
+          "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/61/5f/d0615feb-c18d-5bd8-3cb5-f69d4a24f8c9/AppIcon-0-0-85-220-0-5-0-2x-0-0-0.png/246x0w.webp",
           "name": "Sing-box",
           "bdcolor": "#546e7a",
           "bgcolor": "#37474f",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/NekoBox",
@@ -65,6 +65,7 @@ export const ql: listdata[] = [
           "name": "NekoBox",
           "bdcolor": "#b2dff0",
           "bgcolor": "#64b2d5",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/Karing",
@@ -72,6 +73,7 @@ export const ql: listdata[] = [
           "name": "Karing",
           "bdcolor": "#5010ff",
           "bgcolor": "#58def0",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/Hiddify",
@@ -79,6 +81,7 @@ export const ql: listdata[] = [
           "name": "Hiddify",
           "bdcolor": "#455fe9",
           "bgcolor": "#1738e9",
+          "stars": "⭐"
         },
         {
           "url": "/gfw/v2ray",
@@ -86,6 +89,7 @@ export const ql: listdata[] = [
           "name": "V2Ray",
           "bdcolor": "#2a7faa",
           "bgcolor": "#1c5875",
+          "stars": "⭐"
         },
       ]
     }

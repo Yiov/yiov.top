@@ -4,6 +4,7 @@ export interface datas {
   name: string
   bdcolor: string
   bgcolor: string
+  stars?: string
 }
 
 export interface listdata {

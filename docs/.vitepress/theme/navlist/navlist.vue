@@ -91,7 +91,7 @@ defineProps<{
     margin: 2rem 1rem;
     font-size: 14px;
     color: var(--vp-c-text-1);
-    width: 280px;
+    width: 260px;
 }
 
 @media (min-width: 1200px) {
@@ -102,6 +102,7 @@ defineProps<{
 
 .vlist-item img {
     border-radius: 1rem;
+    position: relative;
 }
 
 .vlist-bg:hover .vlist-item::before {

@@ -92,7 +92,7 @@ export const proxy: listdata[] = [
         "name": "WireGuard",
         "description": "配合WARP使用，免费开源软件，支持iOS端/安卓/PC端",
         "url": "/gfw/wireguard",
-        "image": "/1/wireguar.png",
+        "image": "/1/wireguard.png",
         "bdcolor": "#871719",
         "bgcolor": "#f12b2e",
         "stars": "⭐"

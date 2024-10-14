@@ -13,8 +13,8 @@ defineProps<{
                 <div class="vlist-bg">
                     <div class="vlist-item"
                         :style="'--border-color:' + bdcolor + ';' + '--background-color:' + bgcolor">
-                        <div class="h1">{{ name }}<span>{{ stars }}</span></div>
-                        <div class="description">{{ description }}</div>
+                        <h1 class="h1">{{ name }}<span>{{ stars }}</span></h1>
+                        <p class="description">{{ description }}</p>
                         <img width="60px" height="60px" :src="image" style="pointer-events: none;">
                     </div>
                 </div>
@@ -102,7 +102,7 @@ defineProps<{
 
 .vlist-item img {
     border-radius: 1rem;
-    position: relative;
+    align-items: end;
 }
 
 .vlist-bg:hover .vlist-item::before {

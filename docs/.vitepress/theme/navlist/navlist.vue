@@ -76,7 +76,7 @@ defineProps<{
 
 .vlist-item .h1 {
     position: absolute;
-    top: 15px;
+    top: 10px;
     left: 0px;
     margin: 0 16px;
     font-size: 18px;
@@ -87,17 +87,24 @@ defineProps<{
 
 .vlist-item .description {
     position: absolute;
-    top: 15px;
+    top: 10px;
     left: 0px;
     margin: 2rem 1rem;
     font-size: 14px;
     color: var(--vp-c-text-1);
-    width: 260px;
+    width: 60%;
 }
+
+@media (min-width: 576px) {
+    .vlist-item .description {
+        width: 100%;
+    }
+}
+
 
 @media (min-width: 1200px) {
     .vlist-item .description {
-        width: 210px;
+        width: 65%;
     }
 }
 

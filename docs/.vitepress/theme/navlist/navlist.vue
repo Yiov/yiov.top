@@ -60,7 +60,8 @@ defineProps<{
 
 .vlist-item {
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
     border: 2px solid var(--custom-border);
     border-radius: .5rem;
     padding: 1.5rem 1rem;
@@ -102,7 +103,8 @@ defineProps<{
 
 .vlist-item img {
     border-radius: 1rem;
-    float: right;
+    position: relative;
+    left: 40%;
 }
 
 .vlist-bg:hover .vlist-item::before {

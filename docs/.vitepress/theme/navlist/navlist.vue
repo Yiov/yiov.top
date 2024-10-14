@@ -102,7 +102,7 @@ defineProps<{
 
 .vlist-item img {
     border-radius: 1rem;
-    align-items: end;
+    float: right;
 }
 
 .vlist-bg:hover .vlist-item::before {

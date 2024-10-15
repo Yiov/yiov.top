@@ -74,7 +74,7 @@ defineProps<{
     border-radius: .5rem;
 }
 
-.vlist-item  span{
+.vlist-item  span {
     position: absolute;
     top: 3px;
     right: 5px;
@@ -96,10 +96,11 @@ defineProps<{
     position: absolute;
     top: 10px;
     left: 0px;
-    margin: 2rem 1rem;
-    font-size: 14px;
-    color: var(--vp-c-text-1);
-    width: 60%;
+    margin: 2.5rem 1rem;
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--vp-c-text-2);
+    width: 65%;
 }
 
 @media (min-width: 576px) {

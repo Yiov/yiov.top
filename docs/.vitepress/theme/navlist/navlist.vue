@@ -76,8 +76,9 @@ defineProps<{
 
 .vlist-item  span{
     position: absolute;
-    top: 2px;
+    top: 3px;
     right: 5px;
+    font-size: 14px;
 }
 
 .vlist-item .h1 {

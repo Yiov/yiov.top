@@ -12,14 +12,18 @@ import { daily2 } from '/.vitepress/theme/lists/daily2'
 <lists v-for="{ items } in gfw" :items="items" />
 
 
-## 生活常识
+## 生活生活
+
+### 常识
 
 <lists v-for="{ items } in daily1" :items="items" />
 
 
-## 日常技巧
+### 技巧
 
 <lists v-for="{ items } in daily2" :items="items" />
+
+
 
 
 

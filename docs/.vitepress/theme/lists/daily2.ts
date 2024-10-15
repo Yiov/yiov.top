@@ -4,6 +4,13 @@ export const daily2: listdata[] = [
     {
       "items": [
         {
+            "name": "PayPal",
+            "url": "/daily/paypal",
+            "image": "https://www.paypalobjects.com/webstatic/icon/pp258.png",
+            "bdcolor": "#002f86",
+            "bgcolor": "#009cde",
+          },
+        {
           "name": "待产包",
           "url": "/daily/bags-just-yet",
           "image": "/1/bags-just-yet.png",

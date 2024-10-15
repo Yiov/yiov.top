@@ -2,11 +2,13 @@
 import type { datas } from './type'
 
 defineProps<{
+    title?: string
     items: datas[]
 }>()
 </script>
 
 <template>
+    <h3 class="vtitle">{{ title }}</h3>
     <section class="visland">
         <div v-for="{ url, image, name, bdcolor, bgcolor , stars } in items" class="vlist">
             <a :href="url">
@@ -23,6 +25,10 @@ defineProps<{
 </template>
 
 <style scoped>
+.vtitle {
+    font-size: 20px;
+    font-weight: 600;
+}
 .visland {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

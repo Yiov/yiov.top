@@ -8,6 +8,7 @@ export interface datas {
 }
 
 export interface listdata {
+  title?: string
   items: datas[]
 }
 

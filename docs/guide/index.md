@@ -3,8 +3,8 @@
 
 <script setup>
 import { gfw } from '/.vitepress/theme/lists/gfw'
-import { daily1 } from '/.vitepress/theme/lists/daily1'
-import { daily2 } from '/.vitepress/theme/lists/daily2'
+import { daily } from '/.vitepress/theme/lists/daily'
+import { computer } from '/.vitepress/theme/lists/computer'
 </script>
 
 ## 科学上网
@@ -12,16 +12,10 @@ import { daily2 } from '/.vitepress/theme/lists/daily2'
 <lists v-for="{ items } in gfw" :items="items" />
 
 
-## 生活生活
-
-### 常识
-
-<lists v-for="{ items } in daily1" :items="items" />
+## 日常生活
 
 
-### 技巧
-
-<lists v-for="{ items } in daily2" :items="items" />
+<lists v-for="{ title ,items} in daily" :title="title" :items="items" />
 
 
 
@@ -29,43 +23,8 @@ import { daily2 } from '/.vitepress/theme/lists/daily2'
 
 ## 电脑相关
 
-### 系统
 
-* [微PE制作PE启动盘](../computer/wepe)
-
-* [电脑常见问题汇总](../computer/win11)
-
-
-### crx插件
-
-* [油猴安装及使用教程](../computer/tampermonkey)
-
-* [书签同步至不同浏览器](../computer/bookmark)
-
-* [crx浏览器插件导出](../computer/crx)
-
-
-### 应用
-
-* [Pake将网页打包成应用程序](../computer/pake)
-
-* [Todesk远程开关电脑](../computer/todesk)
-
-* [Markdown的简单用法](../computer/markdown)
-
-* [Photoshop 2023无法安装](../computer/ps)
-
-* [提取应用icon图标](../computer/icon)
-
-* [QQ邮箱接收其他邮箱信息](../computer/qqmail)
-
-* [电视TV的使用技巧](../computer/tvapp)
-
-* [微软tts·云希音色配音](../computer/tts)
-
-* [企业微信推送教程](../computer/wecom)
-
-    
+<lists v-for="{ title ,items} in computer" :title="title" :items="items" />
 
 
 

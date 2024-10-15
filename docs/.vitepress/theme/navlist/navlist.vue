@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { datas } from '../lists/type'
+import type { datas } from '../navlist/navtype'
 
 defineProps<{
     items: datas[]
@@ -13,7 +13,8 @@ defineProps<{
                 <div class="vlist-bg">
                     <div class="vlist-item"
                         :style="'--border-color:' + bdcolor + ';' + '--background-color:' + bgcolor">
-                        <h1 class="h1">{{ name }}<span>{{ stars }}</span></h1>
+                        <span>{{ stars }}</span>
+                        <h1 class="h1">{{ name }}</h1>
                         <p class="description">{{ description }}</p>
                         <img width="60px" height="60px" :src="image" style="pointer-events: none;">
                     </div>
@@ -61,7 +62,6 @@ defineProps<{
 .vlist-item {
     display: flex;
     justify-content: center;
-    align-items: center;
     border: 2px solid var(--custom-border);
     border-radius: .5rem;
     padding: 1.5rem 1rem;
@@ -72,6 +72,12 @@ defineProps<{
     background-color: var(--custom-bg);
     border: 2px solid var(--border-color);
     border-radius: .5rem;
+}
+
+.vlist-item  span{
+    position: absolute;
+    top: 2px;
+    right: 5px;
 }
 
 .vlist-item .h1 {

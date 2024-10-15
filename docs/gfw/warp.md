@@ -2,13 +2,6 @@
 
 
 
-::: danger 紧急通知
-自从GFW阻断warp的IP段后，截止2024-6-19仍未恢复，目前仍无法使用
-
-请先使用其他工具 或者 [Cloudflare自建节点](../website/cloudflare.md)
-:::
-
-
 ## 简介
 
 WARP是cloudflare公司推出的一款基于wireguard协议的VPN服务，但比传统的VPN更稳定更安全可靠
@@ -324,7 +317,7 @@ WARP是使用的wireguard协议，那么我们可以使用 [WireGuard客户端�
 ## 常见问题
 
 
-#### 密钥填不上去，提示无效
+::: details 密钥填不上去，提示无效
 
 是否出现有这种情况：
 
@@ -333,3 +326,5 @@ WARP是使用的wireguard协议，那么我们可以使用 [WireGuard客户端�
 * 应用的设备ID都是0
 
 解决：挂个梯子进应用，激活新的普通密钥即可
+
+:::

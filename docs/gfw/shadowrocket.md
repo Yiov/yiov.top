@@ -7,7 +7,7 @@
 
 Shadowrocket著名的网络代理工具，直译暗影火箭，俗称来源于它的LOGO：小火箭
 
-[非官网](https://www.shadowrocket.vip/) (官方没有官网) 丨 [TG群](https://t.me/ShadowrocketApp) 丨 [推特(X)](https://twitter.com/shadowrocketapp)
+官网（无） 丨 [TG群](https://t.me/ShadowrocketApp) 丨 [推特(X)](https://twitter.com/shadowrocketapp)
 
 ![](/shadowrocket/shadowrocket-01.png)
 

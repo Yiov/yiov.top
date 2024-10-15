@@ -4,7 +4,7 @@
 
 ## 简介
 
-BoxJs 是一款运行在 Surge、Quantumult X、Loon、Shadowrocket、Stash 环境下的脚本！
+BoxJs 是一款运行在 [Surge](https://nssurge.com/) 、[Quantumult X](./quantumultX.md)、[Loon](https://nsloon.com/)、[Shadowrocket](./shadowrocket.md)、[Stash](https://stash.ws/) 环境下的脚本！
 
 
 官网：https://docs.boxjs.app/
@@ -16,12 +16,7 @@ BoxJs 是一款运行在 Surge、Quantumult X、Loon、Shadowrocket、Stash 环�
 ## 安装
 
 
-圈X的安装有3个方式，我们按推荐的来
-
-::: tip 说明
-我这里只有圈X，就只演示圈X了，其他的按照它的步骤即可
-:::
-
+本次仅演示圈X的安装方式，其他按推荐的来
 
 打开圈X开关，连接好一个节点，然后打开开关，不然进不去
 

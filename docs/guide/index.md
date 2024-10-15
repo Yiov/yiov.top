@@ -3,6 +3,8 @@
 
 <script setup>
 import { gfw } from '/.vitepress/theme/lists/gfw'
+import { daily1 } from '/.vitepress/theme/lists/daily1'
+import { daily2 } from '/.vitepress/theme/lists/daily2'
 </script>
 
 ## 科学上网
@@ -10,35 +12,14 @@ import { gfw } from '/.vitepress/theme/lists/gfw'
 <lists v-for="{ items } in gfw" :items="items" />
 
 
-## 日常使用
+## 生活常识
 
-### 常识
-
-* [维生素基础知识](../daily/vitamin)
-
-* [血常规化验单解读](../daily/blood)
-
-* [车厘子基础知识科普](../daily/cherries)
-
-* [买房及房产证办理](../daily/house)
-
-* [二十四节气](../daily/house)
+<lists v-for="{ items } in daily1" :items="items" />
 
 
-### 技巧
+## 日常技巧
 
-
-* [待产包清单](../daily/bags-just-yet)
-
-* [台州麻将玩法](../daily/mahjong)
-
-* [1688母婴同源店](../daily/1688)
-
-* [京东强制加购](../daily/jd)
-
-* [淘宝强制提交](../daily/taobao)
-
-
+<lists v-for="{ items } in daily2" :items="items" />
 
 
 

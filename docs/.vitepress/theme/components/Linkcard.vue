@@ -59,6 +59,7 @@ const props = withDefaults(defineProps<Props>(), {
     border-radius: .5rem;
     padding: 1.5rem 1rem;
     z-index: -1;
+    height: 100px;
 }
 
 .vlist-item:hover {
@@ -95,8 +96,9 @@ const props = withDefaults(defineProps<Props>(), {
 
 .vlist-item img {
     border-radius: 1rem;
-    position: relative;
-    left: 45%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 .vlist-bg:hover .vlist-item::before {

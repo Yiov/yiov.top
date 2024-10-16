@@ -103,14 +103,14 @@ export const computer: listdata[] = [
                 "url": "/computer/tts",
                 "image": "https://www.microsoft.com/favicon.ico",
                 "bdcolor": "#f25022",
-                "bgcolor": "#7fba00",
+                "bgcolor": "#f67c59",
             },
             {
                 "name": "企业微信推送",
                 "url": "/computer/wecom",
                 "image": "https://pp.myapp.com/ma_icon/0/icon_42270467_1727230761/256",
                 "bdcolor": "#0f87e7",
-                "bgcolor": "#1fb600",
+                "bgcolor": "#379bed",
             },
         ]
     },

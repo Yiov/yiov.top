@@ -5,9 +5,7 @@
 
 ## 简介
 
-最好用的PE工具箱，没有之一，用于制造PE启动盘，来安装/重装系统等
-
-同类工具还有 [老毛桃](https://www.laomaotao.net/)、[优启通](https://www.upe.net/)
+最好用的PE工具箱，没有之一，用于制造PE启动盘，安装/重装系统等，与 [老毛桃](https://www.laomaotao.net/)、[优启通](https://www.upe.net/) 是同类工具
 
 官网：https://www.wepe.com.cn/
 
@@ -24,15 +22,15 @@
 
 * 新U盘一个(至少要8G)
 
-* [驱动大师](https://dm.weishi.360.cn/home.html)「新系统装驱动要用」
+* 下载 [驱动大师](https://dm.weishi.360.cn/home.html) 放入U盘「新系统装驱动要用」
 
-* [装机工具·激活工具包](https://dzp.lanzouy.com/ifnOv0rvnqmf)
-
-
+* 下载 [装机工具·激活工具包](https://dzp.lanzouy.com/ifnOv0rvnqmf) 放入U盘
 
 
 
-### PE启动盘
+
+
+## PE启动盘
 
 
 在 [微PE官网](https://www.wepe.com.cn/) 右上角 [下载](https://www.wepe.com.cn/download.html) ，选择合适的版本
@@ -75,7 +73,7 @@
 
 
 
-### 系统镜像
+## 系统镜像
 
 
 Itellyou 官网：https://next.itellyou.cn
@@ -661,7 +659,7 @@ XP系统时真的老了，但是还没有被放弃
 ## 常见问题
 
 
-1.U盘如何恢复
+::: details U盘如何恢复
 
 在 [rufus](https://rufus.ie/zh/) 官网下载软件并打开，或者使用下面的链接下载
 
@@ -670,7 +668,7 @@ https://d-image.i4.cn/i4web/image/news/2020-07-16/fileTypeImages_159488059824208
 ```
 
 插入U盘-引导类型-选择 `FreeDOS` - 点击开始，直到完成
-
+:::
 
 
 

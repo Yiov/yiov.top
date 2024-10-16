@@ -750,7 +750,7 @@ FakeLocationX：虚拟定位
 
 
 
-#### U盘如何恢复
+::: details U盘如何恢复
 
 越狱用的U盘无法正常使用，我们可以用恢复工具
 
@@ -773,25 +773,16 @@ FakeLocationX：虚拟定位
 ![](/checkra1n/checkra1n-34.png)
 
 ![](/checkra1n/checkra1n-35.png)
+:::
 
 
 
----
-
-
-
-#### 重启后是未越狱状态
-
+::: details 重启后是未越狱状态
 恭喜你，重新来一遍
+:::
 
 
----
-
-
-
-#### 清除越狱
-
-
+::: details 清除越狱
 清理越狱环境，但安装的插件配置文件会保留，建议先清理
 
 * [iCleaner Pro](https://ib-soft.net/cydia)「删除插件」
@@ -801,15 +792,13 @@ FakeLocationX：虚拟定位
 * 卸载必须依赖 用 `PreferenceLoader` 批量卸载
 
 * Checkra1n：进入点击 `Restore System` ，清除完毕后重启，桌面残留Cydia图标删除即可。如果银行打不开，请备份后，抹机
+:::
 
 
 
----
 
-
-#### 桌面没有图标了
-
+::: details 桌面没有图标了
 用Checkra1n制作的U盘，重新越狱即可
-
+:::
 
 

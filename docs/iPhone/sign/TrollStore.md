@@ -744,16 +744,15 @@ chmod 700 /var/tmp/com.apple.appstored
 
 
 
-#### 安装完成，不显示图标
-
-
+::: details 安装完成，不显示图标
 打开 TrollStore - Settings - 点击 `Rebuild Icon Cache` 等待重启，未重启的话，点击 `Respring` 即可
+:::
 
 
-#### 可以安装其他应用吗
 
+::: details 可以安装其他应用吗
 可以，以上只是一些工具，可以安装一些破解版APP，例如：Youtube破解版
-
+:::
 
 
 

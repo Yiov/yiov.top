@@ -22,23 +22,8 @@
 
 带 ⭐ 的是有教程的，点击即可跳转
 
+<script setup>
+import { sign } from '/.vitepress/theme/navlist/sign'
+</script>
 
-| 签名工具 | 电脑/手机 | 签名形式 | 是否收费 |
-|:-:|:-:|:-:|:-:|
-| [⭐巨魔助手](./TrollStore.md) | 手机 | 免签名(永久) | 免费 |
-| [⭐轻松签+](./esign.md) | 手机 | 免签名(永久) | 免费 |
-| |
-| [⭐牛蛙助手](./bullfrog.md) | (仅首次需要电脑) 手机 | 个人Apple ID(7天) / 可导入购买的企业证书 | 免费 |
-| [NB助手](https://nbtool8.com/) | (仅首次需要电脑) 手机 | 个人Apple ID(7天) / 可导入购买的企业证书 | 免费 |
-| [⭐Sideloadly](./Sideloadly.md) | 电脑 | 个人Apple ID(7天) | 免费 |
-| [爱思助手](https://www.i4.cn/) | 电脑 | 个人Apple ID(7天) | 免费 |
-| [AltStore](https://altstore.io/) | 电脑 | 个人Apple ID(7天) | 免费  |
-| [SideStore](https://sidestore.io/) | (仅首次需要电脑) 手机 | 个人Apple ID(7天) | 免费 |
-| [Scarlet·猩红](http://usescarlet.com/) | 手机 | 自带免费企业证书(不推荐) | 免费 |
-| |
-| [⭐轻松签](./esign.md) | 手机 | 企业证书(收费) | 免费 |
-| [全能签](https://udid.nuosike.cn/sign/) | 手机 | 企业证书(收费) | 免费 |
-| [喵喵签](https://sign.mmqqq.com/) | 手机 | 企业证书(收费) | 免费 |
-| [Gbox](https://gbox.run/) | 手机 | 企业证书(收费) | 免费 |
-| [山猪签](https://www.shanzhuqian.com/) | 手机 | 企业证书(收费) | 免费|
-| [签名之家](https://www.signhome.net/) | 手机 | 企业证书(收费) | 免费 |
+<navlist v-for="{ items } in sign" :items="items" />

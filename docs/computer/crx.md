@@ -160,20 +160,22 @@ C:\Users\你的用户名\AppData\Local\Microsoft\Edge\User Data\Default\Extensio
 
 
 
-#### 1.找不到浏览器的文件夹
+::: details 找不到浏览器的文件夹
 
 可以用 `电脑自带的搜索功能` ，觉得慢可以也使用 [Everything](https://www.voidtools.com/zh-cn/) 本地文件快速查找
 
 ![](/crx/crx-21.png)
 
+:::
 
 
-#### 2.油猴里的插件可以导出么
 
-油猴管理面板-实用工具-导出
+::: details 油猴里的插件可以导出么
+
+油猴管理面板 - 实用工具 - 导出
 
 ![](/crx/crx-22.png)
-
+:::
 
 
 ## 特别鸣谢

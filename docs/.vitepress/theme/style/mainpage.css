@@ -84,6 +84,10 @@
     background-color: var(--main-page-bg);
   }
 
+  .VPLocalNavOutlineDropdown .header, .outline {
+    background-color: var(--main-page-bg);
+  }
+
   /* 页脚背景 */
   .VPFooter {
     background-color: var(--main-page-bg);

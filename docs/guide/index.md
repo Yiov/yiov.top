@@ -5,6 +5,8 @@
 import { gfw } from '/.vitepress/theme/lists/gfw'
 import { daily } from '/.vitepress/theme/lists/daily'
 import { computer } from '/.vitepress/theme/lists/computer'
+import { mi } from '/.vitepress/theme/lists/mi'
+import { iPhone } from '/.vitepress/theme/lists/iPhone'
 </script>
 
 ## 科学上网
@@ -15,7 +17,7 @@ import { computer } from '/.vitepress/theme/lists/computer'
 ## 日常生活
 
 
-<lists v-for="{ title ,items} in daily" :title="title" :items="items" />
+<lists v-for="{ title , items } in daily" :title="title" :items="items" />
 
 
 
@@ -24,7 +26,7 @@ import { computer } from '/.vitepress/theme/lists/computer'
 ## 电脑相关
 
 
-<lists v-for="{ title ,items} in computer" :title="title" :items="items" />
+<lists v-for="{ title , items } in computer" :title="title" :items="items" />
 
 
 
@@ -33,10 +35,7 @@ import { computer } from '/.vitepress/theme/lists/computer'
 ## 小米相关
 
 
-* [小米线刷降级破MIUI限制](../mi/miui)
-
-* [小米主题国外版下载及提取](../mi/mi_theme)
-
+<lists v-for="{ items } in mi" :items="items" />
 
 
 
@@ -44,55 +43,9 @@ import { computer } from '/.vitepress/theme/lists/computer'
 ## 苹果相关
 
 
-### 日常使用
-
-* [iPhone短信添加头像](../iPhone/smscard)
-
-* [注册国外苹果Apple_ID步骤](../iPhone/Apple_ID)
-
-* [stay2给Safari安装油猴插件](../iPhone/stay2)
-
-* [Stream抓包工具的使用](../iPhone/Stream)
-
-* [Reqable抓包工具的使用](../iPhone/Reqable)
 
 
-### 签名工具
-
-* [使用介绍（必看）](../iPhone/sign/)
-
-* [巨魔助手安装及使用](../iPhone/sign/TrollStore.md)
-
-* [轻松签安装及使用](../iPhone/sign/esign.md)
-
-* [牛蛙助手安装及使用](../iPhone/sign/bullfrog.md)
-
-* [Sideloadly安装及使用](../iPhone/sign/Sideloadly.md)
-
-
-
-### 越狱工具
-
-* [使用介绍（必读）](../iPhone/Jailbreak/)
-
-* [Dopamine多巴胺越狱及使用](../iPhone/Jailbreak/Dopamine.md)
-
-* [unc0ver越狱及使用](../iPhone/Jailbreak/unc0ver.md)
-
-* [checkra1n越狱及使用](../iPhone/Jailbreak/checkra1n.md)
-
-* [搭建越狱源](../iPhone/Jailbreak/repo.md)
-
-
-
-### 其他工具
-
-* [MDC漏洞的软件及使用](../iPhone/mdc)
-
-* [KFD漏洞的软件及使用](../iPhone/kfd)
-
-* [Filza文件管理器破解](../iPhone/Filza)
-
+<lists v-for="{  title , items } in iPhone" :title="title" :items="items" />
 
 
 

@@ -8,7 +8,7 @@ defineProps<{
 </script>
 
 <template>
-    <h3 class="vtitle">{{ title }}</h3>
+    <h3 class="vtitle">{{title}}</h3>
     <section class="visland">
         <div v-for="{ url, image, name, bdcolor, bgcolor , stars } in items" class="vlist">
             <a :href="url">

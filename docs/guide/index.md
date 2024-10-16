@@ -7,33 +7,31 @@ import { daily } from '/.vitepress/theme/lists/daily'
 import { computer } from '/.vitepress/theme/lists/computer'
 import { mi } from '/.vitepress/theme/lists/mi'
 import { iPhone } from '/.vitepress/theme/lists/iPhone'
+import { tg } from '/.vitepress/theme/lists/tg'
+import { website } from '/.vitepress/theme/lists/website'
 </script>
+
 
 ## 科学上网
 
 <lists v-for="{ items } in gfw" :items="items" />
 
 
-## 日常生活
 
+## 日常生活
 
 <lists v-for="{ title , items } in daily" :title="title" :items="items" />
 
 
 
-
-
 ## 电脑相关
-
 
 <lists v-for="{ title , items } in computer" :title="title" :items="items" />
 
 
 
 
-
 ## 小米相关
-
 
 <lists v-for="{ items } in mi" :items="items" />
 
@@ -42,9 +40,6 @@ import { iPhone } from '/.vitepress/theme/lists/iPhone'
 
 ## 苹果相关
 
-
-
-
 <lists v-for="{  title , items } in iPhone" :title="title" :items="items" />
 
 
@@ -52,11 +47,7 @@ import { iPhone } from '/.vitepress/theme/lists/iPhone'
 
 ## Telegram
 
-* [Telegram的注册及使用](../telegram/tg)
-
-* [创建自己的tg私聊机器人](../telegram/tgbot)
-
-* [TG表情包下载与制作](../telegram/sticker)
+<lists v-for="{ items } in tg" :items="items" />
 
 
 
@@ -64,7 +55,7 @@ import { iPhone } from '/.vitepress/theme/lists/iPhone'
 
 ## 网站搭建
 
-
+<lists v-for="{  title , items } in website" :title="title" :items="items" />
 
 ### 基础
 

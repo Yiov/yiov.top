@@ -28,10 +28,14 @@
     background-color: var(--main-page-bg);
   }
 
-  /* 搜索框背景色 */
-
+  /* 本地搜索框背景色 */
   .VPLocalSearchBox .shell {
     background: var(--main-page-bg);
+  }
+
+  /* algolia搜索框背景 */
+  .DocSearch-Modal , .DocSearch-Footer {
+    background-color: var(--main-page-bg);
   }
 
   /* 手机端导航栏颜色 */
@@ -106,7 +110,7 @@
 
   /* 侧边栏底部遮挡条背景 */
   .aside-curtain {
-    background: var(--main-page-bg);
+    background-color: var(--main-page-bg);
   }
 
   /* 文档底部上下页间距 */

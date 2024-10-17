@@ -8,7 +8,9 @@ defineProps<{
 </script>
 
 <template>
-    <h3 class="vtitle">{{title}}</h3>
+    <h3 class="vtitle">{{ title }}
+        <!-- <a class="header-anchor" :href="`#${title}`"></a> -->
+    </h3>
     <section class="visland">
         <div v-for="{ url, image, name, bdcolor, bgcolor , stars } in items" class="vlist">
             <a :href="url">
@@ -31,8 +33,8 @@ defineProps<{
 }
 .visland {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 2rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 2.5rem;
     row-gap: 2.5rem;
     padding-bottom: 2rem;
     padding-top: 1rem;
@@ -47,7 +49,7 @@ defineProps<{
 
 @media (min-width: 1200px) {
     .visland {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(5, minmax(0, 1fr));
     }
 }
 
@@ -69,7 +71,7 @@ defineProps<{
     justify-content: center;
     border: 2px solid var(--custom-border);
     border-radius: .5rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
     z-index: -1;
 }
 

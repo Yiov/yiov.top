@@ -19,7 +19,7 @@
 
 ## Demo
 
-* 演示：https://n0ts.gitee.io/heng/
+* 演示：https://heng.n0ts.top/
 
 * 仓库：https://github.com/n0tssss/heng 或 https://gitee.com/n0ts/heng
 

@@ -71,7 +71,7 @@ defineProps<{
     justify-content: center;
     border: 2px solid var(--custom-border);
     border-radius: .5rem;
-    padding: 1rem 0;
+    padding: .9rem 0;
     z-index: -1;
 }
 
@@ -83,8 +83,9 @@ defineProps<{
 
 .vlist-item span{
     position: absolute;
-    top: 6px;
-    left: 6px;
+    top: 1px;
+    left: 3px;
+    font-size: 13px;
 }
 
 .vlist-item img{

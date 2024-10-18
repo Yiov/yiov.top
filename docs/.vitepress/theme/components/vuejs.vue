@@ -39,7 +39,7 @@
 <style scoped>
 .vcontainer {
   display: flex;
-  margin-top: 10rem;
+  margin-top: 8rem;
   flex-direction: column;
   align-items: center;
   padding-left: 1rem;

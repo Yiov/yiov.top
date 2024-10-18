@@ -69,7 +69,7 @@
   align-items: center;
   gap: 1.5rem;
   /* padding: 1rem 0; */
-  padding-top: 8rem;
+  padding-top: 7rem;
   background-color: var(--main-page-bg);
 }
 

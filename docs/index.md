@@ -35,3 +35,5 @@ features:
 
 <vuejs />
 
+<vfooter />
+

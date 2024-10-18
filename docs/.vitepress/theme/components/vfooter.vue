@@ -68,7 +68,8 @@
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+  padding-top: 8rem;
   background-color: var(--main-page-bg);
 }
 
@@ -84,8 +85,8 @@
   .vfooter {
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    /* padding-top: 1.25rem; */
+    /* padding-bottom: 1.25rem; */
   }
 }
 

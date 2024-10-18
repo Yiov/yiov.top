@@ -8,6 +8,7 @@ import { useRoute } from 'vitepress';
 import Linkcard from "./components/Linkcard.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
 import MyLayout from './components/MyLayout.vue'
+import vfooter from './components/vfooter.vue'
 
 import vuejs from './components/vuejs.vue'
 import lists from './lists/lists.vue'
@@ -26,6 +27,7 @@ export default {
     app.component('vuejs' , vuejs)
     app.component('lists' , lists)
     app.component('navlist' , navlist)
+    app.component('vfooter' , vfooter)
   },
 
   setup() {

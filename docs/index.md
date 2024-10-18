@@ -2,6 +2,7 @@
 layout: page
 sidebar: false
 aside: false
+outline: false
 
 hero:
   name: 劝学录

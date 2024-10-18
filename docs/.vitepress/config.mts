@@ -392,10 +392,10 @@ export default defineConfig({
     darkModeSwitchLabel: '深浅模式',
 
     //页脚
-    footer: {
-      message: 'Power by VitePress && Vidstack',
-      copyright: `Copyright © 2023-${new Date().getFullYear()} <a href="https://github.com/Yiov" target="_blank">Yiov</a>`,
-    },
+    // footer: {
+    //   message: 'Power by VitePress && Vidstack',
+    //   copyright: `Copyright © 2023-${new Date().getFullYear()} <a href="https://github.com/Yiov" target="_blank">Yiov</a>`,
+    // },
 
 
     //侧边栏文字更改(移动端)

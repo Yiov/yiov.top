@@ -38,3 +38,8 @@
 .divider {
     display: none;
 }
+
+/* 侧边栏底部遮挡条背景 */
+.aside-curtain {
+    display: none;
+  }

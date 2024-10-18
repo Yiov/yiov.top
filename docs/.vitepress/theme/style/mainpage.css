@@ -108,11 +108,6 @@
     background-color: var(--main-page-bg);
   }
 
-  /* 侧边栏底部遮挡条背景 */
-  .aside-curtain {
-    background-color: var(--main-page-bg);
-  }
-
   /* 文档底部上下页间距 */
   .pager .desc {
     padding-bottom: 8px;

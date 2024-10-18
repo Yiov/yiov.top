@@ -39,24 +39,24 @@
 <style scoped>
 .vcontainer {
   display: flex;
-  margin-top: 7rem;
+  margin-top: 10rem;
   flex-direction: column;
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .vcontainer {
     margin-top: 9rem
   }
-}
+} */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .vcontainer {
     margin-bottom: 10rem
   }
-}
+} */
 
 
 .vcontainer .text {

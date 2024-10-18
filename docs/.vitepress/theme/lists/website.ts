@@ -163,7 +163,7 @@ export const website: listdata[] = [
             {
                 "name": "Golang",
                 "url": "/website/go",
-                "image": "https://go.dev/images/favicon-gopher-plain.png",
+                "image": "https://golang.google.cn/images/favicon-gopher-plain.png",
                 "bdcolor": "#10c8fa",
                 "bgcolor": "#76e1fe",
             },

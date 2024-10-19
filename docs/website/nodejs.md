@@ -1,7 +1,4 @@
-
 # node.js的安装及使用
-
-
 
 
 
@@ -11,7 +8,7 @@
 
 npm是其包管理工具
 
-官网：[https://nodejs.org/](https://nodejs.org/zh-cn/)
+官网：https://nodejs.org/zh-cn
 
 仓库：https://github.com/nodejs/node
 
@@ -26,52 +23,43 @@ npm是其包管理工具
 
 ## 安装
 
-
-
-如果你安装了宝塔，可直接在软件商店搜 `node` 安装
+> 如果你安装了宝塔，可直接在软件商店搜 `node` 安装
 
 
 
 :::: details CentOS安装
 
-安装前，使用 [shell](./shell/) 工具 连接服务器 查看centos版本
+安装前，使用 [shell](./shell/) 工具 连接服务器，查看centos版本
 
 ```sh
+# 查看centos版本
 yum list installed | grep centos
 ```
 
-::: details 注意： 系统版本 和 nodejs 版本同步
-* centos 7：使用 node.js 18 以下（glibc版本低）
-
-* CentOS 8：使用 node.js 18 及以上版本
-:::
 
 ![](/nodejs/linux/linux-01.png)
 
 
+进入下载页面，选择 [预构建二进制文件](https://nodejs.org/zh-cn/download/prebuilt-binaries)
 
-进入下载页面 选择 [Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer)
-
-::: tip 说明
-* Package Manager：用包管理器安装
-
-* Prebuilt Installer：安装程序
-
-* Prebuilt Binaries：二进制文件(压缩包)
-
-* Source Code：源代码
-:::
-
-![](/nodejs/linux/linux-02.png)
-
-
-我的系统是CentOS 7，只能选择 `v17.9.1` - `linux` ，然后将下载链接复制出来
+我的系统是CentOS 7，只能选择 `v17.9.1` 
 
 ::: details 为什么不用最新版
 node.js 18 已不支持 Centos 7 了
 
+* centos 7：使用 node.js 18 以下（glibc版本低）
+
+* CentOS 8：使用 node.js 18 及以上版本
+
 其他版本查找：https://nodejs.org/dist/
 :::
+
+
+
+![](/nodejs/linux/linux-02.png)
+
+
+鼠标右键，将下载链接复制出来，如下
 
 ```
 https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz
@@ -84,7 +72,7 @@ https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz
 [shell](./shell/) 输入命令，进入根目录
 
 ::: tip 说明
-鼠标右键，粘贴！`ctrl+v` 是不可用的
+鼠标右键粘贴！`ctrl+v` 是不可用的
 :::
 
 ```sh
@@ -99,6 +87,10 @@ cd / #进入根目录
 
 使用wget命令安装，粘贴刚才的下载链接
 
+```sh
+wget https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz
+```
+
 ::: details 命令无反应？
 用 yum 安装一下 wget 就好
 
@@ -107,11 +99,6 @@ yum install wget -y
 ```
 :::
 
-
-
-```sh
-wget https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz
-```
 
 ![](/nodejs/linux/linux-05.png)
 
@@ -157,9 +144,17 @@ ln -sf /node-v17.9.1/bin/npm /usr/local/bin/npm
 
 重启Xshell，关掉重新打开才生效
 
+```sh
+#查看node版本号
+node -v
+
+#查看npm版本
+npm -v 
+```
+
 ::: details 报错了？
 
-让你下对应版本吧，你不听好了吧，要么 换个nodejs版本，要么 [参考教程安装GLIBC](https://blog.csdn.net/nilm61/article/details/134266633)
+让你下对应版本吧，你不听，好了吧，要么换nodejs版本，要么 [参考教程安装GLIBC](https://blog.csdn.net/nilm61/article/details/134266633)
 
 ```sh
 node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)
@@ -170,15 +165,6 @@ node: /lib64/libc.so.6: version `GLIBC_2.28' not found (required by node)
 node: /lib64/libc.so.6: version `GLIBC_2.25' not found (required by node)
 ```
 :::
-
-
-```sh
-#查看node版本号
-node -v
-
-#查看npm版本
-npm -v 
-```
 
 ![](/nodejs/linux/linux-09.png)
 
@@ -237,26 +223,18 @@ npm config set registry https://registry.npmjs.org/
 
 安装前，鼠标右键 - 我的电脑 - 属性，查看电脑系统类型
 
+以我的 `64位` 操作系统为例
+
 ![](/nodejs/win/win-01.png)
 
 
+进入下载页面 选择 [预构建安装程序](https://nodejs.org/zh-cn/download/prebuilt-installer)
 
-进入下载页面 选择 [Prebuilt Binaries](https://nodejs.org/en/download/prebuilt-binaries) 二进制文件
-
-
-::: tip 说明
-* Package Manager：用包管理器安装
-
-* Prebuilt Installer：安装程序压缩包
-
-* Prebuilt Binaries：二进制文件
-
-* Source Code：源代码
-:::
+选择`window` `x64`(自己的电脑系统类型)， `LTS`（Long-term support，长期维护版）
 
 ![](/nodejs/win/win-02.png)
 
-选择 `LTS`（Long-term support，长期维护版）即可，`window` `x64`(自己的电脑系统类型)
+点击下载即可
 
 ![](/nodejs/win/win-03.png)
 
@@ -623,16 +601,13 @@ set-ExecutionPolicy Default
 ## 常见问题
 
 
-1.输入版本号没反应
-
+::: details 输入版本号没反应
 关掉重新打开，再次查询，没有及时没装好
+:::
 
 
 
-
-2.如何卸载
-
-
+:::: details 如何卸载
 ::: code-group
 
 ```sh [pnpm]
@@ -652,22 +627,18 @@ npm uninstall npm -g
 #卸载node
 yum remove nodejs npm -y
 ```
+:::
+::::
 
+
+
+::: details 三者的关系
+pnpm > yarn > npm
 :::
 
 
-3.三者的关系
-
-pnpm > yarn > npm
-
-
-
-
-4.Linux镜像源
-
+::: details Linux镜像源
 更换后可以让文件下载快一点
-
-
 ```
 * 阿里云源：https://npmmirror.com/
 
@@ -685,3 +656,4 @@ pnpm > yarn > npm
 
 * 中科大USTC：https://mirrors.ustc.edu.cn/
 ```
+:::

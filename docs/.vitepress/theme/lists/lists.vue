@@ -42,14 +42,14 @@ defineProps<{
 
 @media (min-width: 576px) {
     .visland {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(5, minmax(0, 1fr));
     }
 }
 
 
 @media (min-width: 1200px) {
     .visland {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: repeat(7, minmax(0, 1fr));
     }
 }
 

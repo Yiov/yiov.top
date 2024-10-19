@@ -1,0 +1,36 @@
+:root {
+  /* 覆盖全局的 vp-layout-max-width（仅当前页面使用） */
+  --vp-layout-max-width: 1560px;
+
+  /* layout 样式 */
+  .container {
+    max-width: var(--vp-layout-max-width) !important;
+  }
+
+  .content-container,
+  .content {
+    max-width: 100% !important;
+  }
+
+  /* aside 样式 */
+  .aside {
+    /* padding-left: 0; */
+    max-width: 200px;
+  }
+
+  /* 侧边栏 */
+  .VPSidebar {
+    padding-left: 40px;
+  }
+
+  /* 侧边栏折叠标签 */
+  .caret {
+    margin-right: 20px;
+  }
+
+  /* 远程引用图标 */
+  :is(.vp-external-link-icon, .vp-doc a[href*='://'], .vp-doc a[target='_blank']):not(.no-icon)::after {
+    margin-right: 30px;
+  }
+
+}

@@ -1,22 +1,6 @@
 <template>
   <section class="vfooter">
 
-    <div class="sources">
-      <a href="https://nav.yiov.top/" target="_blank" class="navItem">
-        <span class="label">柳橙昔导航</span>
-      </a>
-      <a href="https://github.com/Yiov/wechat-dump/releases/tag/deb" target="_blank" class="navItem">
-        <span class="label">微信插件</span>
-      </a>
-      <a href="https://github.com/Yiov/wechat-dump/releases/tag/dump" target="_blank" class="navItem">
-        <span class="label">微信砸壳</span>
-      </a>
-      <a href="/guide/about" class="navItem">
-        <span class="label">About me</span>
-      </a>
-    </div>
-
-
     <div class="vcopyright">
 
       <!-- 版权 -->
@@ -68,27 +52,12 @@
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  /* padding: 1rem 0; */
-  padding-top: 11rem;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
   background-color: var(--main-page-bg);
 }
 
 
-@media (min-width: 640px) {
-  .vfooter {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .vfooter {
-    flex-direction: row;
-    justify-content: space-between;
-    /* padding-top: 1.25rem; */
-    /* padding-bottom: 1.25rem; */
-  }
-}
 
 .vfooter .sources {
   display: flex;

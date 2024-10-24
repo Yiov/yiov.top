@@ -4,6 +4,9 @@ sidebar: false
 aside: false
 outline: false
 
+title: Yiov
+titleTemplate: 伊奥's 教程集
+
 hero:
   name: 劝学录
   text: "学而不能行，谓之病"

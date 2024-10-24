@@ -4,7 +4,7 @@
     <div class="vcopyright">
 
       <!-- 版权 -->
-      <a href="https://openjsf.org/" target="_blank" class="navItem">
+      <a href="#" target="_blank" class="navItem">
         <span class="label">Copyright © 2023- {{ new Date().getFullYear() }} </span>
       </a>
       

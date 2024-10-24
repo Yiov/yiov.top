@@ -3,8 +3,8 @@ import { sidebar } from './configs'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "Yiov",
-  description: "敏而好学，不耻下问",
+  title: 'Yiov',
+  description: '敏而好学，不耻下问',
 
   // fav
   head: [

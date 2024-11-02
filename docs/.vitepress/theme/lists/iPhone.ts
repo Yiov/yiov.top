@@ -14,7 +14,7 @@ export const iPhone: listdata[] = [
             {
                 "name": "注册Apple ID",
                 "url": "/iPhone/Apple_ID",
-                "image": "https://api.iowen.cn/favicon/support.apple.com.png",
+                "image": "https://appleid.cdn-apple.com/static/bin/cb3460663665/images/favicon.ico",
                 "bdcolor": "#888888",
                 "bgcolor": "#d4d4d4",
             },

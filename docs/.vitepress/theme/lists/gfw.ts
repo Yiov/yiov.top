@@ -11,7 +11,7 @@ export const gfw: listdata[] = [
           "bgcolor": "#fc422a",
         },
         {
-          "name": "机场机场推荐",
+          "name": "机场推荐",
           "url": "/gfw/channel",
           "image": "/1/channel.png",
           "bdcolor": "#4cd1d0",

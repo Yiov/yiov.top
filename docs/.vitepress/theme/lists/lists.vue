@@ -33,7 +33,7 @@ defineProps<{
 }
 .visland {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 2.5rem;
     row-gap: 2.5rem;
     padding-bottom: 2rem;
@@ -42,7 +42,7 @@ defineProps<{
 
 @media (min-width: 576px) {
     .visland {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
@@ -71,7 +71,7 @@ defineProps<{
     justify-content: center;
     border: 2px solid var(--custom-border);
     border-radius: .5rem;
-    padding: .9rem 0;
+    padding: 2rem 0;
     z-index: -1;
 }
 

@@ -23,6 +23,17 @@
 
 
 
+### 更新：2024-10-19
+
+| 机场 | 说明 | 防走丢 |
+|:-:|:-:|:-:|
+| [CAC Apex](https://www.cacapex.com/) | 商店优惠码购30天168G<br>均速6m/s | [TG群](https://t.me/CAC_Apex) |
+| [天际隧道](https://tjsd.site/) | 新户注册永久每月55G<br>均速1.5m/s | [TG群](https://t.me/+FILUWIcJ0m1jOGZh) |
+| [早安云](https://xn--9kqy92aw5h.com/) | 商店0购30天100G<br>均速3m/s | [TG群](https://t.me/zaoanyun) |
+| [新狮云](https://app.cloudlion.me) | 优惠码0购30天1T，优惠码：`zn1bXSvZ`，总体不太稳定<br>均速4m/s | [TG群](https://t.me/cloudlion_chat) |
+
+
+
 ### 更新：2024-8-30
 
 | 机场 | 说明 | 防走丢 |

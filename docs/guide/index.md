@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # 目录索引
 
 
@@ -55,7 +59,7 @@ import { website } from '/.vitepress/theme/lists/website'
 
 ## 网站搭建
 
-<lists v-for="{  title , items } in website" :title="title" :items="items" />
+<lists v-for="{ title , items } in website" :title="title" :items="items" />
 
 
 

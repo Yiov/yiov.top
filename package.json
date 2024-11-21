@@ -2,8 +2,8 @@
   "devDependencies": {
     "@types/dom-view-transitions": "^1.0.5",
     "medium-zoom": "^1.1.0",
-    "vitepress": "1.4.3",
-    "vue": "^3.5.12"
+    "vitepress": "1.5.0",
+    "vue": "^3.5.13"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

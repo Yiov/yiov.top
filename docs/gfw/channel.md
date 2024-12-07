@@ -22,6 +22,17 @@
 :::
 
 
+### 2024-12-7
+
+| 机场 | 说明 | 防走丢 |
+|:-:|:-:|:-:|
+| [网上邻居](https://xn--fhqu06a8m1asto.icu/) | 商店0购200G/月，优惠码 `PMlXFOQV` <br>均速2m/s | [TG群](https://t.me/wangshanglinjuicu) |
+| [狗云加速器](https://dogssr.com/) | 商店0购15G/月，优惠码 `Free-dog` <br>均速2.3m/s | [TG群](https://t.me/Dogssr_chat) |
+| [一元翻墙](https://xn--4gq62f8yih87b.xyz/) | 商店0购50G/月，兑换码 `一元翻墙` <br>均速2.6m/s | [TG群](https://t.me/yyfqpd_xyz) |
+| [小米cloud](https://dash.xn--9kqt24a0kz.com/) | 商店0购50G，优惠码 `xmsy999` <br>均速2m/s | [TG群](https://t.me/Tinymi_Chat) |
+
+
+
 ### 2024-11-21
 
 | 机场 | 说明 | 防走丢 |

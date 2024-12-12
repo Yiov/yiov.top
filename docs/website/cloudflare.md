@@ -725,33 +725,49 @@ async function device_status(user_agent_info) {
 
 ![](/cloudflare/vless/vless-06.png)
 
-复制全部代码
+CTRL+A全选代码，复制
 
 ![](/cloudflare/vless/vless-07.png)
 
-粘贴到 Worker.js 中，这里的 `userID` 需要我们自己换一下
-
-::: tip 说明
-使用 [UUID Generator](https://www.uuidgenerator.net/) 或 [1024tools](https://1024tools.com/uuid) 都可以，粘贴替换
-:::
-
-```js
-let userID = '77a571fb-4fd2-4b37-8596-1b7d9728bb5c';
-```
+删除自带的原代码，将复制的代码粘贴到 Worker.js 中并部署
 
 ![](/cloudflare/vless/vless-08.png)
 
+部署成功后，点击访问
+
 ![](/cloudflare/vless/vless-09.png)
 
-下一个参数是 `proxyIPs` ，默认已经填好了，如果失效可自行更换
+就得到了这样一个页面
 
-::: tip 说明
-此参数不填，会导致无法访问CF和ChatGPT，但谷歌/油管等不影响
+![](/cloudflare/vless/vless-10.png)
+
+我们根据 [@甬哥的文档](https://github.com/yonggekkk/Cloudflare_vless_trojan) 说明改一下uuid
+
+![](/cloudflare/vless/vless-11.png)
+
+在 workjs 项目中，设置 - 变量和机密 - 添加
+
+![](/cloudflare/vless/vless-12.png)
+
+类型就为文本，变量名称为 `uuid` ，值填入新的UUID即可
+
+::: tip UUID获取方式
+
+注意：不要有空格、字符、换行符等
+
+* [UUID Generator](https://www.uuidgenerator.net/)
+
+* [1024tools](https://1024tools.com/uuid)
 :::
 
-::: details 还有其他proxyIP吗
+![](/cloudflare/vless/vless-13.png)
 
-[@3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel) 大佬提供的：
+![](/cloudflare/vless/vless-14.png)
+
+另一个可选的 `proxyip` 变量 已经默认填好了，可以不用管
+
+
+::: details [@3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel) 大佬提供的proxyip：
 
 ```md
 cdn-all.xn--b6gac.eu.org
@@ -764,85 +780,56 @@ edgetunnel.anycast.eu.org
 
 cdn.anycast.eu.org
 ```
-
----
-
-说明：还可以填入反代IP，需要自行优选
-
 :::
 
 
 
-```js
-const proxyIPs = ["cdn.xn--b6gac.eu.org"]; //workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
-```
-
-![](/cloudflare/vless/vless-10.png)
-
-
-
-最后一个参数 `cn_hostnames` ，伪装域名，建议填一下，随便伪装一个网站皆可
-
-```js
-const cn_hostnames = [''];
-```
-
-我就直接填百度吧 `www.baidu.com`
-
-::: details 伪装报错：Redirects to ***.com are not allowed.
-检查你的网址，比如 www.baidu.com，你少了3个w，写成了 baidu.com 是不行的
-:::
-
-![](/cloudflare/vless/vless-11.png)
-
-直接保存并部署
-
-![](/cloudflare/vless/vless-12.png)
-
-然后打开部署好的页面
-
-![](/cloudflare/vless/vless-13.png)
-
-这就是我们伪装的页面，和百度一模一样
-
-![](/cloudflare/vless/vless-14.png)
-
-我们在网址后加 `/你替换的uerID` 回车进入节点页面
+我们在网址后加 `/你的uuid` 回车进入节点页面
 
 ::: tip 比如
 网址：vless.你的用户名.workers.dev
 
-访问：vless.你的用户名.workers.dev/userID
+访问：https://vless.你的用户名.workers.dev/uuid
 :::
-
 
 ![](/cloudflare/vless/vless-15.png)
 
-节点有两个，一个是没有tls，一个是有tls
+
+节点有两个，一个是关闭了TLS加密，一个是启用了TLS加密，区别如下
 
 | 类型 | HTTP | HTTPS |
 | :-: | :-: | :-: |
 | 节点 | vless+ws| vless+ws+tls |
 | 端口 | 80、8080、8880、2052、2082、2086、2095 | 443、8843、2053、2083、2087、2096 |
 | TLS | 关闭 | 开启 |
-| 域名 | 非必须提供 | 必须提供 |
+| 域名 | 非必须提供 | **必须提供** |
+| 安全 | 低 | **高** |
 
 
-使用任意一款，支持Vless协议的 [科学上网工具](../gfw/proxy.md) 使用，比如 V2rayN
+没有域名，直接使用第一个关闭了TLS的；有域名的，看我步骤添加自定义域名
 
-复制第一个没有tls， `Vless://` 开头的那一长串，从剪切板导入
-
-::: details 有 tls 怎么使用
-在当前Worker中，设置 - 触发器 - 添加自定义域，填入你已解析在Cloudfare上的域名
-
-如果使用的是 [ClouDNS的免费域名](./domain/cloudns.md)，需自行解析三级域名并添加证书
+在当前Worker中，设置 - 域名和路由 - 添加
 
 ![](/cloudflare/vless/vless-16.png)
-:::
+
+自定义域，填入你已解析在Cloudfare上的域名
 
 ![](/cloudflare/vless/vless-17.png)
 
 ![](/cloudflare/vless/vless-18.png)
+
+这样就添加成功了
+
+![](/cloudflare/vless/vless-19.png)
+
+
+点击复制链接，`Vless://` 开头的那一长串
+
+使用任意一款支持Vless协议的 [科学上网工具](../gfw/proxy.md) 从剪切板导入，比如 V2rayN
+
+![](/cloudflare/vless/vless-20.png)
+
+![](/cloudflare/vless/vless-21.png)
 
 然后右键测速，真连接延迟，有数字就可以
 
@@ -850,11 +837,11 @@ const cn_hostnames = [''];
 检查配置是否正确，或更换proxyIP后尝试
 :::
 
-![](/cloudflare/vless/vless-19.png)
+![](/cloudflare/vless/vless-22.png)
 
 现在还是连不了，双击节点打开配置，右上角切换为Xray核心
 
-![](/cloudflare/vless/vless-20.png)
+![](/cloudflare/vless/vless-23.png)
 
 再次尝试访问 [谷歌](https://www.google.com/) 看看
 
@@ -862,7 +849,7 @@ const cn_hostnames = [''];
 由于节点延迟感人，强烈建议 [优选域名](#优选域名) 或者 [优选IP](#优选ip)！
 :::
 
-![](/cloudflare/vless/vless-21.png)
+![](/cloudflare/vless/vless-24.png)
 
 ::::
 
